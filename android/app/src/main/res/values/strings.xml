@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ESUG 2027</string>
+    <string name="title_activity_main">ESUG 2027</string>
+    <string name="package_name">org.esug.app2027</string>
+    <string name="custom_url_scheme">org.esug.app2027</string>
+</resources>
