@@ -6,6 +6,7 @@ import { LinkTo } from '@ember/routing';
 
   <article class="page">
     <LinkTo @route="index" class="page-back">&larr; Back to home</LinkTo>
+    <img src="/images/tiles/showcase.jpg" alt="" class="page-hero-image" />
     <h1>Show Us Your Project</h1>
     <p class="page-notice">
       Details on how to present your Smalltalk project to the community will be

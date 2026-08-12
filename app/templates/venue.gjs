@@ -6,6 +6,7 @@ import { LinkTo } from '@ember/routing';
 
   <article class="page">
     <LinkTo @route="index" class="page-back">&larr; Back to home</LinkTo>
+    <img src="/images/tiles/venue.jpg" alt="" class="page-hero-image" />
     <h1>Conference Venue</h1>
     <p>
       ESUG 2027 will be hosted at the

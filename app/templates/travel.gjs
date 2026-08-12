@@ -6,6 +6,7 @@ import { LinkTo } from '@ember/routing';
 
   <article class="page">
     <LinkTo @route="index" class="page-back">&larr; Back to home</LinkTo>
+    <img src="/images/tiles/travel.jpg" alt="" class="page-hero-image" />
     <h1>Trip Information</h1>
     <p>
       Brussels is well connected internationally:

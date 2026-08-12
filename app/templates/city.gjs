@@ -6,6 +6,7 @@ import { LinkTo } from '@ember/routing';
 
   <article class="page">
     <LinkTo @route="index" class="page-back">&larr; Back to home</LinkTo>
+    <img src="/images/tiles/city.jpg" alt="" class="page-hero-image" />
     <h1>City Information</h1>
     <p>
       Brussels is the capital of Belgium and the de facto capital of the
