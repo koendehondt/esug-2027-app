@@ -101,7 +101,7 @@ body {
   border: 1px solid var(--esug-border);
   background-color: var(--esug-bg);
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   text-decoration: none;
   color: #fff;
   transition:
