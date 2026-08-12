@@ -1,6 +1,20 @@
 /* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
 
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap");
+@font-face {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url("/fonts/baloo-2-latin-600-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url("/fonts/baloo-2-latin-800-normal.woff2") format("woff2");
+}
 
 :root {
   --esug-blue: #1c3f6e;
@@ -37,8 +51,8 @@ body {
 }
 
 .site-logo {
-  width: 180px;
-  height: 180px;
+  width: 270px;
+  height: 270px;
 }
 
 .site-header-tagline {

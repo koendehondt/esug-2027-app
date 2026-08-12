@@ -19,3 +19,12 @@ These are placeholders to get the layout right. Swap in real ESUG/VUB/Brussels
 photography whenever you have it — replace the file under
 `public/images/tiles/` and update the `image` field per tile in
 `app/data/home-tiles.js` if the filename changes.
+
+# Font credits
+
+The "Baloo 2" font (weights 600 and 800) used for the tagline is hosted
+locally under `public/fonts/`, sourced from the
+[Fontsource](https://fontsource.org/fonts/baloo-2) npm package
+(`@fontsource/baloo-2`), itself a mirror of Google Fonts. Licensed under the
+[SIL Open Font License 1.1](https://openfontlicense.org/). Bundling it
+avoids a network fetch (and the font-swap flash) when the app opens.
