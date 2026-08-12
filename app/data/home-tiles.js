@@ -47,6 +47,16 @@ export default [
     image: '/images/tiles/call-for-presentations.jpg',
   },
   {
+    id: 'registration',
+    title: 'Conference Registration',
+    summary: 'Register to attend ESUG 2027.',
+    date: '',
+    active: false,
+    badge: 'March 2027',
+    routeName: 'registration',
+    image: '/images/tiles/registration.jpg',
+  },
+  {
     id: 'workshop',
     title: 'International Workshop on Smalltalk Technologies',
     summary: 'IWST, co-located with the main conference.',
@@ -75,15 +85,5 @@ export default [
     badge: 'June 2027',
     routeName: 'showcase',
     image: '/images/tiles/showcase.jpg',
-  },
-  {
-    id: 'registration',
-    title: 'Conference Registration',
-    summary: 'Register to attend ESUG 2027.',
-    date: '',
-    active: false,
-    badge: 'March 2027',
-    routeName: 'registration',
-    image: '/images/tiles/registration.jpg',
   },
 ];
