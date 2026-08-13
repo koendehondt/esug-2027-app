@@ -86,4 +86,14 @@ export default [
     routeName: 'showcase',
     image: '/images/tiles/showcase.jpg',
   },
+  {
+    id: 'program',
+    title: 'Conference Program',
+    summary: 'The conference at a glance',
+    date: '',
+    active: false,
+    badge: 'June 2027',
+    routeName: 'program',
+    image: '/images/tiles/program.jpg',
+  },
 ];

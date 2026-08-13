@@ -225,6 +225,128 @@ body {
   color: var(--esug-blue-dark);
 }
 
+/* Program preview (schedule from a past conference) */
+
+.program-preview-heading {
+  margin-top: 2rem;
+  color: var(--esug-blue-dark);
+}
+
+.program-preview-intro {
+  color: var(--esug-muted);
+}
+
+.program-day-pills {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.program-day-pill {
+  flex-shrink: 0;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--esug-border);
+  background: #fff;
+  color: var(--esug-blue);
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+}
+
+.program-day-pill-active {
+  background: var(--esug-blue);
+  border-color: var(--esug-blue);
+  color: #fff;
+}
+
+.program-session-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--esug-border);
+}
+
+.program-session {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--esug-border);
+}
+
+.program-session-time {
+  flex-shrink: 0;
+  min-width: 6.5rem;
+  white-space: nowrap;
+  color: var(--esug-muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.program-session-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.program-session-subject {
+  font-weight: 600;
+  color: var(--esug-text);
+}
+
+.program-session-speaker {
+  color: var(--esug-muted);
+  font-size: 0.85rem;
+}
+
+.program-session-break .program-session-subject {
+  font-weight: 400;
+  font-style: italic;
+  color: var(--esug-muted);
+}
+
+.program-session-subject-link {
+  color: var(--esug-blue);
+  text-decoration: none;
+}
+
+.program-session-subject-link:focus-visible {
+  text-decoration: underline;
+}
+
+/* Talk detail page */
+
+.talk-presenter {
+  margin-top: -0.5rem;
+  color: var(--esug-muted);
+  font-weight: 600;
+}
+
+.talk-section-heading {
+  margin-top: 2rem;
+  color: var(--esug-blue-dark);
+}
+
+.talk-link {
+  color: var(--esug-blue);
+}
+
+.talk-source-note {
+  margin-top: 2rem;
+  color: var(--esug-muted);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 .page-notice {
   padding: 1rem 1.25rem;
   border-radius: 0.5rem;

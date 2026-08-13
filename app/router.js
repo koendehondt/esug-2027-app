@@ -15,4 +15,6 @@ Router.map(function () {
   this.route('award');
   this.route('showcase');
   this.route('registration');
+  this.route('program');
+  this.route('talk', { path: '/talk/:talk_id' });
 });
