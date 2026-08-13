@@ -89,7 +89,7 @@ export default [
   {
     id: 'program',
     title: 'Conference Program',
-    summary: 'The conference at a glance',
+    summary: 'The conference at a glance.',
     date: '',
     active: false,
     badge: 'June 2027',
