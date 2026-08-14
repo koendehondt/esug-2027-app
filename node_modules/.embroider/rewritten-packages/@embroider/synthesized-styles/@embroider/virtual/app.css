@@ -348,6 +348,31 @@ body {
   font-style: italic;
 }
 
+.page-section-heading {
+  margin-top: 2rem;
+  color: var(--esug-blue-dark);
+}
+
+.page-subsection-heading {
+  margin-top: 1.25rem;
+  margin-bottom: 0.25rem;
+  color: var(--esug-blue-dark);
+  font-size: 1rem;
+}
+
+.venue-room-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.venue-room-list li {
+  margin-bottom: 0.5rem;
+}
+
+.venue-room-list li:last-child {
+  margin-bottom: 0;
+}
+
 .page-notice {
   padding: 1rem 1.25rem;
   border-radius: 0.5rem;

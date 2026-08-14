@@ -60,7 +60,7 @@ export default [
     id: 'workshop',
     title: 'International Workshop on Smalltalk Technologies',
     summary: 'IWST, co-located with the main conference.',
-    date: '',
+    date: 'Early registration deadline: 1 April 2027',
     active: false,
     badge: 'March 2027',
     routeName: 'workshop',

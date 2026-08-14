@@ -96,3 +96,19 @@ rebuild in Xcode afterwards to see the change on device.
 The browser favicon and "Add to Home Screen" icon (`public/favicon.png`,
 `public/apple-touch-icon.png`) are generated from the same source but aren't
 covered by that script — regenerate them manually if the logo changes.
+
+## iOS swipe-back gesture
+
+`ios/App/App/MainViewController.swift` subclasses Capacitor's bridge view
+controller solely to turn on `webView.allowsBackForwardNavigationGestures`,
+which enables the native edge-swipe-to-go-back gesture. This only works
+because the Ember router uses real `history.pushState` navigation
+(`location = 'history'` in `app/router.js`), so the webview builds up an
+actual back/forward list for the system gesture to use.
+
+This app's actual launch path is `SceneDelegate.swift`, which builds the
+window and root view controller directly in code rather than loading
+`Main.storyboard` — so `SceneDelegate.swift` is what instantiates
+`MainViewController()`. (`Main.storyboard`'s `customClass` is also set to
+`MainViewController` for consistency, but since the storyboard is never
+actually loaded, it's not what makes this work.)
