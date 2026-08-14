@@ -13,6 +13,8 @@
 export default {
   b5artfulblocapi: {
     title: 'Bloc5: an Artful Bloc API Designed for Creativity',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Bloc5.pdf',
     abstractParagraphs: [
       [
         {
@@ -35,6 +37,8 @@ export default {
   },
   bloc: {
     title: "Bloc for Pharo: What's New?",
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-Bloc.pdf',
     abstractParagraphs: [
       [
         {
@@ -91,6 +95,8 @@ export default {
   },
   compiletimepicgenusinglivetyping: {
     title: 'Compile-time PIC Generation using LiveTyping Information',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-CompileTimePICGenerationUsingLiveTypingInformation.pdf',
     abstractParagraphs: [
       [
         {
@@ -118,6 +124,8 @@ export default {
   },
   complishon: {
     title: 'Complishon: a Better completion engine for Pharo',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-Completion_web.pdf',
     abstractParagraphs: [
       [
         {
@@ -145,6 +153,8 @@ export default {
   },
   demystifyinggemstonewithai: {
     title: 'Using AI to Demystify Running GemStone Systems',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-Gemstone-Analysis-AI.pdf',
     abstractParagraphs: [
       [
         {
@@ -184,6 +194,8 @@ export default {
   },
   'gemtalk-roadmap': {
     title: 'GemTalk Update and Roadmap',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-GemStone_Update.pdf',
     abstractParagraphs: [
       [
         {
@@ -206,6 +218,8 @@ export default {
   },
   glamoroustoolkit: {
     title: 'Glamorous Toolkit',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-GlamorousToolkit.pdf',
     abstractParagraphs: [
       [
         {
@@ -223,6 +237,8 @@ export default {
   },
   heraayearinproduction: {
     title: 'Hera: A Year in Production — Growing a BDD Framework in Pharo',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-10-Hera-A-Year-in-Production.pdf',
     abstractParagraphs: [
       [
         {
@@ -269,6 +285,8 @@ export default {
   },
   'martinmcclure-undotheworld': {
     title: 'Undo the World',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-10-UndoTheWorld.pdf',
     abstractParagraphs: [
       [
         {
@@ -286,6 +304,8 @@ export default {
   },
   microdownnewgeneration: {
     title: 'Microdown New Generation',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-10-ESUG-PillarFoliage_web.pdf',
     abstractParagraphs: [
       [
         {
@@ -313,6 +333,8 @@ export default {
   },
   moldablechats: {
     title: 'Moldable LLM Chats in Glamorous Toolkit',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-MoldableAgentHarness.pdf',
     abstractParagraphs: [
       [
         {
@@ -330,6 +352,8 @@ export default {
   },
   myprecious: {
     title: 'MyPrecious Middleware',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-NouryBouraqadi-MyPrecious.pdf',
     abstractParagraphs: [
       [
         {
@@ -365,6 +389,8 @@ export default {
   },
   objectownership: {
     title: 'An Introducution Ownership in Object Oriented Languages',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-10-ESUG-Ownership.pdf',
     abstractParagraphs: [
       [
         {
@@ -387,6 +413,8 @@ export default {
   },
   pharo14: {
     title: 'Pharo 14 and beyond',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Pharo14_web.pdf',
     abstractParagraphs: [
       [
         {
@@ -409,6 +437,8 @@ export default {
   },
   pharocig: {
     title: 'Pharo CIG, Round Two: Growing a Native Library Ecosystem for Pharo',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-pharo-cig.pdf',
     abstractParagraphs: [
       [
         {
@@ -446,6 +476,8 @@ export default {
   },
   pharodesktoptour: {
     title: 'Pharo on the Desktop: A Tour of Tools and Feedback Loops',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-pharo-on-the-desktop.pdf',
     abstractParagraphs: [
       [
         {
@@ -478,6 +510,8 @@ export default {
   },
   pharojs10thanniversary: {
     title: 'PharoJS 10th Anniversary: Now What?',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-PharoJS-10years.pdf',
     abstractParagraphs: [
       [
         {
@@ -533,6 +567,8 @@ export default {
   },
   pharollm: {
     title: 'The Future of LLM in Pharo: PharoLLM',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Pharo-LLM.pdf',
     abstractParagraphs: [
       [
         {
@@ -550,6 +586,8 @@ export default {
   },
   pharopulsar: {
     title: 'Pharo Pulsar: Spinning you into a Power User',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-PharoPulsar.pdf',
     abstractParagraphs: [
       [
         {
@@ -582,6 +620,8 @@ export default {
   },
   pharosdl3: {
     title: 'PharoSDL3: New FFI Bindings for SDL3 in Pharo',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-PharoSDL3.pdf',
     abstractParagraphs: [
       [
         {
@@ -621,6 +661,8 @@ export default {
   },
   soilindepth: {
     title: 'Soil - architecture & design',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Soil-architectural-insights.pdf',
     abstractParagraphs: [
       [
         {
@@ -648,6 +690,8 @@ export default {
   },
   spectoplo: {
     title: 'Spec-Toplo: More Widgets, More Coverage',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-SpecToplo.pdf',
     abstractParagraphs: [
       [
         {
@@ -687,6 +731,8 @@ export default {
   },
   tools: {
     title: 'Smooth Flow of Refactorings and Tools',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Smooth-flow-of-refactorings-and-tools.pdf',
     abstractParagraphs: [
       [
         {
@@ -710,6 +756,8 @@ export default {
   'treesitter-moose': {
     title:
       'Moose:: Simplifying the development of importers based on TreeSitter',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-10-ESUG-Moose-Tree-Sitter.pdf',
     abstractParagraphs: [
       [
         {
@@ -738,6 +786,8 @@ export default {
   vastaiassistant: {
     title:
       'The VAST Platform AI Assistant: Integrating LLMs into a Live Smalltalk Environment',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-VAST-AI-Assistant.pdf',
     abstractParagraphs: [
       [
         {
@@ -776,6 +826,8 @@ export default {
   'sagetea-pharo-runtime-ai': {
     title:
       'From Squeak to Pharo: Modernizing the Eclipse SageTea Runtime for Edge AI and Sovereign Computing',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-From_Squeak_to_Pharo_Eclipse_SageTea.pdf',
     abstractParagraphs: [
       [
         {

@@ -61,6 +61,18 @@ const RichParagraph = <template>
         {{/each}}
       {{/if}}
 
+      {{#if @model.presentationUrl}}
+        <h2 class="talk-section-heading">Presentation</h2>
+        <p>
+          <a
+            href={{@model.presentationUrl}}
+            class="talk-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Download the slides (PDF)</a>
+        </p>
+      {{/if}}
+
       <p class="talk-source-note">
         From the ESUG 2026 program, reproduced here as a preview of what a
         typical ESUG talk looks like.

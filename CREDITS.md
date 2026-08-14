@@ -40,3 +40,11 @@ Talk abstracts and speaker bios linked from that schedule
 (`app/data/talks-2026.js`) are sourced from the Pillar talk files at
 https://github.com/ESUG/esug.github.io/tree/source/2026-Conference/talks,
 copyright their respective speakers.
+
+Presentation slide links (`presentationUrl` on talks that have them) point at
+the PDFs hosted in the ESUG 2026 slide archive:
+https://archive.esug.org/ESUG2026/ (indexed via
+https://archive.esug.org/ESUG2026/ESUG%202026%20-%20Slides.xlsx). Matched to
+talks by conference day, speaker, and title, following the archive's own
+`Readme.txt` naming convention. Not every talk has slides available (a few
+were demos with no deck, or weren't found in the archive).
