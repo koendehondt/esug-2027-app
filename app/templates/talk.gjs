@@ -20,8 +20,29 @@ const RichParagraph = <template>
   </p>
 </template>;
 
+// Maps the program route a talk was reached from to the note shown at the
+// bottom of the talk page, since this same template serves the ESUG 2027
+// Conference Program preview (which reproduces the 2026 program) as well as
+// each past conference's own archived program.
+const SOURCE_NOTES = {
+  'esug2026-program': 'From the ESUG 2026 program.',
+  'esug2025-program': 'From the ESUG 2025 program.',
+  'esug2024-program': 'From the ESUG 2024 program.',
+  'esug2023-program': 'From the ESUG 2023 program.',
+  'esug2022-program': 'From the ESUG 2022 program.',
+};
+const DEFAULT_SOURCE_NOTE =
+  'From the ESUG 2026 program, reproduced here as a preview of what a typical ESUG talk looks like.';
+
 export default class TalkTemplate extends Component {
   @service programScheduleState;
+
+  get sourceNote() {
+    return (
+      SOURCE_NOTES[this.programScheduleState.lastProgramRoute] ??
+      DEFAULT_SOURCE_NOTE
+    );
+  }
 
   <template>
     {{pageTitle (if @model.title @model.title "Talk")}}
@@ -84,14 +105,11 @@ export default class TalkTemplate extends Component {
               class="talk-link"
               target="_blank"
               rel="noopener noreferrer"
-            >Download the slides (PDF)</a>
+            >Download the slides</a>
           </p>
         {{/if}}
 
-        <p class="talk-source-note">
-          From the ESUG 2026 program, reproduced here as a preview of what a
-          typical ESUG talk looks like.
-        </p>
+        <p class="talk-source-note">{{this.sourceNote}}</p>
       {{else}}
         <p class="page-notice">
           We couldn't find that talk. It may have moved &mdash;

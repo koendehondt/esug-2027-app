@@ -1,5 +1,7 @@
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
+import ProgramSchedule from '../components/program-schedule';
+import program2022 from '../data/program-2022';
 
 <template>
   {{pageTitle "ESUG 2022 Program"}}
@@ -31,10 +33,10 @@ import { LinkTo } from '@ember/routing';
       </LinkTo>
     </div>
     <h1>ESUG 2022 Conference Program</h1>
-    <p class="page-notice">
-      The full schedule, with links to abstracts and presentations, will be
-      added here.
+    <p class="program-preview-intro">
+      The full ESUG 2022 program &mdash; pick a day to see its sessions.
     </p>
+    <ProgramSchedule @days={{program2022}} />
   </article>
 
   {{outlet}}
