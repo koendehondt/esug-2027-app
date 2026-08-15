@@ -2,16 +2,20 @@ import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
 
 <template>
-  {{pageTitle "Registration"}}
+  {{pageTitle "ESUG 2025 Program"}}
 
   <article class="page">
     <div class="page-hero">
       <img
-        src="/images/tiles/registration.jpg"
+        src="/images/tiles/esug2025-program.jpg"
         alt=""
         class="page-hero-image"
       />
-      <LinkTo @route="index" class="page-back" aria-label="Home">
+      <LinkTo
+        @route="esug2025"
+        class="page-back"
+        aria-label="ESUG 2025 Archive"
+      >
         <span class="page-back-icon">
           <svg
             viewBox="0 0 24 24"
@@ -26,10 +30,10 @@ import { LinkTo } from '@ember/routing';
         </span>
       </LinkTo>
     </div>
-    <h1>Conference Registration</h1>
+    <h1>ESUG 2025 Conference Program</h1>
     <p class="page-notice">
-      Registration is not open yet. Pricing and the registration form will be
-      published here once confirmed.
+      The full schedule, with links to abstracts and presentations, will be
+      added here.
     </p>
   </article>
 

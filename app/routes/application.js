@@ -5,7 +5,7 @@ import { service } from '@ember/service';
 // (e.g. going to a talk's detail page and back to the program shouldn't
 // reset you to the top of the schedule). Every other route always opens
 // at the top.
-const RESTORABLE_ROUTES = ['index', 'program'];
+const RESTORABLE_ROUTES = ['index', 'program', 'esug2026-program'];
 
 export default class ApplicationRoute extends Route {
   @service router;

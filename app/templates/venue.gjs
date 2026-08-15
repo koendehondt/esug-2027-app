@@ -5,21 +5,23 @@ import { LinkTo } from '@ember/routing';
   {{pageTitle "Venue"}}
 
   <article class="page">
-    <LinkTo @route="index" class="page-back" aria-label="Home">
-      <span class="page-back-icon">
-        <svg
-          viewBox="0 0 24 24"
-          width="14"
-          height="14"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="3"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ><path d="M15 6l-6 6 6 6" /></svg>
-      </span>
-    </LinkTo>
-    <img src="/images/tiles/venue.jpg" alt="" class="page-hero-image" />
+    <div class="page-hero">
+      <img src="/images/tiles/venue.jpg" alt="" class="page-hero-image" />
+      <LinkTo @route="index" class="page-back" aria-label="Home">
+        <span class="page-back-icon">
+          <svg
+            viewBox="0 0 24 24"
+            width="14"
+            height="14"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ><path d="M15 6l-6 6 6 6" /></svg>
+        </span>
+      </LinkTo>
+    </div>
     <h1>Conference Venue</h1>
     <p>
       ESUG 2027 will be hosted at the
@@ -34,16 +36,22 @@ import { LinkTo } from '@ember/routing';
     </p>
     <ul class="venue-room-list">
       <li>
-        <strong>isLoop 2027</strong>, 3-5 July 2027: auditorium E.0.05 (100
-        places)
+        <strong>isLoop 2027</strong>, 3-5 July 2027
+        <span class="venue-room-detail">Auditorium
+          <strong>E.0.05</strong>
+          (100 places)</span>
       </li>
       <li>
-        <strong>ESUG 2027</strong>, 6-9 July 2027: auditorium D.0.07 (140
-        places)
+        <strong>ESUG 2027</strong>, 6-9 July 2027
+        <span class="venue-room-detail">Auditorium
+          <strong>D.0.07</strong>
+          (140 places)</span>
       </li>
       <li>
-        <strong>IWST 2027</strong>, 6 &amp; 8 July 2027: auditorium E.0.05 (100
-        places)
+        <strong>IWST 2027</strong>, 6 &amp; 8 July 2027
+        <span class="venue-room-detail">Auditorium
+          <strong>E.0.05</strong>
+          (100 places)</span>
       </li>
     </ul>
     <h2 class="page-section-heading">Campus Map</h2>
@@ -73,9 +81,6 @@ import { LinkTo } from '@ember/routing';
         target="_blank"
         rel="noopener noreferrer"
       >MazeMap</a>.
-    </p>
-    <p>
-      Written access information will be added here soon.
     </p>
     <h2 class="page-section-heading">Reaching the VUB campus</h2>
     <p>

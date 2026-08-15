@@ -16,5 +16,15 @@ Router.map(function () {
   this.route('showcase');
   this.route('registration');
   this.route('program');
+  this.route('esug2026');
+  this.route('esug2026-program');
+  this.route('esug2025');
+  this.route('esug2025-program');
+  this.route('esug2024');
+  this.route('esug2024-program');
+  this.route('esug2023');
+  this.route('esug2023-program');
+  this.route('esug2022');
+  this.route('esug2022-program');
   this.route('talk', { path: '/talk/:talk_id' });
 });

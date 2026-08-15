@@ -91,6 +91,14 @@ body {
   padding: 0 1.5rem 3rem;
 }
 
+.home-section-heading {
+  max-width: 72rem;
+  margin: 0 auto 1.25rem;
+  padding: 1.5rem 1.5rem 0;
+  color: var(--esug-blue-dark);
+  font-size: 1.75rem;
+}
+
 .home-tile {
   position: relative;
   display: flex;
@@ -183,12 +191,19 @@ body {
   padding: 2.5rem 1.5rem 4rem;
 }
 
+.page-hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
 .page-back {
+  order: -1;
+  flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
   color: var(--esug-blue);
   text-decoration: none;
   font-weight: 600;
@@ -198,8 +213,8 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  width: 2.75rem;
+  height: 2.75rem;
   flex-shrink: 0;
   border-radius: 50%;
   background: var(--esug-blue);
@@ -213,17 +228,27 @@ body {
 
 .page-hero-image {
   display: block;
-  width: 100%;
-  height: 220px;
+  flex: 1;
+  min-width: 0;
   object-fit: cover;
   object-position: top center;
   border-radius: 0.75rem;
   border: 1px solid var(--esug-border);
-  margin-bottom: 1.5rem;
 }
 
 .page h1 {
   color: var(--esug-blue-dark);
+}
+
+.page-hero-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.page-hero-text h1 {
+  margin: 0;
 }
 
 /* Program preview (schedule from a past conference) */
@@ -327,7 +352,7 @@ body {
 /* Talk detail page */
 
 .talk-presenter {
-  margin-top: -0.5rem;
+  margin-top: 0.75rem;
   color: var(--esug-muted);
   font-weight: 600;
 }
@@ -371,6 +396,18 @@ body {
 
 .venue-room-list li:last-child {
   margin-bottom: 0;
+}
+
+.venue-room-detail {
+  display: block;
+  color: var(--esug-text);
+}
+
+.page-tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 0.5rem;
 }
 
 .page-notice {

@@ -7,21 +7,23 @@ import program2026 from '../data/program-2026';
   {{pageTitle "Program"}}
 
   <article class="page">
-    <LinkTo @route="index" class="page-back" aria-label="Home">
-      <span class="page-back-icon">
-        <svg
-          viewBox="0 0 24 24"
-          width="14"
-          height="14"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="3"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ><path d="M15 6l-6 6 6 6" /></svg>
-      </span>
-    </LinkTo>
-    <img src="/images/tiles/program.jpg" alt="" class="page-hero-image" />
+    <div class="page-hero">
+      <img src="/images/tiles/program.jpg" alt="" class="page-hero-image" />
+      <LinkTo @route="index" class="page-back" aria-label="Home">
+        <span class="page-back-icon">
+          <svg
+            viewBox="0 0 24 24"
+            width="14"
+            height="14"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ><path d="M15 6l-6 6 6 6" /></svg>
+        </span>
+      </LinkTo>
+    </div>
     <h1>Conference Program</h1>
     <p class="page-notice">
       The full conference program is not published yet. The schedule of talks,

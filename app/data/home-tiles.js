@@ -7,6 +7,7 @@
 // All `image` values point at files under public/images/tiles/ so the app
 // works fully offline. See CREDITS.md for sources and licenses.
 
+// Tiles for the upcoming ESUG 2027 conference.
 export default [
   {
     id: 'venue',
@@ -95,5 +96,55 @@ export default [
     badge: 'June 2027',
     routeName: 'program',
     image: '/images/tiles/program.jpg',
+  },
+];
+
+// Tiles for past conferences, shown in their own "Past conferences" section
+// on the home page, separate from the upcoming ESUG 2027 tiles above.
+export const archiveTiles = [
+  {
+    id: 'esug2026-archive',
+    title: 'ESUG 2026 Archive',
+    summary: 'Looking back on a great conference in Plovdiv.',
+    date: '',
+    active: true,
+    routeName: 'esug2026',
+    image: '/images/tiles/esug2026.jpg',
+  },
+  {
+    id: 'esug2025-archive',
+    title: 'ESUG 2025 Archive',
+    summary: 'Looking back on a great conference in Gdańsk.',
+    date: '',
+    active: true,
+    routeName: 'esug2025',
+    image: '/images/tiles/esug2025.jpg',
+  },
+  {
+    id: 'esug2024-archive',
+    title: 'ESUG 2024 Archive',
+    summary: 'Looking back on a great conference in Lille.',
+    date: '',
+    active: true,
+    routeName: 'esug2024',
+    image: '/images/tiles/esug2024.jpg',
+  },
+  {
+    id: 'esug2023-archive',
+    title: 'ESUG 2023 Archive',
+    summary: 'Looking back on a great conference in Lyon.',
+    date: '',
+    active: true,
+    routeName: 'esug2023',
+    image: '/images/tiles/esug2023.jpg',
+  },
+  {
+    id: 'esug2022-archive',
+    title: 'ESUG 2022 Archive',
+    summary: 'Looking back on a great conference in Novi Sad.',
+    date: '',
+    active: true,
+    routeName: 'esug2022',
+    image: '/images/tiles/esug2022.jpg',
   },
 ];

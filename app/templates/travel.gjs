@@ -5,21 +5,23 @@ import { LinkTo } from '@ember/routing';
   {{pageTitle "Trip Information"}}
 
   <article class="page">
-    <LinkTo @route="index" class="page-back" aria-label="Home">
-      <span class="page-back-icon">
-        <svg
-          viewBox="0 0 24 24"
-          width="14"
-          height="14"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="3"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ><path d="M15 6l-6 6 6 6" /></svg>
-      </span>
-    </LinkTo>
-    <img src="/images/tiles/travel.jpg" alt="" class="page-hero-image" />
+    <div class="page-hero">
+      <img src="/images/tiles/travel.jpg" alt="" class="page-hero-image" />
+      <LinkTo @route="index" class="page-back" aria-label="Home">
+        <span class="page-back-icon">
+          <svg
+            viewBox="0 0 24 24"
+            width="14"
+            height="14"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ><path d="M15 6l-6 6 6 6" /></svg>
+        </span>
+      </LinkTo>
+    </div>
     <h1>Trip Information</h1>
     <p>
       Brussels is well connected internationally:
