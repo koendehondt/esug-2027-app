@@ -18,6 +18,7 @@ const exploreTiles = [
     summary: 'Conference photos from Plovdiv.',
     date: '',
     active: false,
+    image: '/images/tiles/esug2026-photos.jpg',
   },
 ];
 

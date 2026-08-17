@@ -18,6 +18,7 @@ const exploreTiles = [
     summary: 'Conference photos from Lille.',
     date: '',
     active: false,
+    image: '/images/tiles/esug2024-photos.jpg',
   },
 ];
 

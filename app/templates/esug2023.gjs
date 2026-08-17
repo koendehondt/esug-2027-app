@@ -18,6 +18,7 @@ const exploreTiles = [
     summary: 'Conference photos from Lyon.',
     date: '',
     active: false,
+    image: '/images/tiles/esug2023-photos.jpg',
   },
 ];
 

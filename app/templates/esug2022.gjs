@@ -18,6 +18,7 @@ const exploreTiles = [
     summary: 'Conference photos from Novi Sad.',
     date: '',
     active: false,
+    image: '/images/tiles/esug2022-photos.jpg',
   },
 ];
 

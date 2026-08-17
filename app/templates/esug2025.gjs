@@ -18,6 +18,7 @@ const exploreTiles = [
     summary: 'Conference photos from Gdańsk.',
     date: '',
     active: false,
+    image: '/images/tiles/esug2025-photos.jpg',
   },
 ];
 

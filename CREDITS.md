@@ -25,6 +25,11 @@ doesn't need network access to display them). Original sources:
 | ESUG 2024 Program      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2023 Program      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2022 Program      | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2026 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2025 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2024 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2023 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2022 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
 
 These are placeholders to get the layout right. Swap in real ESUG/VUB/Brussels
 photography whenever you have it — replace the file under

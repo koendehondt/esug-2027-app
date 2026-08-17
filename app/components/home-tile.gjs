@@ -72,7 +72,7 @@ export default class HomeTile extends Component {
       <LinkTo
         @route={{@tile.routeName}}
         class="home-tile home-tile-active"
-        {{setBackgroundImage @tile.image}}
+        {{setBackgroundImage @tile.image @tile.imagePosition}}
       >
         <TileBody @tile={{@tile}} />
       </LinkTo>
@@ -84,7 +84,7 @@ export default class HomeTile extends Component {
         everyone. }}
       <div
         class="home-tile home-tile-inactive"
-        {{setBackgroundImage @tile.image}}
+        {{setBackgroundImage @tile.image @tile.imagePosition}}
         {{on "click" this.handleInactiveClick}}
       >
         <TileBody @tile={{@tile}} />
