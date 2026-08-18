@@ -2,6 +2,7 @@ import Component from '@glimmer/component';
 import { service } from '@ember/service';
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
+import { Capacitor } from '@capacitor/core';
 
 const RichParagraph = <template>
   <p>
@@ -42,6 +43,23 @@ export default class TalkTemplate extends Component {
       SOURCE_NOTES[this.programScheduleState.lastProgramRoute] ??
       DEFAULT_SOURCE_NOTE
     );
+  }
+
+  // The native iOS/Android app wraps a WKWebView/WebView that YouTube's
+  // embedded player doesn't reliably work inside of (embed requests get
+  // rejected, "Error 153"), so the native app links out to YouTube instead
+  // of embedding inline. The web build embeds normally, since that works
+  // fine in a real browser.
+  get isNativePlatform() {
+    return Capacitor.isNativePlatform();
+  }
+
+  get videoThumbnailUrl() {
+    return `https://img.youtube.com/vi/${this.args.model.videoId}/hqdefault.jpg`;
+  }
+
+  get videoWatchUrl() {
+    return `https://www.youtube.com/watch?v=${this.args.model.videoId}`;
   }
 
   <template>
@@ -107,6 +125,45 @@ export default class TalkTemplate extends Component {
               rel="noopener noreferrer"
             >Download the slides</a>
           </p>
+        {{/if}}
+
+        {{#if @model.videoId}}
+          <h2 class="talk-section-heading">Video</h2>
+          {{#if this.isNativePlatform}}
+            {{! The app's native WebView can't reliably play a YouTube embed
+              (see the class comment on isNativePlatform above), so link out
+              to YouTube instead of embedding inline. }}
+            <a
+              href={{this.videoWatchUrl}}
+              class="talk-video-wrapper talk-video-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Watch the video on YouTube"
+            >
+              <img
+                src={{this.videoThumbnailUrl}}
+                alt=""
+                class="talk-video-thumbnail"
+              />
+              <span class="talk-video-play-icon">
+                <svg viewBox="0 0 68 48" width="68" height="48">
+                  <path
+                    d="M66.5 7.7c-.8-2.9-2.5-5.1-5.4-5.9C55.8.2 34 .2 34 .2s-21.8 0-27.1 1.6c-2.9.8-4.6 3-5.4 5.9C.2 12.9.2 24 .2 24s0 11.1 1.3 16.3c.8 2.9 2.5 5.1 5.4 5.9C12.2 47.8 34 47.8 34 47.8s21.8 0 27.1-1.6c2.9-.8 4.6-3 5.4-5.9C67.8 35.1 67.8 24 67.8 24s0-11.1-1.3-16.3z"
+                    fill="rgba(0,0,0,0.6)"
+                  /><path d="M27 34l18-10-18-10z" fill="#fff" />
+                </svg>
+              </span>
+            </a>
+          {{else}}
+            <div class="talk-video-wrapper">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/{{@model.videoId}}"
+                title="{{@model.title}} - video recording"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          {{/if}}
         {{/if}}
 
         <p class="talk-source-note">{{this.sourceNote}}</p>

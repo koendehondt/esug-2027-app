@@ -12,6 +12,11 @@
 // talks have neither an abstract nor slides available, and are omitted
 // below (only a title is shown on their talk page).
 //
+// Video IDs point at the ESUG 2025 YouTube playlist:
+// https://www.youtube.com/playlist?list=PLJ5nSnWzQXi94CahnvTIO0F69oOdGJ3Xb
+// A couple of talks (Druid, the Code in the Corridor music performance)
+// have no matching recording in the playlist.
+//
 // Each paragraph is an array of "runs" -- plain text segments, or link
 // segments ({ text, url }) for inline links in the original Pillar markup.
 
@@ -70,11 +75,13 @@ const BRICHAU_BIO = [
 
 export default {
   '101-duca-welcome': {
+    videoId: 'X40kDgP9zf0',
     title: 'Welcome to ESUG',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day1/101-duca-welcome.pdf',
   },
   '102-duca-pharo13-and-beyond': {
+    videoId: 'HOPXWxeeH9g',
     title: 'Pharo 13 and beyond',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day1/102-duca-pharo13-and-beyond.pdf',
@@ -88,6 +95,7 @@ export default {
     bioParagraphs: DUCASSE_BIO,
   },
   '103-jord-selective-pretenuring': {
+    videoId: 'VLMG51GR19I',
     title: 'Selective Pretenuring',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day1/103-jord-selective-pretenuring.pdf',
@@ -107,10 +115,12 @@ export default {
     ],
   },
   '104-dema-spec': {
+    videoId: '67nC0VGBL1E',
     title: 'Spec',
     presentationUrl: 'https://archive.esug.org/ESUG2025/day1/104-dema-spec.pdf',
   },
   '105-diaz-bloc-and-toplo-update': {
+    videoId: 'jTsq3E_D8ic',
     title: 'Bloc and Toplo Update',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day1/105-diaz-bloc-and-toplo-update.pdf',
@@ -147,6 +157,7 @@ export default {
     ],
   },
   '106-bric-seamless-oauth-and-openid': {
+    videoId: '61spiH896xM',
     title: 'Seamless OAuth2.0 and OpenID Connect Integration in VAST',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day1/106-bric-seamless-oauth-and-openid.pdf',
@@ -165,6 +176,7 @@ export default {
       'https://archive.esug.org/ESUG2025/day1/107-palu-druid.pdf',
   },
   '108-deho-behaviour-driven-dev-with-hera': {
+    videoId: '-8izskwslQU',
     title: 'Behaviour-driven development with Hera',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day1/108-deho-behaviour-driven-dev-with-hera.pdf',
@@ -184,6 +196,7 @@ export default {
     ],
   },
   '109-krec-metrics-over-mayhem': {
+    videoId: 'Lqoe6o76_Rc',
     title:
       'Metrics over Mayhem – Pragmatic Analysis of Legacy VisualWorks Systems',
     presentationUrl:
@@ -204,6 +217,7 @@ export default {
     ],
   },
   '110-mccl-memory-management-gemstone': {
+    videoId: 'sMqQXujAR7A',
     title: 'Memory Management in Linux and GemStone',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day1/110-mccl-memory-management-gemstone.pdf',
@@ -223,6 +237,7 @@ export default {
     ],
   },
   '201-wyat-instantiations-company-update': {
+    videoId: 'J91UWllnTJY',
     title: 'Instantiations Company Update',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day2/201-wyat-instantiations-company-update.pdf',
@@ -242,6 +257,7 @@ export default {
     ],
   },
   '202-bour-smalltalk-for-the-web': {
+    videoId: 'd66KrWz29xA',
     title: 'Smalltalk for the Web and Beyond',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day2/202-bour-smalltalk-for-the-web.pdf',
@@ -305,6 +321,7 @@ export default {
     ],
   },
   '203-bric-web-architecture-seaside': {
+    videoId: 'VXVfwdHnxQQ',
     title: 'Advancing Modern Web Architectures in Seaside',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day2/203-bric-web-architecture-seaside.pdf',
@@ -318,6 +335,7 @@ export default {
     bioParagraphs: BRICHAU_BIO,
   },
   '204-chis-working-with-thousands-of-images': {
+    videoId: 'VfNZXV1ew3A',
     title: 'Working with thousands of images',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day2/204-chis-working-with-thousands-of-images.pdf',
@@ -331,6 +349,7 @@ export default {
     bioParagraphs: CHIS_BIO,
   },
   '205-labo-geoview': {
+    videoId: '9__34stE9BM',
     title:
       'GeoView, views to display and interact with geographical objects and cartographic layers',
     presentationUrl:
@@ -351,6 +370,7 @@ export default {
     ],
   },
   '206-poli-pics': {
+    videoId: 'pzQsjBbv3ps',
     title: 'Fighting the Branch Predictor',
     presentationUrl: 'https://archive.esug.org/ESUG2025/day2/206-poli-PICs.pdf',
     abstractParagraphs: [
@@ -369,6 +389,7 @@ export default {
     ],
   },
   '207-joha-tools-and-techniques-for-vm': {
+    videoId: 'IETBvgPBVRk',
     title: 'Tools and Techniques for VM',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day2/207-joha-tools-and-techniques-for-vm.pdf',
@@ -393,6 +414,7 @@ export default {
     ],
   },
   '208-hell-many-ai-assistants-gtoolkit': {
+    videoId: 'QKUUSdo0uAk',
     title: 'Working with many AI assistants in Glamorous Toolkit',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day2/208-hell-many-ai-assistants-gtoolkit.pdf',
@@ -412,6 +434,7 @@ export default {
     ],
   },
   '209-hart-rhizome': {
+    videoId: 'pTT-vy8qS4Y',
     title: 'Rhizome - distributions in soil',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day2/209-hart-rhizome.pdf',
@@ -425,6 +448,7 @@ export default {
     bioParagraphs: HARTL_BIO,
   },
   '210-denk-soil-tutorial': {
+    videoId: 'FarI6qqt1fk',
     title: 'Soil Tutorial',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day2/210-denk-soil-tutorial.pdf',
@@ -443,6 +467,7 @@ export default {
     bioParagraphs: [...DENKER_BIO, ...HARTL_BIO],
   },
   '211-duca-supporting-pharo': {
+    videoId: 'D3Fdxu3ZqIA',
     title: 'Why Supporting Pharo is important',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day2/211-duca-supporting-pharo.pdf',
@@ -483,6 +508,7 @@ export default {
     ],
   },
   '301-gree-gemtalk-roadmap': {
+    videoId: 'Rd63S4_AWNI',
     title: 'GemTalk Update and Roadmap',
     abstractParagraphs: [
       [
@@ -501,6 +527,7 @@ export default {
     ],
   },
   '302-freu-squeakjs': {
+    videoId: 'JYSBYTz1sCI',
     title: 'SqueakJS: A Decade of Progress',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day3/302-freu-squeakjs.pdf',
@@ -520,6 +547,7 @@ export default {
     ],
   },
   '303-fost-microservices': {
+    videoId: 'g_1W4jrG_6Q',
     title: 'Microservices: The Good, the Bad, and the Ugly',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day3/303-fost-microservices.pdf',
@@ -533,6 +561,7 @@ export default {
     bioParagraphs: FOSTER_BIO,
   },
   '304-cipri-turbo-phausto': {
+    videoId: 'r1fkTsq8r6Y',
     title: '(Turbo)Phausto: news from the pit lane',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day3/304-cipri-turbo-phausto.pdf',
@@ -557,6 +586,7 @@ export default {
     ],
   },
   '305-mart-enhancing-security-in-vast': {
+    videoId: 'f8A5fTyppOo',
     title: 'Enhancing Security in VAST: Towards Static Vulnerability Scanning',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day3/305-mart-enhancing-security-in-vast.pdf',
@@ -586,6 +616,7 @@ export default {
     ],
   },
   '306-hlad-mining-software-repository-with-pharo': {
+    videoId: '0ZwEkLB8Nwk',
     title: 'Mining software repository with Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day3/306-hlad-mining-software-repository-with-pharo.pdf',
@@ -622,11 +653,13 @@ export default {
     ],
   },
   '307-dema-testing-in-spec': {
+    videoId: 'DTwwPIRJjnw',
     title: 'Testing in Spec',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day3/307-dema-testing-in-spec.pdf',
   },
   '401-duca-what-devs-are-doing-with-pharo': {
+    videoId: 'VS7H2H6Nakw',
     title: 'What devs are doing with Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day4/401-duca-what-devs-are-doing-with-pharo.pdf',
@@ -640,6 +673,7 @@ export default {
     bioParagraphs: DUCASSE_BIO,
   },
   '402-stel-canyon': {
+    videoId: 's77AKbVJGMo',
     title: 'Canyon - develop mobile apps using CodeParadise',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day4/402-stel-canyon.pdf',
@@ -659,10 +693,12 @@ export default {
     ],
   },
   '403-dema-clap': {
+    videoId: 'r5US_eUmfLQ',
     title: 'Clap - Command line for Pharo',
     presentationUrl: 'https://archive.esug.org/ESUG2025/day4/403-dema-clap.pdf',
   },
   '404-chis-gtoolkit': {
+    videoId: 'fgc15ekvbWU',
     title: 'Glamorous Toolkit',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day4/404-chis-gtoolkit.pdf',
@@ -676,6 +712,7 @@ export default {
     bioParagraphs: CHIS_BIO,
   },
   '405-denk-fluid-class-definitions': {
+    videoId: '9LBomGmBecA',
     title: 'Fluid Class Defintions In Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day4/405-denk-fluid-class-definitions.pdf',
@@ -699,6 +736,7 @@ export default {
     bioParagraphs: DENKER_BIO,
   },
   '406-duca-cavrois': {
+    videoId: 'wPmDQDjb8rY',
     title: 'Cavrois: an organic window manager that respects your flow',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day4/406-duca-cavrois.pdf',
@@ -717,6 +755,7 @@ export default {
     bioParagraphs: DUCASSE_BIO,
   },
   '407-abed-chatpharo': {
+    videoId: '_ur_RJORez0',
     title: 'ChatPharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day4/407-abed-chatpharo.pdf',
@@ -736,6 +775,7 @@ export default {
     ],
   },
   '408-duca-what-people-are-doing-with-pharo': {
+    videoId: 'zONh4uoG7U4',
     title: 'What people are doing with Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2025/day4/408-duca-what-people-are-doing-with-pharo.pdf',
