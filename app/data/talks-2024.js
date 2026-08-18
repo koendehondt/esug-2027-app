@@ -50,16 +50,19 @@ const LORENZANO_BIO = [
 
 export default {
   '101-stef-welcome': {
+    videoId: 'ZS1UupThO78',
     title: 'Welcome',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day1/01-stef_welcome.pdf',
   },
   '102-raki-strengthening-community': {
+    videoId: 'vuf2p7O0WeI',
     title: 'Strengthening our community',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day1/02-Gordana_COSTActions.pdf',
   },
   '103-poli-mutalk': {
+    videoId: 'gQsimMI785M',
     title: 'Who watches the tests?',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day1/03-guille-mutalk.pdf',
@@ -78,6 +81,7 @@ export default {
     bioParagraphs: POLITO_BIO,
   },
   '104-salg-vr-in-woden': {
+    videoId: 'gIo7LSLvSG8',
     title: 'Virtual Reality in Pharo using WODEN Engine: Challenges and Demo',
     presentationUrl: 'https://archive.esug.org/ESUG2024/day1/04-WodenVR.pdf',
     abstractParagraphs: [
@@ -96,6 +100,7 @@ export default {
     ],
   },
   '105-zara-llm-onboarding': {
+    videoId: 'v7ondZ6CwO4',
     title:
       'How to get more people onboard with Pharo? Applying LLM as support for the onboarding of new developers',
     presentationUrl:
@@ -126,6 +131,7 @@ export default {
     ],
   },
   '106-cipr-phausto': {
+    videoId: 'zP1GVVrydOs',
     title: 'Phausto: the sound within Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day1/06-domenico-phausto.pdf',
@@ -150,6 +156,7 @@ export default {
     ],
   },
   '107-gree-gemtalk-roadmap': {
+    videoId: '64BAlcxVq_4',
     title: 'GemTalk Update and Roadmap',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day1/07-norm_green_gemstone.pdf',
@@ -174,6 +181,7 @@ export default {
     ],
   },
   '108-cost-debug-points': {
+    videoId: 'gewZxBegDYs',
     title: 'Debug Points',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day1/08-steven-debug-points.pdf',
@@ -181,6 +189,7 @@ export default {
     bioParagraphs: COSTIOU_BIO,
   },
   '109-chis-moldable-debugging': {
+    videoId: 'jAO0lZ6tNKU',
     title: 'Moldable Debugging',
     abstractParagraphs: [
       [
@@ -192,6 +201,7 @@ export default {
     bioParagraphs: CHIS_BIO,
   },
   '110-tpso-toplo': {
+    videoId: 'R_yNWTUF7l0',
     title: 'Toplo',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day1/10-pablo-toplo.pdf',
@@ -204,6 +214,7 @@ export default {
     ],
   },
   '111-lore-spec-gtk': {
+    videoId: '56SQrmBiedE',
     title: 'Building a GTK app with Spec',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day1/11-esteban-spec-gtk.pdf',
@@ -229,6 +240,7 @@ export default {
     ],
   },
   '112-amar-webside': {
+    videoId: 'OGQYdKu4kvI',
     title: 'Webside 2.0',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day1/12-amaral_webside.pdf',
@@ -248,6 +260,7 @@ export default {
     ],
   },
   '201-duca-pharo12': {
+    videoId: '2SCsqwWER10',
     title: 'Pharo 12',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day2/01-stef_pharo12.pdf',
@@ -267,6 +280,7 @@ export default {
     ],
   },
   '202-joha-unicode-overview': {
+    videoId: 'VprSSgpa94E',
     title: 'Unicode String Implementations - An Overview',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day2/02-Unicode-Henry.pdf',
@@ -286,6 +300,7 @@ export default {
     ],
   },
   '203-mari-unicode-vast': {
+    videoId: 'CO1L8-WWvZU',
     title: 'Building Full-Stack Unicode Applications with VAST',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day2/03-unicode_demo-maringolo.pdf',
@@ -305,6 +320,7 @@ export default {
     ],
   },
   '204-zait-cormas-games': {
+    videoId: '0sjbgFOwUA8',
     title: 'Companion modelling and serious games in Pharo and VisualWorks',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day2/04-2024-esug-cormas.pdf',
@@ -329,6 +345,7 @@ export default {
     ],
   },
   '205-chis-glamorous-toolkit': {
+    videoId: 'kn9NmvBjgS8',
     title: 'Glamorous Toolkit',
     abstractParagraphs: [
       [
@@ -340,6 +357,7 @@ export default {
     bioParagraphs: CHIS_BIO,
   },
   '206-dema-pharo-launcher-cli': {
+    videoId: 'cVJG3EQ4huI',
     title: 'Manage your Pharo images from command line',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day2/06-christophe-PharoLauncher-CLI.pdf',
@@ -364,6 +382,7 @@ export default {
     ],
   },
   '207-fost-async-await': {
+    videoId: 'MoAp2HdgsVY',
     title: 'Asynchronous Programming with Async and Await',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day2/07-foster-asynchronous.pdf',
@@ -383,6 +402,7 @@ export default {
     ],
   },
   '208-noce-notebooks': {
+    videoId: '61ulO7S5iek',
     title: 'Notebooks',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day2/08-massimo-notebooks.pdf',
@@ -407,6 +427,7 @@ export default {
     ],
   },
   '209-lego-pyramid': {
+    videoId: '7v9CL2ogdfE',
     title: 'Pyramid: a User Interface Editor for Bloc',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day2/09-legolf-Pyramid.pdf',
@@ -431,6 +452,7 @@ export default {
     ],
   },
   '210-kriv-runtime-type-collecting': {
+    videoId: 'HB4_Xze_ozk',
     title: 'Runtime type collection and its usage in code transpiling',
     abstractParagraphs: [
       [
@@ -448,6 +470,7 @@ export default {
     ],
   },
   '301-berm-instantiations-update': {
+    videoId: 'stON_KpFc6E',
     title: 'Instantiations Company Update & VAST 2025 Preview',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day3/01-Instantiations-company-update.pdf',
@@ -467,6 +490,7 @@ export default {
     ],
   },
   '302-poli-jit-compiler': {
+    videoId: 'A7_aaxC2HgI',
     title: 'How easy is to write a JIT compiler?',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day3/02-guille-vm-profiling.pdf',
@@ -485,6 +509,7 @@ export default {
     bioParagraphs: POLITO_BIO,
   },
   '303-lore-pharo-cig': {
+    videoId: 'G2gtN7VacvI',
     title: 'Bridging the Gap: Streamlining Pharo FFI Bindings',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day3/03-esteban-Pharo-CIG.pdf',
@@ -498,6 +523,7 @@ export default {
     bioParagraphs: LORENZANO_BIO,
   },
   '304-stel-code-paradise': {
+    videoId: 'JkoEveeGTqk',
     title: 'CodeParadise',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day3/04-Code-paradise.pdf',
@@ -517,6 +543,7 @@ export default {
     ],
   },
   '305-buck-beagle-smalltalk': {
+    videoId: 'AhcG9s2f590',
     title: 'Beagle Smalltalk',
     presentationUrl: 'https://archive.esug.org/ESUG2024/day3/05-beagle.pdf',
     abstractParagraphs: [
@@ -535,6 +562,7 @@ export default {
     ],
   },
   '306-chis-gt4gemstone': {
+    videoId: '71pCi510dqo',
     title: 'gt4gemstone',
     abstractParagraphs: [
       [
@@ -551,6 +579,7 @@ export default {
     bioParagraphs: CHIS_BIO,
   },
   '307-cost-pharo-debugger': {
+    videoId: 'XWHGmg5TJhk',
     title: 'The Pharo Debugger and Debugging Tools: Advances and Roadmap',
     abstractParagraphs: [
       [
@@ -562,6 +591,7 @@ export default {
     bioParagraphs: COSTIOU_BIO,
   },
   '308-hart-tale-about-scale': {
+    videoId: 'UpbSktWsG7U',
     title: 'A tale about scale',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day3/08-a-tale-about-scale-norbert.pdf',
@@ -581,6 +611,7 @@ export default {
     ],
   },
   '309-bour-webst': {
+    videoId: 'PpkWw5tn1jA',
     title: 'WebST: Web Components with PharoJS',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day3/09-WebST-noury.pdf',
@@ -616,11 +647,13 @@ export default {
     ],
   },
   '401-krie-community-building': {
+    videoId: 'iMcyhLoegdM',
     title: 'Community building',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day4/01-Community-krief.pdf',
   },
   '402-bour-object-centric-debugging': {
+    videoId: 'iVnFb0Lnt0g',
     title: 'Object-Centric Debugging',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day4/02-ObjectCentric-Debugging.pdf',
@@ -646,6 +679,7 @@ export default {
     ],
   },
   '403-vanc-gt4python': {
+    videoId: 'Lvtgk4w9zo4',
     title: 'gt4python: Moldable Development for Python',
     presentationUrl: 'https://archive.esug.org/ESUG2024/day4/03-gt4python.pdf',
     abstractParagraphs: [
@@ -669,6 +703,7 @@ export default {
     ],
   },
   '404-ferl-pharo-ide': {
+    videoId: 'FsqJyEwhD00',
     title: 'Getting more from your Pharo IDE',
     presentationUrl: 'https://archive.esug.org/ESUG2024/day4/04-cyril-ide.pdf',
     abstractParagraphs: [
@@ -697,6 +732,7 @@ export default {
     ],
   },
   '405-mart-making-of-vast': {
+    videoId: 'Z3WkuTsoxbk',
     title: 'Behind the scenes: The Making of VAST',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day4/05-developingVAST-mariano.pdf',
@@ -716,6 +752,7 @@ export default {
     ],
   },
   '406-saya-vulnerability': {
+    videoId: 'hEU2pFbukVs',
     title: 'Detecting and preventing Pharo vulnerabilities',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day4/06-imen-security.pdf',
@@ -741,6 +778,7 @@ export default {
     ],
   },
   '407-hell-gt4llm': {
+    videoId: 'ukgsng9bIVw',
     title: 'gt4llm: A programmable environment for large language models',
     presentationUrl: 'https://archive.esug.org/ESUG2024/day4/07-gt4llm.pdf',
     abstractParagraphs: [
@@ -759,6 +797,7 @@ export default {
     ],
   },
   '408-luna-data-storytelling': {
+    videoId: 'vgOTutzReOs',
     title: 'Data Storytelling with Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2024/day4/08-data-storytelling-with-pharo.svg',

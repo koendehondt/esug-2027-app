@@ -51,6 +51,7 @@ const DUCASSE_BIO = [
 
 export default {
   '101-bour-pharojs': {
+    videoId: '9suT78sOGEc',
     title: 'Hijack the JavaScript Ecosystem using PharoJS',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day1/02%20-%20Hijack%20JS%20Ecosystem%20with%20PharoJS.pdf',
@@ -81,6 +82,7 @@ export default {
     ],
   },
   '102-cost-pharo-debugger-roadmap': {
+    videoId: 'EnpGnOuGYQ0',
     title: 'The Pharo Debugger and Debugging Tools: Advances and Roadmap',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day1/03%20-%20The%20Pharo%20Debugger%20and%20Debugging%20Tools.pdf',
@@ -105,11 +107,13 @@ export default {
     ],
   },
   '103-cipr-music-with-pharo': {
+    videoId: '4lhoYmI_ivs',
     title: 'Music With Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day1/04%20-%20Domenico%20Cipriani%20-%20Music%20With%20Pharo.pdf',
   },
   '104-poli-phuzzing': {
+    videoId: 'CnRRpSBJ2wI',
     title: 'Phuzzing: a Pharo toolkit for automatic fuzz testing',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day1/05%20-%20Phuzzing.pdf',
@@ -133,6 +137,7 @@ export default {
     bioParagraphs: POLITO_BIO,
   },
   '105-jord-memory-profiler': {
+    videoId: '-dj6ZrJ-0so',
     title: 'Illimani: a Memory Profiler',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day1/06%20-%20Memory%20Profiler.pdf',
@@ -152,6 +157,7 @@ export default {
     ],
   },
   '106-fost-webgs': {
+    videoId: 'GoODqY7xup8',
     title: 'WebGS: Building a Backend for Modern Web Applications',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day1/07%20-%20WebGS.pdf',
@@ -198,6 +204,7 @@ export default {
     ],
   },
   '108-nier-teaching-moldable-development': {
+    videoId: '-fhbV0X2u_E',
     title: 'Teaching Moldable Development',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day1/09%20-%20Teaching%20Moldable%20Development.pdf',
@@ -217,6 +224,7 @@ export default {
     ],
   },
   '109-berg-agile-ai': {
+    videoId: 'MtY_qGPCOqI',
     title: 'Agile Artificial Intelligence',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day1/10%20-%20Agile%20AI.pdf',
@@ -237,6 +245,7 @@ export default {
     ],
   },
   '110-zait-polymath-dataframe-pharo-ai': {
+    videoId: 'rS1LS3IFru4',
     title: 'DataFrame, PolyMath, Pharo-AI: State of data science in Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day1/11%20-%20Science%20and%20data%20manipulation%20in%20Pharo.pdf',
@@ -267,6 +276,7 @@ export default {
     ],
   },
   '201-duca-pharo-11': {
+    videoId: 'xmsAFrCKClU',
     title: 'Pharo 11',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day2/01%20-%20Pharo%2011.pdf',
@@ -280,6 +290,7 @@ export default {
     bioParagraphs: DUCASSE_BIO,
   },
   '202-labo-native-desktop-modern-application': {
+    videoId: 'zoRx704rLCI',
     title:
       'Native desktop modern application demo at Thales, using the last UI capacities in Pharo and our open-source tools',
     presentationUrl:
@@ -305,6 +316,7 @@ export default {
     ],
   },
   '203-teso-applications-in-pharo': {
+    videoId: 'iYGnb1oVosU',
     title: 'Building Applications for Desktop',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day2/03%20-%20Desktop%20Applications%20in%20Pharo.pdf',
@@ -318,6 +330,7 @@ export default {
     bioParagraphs: TESONE_BIO,
   },
   '204-uttn-pdm-command-line-reinvented': {
+    videoId: 'dQnZbMxSpDE',
     title: 'PDM command line reinvented',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day2/04%20-%20PDM%20Command%20Line%20Reinvented.pdf',
@@ -337,6 +350,7 @@ export default {
     ],
   },
   '205-bric-seaside-hotwired': {
+    videoId: 'L_E5QHatR0M',
     title: 'Seaside Hotwired',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day2/05%20-%20Seaside%20Hotwired.pdf',
@@ -357,6 +371,7 @@ export default {
     ],
   },
   '206-mart-vast-webview2': {
+    videoId: 'rOJwLBPZZjE',
     title: 'Building Hybrid Applications with VAST and WebView2',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day2/06%20-%20Building%20Hybrid%20Applications%20with%20VAST%20and%20WebView2.pdf',
@@ -376,6 +391,7 @@ export default {
     ],
   },
   '207-zait-cormas': {
+    videoId: 'fsFw1jozMuc',
     title: 'Agent-based Modelling in Pharo using Cormas',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day2/07%20-%20Agent-based%20modeling%20in%20Pharo%20using%20Cormas.pdf',
@@ -394,6 +410,7 @@ export default {
     bioParagraphs: ZAITSEV_BIO,
   },
   '208-poli-code-instrumentation': {
+    videoId: 'HoGjeaUYBvc',
     title: 'Code instrumentation and the pitfalls of abstraction',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day2/08%20-%20Code%20Instrumentation%20and%20the%20Pitfalls%20of%20Abstraction.pdf',
@@ -417,6 +434,7 @@ export default {
     bioParagraphs: [POLITO_BIO[0], TESONE_BIO[0]],
   },
   '209-papa-reflexive-code-coverage': {
+    videoId: '_zvf3rbPrN0',
     title: 'Building a reflexive code-coverage tool',
     abstractParagraphs: [
       [
@@ -444,6 +462,7 @@ export default {
     ],
   },
   '210-chis-glamorous-toolkit-v1': {
+    videoId: 'h3r_utwu1xM',
     title: 'Glamorous Toolkit v1.0',
     abstractParagraphs: [
       [
@@ -466,6 +485,7 @@ export default {
     ],
   },
   '301-gree-gemtalk-update': {
+    videoId: 'SsoZnKEzk3I',
     title: 'GemTalk Update and Roadmap',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day3/01%20-%20Gemtalk%20Update.pdf',
@@ -485,6 +505,7 @@ export default {
     ],
   },
   '302-hart-soil': {
+    videoId: 'ui4TXcv7tus',
     title: 'Soil - a fresh look on OO databases',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day3/02_1%20-%20Soil%2C%20a%20Fresh%20Look%20on%20Object%20Oriented%20Databases.pdf',
@@ -543,6 +564,7 @@ export default {
     ],
   },
   '304-luna-grafoscopio': {
+    videoId: '1KKfxV5DcOc',
     title: 'Grafoscopio: Civic tech and how we change the tools that change us',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day3/04%20-%20Grafoscopio%2C%20Civic%20Tech%20and%20How%20We%20Change%20the%20Tools%20That%20Change%20Us/esug-2023.svg',
@@ -567,6 +589,7 @@ export default {
     ],
   },
   '305-fuhr-workshop-concept-inventories': {
+    videoId: 'BAQYqCV9bV8',
     title: 'Workshop on Concept Inventories in OOP',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day3/05%20-%20WorkshopOnConceptInventoriesAndPharoMisconceptions.pdf',
@@ -590,6 +613,7 @@ export default {
     bioParagraphs: DUCASSE_BIO,
   },
   '306-zait-cormas-hands-on': {
+    videoId: 'zUssscqom6I',
     title: 'Hands-on Multiagent Modelling in Pharo: A Cormas Workshop',
     abstractParagraphs: [
       [
@@ -606,6 +630,7 @@ export default {
     bioParagraphs: ZAITSEV_BIO,
   },
   '401-schu-instantiations-update': {
+    videoId: 'N_ROd9lWUGI',
     title: 'Instantiations Company Update & VAST 2024 Preview',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day4/01%20-%20Instantiations%20Company%20Update.pdf',
@@ -625,6 +650,7 @@ export default {
     ],
   },
   '402-hart-visual-queries': {
+    videoId: 'rJm2nfgs0W0',
     title: 'Visual user-driven database queries',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day4/02%20-%20Visual%20User-Driven%20Database%20Queries.pdf',
@@ -644,6 +670,7 @@ export default {
     ],
   },
   '403-gran-gemstone-glamorous-toolkit': {
+    videoId: 'YLfJ30OcMug',
     title: 'Working with GemStone from Glamorous Toolkit',
     abstractParagraphs: [
       [
@@ -661,6 +688,7 @@ export default {
     ],
   },
   '404-poli-questions-about-git': {
+    videoId: 'bFGKQUU_qfo',
     title: 'Your questions about Git',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day4/04%20-%20Your%20Questions%20About%20Git.pdf',
@@ -680,6 +708,7 @@ export default {
     ],
   },
   '405-kriv-documentation': {
+    videoId: '6Z9Vo6IJaqc',
     title: 'Documentation as a first-class citizen',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day4/05%20-%20Documentation.pdf',
@@ -699,11 +728,13 @@ export default {
     ],
   },
   '406-dias-news-from-bloc': {
+    videoId: 'iNQ7GVfDWak',
     title: 'News from Bloc',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day4/06%20-%20News%20from%20Bloc.pdf',
   },
   '407-dhon-do-you-know-your-browser': {
+    videoId: 'bPTsXGgCkMo',
     title: 'Do you know your browser?',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day4/07%20-%20Do%20You%20Know%20Your%20Browser.pdf',
@@ -729,6 +760,7 @@ export default {
     ],
   },
   '408-stal-vaser-control': {
+    videoId: 'Lu2T2Htvjco',
     title: 'VASERControl - Building advanced building automation software',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day4/08%20-%20VASER%20Control.pdf',
@@ -753,6 +785,7 @@ export default {
     ],
   },
   '501-mama-roassal3-updates': {
+    videoId: 'hrfrFy7_Zr0',
     title: 'Roassal3 new features',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day5/01%20-%20Roassal%203%20Updates.pdf',
@@ -772,6 +805,7 @@ export default {
     ],
   },
   '502-hell-gt4atproto': {
+    videoId: 'azSz7fkY7jU',
     title: 'gt4atproto: A programmable environment for social media',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day5/02%20-%20gt4atproto%2C%20A%20Programmable%20Environment%20for%20Social%20Media.pdf',
@@ -791,6 +825,7 @@ export default {
     ],
   },
   '503-mora-bio-smalltalk': {
+    videoId: 'HNNLcrwHUTw',
     title: 'BioSmalltalk',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day5/03%20-%20Bio%20Smalltalk.pdf',
@@ -815,6 +850,7 @@ export default {
     ],
   },
   '504-sare-new-refactoring-architecture': {
+    videoId: 'N2pygeCo09U',
     title: 'New architecture of the refactoring engine',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day5/04%20-%20New%20Refactoring%20Architecture%2C%20Reconciling%20Refactorings%20and%20Transformations.pdf',
@@ -834,6 +870,7 @@ export default {
     ],
   },
   '505-duca-advanced-oo-design-mooc': {
+    videoId: '0JHeKyiVdH8',
     title: 'Advanced Design Mooc',
     presentationUrl:
       'https://archive.esug.org/ESUG2023/day5/05%20-%20Advanced%20Object-Oriented%20Design%2C%20A%20New%20MOOC.pdf',

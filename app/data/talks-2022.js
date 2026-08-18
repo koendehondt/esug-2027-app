@@ -60,6 +60,7 @@ const JORDAN_ZAITSEV_BIO = [
 
 export default {
   '101-bour-pharojs-for-real': {
+    videoId: 'rQu3GNEs5ZI',
     title: 'PharoJS for Real!',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/01Monday/02-PharoJS_for_Real_-_ESUG.pdf',
@@ -89,6 +90,7 @@ export default {
     ],
   },
   '102-blon-extreme-programming': {
+    videoId: 'zg-Q51J5hGY',
     title:
       'eXtreme Programming: How a strong test suite can strengthen the relationship with the customer?',
     abstractParagraphs: [
@@ -117,11 +119,13 @@ export default {
     ],
   },
   '103-poli-vm-testing': {
+    videoId: 'BNH35R9VORs',
     title: 'VM testing',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/01Monday/04-PharoVM-News-Guille.pdf',
   },
   '104-duca-microdown': {
+    videoId: 'xPX3qeamMSY',
     title: 'Microdown: All documentation everywhere',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/01Monday/05-ESUG-Microdown-43.pdf',
@@ -142,6 +146,7 @@ export default {
     ],
   },
   '105-jord-pharo-ai': {
+    videoId: 'R5jJBUMLxq8',
     title: 'Presenting pharo-ai',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/01Monday/06-pharo-ai-Sebastian-Jordan.pdf',
@@ -155,11 +160,13 @@ export default {
     bioParagraphs: JORDAN_ZAITSEV_BIO,
   },
   '106-denk-first-class-variables-as-annotations': {
+    videoId: 'embn4kX0O3k',
     title: 'First Class Variables as Annotations',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/01Monday/07-VariablesAsASTAnnotations.pdf',
   },
   '107-chis-lepiter': {
+    videoId: 'X5SL3SA5UwQ',
     title: 'Lepiter: moldable knowledge platform',
     abstractParagraphs: [
       [
@@ -177,6 +184,7 @@ export default {
     ],
   },
   '201-duca-pharo-10': {
+    videoId: 'o3f3De_R_4o',
     title: 'Improvements in Pharo 10',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/02Tuesday/01-2022-ESUG-Pharo10.pdf',
@@ -201,6 +209,7 @@ export default {
     ],
   },
   '202-mama-roassal3-updates': {
+    videoId: 'awPyBLWTTvk',
     title: 'Roassal3 updates: Current status and next steps',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/02Tuesday/02-Roassal3.pdf',
@@ -220,6 +229,7 @@ export default {
     ],
   },
   '203-teso-application-development-with-pharo': {
+    videoId: 'FdZUAWH__vk',
     title: 'Application Development with Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/02Tuesday/03-2022-Building%20Applications%20with%20Pharo.pdf',
@@ -233,6 +243,7 @@ export default {
     bioParagraphs: [TESONE_BIO[0], POLITO_BIO[0]],
   },
   '204-fost-vscode-smalltalk-ide': {
+    videoId: '2li2XdHpH20',
     title: 'Visual Studio Code as a Smalltalk IDE',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/02Tuesday/04-VSC-AsSmalltalk-IDE-Foster.pdf',
@@ -257,6 +268,7 @@ export default {
     ],
   },
   '205-dias-bloc-for-pharo': {
+    videoId: 'HvJTDYuXkMU',
     title: 'Bloc for Pharo: object-oriented UI foundations',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/02Tuesday/06-Bloc4Pharo-ESUGSlides-v3.pdf',
@@ -287,6 +299,7 @@ export default {
     ],
   },
   '206-hart-pharo-pro': {
+    videoId: 'D90EBq6S2q8',
     title: 'Pharo Consortium, PharoPro: Professional Support for Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/02Tuesday/07-SuportingPharo.pdf',
@@ -305,6 +318,7 @@ export default {
     bioParagraphs: HARTL_DENKER_BIO,
   },
   '207-hart-deploying-scaling-pharo': {
+    videoId: 'MLtaHeFgbNo',
     title: 'Deploying and Scaling Pharo with a Database in Practice',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/02Tuesday/08-hartl-deployment.pdf',
@@ -334,6 +348,7 @@ export default {
     ],
   },
   '301-gree-gemtalk-64-roadmap': {
+    videoId: '8s4-KSNFVUU',
     title: 'GemTalk Update and GemStone/64 Roadmap',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/03Wednesday/01-norm_green_esug_2022.pdf',
@@ -353,6 +368,7 @@ export default {
     ],
   },
   '302-hart-apptivegrid': {
+    videoId: 'VVkJsIIqMKM',
     title: 'Digitise your processes with ApptiveGrid',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/03Wednesday/02-hartl-apptivegrid.pdf',
@@ -384,6 +400,7 @@ export default {
     ],
   },
   '304-zait-polymath': {
+    videoId: 'WlCkTR9X8ck',
     title: 'Presenting PolyMath',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/03Wednesday/03-PolyMath.pdf',
@@ -397,6 +414,7 @@ export default {
     bioParagraphs: JORDAN_ZAITSEV_BIO,
   },
   '305-maso-functional-smalltalk': {
+    videoId: 'K_B0meetl8c',
     title: 'Functional Smalltalk',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/03Wednesday/04-dmason.pdf',
@@ -427,6 +445,7 @@ export default {
     ],
   },
   '306-jord-pharo-ai-hands-on': {
+    videoId: 'DNyUQF4Kf0M',
     title: 'pharo-ai Workshop',
     abstractParagraphs: [
       [
@@ -438,6 +457,7 @@ export default {
     bioParagraphs: JORDAN_ZAITSEV_BIO,
   },
   '401-chis-glamorous-toolkit': {
+    videoId: 'tsDhL7xY-XY',
     title: 'Glamorous Toolkit in 2022',
     abstractParagraphs: [
       [
@@ -460,6 +480,7 @@ export default {
     ],
   },
   '402-cipr-live-coding-music': {
+    videoId: 'S2Dff90aYDI',
     title: 'Live Coding',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/04Thursday/01-liveCoding_presentation_ESUG22.pdf',
@@ -484,6 +505,7 @@ export default {
     ],
   },
   '403-amar-webside': {
+    videoId: 'Q4gmWTTFoww',
     title: 'Webside',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/04Thursday/02-Webside.pdf',
@@ -513,6 +535,7 @@ export default {
     ],
   },
   '404-harl-selenium-testing': {
+    videoId: 'hJfUjM4Vfjg',
     title: 'GUI-Testing Smalltalk-AJAX web applications with Selenium 4',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/04Thursday/03-selenium-testing.pdf',
@@ -542,6 +565,7 @@ export default {
     ],
   },
   '405-teso-improving-snapshots': {
+    videoId: 'BkEhdejMAyc',
     title: 'Improving Snapshots on Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/04Thursday/04-ImproveMemoryManagement.pdf',
@@ -555,6 +579,7 @@ export default {
     bioParagraphs: [TESONE_BIO[0], POLITO_BIO[0]],
   },
   '406-gran-working-with-remote-images': {
+    videoId: 'pgfcTPKw5H4',
     title: 'Working with Remote Images',
     abstractParagraphs: [
       [
@@ -577,6 +602,7 @@ export default {
     ],
   },
   '407-oste-counting-sheeps': {
+    videoId: 'Xg3964BS_28',
     title: 'Counting sheeps',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/04Thursday/05-ovina_sounting-sheeps.pdf',
@@ -601,6 +627,7 @@ export default {
     ],
   },
   '501-oda-remobidyc': {
+    videoId: 'oaCkwdgrcjA',
     title: 're:mobidyc',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/05Friday/01-esug-remobidyc-oda.pdf',
@@ -620,6 +647,7 @@ export default {
     ],
   },
   '502-hell-building-ide-in-gt': {
+    videoId: 'G-0Vic9fQU0',
     title: 'Building an IDE in GT',
     abstractParagraphs: [
       [
@@ -642,6 +670,7 @@ export default {
     ],
   },
   '503-duca-contributing-to-pharo': {
+    videoId: 'AtjEgK3lBPE',
     title: 'Contributing to Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2022/05Friday/02-2022-ESUG-ContributeToPharo-Ducasse.pdf',
