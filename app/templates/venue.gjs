@@ -93,16 +93,98 @@ import { LinkTo } from '@ember/routing';
       >Google Maps</a>
       to find the best route to the VUB campus.
     </p>
-    <h3 class="page-subsection-heading">By metro</h3>
-    <p>Details will be added here soon.</p>
-    <h3 class="page-subsection-heading">By tram</h3>
-    <p>Details will be added here soon.</p>
-    <h3 class="page-subsection-heading">By bus</h3>
-    <p>Details will be added here soon.</p>
+    <p>
+      The
+      <a
+        href="https://www.vub.be/en/about-vub/faculties-institutes-and-campuses/our-campuses/vub-main-campus-brussels/campus-map"
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >campus map</a>
+      shows all metro stations, train stations, bus stops and tram stops around
+      the VUB campus.
+    </p>
+    <p>
+      The VUB website has a
+      <a
+        href="https://www.vub.be/en/about-vub/faculties-institutes-and-campuses/our-campuses/vub-main-campus-brussels/directions"
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >guide to reaching the campus</a>
+      by all modes of transport.
+    </p>
+    <h3 class="page-subsection-heading">By metro, bus and tram</h3>
+    <p>
+      The
+      <a
+        href="https://www.stib-mivb.be/home"
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >MIVB/STIB</a>
+      runs the metro, the buses and the trams in Brussels. They have an app in
+      the
+      <a
+        href="https://apps.apple.com/be/app/stib-mivb/id1325048789"
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >App Store</a>
+      and
+      <a
+        href="https://play.google.com/store/apps/details?id=be.stib.mivb.mobile&hl=en"
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Google Play</a>.
+    </p>
+    <p>
+      If you stay in the centre of Brussels near a metro station, taking metro
+      line 5 will probably be the fastest way to reach the campus. There are
+      three metro stations in the campus neighbourhood. It takes 20 minutes to
+      reach the conference venue from Petillion, Hankar, or Delta metro
+      stations.
+    </p>
     <h3 class="page-subsection-heading">By train</h3>
-    <p>Details will be added here soon.</p>
+    <p>
+      The
+      <a
+        href="https://www.belgiantrain.be/en/"
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >NMBS/SNCB</a>
+      is the Belgian railway company. They have an app in the
+      <a
+        href="https://apps.apple.com/be/app/nmbs-trein-info-tickets/id1504870215"
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >App Store</a>
+      and
+      <a
+        href="https://play.google.com/store/apps/details?id=be.sncbnmbs.b2cmobapp&hl=en"
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Google Play</a>.
+    </p>
+    <p>
+      It is a ten-minute walk from Etterbeek station to reach the conference
+      venue.
+    </p>
     <h3 class="page-subsection-heading">By car</h3>
-    <p>Details will be added here soon.</p>
+    <p>
+      Enter the VUB campus via entrance 6 or 8, then follow the signs to the
+      paid parking lots. All parking information is available on the
+      <a
+        href="https://www.vub.be/en/about-vub/faculties-institutes-and-campuses/our-campuses/vub-main-campus-brussels/parking-vub-main-campus"
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >VUB website</a>.
+    </p>
   </article>
 
   {{outlet}}
