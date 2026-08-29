@@ -48,7 +48,7 @@ import { LinkTo } from '@ember/routing';
           (140 places)</span>
       </li>
       <li>
-        <strong>IWST 2027</strong>, 6 &amp; 8 July 2027
+        <strong>IWST 2027</strong>, 6-8 July 2027
         <span class="venue-room-detail">Auditorium
           <strong>E.0.05</strong>
           (100 places)</span>
