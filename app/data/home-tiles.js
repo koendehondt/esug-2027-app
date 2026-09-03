@@ -99,9 +99,19 @@ export default [
   },
 ];
 
-// Tiles for past conferences, shown in their own "Past conferences" section
-// on the home page, separate from the upcoming ESUG 2027 tiles above.
+// Tiles for past conferences, shown in their own "Archives" section on
+// the home page, separate from the upcoming ESUG 2027 tiles above.
 export const archiveTiles = [
+  {
+    id: 'presentations',
+    title: 'Presentation Archive',
+    summary:
+      'Search every ESUG talk from the past five conferences by title, speaker, or year.',
+    date: '',
+    active: true,
+    routeName: 'presentations',
+    image: '/images/tiles/presentations.jpg',
+  },
   {
     id: 'esug2026-archive',
     title: 'ESUG 2026 Archive',

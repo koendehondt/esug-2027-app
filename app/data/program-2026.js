@@ -1,11 +1,5 @@
-// Reference schedule from ESUG 2026, used on the Conference Program page as
-// a preview of what an ESUG conference program looks like while the actual
-// 2027 program is still being put together. Source:
-// https://esug.org/2026-Conference/agenda.html
-//
-// Day labels use the actual ESUG 2027 dates (Tue 6 - Fri 9 July 2027) even
-// though the session content itself is from the 2026 conference, so the
-// pills line up with this year's calendar.
+// Schedule from ESUG 2026, shown on the ESUG 2026 Archive's Conference
+// Program section. Source: https://esug.org/2026-Conference/agenda.html
 //
 // Sessions without a `speaker` are breaks/social slots, rendered differently
 // in the UI (see app/components/program-schedule.gjs).
@@ -13,7 +7,7 @@
 export default [
   {
     id: 'day-1',
-    label: 'Tue 6',
+    label: 'Tue 7',
     sessions: [
       {
         time: '9:00 – 9:30',
@@ -81,7 +75,7 @@ export default [
   },
   {
     id: 'day-2',
-    label: 'Wed 7',
+    label: 'Wed 8',
     sessions: [
       {
         time: '9:00 – 9:30',
@@ -145,7 +139,7 @@ export default [
   },
   {
     id: 'day-3',
-    label: 'Thu 8',
+    label: 'Thu 9',
     sessions: [
       {
         time: '9:00 – 9:30',
@@ -210,7 +204,7 @@ export default [
   },
   {
     id: 'day-4',
-    label: 'Fri 9',
+    label: 'Fri 10',
     sessions: [
       {
         time: '9:00 – 9:30',

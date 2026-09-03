@@ -23,8 +23,8 @@ import tiles, { archiveTiles } from 'esug-2027-app/data/home-tiles';
     {{/each}}
   </section>
 
-  <h2 class="home-section-heading">Past conferences</h2>
-  <section class="tile-grid" aria-label="Past conferences">
+  <h2 class="home-section-heading">Archives</h2>
+  <section class="tile-grid" aria-label="Archives">
     {{#each archiveTiles as |tile|}}
       <HomeTile @tile={{tile}} />
     {{/each}}

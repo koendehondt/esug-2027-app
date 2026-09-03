@@ -26,11 +26,12 @@ const RichParagraph = <template>
 // Conference Program preview (which reproduces the 2026 program) as well as
 // each past conference's own archived program.
 const SOURCE_NOTES = {
-  'esug2026-program': 'From the ESUG 2026 program.',
-  'esug2025-program': 'From the ESUG 2025 program.',
-  'esug2024-program': 'From the ESUG 2024 program.',
-  'esug2023-program': 'From the ESUG 2023 program.',
-  'esug2022-program': 'From the ESUG 2022 program.',
+  esug2026: 'From the ESUG 2026 program.',
+  esug2025: 'From the ESUG 2025 program.',
+  esug2024: 'From the ESUG 2024 program.',
+  esug2023: 'From the ESUG 2023 program.',
+  esug2022: 'From the ESUG 2022 program.',
+  presentations: 'Found via the Presentation Archive search.',
 };
 const DEFAULT_SOURCE_NOTE =
   'From the ESUG 2026 program, reproduced here as a preview of what a typical ESUG talk looks like.';
@@ -92,13 +93,28 @@ export default class TalkTemplate extends Component {
             {{#if @model.presenter}}
               <p class="talk-presenter">{{@model.presenter}}</p>
             {{/if}}
+            {{#if @model.year}}
+              <span class="presentation-result-meta">
+                <span class="presentation-result-year">ESUG
+                  {{@model.year}}</span>
+                &middot;
+                <span class="presentation-result-datetime">
+                  {{@model.date}}
+                  &middot;
+                  {{@model.time}}
+                </span>
+              </span>
+            {{/if}}
           </div>
         {{/if}}
       </div>
 
       {{#if @model.title}}
         {{#if @model.abstractParagraphs.length}}
-          <h2 class="talk-section-heading">Abstract</h2>
+          <h2 class="talk-section-heading talk-abstract-heading">Abstract</h2>
+          <p class="talk-abstract-note">
+            <em>Submitted after the call for participation.</em>
+          </p>
           {{#each @model.abstractParagraphs as |runs|}}
             <RichParagraph @runs={{runs}} />
           {{/each}}

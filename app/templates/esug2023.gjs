@@ -1,26 +1,7 @@
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
-import HomeTile from '../components/home-tile';
-
-const exploreTiles = [
-  {
-    id: 'program',
-    title: 'Conference Program',
-    summary: 'Full ESUG 2023 schedule, abstracts, and presentations.',
-    date: '',
-    active: true,
-    routeName: 'esug2023-program',
-    image: '/images/tiles/esug2023-program.jpg',
-  },
-  {
-    id: 'photos',
-    title: 'Photos',
-    summary: 'Conference photos from Lyon.',
-    date: '',
-    active: false,
-    image: '/images/tiles/esug2023-photos.jpg',
-  },
-];
+import ProgramSchedule from '../components/program-schedule';
+import program2023 from '../data/program-2023';
 
 <template>
   {{pageTitle "ESUG 2023 Archive"}}
@@ -44,22 +25,13 @@ const exploreTiles = [
       </LinkTo>
     </div>
     <h1>ESUG 2023 Archive</h1>
-    <p>
-      Looking back on a great conference in Lyon. Over time, this page will grow
-      into a collection of the ESUG 2023 conference program with links to
-      abstracts and presentations, photos, and more.
-    </p>
-    <p class="page-notice">
-      This archive is just getting started &mdash; check back as more content is
-      added.
-    </p>
+    <p>Looking back on a great conference in Lyon.</p>
 
-    <h2 class="page-section-heading">Explore</h2>
-    <div class="page-tile-grid">
-      {{#each exploreTiles as |tile|}}
-        <HomeTile @tile={{tile}} />
-      {{/each}}
-    </div>
+    <h2 class="page-section-heading">Conference Program</h2>
+    <p class="program-preview-intro">
+      The full ESUG 2023 program &mdash; pick a day to see its sessions.
+    </p>
+    <ProgramSchedule @days={{program2023}} />
   </article>
 
   {{outlet}}

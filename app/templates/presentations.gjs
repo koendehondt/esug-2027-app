@@ -1,23 +1,18 @@
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
-import ProgramSchedule from '../components/program-schedule';
-import program2025 from '../data/program-2025';
+import PresentationSearch from '../components/presentation-search';
 
 <template>
-  {{pageTitle "ESUG 2025 Program"}}
+  {{pageTitle "Presentation Archive"}}
 
   <article class="page">
     <div class="page-hero">
       <img
-        src="/images/tiles/esug2025-program.jpg"
+        src="/images/tiles/presentations.jpg"
         alt=""
         class="page-hero-image"
       />
-      <LinkTo
-        @route="esug2025"
-        class="page-back"
-        aria-label="ESUG 2025 Archive"
-      >
+      <LinkTo @route="index" class="page-back" aria-label="Home">
         <span class="page-back-icon">
           <svg
             viewBox="0 0 24 24"
@@ -32,11 +27,14 @@ import program2025 from '../data/program-2025';
         </span>
       </LinkTo>
     </div>
-    <h1>ESUG 2025 Conference Program</h1>
-    <p class="program-preview-intro">
-      The full ESUG 2025 program &mdash; pick a day to see its sessions.
+    <h1>Presentation Archive</h1>
+    <p>
+      Search every ESUG presentation from the past five conferences (2022
+      &ndash; 2026) by title, speaker, or year. More conferences will be added
+      here as they happen.
     </p>
-    <ProgramSchedule @days={{program2025}} />
+
+    <PresentationSearch @presentations={{@model}} />
   </article>
 
   {{outlet}}

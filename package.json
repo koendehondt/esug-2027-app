@@ -34,11 +34,11 @@
     "generate:icons": "capacitor-assets generate --ios"
   },
   "devDependencies": {
-    "@capacitor/assets": "^3.0.5",
     "@babel/core": "^7.29.7",
     "@babel/eslint-parser": "^7.29.7",
     "@babel/plugin-transform-runtime": "^7.29.7",
     "@babel/runtime": "^7.29.7",
+    "@capacitor/assets": "^3.0.5",
     "@ember/optional-features": "^3.0.0",
     "@ember/string": "^4.0.1",
     "@ember/test-helpers": "^5.4.3",

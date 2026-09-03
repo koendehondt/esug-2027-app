@@ -30,6 +30,7 @@ doesn't need network access to display them). Original sources:
 | ESUG 2024 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2023 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2022 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
+| Presentation Archive   | AI-generated, provided by Koen                                             |
 
 These are placeholders to get the layout right. Swap in real ESUG/VUB/Brussels
 photography whenever you have it — replace the file under
@@ -107,3 +108,18 @@ Pillar talk files at
 https://github.com/ESUG/esug.github.io/tree/source/2022-Conference/talks,
 copyright their respective speakers. A few talks were given without slides,
 and not every talk has an abstract available.
+
+# Presentations search page credits
+
+The Presentations page (`app/data/presentations.js`) reuses the existing
+`app/data/program-YYYY.js` schedules (2022-2026) rather than sourcing new
+content. Full calendar dates for each conference day (the schedules only
+carry day-of-week/day-of-month labels) come from each year's official
+"book the dates" announcement:
+
+- 2022: https://esug.org/2022-Conference/conf2022.html (22-26 August 2022)
+- 2023: https://esug.org/2023-Conference/conf2023.html (28 August-1 September 2023)
+- 2024: https://esug.org/2024-Conference/conf2024.html (8-11 July 2024)
+- 2025: https://esug.org/2025-Conference/conf2025.html (1-4 July 2025)
+- 2026: https://esug.org/2026-Conference/agenda.html (7-10 July 2026),
+  matching `program-2026.js`'s own day labels

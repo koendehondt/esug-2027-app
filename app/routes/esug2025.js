@@ -1,10 +1,10 @@
 import Route from '@ember/routing/route';
 import { service } from '@ember/service';
 
-export default class Esug2022ProgramRoute extends Route {
+export default class Esug2025Route extends Route {
   @service programScheduleState;
 
   activate() {
-    this.programScheduleState.lastProgramRoute = 'esug2022-program';
+    this.programScheduleState.lastProgramRoute = 'esug2025';
   }
 }
