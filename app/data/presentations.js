@@ -59,6 +59,20 @@ function formatDate(isoDate) {
   return DATE_FORMATTER.format(new Date(`${isoDate}T00:00:00Z`));
 }
 
+// Sorting key that ignores special characters like parentheses, colons, and
+// dashes, so e.g. "(Turbo)Phausto: news from the pit lane" sorts as if it
+// were written "TurboPhausto news from the pit lane" -- alongside the other
+// T titles -- instead of jumping to the front of the list because "(" sorts
+// before every letter. Computed once per presentation and stored as its
+// `sortKey` field (rather than recomputed on every comparison during
+// sort); the original title is still displayed as-is.
+function sortKey(title) {
+  return title
+    .replace(/[^\p{L}\p{N}\s]/gu, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function buildPresentations() {
   const presentations = [];
 
@@ -77,6 +91,7 @@ function buildPresentations() {
         presentations.push({
           talkId: session.talkId,
           title: session.subject,
+          sortKey: sortKey(session.subject),
           speaker: session.speaker,
           year,
           date: formatDate(isoDate),
@@ -86,7 +101,7 @@ function buildPresentations() {
     });
   }
 
-  presentations.sort((a, b) => a.title.localeCompare(b.title));
+  presentations.sort((a, b) => a.sortKey.localeCompare(b.sortKey));
 
   return presentations;
 }

@@ -180,6 +180,14 @@ Styling was refined in a follow-up: the note is smaller than body text (`font-si
 
 The "Search" text above the search input on the Presentation Archive page was redundant with the input's own placeholder ("Search by title, speaker, or year..."). Removed it visually, but kept the `<label>` and its text in the DOM -- just visually hidden (the standard screen-reader-only technique: `position: absolute`, 1x1px, clipped, no visible box) rather than deleted outright, so the input keeps a real accessible name for screen readers instead of relying on a placeholder alone. `.presentation-search-label` in `app/styles/app.css` carries the new hidden styling; `presentation-search.gjs` itself didn't need to change.
 
+## Presentation Archive: sort ignores special characters
+
+Reported: "(Turbo)Phausto: news from the pit lane" was sorting to the very top of the results list, ahead of every other title, because a leading "(" sorts before all letters in a plain string comparison.
+
+Fixed in `app/data/presentations.js` with a new `sortKey()` helper used only for ordering (the displayed title is untouched): it strips everything that isn't a letter, digit, or whitespace (parentheses, colons, dashes, etc.), collapses the resulting whitespace, and sorts on that. So "(Turbo)Phausto..." now sorts as "TurboPhausto..." and lands alphabetically among the other T titles, right where it belongs.
+
+Follow-up: rather than calling `sortKey()` inside the sort comparator (which would recompute it repeatedly during the sort), each presentation now stores its own precomputed `sortKey` field alongside `title`, computed once while the array is built, and the comparator just compares that field directly.
+
 ## Current state
 
 All of the above is built, verified (build + lint passing), and saved in the project folder. Open: confirm the scroll-jump fix on device after `npm run cap:sync` + Xcode rebuild. Natural next steps: plug in the real ESUG 2027 schedule into `program-2027-preview.js` once available, ESUG 2026 videos (once available), further venue/content copy edits, or other conference pages.
