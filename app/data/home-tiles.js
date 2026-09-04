@@ -99,6 +99,47 @@ export default [
   },
 ];
 
+// Tiles for the ESUG organisation itself, shown in their own "ESUG"
+// section on the home page. Images to be provided separately.
+export const esugTiles = [
+  {
+    id: 'about-esug',
+    title: 'About ESUG',
+    summary: 'Learn about the European Smalltalk User Group.',
+    date: '',
+    active: true,
+    routeName: 'about-esug',
+    image: '/images/tiles/about-esug.jpg',
+  },
+  {
+    id: 'membership-support',
+    title: 'Membership and Support',
+    summary: 'Become a member of ESUG and see how to get support.',
+    date: '',
+    active: true,
+    routeName: 'membership-support',
+    image: '/images/tiles/membership-support.jpg',
+  },
+  {
+    id: 'become-a-sponsor',
+    title: 'Become a Sponsor',
+    summary: 'Support ESUG as a sponsor.',
+    date: '',
+    active: true,
+    routeName: 'become-a-sponsor',
+    image: '/images/tiles/become-a-sponsor.jpg',
+  },
+  {
+    id: 'sponsors',
+    title: 'Sponsors',
+    summary: 'The organisations supporting ESUG.',
+    date: '',
+    active: true,
+    routeName: 'sponsors',
+    image: '/images/tiles/sponsors.jpg',
+  },
+];
+
 // Tiles for past conferences, shown in their own "Archives" section on
 // the home page, separate from the upcoming ESUG 2027 tiles above.
 export const archiveTiles = [

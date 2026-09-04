@@ -31,11 +31,36 @@ doesn't need network access to display them). Original sources:
 | ESUG 2023 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2022 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
 | Presentation Archive   | AI-generated, provided by Koen                                             |
+| About ESUG             | Provided by Koen                                                           |
+| Membership and Support | Provided by Koen                                                           |
+| Become a Sponsor       | Provided by Koen                                                           |
+| Sponsors               | Provided by Koen                                                           |
 
 These are placeholders to get the layout right. Swap in real ESUG/VUB/Brussels
 photography whenever you have it — replace the file under
 `public/images/tiles/` and update the `image` field per tile in
 `app/data/home-tiles.js` if the filename changes.
+
+# Sponsor logo credits
+
+Sponsor logos on the Sponsors page (`app/data/sponsors.js`) are hosted
+locally under `public/images/sponsors/`, provided by Koen. The GemTalk
+Systems (`gemtalk.png`), adesso (`adesso.png`), and Smalltalk Consulting
+Ltd. (`smalltalk-consulting.png`) logos had their white background removed
+(converted to transparent PNG) so they sit cleanly on the page; the rest
+were already supplied with a transparent background.
+
+| Sponsor                   | Tier     | Website                              |
+| ------------------------- | -------- | ------------------------------------ |
+| GemTalk Systems           | Platinum | https://gemtalksystems.com/          |
+| Instantiations            | Platinum | https://www.instantiations.com/      |
+| feenk                     | Platinum | https://feenk.com/                   |
+| adesso                    | Gold     | https://www.adesso.de/               |
+| OHRA                      | Gold     | https://www.ohra.nl/                 |
+| all: objects all: theTime | Gold     | https://all-objects-all-the-time.st/ |
+| Lifeware                  | Silver   | https://www.lifeware.ch/             |
+| Smalltalk Consulting Ltd. | Silver   | https://www.smalltalkconsulting.com/ |
+| QqDataFruits              | Silver   | https://www.qqdatafruits.be/         |
 
 # Font credits
 

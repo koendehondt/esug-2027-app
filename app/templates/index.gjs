@@ -1,6 +1,6 @@
 import { pageTitle } from 'ember-page-title';
 import HomeTile from 'esug-2027-app/components/home-tile';
-import tiles, { archiveTiles } from 'esug-2027-app/data/home-tiles';
+import tiles, { archiveTiles, esugTiles } from 'esug-2027-app/data/home-tiles';
 
 <template>
   {{pageTitle "ESUG 2027"}}
@@ -23,7 +23,14 @@ import tiles, { archiveTiles } from 'esug-2027-app/data/home-tiles';
     {{/each}}
   </section>
 
-  <h2 class="home-section-heading">Archives</h2>
+  <h2 class="home-section-heading">ESUG</h2>
+  <section class="tile-grid" aria-label="ESUG">
+    {{#each esugTiles as |tile|}}
+      <HomeTile @tile={{tile}} />
+    {{/each}}
+  </section>
+
+  <h2 class="home-section-heading">Conference Archives</h2>
   <section class="tile-grid" aria-label="Archives">
     {{#each archiveTiles as |tile|}}
       <HomeTile @tile={{tile}} />

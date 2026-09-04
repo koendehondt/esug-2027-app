@@ -16,6 +16,10 @@ Router.map(function () {
   this.route('showcase');
   this.route('registration');
   this.route('program');
+  this.route('about-esug');
+  this.route('membership-support');
+  this.route('become-a-sponsor');
+  this.route('sponsors');
   this.route('presentations');
   this.route('esug2026');
   this.route('esug2025');
