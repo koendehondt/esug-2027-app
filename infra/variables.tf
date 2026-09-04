@@ -35,3 +35,18 @@ variable "create_github_oidc_provider" {
   type    = bool
   default = true
 }
+
+variable "github_oidc_subject" {
+  description = <<-EOT
+    Exact value for the token.actions.githubusercontent.com:sub trust
+    condition. GitHub embeds stable numeric owner/repo IDs in this claim
+    (as "repo:<owner>@<owner_id>/<repo>@<repo_id>:ref:refs/heads/<branch>")
+    whenever the repository or its owner has ever been renamed -- which is
+    the case here (this repo/account has rename history). Confirmed via a
+    one-off debug step in the GitHub Actions workflow that printed the
+    token's actual claims. If the repo is ever renamed again, GitHub keeps
+    using these same IDs, so this value should NOT need to change.
+  EOT
+  type    = string
+  default = "repo:koendehondt@753271/esug-2027-app@1330511181:ref:refs/heads/main"
+}

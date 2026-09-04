@@ -35,10 +35,14 @@ data "aws_iam_policy_document" "github_trust" {
 
     # Only workflow runs on this exact branch of this exact repo can assume
     # the role -- a PR from a fork, or a push to any other branch, cannot.
+    # Uses var.github_oidc_subject (not a plain "repo:owner/name:ref:..."
+    # pattern) because GitHub embeds stable numeric owner/repo IDs in the
+    # sub claim once a repo or its owner has been renamed -- see that
+    # variable's description.
     condition {
       test     = "StringLike"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:${var.github_repo}:ref:refs/heads/${var.github_branch}"]
+      values   = [var.github_oidc_subject]
     }
   }
 }
