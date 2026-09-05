@@ -99,6 +99,37 @@ it somewhere safe. If more than one person will ever run `terraform apply`
 against this project, migrate to an S3 backend with state locking instead
 of relying on a local file.
 
+## Troubleshooting: "Not authorized to perform sts:AssumeRoleWithWebIdentity"
+
+If the "Configure AWS credentials" step in the workflow fails with this
+error even though the role ARN, the OIDC provider's audience list, and the
+trust policy's `sub` condition all *look* correct, check whether this repo
+or the `koendehondt` account has ever been renamed. GitHub embeds stable
+numeric owner/repo IDs into the OIDC token's `sub` claim once a rename has
+happened — `repo:<owner>@<owner_id>/<repo>@<repo_id>:ref:refs/heads/<branch>`
+instead of the plain `repo:<owner>/<repo>:ref:refs/heads/<branch>` most
+tutorials assume. `var.github_oidc_subject` in `variables.tf` already
+accounts for this for the current setup; if the trust condition ever needs
+re-deriving (e.g. a fresh AWS account), add a temporary debug step to
+`deploy.yml` before "Configure AWS credentials" to decode and print the
+token's actual claims:
+
+```yaml
+- name: Debug OIDC token claims
+  run: |
+    TOKEN=$(curl -sS -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+      "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=sts.amazonaws.com" | jq -r '.value')
+    PAYLOAD=$(echo "$TOKEN" | cut -d '.' -f2)
+    PAD=$(( (4 - ${#PAYLOAD} % 4) % 4 ))
+    PADDED="$PAYLOAD$(printf '=%.0s' $(seq 1 $PAD))"
+    echo "$PADDED" | tr '_-' '/+' | base64 -d 2>/dev/null | jq '{iss, aud, sub, repository, ref, repository_owner, workflow_ref}'
+```
+
+Compare the printed `sub` against the trust policy's `StringLike` condition
+(IAM console → role → Trust relationships), update
+`var.github_oidc_subject` to match, `terraform apply`, then remove the
+debug step again.
+
 ## Changing infrastructure later
 
 Edit the `.tf` files and run `terraform plan` / `terraform apply` again —
