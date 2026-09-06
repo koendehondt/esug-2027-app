@@ -12,6 +12,7 @@ export default [
       {
         time: '9:00 – 9:30',
         subject: 'Welcome to ESUG',
+        talkId: 'welcometoesug',
         speaker: 'Stéphane Ducasse',
       },
       {
@@ -43,6 +44,7 @@ export default [
       {
         time: '14:00 – 14:30',
         subject: 'The Pharo Module System',
+        talkId: 'pharomodulesystem',
         speaker: 'Guillermo Polito',
       },
       {

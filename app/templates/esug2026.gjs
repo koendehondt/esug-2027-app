@@ -26,10 +26,6 @@ import program2026 from '../data/program-2026';
     </div>
     <h1>ESUG 2026 Archive</h1>
     <p>Looking back on a great conference in Plovdiv.</p>
-    <p class="page-notice">
-      This archive is just getting started &mdash; check back as more content is
-      added.
-    </p>
 
     <h2 class="page-section-heading">Conference Program</h2>
     <p class="program-preview-intro">

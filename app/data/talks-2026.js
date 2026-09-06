@@ -12,6 +12,7 @@
 
 export default {
   b5artfulblocapi: {
+    videoId: '94c-6QdZbsE',
     title: 'Bloc5: an Artful Bloc API Designed for Creativity',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Bloc5.pdf',
@@ -36,6 +37,7 @@ export default {
     ],
   },
   bloc: {
+    videoId: 'TYahVmeacBs',
     title: "Bloc for Pharo: What's New?",
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-Bloc.pdf',
@@ -77,6 +79,7 @@ export default {
     ],
   },
   chatpharo: {
+    videoId: 'tk7OCuhG-aw',
     title: 'ChatPharo: an AI Assistant inside Pharo',
     abstractParagraphs: [
       [
@@ -94,6 +97,7 @@ export default {
     ],
   },
   compiletimepicgenusinglivetyping: {
+    videoId: '6PFE-9HIAMs',
     title: 'Compile-time PIC Generation using LiveTyping Information',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-CompileTimePICGenerationUsingLiveTypingInformation.pdf',
@@ -123,6 +127,7 @@ export default {
     ],
   },
   complishon: {
+    videoId: '6mIXQQYKdVA',
     title: 'Complishon: a Better completion engine for Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-Completion_web.pdf',
@@ -152,6 +157,7 @@ export default {
     ],
   },
   demystifyinggemstonewithai: {
+    videoId: 'I86j6EtlmvQ',
     title: 'Using AI to Demystify Running GemStone Systems',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-Gemstone-Analysis-AI.pdf',
@@ -176,6 +182,7 @@ export default {
     ],
   },
   'foster-python': {
+    videoId: 'aXZZMpGQwBA',
     title: 'Transpiling Python to Smalltalk',
     abstractParagraphs: [
       [
@@ -193,6 +200,7 @@ export default {
     ],
   },
   'gemtalk-roadmap': {
+    videoId: '9G9l01XOlhI',
     title: 'GemTalk Update and Roadmap',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-GemStone_Update.pdf',
@@ -217,6 +225,7 @@ export default {
     ],
   },
   glamoroustoolkit: {
+    videoId: '8QL_GoWgYvs',
     title: 'Glamorous Toolkit',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-GlamorousToolkit.pdf',
@@ -236,6 +245,7 @@ export default {
     ],
   },
   heraayearinproduction: {
+    videoId: 'TRgXkYD0_lY',
     title: 'Hera: A Year in Production — Growing a BDD Framework in Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-10-Hera-A-Year-in-Production.pdf',
@@ -262,6 +272,7 @@ export default {
     ],
   },
   liveumlsequencediagrams: {
+    videoId: 'mn4s4f2HPJM',
     title: 'Live UML Sequence Diagrams, their building and tests',
     abstractParagraphs: [
       [
@@ -284,6 +295,7 @@ export default {
     ],
   },
   'martinmcclure-undotheworld': {
+    videoId: 'YO__QtqJVK8',
     title: 'Undo the World',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-10-UndoTheWorld.pdf',
@@ -303,6 +315,7 @@ export default {
     ],
   },
   microdownnewgeneration: {
+    videoId: 'TVp902jenGc',
     title: 'Microdown New Generation',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-10-ESUG-PillarFoliage_web.pdf',
@@ -332,6 +345,7 @@ export default {
     ],
   },
   moldablechats: {
+    videoId: 'Atdy6D15iuM',
     title: 'Moldable LLM Chats in Glamorous Toolkit',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-MoldableAgentHarness.pdf',
@@ -351,6 +365,7 @@ export default {
     ],
   },
   myprecious: {
+    videoId: 'kEQ8Ho2V7tE',
     title: 'MyPrecious Middleware',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-NouryBouraqadi-MyPrecious.pdf',
@@ -388,6 +403,7 @@ export default {
     ],
   },
   objectownership: {
+    videoId: '-rFJZDBqYrM',
     title: 'An Introducution Ownership in Object Oriented Languages',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-10-ESUG-Ownership.pdf',
@@ -412,6 +428,7 @@ export default {
     ],
   },
   pharo14: {
+    videoId: 'KLUCcz289p4',
     title: 'Pharo 14 and beyond',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Pharo14_web.pdf',
@@ -436,6 +453,7 @@ export default {
     ],
   },
   pharocig: {
+    videoId: '9xYWjsWcjFc',
     title: 'Pharo CIG, Round Two: Growing a Native Library Ecosystem for Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-pharo-cig.pdf',
@@ -475,6 +493,7 @@ export default {
     ],
   },
   pharodesktoptour: {
+    videoId: 'sTrNqjWw2bU',
     title: 'Pharo on the Desktop: A Tour of Tools and Feedback Loops',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-pharo-on-the-desktop.pdf',
@@ -509,6 +528,7 @@ export default {
     ],
   },
   pharojs10thanniversary: {
+    videoId: 'lt0ywz0ZH-E',
     title: 'PharoJS 10th Anniversary: Now What?',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-PharoJS-10years.pdf',
@@ -566,6 +586,7 @@ export default {
     ],
   },
   pharollm: {
+    videoId: 'dOczQMf562A',
     title: 'The Future of LLM in Pharo: PharoLLM',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Pharo-LLM.pdf',
@@ -585,6 +606,7 @@ export default {
     ],
   },
   pharopulsar: {
+    videoId: 'bOD4hmqn8RI',
     title: 'Pharo Pulsar: Spinning you into a Power User',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-PharoPulsar.pdf',
@@ -619,6 +641,7 @@ export default {
     ],
   },
   pharosdl3: {
+    videoId: 'Nk5L0xdNx_g',
     title: 'PharoSDL3: New FFI Bindings for SDL3 in Pharo',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-PharoSDL3.pdf',
@@ -660,6 +683,7 @@ export default {
     ],
   },
   soilindepth: {
+    videoId: 'XzU-Ivfxbs8',
     title: 'Soil - architecture & design',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Soil-architectural-insights.pdf',
@@ -689,6 +713,7 @@ export default {
     ],
   },
   spectoplo: {
+    videoId: 'ER-ftPOTl6E',
     title: 'Spec-Toplo: More Widgets, More Coverage',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-SpecToplo.pdf',
@@ -730,6 +755,7 @@ export default {
     ],
   },
   tools: {
+    videoId: 'YwBo11Jtf5M',
     title: 'Smooth Flow of Refactorings and Tools',
     presentationUrl:
       'https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Smooth-flow-of-refactorings-and-tools.pdf',
@@ -754,6 +780,7 @@ export default {
     ],
   },
   'treesitter-moose': {
+    videoId: 'eU-EQ6BHHw4',
     title:
       'Moose:: Simplifying the development of importers based on TreeSitter',
     presentationUrl:
@@ -784,6 +811,7 @@ export default {
     ],
   },
   vastaiassistant: {
+    videoId: 'tlqSfYMOjWA',
     title:
       'The VAST Platform AI Assistant: Integrating LLMs into a Live Smalltalk Environment',
     presentationUrl:
@@ -824,6 +852,7 @@ export default {
     ],
   },
   'sagetea-pharo-runtime-ai': {
+    videoId: 'A_p6Z_SmnFQ',
     title:
       'From Squeak to Pharo: Modernizing the Eclipse SageTea Runtime for Edge AI and Sovereign Computing',
     presentationUrl:
@@ -872,5 +901,13 @@ export default {
         },
       ],
     ],
+  },
+  welcometoesug: {
+    videoId: 'ey1zdOxHNI4',
+    title: 'Welcome to ESUG',
+  },
+  pharomodulesystem: {
+    videoId: 'G80ratDK-OM',
+    title: 'The Pharo Module System',
   },
 };
