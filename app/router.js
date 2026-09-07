@@ -26,5 +26,6 @@ Router.map(function () {
   this.route('esug2024');
   this.route('esug2023');
   this.route('esug2022');
+  this.route('esug2019');
   this.route('talk', { path: '/talk/:talk_id' });
 });

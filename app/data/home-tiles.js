@@ -198,4 +198,13 @@ export const archiveTiles = [
     routeName: 'esug2022',
     image: '/images/tiles/esug2022.jpg',
   },
+  {
+    id: 'esug2019-archive',
+    title: 'ESUG 2019 Archive',
+    summary: 'Looking back on a great conference in Cologne.',
+    date: '',
+    active: true,
+    routeName: 'esug2019',
+    image: '/images/tiles/esug2019.jpg',
+  },
 ];

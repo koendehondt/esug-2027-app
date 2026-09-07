@@ -267,6 +267,92 @@ Corrections made: "The ESUG Board as elected 2010" -> "The ESUG Board as elected
 
 Updated the `url` field for every sponsor in `app/data/sponsors.js` with the website addresses Koen provided (the sponsors page template already linked each logo out to `sponsor.url` in a new tab, so no template change was needed). One sponsor's URL changed domain entirely, not just scheme: Smalltalk Consulting Ltd. now points at `https://www.johnmcintosh.pro/` (previously `https://www.smalltalkconsulting.com/`). A few others switched from `https://` to `https://www.` or plain `http://` to match exactly what Koen sent (GemTalk Systems, Instantiations, feenk, OHRA); adesso, all: objects all: theTime, Lifeware and QqDataFruits were already correct and unchanged.
 
+## ESUG 2019 Archive added (built from the conference's Google Calendar, not agenda.html)
+
+Added a sixth archived conference, ESUG 2019 (Cologne, 26-30 August 2019),
+following the same "Looking back on a great conference in <city>" archive
+pattern as 2022-2026, with one twist: ESUG 2019 predates the
+`esug.org/YYYY-Conference/agenda.html` + `archive.esug.org` slide-deck
+format used from 2022 onward, so there was no agenda page or slide archive
+to source from.
+
+- **Schedule** (`app/data/program-2019.js`): built by parsing the
+  conference's public Google Calendar (Main Track `.ics` feed, linked from
+  `esug.org/2019-Conference/conf2019.html`) with Python's `icalendar` +
+  `recurring_ical_events` libraries -- the latter was needed to correctly
+  expand the calendar's recurring Coffee Break/Lunch `VEVENT`s (with
+  `RRULE`/`EXDATE`/`RECURRENCE-ID` overrides) into one occurrence per day,
+  since a naive walk of the raw `VEVENT`s only surfaced each recurring
+  break once. The calendar also contains leftover ESUG 2018 template
+  events (wrong year) mixed in with the real 2019 ones -- filtered out by
+  year. Wed 28 August ran two parallel tracks (Room A / Room B) for most of
+  the day, unlike every other archived year (single-track); since the
+  shared `ProgramSchedule` component has no column/track support, both
+  sessions are listed at their shared time slot with `(Track A)` /
+  `(Track B)` appended to the subject.
+- **Talk data** (`app/data/talks-2019.js`): each calendar entry links to a
+  GitHub-hosted Pillar talk file
+  (`github.com/ESUG/esug.github.io`, `source` branch,
+  `2019-Conference/talks/`) with the talk's title, speaker name(s),
+  abstract, and bio. The GitHub API itself is blocked in the cloud sandbox
+  (`add_repo` required), so the 60 talk files were fetched via
+  `raw.githubusercontent.com` instead and parsed with a Python script
+  (handling several inconsistent Pillar formats: `""Abstract:""` vs plain
+  `Abstract:`, `Name:`/`Email:` field style, per-speaker `Name: bio text`
+  labels, name particles like "van Os" that broke a naive capitalisation
+  regex). A handful of talks needed hand fixes: two calendar entries
+  ("Pharo News", "Rotten Green Tests") shared Stéphane Ducasse's bio from
+  his "Learning by doing" talk since their own Pillar files had a title
+  and abstract but no bio; "RPC in Smalltalk" needed its speaker/abstract
+  split out by hand since the Pillar file had no section markers at all.
+  Light copy-edits only (obvious typos fixed, e.g. "Smallalk" ->
+  "Smalltalk", "Olekskandr" -> "Oleksandr"), matching the convention used
+  for 2022-2026.
+- **Slide links** (`presentationUrl` in `talks-2019.js`, added in a
+  follow-up): ESUG 2019 does have a slide archive like the other years, at
+  `https://archive.esug.org/ESUG2019/` (day folders `01Monday`-`05Friday`,
+  with Wed's second track under a `room-B/` subfolder) -- it's just not
+  linked from an `agenda.html` page, so it wasn't picked up by the initial
+  build. PDFs were matched to talks positionally (day/room order) and spot-
+  checked against a few PDFs' actual title slides. One Wed Track B slot,
+  "Pharo IoT: Present and Future," had no GitHub Pillar file at all (hence
+  no talk data in the initial build), but did have a PDF in `room-B/`; its
+  title and speakers (Allex Oliveira, Marcus Denker, Norbert Hartl) were
+  read off the deck's title slide and back-filled as `talkId`
+  `319-oliv-pharo-iot-present-and-future` (numbered after 318 since
+  301-318 were already assigned) with a `presentationUrl` but no
+  abstract/bio, since none exists for it.
+- **Video links** (`videoId` in `talks-2019.js`, added in a second
+  follow-up): matched from the conference's YouTube playlist
+  (`youtube.com/playlist?list=PLJ5nSnWzQXi8DPNpy1jCkjE4yE0WUtDP2`, 58
+  entries) by title, using the built-in Browser pane's JS execution to read
+  the JS-rendered playlist DOM (a plain fetch only returns static
+  metadata). Video titles sometimes differ from the calendar/Pillar-file
+  title -- e.g. "Kutoa: Programming the Web in Smalltalk" for 109-daws,
+  whose PDF filename ("Programming-the-Web-in-Smalltalk.pdf") confirmed
+  the match. 52 of the 61 catalogued talks got a `videoId`; the 9 without
+  one are all of Wed 28's Track B talks (none were recorded/uploaded,
+  including 319-oliv) plus `403-hins-2019-polymath-updates`. The playlist
+  also includes 6 non-talk entries (a ZWEIDENKER sponsor promo, the
+  Welcome session, the Innovation Technology Awards, both "Show Us Your
+  Projects" social sessions, and a closing trailer) that were excluded from
+  matching since they have no corresponding talkId.
+- **Wiring**: new `esug2019` route/template (mirrors `esug2022.gjs`'s
+  structure exactly), added to `router.js`; `talk.js` now also spreads in
+  `talks-2019`; `talk.gjs`'s `SOURCE_NOTES` gained an `esug2019` entry;
+  `presentations.js` gained `program2019`/`YEAR_DAY_DATES[2019]` so ESUG
+  2019 talks appear in the Presentation Archive search; a new "ESUG 2019
+  Archive" home page tile was added (in the Conference Archives section,
+  after 2022, since it's the oldest archived year).
+- **Image**: no real ESUG 2019/Cologne photo was available, so
+  `public/images/tiles/esug2019.jpg` is currently a placeholder (a reused
+  copy of `esug2022.jpg`) -- flagged in `CREDITS.md`, swap for a real photo
+  when available.
+- Verified with the standard rsync-based build/lint pipeline (see
+  `esug-app-facts` memory) -- both pass clean; the only remaining `prettier
+--check` warnings (`infra/README.md`, `package.json`) are pre-existing
+  and unrelated to this change.
+
 ## Current state
 
 All of the above is built, verified (build + lint passing), and saved in the project folder. Open: confirm the scroll-jump fix on device after `npm run cap:sync` + Xcode rebuild. Natural next steps: plug in the real ESUG 2027 schedule into `program-2027-preview.js` once available, ESUG 2026 videos (once available), further venue/content copy edits, or other conference pages.
