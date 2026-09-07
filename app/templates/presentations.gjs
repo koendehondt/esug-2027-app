@@ -29,7 +29,7 @@ import PresentationSearch from '../components/presentation-search';
     </div>
     <h1>Presentation Archive</h1>
     <p>
-      Search every ESUG presentation from the past five conferences (2022
+      Search every ESUG presentation from the past six conferences (2019, 2022
       &ndash; 2026) by title, speaker, or year. More conferences will be added
       here as they happen.
     </p>
