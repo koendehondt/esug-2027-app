@@ -353,6 +353,63 @@ to source from.
 --check` warnings (`infra/README.md`, `package.json`) are pre-existing
   and unrelated to this change.
 
+## ESUG 2018 Archive added (built from Koen-provided schedule.ics + archive.esug.org + YouTube)
+
+Added a seventh archived conference, ESUG 2018 (Cagliari, 10-14 September
+2018), following the same pattern as ESUG 2019 -- with the source material
+handed over directly by Koen rather than fetched from scratch:
+
+- **Schedule** (`app/data/program-2018.js`): built from a `schedule.ics`
+  Google Calendar export Koen uploaded (the same underlying "Main Track"
+  calendar used for the 2019 archive, which also carries leftover 2018
+  template events -- this time the 2018-dated events are the real data).
+  Unlike 2019's calendar, most 2018 entries carry the talk's full
+  title/abstract/bio directly in the DESCRIPTION field, so no GitHub Pillar
+  file lookup was needed. Thu 13 ran two parallel tracks for its
+  late-morning block (11:00-13:00); both sessions are listed at their
+  shared time slot with `(Track A)`/`(Track B)` appended, with track
+  assignment following the numbering used by the slide archive (otherwise
+  unlabelled by room). Excluded from the main program, matching how IWST is
+  excluded from every other year: Registration, a "Tutorial: AI for
+  Dummies" (Mon 10, overlapped two regular talk slots), and IWST itself
+  (Tue 11, Thu 13, Fri 14). One real talk, "Brick" (Mon 10), has no
+  confirmed speaker in any source (calendar, the archive's info.txt, or web
+  search) and is listed without one rather than guessing.
+- **Talk data** (`app/data/talks-2018.js`): title/abstract/bio sourced
+  directly from the calendar DESCRIPTION field (light copy-edits: HTML
+  stripped, `""Abstract:""`-style labels removed, obvious typos fixed).
+  Two talks had no DESCRIPTION at all -- "GemStone Roadmap" and "Pharo
+  IoT" -- their title and speakers were read off their slide decks' title
+  slides instead (fetched from archive.esug.org).
+- **Slide links** (`presentationUrl`): matched from
+  https://archive.esug.org/ESUG2018/ (day folders `01-Monday`-`05-Friday`,
+  numbered in schedule order, each with a per-talk folder holding the deck
+  and an info.txt) -- fetched folder-by-folder since exact filenames
+  weren't derivable from a pattern. 43 of 49 catalogued talks have a link;
+  the rest were demos ("DemoOnly.txt") or never got slides ("MISSING" in
+  the folder name).
+- **Video links** (`videoId`): matched from the conference's YouTube
+  playlist (Koen-provided URL,
+  `youtube.com/playlist?list=PLJ5nSnWzQXi9RhA8zyKw_qelUpVVlumV9`, 25
+  videos total) by title, using the built-in Browser pane's JS execution
+  to read the `yt-lockup-view-model` DOM entries. 24 of 25 videos matched a
+  talk; the 25th is the Welcome session, which has no talkId.
+- **Wiring**: new `esug2018` route/template (mirrors `esug2019.gjs`'s
+  structure exactly), added to `router.js` after `esug2019`; `talk.js` now
+  also spreads in `talks-2018`; `talk.gjs`'s `SOURCE_NOTES` gained an
+  `esug2018` entry; `presentations.js` gained `program2018`/
+  `YEAR_DAY_DATES[2018]` so ESUG 2018 talks appear in the Presentation
+  Archive search (now "seven conferences" everywhere that count was
+  mentioned: `presentations.gjs`, its home tile summary, `CREDITS.md`); a
+  new "ESUG 2018 Archive" home page tile was added (Conference Archives
+  section, after 2019, since it's now the oldest archived year).
+- **Image**: `public/images/tiles/esug2018.jpg` is a real AI-generated
+  image Koen provided (a Cagliari/ESUG'18-themed collage, already sized
+  1536x1024), matching the house convention -- credited in `CREDITS.md`.
+- Verified with the standard rsync-based build/lint pipeline (see
+  `esug-app-facts` memory) -- both pass clean; the only remaining `prettier
+--check` warning (`infra/README.md`) is pre-existing and unrelated.
+
 ## Current state
 
 All of the above is built, verified (build + lint passing), and saved in the project folder. Open: confirm the scroll-jump fix on device after `npm run cap:sync` + Xcode rebuild. Natural next steps: plug in the real ESUG 2027 schedule into `program-2027-preview.js` once available, ESUG 2026 videos (once available), further venue/content copy edits, or other conference pages.

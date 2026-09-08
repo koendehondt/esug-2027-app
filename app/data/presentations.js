@@ -21,6 +21,9 @@
 //   2019: the conference's public Google Calendar .ics feed (26-30 Aug
 //         2019); ESUG 2019 predates the agenda-page format used from 2022
 //         onward, see app/data/program-2019.js for detail.
+//   2018: the conference's public Google Calendar .ics feed (10-14 Sep
+//         2018, provided directly by Koen); ESUG 2018 predates the
+//         agenda-page format too, see app/data/program-2018.js for detail.
 //   2022: https://esug.org/2022-Conference/conf2022.html (22-26 Aug 2022)
 //   2023: https://esug.org/2023-Conference/conf2023.html (28 Aug-1 Sep 2023)
 //   2024: https://esug.org/2024-Conference/conf2024.html (8-11 Jul 2024)
@@ -30,6 +33,7 @@
 
 import program2022 from './program-2022';
 import program2019 from './program-2019';
+import program2018 from './program-2018';
 import program2023 from './program-2023';
 import program2024 from './program-2024';
 import program2025 from './program-2025';
@@ -37,6 +41,7 @@ import program2026 from './program-2026';
 
 const YEAR_PROGRAMS = {
   2019: program2019,
+  2018: program2018,
   2022: program2022,
   2023: program2023,
   2024: program2024,
@@ -46,6 +51,7 @@ const YEAR_PROGRAMS = {
 
 const YEAR_DAY_DATES = {
   2019: ['2019-08-26', '2019-08-27', '2019-08-28', '2019-08-29', '2019-08-30'],
+  2018: ['2018-09-10', '2018-09-11', '2018-09-12', '2018-09-13', '2018-09-14'],
   2022: ['2022-08-22', '2022-08-23', '2022-08-24', '2022-08-25', '2022-08-26'],
   2023: ['2023-08-28', '2023-08-29', '2023-08-30', '2023-08-31', '2023-09-01'],
   2024: ['2024-07-08', '2024-07-09', '2024-07-10', '2024-07-11'],

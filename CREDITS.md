@@ -21,6 +21,7 @@ doesn't need network access to display them). Original sources:
 | ESUG 2023 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2022 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2019 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2018 Archive      | AI-generated, provided by Koen                                             |
 | ESUG 2026 Program      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2025 Program      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2024 Program      | AI-generated (ChatGPT), provided by Koen                                   |
@@ -103,6 +104,32 @@ https://github.com/ESUG/esug.github.io/tree/source/2025-Conference/talks,
 copyright their respective speakers. Not every talk has slides or an
 abstract available.
 
+The ESUG 2018 Archive's Conference Program page
+(`app/data/program-2018.js`) is built from the conference's public Google
+Calendar (Main Track `.ics` feed), provided directly by Koen as
+`schedule.ics`, since ESUG 2018 predates the `agenda.html`/slide-archive
+format used from 2022 onward. Unlike ESUG 2019's calendar, most ESUG 2018
+calendar entries carry each talk's title, abstract, and bio directly in
+the DESCRIPTION field, so that is the primary source for
+`app/data/talks-2018.js` too; two talks ("GemStone Roadmap", "Pharo IoT")
+had no DESCRIPTION at all, so their title and speakers were read off their
+slide decks' title slides instead. Presentation slide links point at the
+PDFs hosted in https://archive.esug.org/ESUG2018/ (day folders
+01-Monday..05-Friday), matched to talks by day/position; a few talks were
+demos with no deck, or never received their slides ("MISSING" in the
+folder name). Video links point at the conference's YouTube playlist
+(https://www.youtube.com/playlist?list=PLJ5nSnWzQXi9RhA8zyKw_qelUpVVlumV9),
+matched to talks by title; 24 of the 49 catalogued talks were
+recorded/uploaded. Thu 13 September ran two parallel tracks for its
+late-morning block; since the shared `ProgramSchedule` component has no
+track-column support, parallel sessions are listed sequentially with
+`(Track A)` / `(Track B)` appended to the subject -- track assignment
+follows the numbering used by the slide archive, which is otherwise
+unlabelled by room. One talk ("Brick") was a real scheduled session but
+no source (calendar, archive info.txt, or web search) could confirm its
+speaker, so it is listed on the program without a speaker or talk page.
+Not every talk has an abstract, slide link, or video available.
+
 The ESUG 2019 Archive's Conference Program page
 (`app/data/program-2019.js`) is built from the conference's public Google
 Calendar (Main Track `.ics` feed, https://esug.org/2019-Conference/conf2019.html),
@@ -158,13 +185,14 @@ and not every talk has an abstract available.
 # Presentations search page credits
 
 The Presentations page (`app/data/presentations.js`) reuses the existing
-`app/data/program-YYYY.js` schedules (2019, 2022-2026) rather than sourcing
+`app/data/program-YYYY.js` schedules (2018, 2019, 2022-2026) rather than sourcing
 new content. Full calendar dates for each conference day (the schedules
 only carry day-of-week/day-of-month labels) come from each year's official
 "book the dates" announcement (2019: from its Google Calendar feed instead,
 see above):
 
 - 2019: https://esug.org/2019-Conference/conf2019.html (26-30 August 2019)
+- 2018: from its Google Calendar feed, provided directly by Koen (10-14 September 2018)
 - 2022: https://esug.org/2022-Conference/conf2022.html (22-26 August 2022)
 - 2023: https://esug.org/2023-Conference/conf2023.html (28 August-1 September 2023)
 - 2024: https://esug.org/2024-Conference/conf2024.html (8-11 July 2024)
