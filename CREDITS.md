@@ -22,6 +22,7 @@ doesn't need network access to display them). Original sources:
 | ESUG 2022 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2019 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2018 Archive      | AI-generated, provided by Koen                                             |
+| ESUG 2017 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2026 Program      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2025 Program      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2024 Program      | AI-generated (ChatGPT), provided by Koen                                   |
@@ -130,6 +131,39 @@ no source (calendar, archive info.txt, or web search) could confirm its
 speaker, so it is listed on the program without a speaker or talk page.
 Not every talk has an abstract, slide link, or video available.
 
+The ESUG 2017 Archive's Conference Program page
+(`app/data/program-2017.js`) is built the same way, from the conference's
+public Google Calendar (Main Track `.ics` feed,
+`1b6gsg4lfp8nkuicn3clljjtn8@group.calendar.google.com` -- the same calendar
+embedded, unmodified, by https://esug.org/2017-Conference/monday.html and
+its Tue-Fri equivalents). Most calendar entries carry each talk's title,
+abstract, and bio directly in the DESCRIPTION field, the primary source
+for `app/data/talks-2017.js` too. No slide archive exists for ESUG 2017
+(https://archive.esug.org/ESUG2017/ only holds the venue map). Instead, 9
+of the 32 catalogued talks link directly to a matching deck on the `esug`
+SlideShare account as their `presentationUrl` (Koen has a SlideShare
+account and downloaded these PDFs himself; without one, SlideShare gates
+downloads behind signup and what looks like a paid trial). Several other
+otherwise-plausible SlideShare matches, by title and speaker, turned out
+on inspection to be the same talk given at a different ESUG year (or, for
+"Cargo", at Pharo Days rather than ESUG) and were discarded rather than
+linked. Video links point at the conference's YouTube
+playlist
+(https://www.youtube.com/playlist?list=PLJ5nSnWzQXi_THfKwhzxFwbXy00YTi0uv),
+matched to talks by title; 29 of the 32 catalogued talks were
+recorded/uploaded. Five talks with a video ("Moose reloaded", "Cargo",
+"Bloc new hands-on", "Dimensional Analysis", "Understanding the Pharo Dev
+Process") had no DESCRIPTION at all and no source could confirm a
+speaker, so each is listed on the program with its video but without a
+speaker. "GemStone/64 company and business update" shares its calendar
+DESCRIPTION with the following "GemStone/64 update and roadmap" session
+(naming both Dan Ware's business update and Norm Green's product
+roadmap), so it is listed with Dan Ware as speaker but no talk page of
+its own. Two further playlist videos ("Iceberg", "PharoJS") could not be
+matched to any calendar session at all -- with no source confirming
+their day, time, or speaker, they are omitted from the program rather
+than guessed. Not every talk has an abstract or video available.
+
 The ESUG 2019 Archive's Conference Program page
 (`app/data/program-2019.js`) is built from the conference's public Google
 Calendar (Main Track `.ics` feed, https://esug.org/2019-Conference/conf2019.html),
@@ -185,7 +219,7 @@ and not every talk has an abstract available.
 # Presentations search page credits
 
 The Presentations page (`app/data/presentations.js`) reuses the existing
-`app/data/program-YYYY.js` schedules (2018, 2019, 2022-2026) rather than sourcing
+`app/data/program-YYYY.js` schedules (2017-2019, 2022-2026) rather than sourcing
 new content. Full calendar dates for each conference day (the schedules
 only carry day-of-week/day-of-month labels) come from each year's official
 "book the dates" announcement (2019: from its Google Calendar feed instead,
@@ -193,6 +227,7 @@ see above):
 
 - 2019: https://esug.org/2019-Conference/conf2019.html (26-30 August 2019)
 - 2018: from its Google Calendar feed, provided directly by Koen (10-14 September 2018)
+- 2017: from its Google Calendar feed (4-8 September 2017)
 - 2022: https://esug.org/2022-Conference/conf2022.html (22-26 August 2022)
 - 2023: https://esug.org/2023-Conference/conf2023.html (28 August-1 September 2023)
 - 2024: https://esug.org/2024-Conference/conf2024.html (8-11 July 2024)

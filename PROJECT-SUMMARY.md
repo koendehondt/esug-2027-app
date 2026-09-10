@@ -413,3 +413,85 @@ handed over directly by Koen rather than fetched from scratch:
 ## Current state
 
 All of the above is built, verified (build + lint passing), and saved in the project folder. Open: confirm the scroll-jump fix on device after `npm run cap:sync` + Xcode rebuild. Natural next steps: plug in the real ESUG 2027 schedule into `program-2027-preview.js` once available, ESUG 2026 videos (once available), further venue/content copy edits, or other conference pages.
+
+## ESUG 2017 Archive added (built from the conference's public Google Calendar + YouTube)
+
+Added an eighth archived conference, ESUG 2017 (Maribor, Slovenia, 4-8
+September 2017), the earliest year yet -- sourced entirely from public web
+data (no files handed over directly this time):
+
+- **Schedule** (`app/data/program-2017.js`): built from the conference's
+  public Google Calendar (Main Track `.ics` feed,
+  `1b6gsg4lfp8nkuicn3clljjtn8@group.calendar.google.com` -- the exact
+  calendar the user linked to, and the same one embedded, unmodified, by
+  https://esug.org/2017-Conference/monday.html and its Tue-Fri
+  equivalents, confirmed by fetching those pages and finding only an
+  `<iframe>` to the same calendar). Fetched via the built-in Browser
+  pane's `javascript_tool` (same-origin `fetch()` against the calendar's
+  `basic.ics` export after navigating to `calendar.google.com`, since
+  `WebFetch` is blocked by the calendar's `robots.txt`), then parsed into
+  structured events with a small inline ICS parser (unfolding continuation
+  lines, expanding `RRULE`/`RECURRENCE-ID` for the recurring
+  Break/Lunch/IWST blocks, converting `Z` timestamps to Europe/Paris local
+  time by adding the 2-hour CEST offset). Excluded from the program:
+  Registration, IWST, and Camp Smalltalk (3 September, the day before the
+  conference proper). Five real talks with a confirmed video but no
+  DESCRIPTION and no speaker confirmable anywhere (calendar, playlist, web
+  search) keep their `talkId`/video but no `speaker` rather than guessing
+  one. Two further YouTube videos ("Iceberg", "PharoJS") don't appear in
+  the calendar at all and aren't in the program either, for the same
+  reason.
+- **Talk data** (`app/data/talks-2017.js`): title/abstract/bio sourced
+  directly from the calendar DESCRIPTION field, same as ESUG 2018.
+- **No slide archive, but 9 real SlideShare PDFs added later**: confirmed
+  by fetching https://archive.esug.org/ESUG2017/, which only has the
+  venue-map PDF (no day folders like every later year) -- matching what
+  the user said up front. Follow-up: the user asked about downloading the
+  actual PDFs from SlideShare. SlideShare (now run by Scribd) gates
+  "Download now"/"Download free for 30 days" behind account signup and
+  what looks like a paid trial -- outside what Claude can do on the
+  user's behalf -- but the user has his own SlideShare account; once he
+  signed in (in the built-in Browser pane, which he can see and use
+  directly -- Claude never handled his credentials), the same "Download"
+  button produced a real file, and Claude clicked through the whole batch
+  per his explicit instruction not to ask permission per file. Candidate
+  decks were found by web-searching each talk's title/speaker (SlideShare's
+  own in-site search doesn't reliably surface decks this old), but the
+  `esug` account turned out to have re-uploaded similarly/identically
+  titled decks from _other_ ESUG years under the same slug pattern --
+  5 otherwise-plausible matches were caught and discarded after actually
+  opening the deck and reading its title slide, which named a different
+  year/conference (2015, 2016, 2019, 2022, or "Pharo Days 2017" instead of
+  ESUG 2017): 'Running Pharo on the GemStone VM', 'GemStone/64 update and
+  roadmap', 'VA Smalltalk Product Update and Roadmap', 'Bloc new
+  hands-on', and 'Cargo'. One of those (the wrong-year PharoGs deck) had
+  already been clicked/downloaded before the mismatch was caught; the
+  stray file was deleted from the user's Downloads folder afterward. The
+  remaining 9 confirmed talks each got a `presentationUrl` and a
+  downloaded PDF in `~/Downloads/ESUG 2017 presentations/` on the user's
+  machine; the other 23 of the 32 catalogued talks have no confirmed
+  SlideShare deck. See `talks-2017.js`'s header comment for the full
+  explanation.
+- **Video links** (`videoId`): matched from the conference's YouTube
+  playlist (`youtube.com/playlist?list=PLJ5nSnWzQXi_THfKwhzxFwbXy00YTi0uv`,
+  34 videos) by title, reading each row's `aria-label` (this playlist's
+  DOM used a newer `yt-lockup-view-model` structure where the anchor text
+  itself is just the duration, unlike earlier years -- `aria-label` still
+  carried the full title). 29 of the 32 talks matched a video.
+- **Wiring**: new `esug2017` route/template (mirrors `esug2018.gjs`'s
+  structure); `talk.js` now also spreads in `talks-2017`; `talk.gjs`'s
+  `SOURCE_NOTES` gained an `esug2017` entry; `presentations.js` gained
+  `program2017`/`YEAR_DAY_DATES[2017]` so ESUG 2017 talks appear in the
+  Presentation Archive search (now "eight conferences" everywhere that
+  count was mentioned: `presentations.gjs`, its home tile summary,
+  `CREDITS.md`); a new "ESUG 2017 Archive" home page tile was added
+  (Conference Archives section, after 2018, since it's now the oldest
+  archived year).
+- **Image**: `public/images/tiles/esug2017.jpg` is the background image
+  the user uploaded directly with the request (a Cagliari/Maribor-style
+  "looking back" desk collage, already sized 1536x1024, converted from PNG
+  to JPEG to match the other tiles) -- credited in `CREDITS.md`.
+- Verified with the standard rsync-based build/lint pipeline (see
+  `esug-app-facts` memory) -- both pass clean; the only remaining
+  `prettier --check` warning (`infra/README.md`) is pre-existing and
+  unrelated.

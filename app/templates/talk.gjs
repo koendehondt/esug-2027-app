@@ -33,6 +33,7 @@ const SOURCE_NOTES = {
   esug2022: 'From the ESUG 2022 program.',
   esug2019: 'From the ESUG 2019 program.',
   esug2018: 'From the ESUG 2018 program.',
+  esug2017: 'From the ESUG 2017 program.',
   presentations: 'Found via the Presentation Archive search.',
 };
 const DEFAULT_SOURCE_NOTE =
@@ -63,6 +64,18 @@ export default class TalkTemplate extends Component {
 
   get videoWatchUrl() {
     return `https://www.youtube.com/watch?v=${this.args.model.videoId}`;
+  }
+
+  // Every talk's presentationUrl currently points either at a hosted PDF
+  // (archive.esug.org) or at a SlideShare deck page (slideshare.net,
+  // view-only, no direct file) -- see talks-2017.js's header comment for
+  // why the latter exist at all. Label accordingly rather than always
+  // saying "Download the slides", since a SlideShare link isn't a download.
+  get presentationLinkLabel() {
+    const url = this.args.model.presentationUrl ?? '';
+    return url.includes('slideshare.net')
+      ? 'Slides on Slideshare'
+      : 'Download the PDF slides';
   }
 
   <template>
@@ -115,7 +128,7 @@ export default class TalkTemplate extends Component {
         {{#if @model.abstractParagraphs.length}}
           <h2 class="talk-section-heading talk-abstract-heading">Abstract</h2>
           <p class="talk-abstract-note">
-            <em>Submitted after the call for participation.</em>
+            <em>Submitted in response to the call for participation.</em>
           </p>
           {{#each @model.abstractParagraphs as |runs|}}
             <RichParagraph @runs={{runs}} />
@@ -141,7 +154,7 @@ export default class TalkTemplate extends Component {
               class="talk-link"
               target="_blank"
               rel="noopener noreferrer"
-            >Download the slides</a>
+            >{{this.presentationLinkLabel}}</a>
           </p>
         {{/if}}
 

@@ -799,8 +799,6 @@ export default {
   '408-luna-data-storytelling': {
     videoId: 'vgOTutzReOs',
     title: 'Data Storytelling with Pharo',
-    presentationUrl:
-      'https://archive.esug.org/ESUG2024/day4/08-data-storytelling-with-pharo.svg',
     abstractParagraphs: [
       [
         {

@@ -1,17 +1,14 @@
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
-import PresentationSearch from '../components/presentation-search';
+import ProgramSchedule from '../components/program-schedule';
+import program2017 from '../data/program-2017';
 
 <template>
-  {{pageTitle "Presentation Archive"}}
+  {{pageTitle "ESUG 2017 Archive"}}
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/presentations.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/esug2017.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="index" class="page-back" aria-label="Home">
         <span class="page-back-icon">
           <svg
@@ -27,14 +24,14 @@ import PresentationSearch from '../components/presentation-search';
         </span>
       </LinkTo>
     </div>
-    <h1>Presentation Archive</h1>
-    <p>
-      Search every ESUG presentation from the past eight conferences (2017,
-      2018, 2019, 2022 &ndash; 2026) by title, speaker, or year. More
-      conferences will be added here as they happen.
-    </p>
+    <h1>ESUG 2017 Archive</h1>
+    <p>Looking back on a great conference in Maribor.</p>
 
-    <PresentationSearch @presentations={{@model}} />
+    <h2 class="page-section-heading">Conference Program</h2>
+    <p class="program-preview-intro">
+      The full ESUG 2017 program &mdash; pick a day to see its sessions.
+    </p>
+    <ProgramSchedule @days={{program2017}} />
   </article>
 
   {{outlet}}

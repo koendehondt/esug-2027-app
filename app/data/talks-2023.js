@@ -566,8 +566,6 @@ export default {
   '304-luna-grafoscopio': {
     videoId: '1KKfxV5DcOc',
     title: 'Grafoscopio: Civic tech and how we change the tools that change us',
-    presentationUrl:
-      'https://archive.esug.org/ESUG2023/day3/04%20-%20Grafoscopio%2C%20Civic%20Tech%20and%20How%20We%20Change%20the%20Tools%20That%20Change%20Us/esug-2023.svg',
     abstractParagraphs: [
       [
         {
