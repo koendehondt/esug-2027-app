@@ -32,48 +32,58 @@
 // time-slot subfolder per session), each with an Info.txt/Infos.txt
 // naming the SlideShare deck, PDF, and YouTube link -- see
 // talks-2016.js's header comment for how those were used.
+//
+// 'Welcome' (Mon 22) has its own talk page (`101-duca-welcome`) even
+// though its calendar entry carries no DESCRIPTION -- Koen identified its
+// YouTube video (https://youtu.be/4GxBJeAAYh0) and speaker (Stéphane
+// Ducasse) directly, and its slide-archive folder has a matching PDF.
 export default [
   {
     id: 'day-1',
     label: 'Mon 22',
     sessions: [
-      { time: '10:00 – 10:30', subject: 'Welcome' },
+      {
+        time: '10:00 – 10:30',
+        subject: 'Welcome',
+        talkId: '101-duca-welcome',
+        speaker: 'Stéphane Ducasse',
+      },
       { time: '10:30 – 11:00', subject: 'Coffee break' },
       {
         time: '11:00 – 11:45',
         subject: 'Cincom Smalltalk Roadmap 2016',
-        talkId: '101-thom-cincom-smalltalk-roadmap-2016',
+        talkId: '102-thom-cincom-smalltalk-roadmap-2016',
         speaker: 'Arden Thomas',
       },
       {
         time: '11:45 – 12:30',
         subject: 'The Glamorous Toolkit: Towards a novel live IDE',
-        talkId: '102-girb-the-glamorous-toolkit-towards-a-novel-live-ide',
+        talkId: '103-girb-the-glamorous-toolkit-towards-a-novel-live-ide',
         speaker: 'Tudor Gîrba',
       },
       { time: '12:30 – 14:00', subject: 'Lunch break' },
       {
         time: '14:00 – 14:30',
         subject: 'A tour on Spur for non-VM experts',
-        talkId: '103-poli-a-tour-on-spur-for-non-vm-experts',
+        talkId: '104-poli-a-tour-on-spur-for-non-vm-experts',
         speaker: 'Guillermo Polito',
       },
       {
         time: '14:30 – 15:00',
         subject: 'Hidden Gems in Cincom Smalltalk',
-        talkId: '104-thom-hidden-gems-in-cincom-smalltalk',
+        talkId: '105-thom-hidden-gems-in-cincom-smalltalk',
         speaker: 'Arden Thomas',
       },
       {
         time: '15:00 – 15:30',
         subject: 'PharoJS',
-        talkId: '105-bour-pharojs',
+        talkId: '106-bour-pharojs',
         speaker: 'Noury Bouraqadi, Dave Mason',
       },
       {
         time: '15:30 – 16:00',
         subject: 'Intro to GemStone/S',
-        talkId: '106-fost-intro-to-gemstone-s',
+        talkId: '107-fost-intro-to-gemstone-s',
         speaker: 'James Foster',
       },
       { time: '16:00 – 16:30', subject: 'Coffee break' },

@@ -30,6 +30,10 @@
 //   a handful of others (mostly Wed 24 and Fri 26 morning sessions) have
 //   no `videoId` because the session folder held no video file and no
 //   Info.txt YouTube link either.
+// - '101-duca-welcome' (Welcome) is the exception: its calendar entry has
+//   no DESCRIPTION, so its `videoId` and speaker came directly from Koen
+//   rather than from the calendar or an Info.txt file; its `presentationUrl`
+//   still points at the matching PDF in the slide archive.
 //
 // Presenter names come from the schedule (app/data/program-2016.js) rather
 // than being duplicated here.
@@ -37,7 +41,13 @@
 // Each paragraph is an array of "runs" -- plain text segments, matching
 // the shape used by the other talks-YYYY.js files.
 export default {
-  '101-thom-cincom-smalltalk-roadmap-2016': {
+  '101-duca-welcome': {
+    title: 'Welcome',
+    videoId: '4GxBJeAAYh0',
+    presentationUrl:
+      'https://archive.esug.org/ESUG2016/01-Monday/1000-1030%20Welcome/2016-08-22-a-ESUG-WelcomePrague.pdf',
+  },
+  '102-thom-cincom-smalltalk-roadmap-2016': {
     title: 'Cincom Smalltalk Roadmap 2016',
     videoId: 'ZV-1gecpttY',
     presentationUrl:
@@ -57,7 +67,7 @@ export default {
       ],
     ],
   },
-  '102-girb-the-glamorous-toolkit-towards-a-novel-live-ide': {
+  '103-girb-the-glamorous-toolkit-towards-a-novel-live-ide': {
     title: 'The Glamorous Toolkit: Towards a novel live IDE',
     videoId: 'XWOOJa3kEa0',
     presentationUrl:
@@ -92,7 +102,7 @@ export default {
       ],
     ],
   },
-  '103-poli-a-tour-on-spur-for-non-vm-experts': {
+  '104-poli-a-tour-on-spur-for-non-vm-experts': {
     title: 'A tour on Spur for non-VM experts',
     videoId: 'OlJZMHLTfuc',
     presentationUrl:
@@ -112,7 +122,7 @@ export default {
       ],
     ],
   },
-  '104-thom-hidden-gems-in-cincom-smalltalk': {
+  '105-thom-hidden-gems-in-cincom-smalltalk': {
     title: 'Hidden Gems in Cincom Smalltalk',
     videoId: 'UnCcrT5qRDw',
     presentationUrl:
@@ -132,7 +142,7 @@ export default {
       ],
     ],
   },
-  '105-bour-pharojs': {
+  '106-bour-pharojs': {
     title: 'PharoJS',
     videoId: 'nmRPSb0t9lw',
     presentationUrl:
@@ -157,7 +167,7 @@ export default {
       ],
     ],
   },
-  '106-fost-intro-to-gemstone-s': {
+  '107-fost-intro-to-gemstone-s': {
     title: 'Intro to GemStone/S',
     videoId: 'NGMxjtOl8oA',
     presentationUrl:

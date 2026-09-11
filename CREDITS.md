@@ -181,8 +181,11 @@ no deck (or only a Prezi export), and a few sessions have no video because
 none was uploaded. Two talks ("Pharo Update", "Pillar: one language for
 all supports") had no DESCRIPTION naming a speaker and no other source
 (SlideShare deck, YouTube upload) could confirm one, so each is listed on
-the program with its slide link but without a speaker or talk page. Not
-every talk has an abstract, slide link, or video available.
+the program with its slide link but without a speaker or talk page. The
+"Welcome" session (Mon 22) does have a talk page (its own calendar entry
+had no DESCRIPTION, but Koen identified its YouTube video and speaker,
+Stéphane Ducasse, directly). Not every talk has an abstract, slide link,
+or video available.
 
 The ESUG 2019 Archive's Conference Program page
 (`app/data/program-2019.js`) is built from the conference's public Google
