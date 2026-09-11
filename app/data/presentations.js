@@ -1,5 +1,5 @@
 // Flattened, searchable index of every ESUG presentation with a scheduled
-// session across the past eight archived conferences (2017-2019,
+// session across the past nine archived conferences (2016-2019,
 // 2022-2026), for the Presentations search page
 // (app/templates/presentations.gjs).
 //
@@ -25,6 +25,9 @@
 //   2017: the conference's public Google Calendar .ics feed (4-8 Sep
 //         2017), same source and format as ESUG 2018 above, see
 //         app/data/program-2017.js for detail.
+//   2016: the conference's public Google Calendar .ics feed (22-26 Aug
+//         2016, linked directly by Koen), see app/data/program-2016.js
+//         for detail.
 //   2018: the conference's public Google Calendar .ics feed (10-14 Sep
 //         2018, provided directly by Koen); ESUG 2018 predates the
 //         agenda-page format too, see app/data/program-2018.js for detail.
@@ -36,6 +39,7 @@
 //         matching program-2026.js's own day labels)
 
 import program2022 from './program-2022';
+import program2016 from './program-2016';
 import program2019 from './program-2019';
 import program2018 from './program-2018';
 import program2017 from './program-2017';
@@ -45,6 +49,7 @@ import program2025 from './program-2025';
 import program2026 from './program-2026';
 
 const YEAR_PROGRAMS = {
+  2016: program2016,
   2019: program2019,
   2018: program2018,
   2017: program2017,
@@ -56,6 +61,7 @@ const YEAR_PROGRAMS = {
 };
 
 const YEAR_DAY_DATES = {
+  2016: ['2016-08-22', '2016-08-23', '2016-08-24', '2016-08-25', '2016-08-26'],
   2019: ['2019-08-26', '2019-08-27', '2019-08-28', '2019-08-29', '2019-08-30'],
   2018: ['2018-09-10', '2018-09-11', '2018-09-12', '2018-09-13', '2018-09-14'],
   2017: ['2017-09-04', '2017-09-05', '2017-09-06', '2017-09-07', '2017-09-08'],

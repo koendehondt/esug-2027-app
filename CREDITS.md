@@ -23,6 +23,7 @@ doesn't need network access to display them). Original sources:
 | ESUG 2019 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2018 Archive      | AI-generated, provided by Koen                                             |
 | ESUG 2017 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2016 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2026 Program      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2025 Program      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2024 Program      | AI-generated (ChatGPT), provided by Koen                                   |
@@ -163,6 +164,25 @@ its own. Two further playlist videos ("Iceberg", "PharoJS") could not be
 matched to any calendar session at all -- with no source confirming
 their day, time, or speaker, they are omitted from the program rather
 than guessed. Not every talk has an abstract or video available.
+
+The ESUG 2016 Archive's Conference Program page
+(`app/data/program-2016.js`) is built from the conference's public Google
+Calendar (Main Track `.ics` feed,
+`8tt9grjos12ool4hqrpifjle9s@group.calendar.google.com`, linked directly by
+Koen). Most calendar entries carry each talk's title, abstract, and bio
+directly in the DESCRIPTION field, the primary source for
+`app/data/talks-2016.js` too. Unlike ESUG 2017-2019, ESUG 2016 has its own
+real slide-and-video archive at https://archive.esug.org/ESUG2016/ (day
+folders, each with a further per-session time-slot subfolder), whose
+Info.txt/Infos.txt files directly name each session's PDF and YouTube
+link, so `presentationUrl` and `videoId` were sourced from there rather
+than by matching a separate YouTube playlist. A few talks were demos with
+no deck (or only a Prezi export), and a few sessions have no video because
+none was uploaded. Two talks ("Pharo Update", "Pillar: one language for
+all supports") had no DESCRIPTION naming a speaker and no other source
+(SlideShare deck, YouTube upload) could confirm one, so each is listed on
+the program with its slide link but without a speaker or talk page. Not
+every talk has an abstract, slide link, or video available.
 
 The ESUG 2019 Archive's Conference Program page
 (`app/data/program-2019.js`) is built from the conference's public Google
