@@ -38,6 +38,15 @@ export default [
     image: '/images/tiles/travel.jpg',
   },
   {
+    id: 'accommodation',
+    title: 'Accommodation',
+    summary: 'Where to stay during ESUG 2027.',
+    date: '',
+    active: false,
+    routeName: 'accommodation',
+    image: '/images/tiles/accommodation.jpg',
+  },
+  {
     id: 'call-for-presentations',
     title: 'Call for Presentations',
     summary: 'Submit your talk proposal for ESUG 2027.',

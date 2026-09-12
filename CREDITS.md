@@ -9,6 +9,7 @@ doesn't need network access to display them). Original sources:
 | Venue                  | https://commons.wikimedia.org/wiki/File:VUB_campus_Etterbeek.JPG           |
 | City Information       | https://commons.wikimedia.org/wiki/File:Atomium_Belgium_1.jpg              |
 | Trip Information       | https://commons.wikimedia.org/wiki/File:Eurostar_at_Brussels_Midi-Zuid.jpg |
+| Accommodation          | Provided by Koen                                                           |
 | Call for Presentations | AI-generated (ChatGPT), provided by Koen                                   |
 | IWST / Workshop        | AI-generated (ChatGPT), provided by Koen                                   |
 | Technology Award       | AI-generated (ChatGPT), provided by Koen                                   |
