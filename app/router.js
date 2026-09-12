@@ -22,6 +22,7 @@ Router.map(function () {
   this.route('sponsors');
   this.route('presentations');
   this.route('past-conferences');
+  this.route('host-a-conference');
   this.route('esug2026');
   this.route('esug2025');
   this.route('esug2024');

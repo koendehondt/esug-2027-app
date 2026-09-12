@@ -297,3 +297,11 @@ conference year that has one (2010, 2012-2019, 2022-2026); their copyright
 belongs to the respective conference's organizing committee. Years without
 a logo on file (1993-2009 except 2010, plus 2011) are shown as a plain
 year/location tile instead.
+
+# Hosting a Conference page credits
+
+The "Hosting a Conference" page (`app/templates/host-a-conference.gjs`)
+carries over the text of https://esug.org/host_esug_events.html
+(proofread for spelling/grammar, UK spelling), as a starting point to be
+edited later. `public/images/tiles/host-a-conference.jpg` (also used as
+the page hero) is an image Koen provided directly.

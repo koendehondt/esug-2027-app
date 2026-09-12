@@ -12,7 +12,17 @@ import { tracked } from '@glimmer/tracking';
 // `lastProgramRoute` lets the talk detail page's back link return to
 // whichever program page the visitor actually came from, instead of
 // always going to the 2027 preview.
+//
+// `archiveEntryRoute` does the same job for each ESUG YYYY Archive page's
+// back link: a conference archive can be reached either from the home
+// page's tiles or from the Past Conferences page, so its own back link
+// needs to return to whichever of those the visitor actually came from
+// rather than always going home. The "index" and "past-conferences"
+// routes each set this in their own `activate()` hook; every esugYYYY
+// route reads it in `model()` (before overwriting `lastProgramRoute` with
+// its own name) so its template can link back to the right place.
 export default class ProgramScheduleStateService extends Service {
   @tracked selectedDayIndex = 0;
   @tracked lastProgramRoute = 'program';
+  @tracked archiveEntryRoute = 'index';
 }

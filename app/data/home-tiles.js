@@ -152,6 +152,15 @@ export const conferencesTiles = [
     routeName: 'past-conferences',
     image: '/images/tiles/past-conferences.jpg',
   },
+  {
+    id: 'host-a-conference',
+    title: 'Hosting a Conference',
+    summary: 'What it takes to bring the ESUG conference to your city.',
+    date: '',
+    active: true,
+    routeName: 'host-a-conference',
+    image: '/images/tiles/host-a-conference.jpg',
+  },
 ];
 
 // Tiles for past conferences, shown in their own "Archives" section on

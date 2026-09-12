@@ -4,6 +4,10 @@ import { service } from '@ember/service';
 export default class Esug2015Route extends Route {
   @service programScheduleState;
 
+  model() {
+    return { backRoute: this.programScheduleState.archiveEntryRoute };
+  }
+
   activate() {
     this.programScheduleState.lastProgramRoute = 'esug2015';
   }

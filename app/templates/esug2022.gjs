@@ -9,7 +9,7 @@ import program2022 from '../data/program-2022';
   <article class="page">
     <div class="page-hero">
       <img src="/images/tiles/esug2022.jpg" alt="" class="page-hero-image" />
-      <LinkTo @route="index" class="page-back" aria-label="Home">
+      <LinkTo @route={{@model.backRoute}} class="page-back" aria-label="Back">
         <span class="page-back-icon">
           <svg
             viewBox="0 0 24 24"

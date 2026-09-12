@@ -495,3 +495,22 @@ data (no files handed over directly this time):
   `esug-app-facts` memory) -- both pass clean; the only remaining
   `prettier --check` warning (`infra/README.md`) is pre-existing and
   unrelated.
+
+## New "Hosting a Conference" tile/page in the Conferences section
+
+Added a new tile to the home page's "Conferences" section (alongside "Past
+Conferences"): "Hosting a Conference", linking to a new `host-a-conference`
+route/page.
+
+- `app/templates/host-a-conference.gjs` reproduces the text of
+  https://esug.org/host_esug_events.html verbatim (Local Organizing
+  Committee / Date and Location / Organization infos and prices) as a
+  starting point -- to be edited/improved later, per the user.
+- `public/images/tiles/host-a-conference.jpg` is an image Koen provided
+  directly, used as both the tile background and the page hero (1536x1024
+  JPEG, matching the other tiles).
+- Wired into `app/router.js` and `app/data/home-tiles.js`
+  (`conferencesTiles`); credited in `CREDITS.md`.
+- Verified with the standard rsync-based build/lint pipeline -- both pass
+  clean; the only remaining `prettier --check` warning (`infra/README.md`)
+  is pre-existing and unrelated.
