@@ -8,6 +8,7 @@ import talks2019 from '../data/talks-2019';
 import talks2018 from '../data/talks-2018';
 import talks2017 from '../data/talks-2017';
 import talks2016 from '../data/talks-2016';
+import talks2015 from '../data/talks-2015';
 import presentations from '../data/presentations';
 
 // This route is shared by every ESUG program (the 2027 preview and each
@@ -26,6 +27,7 @@ const talks = {
   ...talks2018,
   ...talks2017,
   ...talks2016,
+  ...talks2015,
 };
 
 export default class TalkRoute extends Route {

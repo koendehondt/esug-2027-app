@@ -1,5 +1,5 @@
 // Flattened, searchable index of every ESUG presentation with a scheduled
-// session across the past nine archived conferences (2016-2019,
+// session across the past ten archived conferences (2015-2019,
 // 2022-2026), for the Presentations search page
 // (app/templates/presentations.gjs).
 //
@@ -28,6 +28,9 @@
 //   2016: the conference's public Google Calendar .ics feed (22-26 Aug
 //         2016, linked directly by Koen), see app/data/program-2016.js
 //         for detail.
+//   2015: the conference's public Google Calendar .ics feed (13-17 Jul
+//         2015, linked directly by Koen), see app/data/program-2015.js
+//         for detail.
 //   2018: the conference's public Google Calendar .ics feed (10-14 Sep
 //         2018, provided directly by Koen); ESUG 2018 predates the
 //         agenda-page format too, see app/data/program-2018.js for detail.
@@ -40,6 +43,7 @@
 
 import program2022 from './program-2022';
 import program2016 from './program-2016';
+import program2015 from './program-2015';
 import program2019 from './program-2019';
 import program2018 from './program-2018';
 import program2017 from './program-2017';
@@ -50,6 +54,7 @@ import program2026 from './program-2026';
 
 const YEAR_PROGRAMS = {
   2016: program2016,
+  2015: program2015,
   2019: program2019,
   2018: program2018,
   2017: program2017,
@@ -62,6 +67,7 @@ const YEAR_PROGRAMS = {
 
 const YEAR_DAY_DATES = {
   2016: ['2016-08-22', '2016-08-23', '2016-08-24', '2016-08-25', '2016-08-26'],
+  2015: ['2015-07-13', '2015-07-14', '2015-07-15', '2015-07-16', '2015-07-17'],
   2019: ['2019-08-26', '2019-08-27', '2019-08-28', '2019-08-29', '2019-08-30'],
   2018: ['2018-09-10', '2018-09-11', '2018-09-12', '2018-09-13', '2018-09-14'],
   2017: ['2017-09-04', '2017-09-05', '2017-09-06', '2017-09-07', '2017-09-08'],
@@ -88,11 +94,16 @@ function formatDate(isoDate) {
 // dashes, so e.g. "(Turbo)Phausto: news from the pit lane" sorts as if it
 // were written "TurboPhausto news from the pit lane" -- alongside the other
 // T titles -- instead of jumping to the front of the list because "(" sorts
-// before every letter. Computed once per presentation and stored as its
+// before every letter. It also drops a leading multi-part marker like
+// "(1/2)" or "(2/2)" (used on talks split across two schedule slots, e.g.
+// ESUG 2015's "(1/2) Reflectivity: Behavioral Reflection in Pharo") so
+// those sort under the talk's actual title rather than jumping to the
+// front under "1"/"2". Computed once per presentation and stored as its
 // `sortKey` field (rather than recomputed on every comparison during
 // sort); the original title is still displayed as-is.
 function sortKey(title) {
   return title
+    .replace(/^\(\d+\/\d+\)\s*/, '')
     .replace(/[^\p{L}\p{N}\s]/gu, '')
     .replace(/\s+/g, ' ')
     .trim();

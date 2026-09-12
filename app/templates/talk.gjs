@@ -35,6 +35,7 @@ const SOURCE_NOTES = {
   esug2018: 'From the ESUG 2018 program.',
   esug2017: 'From the ESUG 2017 program.',
   esug2016: 'From the ESUG 2016 program.',
+  esug2015: 'From the ESUG 2015 program.',
   presentations: 'Found via the Presentation Archive search.',
 };
 const DEFAULT_SOURCE_NOTE =

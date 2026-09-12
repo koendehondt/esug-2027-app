@@ -147,7 +147,7 @@ export const archiveTiles = [
     id: 'presentations',
     title: 'Presentation Archive',
     summary:
-      'Search every ESUG talk from the past nine conferences by title, speaker, or year.',
+      'Search every ESUG talk from the past ten conferences by title, speaker, or year.',
     date: '',
     active: true,
     routeName: 'presentations',
@@ -233,5 +233,14 @@ export const archiveTiles = [
     active: true,
     routeName: 'esug2016',
     image: '/images/tiles/esug2016.jpg',
+  },
+  {
+    id: 'esug2015-archive',
+    title: 'ESUG 2015 Archive',
+    summary: 'Looking back on a great conference in Brescia.',
+    date: '',
+    active: true,
+    routeName: 'esug2015',
+    image: '/images/tiles/esug2015.jpg',
   },
 ];

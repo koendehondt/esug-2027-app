@@ -24,6 +24,7 @@ doesn't need network access to display them). Original sources:
 | ESUG 2018 Archive      | AI-generated, provided by Koen                                             |
 | ESUG 2017 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2016 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2015 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2026 Program      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2025 Program      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2024 Program      | AI-generated (ChatGPT), provided by Koen                                   |
@@ -187,6 +188,34 @@ had no DESCRIPTION, but Koen identified its YouTube video and speaker,
 Stéphane Ducasse, directly). Not every talk has an abstract, slide link,
 or video available.
 
+The ESUG 2015 Archive's Conference Program page
+(`app/data/program-2015.js`) is built from the conference's public Google
+Calendar (Main Track `.ics` feed,
+`qajq51tk7t22h6u87dp01b6ncc@group.calendar.google.com`, linked directly by
+Koen). Most calendar entries carry each talk's title, abstract, and bio
+directly in the DESCRIPTION field, the primary source for
+`app/data/talks-2015.js` too. ESUG 2015 also has its own real slide
+archive at https://archive.esug.org/ESUG2015/ (day folders, each with a
+further per-session time-slot subfolder, same layout as ESUG 2016), but
+only 14 of the 37 catalogued talks have a subfolder there at all
+(`archive.esug.org/ESUG2015/MISSING.txt` lists several more sessions as
+known-missing recordings or slides); the archive's own folder-name times
+don't match the calendar's schedule (the calendar times are internally
+consistent once converted from UTC to Europe/Paris and were used
+throughout, see `program-2015.js`'s header comment), so archived PDFs
+were matched to a session by title rather than by day/time.
+`videoId` values come from the conference's YouTube playlist
+(https://www.youtube.com/playlist?list=PLJ5nSnWzQXi9rnk77bTf-juPt5I6-ered,
+81 entries, most talks split across 2-3 videos there), matched by title.
+Two sessions ('Welcome' and 'Smalltalk/X: Test Automation') have no
+calendar DESCRIPTION at all; their speaker (Stéphane Ducasse and Claus
+Gittinger respectively) was read directly off their YouTube video's own
+title/description. Thu 16 July ran two parallel tracks for its afternoon
+session; since the shared `ProgramSchedule` component has no
+track-column support, parallel sessions are listed sequentially with
+'(Track A)' / '(Track B)' appended to the subject. Not every talk has an
+abstract, slide link, or video available.
+
 The ESUG 2019 Archive's Conference Program page
 (`app/data/program-2019.js`) is built from the conference's public Google
 Calendar (Main Track `.ics` feed, https://esug.org/2019-Conference/conf2019.html),
@@ -242,13 +271,14 @@ and not every talk has an abstract available.
 # Presentations search page credits
 
 The Presentations page (`app/data/presentations.js`) reuses the existing
-`app/data/program-YYYY.js` schedules (2017-2019, 2022-2026) rather than sourcing
+`app/data/program-YYYY.js` schedules (2015-2019, 2022-2026) rather than sourcing
 new content. Full calendar dates for each conference day (the schedules
 only carry day-of-week/day-of-month labels) come from each year's official
 "book the dates" announcement (2019: from its Google Calendar feed instead,
 see above):
 
 - 2019: https://esug.org/2019-Conference/conf2019.html (26-30 August 2019)
+- 2015: from its Google Calendar feed, linked directly by Koen (13-17 July 2015)
 - 2018: from its Google Calendar feed, provided directly by Koen (10-14 September 2018)
 - 2017: from its Google Calendar feed (4-8 September 2017)
 - 2022: https://esug.org/2022-Conference/conf2022.html (22-26 August 2022)
