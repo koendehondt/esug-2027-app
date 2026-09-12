@@ -36,6 +36,7 @@ doesn't need network access to display them). Original sources:
 | ESUG 2023 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2022 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
 | Presentation Archive   | AI-generated, provided by Koen                                             |
+| Past Conferences       | AI-generated (ChatGPT), provided by Koen                                   |
 | About ESUG             | Provided by Koen                                                           |
 | Membership and Support | Provided by Koen                                                           |
 | Become a Sponsor       | Provided by Koen                                                           |
@@ -287,3 +288,12 @@ see above):
 - 2025: https://esug.org/2025-Conference/conf2025.html (1-4 July 2025)
 - 2026: https://esug.org/2026-Conference/agenda.html (7-10 July 2026),
   matching `program-2026.js`'s own day labels
+
+# Past Conferences page credits
+
+The conference logos on the Past Conferences page
+(`public/images/conference-logos/`) were provided directly by Koen, one per
+conference year that has one (2010, 2012-2019, 2022-2026); their copyright
+belongs to the respective conference's organizing committee. Years without
+a logo on file (1993-2009 except 2010, plus 2011) are shown as a plain
+year/location tile instead.

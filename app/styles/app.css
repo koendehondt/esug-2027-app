@@ -628,6 +628,87 @@ body {
   font-style: italic;
 }
 
+/* Past Conferences page */
+
+.conference-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.conference-logo-tile,
+.conference-year-tile {
+  position: relative;
+  display: block;
+  border-radius: 0.6rem;
+  background: #fff;
+  border: 1px solid var(--esug-border);
+}
+
+/* Squares every tile via the "padding-top: 100%" technique rather than the
+   `aspect-ratio` property -- more reliable across WebViews (including the
+   one Capacitor uses on iOS) than relying on `aspect-ratio` combined with a
+   flex child's percentage max-height. */
+.conference-logo-tile::before,
+.conference-year-tile::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+a.conference-logo-tile,
+a.conference-year-tile {
+  text-decoration: none;
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease;
+}
+
+a.conference-logo-tile:hover,
+a.conference-logo-tile:focus-visible,
+a.conference-year-tile:hover,
+a.conference-year-tile:focus-visible {
+  border-color: var(--esug-blue-dark);
+  transform: translateY(-2px);
+}
+
+.conference-tile-frame {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+}
+
+.conference-logo-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.conference-year-tile .conference-tile-frame {
+  flex-direction: column;
+  gap: 0.15rem;
+  text-align: center;
+}
+
+.conference-year-tile-year {
+  color: var(--esug-blue-dark);
+  font-family: "Baloo 2", cursive;
+  font-weight: 800;
+  font-size: 1.15rem;
+  line-height: 1.1;
+}
+
+.conference-year-tile-location {
+  display: block;
+  color: var(--esug-muted);
+  font-size: 0.72rem;
+  line-height: 1.2;
+}
+
 /* Presentations search page */
 
 .presentation-search-filters {

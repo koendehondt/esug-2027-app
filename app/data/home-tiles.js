@@ -140,6 +140,20 @@ export const esugTiles = [
   },
 ];
 
+// Tiles for the "Conferences" section on the home page, shown before the
+// "Conference Archives" section.
+export const conferencesTiles = [
+  {
+    id: 'past-conferences',
+    title: 'Past Conferences',
+    summary: 'Every ESUG conference since 1993.',
+    date: '',
+    active: true,
+    routeName: 'past-conferences',
+    image: '/images/tiles/past-conferences.jpg',
+  },
+];
+
 // Tiles for past conferences, shown in their own "Archives" section on
 // the home page, separate from the upcoming ESUG 2027 tiles above.
 export const archiveTiles = [
