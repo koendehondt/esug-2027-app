@@ -157,11 +157,13 @@ import { LinkTo } from '@ember/routing';
           />
         </span>
       </div>
-      <div class="conference-year-tile">
+      <div class="conference-logo-tile">
         <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2011</span>
-          <span class="conference-year-tile-location">Edinburgh</span>
-          <span class="conference-year-tile-location">UK</span>
+          <img
+            src="/images/conference-logos/esug-2011.png"
+            alt="ESUG 2011, Edinburgh, UK"
+            class="conference-logo-image"
+          />
         </span>
       </div>
       <div class="conference-logo-tile">
@@ -173,39 +175,49 @@ import { LinkTo } from '@ember/routing';
           />
         </span>
       </div>
-      <div class="conference-year-tile">
+      <div class="conference-logo-tile">
         <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2009</span>
-          <span class="conference-year-tile-location">Brest</span>
-          <span class="conference-year-tile-location">France</span>
+          <img
+            src="/images/conference-logos/esug-2009.png"
+            alt="ESUG 2009, Brest, France"
+            class="conference-logo-image"
+          />
         </span>
       </div>
-      <div class="conference-year-tile">
+      <div class="conference-logo-tile">
         <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2008</span>
-          <span class="conference-year-tile-location">Amsterdam</span>
-          <span class="conference-year-tile-location">The Netherlands</span>
+          <img
+            src="/images/conference-logos/esug-2008.png"
+            alt="ESUG 2008, Amsterdam, The Netherlands"
+            class="conference-logo-image"
+          />
         </span>
       </div>
-      <div class="conference-year-tile">
+      <div class="conference-logo-tile">
         <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2007</span>
-          <span class="conference-year-tile-location">Lugano</span>
-          <span class="conference-year-tile-location">Switzerland</span>
+          <img
+            src="/images/conference-logos/esug-2007.png"
+            alt="ESUG 2007, Lugano, Switzerland"
+            class="conference-logo-image"
+          />
         </span>
       </div>
-      <div class="conference-year-tile">
+      <div class="conference-logo-tile">
         <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2006</span>
-          <span class="conference-year-tile-location">Prague</span>
-          <span class="conference-year-tile-location">Czech Republic</span>
+          <img
+            src="/images/conference-logos/esug-2006.png"
+            alt="ESUG 2006, Prague, Czech Republic"
+            class="conference-logo-image"
+          />
         </span>
       </div>
-      <div class="conference-year-tile">
+      <div class="conference-logo-tile">
         <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2005</span>
-          <span class="conference-year-tile-location">Brussels</span>
-          <span class="conference-year-tile-location">Belgium</span>
+          <img
+            src="/images/conference-logos/esug-2005.png"
+            alt="ESUG 2005, Brussels, Belgium"
+            class="conference-logo-image"
+          />
         </span>
       </div>
       <div class="conference-year-tile">
@@ -215,11 +227,13 @@ import { LinkTo } from '@ember/routing';
           <span class="conference-year-tile-location">Germany</span>
         </span>
       </div>
-      <div class="conference-year-tile">
+      <div class="conference-logo-tile">
         <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2003</span>
-          <span class="conference-year-tile-location">Bled</span>
-          <span class="conference-year-tile-location">Slovenia</span>
+          <img
+            src="/images/conference-logos/esug-2003.png"
+            alt="ESUG 2003, Bled, Slovenia"
+            class="conference-logo-image"
+          />
         </span>
       </div>
       <div class="conference-year-tile">

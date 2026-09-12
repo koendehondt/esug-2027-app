@@ -294,10 +294,10 @@ see above):
 
 The conference logos on the Past Conferences page
 (`public/images/conference-logos/`) were provided directly by Koen, one per
-conference year that has one (2010, 2012-2019, 2022-2026); their copyright
+conference year that has one (2003, 2005-2019, 2022-2026); their copyright
 belongs to the respective conference's organizing committee. Years without
-a logo on file (1993-2009 except 2010, plus 2011) are shown as a plain
-year/location tile instead.
+a logo on file (1993-2002, 2004) are shown as a plain year/location tile
+instead.
 
 # Hosting a Conference page credits
 
