@@ -21,23 +21,9 @@ const RichParagraph = <template>
   </p>
 </template>;
 
-// Maps the program route a talk was reached from to the note shown at the
-// bottom of the talk page, since this same template serves the ESUG 2027
-// Conference Program preview (which reproduces the 2026 program) as well as
-// each past conference's own archived program.
-const SOURCE_NOTES = {
-  esug2026: 'From the ESUG 2026 program.',
-  esug2025: 'From the ESUG 2025 program.',
-  esug2024: 'From the ESUG 2024 program.',
-  esug2023: 'From the ESUG 2023 program.',
-  esug2022: 'From the ESUG 2022 program.',
-  esug2019: 'From the ESUG 2019 program.',
-  esug2018: 'From the ESUG 2018 program.',
-  esug2017: 'From the ESUG 2017 program.',
-  esug2016: 'From the ESUG 2016 program.',
-  esug2015: 'From the ESUG 2015 program.',
-  presentations: 'Found via the Presentation Archive search.',
-};
+// The note shown at the bottom of the talk page, since this same template
+// serves the current edition's Conference Program preview as well as the
+// Presentation Archive search and each archived conference's own program.
 const DEFAULT_SOURCE_NOTE =
   'From the ESUG 2026 program, reproduced here as a preview of what a typical ESUG talk looks like.';
 
@@ -45,10 +31,15 @@ export default class TalkTemplate extends Component {
   @service programScheduleState;
 
   get sourceNote() {
-    return (
-      SOURCE_NOTES[this.programScheduleState.lastProgramRoute] ??
-      DEFAULT_SOURCE_NOTE
-    );
+    const { lastProgramRoute, lastProgramModels } = this.programScheduleState;
+
+    if (lastProgramRoute === 'archive') {
+      return `From the ESUG ${lastProgramModels[0]} program.`;
+    }
+    if (lastProgramRoute === 'presentations') {
+      return 'Found via the Presentation Archive search.';
+    }
+    return DEFAULT_SOURCE_NOTE;
   }
 
   // The native iOS/Android app wraps a WKWebView/WebView that YouTube's
@@ -70,8 +61,8 @@ export default class TalkTemplate extends Component {
 
   // Every talk's presentationUrl currently points either at a hosted PDF
   // (archive.esug.org) or at a SlideShare deck page (slideshare.net,
-  // view-only, no direct file) -- see talks-2017.js's header comment for
-  // why the latter exist at all. Label accordingly rather than always
+  // view-only, no direct file) -- see app/data/archive/SOURCES.md's 2017
+  // entry for why the latter exist at all. Label accordingly rather than always
   // saying "Download the slides", since a SlideShare link isn't a download.
   get presentationLinkLabel() {
     const url = this.args.model.presentationUrl ?? '';
@@ -87,6 +78,7 @@ export default class TalkTemplate extends Component {
       <div class="page-hero">
         <LinkTo
           @route={{this.programScheduleState.lastProgramRoute}}
+          @models={{this.programScheduleState.lastProgramModels}}
           class="page-back"
           aria-label="Back to program"
         >
@@ -203,8 +195,10 @@ export default class TalkTemplate extends Component {
       {{else}}
         <p class="page-notice">
           We couldn't find that talk. It may have moved &mdash;
-          <LinkTo @route={{this.programScheduleState.lastProgramRoute}}>head
-            back to the program</LinkTo>.
+          <LinkTo
+            @route={{this.programScheduleState.lastProgramRoute}}
+            @models={{this.programScheduleState.lastProgramModels}}
+          >head back to the program</LinkTo>.
         </p>
       {{/if}}
     </article>

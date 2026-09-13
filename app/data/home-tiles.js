@@ -7,6 +7,8 @@
 // All `image` values point at files under public/images/tiles/ so the app
 // works fully offline. See CREDITS.md for sources and licenses.
 
+import { archiveYears } from './archive';
+
 // Tiles for the upcoming ESUG 2027 conference.
 export default [
   {
@@ -185,94 +187,14 @@ export const archiveTiles = [
     routeName: 'presentations',
     image: '/images/tiles/presentations.jpg',
   },
-  {
-    id: 'esug2026-archive',
-    title: 'ESUG 2026 Archive',
-    summary: 'Looking back on a great conference in Plovdiv.',
+  ...archiveYears.map((entry) => ({
+    id: `esug${entry.year}-archive`,
+    title: `ESUG ${entry.year} Archive`,
+    summary: `Looking back on a great conference in ${entry.city}.`,
     date: '',
     active: true,
-    routeName: 'esug2026',
-    image: '/images/tiles/esug2026.jpg',
-  },
-  {
-    id: 'esug2025-archive',
-    title: 'ESUG 2025 Archive',
-    summary: 'Looking back on a great conference in Gdańsk.',
-    date: '',
-    active: true,
-    routeName: 'esug2025',
-    image: '/images/tiles/esug2025.jpg',
-  },
-  {
-    id: 'esug2024-archive',
-    title: 'ESUG 2024 Archive',
-    summary: 'Looking back on a great conference in Lille.',
-    date: '',
-    active: true,
-    routeName: 'esug2024',
-    image: '/images/tiles/esug2024.jpg',
-  },
-  {
-    id: 'esug2023-archive',
-    title: 'ESUG 2023 Archive',
-    summary: 'Looking back on a great conference in Lyon.',
-    date: '',
-    active: true,
-    routeName: 'esug2023',
-    image: '/images/tiles/esug2023.jpg',
-  },
-  {
-    id: 'esug2022-archive',
-    title: 'ESUG 2022 Archive',
-    summary: 'Looking back on a great conference in Novi Sad.',
-    date: '',
-    active: true,
-    routeName: 'esug2022',
-    image: '/images/tiles/esug2022.jpg',
-  },
-  {
-    id: 'esug2019-archive',
-    title: 'ESUG 2019 Archive',
-    summary: 'Looking back on a great conference in Cologne.',
-    date: '',
-    active: true,
-    routeName: 'esug2019',
-    image: '/images/tiles/esug2019.jpg',
-  },
-  {
-    id: 'esug2018-archive',
-    title: 'ESUG 2018 Archive',
-    summary: 'Looking back on a great conference in Cagliari.',
-    date: '',
-    active: true,
-    routeName: 'esug2018',
-    image: '/images/tiles/esug2018.jpg',
-  },
-  {
-    id: 'esug2017-archive',
-    title: 'ESUG 2017 Archive',
-    summary: 'Looking back on a great conference in Maribor.',
-    date: '',
-    active: true,
-    routeName: 'esug2017',
-    image: '/images/tiles/esug2017.jpg',
-  },
-  {
-    id: 'esug2016-archive',
-    title: 'ESUG 2016 Archive',
-    summary: 'Looking back on a great conference in Prague.',
-    date: '',
-    active: true,
-    routeName: 'esug2016',
-    image: '/images/tiles/esug2016.jpg',
-  },
-  {
-    id: 'esug2015-archive',
-    title: 'ESUG 2015 Archive',
-    summary: 'Looking back on a great conference in Brescia.',
-    date: '',
-    active: true,
-    routeName: 'esug2015',
-    image: '/images/tiles/esug2015.jpg',
-  },
+    routeName: 'archive',
+    routeModels: [entry.year],
+    image: entry.heroImage,
+  })),
 ];

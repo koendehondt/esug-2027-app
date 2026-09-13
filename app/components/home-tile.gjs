@@ -40,6 +40,14 @@ export default class HomeTile extends Component {
   // Two hidden ways to preview an inactive tile's page early, ahead of its
   // official activation date: shift-click (desktop) or 5 quick taps
   // (touch/phone). Not a public affordance — for content authors only.
+  // Most tiles link to a plain static route ("venue", "program", ...), but
+  // an archive tile links to the "archive" route's :year dynamic segment,
+  // so it carries a `routeModels` array (e.g. `[2026]`) alongside its
+  // `routeName`. Default to no models for every other tile.
+  get routeModels() {
+    return this.args.tile.routeModels ?? [];
+  }
+
   @action
   handleInactiveClick(event) {
     const routeName = this.args.tile.routeName;
@@ -49,7 +57,7 @@ export default class HomeTile extends Component {
 
     if (event.shiftKey) {
       event.preventDefault();
-      this.router.transitionTo(routeName);
+      this.router.transitionTo(routeName, ...this.routeModels);
       return;
     }
 
@@ -63,7 +71,7 @@ export default class HomeTile extends Component {
     if (this.tapCount >= TAP_COUNT_THRESHOLD) {
       this.tapCount = 0;
       event.preventDefault();
-      this.router.transitionTo(routeName);
+      this.router.transitionTo(routeName, ...this.routeModels);
     }
   }
 
@@ -71,6 +79,7 @@ export default class HomeTile extends Component {
     {{#if @tile.active}}
       <LinkTo
         @route={{@tile.routeName}}
+        @models={{this.routeModels}}
         class="home-tile home-tile-active"
         {{setBackgroundImage @tile.image @tile.imagePosition}}
       >
