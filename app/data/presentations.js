@@ -1,82 +1,25 @@
 // Flattened, searchable index of every ESUG presentation with a scheduled
-// session across the past ten archived conferences (2015-2019,
-// 2022-2026), for the Presentations search page
-// (app/templates/presentations.gjs).
+// session across every archived conference (see app/data/archive/index.js),
+// for the Presentations search page (app/templates/presentations.gjs).
 //
-// Built by walking each year's program-YYYY.js schedule (day -> sessions),
-// which already carries the presentation title (`subject`), `speaker`, and
+// Built by walking each archived year's `program` (day -> sessions), which
+// already carries the presentation title (`subject`), `speaker`, and
 // `time` -- the same fields program-schedule.gjs renders, and the same
-// title used in talks-YYYY.js, so there's no need to also import the
-// talks-YYYY.js files here.
+// title used in that year's `talks`, so there's no need to also read
+// `talks` here.
 //
 // Sessions without a `speaker` are breaks/social slots and are excluded --
 // they aren't presentations. Sessions with a `speaker` but no `talkId`
-// (see the talks-YYYY.js file comments for why) are included with their
-// title, speaker, and date/time, just without a link to a talk page.
+// are included with their title, speaker, and date/time, just without a
+// link to a talk page.
 //
-// `program-YYYY.js` files only carry day-of-week/day-of-month *labels*
-// (e.g. "Tue 1"), not full calendar dates. So full dates are hardcoded
-// below instead, matched by each day's position in the program array (not
-// by parsing the label text) and sourced from each year's official "book
-// the dates" page:
-//   2019: the conference's public Google Calendar .ics feed (26-30 Aug
-//         2019); ESUG 2019 predates the agenda-page format used from 2022
-//         onward, see app/data/program-2019.js for detail.
-//   2017: the conference's public Google Calendar .ics feed (4-8 Sep
-//         2017), same source and format as ESUG 2018 above, see
-//         app/data/program-2017.js for detail.
-//   2016: the conference's public Google Calendar .ics feed (22-26 Aug
-//         2016, linked directly by Koen), see app/data/program-2016.js
-//         for detail.
-//   2015: the conference's public Google Calendar .ics feed (13-17 Jul
-//         2015, linked directly by Koen), see app/data/program-2015.js
-//         for detail.
-//   2018: the conference's public Google Calendar .ics feed (10-14 Sep
-//         2018, provided directly by Koen); ESUG 2018 predates the
-//         agenda-page format too, see app/data/program-2018.js for detail.
-//   2022: https://esug.org/2022-Conference/conf2022.html (22-26 Aug 2022)
-//   2023: https://esug.org/2023-Conference/conf2023.html (28 Aug-1 Sep 2023)
-//   2024: https://esug.org/2024-Conference/conf2024.html (8-11 Jul 2024)
-//   2025: https://esug.org/2025-Conference/conf2025.html (1-4 Jul 2025)
-//   2026: https://esug.org/2026-Conference/agenda.html (7-10 Jul 2026,
-//         matching program-2026.js's own day labels)
+// Each archived year's `program` only carries day-of-week/day-of-month
+// *labels* (e.g. "Tue 1"), not full calendar dates, so each year's own
+// `dayDates` (full ISO dates, matched by day position) is used instead --
+// see app/data/archive/<year>.json and app/data/archive/SOURCES.md for
+// where those dates came from.
 
-import program2022 from './program-2022';
-import program2016 from './program-2016';
-import program2015 from './program-2015';
-import program2019 from './program-2019';
-import program2018 from './program-2018';
-import program2017 from './program-2017';
-import program2023 from './program-2023';
-import program2024 from './program-2024';
-import program2025 from './program-2025';
-import program2026 from './program-2026';
-
-const YEAR_PROGRAMS = {
-  2016: program2016,
-  2015: program2015,
-  2019: program2019,
-  2018: program2018,
-  2017: program2017,
-  2022: program2022,
-  2023: program2023,
-  2024: program2024,
-  2025: program2025,
-  2026: program2026,
-};
-
-const YEAR_DAY_DATES = {
-  2016: ['2016-08-22', '2016-08-23', '2016-08-24', '2016-08-25', '2016-08-26'],
-  2015: ['2015-07-13', '2015-07-14', '2015-07-15', '2015-07-16', '2015-07-17'],
-  2019: ['2019-08-26', '2019-08-27', '2019-08-28', '2019-08-29', '2019-08-30'],
-  2018: ['2018-09-10', '2018-09-11', '2018-09-12', '2018-09-13', '2018-09-14'],
-  2017: ['2017-09-04', '2017-09-05', '2017-09-06', '2017-09-07', '2017-09-08'],
-  2022: ['2022-08-22', '2022-08-23', '2022-08-24', '2022-08-25', '2022-08-26'],
-  2023: ['2023-08-28', '2023-08-29', '2023-08-30', '2023-08-31', '2023-09-01'],
-  2024: ['2024-07-08', '2024-07-09', '2024-07-10', '2024-07-11'],
-  2025: ['2025-07-01', '2025-07-02', '2025-07-03', '2025-07-04'],
-  2026: ['2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10'],
-};
+import { archiveYears } from './archive';
 
 const DATE_FORMATTER = new Intl.DateTimeFormat('en-GB', {
   weekday: 'short',
@@ -101,6 +44,10 @@ function formatDate(isoDate) {
 // front under "1"/"2". Computed once per presentation and stored as its
 // `sortKey` field (rather than recomputed on every comparison during
 // sort); the original title is still displayed as-is.
+//
+// Two presentations can share the exact same title across different years
+// (e.g. a recurring "Company Update" talk) -- see buildPresentations()
+// below for how those ties are broken deterministically.
 function sortKey(title) {
   return title
     .replace(/^\(\d+\/\d+\)\s*/, '')
@@ -112,10 +59,7 @@ function sortKey(title) {
 function buildPresentations() {
   const presentations = [];
 
-  for (const [yearKey, program] of Object.entries(YEAR_PROGRAMS)) {
-    const year = Number(yearKey);
-    const dayDates = YEAR_DAY_DATES[year];
-
+  for (const { year, program, dayDates } of archiveYears) {
     program.forEach((day, dayIndex) => {
       const isoDate = dayDates[dayIndex];
 
@@ -137,7 +81,9 @@ function buildPresentations() {
     });
   }
 
-  presentations.sort((a, b) => a.sortKey.localeCompare(b.sortKey));
+  presentations.sort(
+    (a, b) => a.sortKey.localeCompare(b.sortKey) || a.year - b.year,
+  );
 
   return presentations;
 }

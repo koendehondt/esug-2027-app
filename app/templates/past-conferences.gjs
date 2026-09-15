@@ -1,5 +1,6 @@
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
+import { archiveYears } from '../data/archive';
 
 <template>
   {{pageTitle "Past Conferences"}}
@@ -40,96 +41,21 @@ import { LinkTo } from '@ember/routing';
     </p>
 
     <div class="conference-logo-grid">
-      <LinkTo @route="esug2026" class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2026.png"
-            alt="ESUG 2026, Plovdiv, Bulgaria"
-            class="conference-logo-image"
-          />
-        </span>
-      </LinkTo>
-      <LinkTo @route="esug2025" class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2025.png"
-            alt="ESUG 2025, Gdansk, Poland"
-            class="conference-logo-image"
-          />
-        </span>
-      </LinkTo>
-      <LinkTo @route="esug2024" class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2024.png"
-            alt="ESUG 2024, Lille, France"
-            class="conference-logo-image"
-          />
-        </span>
-      </LinkTo>
-      <LinkTo @route="esug2023" class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2023.png"
-            alt="ESUG 2023, Lyon, France"
-            class="conference-logo-image"
-          />
-        </span>
-      </LinkTo>
-      <LinkTo @route="esug2022" class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2022.png"
-            alt="ESUG 2022, Novi Sad, Serbia"
-            class="conference-logo-image"
-          />
-        </span>
-      </LinkTo>
-      <LinkTo @route="esug2019" class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2019.png"
-            alt="ESUG 2019, Cologne, Germany"
-            class="conference-logo-image"
-          />
-        </span>
-      </LinkTo>
-      <LinkTo @route="esug2018" class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2018.png"
-            alt="ESUG 2018, Cagliari, Italy"
-            class="conference-logo-image"
-          />
-        </span>
-      </LinkTo>
-      <LinkTo @route="esug2017" class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2017.png"
-            alt="ESUG 2017, Maribor, Slovenia"
-            class="conference-logo-image"
-          />
-        </span>
-      </LinkTo>
-      <LinkTo @route="esug2016" class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2016.png"
-            alt="ESUG 2016, Prague, Czech Republic"
-            class="conference-logo-image"
-          />
-        </span>
-      </LinkTo>
-      <LinkTo @route="esug2015" class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2015.png"
-            alt="ESUG 2015, Brescia, Italy"
-            class="conference-logo-image"
-          />
-        </span>
-      </LinkTo>
+      {{#each archiveYears as |entry|}}
+        <LinkTo
+          @route="archive"
+          @model={{entry.year}}
+          class="conference-logo-tile"
+        >
+          <span class="conference-tile-frame">
+            <img
+              src={{entry.logoImage}}
+              alt="ESUG {{entry.year}}, {{entry.city}}, {{entry.country}}"
+              class="conference-logo-image"
+            />
+          </span>
+        </LinkTo>
+      {{/each}}
       <div class="conference-logo-tile">
         <span class="conference-tile-frame">
           <img

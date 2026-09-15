@@ -6,5 +6,6 @@ export default class ProgramRoute extends Route {
 
   activate() {
     this.programScheduleState.lastProgramRoute = 'program';
+    this.programScheduleState.lastProgramModels = [];
   }
 }

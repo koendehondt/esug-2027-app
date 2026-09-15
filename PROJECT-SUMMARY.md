@@ -514,3 +514,171 @@ route/page.
 - Verified with the standard rsync-based build/lint pipeline -- both pass
   clean; the only remaining `prettier --check` warning (`infra/README.md`)
   is pre-existing and unrelated.
+
+## Archive data migration: program-YYYY.js/talks-YYYY.js -> archive/<year>.json
+
+First step of a larger plan (discussed with the user, not yet fully
+implemented) to make this an evergreen app that gets reused for every
+future ESUG conference, not a 2027-specific build: once ESUG 2027 is over,
+the plan is to archive it the same way as every prior year and stand up
+2028 tiles/pages in its place. The immediate blocker was that every
+archived year duplicated an entire route + template + two data files
+(`esug2015.js`/`.gjs`, `program-2015.js`, `talks-2015.js`, ... one set per
+year) even though `program-schedule.gjs` and `presentation-search.gjs`
+were already fully generic -- all eleven year templates were byte-for-byte
+identical except for the year, city name, image path, and imported data
+module.
+
+- **Conversion**: `program-YYYY.js`/`talks-YYYY.js` are plain JS literals
+  (no imports, so safe to evaluate directly) -- converted to
+  `app/data/archive/<year>.json` with a one-off Node script that swapped
+  each file's `export default` for `module.exports =` and `require()`'d
+  the result, rather than hand-transcribing. Verified with a deep-equal
+  check against the originals before deleting them. Each archive JSON
+  also carries `year`, `city`, `country`, `heroImage`, `logoImage`, and
+  `dayDates` (the full ISO dates each year's program only had
+  weekday/day-of-month labels for -- previously hardcoded in
+  `presentations.js`'s `YEAR_DAY_DATES`).
+- **`app/data/archive/index.js`**: eager static imports of all ten
+  `<year>.json` files (explicit imports, matching the codebase's existing
+  convention, rather than a bundler-glob) exporting `archiveYears`
+  (newest-first array), `archiveByYear` (lookup map), and `allTalks`
+  (merged across years). To archive a future year: add its `<year>.json`
+  here and one line to `archiveYears`.
+- **One dynamic route**: `app/router.js`'s eleven `this.route('esugYYYY')`
+  entries became `this.route('archive', { path: '/archive/:year' })`,
+  with a single `app/routes/archive.js` + `app/templates/archive.gjs`
+  (generalized from the old `esug2026.gjs`) replacing all eleven
+  route/template pairs. `app/routes/application.js`'s scroll-restoration
+  `RESTORABLE_ROUTES` list had a stray `'esug2026'` entry (scroll position
+  was apparently only ever preserved for that one archived year) --
+  changed to `'archive'`, which now covers every archived year.
+- **`programScheduleState` service**: `lastProgramRoute` used to be just a
+  route-name string, fine when every archived year had its own route name.
+  Now that they all share `'archive'`, the service also tracks
+  `lastProgramModels` (e.g. `[2026]`) so the talk detail page's back link
+  (`<LinkTo @route={{...lastProgramRoute}} @models={{...lastProgramModels}}>`)
+  still returns to the specific year. `talk.gjs`'s old `SOURCE_NOTES`
+  lookup table (one hardcoded entry per archived year) became a small
+  `sourceNote` getter that builds the string from `lastProgramModels[0]`.
+- **`presentations.js`**: rebuilt to walk `archiveYears` instead of ten
+  hand-maintained `program-YYYY.js` imports. Its final sort by title
+  turned out to rely on an _undocumented_ tiebreak for presentations that
+  share an exact title across years (e.g. a recurring "Company Update"
+  talk) -- the old code's tie order was really just an accident of
+  `Object.entries()` key insertion order in the old `YEAR_PROGRAMS`
+  object. Caught by a script that rebuilt the presentations list under
+  both the old and new iteration order and diffed them. Fixed with an
+  explicit `|| a.year - b.year` tiebreak (oldest first) so the result no
+  longer depends on iteration order -- a deliberate, minor, user-visible
+  change to search result order for the ~14 titles this affects.
+- **`home-tiles.js`**: `archiveTiles`' ten hand-written year entries are
+  now `archiveYears.map(...)`. `home-tile.gjs`'s `<LinkTo>` needed a
+  `@models` argument to support the archive route's `:year` segment
+  (defaults to `[]` via a `routeModels` getter for every other, static-
+  route tile, including the "Presentation Archive" tile which stays
+  hand-written since it isn't year-based).
+- **`past-conferences.gjs`**: its eleven hardcoded
+  `<LinkTo @route="esugYYYY">` logo tiles (2015-2026) became a
+  `{{#each archiveYears as |entry|}}` loop using each entry's `logoImage`/
+  `city`/`country`. The non-linked legacy logo tiles for 2004-2014 and the
+  year-only tiles for 1993-2003 (no archive page exists for those) were
+  left untouched.
+- **`app/data/archive/SOURCES.md`**: the deleted `program-YYYY.js`/
+  `talks-YYYY.js` files' header comments (where each year's dates/talks
+  data originally came from -- Google Calendar `.ics` feeds, esug.org
+  agenda pages, etc.) were extracted here before deletion, since JSON
+  can't carry comments and that provenance research (documented in this
+  file's own earlier sessions above) shouldn't be lost.
+- Verified with the standard rsync-based build/lint pipeline -- both pass
+  clean; the only remaining `prettier --check` warning (`infra/README.md`)
+  is pre-existing and unrelated. Also grepped the whole repo for dangling
+  references to the deleted route names/files and cross-checked every
+  static and dynamic `@route=` usage in the app against `router.js`'s
+  route list by hand, since there's no route/render test coverage for the
+  program/archive/talk pages to catch a bad route name at build time.
+- **Not done yet** (separate, deliberately deferred): the "current
+  edition" side of the plan -- runtime-fetched JSON for ESUG 2027's own
+  tile activation/call-for-presentations/registration/program state (so
+  those can change without an app-store release), and the actual
+  archiving step/script for when ESUG 2027 ends and 2028 begins. Also
+  still hardcoded to "ESUG 2027"/"Brussels, 6-9 July 2027": the home
+  page header (`app/templates/index.gjs`) and `talk.gjs`'s
+  `DEFAULT_SOURCE_NOTE`.
+- Work done on a branch (`archive-data-migration`), not yet committed --
+  left for the user to review (`git diff --staged`) before committing.
+
+## Current-edition tile templating, and the plan for archiving tiles/pages
+
+Follow-up to the archive data migration above. The user clarified two
+things about the plan for when ESUG 2027 ends: (1) the ten "upcoming
+conference" tiles (Venue, City, Travel, Accommodation, Call for
+Presentations, Registration, Workshop, Award, Showcase, Program) and the
+full pages they link to should all be preserved and stay reachable from
+the ESUG 2027 Archive page, not discarded when 2028's tiles take over the
+same tile slots -- so the archive page will look different (richer) from
+ESUG 2027 onward than the 2015-2026 archive pages before it; and (2) the
+tile text itself ("Where to stay during ESUG 2027.") shouldn't be
+hardcoded per edition.
+
+**Done now:**
+
+- `app/data/current-edition.js`: a single record (`year`, `city`,
+  `country`, `dates`, `venueName`) for the edition the app is currently
+  promoting. `app/data/home-tiles.js`'s ten upcoming-conference tiles now
+  build their `summary`/`date`/`badge` strings from this record via
+  template literals instead of hardcoding "ESUG 2027"/"Brussels"/"VUB".
+  Only the mechanical substitutions moved -- a real per-edition fact like
+  "1 April" in a registration deadline, or which month an announcement is
+  expected, still gets typed in by hand each edition (that's the
+  "current-edition dynamic data" work discussed and deliberately deferred
+  earlier, for when call-for-presentations/registration/program need to
+  react to real dates without an app-store release).
+- Same fix applied to the other places "ESUG 2027" was hardcoded outside
+  the tiles themselves: the home page header and its logo path
+  (`app/templates/index.gjs`), the root page title
+  (`app/templates/application.gjs`), and the one-line placeholder notices
+  on the Program and Workshop pages. Venue/City/Travel/Accommodation's own
+  rich page content is deliberately NOT touched -- per the earlier
+  decision, that stays hand-authored prose per edition, not
+  template-generated.
+- `app/templates/archive.gjs` now renders a tile grid (reusing the
+  `HomeTile` component, same as the home page) when an archived year's
+  record has a `tiles` field, alongside the program it already showed.
+  No archived year has `tiles` yet (2015-2026 predate this and ESUG 2027
+  hasn't happened), so this is inert scaffolding today -- it only starts
+  rendering once a future archive step actually adds `tiles` to a year's
+  JSON.
+
+**Not done yet -- this is the plan for when ESUG 2027 actually ends**
+(deliberately not built now: there's no real content yet to preserve, and
+building the nested routes below before then would be speculative dead
+code):
+
+1. Resolve `current-edition.js` + `home-tiles.js`'s ten tiles into
+   concrete values (no more template literals) and add them as a `tiles`
+   array on a new `app/data/archive/2027.json`, alongside that year's
+   `program`/`talks` (built the same way the 2015-2026 years were).
+2. For each of the ten tiles' linked pages: copy that page's current
+   template (`app/templates/venue.gjs`, etc.) into a year-namespaced
+   template, and add matching nested routes under the archive route in
+   `app/router.js`, e.g.:
+   `this.route('archive', { path: '/archive/:year' }, function () { this.route('venue'); this.route('city'); /* ...all ten */ });`
+   giving URLs like `/archive/2027/venue`. Point each of that year's
+   `tiles` entries at the matching nested route
+   (`routeName: 'archive.venue'`, etc.) instead of the live top-level
+   route.
+3. Add `2027` to `app/data/archive/index.js`'s `archiveYears` (newest
+   first, as usual).
+4. Reset `current-edition.js` for the next edition (new year/city/venue)
+   and reset `home-tiles.js`'s per-edition facts (`date`/`badge`/`active`)
+   back to placeholder state for it -- the templated `summary`/title
+   structure itself needs no changes.
+5. Verify with the standard rsync-based build/lint pipeline, same as every
+   other change to this app.
+
+This preserves the same principle as the program/talks migration: rich,
+non-uniform content (the venue/city/etc. pages) gets copied once per
+edition transition rather than forced into a shared schema, while
+everything mechanically derivable from "which edition is this" is
+generated from one record instead of hand-duplicated.

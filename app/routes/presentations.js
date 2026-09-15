@@ -7,6 +7,7 @@ export default class PresentationsRoute extends Route {
 
   activate() {
     this.programScheduleState.lastProgramRoute = 'presentations';
+    this.programScheduleState.lastProgramModels = [];
   }
 
   model() {

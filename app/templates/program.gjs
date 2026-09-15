@@ -2,6 +2,7 @@ import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
 import ProgramSchedule from '../components/program-schedule';
 import program2027Preview from '../data/program-2027-preview';
+import currentEdition from '../data/current-edition';
 
 <template>
   {{pageTitle "Program"}}
@@ -32,8 +33,10 @@ import program2027Preview from '../data/program-2027-preview';
 
     <h2 class="program-preview-heading">What to expect</h2>
     <p class="program-preview-intro">
-      While the 2027 lineup is being decided, here's the shape of a typical ESUG
-      day &mdash; breaks, lunch, and events. Pick a day to see it.
+      While the
+      {{currentEdition.year}}
+      lineup is being decided, here's the shape of a typical ESUG day &mdash;
+      breaks, lunch, and events. Pick a day to see it.
     </p>
     <ProgramSchedule @days={{program2027Preview}} />
   </article>

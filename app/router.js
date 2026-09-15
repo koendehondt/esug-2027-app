@@ -24,15 +24,6 @@ Router.map(function () {
   this.route('presentations');
   this.route('past-conferences');
   this.route('host-a-conference');
-  this.route('esug2026');
-  this.route('esug2025');
-  this.route('esug2024');
-  this.route('esug2023');
-  this.route('esug2022');
-  this.route('esug2019');
-  this.route('esug2018');
-  this.route('esug2017');
-  this.route('esug2016');
-  this.route('esug2015');
+  this.route('archive', { path: '/archive/:year' });
   this.route('talk', { path: '/talk/:talk_id' });
 });
