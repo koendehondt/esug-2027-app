@@ -688,7 +688,24 @@ a.conference-year-tile:focus-visible {
   object-fit: contain;
 }
 
+.conference-year-tile {
+  overflow: hidden;
+}
+
+.conference-year-tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/images/esug-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 78% auto;
+  opacity: 0.16;
+  pointer-events: none;
+}
+
 .conference-year-tile .conference-tile-frame {
+  z-index: 1;
   flex-direction: column;
   gap: 0.15rem;
   text-align: center;
