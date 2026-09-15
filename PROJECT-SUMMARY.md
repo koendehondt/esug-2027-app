@@ -607,3 +607,78 @@ module.
   `DEFAULT_SOURCE_NOTE`.
 - Work done on a branch (`archive-data-migration`), not yet committed --
   left for the user to review (`git diff --staged`) before committing.
+
+## Current-edition tile templating, and the plan for archiving tiles/pages
+
+Follow-up to the archive data migration above. The user clarified two
+things about the plan for when ESUG 2027 ends: (1) the ten "upcoming
+conference" tiles (Venue, City, Travel, Accommodation, Call for
+Presentations, Registration, Workshop, Award, Showcase, Program) and the
+full pages they link to should all be preserved and stay reachable from
+the ESUG 2027 Archive page, not discarded when 2028's tiles take over the
+same tile slots -- so the archive page will look different (richer) from
+ESUG 2027 onward than the 2015-2026 archive pages before it; and (2) the
+tile text itself ("Where to stay during ESUG 2027.") shouldn't be
+hardcoded per edition.
+
+**Done now:**
+
+- `app/data/current-edition.js`: a single record (`year`, `city`,
+  `country`, `dates`, `venueName`) for the edition the app is currently
+  promoting. `app/data/home-tiles.js`'s ten upcoming-conference tiles now
+  build their `summary`/`date`/`badge` strings from this record via
+  template literals instead of hardcoding "ESUG 2027"/"Brussels"/"VUB".
+  Only the mechanical substitutions moved -- a real per-edition fact like
+  "1 April" in a registration deadline, or which month an announcement is
+  expected, still gets typed in by hand each edition (that's the
+  "current-edition dynamic data" work discussed and deliberately deferred
+  earlier, for when call-for-presentations/registration/program need to
+  react to real dates without an app-store release).
+- Same fix applied to the other places "ESUG 2027" was hardcoded outside
+  the tiles themselves: the home page header and its logo path
+  (`app/templates/index.gjs`), the root page title
+  (`app/templates/application.gjs`), and the one-line placeholder notices
+  on the Program and Workshop pages. Venue/City/Travel/Accommodation's own
+  rich page content is deliberately NOT touched -- per the earlier
+  decision, that stays hand-authored prose per edition, not
+  template-generated.
+- `app/templates/archive.gjs` now renders a tile grid (reusing the
+  `HomeTile` component, same as the home page) when an archived year's
+  record has a `tiles` field, alongside the program it already showed.
+  No archived year has `tiles` yet (2015-2026 predate this and ESUG 2027
+  hasn't happened), so this is inert scaffolding today -- it only starts
+  rendering once a future archive step actually adds `tiles` to a year's
+  JSON.
+
+**Not done yet -- this is the plan for when ESUG 2027 actually ends**
+(deliberately not built now: there's no real content yet to preserve, and
+building the nested routes below before then would be speculative dead
+code):
+
+1. Resolve `current-edition.js` + `home-tiles.js`'s ten tiles into
+   concrete values (no more template literals) and add them as a `tiles`
+   array on a new `app/data/archive/2027.json`, alongside that year's
+   `program`/`talks` (built the same way the 2015-2026 years were).
+2. For each of the ten tiles' linked pages: copy that page's current
+   template (`app/templates/venue.gjs`, etc.) into a year-namespaced
+   template, and add matching nested routes under the archive route in
+   `app/router.js`, e.g.:
+   `this.route('archive', { path: '/archive/:year' }, function () { this.route('venue'); this.route('city'); /* ...all ten */ });`
+   giving URLs like `/archive/2027/venue`. Point each of that year's
+   `tiles` entries at the matching nested route
+   (`routeName: 'archive.venue'`, etc.) instead of the live top-level
+   route.
+3. Add `2027` to `app/data/archive/index.js`'s `archiveYears` (newest
+   first, as usual).
+4. Reset `current-edition.js` for the next edition (new year/city/venue)
+   and reset `home-tiles.js`'s per-edition facts (`date`/`badge`/`active`)
+   back to placeholder state for it -- the templated `summary`/title
+   structure itself needs no changes.
+5. Verify with the standard rsync-based build/lint pipeline, same as every
+   other change to this app.
+
+This preserves the same principle as the program/talks migration: rich,
+non-uniform content (the venue/city/etc. pages) gets copied once per
+edition transition rather than forced into a shared schema, while
+everything mechanically derivable from "which edition is this" is
+generated from one record instead of hand-duplicated.

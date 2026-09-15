@@ -8,14 +8,18 @@
 // works fully offline. See CREDITS.md for sources and licenses.
 
 import { archiveYears } from './archive';
+import currentEdition from './current-edition';
 
-// Tiles for the upcoming ESUG 2027 conference.
+// Tiles for the upcoming conference edition (app/data/current-edition.js).
+// Only the year/city/venue substitutions below are mechanical; `date` and
+// `badge` are real per-edition facts (an actual deadline, an actual
+// announcement month) that still need setting by hand each edition -- see
+// current-edition.js's header comment.
 export default [
   {
     id: 'venue',
     title: 'Conference Venue',
-    summary:
-      'ESUG 2027 will be hosted at the Vrije Universiteit Brussel (VUB).',
+    summary: `ESUG ${currentEdition.year} will be hosted at ${currentEdition.venueName}.`,
     date: 'Venue confirmed',
     active: true,
     routeName: 'venue',
@@ -24,7 +28,7 @@ export default [
   {
     id: 'city',
     title: 'City Information',
-    summary: 'Discover Brussels, the host city of ESUG 2027.',
+    summary: `Discover ${currentEdition.city}, the host city of ESUG ${currentEdition.year}.`,
     date: '',
     active: true,
     routeName: 'city',
@@ -33,7 +37,7 @@ export default [
   {
     id: 'travel',
     title: 'Trip Information',
-    summary: 'How to reach Brussels by air, rail, and road.',
+    summary: `How to reach ${currentEdition.city} by air, rail, and road.`,
     date: '',
     active: true,
     routeName: 'travel',
@@ -42,7 +46,7 @@ export default [
   {
     id: 'accommodation',
     title: 'Accommodation',
-    summary: 'Where to stay during ESUG 2027.',
+    summary: `Where to stay during ESUG ${currentEdition.year}.`,
     date: '',
     active: false,
     routeName: 'accommodation',
@@ -51,20 +55,20 @@ export default [
   {
     id: 'call-for-presentations',
     title: 'Call for Presentations',
-    summary: 'Submit your talk proposal for ESUG 2027.',
+    summary: `Submit your talk proposal for ESUG ${currentEdition.year}.`,
     date: 'Places are limited. Submit on time.',
     active: false,
-    badge: 'February 2027',
+    badge: `February ${currentEdition.year}`,
     routeName: 'call-for-presentations',
     image: '/images/tiles/call-for-presentations.jpg',
   },
   {
     id: 'registration',
     title: 'Conference Registration',
-    summary: 'Register to attend ESUG 2027.',
-    date: 'Early registration deadline: 1 April 2027',
+    summary: `Register to attend ESUG ${currentEdition.year}.`,
+    date: `Early registration deadline: 1 April ${currentEdition.year}`,
     active: false,
-    badge: 'March 2027',
+    badge: `March ${currentEdition.year}`,
     routeName: 'registration',
     image: '/images/tiles/registration.jpg',
   },
@@ -72,9 +76,9 @@ export default [
     id: 'workshop',
     title: 'International Workshop on Smalltalk Technologies',
     summary: 'IWST, co-located with the main conference.',
-    date: 'Early registration deadline: 1 April 2027',
+    date: `Early registration deadline: 1 April ${currentEdition.year}`,
     active: false,
-    badge: 'March 2027',
+    badge: `March ${currentEdition.year}`,
     routeName: 'workshop',
     image: '/images/tiles/workshop.jpg',
   },
@@ -82,9 +86,9 @@ export default [
     id: 'award',
     title: 'Technology Award Competition',
     summary: "Compete for ESUG's Innovation Technology Award.",
-    date: 'Submission deadline: 2 July 2027',
+    date: `Submission deadline: 2 July ${currentEdition.year}`,
     active: false,
-    badge: 'June 2027',
+    badge: `June ${currentEdition.year}`,
     routeName: 'award',
     image: '/images/tiles/award.jpg',
   },
@@ -94,7 +98,7 @@ export default [
     summary: 'Present your Smalltalk project to the community.',
     date: '',
     active: false,
-    badge: 'June 2027',
+    badge: `June ${currentEdition.year}`,
     routeName: 'showcase',
     image: '/images/tiles/showcase.jpg',
   },
@@ -104,7 +108,7 @@ export default [
     summary: 'The conference at a glance.',
     date: '',
     active: false,
-    badge: 'June 2027',
+    badge: `June ${currentEdition.year}`,
     routeName: 'program',
     image: '/images/tiles/program.jpg',
   },
@@ -175,7 +179,7 @@ export const conferencesTiles = [
 ];
 
 // Tiles for past conferences, shown in their own "Archives" section on
-// the home page, separate from the upcoming ESUG 2027 tiles above.
+// the home page, separate from the upcoming edition's tiles above.
 export const archiveTiles = [
   {
     id: 'presentations',

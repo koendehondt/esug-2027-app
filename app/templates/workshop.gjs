@@ -1,5 +1,6 @@
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
+import currentEdition from '../data/current-edition';
 
 <template>
   {{pageTitle "IWST"}}
@@ -24,7 +25,8 @@ import { LinkTo } from '@ember/routing';
     </div>
     <h1>International Workshop on Smalltalk Technologies</h1>
     <p class="page-notice">
-      Details about IWST 2027, co-located with ESUG, will be published here once
+      Details about IWST
+      {{currentEdition.year}}, co-located with ESUG, will be published here once
       confirmed.
     </p>
   </article>

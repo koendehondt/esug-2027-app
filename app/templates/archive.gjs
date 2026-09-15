@@ -2,6 +2,7 @@ import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
 import { concat } from '@ember/helper';
 import ProgramSchedule from '../components/program-schedule';
+import HomeTile from '../components/home-tile';
 
 <template>
   {{pageTitle (concat "ESUG " @model.year " Archive")}}
@@ -28,6 +29,21 @@ import ProgramSchedule from '../components/program-schedule';
     {{#if @model.city}}
       <h1>ESUG {{@model.year}} Archive</h1>
       <p>Looking back on a great conference in {{@model.city}}.</p>
+
+      {{! Editions archived before this section existed (2015-2026) have no
+        `tiles` -- only the program below. From the edition this was
+        introduced for onward, an archived year keeps its full set of
+        conference-section tiles (Venue, City, Travel, ...), frozen at
+        archive time -- see PROJECT-SUMMARY.md's "Archiving a conference
+        edition" notes. }}
+      {{#if @model.tiles}}
+        <h2 class="page-section-heading">ESUG {{@model.year}}</h2>
+        <section class="tile-grid" aria-label="ESUG {{@model.year}} sections">
+          {{#each @model.tiles as |tile|}}
+            <HomeTile @tile={{tile}} />
+          {{/each}}
+        </section>
+      {{/if}}
 
       <h2 class="page-section-heading">Conference Program</h2>
       <p class="program-preview-intro">
