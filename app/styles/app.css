@@ -22,7 +22,7 @@
   --esug-accent: #f2a71b;
   --esug-bg: #f5f7fa;
   --esug-text: #1f2933;
-  --esug-muted: #6b7684;
+  --esug-muted: #000;
   --esug-border: #dde3ea;
 }
 
@@ -700,7 +700,7 @@ a.conference-year-tile:focus-visible {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 78% auto;
-  opacity: 0.16;
+  opacity: 0.1;
   pointer-events: none;
 }
 
