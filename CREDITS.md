@@ -16,6 +16,7 @@ doesn't need network access to display them). Original sources:
 | Show Us Your Project   | AI-generated (ChatGPT), provided by Koen                                   |
 | Registration           | AI-generated (ChatGPT), provided by Koen                                   |
 | Conference Program     | AI-generated (ChatGPT), provided by Koen                                   |
+| Code of Conduct        | Provided by Koen                                                           |
 | ESUG 2026 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2025 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2024 Archive      | AI-generated (ChatGPT), provided by Koen                                   |

@@ -153,6 +153,15 @@ export const esugTiles = [
     routeName: 'sponsors',
     image: '/images/tiles/sponsors.jpg',
   },
+  {
+    id: 'code-of-conduct',
+    title: 'Code of Conduct',
+    summary: 'The expected behaviour for everyone in the ESUG community.',
+    date: '',
+    active: true,
+    routeName: 'code-of-conduct',
+    image: '/images/tiles/code-of-conduct.jpg',
+  },
 ];
 
 // Tiles for the "Conferences" section on the home page, shown before the
