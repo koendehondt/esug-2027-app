@@ -1107,5 +1107,171 @@
       "title": "What people are doing with Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day4/408-duca-what-people-are-doing-with-pharo.pdf"
     }
+  },
+  "awards": {
+    "sourceUrl": "https://esug.org/2025-Conference/awardsSubmissions.html",
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "SqueakJS",
+        "submitter": "Vanessa Freudenberg, Freelancer, Germany",
+        "keywords": "Virtual Machine, JavaScript, Web",
+        "links": [
+          {
+            "label": "SqueakJS (website)",
+            "url": "https://squeak.js.org"
+          },
+          {
+            "label": "SqueakJS (repository)",
+            "url": "https://github.com/codefrau/squeakjs"
+          }
+        ]
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "Hera",
+        "submitter": "Koen De Hondt, all: objects all: theTime, Belgium",
+        "keywords": "Test, BDD",
+        "links": [
+          {
+            "label": "Project website and documentation",
+            "url": "https://all-objects-all-the-time.st/#/projects/hera"
+          },
+          {
+            "label": "Blog post about release",
+            "url": "https://all-objects-all-the-time.st/#/blog/posts/14"
+          },
+          {
+            "label": "Short video of simple example",
+            "url": "https://all-objects-all-the-time.st/images/project-hera/hera-video-for-esug.mp4"
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "GeoView: a solution for displaying and interacting with geographical objects and cartographic layers for a more streamlined user interface",
+        "submitter": "Pierre Laborde, Eric Le Pors, Brendan Landais, Thales, France",
+        "keywords": "UI, Geographical Data",
+        "links": [
+          {
+            "label": "GeoView (repository)",
+            "url": "https://github.com/OpenSmock/GeoView"
+          }
+        ]
+      }
+    ],
+    "nominees": [
+      {
+        "title": "Coypu (TurboPhausto edition)",
+        "submitter": "Domenico Cipriani, Italy",
+        "keywords": "programming music on-the-fly, OSC compatible application, MIDI hardware",
+        "links": [
+          {
+            "label": "Coypu (repository)",
+            "url": "https://github.com/lucretiomsp/Coypu"
+          },
+          {
+            "label": "Video demonstration",
+            "url": "https://www.youtube.com/watch?v=tf8KFKVQO2c"
+          }
+        ]
+      },
+      {
+        "title": "Canyon, building mobile apps using CodeParadise",
+        "submitter": "Erik Stel (aka ErikOnBike), The Netherlands",
+        "keywords": "Mobile Apps, Web, NodeJS",
+        "links": [
+          {
+            "label": "CodeParadise (repository)",
+            "url": "https://github.com/ErikOnBike/CodeParadise"
+          }
+        ]
+      },
+      {
+        "title": "ChatPharo",
+        "submitter": "Omar Abedelkader, Univ. Lille, Inria, CNRS, Centrale Lille, UMR 9189 CRIStAL, F-59000 Lille, France",
+        "keywords": "AI Assistant, LLM, Code Generation",
+        "links": [
+          {
+            "label": "ChatPharo (repository)",
+            "url": "https://github.com/omarabedelkader/ChatPharo"
+          },
+          {
+            "label": "ChatPharo (wiki)",
+            "url": "https://github.com/omarabedelkader/ChatPharo/wiki"
+          }
+        ]
+      },
+      {
+        "title": "GitProjectHealth: Mining software repository with Pharo and Moose",
+        "submitter": "Nicolas Hlad, Benoit Verheaghe, Kilian Bauvent, Berger-Levrault, France",
+        "keywords": "Git, Statistics, Visualization, Model-Driven Engineering",
+        "links": [
+          {
+            "label": "GitProjectHealth (repository)",
+            "url": "https://github.com/moosetechnology/GitProjectHealth"
+          },
+          {
+            "label": "Getting started guide",
+            "url": "https://modularmoose.org/users/git-project-health/getting-started-with-gitproject-health/"
+          },
+          {
+            "label": "MSR 2025 paper",
+            "url": "https://2025.msrconf.org/details/msr-2025-data-and-tool-showcase-track/19/GitProjectHealth-an-Extensible-Framework-for-Git-Social-Platform-Mining"
+          }
+        ]
+      },
+      {
+        "title": "Microdown",
+        "submitter": "Stéphane Ducasse, Kasper Østerbye",
+        "keywords": "Markdown, Parser, Extensible",
+        "links": [
+          {
+            "label": "Microdown (repository)",
+            "url": "http://github.com/pillar-markup/microdown"
+          }
+        ]
+      },
+      {
+        "title": "AutoReneraku - automatic code review",
+        "submitter": "Benoit Verhaeghe, Berger-Levrault, France",
+        "keywords": "Code Review, SmalltalkCI",
+        "links": [
+          {
+            "label": "AutoReneraku (repository)",
+            "url": "https://github.com/badetitou/AutoReneraku"
+          }
+        ]
+      },
+      {
+        "title": "AI based comment generator",
+        "submitter": "Kasper Østerbye, Denmark",
+        "keywords": "Pharo, Mistral, Comment, Method, Class, Package, Browser",
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/kasperosterbye/PharoAIActions"
+          },
+          {
+            "label": "Examples",
+            "url": "https://github.com/kasperosterbye/PharoAIActions/blob/master/Examples.md"
+          },
+          {
+            "label": "Example of a package comment",
+            "url": "https://github.com/kasperosterbye/PharoAIActions/blob/master/AIActionsCommentExample.md"
+          },
+          {
+            "label": "Video",
+            "url": "https://maarumlam.dk/ESUG25-Kasper03.mp4"
+          }
+        ]
+      }
+    ]
   }
 }
