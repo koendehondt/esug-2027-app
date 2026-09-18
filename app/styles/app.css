@@ -840,3 +840,113 @@ a.conference-year-tile:focus-visible {
 .presentation-result-datetime {
   color: var(--esug-muted);
 }
+
+/* Innovation Technology Awards (archive page) */
+
+.award-list {
+  list-style: none;
+  margin: 0.75rem 0 1.5rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.award-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--esug-border);
+  background: #fff;
+}
+
+/* Winners: not a list -- each row is a plain div with the medal fixed to
+   the left of the title/details column (see .award-medal / .award-content
+   below, shared with the nominees list). */
+.award-winners {
+  margin: 0.75rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Top-align the medal with the title, rather than centering it against
+   the whole (variable-height) content block. */
+.award-winner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--esug-border);
+  background: #fff;
+}
+
+/* The medal always sits to the left of the title and details -- see the
+   award-content column next to it below. */
+.award-medal {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+/* Nominees get a plain placeholder circle (same size as a winner's medal)
+   instead of a medal image. */
+.award-nominee-medal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #e5e7eb;
+  color: #b0b7bf;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.15;
+}
+
+.award-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.award-title {
+  margin: 0 0 0.35rem;
+  font-weight: 700;
+  color: var(--esug-blue-dark);
+}
+
+.award-submitter {
+  margin: 0 0 0.7rem;
+  color: var(--esug-text);
+}
+
+.award-keywords {
+  margin: 0;
+  color: var(--esug-muted);
+  font-size: 0.85rem;
+}
+
+/* Each link on its own line rather than inline/wrapped. */
+.award-links {
+  margin: 0.5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.award-link {
+  color: var(--esug-blue);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.award-link:hover,
+.award-link:focus-visible {
+  text-decoration: underline;
+}

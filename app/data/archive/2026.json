@@ -1155,5 +1155,198 @@
       "videoId": "G80ratDK-OM",
       "title": "The Pharo Module System"
     }
+  },
+  "awards": {
+    "sourceUrl": "https://esug.org/2026-Conference/awardsSubmissions.html",
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "Pulsar: An alternative IDE to empower Pharo",
+        "submitter": "Esteban Lorenzano, Pharo Consortium",
+        "keywords": "Pharo, IDE",
+        "links": [
+          {
+            "label": "Pulsar installers",
+            "url": "https://forge.smallworks.eu/pharo/Pulsar-installers"
+          },
+          {
+            "label": "Pulsar (main repository)",
+            "url": "https://forge.smallworks.eu/pharo/Pulsar"
+          }
+        ]
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "THE Sandbox",
+        "submitter": "Guille Polito (Inria)",
+        "keywords": "Sandboxing, isolation, analysis, testing",
+        "links": []
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "Jasper (A VS Code Extension for GemStone) and Grail (Transpiling Python to GemStone)",
+        "submitter": "James Foster, GemTalk Systems LLC",
+        "keywords": "IDE, Python",
+        "links": [
+          {
+            "label": "Video demonstration",
+            "url": "https://www.youtube.com/watch?v=yoV4Jk_8em8"
+          },
+          {
+            "label": "Jasper (repository)",
+            "url": "https://github.com/jgfoster/Jasper"
+          }
+        ]
+      }
+    ],
+    "nominees": [
+      {
+        "title": "Pharo LLM",
+        "submitter": "Omar Abedelkader",
+        "keywords": "Pharo, LLM, Inference Engine, Chat",
+        "links": [
+          {
+            "label": "pharo-infer",
+            "url": "https://pharo-llm.github.io/pharo-infer/"
+          },
+          {
+            "label": "chatpharo",
+            "url": "https://pharo-llm.github.io/chatpharo/"
+          }
+        ]
+      },
+      {
+        "title": "Micromaid",
+        "submitter": "Tomohiro Oda, Software Research Associates, Inc.",
+        "keywords": "Mermaid, UML, Microdown",
+        "links": [
+          {
+            "label": "Micromaid (repository)",
+            "url": "https://github.com/tomooda/Micromaid/"
+          }
+        ]
+      },
+      {
+        "title": "Microdown V2.0",
+        "submitter": "Stéphane Ducasse",
+        "keywords": "Book Generation, Slides, WebSites, Validation",
+        "links": [
+          {
+            "label": "Foliage",
+            "url": "https://github.com/Pillar-markup/Foliage"
+          },
+          {
+            "label": "Pillar",
+            "url": "https://github.com/Pillar-markup/Pillar"
+          },
+          {
+            "label": "Microdown",
+            "url": "https://github.com/Pillar-markup/Microdown"
+          }
+        ]
+      },
+      {
+        "title": "The Pharo Music Image",
+        "submitter": "Domenico Cipriani (Inria)",
+        "keywords": "Music, live-coding, DSP, creativity",
+        "links": [
+          {
+            "label": "phausto",
+            "url": "https://github.com/lucretiomsp/phausto/releases/tag/v0.1"
+          }
+        ]
+      },
+      {
+        "title": "Compile-time PIC Generation using LiveTyping Information",
+        "submitter": "Nicolás Matías Sarfati (UBA) and Hernán Wilkinson (UBA)",
+        "keywords": "Compile-time PIC Generation using LiveTyping Information",
+        "links": [
+          {
+            "label": "Demo video",
+            "url": "https://youtu.be/d3jPDhWUpNY"
+          },
+          {
+            "label": "Code / docs",
+            "url": "https://github.com/nsarfati/proactive-pic-generation/"
+          },
+          {
+            "label": "Benchmark results",
+            "url": "https://github.com/nsarfati/proactive-pic-generation/blob/main/results/results.pdf"
+          }
+        ]
+      },
+      {
+        "title": "YouTube to Pharo",
+        "submitter": "Kasper Østerbye, retired",
+        "keywords": "Converting YouTube videos to text",
+        "links": [
+          {
+            "label": "5 min video",
+            "url": "https://maarumlam.dk/kasper/ESUG2026Kasper.mp4"
+          }
+        ]
+      },
+      {
+        "title": "Ume",
+        "submitter": "Federico Lochbaum",
+        "keywords": "Property-Based Testing Framework, Performance Fuzzing, Input Minimization, Bug Localization, Automatic Test Generation",
+        "links": [
+          {
+            "label": "Ume (repository)",
+            "url": "https://github.com/FedeLoch/Ume"
+          }
+        ]
+      },
+      {
+        "title": "The VAST AI Assistant",
+        "submitter": "Kris Gybels and Johan Brichau, Instantiations",
+        "keywords": "AI, VAST",
+        "links": [
+          {
+            "label": "VAST-Platform-AI-Assistant (repository)",
+            "url": "https://github.com/instantiations/VAST-Platform-AI-Assistant"
+          }
+        ]
+      },
+      {
+        "title": "AI supported communication training application using realtime audio from a web application",
+        "submitter": "Stefan Krecher and Erik Stel",
+        "keywords": "AI, OpenAI realtime audio, Voyage, MongoDB, CodeParadise, WebRTC",
+        "links": [
+          {
+            "label": "prompt-institute.de",
+            "url": "http://prompt-institute.de/"
+          }
+        ]
+      },
+      {
+        "title": "SageTea Smalltalk",
+        "submitter": "David Long and Stéphane Ducasse, SageTea and Pharo",
+        "keywords": "Eclipse, Pharo, Smalltalk, RAG, AI-driven development",
+        "links": [
+          {
+            "label": "sagetea-smalltalk (repository)",
+            "url": "https://gitlab.eclipse.org/eclipse/sagetea/sagetea-smalltalk"
+          }
+        ]
+      },
+      {
+        "title": "Pharo MCP",
+        "submitter": "Gabriel Darbord (Berger-Levrault)",
+        "keywords": "MCP, IA, agentic",
+        "links": [
+          {
+            "label": "MCP (repository)",
+            "url": "https://github.com/Evref-BL/MCP"
+          }
+        ]
+      }
+    ]
   }
 }
