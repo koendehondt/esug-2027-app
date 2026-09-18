@@ -1218,5 +1218,175 @@
         ]
       ]
     }
+  },
+  "awards": {
+    "sourceUrl": "https://esug.org/2023-Conference/awardsSubmissions.html",
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "Pyramid: a User-Interface editor",
+        "submitter": "Yann Le Goff (Thales), Pierre Laborde (Thales), Eric Le Pors (Thales)",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Pyramid (repository)",
+            "url": "https://github.com/OpenSmock/Pyramid"
+          }
+        ]
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "Soil object oriented database",
+        "submitter": "Norbert Hartl, Marcus Denker, Germany, France",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Soil (repository)",
+            "url": "https://github.com/ApptiveGrid/Soil"
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "The Pharo Debugger and Debugging Tools",
+        "submitter": "Steven Costiou, Adrien Vanègue, Valentin Bourcier, and the Pharo team, France",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Website",
+            "url": "https://thepharo.dev/category/debugging/"
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "PLC3000 Solution for Teaching Factory Automation",
+        "submitter": "Noury Bouraqadi, France",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Website",
+            "url": "https://plc3000.com/"
+          }
+        ]
+      }
+    ],
+    "nominees": [
+      {
+        "title": "Illimani Memory Profiler",
+        "submitter": "Sebastian Jordan Montano, France",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Illimani Memory Profiler (repository)",
+            "url": "https://github.com/jordanmontt/illimani-memory-profiler"
+          }
+        ]
+      },
+      {
+        "title": "Myg Games",
+        "submitter": "Enzo Demeulenaere, France",
+        "keywords": "",
+        "links": []
+      },
+      {
+        "title": "Grafoscopio: a metatool and community about how can we change the digital tools that change us",
+        "submitter": "Offray Luna-Cárdenas (mutabiT / HackBo / Javeriana University), Diego Herrera (mutabiT / HackBo), Colombia",
+        "keywords": "grassroots innovation, civic tech, data hacktivism, data storytelling, data visualization, reproducible research and publishing, indie web",
+        "links": [
+          {
+            "label": "Website (English)",
+            "url": "https://mutabit.com/grafoscopio/en.html"
+          },
+          {
+            "label": "Website (Spanish)",
+            "url": "https://mutabit.com/grafoscopio/"
+          },
+          {
+            "label": "Video",
+            "url": "https://archive.org/details/vokoscreenNG-2023-07-28_14-36-57/socialmetrica1.mp4"
+          }
+        ]
+      },
+      {
+        "title": "Gnocco (DSL, grammars)",
+        "submitter": "Adrien Mathieu, France",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Gnocco (repository)",
+            "url": "https://github.com/alamvic/gnocco"
+          },
+          {
+            "label": "Video",
+            "url": "https://youtu.be/bbNOLinaNEQ"
+          }
+        ]
+      },
+      {
+        "title": "Installing GemStone and WebGS",
+        "submitter": "James Foster (GemTalk Systems LLC), USA",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Video",
+            "url": "https://youtu.be/ogSrDgNbSRs"
+          },
+          {
+            "label": "Live demo",
+            "url": "http://alpha-ppa.gemtalksystems.com"
+          },
+          {
+            "label": "WebGS (repository)",
+            "url": "https://github.com/jgfoster/WebGS"
+          }
+        ]
+      },
+      {
+        "title": "DROpal: An inlining Pharo compiler optimising bytecode compiler, inlining, customisation",
+        "submitter": "Nahuel Palumbo (Univ. Lille, Inria, CNRS, Centrale Lille, UMR 9189 CRIStAL), France",
+        "keywords": "",
+        "links": [
+          {
+            "label": "DROpal (repository)",
+            "url": "https://github.com/Alamvic/druid"
+          }
+        ]
+      },
+      {
+        "title": "BioSmalltalk: bioinformatics, sequencing, sequence alignment, dna, genomics, phylogenetics",
+        "submitter": "Hernán Morales (CONICET, Argentina - INRIA, France)",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Website",
+            "url": "https://biosmalltalk.github.io/"
+          },
+          {
+            "label": "Demo video",
+            "url": "https://vimeo.com/858366325?share=copy"
+          }
+        ]
+      },
+      {
+        "title": "Agile Dials: a tool for project management",
+        "submitter": "Gregory Anthony Bittar (Fast Drizzle Inc, Florida, USA)",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Website",
+            "url": "http://agiledials.com/"
+          }
+        ]
+      }
+    ]
   }
 }
