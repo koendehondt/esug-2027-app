@@ -1172,5 +1172,185 @@
         ]
       ]
     }
+  },
+  "awards": {
+    "sourceUrl": "https://esug.org/2024-Conference/awardsSubmissions.html",
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "Woden VR",
+        "submitter": "Ronie Salgado, Desromech EIRL, Chile",
+        "keywords": "",
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/desromech/woden-core-examples"
+          },
+          {
+            "label": "Video",
+            "url": "https://www.youtube.com/watch?v=9QjTQU3ePSE"
+          }
+        ]
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "Toplo: an UI framework on TOP of bLOc",
+        "submitter": "Alain Plantec (UBO Lab-STICC, France), Pierre Laborde (Thales DMS, France), Eric Le Pors (Thales DMS, France), Brendan Landais (Thales DMS, France), Louise Plantec (Thales DMS, France), Yann Le Goff (UBO Lab-STICC / Thales DMS, France), Martin Tinchodias (INRIA Lille, Argentina), Pablo Tesone (INRIA Lille, France), Stéphane Ducasse (INRIA Lille, France)",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Toplo (repository)",
+            "url": "https://github.com/pharo-graphics/Toplo"
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "Phausto - the sound within Pharo",
+        "submitter": "Domenico Cipriani, Independent Researcher, Italy",
+        "keywords": "DSP, audio, music synthesis, Pharo, Faust",
+        "links": [
+          {
+            "label": "Phausto (repository)",
+            "url": "https://github.com/lucretiomsp/phausto"
+          },
+          {
+            "label": "Video 1",
+            "url": "https://www.youtube.com/watch?v=pfBMVFc5mPs&t=23s"
+          },
+          {
+            "label": "Video 2",
+            "url": "https://www.youtube.com/watch?v=mcANQGwRTSI&t=71s"
+          }
+        ]
+      }
+    ],
+    "nominees": [
+      {
+        "title": "Myg: Library, 2D Games, Graphics",
+        "submitter": "Stéphane Ducasse & Enzo Demeulenaere, Inria Lille, France",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Myg (repository)",
+            "url": "https://github.com/Ducasse/Myg"
+          }
+        ]
+      },
+      {
+        "title": "Notebooks",
+        "submitter": "Massimo Nocentini, freelancer, Italy",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Booklet-DSst (repository)",
+            "url": "https://github.com/massimo-nocentini/Booklet-DSst"
+          },
+          {
+            "label": "pharo-vm (repository)",
+            "url": "https://github.com/massimo-nocentini/pharo-vm"
+          }
+        ]
+      },
+      {
+        "title": "Beagle Smalltalk",
+        "submitter": "David Buck, Simberon Incorporated, Canada",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Beagle Smalltalk (website)",
+            "url": "http://simberon.com/BeagleSmalltalk.html"
+          }
+        ]
+      },
+      {
+        "title": "CodeParadise: framework for developing Smalltalk applications running in a JavaScript environment",
+        "submitter": "Erik Stel, The Netherlands",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Source and docs",
+            "url": "https://github.com/ErikOnBike/CodeParadise"
+          },
+          {
+            "label": "Videos",
+            "url": "https://www.youtube.com/@erikstel9710"
+          }
+        ]
+      },
+      {
+        "title": "Inspecting Objects / Real-time round-trip GT views for industrial web-development",
+        "submitter": "Kyla Kaplan (USI/Lifeware), Andrei Chis (GT), Vincent Blondeau (Lifeware), Michele Lanza (USI)",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Video demo",
+            "url": "https://youtu.be/Xln7bNqJjVo"
+          }
+        ]
+      },
+      {
+        "title": "Microdown the next language of Pillar",
+        "submitter": "Stéphane Ducasse & Kasper Østerbye",
+        "keywords": "",
+        "links": []
+      },
+      {
+        "title": "Webside, IDE, AI",
+        "submitter": "Guille Amaral, Quorum Software, Argentina",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Webside (app)",
+            "url": "https://esug.org/2024-Conference/webside.app"
+          }
+        ]
+      },
+      {
+        "title": "WebST: Web Components with Smalltalk",
+        "submitter": "Noury Bouraqadi, IMT Nord Europe, France",
+        "keywords": "",
+        "links": [
+          {
+            "label": "WebST (repository)",
+            "url": "https://github.com/bouraqadi/WebST/"
+          }
+        ]
+      },
+      {
+        "title": "Mutalk: mutation testing",
+        "submitter": "Guille Polito, Pol Durieux, Matéo Boury, Pavel Krivanek, and more!",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Mutalk (repository)",
+            "url": "https://github.com/pharo-contributions/mutalk"
+          }
+        ]
+      },
+      {
+        "title": "MooseBrain: generating better comment using Moose and LLM",
+        "submitter": "Nicolas Hlad, Berger-Levrault, France",
+        "keywords": "",
+        "links": []
+      },
+      {
+        "title": "Dundi Model in Cormas Pharo",
+        "submitter": "François Vendel (CIRAD, UMR SENS, Dundi Ferlo, PPZS, ISRA CNRF, Senegal), Oleksandr Zaitsev (CIRAD, UMR SENS, France), Pierre Bommel (CIRAD, UMR SENS, France)",
+        "keywords": "natural resource management, agent-based modelling, senegal, participatory modelling",
+        "links": [
+          {
+            "label": "Dundi Model (repository)",
+            "url": "https://github.com/panchovdl/DundiModel"
+          }
+        ]
+      }
+    ]
   }
 }
