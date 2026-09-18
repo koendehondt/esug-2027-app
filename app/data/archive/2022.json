@@ -983,5 +983,132 @@
         ]
       ]
     }
+  },
+  "awards": {
+    "sourceUrl": "https://esug.org/2022-Conference/awardsSubmissions.html",
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "Time-Traveling Queries for Faster Debugging And Program Comprehension",
+        "submitter": "Maximilian Ignacio Willembrinck Santander, Steven Costiou, Anne Etien, Stéphane Ducasse, Univ. Lille, Inria, CNRS, Centrale Lille, UMR 9189 CRIStAL F-59000 Lille, France",
+        "keywords": "Time-traveling Queries, Debugging",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/Willembrinck/ESUG-2022-TTQs"
+          },
+          {
+            "label": "Demo video",
+            "url": "https://drive.google.com/file/d/12MlQZO9X1WN7e1LUqm5p0E-x8VJXQz0h/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "IoT with Pharo and Riot OS",
+        "submitter": "Chia Ling Bragagnolo Angela, Univ. Lille, France",
+        "keywords": "Internet of Things",
+        "links": [
+          {
+            "label": "Video",
+            "url": "https://youtu.be/yFcoatBqMYU"
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "Pharo Language Server",
+        "submitter": "Benoît Verhaeghe, Berger-Levrault, France",
+        "keywords": "Language Server Protocol (LSP), IDE interface",
+        "links": [
+          {
+            "label": "Pharo-LanguageServer (repository)",
+            "url": "https://github.com/badetitou/Pharo-LanguageServer"
+          },
+          {
+            "label": "VS Code Marketplace listing",
+            "url": "https://marketplace.visualstudio.com/items?itemName=badetitou.pharo-language-server"
+          }
+        ]
+      }
+    ],
+    "nominees": [
+      {
+        "title": "Webside",
+        "submitter": "Guille Amaral, Personal project, Argentina",
+        "keywords": "IDE, Web API, React, Material-UI",
+        "links": [
+          {
+            "label": "GitHub profile",
+            "url": "https://github.com/guillermoamaral/"
+          },
+          {
+            "label": "Live demo",
+            "url": "https://websideserver.azurewebsites.net/"
+          }
+        ]
+      },
+      {
+        "title": "Zag Smalltalk",
+        "submitter": "Dave Mason, Toronto Metropolitan University, Canada",
+        "keywords": "Smalltalk and pluggable Dynamic Language runtime",
+        "links": [
+          {
+            "label": "Zag Smalltalk (repository)",
+            "url": "https://github.com/dvmason/Zag-Smalltalk"
+          }
+        ]
+      },
+      {
+        "title": "Polyphemus",
+        "submitter": "Soufyane Labsari, Pierre Misse-Chanabier, Théo Rogliano, Univ. Lille, Inria, CNRS, Centrale Lille, UMR 9189 CRIStAL F-59000 Lille, France",
+        "keywords": "VM, Image, visualisation, image recover",
+        "links": [
+          {
+            "label": "Download",
+            "url": "https://filesender.renater.fr/?s=download&token=342cc563-fc5e-4d01-91c3-50d6015e39c0"
+          }
+        ]
+      },
+      {
+        "title": "Microdown",
+        "submitter": "Kasper Østerbye & Stéphane Ducasse, Independent, Denmark",
+        "keywords": "document browser",
+        "links": [
+          {
+            "label": "Demo video",
+            "url": "https://www.youtube.com/watch?v=tAFskQ1zVmA"
+          }
+        ]
+      },
+      {
+        "title": "PLC3000",
+        "submitter": "Noury Bouraqadi, Nootrix, France",
+        "keywords": "Factory Automation, Simulation, Teaching, Education, Programming",
+        "links": [
+          {
+            "label": "Live demo",
+            "url": "https://plc3000.com"
+          }
+        ]
+      },
+      {
+        "title": "Pharo-AI",
+        "submitter": "Oleksandr Zaitsev and Sebastian Jordan, Univ. Lille, Inria, CNRS, Centrale Lille, UMR 9189 CRIStAL F-59000 Lille, France",
+        "keywords": "AI, Machine Learning",
+        "links": [
+          {
+            "label": "Pharo-AI (wiki)",
+            "url": "https://github.com/pharo-ai/wiki"
+          }
+        ]
+      }
+    ]
   }
 }
