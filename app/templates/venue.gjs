@@ -185,6 +185,23 @@ import { LinkTo } from '@ember/routing';
         rel="noopener noreferrer"
       >VUB website</a>.
     </p>
+    <h2 class="page-section-heading">Rules and Regulations</h2>
+    <p>
+      Smoking and vaping are strictly prohibited inside all VUB buildings. If
+      you smoke or vape outside, please dispose of cigarettes in the designated
+      waste facilities provided on campus.
+    </p>
+    <p>
+      Under Belgian law, smoking and vaping are prohibited within a 10-metre
+      radius of the entrances and exits of educational institutions. The smoking
+      and vaping ban applies to all entrances and exits—including emergency
+      exits—of any publicly accessible institution subject to the ban. The ban
+      applies at all times and to everyone, except casual passers-by.
+    </p>
+    <p>
+      From 1 January 2027, smoking and vaping on and near public terraces in
+      Belgium will be prohibited.
+    </p>
   </article>
 
   {{outlet}}
