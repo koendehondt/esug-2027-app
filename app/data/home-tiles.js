@@ -211,3 +211,16 @@ export const archiveTiles = [
     image: entry.heroImage,
   })),
 ];
+
+// Tiles for the "About this App" section at the bottom of the home page.
+export const appTiles = [
+  {
+    id: 'about-this-app',
+    title: 'About the ESUG App',
+    summary: 'Everything you want to know.',
+    date: '',
+    active: true,
+    routeName: 'about-this-app',
+    image: '/images/tiles/about-this-app.jpg',
+  },
+];

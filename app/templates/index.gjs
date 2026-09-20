@@ -2,6 +2,7 @@ import { pageTitle } from 'ember-page-title';
 import { concat } from '@ember/helper';
 import HomeTile from 'esug-2027-app/components/home-tile';
 import tiles, {
+  appTiles,
   archiveTiles,
   conferencesTiles,
   esugTiles,
@@ -48,6 +49,13 @@ import currentEdition from 'esug-2027-app/data/current-edition';
   <h2 class="home-section-heading">Conference Archives</h2>
   <section class="tile-grid" aria-label="Archives">
     {{#each archiveTiles as |tile|}}
+      <HomeTile @tile={{tile}} />
+    {{/each}}
+  </section>
+
+  <h2 class="home-section-heading">About this App</h2>
+  <section class="tile-grid" aria-label="About this App">
+    {{#each appTiles as |tile|}}
       <HomeTile @tile={{tile}} />
     {{/each}}
   </section>

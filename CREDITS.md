@@ -43,6 +43,7 @@ doesn't need network access to display them). Original sources:
 | Membership and Support | Provided by Koen                                                           |
 | Become a Sponsor       | Provided by Koen                                                           |
 | Sponsors               | Provided by Koen                                                           |
+| About this App         | AI-generated (ChatGPT), provided by Koen                                   |
 
 These are placeholders to get the layout right. Swap in real ESUG/VUB/Brussels
 photography whenever you have it — replace the file under

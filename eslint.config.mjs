@@ -56,6 +56,9 @@ export default defineConfig([
       parserOptions: esmParserOptions,
       globals: {
         ...globals.browser,
+        // Injected at build time by vite.config.mjs.
+        __APP_VERSION__: 'readonly',
+        __APP_COMMIT__: 'readonly',
       },
     },
   },
