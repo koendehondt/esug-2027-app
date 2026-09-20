@@ -963,3 +963,71 @@ a.conference-year-tile:focus-visible {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
+
+/* Registration page: price tiers */
+
+.registration-tiers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.registration-tier {
+  padding: 1.25rem;
+  background: #fff;
+  border: 1px solid var(--esug-border);
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.registration-tier-title {
+  margin: 0 0 0.75rem;
+  color: var(--esug-blue-dark);
+  font-size: 1.25rem;
+}
+
+.registration-tier-price {
+  margin: 0.75rem 0 0;
+  color: var(--esug-blue);
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.registration-tier-detail {
+  margin: 0;
+  color: var(--esug-muted);
+}
+
+.registration-tier-deadline {
+  margin: 1rem 0 0;
+  font-weight: 600;
+}
+
+.registration-tier-inactive {
+  background: #eceef1;
+  border-color: #d3d7dd;
+  opacity: 0.6;
+}
+
+.registration-tier-inactive .registration-tier-title,
+.registration-tier-inactive .registration-tier-price,
+.registration-tier-inactive .registration-tier-detail {
+  color: #6b7280;
+}
+
+.registration-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background: #2e7d32;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.registration-button:hover,
+.registration-button:focus-visible {
+  background: #1b5e20;
+}
