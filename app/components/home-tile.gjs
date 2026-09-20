@@ -7,7 +7,7 @@ import { modifier } from 'ember-modifier';
 
 const setBackgroundImage = modifier((element, [url]) => {
   if (url) {
-    element.style.backgroundImage = `url("${url}")`;
+    element.style.setProperty('--tile-image', `url("${url}")`);
   }
 });
 

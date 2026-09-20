@@ -109,6 +109,7 @@ body {
   overflow: hidden;
   border: 1px solid var(--esug-border);
   background-color: var(--esug-bg);
+  background-image: var(--tile-image, none);
   background-size: cover;
   background-position: top center;
   text-decoration: none;
@@ -139,8 +140,27 @@ body {
   box-shadow: 0 8px 20px rgb(28 63 110 / 25%);
 }
 
+/* Grey out only the image, overlay and date of an inactive tile, not the
+   whole tile, so the orange "Coming soon" badge keeps its colour. */
 .home-tile-inactive {
   cursor: default;
+  isolation: isolate;
+  background-image: none;
+}
+
+.home-tile-inactive::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: var(--tile-image, none);
+  background-size: cover;
+  background-position: top center;
+  filter: grayscale(0.85);
+}
+
+.home-tile-inactive::before,
+.home-tile-inactive .home-tile-date {
   filter: grayscale(0.85);
 }
 
@@ -175,8 +195,8 @@ body {
   z-index: 1;
   padding: 0.2rem 0.6rem;
   border-radius: 999px;
-  background: rgb(255 255 255 / 90%);
-  color: var(--esug-blue-dark);
+  background: var(--esug-accent);
+  color: #3d2600;
   font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
