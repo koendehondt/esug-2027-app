@@ -950,3 +950,16 @@ a.conference-year-tile:focus-visible {
 .award-link:focus-visible {
   text-decoration: underline;
 }
+
+/* Call for Presentations: submission template block */
+
+.page pre {
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
