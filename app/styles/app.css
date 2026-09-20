@@ -1051,3 +1051,38 @@ a.conference-year-tile:focus-visible {
 .registration-button:focus-visible {
   background: #1b5e20;
 }
+
+.award-prizes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.award-prize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 0.5rem;
+}
+
+.award-prize-medal {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.award-prize .registration-tier-price {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.award-submission {
+  margin: 1.5rem 0;
+}
+
+.award-submission .registration-tier-deadline {
+  margin-top: 0;
+}
