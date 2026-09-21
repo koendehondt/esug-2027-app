@@ -23,10 +23,19 @@ import { LinkTo } from '@ember/routing';
       </LinkTo>
     </div>
     <h1>Show Us Your Project</h1>
-    <p class="page-notice">
-      Details on how to present your Smalltalk project to the community will be
-      published here once confirmed.
+    <p class="page-notice">Registration is not open yet.</p>
+
+    <p>
+      On 7 July 2027, you can do a mini-presentation, a demo, or both, but it
+      should take 10 minutes max!
     </p>
+    <p>Please keep in mind that the number of demonstrations is limited.</p>
+
+    <section class="registration-tier award-submission">
+      <p class="registration-tier-deadline">Submission deadline: 2 July 2027</p>
+      {{! TODO: turn this into a link (<a href=... target="_blank" rel="noopener noreferrer">) once the registration site is available }}
+      <span class="registration-button">Register your demo</span>
+    </section>
   </article>
 
   {{outlet}}

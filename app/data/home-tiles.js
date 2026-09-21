@@ -96,7 +96,7 @@ export default [
     id: 'showcase',
     title: 'Show Us Your Project',
     summary: 'Present your Smalltalk project to the community.',
-    date: '',
+    date: `Submission deadline: 2 July ${currentEdition.year}`,
     active: false,
     badge: `June ${currentEdition.year}`,
     routeName: 'showcase',
