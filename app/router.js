@@ -17,6 +17,7 @@ Router.map(function () {
   this.route('showcase');
   this.route('registration');
   this.route('program');
+  this.route('practical-information');
   this.route('organising-committee');
   this.route('code-of-conduct');
   this.route('about-esug');

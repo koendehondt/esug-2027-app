@@ -113,6 +113,15 @@ export default [
     image: '/images/tiles/program.jpg',
   },
   {
+    id: 'practical-information',
+    title: 'Practical Information',
+    summary: 'Everything you need to know on site.',
+    date: '',
+    active: true,
+    routeName: 'practical-information',
+    image: '/images/tiles/practical-information.jpg',
+  },
+  {
     id: 'organising-committee',
     title: 'Organising Committee',
     summary: `Meet the people organising ESUG ${currentEdition.year}.`,
