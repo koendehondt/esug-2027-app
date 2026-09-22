@@ -1,4 +1,4 @@
-// Data for the Conference Organising Committee page.
+// Data for the Organising Committee page.
 //
 // Chair names are placeholders until the roles are filled -- update each
 // entry's `names` once real chairs are confirmed, and remove the

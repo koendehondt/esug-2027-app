@@ -114,7 +114,7 @@ export default [
   },
   {
     id: 'organising-committee',
-    title: 'Conference Organising Committee',
+    title: 'Organising Committee',
     summary: `Meet the people organising ESUG ${currentEdition.year}.`,
     date: '',
     active: true,

@@ -3,7 +3,7 @@ import { LinkTo } from '@ember/routing';
 import committeeChairs from 'esug-2027-app/data/organising-committee';
 
 <template>
-  {{pageTitle "Conference Organising Committee"}}
+  {{pageTitle "Organising Committee"}}
 
   <article class="page">
     <div class="page-hero">
@@ -27,7 +27,7 @@ import committeeChairs from 'esug-2027-app/data/organising-committee';
         </span>
       </LinkTo>
     </div>
-    <h1>Conference Organising Committee</h1>
+    <h1>Organising Committee</h1>
     <p class="page-notice">
       The chairs for each role have not been selected yet. The names below are
       placeholders.
