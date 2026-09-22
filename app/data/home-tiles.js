@@ -112,6 +112,15 @@ export default [
     routeName: 'program',
     image: '/images/tiles/program.jpg',
   },
+  {
+    id: 'organising-committee',
+    title: 'Conference Organising Committee',
+    summary: `Meet the people organising ESUG ${currentEdition.year}.`,
+    date: '',
+    active: true,
+    routeName: 'organising-committee',
+    image: '/images/tiles/organising-committee.jpg',
+  },
 ];
 
 // Tiles for the ESUG organisation itself, shown in their own "ESUG"

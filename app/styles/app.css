@@ -275,6 +275,40 @@ body {
   margin: 0;
 }
 
+/* Organising Committee page */
+
+.committee-chairs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.committee-chair {
+  padding: 1.25rem;
+  background: #fff;
+  border: 1px solid var(--esug-border);
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.committee-chair-title {
+  margin: 0 0 0.75rem;
+  color: var(--esug-blue-dark);
+  font-size: 1.25rem;
+}
+
+.committee-chair-names {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--esug-muted);
+}
+
+.committee-chair-names li {
+  margin: 0.35rem 0;
+}
+
 /* Become a Sponsor page: tier bands */
 
 .sponsorship-tier-bands {

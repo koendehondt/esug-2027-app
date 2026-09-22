@@ -4,46 +4,47 @@ All home page tile background images are hosted locally under
 `public/images/tiles/` (resized/compressed from their originals so the app
 doesn't need network access to display them). Original sources:
 
-| Tile                   | Original source                                                            |
-| ---------------------- | -------------------------------------------------------------------------- |
-| Venue                  | https://commons.wikimedia.org/wiki/File:VUB_campus_Etterbeek.JPG           |
-| City Information       | https://commons.wikimedia.org/wiki/File:Atomium_Belgium_1.jpg              |
-| Trip Information       | https://commons.wikimedia.org/wiki/File:Eurostar_at_Brussels_Midi-Zuid.jpg |
-| Accommodation          | Provided by Koen                                                           |
-| Call for Presentations | AI-generated (ChatGPT), provided by Koen                                   |
-| IWST / Workshop        | AI-generated (ChatGPT), provided by Koen                                   |
-| Technology Award       | AI-generated (ChatGPT), provided by Koen                                   |
-| Show Us Your Project   | AI-generated (ChatGPT), provided by Koen                                   |
-| Registration           | AI-generated (ChatGPT), provided by Koen                                   |
-| Conference Program     | AI-generated (ChatGPT), provided by Koen                                   |
-| Code of Conduct        | Provided by Koen                                                           |
-| ESUG 2026 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2025 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2024 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2023 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2022 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2019 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2018 Archive      | AI-generated, provided by Koen                                             |
-| ESUG 2017 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2016 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2015 Archive      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2026 Program      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2025 Program      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2024 Program      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2023 Program      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2022 Program      | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2026 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2025 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2024 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2023 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
-| ESUG 2022 Photos       | AI-generated (ChatGPT), provided by Koen                                   |
-| Presentation Archive   | AI-generated, provided by Koen                                             |
-| Past Conferences       | AI-generated (ChatGPT), provided by Koen                                   |
-| About ESUG             | Provided by Koen                                                           |
-| Membership and Support | Provided by Koen                                                           |
-| Become a Sponsor       | Provided by Koen                                                           |
-| Sponsors               | Provided by Koen                                                           |
-| About this App         | AI-generated (ChatGPT), provided by Koen                                   |
+| Tile                            | Original source                                                            |
+| ------------------------------- | -------------------------------------------------------------------------- |
+| Venue                           | https://commons.wikimedia.org/wiki/File:VUB_campus_Etterbeek.JPG           |
+| City Information                | https://commons.wikimedia.org/wiki/File:Atomium_Belgium_1.jpg              |
+| Trip Information                | https://commons.wikimedia.org/wiki/File:Eurostar_at_Brussels_Midi-Zuid.jpg |
+| Accommodation                   | Provided by Koen                                                           |
+| Call for Presentations          | AI-generated (ChatGPT), provided by Koen                                   |
+| IWST / Workshop                 | AI-generated (ChatGPT), provided by Koen                                   |
+| Technology Award                | AI-generated (ChatGPT), provided by Koen                                   |
+| Show Us Your Project            | AI-generated (ChatGPT), provided by Koen                                   |
+| Registration                    | AI-generated (ChatGPT), provided by Koen                                   |
+| Conference Program              | AI-generated (ChatGPT), provided by Koen                                   |
+| Conference Organising Committee | Provided by Koen                                                           |
+| Code of Conduct                 | Provided by Koen                                                           |
+| ESUG 2026 Archive               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2025 Archive               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2024 Archive               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2023 Archive               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2022 Archive               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2019 Archive               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2018 Archive               | AI-generated, provided by Koen                                             |
+| ESUG 2017 Archive               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2016 Archive               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2015 Archive               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2026 Program               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2025 Program               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2024 Program               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2023 Program               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2022 Program               | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2026 Photos                | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2025 Photos                | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2024 Photos                | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2023 Photos                | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2022 Photos                | AI-generated (ChatGPT), provided by Koen                                   |
+| Presentation Archive            | AI-generated, provided by Koen                                             |
+| Past Conferences                | AI-generated (ChatGPT), provided by Koen                                   |
+| About ESUG                      | Provided by Koen                                                           |
+| Membership and Support          | Provided by Koen                                                           |
+| Become a Sponsor                | Provided by Koen                                                           |
+| Sponsors                        | Provided by Koen                                                           |
+| About this App                  | AI-generated (ChatGPT), provided by Koen                                   |
 
 These are placeholders to get the layout right. Swap in real ESUG/VUB/Brussels
 photography whenever you have it — replace the file under
