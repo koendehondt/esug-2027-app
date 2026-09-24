@@ -143,7 +143,7 @@ import { LinkTo } from '@ember/routing';
       If you stay in the centre of Brussels near a metro station, taking metro
       line 5 will probably be the fastest way to reach the campus. There are
       three metro stations in the campus neighbourhood. It takes 20 minutes to
-      reach the conference venue from Petillion, Hankar, or Delta metro
+      reach the conference venue from Pétillon, Hankar, or Delta metro
       stations.
     </p>
     <h3 class="page-subsection-heading">By train</h3>

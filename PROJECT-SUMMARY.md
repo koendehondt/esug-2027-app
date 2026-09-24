@@ -74,7 +74,7 @@ Iteratively built up the "Reaching the VUB campus" section through many small us
 1. Google Maps link paragraph
 2. Campus map link paragraph (VUB campus-map page)
 3. "Guide to reaching the campus" link paragraph (VUB directions page)
-4. **By metro, bus and tram** — STIB/MIVB app links paragraph; metro line 5 paragraph (Petillion/Hankar/Delta, ~20 min)
+4. **By metro, bus and tram** — STIB/MIVB app links paragraph; metro line 5 paragraph (Pétillon/Hankar/Delta, ~20 min)
 5. **By train** — NMBS/SNCB app links paragraph; "ten-minute walk from Etterbeek station" paragraph
 6. **By car** — entrance 6 or 8, paid parking, VUB parking-info link ("Enter the VUB campus via entrance 6 or 8...")
 
