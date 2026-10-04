@@ -310,3 +310,11 @@ carries over the text of https://esug.org/host_esug_events.html
 (proofread for spelling/grammar, UK spelling), as a starting point to be
 edited later. `public/images/tiles/host-a-conference.jpg` (also used as
 the page hero) is an image Koen provided directly.
+
+# Accommodation page credits
+
+`public/images/maps/adagio-delta.jpg` on the Accommodation page
+(`app/templates/accommodation.gjs`) is a Google Maps satellite screenshot
+annotated by Koen (walking route from Aparthotel Adagio Access Brussels
+Delta to VUB building D), converted from PNG to JPEG to reduce its size.
+Imagery © Google.

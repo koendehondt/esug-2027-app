@@ -72,6 +72,9 @@ import { LinkTo } from '@ember/routing';
       If you don't have breakfast at your hotel, you can eat in the cafeteria at
       the VUB restaurant.
     </p>
+    <p>
+      The cafeteria is open from Monday to Friday from 7:30 to 15:45.
+    </p>
 
     <h2 class="page-section-heading">Coffee breaks</h2>
     <p>
@@ -82,16 +85,37 @@ import { LinkTo } from '@ember/routing';
     <h2 class="page-section-heading">Lunches</h2>
     <p>
       During
-      <strong>ESUG 2027</strong>, lunches are served in the VUB restaurant. When
-      exiting building D at the esplanade, you will see the restaurant on your
-      right, on the opposite side of the esplanade.
+      <strong>ESUG 2027</strong>, lunches are served in the VUB restaurant. The
+      restaurant is open from 11:30 to 13:45.
+    </p>
+    <p>
+      When exiting building D at the esplanade, you will see the restaurant on
+      your right, on the opposite side of the esplanade.
     </p>
     <p>Together with your badge, you will receive 4 lunch vouchers.</p>
+    <p>
+      A lunch includes a hot meal, a salad from the salad bar, a dessert, and a
+      drink. Besides meat and fish menus, the restaurant offers a vegetarian and
+      vegan dish every day. Spaghetti Bolognese and vegan spaghetti Bolognese
+      are available daily.
+    </p>
 
     <div class="lunch-menu">
       <section class="lunch-menu-day">
         <h3 class="lunch-menu-day-title">Tuesday, 6 July</h3>
-        <p class="lunch-menu-day-placeholder">Menu to be announced.</p>
+        <p class="page-notice lunch-menu-notice">
+          This menu is an example only. It will be replaced with the real menu
+          two weeks before the conference.
+        </p>
+        {{! TODO: placeholder menu, replace with the real menu once confirmed }}
+        <ul class="lunch-menu-items">
+          <li>Vegetable soup</li>
+          <li>Chicken roast with Archiduc and peas</li>
+          <li>Chicory rolls with ham and cheese sauce</li>
+          <li>Quorn fillet with ratatouille</li>
+          <li>Pasta with tomato-mascarpone sauce</li>
+          <li>Chow Mein</li>
+        </ul>
       </section>
       <section class="lunch-menu-day">
         <h3 class="lunch-menu-day-title">Wednesday, 7 July</h3>
