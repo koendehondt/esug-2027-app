@@ -27,13 +27,20 @@ import { LinkTo } from '@ember/routing';
       </LinkTo>
     </div>
     <h1>Accommodation</h1>
+    <p>
+      Brussels has a wide choice of hotels, which you can find on the well-known
+      hotel booking websites.
+    </p>
+    <p>We have negotiated special conference rates at one hotel.</p>
     <p class="page-notice">
       More recommended hotels will be added here once confirmed.
     </p>
 
     <section class="hotel">
       <h2 class="page-section-heading">Aparthotel Adagio Access Brussels Delta</h2>
-      <p class="hotel-address">Boulevard du Triomphe 207, 1160 Brussels</p>
+      <p class="hotel-address">
+        Address: Boulevard du Triomphe 207, 1160 Brussels
+      </p>
       <p>
         The hotel is located close to the VUB campus and to the Delta metro
         station. The conference is easy to reach on foot. See the map below or
@@ -94,7 +101,7 @@ import { LinkTo } from '@ember/routing';
           </tbody>
         </table>
       </div>
-      <h3 class="page-subsection-heading">Important</h3>
+      <h3 class="page-subsection-heading">Good to know</h3>
       <ul class="hotel-notes">
         <li class="hotel-note">
           These are specifically negotiated rates. They cannot be combined with
@@ -109,15 +116,26 @@ import { LinkTo } from '@ember/routing';
           buffet at 18,00 € per person per day.
         </li>
       </ul>
-      <div class="hotel-booking">
+      <div class="hotel-booking hotel-important">
         <p>
-          Use reservation code
+          Mention code
           <strong class="hotel-booking-code">ESUG2027</strong>
           when booking via
           <a
             href="mailto:HB5M6@adagio-city.com?subject=Reservation%20ESUG2027"
             class="talk-link"
           >HB5M6@adagio-city.com</a>.
+        </p>
+        <h3 class="page-subsection-heading">Important</h3>
+        <p>
+          Reservations using code
+          <strong class="hotel-booking-code">ESUG2027</strong>
+          can only be made by sending an email to
+          <a
+            href="mailto:HB5M6@adagio-city.com?subject=Reservation%20ESUG2027"
+            class="talk-link"
+          >HB5M6@adagio-city.com</a>. Booking via the website or other channels
+          is not possible for these group rates.
         </p>
       </div>
     </section>

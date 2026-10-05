@@ -1259,8 +1259,13 @@ a.conference-year-tile:focus-visible {
   margin: 0;
 }
 
+.hotel-important .page-subsection-heading {
+  margin: 1rem 0 0.5rem;
+}
+
 .hotel-booking-code {
   padding: 0.1rem 0.4rem;
+  border: 1px solid var(--esug-border);
   border-radius: 0.25rem;
   background: var(--esug-bg);
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
