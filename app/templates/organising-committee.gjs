@@ -29,7 +29,7 @@ import committeeChairs from 'esug-2027-app/data/organising-committee';
     </div>
     <h1>Organising Committee</h1>
     <p class="page-notice">
-      The chairs for each role have not been selected yet. The names below are
+      Not all chairs have been selected yet. Jane Doe and John Doe are
       placeholders.
     </p>
 
@@ -38,8 +38,15 @@ import committeeChairs from 'esug-2027-app/data/organising-committee';
         <section class="committee-chair">
           <h2 class="committee-chair-title">{{chair.title}}</h2>
           <ul class="committee-chair-names">
-            {{#each chair.names as |name|}}
-              <li>{{name}}</li>
+            {{#each chair.names as |person|}}
+              <li>
+                <span class="committee-chair-name">{{person.name}}</span>
+                {{#if person.affiliation}}
+                  <span
+                    class="committee-chair-affiliation"
+                  >{{person.affiliation}}</span>
+                {{/if}}
+              </li>
             {{/each}}
           </ul>
         </section>

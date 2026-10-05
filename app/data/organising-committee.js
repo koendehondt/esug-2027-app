@@ -1,38 +1,44 @@
 // Data for the Organising Committee page.
 //
-// Chair names are placeholders until the roles are filled -- update each
-// entry's `names` once real chairs are confirmed, and remove the
+// Each chair is `{ name, affiliation }`; `affiliation` (organisation and/or
+// country) is optional and shown on a second line. Jane/John Doe entries are
+// placeholders until the roles are filled -- update each entry's `names` once
+// real chairs are confirmed, and remove the
 // "not selected yet" notice on the page once they are.
 
 export default [
   {
     id: 'conference-chairs',
     title: 'Conference Chairs',
-    names: ['Jane Doe', 'John Doe'],
+    names: [{ name: 'Jane Doe' }, { name: 'John Doe' }],
   },
   {
     id: 'innovation-award-chairs',
     title: 'Innovation Award Chairs',
-    names: ['Jane Doe', 'John Doe'],
+    names: [{ name: 'Jane Doe' }, { name: 'John Doe' }],
   },
   {
     id: 'iwst-chairs',
     title: 'IWST 2027 Chairs',
-    names: ['Jane Doe', 'John Doe'],
+    names: [
+      { name: 'Nahuel Palumbo', affiliation: 'Argentina' },
+      { name: 'Guillermo Polito', affiliation: 'Inria Lille, France' },
+      { name: 'Gordana Rakić', affiliation: 'University of Novi Sad, Serbia' },
+    ],
   },
   {
     id: 'newcomers-chairs',
     title: 'Newcomers Chairs',
-    names: ['Jane Doe', 'John Doe'],
+    names: [{ name: 'Jane Doe' }, { name: 'John Doe' }],
   },
   {
     id: 'administration-chair',
     title: 'Administration Chair',
-    names: ['Jane Doe'],
+    names: [{ name: 'Pablo Tesone', affiliation: 'Pharo Consortium, France' }],
   },
   {
     id: 'technology-chairs',
     title: 'Technology Chairs',
-    names: ['Jane Doe', 'John Doe'],
+    names: [{ name: 'Jane Doe' }, { name: 'John Doe' }],
   },
 ];

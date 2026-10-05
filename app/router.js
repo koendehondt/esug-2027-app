@@ -12,7 +12,7 @@ Router.map(function () {
   this.route('travel');
   this.route('accommodation');
   this.route('call-for-presentations');
-  this.route('workshop');
+  this.route('iwst');
   this.route('award');
   this.route('showcase');
   this.route('registration');
