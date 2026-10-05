@@ -135,7 +135,7 @@ import { LinkTo } from '@ember/routing';
             href="mailto:HB5M6@adagio-city.com?subject=Reservation%20ESUG2027"
             class="talk-link"
           >HB5M6@adagio-city.com</a>. Booking via the website or other channels
-          is not possible for these group rates.
+          is not possible for these conference rates.
         </p>
       </div>
     </section>
