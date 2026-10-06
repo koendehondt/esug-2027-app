@@ -41,10 +41,15 @@ import committeeChairs from 'esug-2027-app/data/organising-committee';
             {{#each chair.names as |person|}}
               <li>
                 <span class="committee-chair-name">{{person.name}}</span>
-                {{#if person.affiliation}}
+                {{#if person.organisation}}
                   <span
                     class="committee-chair-affiliation"
-                  >{{person.affiliation}}</span>
+                  >{{person.organisation}}</span>
+                {{/if}}
+                {{#if person.country}}
+                  <span
+                    class="committee-chair-affiliation"
+                  >{{person.country}}</span>
                 {{/if}}
               </li>
             {{/each}}
