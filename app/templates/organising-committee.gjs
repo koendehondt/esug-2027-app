@@ -29,8 +29,7 @@ import committeeChairs from 'esug-2027-app/data/organising-committee';
     </div>
     <h1>Organising Committee</h1>
     <p class="page-notice">
-      Not all chairs have been selected yet. Jane Doe and John Doe are
-      placeholders.
+      Not all chairs have been selected yet. Jane Doe is a placeholder.
     </p>
 
     <div class="committee-chairs">

@@ -8,16 +8,36 @@
 
 export default [
   {
-    id: 'conference-chairs',
-    title: 'Conference Chairs',
-    names: [{ name: 'Jane Doe' }, { name: 'John Doe' }],
+    id: 'conference-chair',
+    title: 'Conference Chair',
+    names: [{ name: 'Jane Doe' }],
   },
   {
-    id: 'innovation-award-chair',
-    title: 'Innovation Award Chair',
+    id: 'local-organisation-chairs',
+    title: 'Local Organisation Chairs',
+    names: [
+      {
+        name: 'Koen De Hondt',
+        organisation: 'all: objects all: theTime',
+        country: 'Belgium',
+      },
+      {
+        name: 'Johan Brichau',
+        country: 'Belgium',
+      },
+    ],
+  },
+  {
+    id: 'innovation-award-chairs',
+    title: 'Technology Innovation Awards Chairs',
     names: [
       {
         name: 'Noury Bouraqadi',
+        organisation: 'IMT Nord Europe',
+        country: 'France',
+      },
+      {
+        name: 'Luc Fabresse',
         organisation: 'IMT Nord Europe',
         country: 'France',
       },
@@ -45,11 +65,6 @@ export default [
     ],
   },
   {
-    id: 'newcomers-chairs',
-    title: 'Newcomers Chairs',
-    names: [{ name: 'Jane Doe' }, { name: 'John Doe' }],
-  },
-  {
     id: 'administration-chair',
     title: 'Administration Chair',
     names: [
@@ -59,10 +74,5 @@ export default [
         country: 'France',
       },
     ],
-  },
-  {
-    id: 'technology-chairs',
-    title: 'Technology Chairs',
-    names: [{ name: 'Jane Doe' }, { name: 'John Doe' }],
   },
 ];
