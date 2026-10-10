@@ -1,6 +1,14 @@
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
 import { appVersion } from 'esug-2027-app/data/app-version';
+import { Capacitor } from '@capacitor/core';
+
+// The native apps link to the hosted copy, which opens in the system browser
+// (like the app's other external links) rather than replacing the app's own
+// WebView. The web build links to its own copy, served from public/.
+const privacyPolicyUrl = Capacitor.isNativePlatform()
+  ? 'https://d1rvuwcoi81v4t.cloudfront.net/privacy-policy.html'
+  : '/privacy-policy.html';
 
 <template>
   {{pageTitle "About the ESUG App"}}
@@ -38,7 +46,7 @@ import { appVersion } from 'esug-2027-app/data/app-version';
     <h2 class="page-section-heading">Availability</h2>
     <p>
       The app will be available for iOS and Android devices. Currently, it is
-      available for testing on iOS devices only.
+      available for testing on both.
     </p>
 
     <h2 class="page-section-heading">How was this app built?</h2>
@@ -63,6 +71,18 @@ import { appVersion } from 'esug-2027-app/data/app-version';
       improvement, please
       <a href="mailto:koen@all-objects-all-the-time.st" class="talk-link">send
         an email</a>.
+    </p>
+
+    <h2 class="page-section-heading">Privacy</h2>
+    <p>
+      The app does not collect any personal information. Read the
+      <a
+        href={{privacyPolicyUrl}}
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >privacy policy</a>
+      for details.
     </p>
 
     <h2 class="page-section-heading">Version</h2>
