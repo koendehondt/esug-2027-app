@@ -190,22 +190,27 @@ takes a few days.
 
 1. Run `npm run version:bump`. Google Play rejects an upload whose
    `versionCode` was used before.
-2. Build a signed Android App Bundle (AAB). This also syncs the web app:
+2. Build a signed Android App Bundle (AAB):
 
    ```bash
-   npm run cap:sync
-   npx cap build android \
-     --androidreleasetype AAB \
+   npm run cap:build:android -- \
      --keystorepath ~/keys/esug-upload.jks \
      --keystorealias upload \
      --keystorepass '<keystore password>' \
      --keystorealiaspass '<key password>'
    ```
 
+   This builds the Ember app, syncs it into `android/` and then runs
+   `npx cap build android`. Do not run `npx cap build android` on its own:
+   it only runs Gradle and packages whatever web app was last synced, so the
+   bundle can contain an older web app than its version number says (the
+   About page then shows the old version).
+
    The signed bundle is written to
    `android/app/build/outputs/bundle/release/app-release-signed.aab`.
-   Alternatively, in Android Studio choose **Build → Generate Signed App
-   Bundle or APK → Android App Bundle**, and select the keystore there.
+   Alternatively, run `npm run cap:sync`, then in Android Studio choose
+   **Build → Generate Signed App Bundle or APK → Android App Bundle**, and
+   select the keystore there.
 
 3. In the Play Console, open the app and go to **Test and release → Testing →
    Internal testing** and click **Create new release**. Upload the `.aab`,
