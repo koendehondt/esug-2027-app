@@ -112,3 +112,12 @@ window and root view controller directly in code rather than loading
 `MainViewController()`. (`Main.storyboard`'s `customClass` is also set to
 `MainViewController` for consistency, but since the storyboard is never
 actually loaded, it's not what makes this work.)
+
+## Android back button and back gesture
+
+`app/instance-initializers/android-back-button.js` handles Android's system
+back action (the back button, or the edge-swipe back gesture with gesture
+navigation; both arrive as the same `@capacitor/app` `backButton` event): on
+the home page it sends the app to the background, elsewhere it goes back to
+the previously visited page. Like the iOS swipe-back gesture, this relies on
+the Ember router's real `history.pushState` navigation.
