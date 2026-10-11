@@ -28,9 +28,6 @@ import committeeChairs from 'esug-2027-app/data/organising-committee';
       </LinkTo>
     </div>
     <h1>Organising Committee</h1>
-    <p class="page-notice">
-      Not all chairs have been selected yet. Jane Doe is a placeholder.
-    </p>
 
     <div class="committee-chairs">
       {{#each committeeChairs as |chair|}}

@@ -1,17 +1,17 @@
 import Route from '@ember/routing/route';
 import { service } from '@ember/service';
-import { archiveByYear } from '../data/archive';
 
 // Shared by every archived conference (ESUG 2015 through the most recently
 // archived year) -- previously one hardcoded route per year (esug2015.js,
 // esug2016.js, ...). See app/templates/archive.gjs and
-// app/data/archive/index.js.
+// app/services/archive.js.
 export default class ArchiveRoute extends Route {
+  @service archive;
   @service programScheduleState;
 
-  model(params) {
+  async model(params) {
     const year = Number(params.year);
-    const entry = archiveByYear[year];
+    const entry = await this.archive.loadYear(year);
 
     return {
       year,

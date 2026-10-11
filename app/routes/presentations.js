@@ -1,8 +1,8 @@
 import Route from '@ember/routing/route';
 import { service } from '@ember/service';
-import presentations from '../data/presentations';
 
 export default class PresentationsRoute extends Route {
+  @service archive;
   @service programScheduleState;
 
   activate() {
@@ -11,6 +11,6 @@ export default class PresentationsRoute extends Route {
   }
 
   model() {
-    return presentations;
+    return this.archive.presentations();
   }
 }

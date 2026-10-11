@@ -55,7 +55,7 @@ import HomeTile from '../components/home-tile';
 
       {{! Only years whose archive JSON carries an `awards` block (so far:
         2026 onward) show this section -- see
-        app/data/archive/2026.json's "awards" key for the shape (sourced
+        public/data/archive/2026.json's "awards" key for the shape (sourced
         from that year's esug.org awardsSubmissions.html page). }}
       {{#if @model.awards}}
         <h2 class="page-section-heading">Innovation Technology Awards Winners

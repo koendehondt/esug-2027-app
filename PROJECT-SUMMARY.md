@@ -657,7 +657,7 @@ code):
 
 1. Resolve `current-edition.js` + `home-tiles.js`'s ten tiles into
    concrete values (no more template literals) and add them as a `tiles`
-   array on a new `app/data/archive/2027.json`, alongside that year's
+   array on a new `public/data/archive/2027.json`, alongside that year's
    `program`/`talks` (built the same way the 2015-2026 years were).
 2. For each of the ten tiles' linked pages: copy that page's current
    template (`app/templates/venue.gjs`, etc.) into a year-namespaced
@@ -668,8 +668,8 @@ code):
    `tiles` entries at the matching nested route
    (`routeName: 'archive.venue'`, etc.) instead of the live top-level
    route.
-3. Add `2027` to `app/data/archive/index.js`'s `archiveYears` (newest
-   first, as usual).
+3. Add 2027's summary (year, city, country, heroImage, logoImage) to
+   `app/data/archive/index.js`'s `archiveYears` (newest first, as usual).
 4. Reset `current-edition.js` for the next edition (new year/city/venue)
    and reset `home-tiles.js`'s per-edition facts (`date`/`badge`/`active`)
    back to placeholder state for it -- the templated `summary`/title
@@ -682,3 +682,64 @@ non-uniform content (the venue/city/etc. pages) gets copied once per
 edition transition rather than forced into a shared schema, while
 everything mechanically derivable from "which edition is this" is
 generated from one record instead of hand-duplicated.
+
+## Archive data lazy-loaded at runtime (first step towards remote content)
+
+The production build warned that the main JavaScript chunk was over 700 kB
+(993 kB, 286 kB gzipped). About 800 kB of it was the ten archived years'
+JSON, all statically imported via `app/data/archive/index.js`, so every
+first visit to the website downloaded every year even if no archive page
+was opened. Koen asked for the archive to be lazy-loaded as a first step,
+since some content will later come from the internet.
+
+- **Data moved**: `app/data/archive/<year>.json` -> `public/data/archive/<year>.json`
+  (`git mv`, contents unchanged). Vite copies `public/` into `dist/`, so
+  the files are served from the app's own origin on the website and are
+  bundled into the Capacitor apps by `cap sync` -- the archive still
+  works offline.
+- **`app/data/archive/index.js`** is now just a bundled manifest:
+  `archiveYears` holds each year's summary (year, city, country,
+  heroImage, logoImage), enough for the home page's archive tiles and the
+  Past Conferences page without fetching anything. `archiveByYear` and
+  `allTalks` are gone.
+- **New `archive` service (`app/services/archive.js`)**: the one place
+  that knows where archive data lives (`BASE_URL`, currently
+  `${rootURL}data/archive/`) -- point it at a remote location to serve
+  the archive from the internet. `loadYear(year)` (cached promise per
+  year; a failed load is forgotten so it is retried; resolves to null,
+  without a request, for years not in the manifest), `loadAll()`,
+  `presentations()` (the flattened search index, built once), and
+  `findTalkYear(talkId)` (searches already-loaded years first and loads
+  everything only when needed, since talk ids don't name their year).
+  Requests go through WarpDrive's request manager
+  (`store.requestManager.request`, ending in its Fetch handler) rather
+  than raw `fetch()` -- the project's `warp-drive/no-external-request-patterns`
+  lint rule forbids `fetch()` -- and bypass the store's JSON:API cache,
+  since this data isn't JSON:API.
+- **`app/data/presentations.js`** now exports a pure
+  `buildPresentations(archiveYears)` instead of building a default export
+  at module load.
+- **Routes**: `archive` loads one year; `talk` finds the talk's year and
+  builds that year's presentations to get presenter/date/time;
+  `presentations` uses `archive.presentations()`.
+- **New `app/templates/error.gjs`**: shown when a page's data fails to
+  load ("This page could not be loaded. Please check your internet
+  connection and try again.", with a link home). No loading template
+  yet: local files load in milliseconds; worth adding once data comes
+  from the network.
+- **New `tests/unit/services/archive-test.js`** (5 tests), including a
+  check that every manifest summary matches the fields in its year's JSON,
+  so the two can't silently drift apart.
+- **Result**: main chunk 993 kB -> 410 kB (286 -> 109 kB gzipped); the
+  chunk-size warning is gone. Fetch behaviour checked in a production build
+  with Playwright: home/past conferences fetch nothing, an archive page
+  fetches only its year, navigating from a program to its talks fetches
+  nothing more, Presentations or a directly opened talk link loads all
+  years, and an aborted request shows the error page.
+- Website caching: the deploy workflow invalidates CloudFront `/*`, so
+  updated JSON reaches the edge on every deploy (same as images).
+- Verified: build, ESLint and Prettier pass for the changed files (remaining
+  lint findings -- three stylelint `no-descending-specificity` errors in
+  `app.css`, Prettier on `venue.gjs`, `infra/README.md`, `package.json` --
+  are pre-existing). `npm test` (16 tests) was run in the cloud container,
+  since the device VM has no Chrome and its home volume was full.

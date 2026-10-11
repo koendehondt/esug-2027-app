@@ -1,16 +1,19 @@
 // Data for the Organising Committee page.
 //
 // Each chair is `{ name, organisation, country }`; `organisation` and
-// `country` are optional and each shown on its own line below the name. Jane/John Doe entries are
-// placeholders until the roles are filled -- update each entry's `names` once
-// real chairs are confirmed, and remove the
-// "not selected yet" notice on the page once they are.
+// `country` are optional and each shown on its own line below the name.
 
 export default [
   {
     id: 'conference-chair',
     title: 'Conference Chair',
-    names: [{ name: 'Jane Doe' }],
+    names: [
+      {
+        name: 'Stéphane Ducasse',
+        organisation: 'Inria Lille',
+        country: 'France',
+      },
+    ],
   },
   {
     id: 'local-organisation-chairs',

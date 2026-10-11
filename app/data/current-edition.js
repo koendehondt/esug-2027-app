@@ -7,7 +7,7 @@
 // When this edition ends and archives (see app/data/archive/index.js and
 // PROJECT-SUMMARY.md's "Archiving a conference edition" notes), this
 // record and the tiles it feeds get frozen into that year's
-// app/data/archive/<year>.json, and this file is reset for the next
+// public/data/archive/<year>.json, and this file is reset for the next
 // edition.
 export default {
   year: 2027,

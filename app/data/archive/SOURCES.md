@@ -1,6 +1,6 @@
 # Archive data sources
 
-Where each archived year's `<year>.json` program and talk data came from, preserved from the header comments of the original `program-YYYY.js` / `talks-YYYY.js` files (now retired -- see app/data/archive/index.js) during the migration to app/data/archive/<year>.json.
+Where each archived year's `<year>.json` program and talk data came from, preserved from the header comments of the original `program-YYYY.js` / `talks-YYYY.js` files (now retired -- see app/data/archive/index.js) during the migration to `<year>.json` files (since moved to public/data/archive/<year>.json, so they load on demand instead of being bundled).
 
 ## 2026
 

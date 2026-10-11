@@ -1,6 +1,8 @@
 // Flattened, searchable index of every ESUG presentation with a scheduled
-// session across every archived conference (see app/data/archive/index.js),
-// for the Presentations search page (app/templates/presentations.gjs).
+// session across the given archived conferences, for the Presentations
+// search page (app/templates/presentations.gjs) and the talk page. The
+// year records are the full per-year archive data, loaded at runtime by the
+// `archive` service (app/services/archive.js), which also caches the result.
 //
 // Built by walking each archived year's `program` (day -> sessions), which
 // already carries the presentation title (`subject`), `speaker`, and
@@ -16,10 +18,8 @@
 // Each archived year's `program` only carries day-of-week/day-of-month
 // *labels* (e.g. "Tue 1"), not full calendar dates, so each year's own
 // `dayDates` (full ISO dates, matched by day position) is used instead --
-// see app/data/archive/<year>.json and app/data/archive/SOURCES.md for
+// see public/data/archive/<year>.json and app/data/archive/SOURCES.md for
 // where those dates came from.
-
-import { archiveYears } from './archive';
 
 const DATE_FORMATTER = new Intl.DateTimeFormat('en-GB', {
   weekday: 'short',
@@ -56,7 +56,7 @@ function sortKey(title) {
     .trim();
 }
 
-function buildPresentations() {
+export function buildPresentations(archiveYears) {
   const presentations = [];
 
   for (const { year, program, dayDates } of archiveYears) {
@@ -87,5 +87,3 @@ function buildPresentations() {
 
   return presentations;
 }
-
-export default buildPresentations();
