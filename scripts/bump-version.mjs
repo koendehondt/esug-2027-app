@@ -7,9 +7,11 @@
 // accepts an upload whose versionCode is higher than every earlier one.
 //
 // It also updates the iOS app in ios/App/App.xcodeproj/project.pbxproj:
-// MARKETING_VERSION (the Version in Xcode) becomes the new version and
 // CURRENT_PROJECT_VERSION (the Build in Xcode) goes up by one. App Store
 // Connect only accepts an upload whose build number is new for its version.
+// MARKETING_VERSION (the Version in Xcode) is the version shown in the App
+// Store and does not follow package.json: change it by hand in Xcode for a
+// new App Store release.
 
 import { readFileSync, writeFileSync } from 'node:fs';
 
@@ -84,15 +86,10 @@ const newBuildNumber = oldBuildNumber + 1;
 
 writeFileSync(
   pbxprojPath,
-  pbxproj
-    .replace(
-      /CURRENT_PROJECT_VERSION = \d+;/g,
-      `CURRENT_PROJECT_VERSION = ${newBuildNumber};`,
-    )
-    .replace(
-      /MARKETING_VERSION = [^;]+;/g,
-      `MARKETING_VERSION = ${newVersion};`,
-    ),
+  pbxproj.replace(
+    /CURRENT_PROJECT_VERSION = \d+;/g,
+    `CURRENT_PROJECT_VERSION = ${newBuildNumber};`,
+  ),
 );
 
 console.log(`Version bumped: ${oldVersion} -> ${newVersion}`);

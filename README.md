@@ -64,18 +64,23 @@ changes (templates, CSS, JavaScript) need it too.
 
 ### Versions and build numbers
 
-`npm run version:bump` bumps the patch version in `package.json` and copies
-it to both native apps:
+`npm run version:bump` bumps the patch version in `package.json` and updates
+the native apps:
 
 - Android (`android/app/build.gradle`): `versionName` becomes the new version
   and `versionCode` goes up by one. Google Play only accepts an upload whose
   `versionCode` is higher than every earlier one.
-- iOS (`ios/App/App.xcodeproj/project.pbxproj`): `MARKETING_VERSION` (the
-  **Version** in Xcode) becomes the new version and `CURRENT_PROJECT_VERSION`
+- iOS (`ios/App/App.xcodeproj/project.pbxproj`): `CURRENT_PROJECT_VERSION`
   (the **Build** in Xcode) goes up by one. App Store Connect only accepts an
   upload whose build number is new for its version.
 
 So run it before every upload to Google Play or App Store Connect.
+
+The iOS `MARKETING_VERSION` (the **Version** in Xcode, shown in the App Store
+and TestFlight) does not follow `package.json` and stays at `1.0`. Every
+version uploaded to App Store Connect creates a version entry there that
+cannot be deleted, so change it only for a new App Store release: select the
+**App** target in Xcode, open **General**, and edit **Version**.
 
 ### iOS: install on your own device
 
@@ -113,7 +118,7 @@ This needs the ESUG team's Apple Developer Program membership and access to
 or Admin role.
 
 1. Run `npm run version:bump` and `npm run cap:sync`, then open Xcode with
-   `npx cap open ios`. The bump sets a new version and build number (see
+   `npx cap open ios`. The bump sets a new build number (see
    [Versions and build numbers](#versions-and-build-numbers)).
 2. Select **Any iOS Device (arm64)** as the run destination and choose
    **Product → Archive**.
