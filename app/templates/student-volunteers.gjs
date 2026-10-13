@@ -110,7 +110,7 @@ import { LinkTo } from '@ember/routing';
 
     <div class="registration-tiers">
       <section class="registration-tier">
-        <h2 class="registration-tier-title">Student volunteer registration</h2>
+        <h2 class="registration-tier-title">Conference registration</h2>
         <p class="registration-tier-price">30,00&nbsp;&euro;</p>
         <p class="registration-tier-detail">for the full conference</p>
         <a
