@@ -103,6 +103,15 @@ export default [
     image: '/images/tiles/showcase.jpg',
   },
   {
+    id: 'student-volunteers',
+    title: 'Call for Student Volunteers',
+    summary: `Help run ESUG ${currentEdition.year} and join the community.`,
+    date: `Application deadline: 15 May ${currentEdition.year}`,
+    active: false,
+    routeName: 'student-volunteers',
+    image: '/images/tiles/student-volunteers.jpg',
+  },
+  {
     id: 'program',
     title: 'Conference Program',
     summary: 'The conference at a glance.',

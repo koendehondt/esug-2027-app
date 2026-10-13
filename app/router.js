@@ -15,6 +15,7 @@ Router.map(function () {
   this.route('iwst');
   this.route('award');
   this.route('showcase');
+  this.route('student-volunteers');
   this.route('registration');
   this.route('program');
   this.route('practical-information');

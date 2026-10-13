@@ -14,6 +14,7 @@ doesn't need network access to display them). Original sources:
 | IWST / Workshop        | AI-generated (ChatGPT), provided by Koen                                   |
 | Technology Award       | AI-generated (ChatGPT), provided by Koen                                   |
 | Show Us Your Project   | AI-generated (ChatGPT), provided by Koen                                   |
+| Student Volunteers     | AI-generated, provided by Koen                                             |
 | Registration           | AI-generated (ChatGPT), provided by Koen                                   |
 | Conference Program     | AI-generated (ChatGPT), provided by Koen                                   |
 | Practical Information  | Provided by Koen                                                           |
