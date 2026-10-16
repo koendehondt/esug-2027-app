@@ -45,7 +45,8 @@ import { LinkTo } from '@ember/routing';
         Free accommodation during the isLoop summer school (3-5 July 2027) and
         the conference (6-9 July 2027)
       </li>
-      <li>Lunch every day of the week and one dinner</li>
+      <li>Lunch every day of the week</li>
+      <li>Conference dinner</li>
     </ul>
 
     <h2 class="page-section-heading">What we expect</h2>
