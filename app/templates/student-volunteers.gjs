@@ -46,7 +46,7 @@ import { LinkTo } from '@ember/routing';
         the conference (6-9 July 2027)
       </li>
       <li>Lunch every day of the week</li>
-      <li>Conference dinner</li>
+      <li>Access to social event and conference dinner</li>
     </ul>
 
     <h2 class="page-section-heading">What we expect</h2>

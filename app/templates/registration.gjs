@@ -56,7 +56,7 @@ import { LinkTo } from '@ember/routing';
     </div>
 
     <ul class="registration-extras">
-      <li>Extra person to social dinner: 80,00&nbsp;&euro;.</li>
+      <li>Extra person to social event: 80,00&nbsp;&euro;.</li>
       <li>Payment by bank transfer: free of charge.</li>
       <li>You can also pay without extra fees at
         <a
