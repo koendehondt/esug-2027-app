@@ -83,6 +83,16 @@ export default [
     image: '/images/tiles/workshop.jpg',
   },
   {
+    id: 'isloop',
+    title: 'International School on Live Object-Oriented Programming',
+    summary: 'isLoop: a three-day summer school on Pharo.',
+    date: `Registration deadline: 15 May ${currentEdition.year}`,
+    active: false,
+    badge: `May ${currentEdition.year}`,
+    routeName: 'isloop',
+    image: '/images/tiles/isloop.jpg',
+  },
+  {
     id: 'award',
     title: 'Technology Award Competition',
     summary: "Compete for ESUG's Innovation Technology Award.",

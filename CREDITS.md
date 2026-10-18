@@ -12,6 +12,7 @@ doesn't need network access to display them). Original sources:
 | Accommodation          | Provided by Koen                                                           |
 | Call for Presentations | AI-generated (ChatGPT), provided by Koen                                   |
 | IWST / Workshop        | AI-generated (ChatGPT), provided by Koen                                   |
+| isLoop                 | AI-generated, provided by Koen                                             |
 | Technology Award       | AI-generated (ChatGPT), provided by Koen                                   |
 | Show Us Your Project   | AI-generated (ChatGPT), provided by Koen                                   |
 | Student Volunteers     | AI-generated, provided by Koen                                             |

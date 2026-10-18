@@ -13,6 +13,7 @@ Router.map(function () {
   this.route('accommodation');
   this.route('call-for-presentations');
   this.route('iwst');
+  this.route('isloop');
   this.route('award');
   this.route('showcase');
   this.route('student-volunteers');
