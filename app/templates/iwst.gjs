@@ -36,7 +36,7 @@ import currentEdition from '../data/current-edition';
     <p>
       Please refer to the
       <a
-        href="https://conf.researchr.org/accessDenied/iwst-2027/"
+        href="https://conf.researchr.org/home/iwst-2027"
         class="talk-link"
         target="_blank"
         rel="noopener noreferrer"

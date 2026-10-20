@@ -66,7 +66,7 @@ export default [
     id: 'registration',
     title: 'Conference Registration',
     summary: `Register to attend ESUG ${currentEdition.year}.`,
-    date: `Submission deadline: 14 March ${currentEdition.year}`,
+    date: `Early registration deadline: 1 April ${currentEdition.year}`,
     active: false,
     badge: `March ${currentEdition.year}`,
     routeName: 'registration',
