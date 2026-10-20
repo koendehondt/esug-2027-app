@@ -77,7 +77,7 @@ export default [
     title: 'International Workshop on Smalltalk Technologies',
     summary: 'Co-located with the main conference.',
     date: `Submission deadline: 14 March ${currentEdition.year}`,
-    active: false,
+    active: true,
     badge: `March ${currentEdition.year}`,
     routeName: 'iwst',
     image: '/images/tiles/workshop.jpg',
