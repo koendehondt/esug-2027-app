@@ -25,6 +25,7 @@ Router.map(function () {
   this.route('about-esug');
   this.route('about-this-app');
   this.route('membership-support');
+  this.route('publications');
   this.route('become-a-sponsor');
   this.route('sponsors');
   this.route('presentations');

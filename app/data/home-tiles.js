@@ -173,6 +173,15 @@ export const esugTiles = [
     image: '/images/tiles/membership-support.jpg',
   },
   {
+    id: 'publications',
+    title: 'Scientific Publications',
+    summary: 'ESUG sponsors papers on Smalltalk research.',
+    date: '',
+    active: true,
+    routeName: 'publications',
+    image: '/images/tiles/publications.jpg',
+  },
+  {
     id: 'become-a-sponsor',
     title: 'Become a Sponsor',
     summary: 'Support ESUG as a sponsor.',

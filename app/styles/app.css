@@ -1293,3 +1293,66 @@ a.conference-year-tile:focus-visible {
     padding: 0.6rem 0.5rem;
   }
 }
+
+/* Scientific Publications page: one coloured card per article (no bullet
+   list), with authors, title, venue and URL each on their own line. The
+   card colour rotates per year section. */
+.publication-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.publication-card {
+  --publication-tint: #e8eef7;
+  --publication-edge: var(--esug-blue);
+
+  padding: 0.875rem 1.125rem;
+  border-radius: 0.75rem;
+  border-left: 6px solid var(--publication-edge);
+  background: var(--publication-tint);
+  overflow-wrap: anywhere;
+}
+
+.publication-year:nth-of-type(4n + 2) .publication-card {
+  --publication-tint: #fdf1dc;
+  --publication-edge: var(--esug-accent);
+}
+
+.publication-year:nth-of-type(4n + 3) .publication-card {
+  --publication-tint: #e3f2ec;
+  --publication-edge: #2e8b6a;
+}
+
+.publication-year:nth-of-type(4n + 4) .publication-card {
+  --publication-tint: #f1e8f5;
+  --publication-edge: #7d4e9a;
+}
+
+.publication-card p {
+  margin: 0;
+}
+
+.publication-card p + p {
+  margin-top: 0.25rem;
+}
+
+.publication-authors {
+  color: var(--esug-text);
+  font-size: 0.9rem;
+}
+
+.publication-title {
+  color: var(--esug-blue-dark);
+  font-weight: 700;
+}
+
+.publication-venue {
+  color: var(--esug-text);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.publication-url {
+  font-size: 0.85rem;
+}
