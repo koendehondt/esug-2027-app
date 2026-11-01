@@ -129,11 +129,11 @@ import { LinkTo } from '@ember/routing';
       Tintin, the Smurfs, Lucky Luke, and Spirou were all born here, and more
       than 20 building-sized comic murals form the city's
       <a
-        href="https://www.brusselsmuralroute.com/en/"
+        href="https://www.visit.brussels/en/visitors/plan-your-trip/comic-strip-trail"
         class="talk-link"
         target="_blank"
         rel="noopener noreferrer"
-      >Comic Strip Route</a>. The city was also home to surrealist painter René
+      >Comic strip trail</a>. The city was also home to surrealist painter René
       Magritte, and Art&nbsp;Nouveau architecture — sinuous ironwork, stained
       glass, organic facades — decorates whole neighbourhoods, especially
       Ixelles and Saint-Gilles.
