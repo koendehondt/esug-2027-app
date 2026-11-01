@@ -2,7 +2,8 @@
 //
 // Source: https://esug.org/publications.html ("Your Scientific
 // Publication"). Each entry carries the authors, the title, the venue
-// (conference, journal or magazine) and an optional URL. Where the source
+// (conference, journal or magazine) and an optional DOI URL (only doi.org
+// links are kept, since other URLs tend to change or disappear). Where the source
 // page lists an affiliation (2008-2009 entries), it is appended to the
 // authors in parentheses. Obvious typos in the source were fixed ("SPLASH
 // 202" -> "SPLASH 2020", "Window Plangue" -> "Window Plague"), and a
@@ -21,7 +22,6 @@ export default [
         authors: 'Matteo Marra, Guillermo Polito, Elisa Gonzalez Boix',
         title: 'Framework-Aware Debugging with Stack Tailoring',
         venue: '16th Dynamic Languages Symposium (DLS) at SPLASH 2020',
-        url: 'https://conf.researchr.org/home/dls-2020',
       },
     ],
   },
@@ -34,7 +34,6 @@ export default [
           'Live Programming and Software Evolution: Questions during a Programming Change Task',
         venue:
           '27th IEEE/ACM International Conference on Program Comprehension, 2019',
-        url: 'https://conf.researchr.org/details/icpc-2019/icpc-2019-Technical-Research/11/Live-Programming-and-Software-Evolution-Questions-during-a-Programming-Change-Task',
       },
       {
         authors: 'Matteo Marra, Guillermo Polito, Elisa Gonzalez Boix',
@@ -42,7 +41,6 @@ export default [
           'Out-of-place debugging: A debugging architecture to reduce debugging interference',
         venue:
           'The Art, Science and Engineering of Programming, Vol. 3(2), 2018',
-        url: 'https://programming-journal.org/2019/3/3/',
       },
     ],
   },
@@ -388,7 +386,6 @@ export default [
           'David Röthlisberger (Software Composition Group, University of Bern)',
         title: 'Exploiting Runtime Information in the IDE',
         venue: 'ICPC 2008',
-        url: 'https://www.cs.vu.nl/icpc2008/',
       },
     ],
   },
