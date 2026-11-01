@@ -11,8 +11,10 @@
 // "Misery Loves Company" and "Untangling Fine-Grained Code Changes" under
 // SAC 2015; their DOIs show they appeared at SANER 2015, so the venue was
 // corrected. Dead 2008-2009 conference-website links (checked November 2026)
-// were replaced with the paper's DOI, or dropped where no DOI exists for
-// that publication (ReCoSoC 2008).
+// were replaced with the paper's DOI. Papers the source lists without a link
+// were given their DOI where Crossref has one (checked November 2026); only
+// "Do Objects need Occurrence Typing?" (JCC 2012) and the ReCoSoC 2008 paper
+// have none.
 
 export default [
   {
@@ -22,6 +24,7 @@ export default [
         authors: 'Matteo Marra, Guillermo Polito, Elisa Gonzalez Boix',
         title: 'Framework-Aware Debugging with Stack Tailoring',
         venue: '16th Dynamic Languages Symposium (DLS) at SPLASH 2020',
+        url: 'https://doi.org/10.1145/3426422.3426982',
       },
     ],
   },
@@ -34,6 +37,7 @@ export default [
           'Live Programming and Software Evolution: Questions during a Programming Change Task',
         venue:
           '27th IEEE/ACM International Conference on Program Comprehension, 2019',
+        url: 'https://doi.org/10.1109/ICPC.2019.00017',
       },
       {
         authors: 'Matteo Marra, Guillermo Polito, Elisa Gonzalez Boix',
@@ -41,6 +45,7 @@ export default [
           'Out-of-place debugging: A debugging architecture to reduce debugging interference',
         venue:
           'The Art, Science and Engineering of Programming, Vol. 3(2), 2018',
+        url: 'https://doi.org/10.22152/programming-journal.org/2019/3/3',
       },
     ],
   },
@@ -178,12 +183,14 @@ export default [
           'KENDRICK: a Domain Specific Language and Platform for Mathematical Epidemiological Modelling',
         venue:
           '11th IEEE-RIVF International Conference on Computing and Communication Technologies (RIVF 2015), 2015',
+        url: 'https://doi.org/10.1109/RIVF.2015.7049888',
       },
       {
         authors: 'Boris Spasojevic, Mircea Lungu and Oscar Nierstrasz',
         title:
           'Mining the Ecosystem to Improve Type Inference For Dynamically Typed Languages',
         venue: 'Onward! 2014, 2014',
+        url: 'https://doi.org/10.1145/2661136.2661141',
       },
       {
         authors:
@@ -191,12 +198,14 @@ export default [
         title:
           'On the Use of Type Predicates in Object-Oriented Software: The Case of Smalltalk',
         venue: 'SPLASH 2014 Dynamic Languages Symposium, 2014',
+        url: 'https://doi.org/10.1145/2661088.2661091',
       },
       {
         authors: 'Johan Fabry and Miguel Campusano',
         title: 'Live Robot Programming',
         venue:
           '14th edition of the Ibero-American Conference on Artificial Intelligence (IBERAMIA 2014), Santiago de Chile, 2014',
+        url: 'https://doi.org/10.1007/978-3-319-12027-0_36',
       },
       {
         authors: 'Yuriy Tymchuk, Andrea Mocci and Michele Lanza',
@@ -214,12 +223,14 @@ export default [
         authors: 'Johan Fabry and Alexandre Bergel',
         title: 'Design Decisions in AspectMaps',
         venue: '1st IEEE Working Conference on Software Visualization, 2013',
+        url: 'https://doi.org/10.1109/VISSOFT.2013.6650548',
       },
       {
         authors: 'Jannick Laval, Luc Fabresse and Noury Bouraqadi',
         title: 'A Methodology for Testing Mobile Autonomous Robots',
         venue:
           'IROS 2013 conference (IEEE/RSJ International Conference on Intelligent Robots and Systems), 2013',
+        url: 'https://doi.org/10.1109/IROS.2013.6696599',
       },
     ],
   },
@@ -232,17 +243,20 @@ export default [
         title: 'Tracking Human-Centric Controlled Experiments with Biscuit',
         venue:
           'Proceedings of the Workshop on Evaluation and Usability of Programming Languages and Tools (PLATEAU) at the ACM Onward! and SPLASH Conferences, October 2012',
+        url: 'https://doi.org/10.1145/2414721.2414723',
       },
       {
         authors: 'Jorge Ressia, Alexandre Bergel, and Oscar Nierstrasz',
         title: 'Object-Centric Debugging',
         venue: 'Proceedings of ICSE 2012, p. 485-495, 2012',
+        url: 'https://doi.org/10.1109/ICSE.2012.6227167',
       },
       {
         authors:
           "Alberto Bacchelli, Tommaso dal Sasso, Marco D'Ambros, and Michele Lanza",
         title: 'Content Classification of Development Emails',
         venue: 'Proceedings of ICSE 2012, p. 375-385, 2012',
+        url: 'https://doi.org/10.1109/ICSE.2012.6227177',
       },
       {
         authors: 'Oscar Callau',
@@ -260,22 +274,26 @@ export default [
         title:
           'Enabling Program Comprehension through a Visual Object-focused Development Environment',
         venue: 'Proceedings of VL/HCC 2011, 2011',
+        url: 'https://doi.org/10.1109/VLHCC.2011.6070389',
       },
       {
         authors: "Alberto Bacchelli, Michele Lanza, and Marco D'Ambros",
         title: 'Miler: A Toolset for Exploring Email Data',
         venue: 'Demonstration at ICSE 2011, 2011',
+        url: 'https://doi.org/10.1145/1985793.1985984',
       },
       {
         authors: 'Alexandre Bergel',
         title:
           'Counting Messages as a Proxy for Average Execution Time in Pharo',
         venue: 'Proceedings of ECOOP 2011, 2011',
+        url: 'https://doi.org/10.1007/978-3-642-22655-7_25',
       },
       {
         authors: 'Richard Wettel, Michele Lanza, and Romain Robbes',
         title: 'Software Systems as Cities: A Controlled Experiment',
         venue: 'Proceedings of ICSE 2011, p. 551-560, 2011',
+        url: 'https://doi.org/10.1145/1985793.1985868',
       },
     ],
   },
@@ -288,6 +306,7 @@ export default [
         title: 'Read-Only Execution for Dynamic Languages',
         venue:
           'Proceedings of TOOLS EUROPE 2010, LNCS 6141, p. 117-136, Springer, 2010',
+        url: 'https://doi.org/10.1007/978-3-642-13953-6_7',
       },
     ],
   },
@@ -299,6 +318,7 @@ export default [
           'David Röthlisberger, Oscar Nierstrasz and Stéphane Ducasse (Software Composition Group, University of Bern)',
         title: 'Autumn Leaves: Curing the Window Plague in IDEs',
         venue: 'Working Conference on Reverse Engineering (WCRE 2009)',
+        url: 'https://doi.org/10.1109/WCRE.2009.18',
       },
       {
         authors: 'Lukas Renggli, Marcus Denker and Oscar Nierstrasz',
@@ -306,6 +326,7 @@ export default [
           'Language Boxes: Bending the Host Language with Modular Language Changes',
         venue:
           '2nd International Conference on Software Language Engineering (SLE 2009)',
+        url: 'https://doi.org/10.1007/978-3-642-12107-4_20',
       },
       {
         authors:
@@ -313,6 +334,7 @@ export default [
         title:
           'Identifying cycle causes with Enriched Dependency Structural Matrix',
         venue: 'WCRE 2009',
+        url: 'https://doi.org/10.1109/WCRE.2009.11',
       },
       {
         authors:
@@ -326,6 +348,7 @@ export default [
         title:
           'Promises and Perils of Porting Software Visualization Tools to the Web',
         venue: '11th IEEE International Symposium on Web Systems Evolution',
+        url: 'https://doi.org/10.1109/WSE.2009.5631247',
       },
     ],
   },
@@ -386,6 +409,7 @@ export default [
           'David Röthlisberger (Software Composition Group, University of Bern)',
         title: 'Exploiting Runtime Information in the IDE',
         venue: 'ICPC 2008',
+        url: 'https://doi.org/10.1109/ICPC.2008.32',
       },
     ],
   },
