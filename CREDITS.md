@@ -46,6 +46,11 @@ doesn't need network access to display them). Original sources:
 | About ESUG              | AI-generated (ChatGPT), provided by Koen                                   |
 | Membership and Support  | AI-generated (ChatGPT), provided by Koen                                   |
 | Promotion               | AI-generated (ChatGPT), provided by Koen                                   |
+| Mobility Support        | AI-generated (ChatGPT), provided by Koen                                   |
+| Support Your Project    | AI-generated (ChatGPT), provided by Koen                                   |
+| Article Promotion       | AI-generated (ChatGPT), provided by Koen                                   |
+| Past Actions            | AI-generated (ChatGPT), provided by Koen                                   |
+| Smalltalk DVD           | AI-generated (ChatGPT), provided by Koen                                   |
 | Scientific Publications | AI-generated (ChatGPT), provided by Koen                                   |
 | Become a Sponsor        | AI-generated (ChatGPT), provided by Koen                                   |
 | Sponsors                | AI-generated (ChatGPT), provided by Koen                                   |

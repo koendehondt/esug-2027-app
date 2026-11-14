@@ -33,36 +33,23 @@ import { LinkTo } from '@ember/routing';
     <p>
       ESUG offers five mobility grants of 600&nbsp;€ per year, so that students
       can do an internship at a research lab working with Smalltalk.
-      <a
-        href="https://esug.org/mobility.html"
-        class="talk-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >More about mobility support</a>
+      <LinkTo @route="mobility" class="talk-link">More about mobility support</LinkTo>
     </p>
 
     <h2 class="page-section-heading">Support Your Project</h2>
     <p>
-      ESUG funds projects such as software development, teaching, lectures and
-      presence at conferences.
-      <a
-        href="https://esug.org/project.html"
-        class="talk-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >More about project support</a>
+      ESUG used to support projects related to software development, teaching,
+      lectures and presence at conferences. This programme has ended.
+      <LinkTo @route="project-support" class="talk-link">See past supported
+        projects</LinkTo>
     </p>
 
     <h2 class="page-section-heading">Article Promotion</h2>
     <p>
       ESUG pays 100&nbsp;€ for each published article about any Smalltalk
       dialect.
-      <a
-        href="https://esug.org/article.html"
-        class="talk-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >More about article promotion</a>
+      <LinkTo @route="article-promotion" class="talk-link">More about article
+        promotion</LinkTo>
     </p>
 
     <h2 class="page-section-heading">Scientific Publications</h2>
@@ -76,12 +63,7 @@ import { LinkTo } from '@ember/routing';
     <h2 class="page-section-heading">Past Actions</h2>
     <p>
       An overview of ESUG's main promotion actions in the past.
-      <a
-        href="https://esug.org/past_actions.html"
-        class="talk-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >See past actions</a>
+      <LinkTo @route="past-actions" class="talk-link">See past actions</LinkTo>
     </p>
   </article>
 

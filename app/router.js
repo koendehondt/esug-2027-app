@@ -26,6 +26,11 @@ Router.map(function () {
   this.route('about-this-app');
   this.route('membership-support');
   this.route('promotion');
+  this.route('mobility');
+  this.route('project-support');
+  this.route('article-promotion');
+  this.route('past-actions');
+  this.route('dvd');
   this.route('publications');
   this.route('become-a-sponsor');
   this.route('sponsors');
