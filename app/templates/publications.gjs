@@ -12,7 +12,7 @@ import publicationYears from 'esug-2027-app/data/publications';
         alt=""
         class="page-hero-image"
       />
-      <LinkTo @route="index" class="page-back" aria-label="Home">
+      <LinkTo @route="promotion" class="page-back" aria-label="Back">
         <span class="page-back-icon">
           <svg
             viewBox="0 0 24 24"

@@ -45,6 +45,7 @@ doesn't need network access to display them). Original sources:
 | Past Conferences        | AI-generated (ChatGPT), provided by Koen                                   |
 | About ESUG              | AI-generated (ChatGPT), provided by Koen                                   |
 | Membership and Support  | AI-generated (ChatGPT), provided by Koen                                   |
+| Promotion               | AI-generated (ChatGPT), provided by Koen                                   |
 | Scientific Publications | AI-generated (ChatGPT), provided by Koen                                   |
 | Become a Sponsor        | AI-generated (ChatGPT), provided by Koen                                   |
 | Sponsors                | AI-generated (ChatGPT), provided by Koen                                   |

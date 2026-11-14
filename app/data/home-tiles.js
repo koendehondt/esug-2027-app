@@ -173,13 +173,13 @@ export const esugTiles = [
     image: '/images/tiles/membership-support.jpg',
   },
   {
-    id: 'publications',
-    title: 'Scientific Publications',
-    summary: 'ESUG sponsors papers on Smalltalk research.',
+    id: 'promotion',
+    title: 'Promotion',
+    summary: 'How ESUG promotes Smalltalk in industry and academia.',
     date: '',
     active: true,
-    routeName: 'publications',
-    image: '/images/tiles/publications.jpg',
+    routeName: 'promotion',
+    image: '/images/tiles/promotion.jpg',
   },
   {
     id: 'become-a-sponsor',
