@@ -1,7 +1,10 @@
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
-import NewCompanyDialog from 'esug-2027-app/components/new-company-dialog';
-import { currentCompanies, oldCompanies } from 'esug-2027-app/data/companies';
+import {
+  currentCompanies,
+  oldCompanies,
+  NEW_COMPANY_FORM_URL,
+} from 'esug-2027-app/data/companies';
 
 <template>
   {{pageTitle "Companies"}}
@@ -28,7 +31,15 @@ import { currentCompanies, oldCompanies } from 'esug-2027-app/data/companies';
 
     <p>This is a list of companies worldwide that use Smalltalk.</p>
     <p>To add your company to this list, please fill in this form:</p>
-    <NewCompanyDialog />
+    {{! The form opens in the browser (Safari/Chrome in the native apps, a new
+      tab on the web) rather than inside the app, so the app itself collects no
+      data -- see PROJECT-SUMMARY.md, "Companies form opens in the browser". }}
+    <a
+      href={{NEW_COMPANY_FORM_URL}}
+      class="registration-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >New Company</a>
 
     <h2 class="page-section-heading">Registered Companies</h2>
     <div class="publication-list">

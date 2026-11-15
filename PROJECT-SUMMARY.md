@@ -792,3 +792,16 @@ Companies) and the "Sponsoring Books" page were missing from the app.
   Smalltalk page no longer links to the Presentation Archive, so the
   short-lived `presentationsEntryRoute` back-link tracking was removed
   again (the Presentation Archive's back link goes home, as before).
+
+## Companies form opens in the browser
+
+The Companies page's "New Company" button used to open ESUG's ApptiveGrid
+form in an in-app `<dialog>` with an iframe (`app/components/new-company-dialog.gjs`).
+That is data collection through a web view, which Apple's App Privacy label
+(and Google Play's Data safety form) would require declaring. The dialog was
+removed: "New Company" is now a plain link (`registration-button` style) to
+`NEW_COMPANY_FORM_URL` with `target="_blank"`, so the form opens in
+Safari/Chrome in the native apps and in a new tab on the web -- on every
+platform, per Koen's choice. The app itself thus collects no data, and the
+App Store answer stays "Data Not Collected". The dialog CSS (`.form-dialog*`,
+`button.registration-button`) was removed from `app/styles/app.css`.
