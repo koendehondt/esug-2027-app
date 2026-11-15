@@ -93,7 +93,7 @@ import { LinkTo } from '@ember/routing';
     <ul>
       <li>Dynamic Web Development with Seaside by Ducasse et al. (2009)</li>
       <li><a
-          href="https://www.squeakbyexample.org/"
+          href="https://github.com/hpi-swa-lab/SqueakByExample-english"
           class="talk-link"
           target="_blank"
           rel="noopener noreferrer"
@@ -276,7 +276,7 @@ import { LinkTo } from '@ember/routing';
         >Colegio Schonthal</a>
         and
         <a
-          href="http://www.roboliga.com.ar"
+          href="http://roboliga.edu.ar/"
           class="talk-link"
           target="_blank"
           rel="noopener noreferrer"
@@ -374,7 +374,7 @@ import { LinkTo } from '@ember/routing';
         (Markus Gaelli)</li>
       <li><strong>India:</strong>
         <a
-          href="http://www.jntu.org/"
+          href="https://jntuh.ac.in/"
           class="talk-link"
           target="_blank"
           rel="noopener noreferrer"
