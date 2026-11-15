@@ -122,7 +122,7 @@ const privacyPolicyUrl = Capacitor.isNativePlatform()
     <p>
       If you notice an error in the data, run into a bug, or want to propose an
       improvement, please
-      <a href="mailto:koen@all-objects-all-the-time.st" class="talk-link">send
+      <a href="mailto:info@all-objects-all-the-time.st" class="talk-link">send
         an email</a>.
     </p>
 
