@@ -54,6 +54,7 @@ doesn't need network access to display them). Original sources:
 | Scientific Publications | AI-generated (ChatGPT), provided by Koen                                   |
 | Become a Sponsor        | AI-generated (ChatGPT), provided by Koen                                   |
 | Sponsors                | AI-generated (ChatGPT), provided by Koen                                   |
+| Companies               | AI-generated (ChatGPT), provided by Koen                                   |
 | About this App          | AI-generated (ChatGPT), provided by Koen                                   |
 
 These are placeholders to get the layout right. Swap in real ESUG/VUB/Brussels

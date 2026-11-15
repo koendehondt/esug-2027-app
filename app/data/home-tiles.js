@@ -200,6 +200,15 @@ export const esugTiles = [
     image: '/images/tiles/sponsors.jpg',
   },
   {
+    id: 'companies',
+    title: 'Companies',
+    summary: 'Companies around the world that use Smalltalk.',
+    date: '',
+    active: true,
+    routeName: 'companies',
+    image: '/images/tiles/companies.jpg',
+  },
+  {
     id: 'code-of-conduct',
     title: 'Code of Conduct',
     summary: 'The expected behaviour for everyone in the ESUG community.',
