@@ -227,7 +227,7 @@ export const generalArchiveTiles = [
   {
     id: 'smalltalk',
     title: 'Smalltalk',
-    summary: 'Conference slides, historical documents and old Smalltalk books.',
+    summary: 'Historical documents and old Smalltalk books.',
     date: '',
     active: true,
     routeName: 'smalltalk',
