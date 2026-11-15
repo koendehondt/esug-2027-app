@@ -45,17 +45,70 @@ const privacyPolicyUrl = Capacitor.isNativePlatform()
 
     <h2 class="page-section-heading">Availability</h2>
     <p>
-      The app will be available for iOS and Android devices. Currently, it is
+      The app is available for iOS and Android devices. Currently, it is
       available for testing on both.
     </p>
 
     <h2 class="page-section-heading">How was this app built?</h2>
     <p>
       This app was built entirely through "vibe coding" with Claude, an AI
-      assistant from Anthropic. The images were generated with ChatGPT. The app
-      is a community project and has not been through a traditional development
-      process, so please be patient with rough edges.
+      assistant from Anthropic. The app is a community project, so please be
+      patient with rough edges.
     </p>
+
+    <h2 class="page-section-heading">Where do the images come from?</h2>
+    <p>
+      Most images on the home page tiles and at the top of the pages were
+      generated with ChatGPT. The other images come from these sources:
+    </p>
+    <ul>
+      <li>Venue: photo of the VUB campus by Big Apple, from
+        <a
+          href="https://commons.wikimedia.org/wiki/File:VUB_campus_Etterbeek.JPG"
+          class="talk-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Wikimedia Commons</a>, licensed under
+        <a
+          href="https://creativecommons.org/licenses/by-sa/3.0/"
+          class="talk-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >CC BY-SA 3.0</a>, resized.</li>
+      <li>City Information: photo of the Atomium by o palsson, from
+        <a
+          href="https://commons.wikimedia.org/wiki/File:Atomium_Belgium_1.jpg"
+          class="talk-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Wikimedia Commons</a>, licensed under
+        <a
+          href="https://creativecommons.org/licenses/by/2.0/"
+          class="talk-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >CC BY 2.0</a>, resized.</li>
+      <li>Trip Information: photo of Eurostar trains at Brussels-South by
+        Oxyman, from
+        <a
+          href="https://commons.wikimedia.org/wiki/File:Eurostar_at_Brussels_Midi-Zuid.jpg"
+          class="talk-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Wikimedia Commons</a>, licensed under
+        <a
+          href="https://creativecommons.org/licenses/by-sa/3.0/"
+          class="talk-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >CC BY-SA 3.0</a>, resized.</li>
+      <li>Accommodation: map based on Google Maps satellite imagery
+        (©&nbsp;Google), annotated with the walking route to the venue.</li>
+      <li>Conference logos: the organising committees of the respective
+        conferences.</li>
+      <li>Award medals: the Innovation Technology Awards pages on esug.org.</li>
+      <li>Sponsor logos: the respective sponsors.</li>
+    </ul>
 
     <h2 class="page-section-heading">Where does the data come from?</h2>
     <p>
