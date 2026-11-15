@@ -200,6 +200,22 @@ export const esugTiles = [
     image: '/images/tiles/sponsors.jpg',
   },
   {
+    id: 'code-of-conduct',
+    title: 'Code of Conduct',
+    summary: 'The expected behaviour for everyone in the ESUG community.',
+    date: '',
+    active: true,
+    routeName: 'code-of-conduct',
+    image: '/images/tiles/code-of-conduct.jpg',
+  },
+];
+
+// Tiles for the "Archives" section on the home page, shown between the
+// "ESUG" and "Conferences" sections: Smalltalk resources beyond ESUG
+// itself. Not to be confused with `archiveTiles` below, which are the
+// "Conference Archives" section.
+export const generalArchiveTiles = [
+  {
     id: 'companies',
     title: 'Companies',
     summary: 'Companies around the world that use Smalltalk.',
@@ -209,13 +225,31 @@ export const esugTiles = [
     image: '/images/tiles/companies.jpg',
   },
   {
-    id: 'code-of-conduct',
-    title: 'Code of Conduct',
-    summary: 'The expected behaviour for everyone in the ESUG community.',
+    id: 'smalltalk',
+    title: 'Smalltalk',
+    summary: 'Conference slides, historical documents and old Smalltalk books.',
     date: '',
     active: true,
-    routeName: 'code-of-conduct',
-    image: '/images/tiles/code-of-conduct.jpg',
+    routeName: 'smalltalk',
+    image: '/images/tiles/smalltalk.jpg',
+  },
+  {
+    id: 'videos',
+    title: 'Videos',
+    summary: 'ESUG conference playlists and other Smalltalk videos.',
+    date: '',
+    active: true,
+    routeName: 'videos',
+    image: '/images/tiles/videos.jpg',
+  },
+  {
+    id: 'press',
+    title: 'Press',
+    summary: 'Articles about Smalltalk published in magazines.',
+    date: '',
+    active: true,
+    routeName: 'press',
+    image: '/images/tiles/press.jpg',
   },
 ];
 

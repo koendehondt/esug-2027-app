@@ -137,6 +137,58 @@ import { LinkTo } from '@ember/routing';
       <li>United States: Santa Barbara</li>
     </ul>
 
+    <h2 class="page-section-heading">Free Books</h2>
+    <p>
+      Books were too expensive, so ESUG decided to promote open-source books:
+    </p>
+    <ul>
+      <li>ESUG sponsored the
+        <a
+          href="https://books.pharo.org"
+          class="talk-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Pharo open-access books</a>. Check them out: many are great.</li>
+      <li>ESUG sponsored
+        <a
+          href="https://github.com/hpi-swa-lab/SqueakByExample-english"
+          class="talk-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Squeak by Example</a>.</li>
+      <li>Andres Valloud's books
+        <em>Hashing in Smalltalk: Theory and Practice</em>
+        and
+        <em>A Mentoring Course on Smalltalk</em>
+        were presented at ESUG 2009.</li>
+    </ul>
+    <p>
+      ESUG also sent free printed copies of Squeak by Example to universities
+      and individuals:
+    </p>
+    <ul>
+      <li>van Tuan Le, Quy Nhon University, IFI - MSI Hanoi, Vietnam</li>
+      <li>IUT de Caen Library, France</li>
+      <li>Gabriela Arévalo, Universidad Nacional de La Plata, Argentina</li>
+      <li>Markus Gaelli, Squeak Germany (plus 80 bookmarks for the Practical
+        Linux booth in Giessen, Germany)</li>
+      <li>Lukas Renggli (plus 100 bookmarks for MODELS 07)</li>
+      <li>PySqueak Sprint, Bern, 2007: three copies handed out to non-Squeak
+        participants</li>
+      <li>Damien Pollet, France</li>
+      <li>Pascal Bouvier, HEI, Lille, France</li>
+      <li>Christian Denker, Germany</li>
+      <li>30 books for the Smalltalk conference in Argentina: Fabian Florotto,
+        Colin Putney, Lautaro Fernandez, Fernando Dodino, Nicolas Buttarelli,
+        Guillermo Gonzalez, Luis Alberto Garmendia, Fernando Olivero, Esteban
+        Maringolo, Marcos Andres Sobral, Mariano Matayoshi, Miguel Angel
+        Gutierrez, Mirco Bombieri, Gaston Dall'Oglio, Sergio Polizzi, Gabriel
+        Cotelli, Adrian Soma, Diego Geffmer, Claudio Campos, Gabriel Brunstein,
+        Ignacio Vivona, Carlos Enrique Rodriguez, Agustina Herrera, German
+        Boccoleri, Pablo Revert, Guido Vilariño, Donal Zmick, Mauro Pezzarini,
+        Sebastian Blanco, Maria Laura Gronda</li>
+    </ul>
+
     <h2 class="page-section-heading">Miscellaneous</h2>
     <ul>
       <li>Sponsoring of the Russian Smalltalk server</li>

@@ -35,6 +35,9 @@ Router.map(function () {
   this.route('become-a-sponsor');
   this.route('sponsors');
   this.route('companies');
+  this.route('smalltalk');
+  this.route('videos');
+  this.route('press');
   this.route('presentations');
   this.route('past-conferences');
   this.route('host-a-conference');

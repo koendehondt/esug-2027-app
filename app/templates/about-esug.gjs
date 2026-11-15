@@ -82,15 +82,15 @@ import { LinkTo } from '@ember/routing';
       dialects of Smalltalk. It was registered in 1991 under French status
       &ldquo;Association de Loi 1901&rdquo;.
     </p>
-    <p>Its goals are to:</p>
+    <p>Its goals:</p>
     <ul>
-      <li>promote use of the Smalltalk programming language</li>
-      <li>promote communication between Smalltalk users through meetings, a
+      <li>Promote use of the Smalltalk programming language</li>
+      <li>Promote communication between Smalltalk users through meetings, a
         periodic newsletter, software exchange, electronic mail, etc., and by
         organising events such as the ESUG yearly conference</li>
-      <li>help and link local Smalltalk user groups</li>
-      <li>help the creation of local Smalltalk user groups</li>
-      <li>identify Smalltalk users and their needs, and represent them in
+      <li>Help and link local Smalltalk user groups</li>
+      <li>Help the creation of local Smalltalk user groups</li>
+      <li>Identify Smalltalk users and their needs, and represent them in
         discussions with vendors</li>
     </ul>
     <p>

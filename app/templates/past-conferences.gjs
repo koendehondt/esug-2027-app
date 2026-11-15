@@ -36,8 +36,15 @@ import { archiveYears } from '../data/archive';
     </p>
 
     <p>
-      Conferences from 2015 onward that have an archive in this app are linked
-      below.
+      The slides of the presentations at past ESUG conferences are available in
+      the
+      <a
+        href="https://archive.esug.org"
+        class="talk-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >ESUG Archive</a>. Conferences from 2015 onward that have an archive in
+      this app are linked below.
     </p>
 
     <div class="conference-logo-grid">

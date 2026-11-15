@@ -6,6 +6,7 @@ import tiles, {
   archiveTiles,
   conferencesTiles,
   esugTiles,
+  generalArchiveTiles,
 } from 'esug-2027-app/data/home-tiles';
 import currentEdition from 'esug-2027-app/data/current-edition';
 
@@ -39,6 +40,13 @@ import currentEdition from 'esug-2027-app/data/current-edition';
     {{/each}}
   </section>
 
+  <h2 class="home-section-heading">Archives</h2>
+  <section class="tile-grid" aria-label="Archives">
+    {{#each generalArchiveTiles as |tile|}}
+      <HomeTile @tile={{tile}} />
+    {{/each}}
+  </section>
+
   <h2 class="home-section-heading">Conferences</h2>
   <section class="tile-grid" aria-label="Conferences">
     {{#each conferencesTiles as |tile|}}
@@ -47,7 +55,7 @@ import currentEdition from 'esug-2027-app/data/current-edition';
   </section>
 
   <h2 class="home-section-heading">Conference Archives</h2>
-  <section class="tile-grid" aria-label="Archives">
+  <section class="tile-grid" aria-label="Conference Archives">
     {{#each archiveTiles as |tile|}}
       <HomeTile @tile={{tile}} />
     {{/each}}

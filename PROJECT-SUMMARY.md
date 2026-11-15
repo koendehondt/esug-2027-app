@@ -743,3 +743,52 @@ since some content will later come from the internet.
   `app.css`, Prettier on `venue.gjs`, `infra/README.md`, `package.json` --
   are pre-existing). `npm test` (16 tests) was run in the cloud container,
   since the device VM has no Chrome and its home volume was full.
+
+## New "Smalltalk Archive" tile/page, with Videos and Press subpages
+
+Coverage check against esug.org showed its whole "Smalltalk" menu (except
+Companies) and the "Sponsoring Books" page were missing from the app.
+
+- **New `smalltalk` route/page** (originally `smalltalk-archive`) (tile in the ESUG section, after
+  Companies): merges esug.org's `smalltalk.html` and
+  `smalltalk_archive.html` -- the ESUG Archive (archive.esug.org),
+  Great Old Documents (The Smalltalk Report), the Smalltalk Book Anthology
+  on HAL, and links to the two subpages below. The obsolete "Google Video"
+  paragraph was dropped.
+- **New `videos` page** (from `videos.html`): data-driven from a `sections`
+  constant in the template; videos without a link show "(no longer
+  available online)".
+- **New `press` page** (from `press.html`): data-driven from a `years`
+  constant. The 2005 PDFs are not linked (esug.org no longer links them).
+  esug.org lists "Linux Magazine 85" for two consecutive 2006 articles;
+  kept as is.
+- **Past Actions**: new "Free Books" section with the remaining content of
+  `freebook.html` (sponsored books and the Squeak by Example recipients).
+- **Image**: `public/images/tiles/smalltalk.jpg` is AI-generated
+  (ChatGPT), provided by Koen (1536x1024, converted from PNG to JPEG). Videos
+  and Press have their own Koen-provided images,
+  `public/images/tiles/videos.jpg` and `public/images/tiles/press.jpg`.
+- Verified: build and ESLint pass (in the cloud container; the device VM's
+  disk was too full for a verify copy), template-lint and Prettier pass on
+  the changed files, and the pages render with no console errors
+  (Playwright).
+- **Videos page**: video titles link to their YouTube video/playlist
+  directly (no separate "YouTube" links); the ESUG Conferences list has
+  every conference playlist on the ESUG channel (2008-2026, newest first,
+  with IWST and Show Us Your Project playlists as extra links on their
+  year); "Deep into Smalltalk" added to "Squeak and Smalltalk".
+- **Home page "Archives" section** (between "ESUG" and "Conferences", data
+  in `generalArchiveTiles`): holds the Companies and Smalltalk tiles, moved
+  out of the ESUG section. The "Smalltalk Archive" tile/page was renamed
+  to "Smalltalk" at that point, and its route, template, route class and
+  image were then renamed from `smalltalk-archive` to `smalltalk` (URL
+  `/smalltalk`).
+- **Videos and Press moved to the home page's "Archives" section** (tiles
+  after Companies and Smalltalk, using their own images); they are no
+  longer linked from the Smalltalk page, and their back links go home.
+- **Past Conference Presentations section removed from the Smalltalk
+  page**; its first sentence (slides of past conferences are in the ESUG
+  Archive) is now the second paragraph of the Past Conferences page. The
+  Smalltalk page no longer links to the Presentation Archive, so the
+  short-lived `presentationsEntryRoute` back-link tracking was removed
+  again (the Presentation Archive's back link goes home, as before).
