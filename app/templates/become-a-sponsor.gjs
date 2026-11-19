@@ -60,7 +60,7 @@ import { LinkTo } from '@ember/routing';
       <div class="sponsorship-tier sponsorship-tier-silver">
         <div class="sponsorship-tier-header">
           <h3 class="sponsorship-tier-name">Silver ESUG Sponsor</h3>
-          <span class="sponsorship-tier-price">&euro;600<span
+          <span class="sponsorship-tier-price">600,00&nbsp;&euro;<span
               class="sponsorship-tier-price-period"
             >/year</span></span>
         </div>
@@ -80,7 +80,7 @@ import { LinkTo } from '@ember/routing';
       <div class="sponsorship-tier sponsorship-tier-gold">
         <div class="sponsorship-tier-header">
           <h3 class="sponsorship-tier-name">Golden ESUG Sponsor</h3>
-          <span class="sponsorship-tier-price">&euro;1300<span
+          <span class="sponsorship-tier-price">1300,00&nbsp;&euro;<span
               class="sponsorship-tier-price-period"
             >/year</span></span>
         </div>
@@ -94,7 +94,7 @@ import { LinkTo } from '@ember/routing';
       <div class="sponsorship-tier sponsorship-tier-platinum">
         <div class="sponsorship-tier-header">
           <h3 class="sponsorship-tier-name">Platinum ESUG Sponsor</h3>
-          <span class="sponsorship-tier-price">&euro;3000<span
+          <span class="sponsorship-tier-price">3000,00&nbsp;&euro;<span
               class="sponsorship-tier-price-period"
             >/year</span></span>
         </div>

@@ -85,18 +85,18 @@ import { LinkTo } from '@ember/routing';
           <tbody>
             <tr>
               <th scope="row">1–2 nights</th>
-              <td>138,41 €</td>
-              <td>172,22 €</td>
+              <td>138,41&nbsp;€</td>
+              <td>172,22&nbsp;€</td>
             </tr>
             <tr>
               <th scope="row">3–7 nights</th>
-              <td>113,05 €</td>
-              <td>142,64 €</td>
+              <td>113,05&nbsp;€</td>
+              <td>142,64&nbsp;€</td>
             </tr>
             <tr>
               <th scope="row">8–90 nights</th>
-              <td>100,37 €</td>
-              <td>127,85 €</td>
+              <td>100,37&nbsp;€</td>
+              <td>127,85&nbsp;€</td>
             </tr>
           </tbody>
         </table>
@@ -108,12 +108,12 @@ import { LinkTo } from '@ember/routing';
           other discounts, such as the Accor ALL member discount.
         </li>
         <li class="hotel-note">
-          The prices do not include the tourist tax of 5,60 € per studio per
+          The prices do not include the tourist tax of 5,60&nbsp;€ per studio per
           night.
         </li>
         <li class="hotel-note">
           The prices do not include breakfast. The hotel provides a breakfast
-          buffet at 18,00 € per person per day.
+          buffet at 18,00&nbsp;€ per person per day.
         </li>
       </ul>
       <div class="hotel-booking hotel-important">

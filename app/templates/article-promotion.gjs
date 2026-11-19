@@ -35,7 +35,7 @@ import articleYears from 'esug-2027-app/data/articles';
     </p>
     <ul>
       <li>The applicant must be a member of ESUG or of the Pharo Association.</li>
-      <li>ESUG gives 100&nbsp;€ for an article with a national or international
+      <li>ESUG gives 100,00&nbsp;€ for an article with a national or international
         audience.</li>
       <li>For a smaller audience, the amount is discussed per article.</li>
       <li>Research papers are not eligible for this programme; see

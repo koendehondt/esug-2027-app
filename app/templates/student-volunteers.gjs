@@ -38,8 +38,8 @@ import { LinkTo } from '@ember/routing';
     <h2 class="page-section-heading">What you get</h2>
     <ul>
       <li>
-        A reduced conference registration fee of 30,00 € (instead of the regular
-        650,00 €)
+        A reduced conference registration fee of 30,00&nbsp;€ (instead of the regular
+        650,00&nbsp;€)
       </li>
       <li>
         Free accommodation during the isLoop summer school (3-5 July 2027) and
@@ -97,7 +97,7 @@ import { LinkTo } from '@ember/routing';
 
     <p>
       Once you are accepted, register for the conference through the ESUG
-      registration site and pay the 30,00 € fee.
+      registration site and pay the 30,00&nbsp;€ fee.
     </p>
     <p>
       If you are in a difficult financial situation, for example because you

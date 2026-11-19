@@ -31,7 +31,7 @@ import { LinkTo } from '@ember/routing';
 
     <h2 class="page-section-heading">Mobility Support</h2>
     <p>
-      ESUG offers five mobility grants of 600&nbsp;€ per year, so that students
+      ESUG offers five mobility grants of 1000,00&nbsp;€ per year, so that students
       can do an internship at a research lab working with Smalltalk.
       <LinkTo @route="mobility" class="talk-link">More about mobility support</LinkTo>
     </p>
@@ -46,7 +46,7 @@ import { LinkTo } from '@ember/routing';
 
     <h2 class="page-section-heading">Article Promotion</h2>
     <p>
-      ESUG pays 100&nbsp;€ for each published article about any Smalltalk
+      ESUG pays 100,00&nbsp;€ for each published article about any Smalltalk
       dialect.
       <LinkTo @route="article-promotion" class="talk-link">More about article
         promotion</LinkTo>

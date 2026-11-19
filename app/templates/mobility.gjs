@@ -27,7 +27,7 @@ import { LinkTo } from '@ember/routing';
     <p>
       ESUG wants to support the mobility of students who want to be in contact
       with research labs working with Smalltalk. ESUG offers five grants of
-      1000&nbsp;€ per year to students who want to do an internship in a lab
+      1000,00&nbsp;€ per year to students who want to do an internship in a lab
       working with Smalltalk.
     </p>
 
