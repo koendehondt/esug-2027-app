@@ -208,10 +208,28 @@ export const esugTiles = [
     routeName: 'code-of-conduct',
     image: '/images/tiles/code-of-conduct.jpg',
   },
+  {
+    id: 'past-conferences',
+    title: 'Past Conferences',
+    summary: 'Every ESUG conference since 1993.',
+    date: '',
+    active: true,
+    routeName: 'past-conferences',
+    image: '/images/tiles/past-conferences.jpg',
+  },
+  {
+    id: 'host-a-conference',
+    title: 'Hosting a Conference',
+    summary: 'What it takes to bring the ESUG conference to your city.',
+    date: '',
+    active: true,
+    routeName: 'host-a-conference',
+    image: '/images/tiles/host-a-conference.jpg',
+  },
 ];
 
 // Tiles for the "Smalltalk Resources" section on the home page, shown between the
-// "ESUG" and "Conferences" sections: Smalltalk resources beyond ESUG
+// "ESUG" and "Conference Archives" sections: Smalltalk resources beyond ESUG
 // itself. Not to be confused with `archiveTiles` below, which are the
 // "Conference Archives" section.
 export const generalArchiveTiles = [
@@ -250,29 +268,6 @@ export const generalArchiveTiles = [
     active: true,
     routeName: 'press',
     image: '/images/tiles/press.jpg',
-  },
-];
-
-// Tiles for the "Conferences" section on the home page, shown before the
-// "Conference Archives" section.
-export const conferencesTiles = [
-  {
-    id: 'past-conferences',
-    title: 'Past Conferences',
-    summary: 'Every ESUG conference since 1993.',
-    date: '',
-    active: true,
-    routeName: 'past-conferences',
-    image: '/images/tiles/past-conferences.jpg',
-  },
-  {
-    id: 'host-a-conference',
-    title: 'Hosting a Conference',
-    summary: 'What it takes to bring the ESUG conference to your city.',
-    date: '',
-    active: true,
-    routeName: 'host-a-conference',
-    image: '/images/tiles/host-a-conference.jpg',
   },
 ];
 

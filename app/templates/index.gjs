@@ -4,7 +4,6 @@ import HomeTile from 'esug-2027-app/components/home-tile';
 import tiles, {
   appTiles,
   archiveTiles,
-  conferencesTiles,
   esugTiles,
   generalArchiveTiles,
 } from 'esug-2027-app/data/home-tiles';
@@ -43,13 +42,6 @@ import currentEdition from 'esug-2027-app/data/current-edition';
   <h2 class="home-section-heading">Smalltalk Resources</h2>
   <section class="tile-grid" aria-label="Smalltalk Resources">
     {{#each generalArchiveTiles as |tile|}}
-      <HomeTile @tile={{tile}} />
-    {{/each}}
-  </section>
-
-  <h2 class="home-section-heading">Conferences</h2>
-  <section class="tile-grid" aria-label="Conferences">
-    {{#each conferencesTiles as |tile|}}
       <HomeTile @tile={{tile}} />
     {{/each}}
   </section>
