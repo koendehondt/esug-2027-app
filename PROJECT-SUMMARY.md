@@ -857,3 +857,23 @@ conference.", from an optional `report` key (`{ author, url }`) in `public/data/
 Niall Ross's report on archive.esug.org (linked from esug.org's Past Conferences page).
 
 The 2022 Side Events entry "IWST 2022" now also links its CEUR proceedings (Vol-3325) via `links`.
+
+## SlideShare links on talk pages
+
+Talks can have a `slideshareUrl` next to `presentationUrl` in `public/data/archive/<year>.json`. The talk page's
+Presentation section shows "Download the PDF slides" for `presentationUrl` and "Slides on SlideShare" for
+`slideshareUrl`, whichever exist. ESUG 2017's nine SlideShare links moved from `presentationUrl` to `slideshareUrl`.
+
+How the links were matched (November 2026), per year from 2026 down to 2015:
+
+- The ESUG SlideShare account's full list (867 decks, `slideshare.net/esug?tab=presentations&page=N`) was scraped in
+  the built-in browser. Deck IDs grow with upload time, so each conference's uploads form one ID range, which rules out
+  same-titled re-uploads from other years.
+- 2024-2026 deck descriptions often name the archive.esug.org PDF, which was matched against the talk's
+  `presentationUrl`. Otherwise a deck was matched by title and speaker, read from the deck's title slide when the text
+  didn't show it. Koen decided every case where title or speaker didn't clearly match.
+- URLs use SlideShare's current form, `https://www.slideshare.net/slideshow/<slug>/<id>`; 2017's PharoThings deck keeps
+  its older `slideshare.net/esug/<slug>` form because it isn't in the account's list.
+- Decks for IWST talks, Show Us Your Project and welcome sessions without a talk page were not linked.
+- ESUG 2026's "Modularity by Construction" (Guillermo Polito) got a talk page (`modularitybyconstruction`, abstract and
+  bio from `2026-Conference/talks/2026-modularStories.md`) so its deck could be linked.

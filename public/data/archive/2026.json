@@ -198,6 +198,7 @@
         {
           "time": "10:30 – 11:00",
           "subject": "Modularity by Construction",
+          "talkId": "modularitybyconstruction",
           "speaker": "Guillermo Polito"
         },
         {
@@ -324,6 +325,7 @@
       "videoId": "TYahVmeacBs",
       "title": "Bloc for Pharo: What's New?",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-Bloc.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/bloc-for-pharo-modern-foundations-and-advances-in-the-bloc-for-pharo-graphics-framework/289210536",
       "abstractParagraphs": [
         [
           {
@@ -383,6 +385,7 @@
       "videoId": "6PFE-9HIAMs",
       "title": "Compile-time PIC Generation using LiveTyping Information",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-CompileTimePICGenerationUsingLiveTypingInformation.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/compile-time-pic-generation-using-livetyping-information/288896785",
       "abstractParagraphs": [
         [
           {
@@ -412,6 +415,7 @@
       "videoId": "6mIXQQYKdVA",
       "title": "Complishon: a Better completion engine for Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-Completion_web.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/complishon-a-modular-engine-and-its-extensions/288992762",
       "abstractParagraphs": [
         [
           {
@@ -441,6 +445,7 @@
       "videoId": "I86j6EtlmvQ",
       "title": "Using AI to Demystify Running GemStone Systems",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-Gemstone-Analysis-AI.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/demystifying-running-gemstone-systems-using-ai/289239736",
       "abstractParagraphs": [
         [
           {
@@ -483,6 +488,7 @@
       "videoId": "9G9l01XOlhI",
       "title": "GemTalk Update and Roadmap",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-GemStone_Update.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/gemstone-update-history-features-and-roadmap-for-2026/288955034",
       "abstractParagraphs": [
         [
           {
@@ -507,6 +513,7 @@
       "videoId": "8QL_GoWgYvs",
       "title": "Glamorous Toolkit",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-GlamorousToolkit.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/glamorous-toolkit-talk-from-esug-2026-plovdiv/289186197",
       "abstractParagraphs": [
         [
           {
@@ -526,6 +533,7 @@
       "videoId": "TRgXkYD0_lY",
       "title": "Hera: A Year in Production — Growing a BDD Framework in Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-10-Hera-A-Year-in-Production.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/hera-a-year-in-production-growing-a-bdd-framework-in-pharo/289435912",
       "abstractParagraphs": [
         [
           {
@@ -575,6 +583,7 @@
       "videoId": "YO__QtqJVK8",
       "title": "Undo the World",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-10-UndoTheWorld.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/undo-the-world-implementing-seamless-action-reversal-in-software/289396177",
       "abstractParagraphs": [
         [
           {
@@ -594,6 +603,7 @@
       "videoId": "TVp902jenGc",
       "title": "Microdown New Generation",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-10-ESUG-PillarFoliage_web.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/advancements-in-pillar-microdown-and-foliage-for-documentation-and-publishing/289459882",
       "abstractParagraphs": [
         [
           {
@@ -623,6 +633,7 @@
       "videoId": "Atdy6D15iuM",
       "title": "Moldable LLM Chats in Glamorous Toolkit",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-MoldableAgentHarness.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/moldable-agent-harness-talk-from-esug-2026/289183537",
       "abstractParagraphs": [
         [
           {
@@ -679,6 +690,7 @@
       "videoId": "-rFJZDBqYrM",
       "title": "An Introducution Ownership in Object Oriented Languages",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-10-ESUG-Ownership.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/the-object-graph-is-a-mess-ownership-in-object-oriented-languages/289553440",
       "abstractParagraphs": [
         [
           {
@@ -703,6 +715,7 @@
       "videoId": "KLUCcz289p4",
       "title": "Pharo 14 and beyond",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Pharo14_web.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-14-comprehensive-updates-on-modularity-debugging-compiler-and-tools/288847973",
       "abstractParagraphs": [
         [
           {
@@ -727,6 +740,7 @@
       "videoId": "9xYWjsWcjFc",
       "title": "Pharo CIG, Round Two: Growing a Native Library Ecosystem for Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-pharo-cig.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-cig-round-two-growing-a-native-library-ecosystem-for-pharo/289287441",
       "abstractParagraphs": [
         [
           {
@@ -766,6 +780,7 @@
       "videoId": "sTrNqjWw2bU",
       "title": "Pharo on the Desktop: A Tour of Tools and Feedback Loops",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-pharo-on-the-desktop.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-on-the-desktop-a-tour-of-tools-friction-and-feedback-loops/289210579",
       "abstractParagraphs": [
         [
           {
@@ -800,6 +815,7 @@
       "videoId": "lt0ywz0ZH-E",
       "title": "PharoJS 10th Anniversary: Now What?",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-PharoJS-10years.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharojs-10-years-bridging-smalltalk-and-javascript-for-web-and-mobile-development/289183574",
       "abstractParagraphs": [
         [
           {
@@ -857,6 +873,7 @@
       "videoId": "dOczQMf562A",
       "title": "The Future of LLM in Pharo: PharoLLM",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Pharo-LLM.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-llm-a-call-for-a-sovereign-llm-ecosystem-in-pharo/288896823",
       "abstractParagraphs": [
         [
           {
@@ -876,6 +893,7 @@
       "videoId": "bOD4hmqn8RI",
       "title": "Pharo Pulsar: Spinning you into a Power User",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-PharoPulsar.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pulsar-a-new-pharo-ide-growing-the-power-user-in-you/288848069",
       "abstractParagraphs": [
         [
           {
@@ -910,6 +928,7 @@
       "videoId": "Nk5L0xdNx_g",
       "title": "PharoSDL3: New FFI Bindings for SDL3 in Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-08-ESUG-PharoSDL3.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharosdl3-advancing-pharo-s-graphics-with-sdl3-integration/289210500",
       "abstractParagraphs": [
         [
           {
@@ -951,6 +970,7 @@
       "videoId": "XzU-Ivfxbs8",
       "title": "Soil - architecture & design",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Soil-architectural-insights.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/soil-v5-advanced-architectural-insights-into-efficient-concurrent-object-graph-persistence/288896858",
       "abstractParagraphs": [
         [
           {
@@ -980,6 +1000,7 @@
       "videoId": "ER-ftPOTl6E",
       "title": "Spec-Toplo: More Widgets, More Coverage",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-SpecToplo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/closing-the-gap-advancing-spec-toplo-ui-framework-integration-in-pharo/289343919",
       "abstractParagraphs": [
         [
           {
@@ -1021,6 +1042,7 @@
       "videoId": "YwBo11Jtf5M",
       "title": "Smooth Flow of Refactorings and Tools",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-07-ESUG-Smooth-flow-of-refactorings-and-tools.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/enhancing-pharo-development-smooth-flow-of-refactorings-and-tools/288921632",
       "abstractParagraphs": [
         [
           {
@@ -1045,6 +1067,7 @@
       "videoId": "eU-EQ6BHHw4",
       "title": "Moose:: Simplifying the development of importers based on TreeSitter",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-10-ESUG-Moose-Tree-Sitter.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/building-moose-importers-with-tree-sitter/289416542",
       "abstractParagraphs": [
         [
           {
@@ -1074,6 +1097,7 @@
       "videoId": "tlqSfYMOjWA",
       "title": "The VAST Platform AI Assistant: Integrating LLMs into a Live Smalltalk Environment",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-VAST-AI-Assistant.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/the-vast-ai-assistant-integrating-llms-into-a-live-smalltalk-environment/289254678",
       "abstractParagraphs": [
         [
           {
@@ -1113,6 +1137,7 @@
       "videoId": "A_p6Z_SmnFQ",
       "title": "From Squeak to Pharo: Modernizing the Eclipse SageTea Runtime for Edge AI and Sovereign Computing",
       "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-From_Squeak_to_Pharo_Eclipse_SageTea.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/from-squeak-to-pharo-modernizing-the-eclipse-sagetea-runtime-for-edge-ai-and-sovereign-computing/289318317",
       "abstractParagraphs": [
         [
           {
@@ -1160,11 +1185,51 @@
     },
     "welcometoesug": {
       "videoId": "ey1zdOxHNI4",
-      "title": "Welcome to ESUG"
+      "title": "Welcome to ESUG",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/wecome-to-esug-2026-in-plovdiv-bulgaria/288772012"
     },
     "pharomodulesystem": {
       "videoId": "G80ratDK-OM",
-      "title": "The Pharo Module System"
+      "title": "The Pharo Module System",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/the-pharo-module-system-namespaces-scoped-extensions-and-compatibility/288873177",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The Pharo community has been asking for namespace support for years. However, namespaces alone are not sufficient to address the needs of modern development. In this talk we give a glimpse at the implementation of a modern module system that supports namespaces but also separate compilation and co-existance of multiple versions of the same library side-by side. However, such an implementation does not come without challenges. Traditional Smalltalk extension methods are global, creating unexpected dependencies, and making it difficult to isolate changes to a single module. Moreover, maintaining backwards compatibility adds further constraints, as existing code must continue to function even as the module system evolves. Finally, debugging and understanding code also becomes more complex, because names may have different meanings depending on the context in which they are used."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Guille Polito is chargé de recherche at INRIA and the CRIStAL laboratory in the University of Lille, within the Evref team. He formerly worked on industry on service-oriented and mobile applications before doing a PhD on computer science. Guille's main research interests are compilers, modularity, tooling and automated testing. Guille participates in the Pharo community since 2010 and is now board member. His most noticeable contributions to the community are the Pharo Bootstrap process and Iceberg."
+          }
+        ]
+      ]
+    },
+    "modularitybyconstruction": {
+      "title": "Modularity by Construction",
+      "presentationUrl": "https://archive.esug.org/ESUG2026/ESUG/2026-07-09-ESUG-Modularity-Polito.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/modularity-by-construction-pharo-modularity-improvements/289269107",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Pharo has grown organically over the years and as it evolved, dependencies between projects were not always clearly defined. For example, parts of the compiler infrastructure ended up depending on Morphic. The interactive nature of the environment also allows developers to compile incorrect code, including e.g., code with undeclared variables. This is convenient during development, but it can make validation harder."
+          }
+        ],
+        [
+          {
+            "text": "In this talk I'll also show how, at the same time, the ecosystem has improved a lot in this area. Projects are now commonly managed with Metacello and explicit dependency declarations. The bootstrap process runs on every commit since 2016 and started enforcing stricter compilation and project loading. The CI process is also being updated to support more independent project testing. Altogether, these changes make the system easier to maintain and open the door to better tooling, including tools that rely on consistent project naming conventions such as coverage analysis."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Guille Polito is chargé de recherche at INRIA and the CRIStAL laboratory in the University of Lille, within the Evref team. He formerly worked on industry on service-oriented and mobile applications before doing a PhD on computer science. Guille's main research interests are compilers, modularity, tooling and automated testing. Guille participates in the Pharo community since 2010 and is now board member. His most noticeable contributions to the community are the Pharo Bootstrap process and Iceberg."
+          }
+        ]
+      ]
     }
   },
   "awards": {

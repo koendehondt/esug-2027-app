@@ -326,6 +326,7 @@
     },
     "102-fost-running-pharo-on-the-gemstone-vm": {
       "title": "Running Pharo on the GemStone VM",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/running-pharo-on-the-gemstone-vm/79475598",
       "videoId": "TkvjUXn3tGs",
       "abstractParagraphs": [
         [
@@ -362,8 +363,8 @@
     },
     "104-tymc-pharo-quality-engine-the-last-strokes": {
       "title": "Pharo Quality Engine: The Last Strokes",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-quality-engine-the-last-strokes/79475706",
       "videoId": "OM3eh05GHQo",
-      "presentationUrl": "https://www.slideshare.net/esug/pharo-quality-engine-the-last-strokes",
       "abstractParagraphs": [
         [
           {
@@ -381,6 +382,7 @@
     },
     "105-denk-supporting-feedback-loops": {
       "title": "Supporting Feedback Loops",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/feedback-loops-in-practice/79475731",
       "videoId": "a-C7h63MXb0",
       "abstractParagraphs": [
         [
@@ -399,6 +401,7 @@
     },
     "106-denk-what-is-new-with-pharo-6": {
       "title": "What is new with Pharo 6",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/what-is-new-with-pharo-6/79475779",
       "videoId": "n_iUaf4a7C0",
       "abstractParagraphs": [
         [
@@ -417,6 +420,7 @@
     },
     "107-wink-do-visualizations-help-during-development": {
       "title": "Do Visualizations help during development? Using Moose while coding.",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/do-visualizations-help-during-development-using-moose-while-coding/79475840",
       "videoId": "0ttLYM1tkek",
       "abstractParagraphs": [
         [
@@ -435,8 +439,8 @@
     },
     "201-thom-cincom-smalltalk-roadmap-2017": {
       "title": "Cincom Smalltalk Roadmap 2017",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/cincom-smalltalk-2017-roadmap/79475924",
       "videoId": "yPdhxg75m6w",
-      "presentationUrl": "https://www.slideshare.net/esug/cincom-smalltalk-2017-roadmap",
       "abstractParagraphs": [
         [
           {
@@ -454,7 +458,7 @@
     },
     "202-henr-when-smalltalk-images-get-large": {
       "title": "When Smalltalk images get large",
-      "presentationUrl": "https://www.slideshare.net/esug/when-smalltalk-images-get-large",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/when-smalltalk-images-get-large/79475962",
       "abstractParagraphs": [
         [
           {
@@ -561,8 +565,8 @@
     },
     "206-dege-appex-and-javascript-support-enhancements": {
       "title": "AppeX and JavaScript Support Enhancements in Cincom Smalltalk™",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/appex-and-javascript-support-enhancements-in-cincom-smalltalk/79476159",
       "videoId": "sZRAG7L1DgI",
-      "presentationUrl": "https://www.slideshare.net/esug/appex-and-javascript-support-enhancements-in-cincom-smalltalk",
       "abstractParagraphs": [
         [
           {
@@ -590,12 +594,13 @@
     },
     "207-moose-reloaded": {
       "title": "Moose reloaded",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/moldable-metamodels-for-moose/79476226",
       "videoId": "VQrnPxKTfXY"
     },
     "208-kudr-calypso-a-new-modular-code-browser-for-pharo": {
       "title": "Calypso a new modular code browser for Pharo",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/calypso-a-new-modular-code-browser-for-pharo/79479032",
       "videoId": "s4nSzTOdXTk",
-      "presentationUrl": "https://www.slideshare.net/esug/calypso-a-new-modular-code-browser-for-pharo",
       "abstractParagraphs": [
         [
           {
@@ -613,7 +618,7 @@
     },
     "209-kudr-calypso-underhood": {
       "title": "Calypso underhood",
-      "presentationUrl": "https://www.slideshare.net/esug/calypso-underhood",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/calypso-underhood/79479079",
       "abstractParagraphs": [
         [
           {
@@ -672,6 +677,7 @@
     },
     "303-duca-a-taste-of-pharo-70": {
       "title": "A Taste of Pharo 70",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/a-taste-of-pharo-70-date/79484756",
       "videoId": "OGkGgx4iymM",
       "abstractParagraphs": [
         [
@@ -724,7 +730,7 @@
     "305-kudr-pharothings-a-live-programming-iot-platform": {
       "title": "PharoThings: a live programming IoT-platform.",
       "videoId": "MtrKsnLDAhU",
-      "presentationUrl": "https://www.slideshare.net/esug/pharothings-a-live-programming-iotplatform",
+      "slideshareUrl": "https://www.slideshare.net/esug/pharothings-a-live-programming-iotplatform",
       "abstractParagraphs": [
         [
           {
@@ -760,8 +766,8 @@
     },
     "307-mccl-ephemerons-the-strong-path-to-finalization": {
       "title": "Ephemerons: The Strong Path to Finalization",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/ephemerons-the-strong-path-to-finalization/79515964",
       "videoId": "udyIThQleFs",
-      "presentationUrl": "https://www.slideshare.net/esug/ephemerons-the-strong-path-to-finalization",
       "abstractParagraphs": [
         [
           {
@@ -779,6 +785,7 @@
     },
     "401-bera-pharo-optimizing-jit-internals": {
       "title": "Pharo Optimizing JIT Internals",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-optimising-jit-internals/79516042",
       "videoId": "yDKaHphbFow",
       "abstractParagraphs": [
         [
@@ -847,6 +854,7 @@
     },
     "404-cargo": {
       "title": "Cargo",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/cargo-79522845/79522845",
       "videoId": "W5NnLDWPVqM",
       "abstractParagraphs": [
         [
@@ -884,12 +892,13 @@
     },
     "503-understanding-the-pharo-dev-process": {
       "title": "Understanding the Pharo Dev Process",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/understanding-the-pharo-dev-process/79554746",
       "videoId": "tp-YnkZWnNw"
     },
     "504-kriv-metamodeling-of-custom-pharo-images": {
       "title": "Metamodeling of custom Pharo images",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/metamodeling-of-custom-pharo-images/79582668",
       "videoId": "RfalKwgvf0I",
-      "presentationUrl": "https://www.slideshare.net/esug/metamodeling-of-custom-pharo-images",
       "abstractParagraphs": [
         [
           {

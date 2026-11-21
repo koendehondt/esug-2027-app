@@ -490,6 +490,7 @@
       "videoId": "IvhgbOrVog4",
       "title": "Genetic Algorithms in the Artificial Intelligence Spectrum",
       "presentationUrl": "https://archive.esug.org/ESUG2019/01Monday/03-GeneticAlgorithm-ESUG.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/genetic-algorithm-170607342/170607342",
       "abstractParagraphs": [
         [
           {
@@ -509,6 +510,7 @@
       "videoId": "e5rpcmV-igE",
       "title": "The Roassal3 Visualization Engine",
       "presentationUrl": "https://archive.esug.org/ESUG2019/01Monday/04-Roassal3.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/the-roassal3-visualization-engine/187789330",
       "abstractParagraphs": [
         [
           {
@@ -528,6 +530,7 @@
       "videoId": "zJAjDSg-nvU",
       "title": "Constructing 3D scenes with Woden Engine",
       "presentationUrl": "https://archive.esug.org/ESUG2019/01Monday/05-woden-engine.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/constructing-3d-scenes-with-woden-engine/170607993",
       "abstractParagraphs": [
         [
           {
@@ -547,6 +550,7 @@
       "videoId": "yg4xXrgHjqo",
       "title": "The Future of Testing in Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2019/01Monday/06-future-of-testing.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/drtests-the-future-of-testing-in-pharo/175141962",
       "abstractParagraphs": [
         [
           {
@@ -566,6 +570,7 @@
       "videoId": "ndDtbqpHvjY",
       "title": "Stargate, an interstellar journey to RESTful APIs",
       "presentationUrl": "https://archive.esug.org/ESUG2019/01Monday/07-Stargate-an-interstellar-journey-to-RESTful-APIs.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/stargate-an-interstellar-journey-to-restful-apis/170812240",
       "abstractParagraphs": [
         [
           {
@@ -608,6 +613,7 @@
       "videoId": "IOm9cAGIWe8",
       "title": "Web Applications Using Fomantic UI",
       "presentationUrl": "https://archive.esug.org/ESUG2019/01Monday/09-ObjectGuild-Web-Apps-Fomantic-UI.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/web-applications-using-fomantic-ui/171122012",
       "abstractParagraphs": [
         [
           {
@@ -632,6 +638,7 @@
       "videoId": "KDs7JpSQir8",
       "title": "Polyglot Web Programming, Inspired by Smalltalk",
       "presentationUrl": "https://archive.esug.org/ESUG2019/01Monday/10-Programming-the-Web-in-Smalltalk.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/kutoa-programming-the-web-in-smalltalk/175427882",
       "abstractParagraphs": [
         [
           {
@@ -669,6 +676,7 @@
       "videoId": "Lvm4BrWDXEU",
       "title": "Total refactoring of a 25 years old desktop application",
       "presentationUrl": "https://archive.esug.org/ESUG2019/01Monday/12-RefactoringPdmESUG2019.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/refactoring-pdm-total-refactoring-of-a-25-years-old-desktop-application/175965359",
       "abstractParagraphs": [
         [
           {
@@ -688,6 +696,7 @@
       "videoId": "qSKqB2R3yGU",
       "title": "Pharo News",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/01-pharo8-alpha.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-80-alpha-and-more/187832457",
       "abstractParagraphs": [
         [
           {
@@ -707,6 +716,7 @@
       "videoId": "g6QVrbb-ZUc",
       "title": "Spec 2.0 - Native GUIs for Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/02-spec2.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-spec-and-gtk/176338253",
       "abstractParagraphs": [
         [
           {
@@ -726,6 +736,7 @@
       "videoId": "MGivF9O8vn4",
       "title": "Present and Future of the PharoVM",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/03-present-and-future-of-the-pharo-vm.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/present-and-future-of-the-pharo-vm-headless-and-beyond/187853833",
       "abstractParagraphs": [
         [
           {
@@ -760,6 +771,7 @@
       "videoId": "uDYJIm54yE4",
       "title": "Object-Centric Debugging for Pharo 8",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/04-object-centric-debugging.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/objectcentric-debugging-for-pharo-8/177725649",
       "abstractParagraphs": [
         [
           {
@@ -779,6 +791,7 @@
       "videoId": "2d2otdj66dw",
       "title": "Pharo as Universal Development Platform",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/05-pharo-as-universal-development-platform.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-smalltalk-as-universal-development-platform/188172493",
       "abstractParagraphs": [
         [
           {
@@ -808,6 +821,7 @@
       "videoId": "XrOdlwtVfMM",
       "title": "Porting of VisualWorks code to Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/06-porting-visual-works-to-pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/porting-visualworks-code-to-pharo/187835139",
       "abstractParagraphs": [
         [
           {
@@ -827,6 +841,7 @@
       "videoId": "wEJAPRyRcuE",
       "title": "Test Sucker: How to Convert Real Production Objects to Automated Test Cases?",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/07-TestSucker.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/test-sucker-how-to-convert-real-production-objects-to-automated-test-cases/178144161",
       "abstractParagraphs": [
         [
           {
@@ -851,6 +866,7 @@
       "videoId": "WHCWlQeGmqo",
       "title": "Diagnosing bad TDD habits with Dr. TDD",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/08-Diagnosing%20bad%20TDD%20habits%20with%20Dr.TDD.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/diagnosing-bad-tdd-habits-with-dr-tdd/178764147",
       "abstractParagraphs": [
         [
           {
@@ -875,6 +891,7 @@
       "videoId": "zrp81FsujCo",
       "title": "Transaction handling in Unit Testing",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/09-Adding%20transaction%20handling%20to%20Unit%20Tests.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/adding-transaction-handling-to-unit-tests/179734028",
       "abstractParagraphs": [
         [
           {
@@ -894,6 +911,7 @@
       "videoId": "Pt0Mq23DYT8",
       "title": "Slot Composition in Pharo 8",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/10-SlotComposition.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/slot-composition-187839023/187839023",
       "abstractParagraphs": [
         [
           {
@@ -928,6 +946,7 @@
       "videoId": "jDEYNRqhDf4",
       "title": "TaskIt - Processing framework",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/11-taskit.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/esug-2019-concurrency/180032502",
       "abstractParagraphs": [
         [
           {
@@ -947,6 +966,7 @@
       "videoId": "rGL6iQ5VxHM",
       "title": "Threads, Critical Sections, and Termination",
       "presentationUrl": "https://archive.esug.org/ESUG2019/02Tuesday/12-McClure-Threads.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/threads-critical-sections-and-termination/180318150",
       "abstractParagraphs": [
         [
           {
@@ -966,6 +986,7 @@
       "videoId": "aR-1pKGgFG0",
       "title": "GemStone Update and Product Roadmap",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/01-GemStone-Update.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/gemstones-64-update/180664105",
       "abstractParagraphs": [
         [
           {
@@ -985,6 +1006,7 @@
       "videoId": "SvHXmOm2mrw",
       "title": "Running Pharo in GemStone",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/02-PharoGS.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharogs-hosting-pharo-in-gemstones/183155399",
       "abstractParagraphs": [
         [
           {
@@ -1014,6 +1036,7 @@
       "videoId": "Us1wJBHVj2E",
       "title": "Onion and Swiss Cheese - Security Revisited",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/03-Security-Revisited.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/onion-and-swiss-cheese-security-revisited/190306925",
       "abstractParagraphs": [
         [
           {
@@ -1033,6 +1056,7 @@
       "videoId": "FbLX0bZPgDg",
       "title": "Evolving ALLSTOCKER",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/04-Evolving%20Allstocker.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/evolving-allstocker-agile-increments-with-pharo-smalltalk/186204517",
       "abstractParagraphs": [
         [
           {
@@ -1056,6 +1080,7 @@
     "305-mcin-scarlet-smalltalk": {
       "title": "Scarlet SmallTalk",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/room-B/1-scarlet.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/scarlet-smalltalk/188150788",
       "abstractParagraphs": [
         [
           {
@@ -1100,6 +1125,7 @@
       "videoId": "JrFh-oFTRTA",
       "title": "Active research on advanced debugging tools",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/05-Active%20research%20on%20advanced%20debugging%20tools.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/active-research-on-advanced-debugging-tools/190307894",
       "abstractParagraphs": [
         [
           {
@@ -1123,6 +1149,7 @@
     "307-infa-pythonbridge": {
       "title": "PythonBridge",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/room-B/2-python-bridge.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pythonbridge-executing-python-code-from-smalltalk/188550212",
       "abstractParagraphs": [
         [
           {
@@ -1142,6 +1169,7 @@
       "videoId": "nFaB07q-7MI",
       "title": "LiveTyping: Automatic Type Annotation to improve the Programming eXperience",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/06-LiveTypingDemo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/live-typing-automatic-type-annotation-that-improves-the-programming-experience-188550637/188550637",
       "abstractParagraphs": [
         [
           {
@@ -1160,6 +1188,7 @@
     "309-marr-big-data-with-pharo": {
       "title": "Big Data with Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/room-B/3-BigData.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/big-data-processing-in-pharo/188550444",
       "abstractParagraphs": [
         [
           {
@@ -1196,6 +1225,7 @@
     "311-peck-why-is-vasmalltalk-a-great": {
       "title": "Why is VASmalltalk a great possibility for doing IoT and edge computing?",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/room-B/4-VA-IoT.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/why-is-vasmalltalk-a-great-possibility-for-doing-iot-and-edge-computing/190307240",
       "abstractParagraphs": [
         [
           {
@@ -1230,6 +1260,7 @@
       "videoId": "a7i96YFNJbk",
       "title": "UI Test with Spec: the Future is here (hace rato)",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/08-Spec%20Tests.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/ui-testing-with-spec-188551156/188551156",
       "abstractParagraphs": [
         [
           {
@@ -1254,6 +1285,7 @@
       "videoId": "t7cLKDnd_ng",
       "title": "Molding Declarative Views",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/09-MoldingDeclarativeViews.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/molding-declarative-views/190336884",
       "abstractParagraphs": [
         [
           {
@@ -1300,6 +1332,7 @@
       "videoId": "L_QFwsNOMAc",
       "title": "Strategies for Non-Blocking FFI",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/10-strategies%20for%20non-blocking%20ffi.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/nonblocking-strategies-for-ffi/190338183",
       "abstractParagraphs": [
         [
           {
@@ -1323,6 +1356,7 @@
     "316-noce-dancing-links-in-smalltalk": {
       "title": "Dancing Links in Smalltalk",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/room-B/7-Dancing%20Links.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/dancing-links-an-educational-pearl/190336250",
       "abstractParagraphs": [
         [
           {
@@ -1352,6 +1386,7 @@
       "videoId": "d-HtY4yjI48",
       "title": "Just in Time compilation in VAST",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/11-VAST_jit.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/jit-compilation-for-va-smalltalk/186205100",
       "abstractParagraphs": [
         [
           {
@@ -1370,6 +1405,7 @@
     "318-henr-turning-a-tonel-class-file": {
       "title": "Turning a Tonel Class File into a Shell script",
       "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/room-B/8-St_Script.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/stlauncher-tonelbased-smalltalk-shell-scripts/190337379",
       "abstractParagraphs": [
         [
           {
@@ -1399,6 +1435,7 @@
       "videoId": "q5AsH-8zA-M",
       "title": "VA Smalltalk Product Update",
       "presentationUrl": "https://archive.esug.org/ESUG2019/04Thursday/1-VA%20Smalltalk%20Product%20Update_GS_SB.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/instantiations-company-and-product-update/190348918",
       "abstractParagraphs": [
         [
           {
@@ -1418,6 +1455,7 @@
       "videoId": "phQnG4wX9j0",
       "title": "Improving VASmalltalk deployment, availability and scalability with Docker",
       "presentationUrl": "https://archive.esug.org/ESUG2019/04Thursday/2-VA-Docker.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/improving-vasmalltalk-deployment-availability-and-scalability-with-docker/190349423",
       "abstractParagraphs": [
         [
           {
@@ -1446,6 +1484,7 @@
     "403-hins-2019-polymath-updates": {
       "title": "2019 PolyMath updates",
       "presentationUrl": "https://archive.esug.org/ESUG2019/04Thursday/3-PolyMath1.0.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/polymath-version-10-and-beyond/190349891",
       "abstractParagraphs": [
         [
           {
@@ -1465,6 +1504,7 @@
       "videoId": "sXkjBc-JbRE",
       "title": "Our Moneys",
       "presentationUrl": "https://archive.esug.org/ESUG2019/04Thursday/4-OurMoneys.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/our-moneys-making-budgets-more-understandable/186205702",
       "abstractParagraphs": [
         [
           {
@@ -1499,6 +1539,7 @@
       "videoId": "IsX-3xedHu8",
       "title": "RPC in Smalltalk",
       "presentationUrl": "https://archive.esug.org/ESUG2019/04Thursday/5-RPC.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/rpc-in-smalltalk/190350314",
       "abstractParagraphs": [
         [
           {
@@ -1541,6 +1582,7 @@
       "videoId": "neTO5M1Y6e0",
       "title": "Unified Compression Streams",
       "presentationUrl": "https://archive.esug.org/ESUG2019/04Thursday/7-VA%20Smalltalk%20Compression%20Support.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/unified-compression-streams/190353073",
       "abstractParagraphs": [
         [
           {
@@ -1560,6 +1602,7 @@
       "videoId": "0M6vP_XYg5E",
       "title": "Spec 2.0 - Building a GUI with Spec 2",
       "presentationUrl": "https://archive.esug.org/ESUG2019/04Thursday/8-Building_a_GUI_with_Spec_2.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/spec2-how-to-build-a-new-gui/190353518",
       "abstractParagraphs": [
         [
           {
@@ -1602,6 +1645,7 @@
       "videoId": "VJ83284FOI0",
       "title": "Smalltalk Application Playground",
       "presentationUrl": "https://archive.esug.org/ESUG2019/04Thursday/10-OHRA%20StAP.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/stap-smalltalk-applications-playground/190354037",
       "abstractParagraphs": [
         [
           {
@@ -1626,6 +1670,7 @@
       "videoId": "ffE4trXLqfM",
       "title": "P2P communication via MQTT endpoints",
       "presentationUrl": "https://archive.esug.org/ESUG2019/04Thursday/11-MQTTWhatIs2.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/mqtt-186206125/186206125",
       "abstractParagraphs": [
         [
           {
@@ -1660,6 +1705,7 @@
       "videoId": "oycl9yUVZd8",
       "title": "ViennaTalk : A formal method environment on Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2019/04Thursday/12-ViennaTalk.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/viennatalk-a-formal-method-environment-on-pharo/190354567",
       "abstractParagraphs": [
         [
           {
@@ -1684,6 +1730,7 @@
       "videoId": "-1x08ND2hkg",
       "title": "How to improve yourself while having fun improving Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2019/05Friday/1-2019-ESUG-LearningByDoing.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/learning-by-contributing-to-opensource-software/190340174",
       "abstractParagraphs": [
         [
           {
@@ -1737,6 +1784,7 @@
       "videoId": "FAk3Ec8hmzk",
       "title": "Polyglot Notebooks With Squeak/Smalltalk on the GraalVM",
       "presentationUrl": "https://archive.esug.org/ESUG2019/05Friday/3-ESUG19_GraalSqueak_and_Polyglot_Notebooks.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/polyglot-notebooks-with-squeaksmalltalk-on-the-graalvm/190341504",
       "abstractParagraphs": [
         [
           {
@@ -1756,6 +1804,7 @@
       "videoId": "-If3xPjqF2E",
       "title": "Design Matters",
       "presentationUrl": "https://archive.esug.org/ESUG2019/05Friday/4-desigMatters.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/design-matters-190342006/190342006",
       "abstractParagraphs": [
         [
           {
@@ -1775,6 +1824,7 @@
       "videoId": "HMtH-F0o04Q",
       "title": "Software Architecture Stories",
       "presentationUrl": "https://archive.esug.org/ESUG2019/05Friday/5-story%20architectures.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/software-architecture-stories/190350749",
       "abstractParagraphs": [
         [
           {
@@ -1799,6 +1849,7 @@
       "videoId": "M6SxEC77HHE",
       "title": "Improving Code Completion in Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2019/05Friday/6-Improving%20Code%20Completion%20Myroslava%20Marcus.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/improving-code-completion-in-pharo/190352231",
       "abstractParagraphs": [
         [
           {
@@ -1818,6 +1869,7 @@
       "videoId": "2qjnkTk4_KM",
       "title": "Rotten Green Tests",
       "presentationUrl": "https://archive.esug.org/ESUG2019/05Friday/7-2019-RottenGreenTests-ICSE-2.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/rotten-green-tests/190352694",
       "abstractParagraphs": [
         [
           {
@@ -1840,7 +1892,8 @@
     },
     "319-oliv-pharo-iot-present-and-future": {
       "title": "Pharo IoT - Present and Future",
-      "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/room-B/5-Pharo%20IoT.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2019/03Wednesday/room-B/5-Pharo%20IoT.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-iot-present-and-future/190308328"
     }
   }
 }

@@ -409,7 +409,9 @@ underhood', 'ReStore for Dolphin -- Improved Query Block Analyser')
 were never uploaded. Two further playlist videos ('Iceberg',
 'PharoJS') couldn't be matched to any calendar session at all -- see
 program-2017.js's header comment.
-- `presentationUrl`: no slide archive exists for ESUG 2017 on
+- `slideshareUrl` (formerly `presentationUrl`; moved in November 2026 when
+every year got a separate `slideshareUrl`, see PROJECT-SUMMARY.md's
+"SlideShare links on talk pages"): no slide archive exists for ESUG 2017 on
 archive.esug.org, so these link directly to the matching deck on the
 'esug' SlideShare account (a real PDF/PPTX file, since Koen has a
 SlideShare account and downloaded these himself once signed in --

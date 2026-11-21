@@ -357,12 +357,14 @@
     "101-duca-welcome": {
       "title": "Welcome",
       "videoId": "4GxBJeAAYh0",
-      "presentationUrl": "https://archive.esug.org/ESUG2016/01-Monday/1000-1030%20Welcome/2016-08-22-a-ESUG-WelcomePrague.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2016/01-Monday/1000-1030%20Welcome/2016-08-22-a-ESUG-WelcomePrague.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/esug-2106-prague-welcome/65311183"
     },
     "102-thom-cincom-smalltalk-roadmap-2016": {
       "title": "Cincom Smalltalk Roadmap 2016",
       "videoId": "ZV-1gecpttY",
       "presentationUrl": "https://archive.esug.org/ESUG2016/01-Monday/1100-1145%20Cincom%20Roadmap/2016-08-22-b-Cincom-Smalltalk-Roadmap%20ESUG-2016-Final.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/cincom-smalltalk-roadmap-2016/65311405",
       "abstractParagraphs": [
         [
           {
@@ -382,6 +384,7 @@
       "title": "The Glamorous Toolkit: Towards a novel live IDE",
       "videoId": "XWOOJa3kEa0",
       "presentationUrl": "https://archive.esug.org/ESUG2016/01-Monday/1145-1230%20GT/2016-08-22-c-tudorgirba-gt.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/the-glamorous-toolkit-towards-a-novel-live-ide/65311435",
       "abstractParagraphs": [
         [
           {
@@ -416,6 +419,7 @@
       "title": "A tour on Spur for non-VM experts",
       "videoId": "OlJZMHLTfuc",
       "presentationUrl": "https://archive.esug.org/ESUG2016/01-Monday/1400-1430%20Spur/2016-08-22-d-Spur.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/a-tour-on-spur-for-nonvm-experts/65311484",
       "abstractParagraphs": [
         [
           {
@@ -435,6 +439,7 @@
       "title": "Hidden Gems in Cincom Smalltalk",
       "videoId": "UnCcrT5qRDw",
       "presentationUrl": "https://archive.esug.org/ESUG2016/01-Monday/1430-1500%20Cincom%20Gems/2016-08-22-e-Hidden%20Gems-ESUG-2016-Final.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/hidden-gems-in-cincom-smalltalk/65311529",
       "abstractParagraphs": [
         [
           {
@@ -454,6 +459,7 @@
       "title": "PharoJS",
       "videoId": "nmRPSb0t9lw",
       "presentationUrl": "https://archive.esug.org/ESUG2016/01-Monday/1500-1530%20PharoJS/2016-08-22-f-pharoJs-nouryBouraqadi-Esug2016.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharojs/65311566",
       "abstractParagraphs": [
         [
           {
@@ -478,6 +484,7 @@
       "title": "Intro to GemStone/S",
       "videoId": "NGMxjtOl8oA",
       "presentationUrl": "https://archive.esug.org/ESUG2016/01-Monday/1530-1600%20GemStone/2016-08-22-g-ESUG-Objects-and-Classes-in-GemStone.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/intro-to-gemstones/65311601",
       "abstractParagraphs": [
         [
           {
@@ -516,6 +523,7 @@
       "title": "New Native Windows UI possibilities in Next Generation Cincom Smalltalk ObjectStudio",
       "videoId": "YwR_tXJ35w8",
       "presentationUrl": "https://archive.esug.org/ESUG2016/02-Tuesday/0945-1030%20New%20native%20windows%20Objects%20studio/GUI%20Features.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/new-native-windows-ui-possibilities-in-cincom-smalltalk-objectstudio/66261529",
       "abstractParagraphs": [
         [
           {
@@ -559,6 +567,7 @@
       "title": "Stories About Renraku — the new Quality Model of Pharo",
       "videoId": "K4rMfQ_bQuI",
       "presentationUrl": "https://archive.esug.org/ESUG2016/02-Tuesday/1130-1200%20Renraku/2016-08-23-x-ESUG-Uko.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/stories-about-renraku-the-new-quality-model-of-pharo-65317475/65317475",
       "abstractParagraphs": [
         [
           {
@@ -578,6 +587,7 @@
       "title": "Security with VA Smalltalk",
       "videoId": "RCjS2SuiGZM",
       "presentationUrl": "https://archive.esug.org/ESUG2016/02-Tuesday/1200-1230%20Security%20with%20VAST/2016-08-23-IWST-a1-Security%20With%20VA%20Smalltalk-ESUG2016.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/security-with-va-smalltalk/65317535",
       "abstractParagraphs": [
         [
           {
@@ -615,6 +625,7 @@
       "title": "Woden 2: Developing a modern 3D graphics engine in Smalltalk",
       "videoId": "fnPv7jtVY8U",
       "presentationUrl": "https://archive.esug.org/ESUG2016/02-Tuesday/1400-1500%20Woden2/woden%202.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/woden-2-developing-a-modern-3d-graphics-engine-in-smalltalk/65317601",
       "abstractParagraphs": [
         [
           {
@@ -663,6 +674,7 @@
       "title": "Talking about bugs with bugs",
       "videoId": "XZR8qpZhzNg",
       "presentationUrl": "https://archive.esug.org/ESUG2016/02-Tuesday/1600-1630%20Talkin%20about%20bugs%20with%20bugs/tommaso%20dal%20sasso%20-%20esug2016.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/talking-about-bugs-with-bugs/65317684",
       "abstractParagraphs": [
         [
           {
@@ -704,6 +716,7 @@
       "title": "GemStone/64 product update and road map",
       "videoId": "mCdoq7P5Zkw",
       "presentationUrl": "https://archive.esug.org/ESUG2016/03-Wednesday/0900-0945%20GemStone%2064%20update/2016-08-24-norm-esug-2016.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/gemstone64-product-update-and-road-map/65351368",
       "abstractParagraphs": [
         [
           {
@@ -726,7 +739,8 @@
     },
     "302-pharo-update": {
       "title": "Pharo Update",
-      "presentationUrl": "https://archive.esug.org/ESUG2016/03-Wednesday/0945-1030%20Pharo%20update/2016-ESUG-Pharo.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2016/03-Wednesday/0945-1030%20Pharo%20update/2016-ESUG-Pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-update-65354417/65354417"
     },
     "303-larc-getting-more-out-of-visualworks": {
       "title": "Getting more out of VisualWorks",
@@ -822,6 +836,7 @@
       "title": "Tugrik: A new persistence option for Pharo",
       "videoId": "YwlUdRaqTwE",
       "presentationUrl": "https://archive.esug.org/ESUG2016/03-Wednesday/1400-1445%20Tugrik/2016-08-24-Voyage-Tugrik.key.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/tugrik-a-new-persistence-option-for-pharo/65355467",
       "abstractParagraphs": [
         [
           {
@@ -866,6 +881,7 @@
       "title": "Voyage Reloaded - New features and backends in the document-database",
       "videoId": "sYFAwjpCFKA",
       "presentationUrl": "https://archive.esug.org/ESUG2016/03-Wednesday/1445-1530%20Voyage%20Reloaded/2016-08-24-Voyage.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/voyage-reloaded-new-features-and-backends-in-the-documentdatabase/65355516",
       "abstractParagraphs": [
         [
           {
@@ -885,6 +901,7 @@
       "title": "Development and Features of the new Cincom Smalltalk ObjectStudio Launcher",
       "videoId": "iJxAUhydgHA",
       "presentationUrl": "https://archive.esug.org/ESUG2016/03-Wednesday/1530-1600%20ObjectStudio%20Launcher/2016-08-24-OSTLauncher.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/development-and-features-of-the-new-cincom-smalltalk-objectstudio-launcher/65355557",
       "abstractParagraphs": [
         [
           {
@@ -964,6 +981,7 @@
       "title": "The road to remote debugger",
       "videoId": "89O_tA5g3-I",
       "presentationUrl": "https://archive.esug.org/ESUG2016/04-Thursday/1100-1130%20Remote%20debugger/2016-08-25-Esug2016RemoteDebugger.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/the-road-to-remote-debugger/65356291",
       "abstractParagraphs": [
         [
           {
@@ -983,6 +1001,7 @@
       "title": "The Cog VM evolution",
       "videoId": "Gi0WiIxvJ60",
       "presentationUrl": "https://archive.esug.org/ESUG2016/04-Thursday/1130-1200%20The%20cog%20vm%20evolution/2016-08-25-CogVMEvolution.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/the-cog-vm-evolution/65356335",
       "abstractParagraphs": [
         [
           {
@@ -1019,6 +1038,7 @@
     "407-heeg-controlling-machines-with-smalltalk-on-raspberry-pi": {
       "title": "Controlling Machines with Smalltalk on Raspberry PI",
       "presentationUrl": "https://archive.esug.org/ESUG2016/04-Thursday/1400-1430%20Controlling%20Machines%20with%20Smalltalk%20on%20Raspberry%20PI/Esug2016-RPi.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/controlling-machines-with-smalltalk-on-raspberry-pi/65387532",
       "abstractParagraphs": [
         [
           {
@@ -1043,6 +1063,7 @@
       "title": "DynaCASE modeling platform",
       "videoId": "H43_FUghz7k",
       "presentationUrl": "https://archive.esug.org/ESUG2016/04-Thursday/1430-1500%20OpenPonk%20modeling%20platform/openponk-esug16.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/openponk-modeling-platform/66248880",
       "abstractParagraphs": [
         [
           {
@@ -1062,6 +1083,7 @@
       "title": "A Weak Pharo Story",
       "videoId": "nLEmAVVC6aQ",
       "presentationUrl": "https://archive.esug.org/ESUG2016/04-Thursday/1500-1530%20A%20weak%20phary%20story/A%20Weak%20Pharo%20Story.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/a-weak-pharo-story/65387572",
       "abstractParagraphs": [
         [
           {
@@ -1081,6 +1103,7 @@
       "title": "More XP-rience",
       "videoId": "DoFrzbpECCY",
       "presentationUrl": "https://archive.esug.org/ESUG2016/04-Thursday/1600-1630%20more%20xp-rience/MoreXPrience%20-%20Display.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/more-xprience/65387618",
       "abstractParagraphs": [
         [
           {
@@ -1120,6 +1143,7 @@
       "title": "seamless – Object Oriented CMS System",
       "videoId": "m_DmvTfTS64",
       "presentationUrl": "https://archive.esug.org/ESUG2016/04-Thursday/1630-1700%20seamless-object%20oriented%20cms%20system/Esug2016-Seamless.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/seamless-object-oriented-cms-system/65387675",
       "abstractParagraphs": [
         [
           {
@@ -1144,6 +1168,7 @@
       "title": "Pillar: one language for all supports",
       "videoId": "gcnK5B7tfC0",
       "presentationUrl": "https://archive.esug.org/ESUG2016/05-Friday/0900-0930%20pillar/presentation.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pillar-one-language-for-all-supports/65433302",
       "abstractParagraphs": [
         [
           {
@@ -1156,6 +1181,7 @@
       "title": "Why is worse better? or: The Power of Feedback Loops",
       "videoId": "LRFLdWG24Mk",
       "presentationUrl": "https://archive.esug.org/ESUG2016/05-Friday/0930-1000%20feedback%20loops/FeedbackLoops.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/perfection-feedback-loops-or-why-worse-is-better/65433314",
       "abstractParagraphs": [
         [
           {
@@ -1219,6 +1245,7 @@
       "title": "Replicated Service Objects -- A Strategy for Distributed Applications",
       "videoId": "_MtwXqYsBD0",
       "presentationUrl": "https://archive.esug.org/ESUG2016/05-Friday/1100-1145%20Replicated%20Service%20Objects/ReplicatedServiceObjects-Final.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/replicated-service-objects-a-strategy-for-distributed-applications/65433346",
       "abstractParagraphs": [
         [
           {

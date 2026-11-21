@@ -54,14 +54,12 @@ export default class TalkTemplate extends Component {
     return `https://www.youtube.com/watch?v=${this.args.model.videoId}`;
   }
 
-  // Every talk's presentationUrl currently points either at a hosted PDF
-  // (archive.esug.org) or at a SlideShare deck page (slideshare.net,
-  // view-only, no direct file) -- see app/data/archive/SOURCES.md's 2017
-  // entry for why the latter exist at all. Label accordingly rather than always
-  // saying "Download the slides", since a SlideShare link isn't a download.
-  get presentationLinkLabel() {
-    const url = this.args.model.presentationUrl ?? '';
-    return url.includes('slideshare.net') ? 'Slides on Slideshare' : 'Download the PDF slides';
+  // A talk can have a PDF of its slides (presentationUrl, on
+  // archive.esug.org) and/or the same slides on SlideShare (slideshareUrl,
+  // a view-only deck page on the ESUG account). The Presentation section
+  // shows whichever exist.
+  get hasPresentation() {
+    return Boolean(this.args.model.presentationUrl || this.args.model.slideshareUrl);
   }
 
   <template>
@@ -133,16 +131,20 @@ export default class TalkTemplate extends Component {
           {{/each}}
         {{/if}}
 
-        {{#if @model.presentationUrl}}
+        {{#if this.hasPresentation}}
           <h2 class="talk-section-heading">Presentation</h2>
-          <p>
-            <a
-              href={{@model.presentationUrl}}
-              class="talk-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >{{this.presentationLinkLabel}}</a>
-          </p>
+          {{#if @model.presentationUrl}}
+            <p>
+              <a href={{@model.presentationUrl}} class="talk-link" target="_blank" rel="noopener noreferrer">Download
+                the PDF slides</a>
+            </p>
+          {{/if}}
+          {{#if @model.slideshareUrl}}
+            <p>
+              <a href={{@model.slideshareUrl}} class="talk-link" target="_blank" rel="noopener noreferrer">Slides on
+                SlideShare</a>
+            </p>
+          {{/if}}
         {{/if}}
 
         {{#if @model.videoId}}

@@ -310,6 +310,7 @@
       "videoId": "rQu3GNEs5ZI",
       "title": "PharoJS for Real!",
       "presentationUrl": "https://archive.esug.org/ESUG2022/01Monday/02-PharoJS_for_Real_-_ESUG.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharojs-for-real-world-applications-253118624/253118624",
       "abstractParagraphs": [
         [
           {
@@ -366,12 +367,14 @@
     "103-poli-vm-testing": {
       "videoId": "BNH35R9VORs",
       "title": "VM testing",
-      "presentationUrl": "https://archive.esug.org/ESUG2022/01Monday/04-PharoVM-News-Guille.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2022/01Monday/04-PharoVM-News-Guille.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-virtual-machine-news-from-the-front/253118642"
     },
     "104-duca-microdown": {
       "videoId": "xPX3qeamMSY",
       "title": "Microdown: All documentation everywhere",
       "presentationUrl": "https://archive.esug.org/ESUG2022/01Monday/05-ESUG-Microdown-43.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/microdown/253118721",
       "abstractParagraphs": [
         [
           {
@@ -392,6 +395,7 @@
       "videoId": "R5jJBUMLxq8",
       "title": "Presenting pharo-ai",
       "presentationUrl": "https://archive.esug.org/ESUG2022/01Monday/06-pharo-ai-Sebastian-Jordan.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharoai/253131238",
       "abstractParagraphs": [
         [
           {
@@ -415,7 +419,8 @@
     "106-denk-first-class-variables-as-annotations": {
       "videoId": "embn4kX0O3k",
       "title": "First Class Variables as Annotations",
-      "presentationUrl": "https://archive.esug.org/ESUG2022/01Monday/07-VariablesAsASTAnnotations.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2022/01Monday/07-VariablesAsASTAnnotations.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/first-class-variables-as-ast-annotations/253131262"
     },
     "107-chis-lepiter": {
       "videoId": "X5SL3SA5UwQ",
@@ -439,6 +444,7 @@
       "videoId": "o3f3De_R_4o",
       "title": "Improvements in Pharo 10",
       "presentationUrl": "https://archive.esug.org/ESUG2022/02Tuesday/01-2022-ESUG-Pharo10.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-10-and-beyond/253132054",
       "abstractParagraphs": [
         [
           {
@@ -463,6 +469,7 @@
       "videoId": "awPyBLWTTvk",
       "title": "Roassal3 updates: Current status and next steps",
       "presentationUrl": "https://archive.esug.org/ESUG2022/02Tuesday/02-Roassal3.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/roassal3-updates-current-status-and-next-steps/253131592",
       "abstractParagraphs": [
         [
           {
@@ -482,6 +489,7 @@
       "videoId": "FdZUAWH__vk",
       "title": "Application Development with Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2022/02Tuesday/03-2022-Building%20Applications%20with%20Pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/application-development-with-pharo/253132078",
       "abstractParagraphs": [
         [
           {
@@ -506,6 +514,7 @@
       "videoId": "2li2XdHpH20",
       "title": "Visual Studio Code as a Smalltalk IDE",
       "presentationUrl": "https://archive.esug.org/ESUG2022/02Tuesday/04-VSC-AsSmalltalk-IDE-Foster.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/a-vs-code-extension-for-gemstones/253131720",
       "abstractParagraphs": [
         [
           {
@@ -530,6 +539,7 @@
       "videoId": "HvJTDYuXkMU",
       "title": "Bloc for Pharo: object-oriented UI foundations",
       "presentationUrl": "https://archive.esug.org/ESUG2022/02Tuesday/06-Bloc4Pharo-ESUGSlides-v3.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/bloc-for-pharo-current-state-and-future-perspective/253132093",
       "abstractParagraphs": [
         [
           {
@@ -564,6 +574,7 @@
       "videoId": "D90EBq6S2q8",
       "title": "Pharo Consortium, PharoPro: Professional Support for Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2022/02Tuesday/07-SuportingPharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/supporting-pharo-getting-pharo-support/253132115",
       "abstractParagraphs": [
         [
           {
@@ -593,6 +604,7 @@
       "videoId": "MLtaHeFgbNo",
       "title": "Deploying and Scaling Pharo with a Database in Practice",
       "presentationUrl": "https://archive.esug.org/ESUG2022/02Tuesday/08-hartl-deployment.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/theres-no-magic-until-you-talk-about-databases/253132135",
       "abstractParagraphs": [
         [
           {
@@ -622,6 +634,7 @@
       "videoId": "8s4-KSNFVUU",
       "title": "GemTalk Update and GemStone/64 Roadmap",
       "presentationUrl": "https://archive.esug.org/ESUG2022/03Wednesday/01-norm_green_esug_2022.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/01normgreenesug2022pdf/253132219",
       "abstractParagraphs": [
         [
           {
@@ -641,6 +654,7 @@
       "videoId": "VVkJsIIqMKM",
       "title": "Digitise your processes with ApptiveGrid",
       "presentationUrl": "https://archive.esug.org/ESUG2022/03Wednesday/02-hartl-apptivegrid.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/demo-apptivegrid/253227827",
       "abstractParagraphs": [
         [
           {
@@ -683,6 +697,7 @@
       "videoId": "WlCkTR9X8ck",
       "title": "Presenting PolyMath",
       "presentationUrl": "https://archive.esug.org/ESUG2022/03Wednesday/03-PolyMath.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/polymath-version-10-v20/253132643",
       "abstractParagraphs": [
         [
           {
@@ -707,6 +722,7 @@
       "videoId": "K_B0meetl8c",
       "title": "Functional Smalltalk",
       "presentationUrl": "https://archive.esug.org/ESUG2022/03Wednesday/04-dmason.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/functional-smalltalk/253185561",
       "abstractParagraphs": [
         [
           {
@@ -783,6 +799,7 @@
       "videoId": "S2Dff90aYDI",
       "title": "Live Coding",
       "presentationUrl": "https://archive.esug.org/ESUG2022/04Thursday/01-liveCoding_presentation_ESUG22.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/livecoding-package-for-pharo/253185539",
       "abstractParagraphs": [
         [
           {
@@ -807,6 +824,7 @@
       "videoId": "Q4gmWTTFoww",
       "title": "Webside",
       "presentationUrl": "https://archive.esug.org/ESUG2022/04Thursday/02-Webside.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/web-ide-253223133/253223133",
       "abstractParagraphs": [
         [
           {
@@ -836,6 +854,7 @@
       "videoId": "hJfUjM4Vfjg",
       "title": "GUI-Testing Smalltalk-AJAX web applications with Selenium 4",
       "presentationUrl": "https://archive.esug.org/ESUG2022/04Thursday/03-selenium-testing.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/testing-smalltalk-ajaxsjax-web-applications-with-selenium-4/253223221",
       "abstractParagraphs": [
         [
           {
@@ -865,6 +884,7 @@
       "videoId": "BkEhdejMAyc",
       "title": "Improving Snapshots on Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2022/04Thursday/04-ImproveMemoryManagement.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/improving-pharo-snapshots/253227920",
       "abstractParagraphs": [
         [
           {
@@ -912,6 +932,7 @@
       "videoId": "Xg3964BS_28",
       "title": "Counting sheeps",
       "presentationUrl": "https://archive.esug.org/ESUG2022/04Thursday/05-ovina_sounting-sheeps.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/counting-sheeps/253227982",
       "abstractParagraphs": [
         [
           {
@@ -936,6 +957,7 @@
       "videoId": "oaCkwdgrcjA",
       "title": "re:mobidyc",
       "presentationUrl": "https://archive.esug.org/ESUG2022/05Friday/01-esug-remobidyc-oda.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/remobidyc-the-overview/253227961",
       "abstractParagraphs": [
         [
           {
@@ -978,6 +1000,7 @@
       "videoId": "AtjEgK3lBPE",
       "title": "Contributing to Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2022/05Friday/02-2022-ESUG-ContributeToPharo-Ducasse.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/contributing-to-pharo/253227936",
       "abstractParagraphs": [
         [
           {

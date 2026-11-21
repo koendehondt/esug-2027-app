@@ -440,12 +440,14 @@
     "101-duca-welcome": {
       "videoId": "X40kDgP9zf0",
       "title": "Welcome to ESUG",
-      "presentationUrl": "https://archive.esug.org/ESUG2025/day1/101-duca-welcome.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2025/day1/101-duca-welcome.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/esug-2025-welcome-to-esug-2025-in-gdansk/281631355"
     },
     "102-duca-pharo13-and-beyond": {
       "videoId": "HOPXWxeeH9g",
       "title": "Pharo 13 and beyond",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day1/102-duca-pharo13-and-beyond.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/esug-2025-pharo-13-and-beyond-stephane-ducasse/281631448",
       "abstractParagraphs": [
         [
           {
@@ -470,6 +472,7 @@
       "videoId": "VLMG51GR19I",
       "title": "Selective Pretenuring",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day1/103-jord-selective-pretenuring.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/selective-pretenuring-and-about-allocation-sites/281631505",
       "abstractParagraphs": [
         [
           {
@@ -488,12 +491,14 @@
     "104-dema-spec": {
       "videoId": "67nC0VGBL1E",
       "title": "Spec",
-      "presentationUrl": "https://archive.esug.org/ESUG2025/day1/104-dema-spec.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2025/day1/104-dema-spec.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/how-to-write-an-app-with-spec-esug-2025/281662651"
     },
     "105-diaz-bloc-and-toplo-update": {
       "videoId": "jTsq3E_D8ic",
       "title": "Bloc and Toplo Update",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day1/105-diaz-bloc-and-toplo-update.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/toplo-bloc-spec-a-graphic-layer-for-the-present-and-future/281662681",
       "abstractParagraphs": [
         [
           {
@@ -530,6 +535,7 @@
       "videoId": "61spiH896xM",
       "title": "Seamless OAuth2.0 and OpenID Connect Integration in VAST",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day1/106-bric-seamless-oauth-and-openid.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/seamless-oauth2-0-and-openid-connect-in-vast/281662737",
       "abstractParagraphs": [
         [
           {
@@ -547,12 +553,14 @@
     },
     "107-palu-druid": {
       "title": "MetaCompilation with Druid",
-      "presentationUrl": "https://archive.esug.org/ESUG2025/day1/107-palu-druid.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2025/day1/107-palu-druid.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/meta-compilation-of-baseline-jit-compilers-with-druid/281662763"
     },
     "108-deho-behaviour-driven-dev-with-hera": {
       "videoId": "-8izskwslQU",
       "title": "Behaviour-driven development with Hera",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day1/108-deho-behaviour-driven-dev-with-hera.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/behaviour-driven-development-with-hera-esug2025/281663494",
       "abstractParagraphs": [
         [
           {
@@ -572,6 +580,7 @@
       "videoId": "Lqoe6o76_Rc",
       "title": "Metrics over Mayhem – Pragmatic Analysis of Legacy VisualWorks Systems",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day1/109-krec-metrics-over-mayhem.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/metrics-over-mayhem-make-complexity-visible-a-simple-approach-to-analyse-legacy-visualworks-systems/281663545",
       "abstractParagraphs": [
         [
           {
@@ -591,6 +600,7 @@
       "videoId": "sMqQXujAR7A",
       "title": "Memory Management in Linux and GemStone",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day1/110-mccl-memory-management-gemstone.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/memory-management-in-linux-and-gemstone-esug-2025/281663575",
       "abstractParagraphs": [
         [
           {
@@ -610,6 +620,7 @@
       "videoId": "J91UWllnTJY",
       "title": "Instantiations Company Update",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/201-wyat-instantiations-company-update.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/instantiations-company-update-esug-2025/281704139",
       "abstractParagraphs": [
         [
           {
@@ -629,6 +640,7 @@
       "videoId": "d66KrWz29xA",
       "title": "Smalltalk for the Web and Beyond",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/202-bour-smalltalk-for-the-web.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/smalltalk-for-the-web-beyond-esug-2025/281704169",
       "abstractParagraphs": [
         [
           {
@@ -706,6 +718,7 @@
       "videoId": "VXVfwdHnxQQ",
       "title": "Advancing Modern Web Architectures in Seaside",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/203-bric-web-architecture-seaside.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/advancing-modern-web-application-architecture-in-seaside/281704208",
       "abstractParagraphs": [
         [
           {
@@ -725,6 +738,7 @@
       "videoId": "VfNZXV1ew3A",
       "title": "Working with thousands of images",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/204-chis-working-with-thousands-of-images.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/working-with-thousands-of-images-esug-2025/281704254",
       "abstractParagraphs": [
         [
           {
@@ -744,6 +758,7 @@
       "videoId": "9__34stE9BM",
       "title": "GeoView, views to display and interact with geographical objects and cartographic layers",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/205-labo-geoview.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/gis-in-pharo-pharoows-geoview-esug-2025/281704300",
       "abstractParagraphs": [
         [
           {
@@ -763,6 +778,7 @@
       "videoId": "pzQsjBbv3ps",
       "title": "Fighting the Branch Predictor",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/206-poli-PICs.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/fighting-the-branch-predictor-esug-2025/281704351",
       "abstractParagraphs": [
         [
           {
@@ -782,6 +798,7 @@
       "videoId": "IETBvgPBVRk",
       "title": "Tools and Techniques for VM",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/207-joha-tools-and-techniques-for-vm.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/vm-jit-profiling-in-vast-esug-2025-gdansk/281704406",
       "abstractParagraphs": [
         [
           {
@@ -806,6 +823,7 @@
       "videoId": "QKUUSdo0uAk",
       "title": "Working with many AI assistants in Glamorous Toolkit",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/208-hell-many-ai-assistants-gtoolkit.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/al-assistants-in-glamorous-toolkit-esug-2025/281734960",
       "abstractParagraphs": [
         [
           {
@@ -825,6 +843,7 @@
       "videoId": "pTT-vy8qS4Y",
       "title": "Rhizome - distributions in soil",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/209-hart-rhizome.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/rhizome-distribution-in-soil-esug-2025/281735029",
       "abstractParagraphs": [
         [
           {
@@ -844,6 +863,7 @@
       "videoId": "FarI6qqt1fk",
       "title": "Soil Tutorial",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/210-denk-soil-tutorial.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/soil-tutorial-and-q-a-esug-2025-gdansk/281735146",
       "abstractParagraphs": [
         [
           {
@@ -873,6 +893,7 @@
       "videoId": "D3Fdxu3ZqIA",
       "title": "Why Supporting Pharo is important",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day2/211-duca-supporting-pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/about-supporting-pharo-esug-2025-gdansk/281813874",
       "abstractParagraphs": [
         [
           {
@@ -947,6 +968,7 @@
       "videoId": "JYSBYTz1sCI",
       "title": "SqueakJS: A Decade of Progress",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day3/302-freu-squeakjs.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/squeakjs-a-decade-of-progress-esug-2025/281816896",
       "abstractParagraphs": [
         [
           {
@@ -966,6 +988,7 @@
       "videoId": "g_1W4jrG_6Q",
       "title": "Microservices: The Good, the Bad, and the Ugly",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day3/303-fost-microservices.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/microservices-the-good-the-bad-and-the-ugly/281816967",
       "abstractParagraphs": [
         [
           {
@@ -985,6 +1008,7 @@
       "videoId": "r1fkTsq8r6Y",
       "title": "(Turbo)Phausto: news from the pit lane",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day3/304-cipri-turbo-phausto.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/turbo-phausto-news-from-the-pitlane-esug-2025/281817024",
       "abstractParagraphs": [
         [
           {
@@ -1009,6 +1033,7 @@
       "videoId": "f8A5fTyppOo",
       "title": "Enhancing Security in VAST: Towards Static Vulnerability Scanning",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day3/305-mart-enhancing-security-in-vast.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/enhancing-security-in-vast-towards-static-vulnerability-scanning/281817090",
       "abstractParagraphs": [
         [
           {
@@ -1038,6 +1063,7 @@
       "videoId": "0ZwEkLB8Nwk",
       "title": "Mining software repository with Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day3/306-hlad-mining-software-repository-with-pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/mining-software-repository-with-pharo-esug-2025/281857192",
       "abstractParagraphs": [
         [
           {
@@ -1075,12 +1101,14 @@
     "307-dema-testing-in-spec": {
       "videoId": "DTwwPIRJjnw",
       "title": "Testing in Spec",
-      "presentationUrl": "https://archive.esug.org/ESUG2025/day3/307-dema-testing-in-spec.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2025/day3/307-dema-testing-in-spec.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/how-to-test-a-spec-app-esug-2025-gdansk/281857225"
     },
     "401-duca-what-devs-are-doing-with-pharo": {
       "videoId": "VS7H2H6Nakw",
       "title": "What devs are doing with Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day4/401-duca-what-devs-are-doing-with-pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/what-companies-do-with-pharo-esug-2025/281857264",
       "abstractParagraphs": [
         [
           {
@@ -1105,6 +1133,7 @@
       "videoId": "s77AKbVJGMo",
       "title": "Canyon - develop mobile apps using CodeParadise",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day4/402-stel-canyon.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/canyon-creating-mobile-apps-using-codeparadise/281857337",
       "abstractParagraphs": [
         [
           {
@@ -1123,12 +1152,14 @@
     "403-dema-clap": {
       "videoId": "r5US_eUmfLQ",
       "title": "Clap - Command line for Pharo",
-      "presentationUrl": "https://archive.esug.org/ESUG2025/day4/403-dema-clap.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2025/day4/403-dema-clap.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/clap-command-line-argument-parser-esug-2025/281857373"
     },
     "404-chis-gtoolkit": {
       "videoId": "fgc15ekvbWU",
       "title": "Glamorous Toolkit",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day4/404-chis-gtoolkit.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/glamorous-toolkit-esug-2025-gdansk-poland/281857409",
       "abstractParagraphs": [
         [
           {
@@ -1148,6 +1179,7 @@
       "videoId": "9LBomGmBecA",
       "title": "Fluid Class Defintions In Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day4/405-denk-fluid-class-definitions.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/fluid-class-definitions-in-pharo-esug-2025/281892973",
       "abstractParagraphs": [
         [
           {
@@ -1177,6 +1209,7 @@
       "videoId": "wPmDQDjb8rY",
       "title": "Cavrois: an organic window manager that respects your flow",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day4/406-duca-cavrois.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/cavrois-an-organic-window-management-esug-2025/281893054",
       "abstractParagraphs": [
         [
           {
@@ -1206,6 +1239,7 @@
       "videoId": "_ur_RJORez0",
       "title": "ChatPharo",
       "presentationUrl": "https://archive.esug.org/ESUG2025/day4/407-abed-chatpharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/chatpharo-an-open-architecture-for-understanding-how-to-talk-live-to-llms/281893123",
       "abstractParagraphs": [
         [
           {
@@ -1224,7 +1258,8 @@
     "408-duca-what-people-are-doing-with-pharo": {
       "videoId": "zONh4uoG7U4",
       "title": "What people are doing with Pharo",
-      "presentationUrl": "https://archive.esug.org/ESUG2025/day4/408-duca-what-people-are-doing-with-pharo.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2025/day4/408-duca-what-people-are-doing-with-pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/immersive-experiences-what-pharo-users-do/281893187"
     }
   },
   "awards": {

@@ -414,6 +414,7 @@
       "title": "Do you really understand git?",
       "videoId": "gFb9BaBZ8ko",
       "presentationUrl": "https://archive.esug.org/ESUG2018/01-Monday/01-Do%20you%20really%20understand%20git/2018-Git-ESUG.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/do-you-really-understand-git-117945113/117945113",
       "abstractParagraphs": [
         [
           {
@@ -443,6 +444,7 @@
       "title": "Pharo in Corner Cases of the Enterprise",
       "videoId": "kTae90QQXvY",
       "presentationUrl": "https://archive.esug.org/ESUG2018/01-Monday/02-Pharo%20in%20Corner%20Cases%20of%20the%20Enterprise/PharoInCornerCases-180910.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-in-corner-cases-of-the-enterprise/117962338",
       "abstractParagraphs": [
         [
           {
@@ -461,7 +463,8 @@
     "103-denk-open-source-an-infinite-game": {
       "title": "Open-source, an Infinite Game",
       "videoId": "EukB9n2owwY",
-      "presentationUrl": "https://archive.esug.org/ESUG2018/01-Monday/03-Open-source%2C%20an%20Infinite%20game/2018-InfiniteGames.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2018/01-Monday/03-Open-source%2C%20an%20Infinite%20game/2018-InfiniteGames.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/opensource-an-infinite-game-118276935/118276935"
     },
     "104-girb-reshaping-the-development-experience": {
       "title": "Reshaping the Development Experience",
@@ -477,6 +480,7 @@
     "105-thom-cincom-roadmap": {
       "title": "Cincom Roadmap",
       "presentationUrl": "https://archive.esug.org/ESUG2018/01-Monday/05-Cincom%20roadmap/05-CincomESUG_2018%20.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/cincom-smalltalk-2018-roadmap/118277295",
       "bioParagraphs": [
         [
           {
@@ -508,6 +512,7 @@
       "title": "ML in Pharo: TensorFlow with Pharo",
       "videoId": "9Fk_FC7G0wk",
       "presentationUrl": "https://archive.esug.org/ESUG2018/01-Monday/08-ML%20in%20Pharo%20TensorFlow%20with%20Pharo/08-TF-ESUG2018-SergeStinckwich.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/towards-machine-learning-in-pharo-with-tensorflow/118648833",
       "abstractParagraphs": [
         [
           {
@@ -543,6 +548,7 @@
     "110-kriv-moose-meta-modelling": {
       "title": "Moose Meta-Modelling",
       "presentationUrl": "https://archive.esug.org/ESUG2018/01-Monday/09-Moose%20Meta-Model/moose-Esug2018.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/moose-metamodeling-infrastructure/118843410",
       "abstractParagraphs": [
         [
           {
@@ -590,6 +596,7 @@
       "title": "Teaching ICT Trends in Pharo",
       "videoId": "ZNPbhvEgqTk",
       "presentationUrl": "https://archive.esug.org/ESUG2018/01-Monday/12-Teaching%20ICT%20trends%20in%20Pharo/ESUG18-CB.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/teaching-ict-trends-with-pharo/118843653",
       "abstractParagraphs": [
         [
           {
@@ -608,6 +615,7 @@
     "201-bour-pharojs-pharo-based-tdd-for-javascript": {
       "title": "PharoJS: Pharo-Based TDD for Javascript Applications",
       "presentationUrl": "https://archive.esug.org/ESUG2018/02-Tuesday/01-PharoJS%20Pharo-Based%20TDD%20for%20Javascript%20Applications/01-2018-09-11-EsugPharoJs-NouryBouraqadi.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharojs-pharobased-tdd-for-javascript-applications/119086580",
       "abstractParagraphs": [
         [
           {
@@ -632,6 +640,7 @@
       "title": "Pharo Consortium: A Roadmap to Solid Evolution",
       "videoId": "6vax47zC47Y",
       "presentationUrl": "https://archive.esug.org/ESUG2018/02-Tuesday/02-Pharo%20Consortium%20-%20A%20roadmap%20to%20solid%20evolution./02-ESUG2018-Pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-consortium-a-roadmap-to-solid-evolution/119458490",
       "abstractParagraphs": [
         [
           {
@@ -668,6 +677,7 @@
     "204-kott-smalltalk-security-landscape": {
       "title": "Smalltalk Security Landscape",
       "presentationUrl": "https://archive.esug.org/ESUG2018/02-Tuesday/04-Smalltalk%20Security%20Landscape/04-esug2018-smalltalk-security-landscape-jerry-kott.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/smalltalk-security-landscape/120416631",
       "abstractParagraphs": [
         [
           {
@@ -687,6 +697,7 @@
       "title": "Docker and Pharo at ZWEIDENKER",
       "videoId": "Ncdrk5Bd9fY",
       "presentationUrl": "https://archive.esug.org/ESUG2018/02-Tuesday/05-Docker%20and%20Pharo%20at%20ZWEIDENKER/Docker@Zweidenker.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/docker-and-pharo-at-zweidenker/120416733",
       "abstractParagraphs": [
         [
           {
@@ -698,6 +709,7 @@
     "206-wink-abap-for-moose": {
       "title": "Abap for Moose",
       "presentationUrl": "https://archive.esug.org/ESUG2018/02-Tuesday/06-Abap%20for%20Moose/06-Presentation%20ESUG%202018%20Test%20Seams%20Moose2Model.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/abap-for-moose/120547645",
       "abstractParagraphs": [
         [
           {
@@ -717,6 +729,7 @@
       "title": "Rowan: A New Project/Package Manager",
       "videoId": "iqOHGeZ5fWQ",
       "presentationUrl": "https://archive.esug.org/ESUG2018/02-Tuesday/07-Rowan%20A%20new%20project%20package%20manager/07-Rowan_ESUG_2018.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/rowan-a-new-projectpackage-manager/120677605",
       "abstractParagraphs": [
         [
           {
@@ -736,6 +749,7 @@
       "title": "Cruiser: A Pharo Packaging Tool",
       "videoId": "BJRgJwx5_8s",
       "presentationUrl": "https://archive.esug.org/ESUG2018/02-Tuesday/08-Cruiser%20-%20A%20Pharo%20packaging%20tool/08-Cruiser-VincentBlondeau-ESUGPresentation.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/cruiser-a-tool-to-package-pharo-applications/121058824",
       "abstractParagraphs": [
         [
           {
@@ -773,11 +787,13 @@
     "301-gree-gemstone-roadmap": {
       "title": "GemStone Roadmap",
       "videoId": "RkkHyuoytaA",
-      "presentationUrl": "https://archive.esug.org/ESUG2018/03-Wednesday/01-Gemstone%20Roadmap/norm_esug_2018.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2018/03-Wednesday/01-Gemstone%20Roadmap/norm_esug_2018.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/gemstone-roadmap/121300640"
     },
     "302-berm-va-smalltalk-product-update": {
       "title": "VA Smalltalk Product Update",
       "presentationUrl": "https://archive.esug.org/ESUG2018/03-Wednesday/02-VA%20Smalltalk%20Product%20Update/02-VA%20Smalltalk%20Update-ESUG2018.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/va-smalltalk-product-update-esug-2018/121300724",
       "abstractParagraphs": [
         [
           {
@@ -797,6 +813,7 @@
       "title": "Seaside Add-ons",
       "videoId": "MMTbU3OF970",
       "presentationUrl": "https://archive.esug.org/ESUG2018/03-Wednesday/03-Seaside%20Addons/Seaside%20Addons.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/developing-the-seaside-ecosystem-to-increase-its-productivity/121300813",
       "abstractParagraphs": [
         [
           {
@@ -815,6 +832,7 @@
     "304-cote-willow-the-interaction-tour": {
       "title": "Willow, the Interaction Tour",
       "presentationUrl": "https://archive.esug.org/ESUG2018/03-Wednesday/04-Willow,%20the%20interaction%20tour/04-Willow_%20The%20interaction%20tour.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/willow-the-interaction-tour/121300888",
       "abstractParagraphs": [
         [
           {
@@ -834,6 +852,7 @@
       "title": "A Browser-based IDE for Cloud-hosted GemStone",
       "videoId": "k8OwP0FC7Uo",
       "presentationUrl": "https://archive.esug.org/ESUG2018/03-Wednesday/05-A%20Browser-based%20IDE%20for%20Cloud-hosted%20GemStone/05-Foster%202018-09%20ESUG.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/a-browserbased-ide-for-cloudhosted-gemstone/121301161",
       "abstractParagraphs": [
         [
           {
@@ -853,6 +872,7 @@
       "title": "Smalltalk Usage for UI Prototyping in Thales Industrial Context",
       "videoId": "Oq1RSDn2P5Y",
       "presentationUrl": "https://archive.esug.org/ESUG2018/03-Wednesday/06-Smalltalk%20usage%20for%20UI%20prototyping%20in%20Thales%20industrial%20context/06-Prototyping%20UI%20with%20smalltalk%20in%20THALES%20-%20ESUG%202018%20Presentation.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/ui-prototyping-with-smalltalk-at-thales/121301229",
       "abstractParagraphs": [
         [
           {
@@ -872,6 +892,7 @@
       "title": "Tools for Smart Contract Analysis",
       "videoId": "-_4yy5d0yiQ",
       "presentationUrl": "https://archive.esug.org/ESUG2018/03-Wednesday/07-Tools%20for%20Smart%20Contract%20Analysis/07-Smart%20Contracts.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/a-pharo-story-on-blockchain-technology/121301388",
       "abstractParagraphs": [
         [
           {
@@ -883,6 +904,7 @@
     "401-pala-guerilla-it-with-pharo": {
       "title": "Guerilla IT with Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2018/04-Thursday/01-Guerilla%20IT%20with%20Pharo/PharoGuerrilla-180913.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/guerilla-it-with-pharo/121310575",
       "abstractParagraphs": [
         [
           {
@@ -901,6 +923,7 @@
     "402-berg-roassal-current-status-and-future-plan": {
       "title": "Roassal: Current Status and Future Plan",
       "presentationUrl": "https://archive.esug.org/ESUG2018/04-Thursday/02-Roassal%20-%20Current%20Status%20and%20Future%20Plan/02-2018-RoassalESUG.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/roassal-current-status-and-future-plan/121310671",
       "abstractParagraphs": [
         [
           {
@@ -977,11 +1000,13 @@
     "407-poll-clap": {
       "title": "Clap",
       "videoId": "_MqjSUIxBoI",
-      "presentationUrl": "https://archive.esug.org/ESUG2018/04-Thursday/07-Clap/07-Clap-Esug2018.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2018/04-Thursday/07-Clap/07-Clap-Esug2018.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/clap-command-line-argument-parser-for-pharo/121311407"
     },
     "408-miti-application-development-with-va-smalltalk": {
       "title": "Application Development with VA Smalltalk",
       "presentationUrl": "https://archive.esug.org/ESUG2018/04-Thursday/08-Application%20Development%20with%20VA%20Smalltalk/Application%20Devlepment%20with%20VA.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/application-development-with-va-smalltalk/121311640",
       "abstractParagraphs": [
         [
           {
@@ -1018,6 +1043,7 @@
     "410-kriv-self-prototypes-in-pharo": {
       "title": "Self Prototypes in Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2018/04-Thursday/10-Self%20prototypes%20in%20Pharo/self-ESUG2018.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/prototypes-in-pharo/121312979",
       "abstractParagraphs": [
         [
           {
@@ -1059,6 +1085,7 @@
     "412-teso-stateful-traits-in-pharo": {
       "title": "Stateful Traits in Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2018/04-Thursday/12-Stateful%20traits%20in%20Pharo/2018-StatefulTraits-ESUG.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/stateful-traits-in-pharo/121313173",
       "abstractParagraphs": [
         [
           {
@@ -1078,6 +1105,7 @@
       "title": "Cross-platform Development with Pharo: The PharoLauncher Case",
       "videoId": "DklOYCzI23U",
       "presentationUrl": "https://archive.esug.org/ESUG2018/04-Thursday/13-Cross-platform%20development%20with%20Pharo%20-%20The%20PharoLauncher%20case/13-2018-ESUG-Cross-Platform-dev-PharoLauncher-ChristopheDemarey.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/crossplatform-development-with-pharo-the-pharolauncher-case-121313361/121313361",
       "abstractParagraphs": [
         [
           {
@@ -1096,6 +1124,7 @@
     "414-vran-using-system-level-tools-to-debug-smalltalk": {
       "title": "Using System-level Tools to Debug Smalltalk Systems",
       "presentationUrl": "https://archive.esug.org/ESUG2018/04-Thursday/14-Using%20system-level%20tools%20to%20debug%20Smalltalk%20systems/debugger.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/using-systemlevel-tools-to-debug-smalltalk-systems/121313438",
       "abstractParagraphs": [
         [
           {
@@ -1148,12 +1177,14 @@
     "501-denk-pharo-iot-using-pharo-to-play-with-gpios-and": {
       "title": "Pharo IoT: Using Pharo to Play with GPIOs and Sensors on IoT Devices Remotely",
       "videoId": "KzuyvhVThV0",
-      "presentationUrl": "https://archive.esug.org/ESUG2018/05-Friday/01-Pharo%20IoT/ESUG2018-PhraroIoT.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2018/05-Friday/01-Pharo%20IoT/ESUG2018-PhraroIoT.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-iot-using-pharo-to-playing-with-gpios-and-sensors-on-iot-devices-remotely/121314463"
     },
     "502-poli-hands-on-contributing-to-pharo": {
       "title": "Hands on: Contributing to Pharo",
       "videoId": "ICZ9FopeAc4",
       "presentationUrl": "https://archive.esug.org/ESUG2018/05-Friday/02-Hands%20on%20-%20Contributing%20to%20Pharo/2018-ContributingToPharo-ESUG.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/contributing-to-pharo-18/121314618",
       "abstractParagraphs": [
         [
           {
@@ -1172,6 +1203,7 @@
     "503-stin-polymath": {
       "title": "PolyMath",
       "presentationUrl": "https://archive.esug.org/ESUG2018/05-Friday/03-PolyMath/PolyMath-ESUG2018.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/polymath-esug-2018-updates/121314701",
       "abstractParagraphs": [
         [
           {
@@ -1200,6 +1232,7 @@
     "505-feld-practical-api-development-using-gemstone-s": {
       "title": "Practical API Development Using Gemstone/S",
       "presentationUrl": "https://archive.esug.org/ESUG2018/05-Friday/05-Practical%20API%20development%20using%20Gemstone%20S/esug2018-api-development-gemstone.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/practical-apidevelopment-with-gemstones/121314827",
       "abstractParagraphs": [
         [
           {

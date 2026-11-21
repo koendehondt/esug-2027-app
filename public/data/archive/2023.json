@@ -367,6 +367,7 @@
       "videoId": "9suT78sOGEc",
       "title": "Hijack the JavaScript Ecosystem using PharoJS",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day1/02%20-%20Hijack%20JS%20Ecosystem%20with%20PharoJS.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharojs-hijack-the-javascript-ecosystem/260655762",
       "abstractParagraphs": [
         [
           {
@@ -397,6 +398,7 @@
       "videoId": "EnpGnOuGYQ0",
       "title": "The Pharo Debugger and Debugging Tools: Advances and Roadmap",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day1/03%20-%20The%20Pharo%20Debugger%20and%20Debugging%20Tools.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/the-pharo-debugger-and-debugging-tools-advances-and-roadmap/261494044",
       "abstractParagraphs": [
         [
           {
@@ -420,12 +422,14 @@
     "103-cipr-music-with-pharo": {
       "videoId": "4lhoYmI_ivs",
       "title": "Music With Pharo",
-      "presentationUrl": "https://archive.esug.org/ESUG2023/day1/04%20-%20Domenico%20Cipriani%20-%20Music%20With%20Pharo.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2023/day1/04%20-%20Domenico%20Cipriani%20-%20Music%20With%20Pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/music-with-pharo/260655833"
     },
     "104-poli-phuzzing": {
       "videoId": "CnRRpSBJ2wI",
       "title": "Phuzzing: a Pharo toolkit for automatic fuzz testing",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day1/05%20-%20Phuzzing.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/phuzzer-randomish-testing-for-pharo/260656434",
       "abstractParagraphs": [
         [
           {
@@ -455,6 +459,7 @@
       "videoId": "-dj6ZrJ-0so",
       "title": "Illimani: a Memory Profiler",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day1/06%20-%20Memory%20Profiler.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/memory-profiling-in-pharo/260805792",
       "abstractParagraphs": [
         [
           {
@@ -474,6 +479,7 @@
       "videoId": "GoODqY7xup8",
       "title": "WebGS: Building a Backend for Modern Web Applications",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day1/07%20-%20WebGS.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/using-gemstones-for-web-applications/260805875",
       "abstractParagraphs": [
         [
           {
@@ -520,6 +526,7 @@
       "videoId": "-fhbV0X2u_E",
       "title": "Teaching Moldable Development",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day1/09%20-%20Teaching%20Moldable%20Development.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/teaching-moldable-development/260805941",
       "abstractParagraphs": [
         [
           {
@@ -539,6 +546,7 @@
       "videoId": "MtY_qGPCOqI",
       "title": "Agile Artificial Intelligence",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day1/10%20-%20Agile%20AI.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/agile-artificial-intelligence/260806075",
       "abstractParagraphs": [
         [
           {
@@ -559,6 +567,7 @@
       "videoId": "rS1LS3IFru4",
       "title": "DataFrame, PolyMath, Pharo-AI: State of data science in Pharo",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day1/11%20-%20Science%20and%20data%20manipulation%20in%20Pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/science-and-data-manipulation-in-pharo/260888075",
       "abstractParagraphs": [
         [
           {
@@ -594,6 +603,7 @@
       "videoId": "xmsAFrCKClU",
       "title": "Pharo 11",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day2/01%20-%20Pharo%2011.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/pharo-11-a-stabilization-release/260897945",
       "abstractParagraphs": [
         [
           {
@@ -613,6 +623,7 @@
       "videoId": "zoRx704rLCI",
       "title": "Native desktop modern application demo at Thales, using the last UI capacities in Pharo and our open-source tools",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day2/02%20-%20Native%20Desktop%20Modern%20Applications.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/native-desktop-modern-applications/260888158",
       "abstractParagraphs": [
         [
           {
@@ -637,6 +648,7 @@
       "videoId": "iYGnb1oVosU",
       "title": "Building Applications for Desktop",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day2/03%20-%20Desktop%20Applications%20in%20Pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/applications-in-pharo/260897984",
       "abstractParagraphs": [
         [
           {
@@ -656,6 +668,7 @@
       "videoId": "dQnZbMxSpDE",
       "title": "PDM command line reinvented",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day2/04%20-%20PDM%20Command%20Line%20Reinvented.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/command-line-reinvented/260898059",
       "abstractParagraphs": [
         [
           {
@@ -675,6 +688,7 @@
       "videoId": "L_E5QHatR0M",
       "title": "Seaside Hotwired",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day2/05%20-%20Seaside%20Hotwired.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/seaside-hotwired/260897891",
       "abstractParagraphs": [
         [
           {
@@ -695,6 +709,7 @@
       "videoId": "rOJwLBPZZjE",
       "title": "Building Hybrid Applications with VAST and WebView2",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day2/06%20-%20Building%20Hybrid%20Applications%20with%20VAST%20and%20WebView2.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/building-hybrid-applications-with-vast-and-webview2/260898120",
       "abstractParagraphs": [
         [
           {
@@ -714,6 +729,7 @@
       "videoId": "fsFw1jozMuc",
       "title": "Agent-based Modelling in Pharo using Cormas",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day2/07%20-%20Agent-based%20modeling%20in%20Pharo%20using%20Cormas.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/agentbased-modelling-in-pharo-using-cormas-260898142/260898142",
       "abstractParagraphs": [
         [
           {
@@ -739,6 +755,7 @@
       "videoId": "HoGjeaUYBvc",
       "title": "Code instrumentation and the pitfalls of abstraction",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day2/08%20-%20Code%20Instrumentation%20and%20the%20Pitfalls%20of%20Abstraction.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/instrumentation-the-pitfalls-of-abstraction/260898303",
       "abstractParagraphs": [
         [
           {
@@ -824,6 +841,7 @@
       "videoId": "SsoZnKEzk3I",
       "title": "GemTalk Update and Roadmap",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day3/01%20-%20Gemtalk%20Update.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/gemstone-update-2023/260894218",
       "abstractParagraphs": [
         [
           {
@@ -843,6 +861,7 @@
       "videoId": "ui4TXcv7tus",
       "title": "Soil - a fresh look on OO databases",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day3/02_1%20-%20Soil%2C%20a%20Fresh%20Look%20on%20Object%20Oriented%20Databases.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/soil-a-fresh-look-on-object-oriented-databases/260898335",
       "abstractParagraphs": [
         [
           {
@@ -871,6 +890,7 @@
     "303-denk-opal-compiler-and-blocks": {
       "title": "Fun with Blocks in Pharo11 and Pharo12",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day3/03%20-%20Constant%20Blocks.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/constant-blocks-in-pharo11/260898398",
       "abstractParagraphs": [
         [
           {
@@ -923,6 +943,7 @@
       "videoId": "BAQYqCV9bV8",
       "title": "Workshop on Concept Inventories in OOP",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day3/05%20-%20WorkshopOnConceptInventoriesAndPharoMisconceptions.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/workshop-identifying-concept-inventories-in-agile-programming/263232266",
       "abstractParagraphs": [
         [
           {
@@ -976,6 +997,7 @@
       "videoId": "N_ROd9lWUGI",
       "title": "Instantiations Company Update & VAST 2024 Preview",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day4/01%20-%20Instantiations%20Company%20Update.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/company-update-vast-2024-preview/260941758",
       "abstractParagraphs": [
         [
           {
@@ -995,6 +1017,7 @@
       "videoId": "rJm2nfgs0W0",
       "title": "Visual user-driven database queries",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day4/02%20-%20Visual%20User-Driven%20Database%20Queries.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/visual-driven-database-queries/260941844",
       "abstractParagraphs": [
         [
           {
@@ -1032,6 +1055,7 @@
       "videoId": "bFGKQUU_qfo",
       "title": "Your questions about Git",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day4/04%20-%20Your%20Questions%20About%20Git.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/do-you-really-understand-git-260942093/260942093",
       "abstractParagraphs": [
         [
           {
@@ -1051,6 +1075,7 @@
       "videoId": "6Z9Vo6IJaqc",
       "title": "Documentation as a first-class citizen",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day4/05%20-%20Documentation.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/technical-documentation-support-in-pharo/263232007",
       "abstractParagraphs": [
         [
           {
@@ -1069,12 +1094,14 @@
     "406-dias-news-from-bloc": {
       "videoId": "iNQ7GVfDWak",
       "title": "News from Bloc",
-      "presentationUrl": "https://archive.esug.org/ESUG2023/day4/06%20-%20News%20from%20Bloc.pdf"
+      "presentationUrl": "https://archive.esug.org/ESUG2023/day4/06%20-%20News%20from%20Bloc.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/news-on-bloc-for-pharo/260942127"
     },
     "407-dhon-do-you-know-your-browser": {
       "videoId": "bPTsXGgCkMo",
       "title": "Do you know your browser?",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day4/07%20-%20Do%20You%20Know%20Your%20Browser.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/do-you-know-your-browser/260942147",
       "abstractParagraphs": [
         [
           {
@@ -1099,6 +1126,7 @@
       "videoId": "Lu2T2Htvjco",
       "title": "VASERControl - Building advanced building automation software",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day4/08%20-%20VASER%20Control.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/vaser-control-smart-energy/260942170",
       "abstractParagraphs": [
         [
           {
@@ -1123,6 +1151,7 @@
       "videoId": "hrfrFy7_Zr0",
       "title": "Roassal3 new features",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day5/01%20-%20Roassal%203%20Updates.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/roassal3-update/260942489",
       "abstractParagraphs": [
         [
           {
@@ -1142,6 +1171,7 @@
       "videoId": "azSz7fkY7jU",
       "title": "gt4atproto: A programmable environment for social media",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day5/02%20-%20gt4atproto%2C%20A%20Programmable%20Environment%20for%20Social%20Media.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/gt4atproto-a-programmable-environment-for-social-media/260947952",
       "abstractParagraphs": [
         [
           {
@@ -1161,6 +1191,7 @@
       "videoId": "HNNLcrwHUTw",
       "title": "BioSmalltalk",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day5/03%20-%20Bio%20Smalltalk.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/biosmalltalk/260948044",
       "abstractParagraphs": [
         [
           {
@@ -1185,6 +1216,7 @@
       "videoId": "N2pygeCo09U",
       "title": "New architecture of the refactoring engine",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day5/04%20-%20New%20Refactoring%20Architecture%2C%20Reconciling%20Refactorings%20and%20Transformations.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/a-new-architecture-reconciling-refactorings-and-transformations/260948098",
       "abstractParagraphs": [
         [
           {
@@ -1204,6 +1236,7 @@
       "videoId": "0JHeKyiVdH8",
       "title": "Advanced Design Mooc",
       "presentationUrl": "https://archive.esug.org/ESUG2023/day5/05%20-%20Advanced%20Object-Oriented%20Design%2C%20A%20New%20MOOC.pdf",
+      "slideshareUrl": "https://www.slideshare.net/slideshow/advanced-object-oriented-design-mooc/260948162",
       "abstractParagraphs": [
         [
           {
