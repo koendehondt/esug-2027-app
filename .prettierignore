@@ -4,6 +4,10 @@
 # compiled output
 /dist/
 
+# native projects (Capacitor; Xcode and Android Studio manage these files)
+/ios/
+/android/
+
 # misc
 /coverage/
 !.*
