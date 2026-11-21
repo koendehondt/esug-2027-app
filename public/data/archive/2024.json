@@ -7,9 +7,6 @@
   "dayDates": ["2024-07-08", "2024-07-09", "2024-07-10", "2024-07-11"],
   "sideEvents": [
     {
-      "label": "IWST 2024 Program"
-    },
-    {
       "label": "Camp Smalltalk 2024"
     }
   ],
@@ -354,6 +351,93 @@
           "time": "17:00 – 18:00",
           "subject": "Show Us Your Project",
           "url": "https://www.youtube.com/playlist?list=PLJ5nSnWzQXi89jwnBCmGPh9xG6shuvuwb"
+        }
+      ]
+    }
+  ],
+  "iwstProgram": [
+    {
+      "id": "iwst-day-1",
+      "label": "Tue 9",
+      "sessions": [
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Modular and Extensible Extract Method",
+          "speaker": "Balša Šarenac, Stéphane Ducasse, Guillermo Polito and Gordana Rakić"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Redesigning FFI calls in Pharo: exploiting the baseline JIT for more performance and low maintenance",
+          "speaker": "Juan Ignacio Bianchi and Guillermo Polito"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "Inlined Code Generation for Smalltalk",
+          "speaker": "Daniel Franklin and Dave Mason"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Runtime type collecting and transpilation to a static language",
+          "speaker": "Richard Uttner and Pavel Krivanek"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "MethodProxies: A Safe and Fast Message-Passing Control Library",
+          "speaker": "Sebastian Jordan Montaño, Juan Pablo Sandoval Alcocer, Guillermo Polito, Stéphane Ducasse and Pablo Tesone"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Intentional Benchmarking of Dynamic Languages",
+          "speaker": "Maisha Labiba and Dave Mason"
+        }
+      ]
+    },
+    {
+      "id": "iwst-day-2",
+      "label": "Thu 11",
+      "sessions": [
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Pyramidion: a framework for domain-specific editors",
+          "speaker": "Yann Le Goff, Pierre Laborde, Alain Plantec and Éric Le Pors"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "SoSAF: A Pharo-Based Framework for Enhancing System-Of-Systems Dependencies Analysis",
+          "speaker": "Mouhamadou Falilou Ball, Patrick Auger, Jannik Laval and Loïc Lagadec"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "Towards resilience against highly dynamic challenges for Wireless Sensor Networks",
+          "speaker": "Patrick Auger, Mouhamadou Ball, Loïc Lagadec and Jannik Laval"
+        },
+        {
+          "time": "12:00 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Smalltalk JIT Compilation: LLVM Experimentation",
+          "speaker": "Janat Baig and Dave Mason"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "A Graphical Language Server on the Smalltalk Platform",
+          "speaker": "Graham McLeod and Gareth Cox"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Modest-Pharo: Unit Test Generation for Pharo Based on Traces and Metamodels",
+          "speaker": "Gabriel Darbord, Fabio Vandewaeter, Anne Etien, Nicolas Anquetil and Benoit Verhaeghe"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Phausto: fast and accessible DSP programming for sound and music creation in Pharo",
+          "speaker": "Domenico Cipriani"
         }
       ]
     }

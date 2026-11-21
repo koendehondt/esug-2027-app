@@ -53,6 +53,19 @@ import HomeTile from '../components/home-tile';
       </p>
       <ProgramSchedule @days={{@model.program}} />
 
+      {{! The IWST workshop's own program, for years whose archive JSON has
+        an `iwstProgram` key (same shape as `program`). IWST talks have no
+        talk pages, so its sessions are not linked. }}
+      {{#if @model.iwstProgram}}
+        <h2 class="page-section-heading">IWST {{@model.year}}</h2>
+        <p class="program-preview-intro">
+          The full IWST
+          {{@model.year}}
+          program &mdash; pick a day to see its sessions.
+        </p>
+        <ProgramSchedule @days={{@model.iwstProgram}} @localDayState={{true}} />
+      {{/if}}
+
       {{! Links to events held alongside the main conference (IWST,
         isLoop, Camp Smalltalk, "Show us your Project" videos), from each
         year's esug.org conference page. An entry can also have `links`

@@ -7,9 +7,6 @@
   "dayDates": ["2025-07-01", "2025-07-02", "2025-07-03", "2025-07-04"],
   "sideEvents": [
     {
-      "label": "IWST 2025 Program"
-    },
-    {
       "label": "isLoop 2025 Summer School",
       "url": "https://isloop.pharo.org/2025-gdansk/"
     },
@@ -325,6 +322,116 @@
           "subject": "What people are doing with Pharo",
           "talkId": "408-duca-what-people-are-doing-with-pharo",
           "speaker": "Stéphane Ducasse"
+        }
+      ]
+    }
+  ],
+  "iwstProgram": [
+    {
+      "id": "iwst-day-1",
+      "label": "Tue 1",
+      "sessions": [
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Dynamic Language Transpilation",
+          "speaker": "Noury Bouraqadi and Dave Mason"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "Encoding for Objects Matters",
+          "speaker": "Dave Mason"
+        },
+        {
+          "time": "12:00 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Clean Blocks at the Opal Compiler",
+          "speaker": "Nahuel Palumbo and Marcus Denker"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "PiNodes in the Druid Meta-Compiler",
+          "speaker": "Matías Demare, Guillermo Polito, Javier Pimás and Nahuel Palumbo"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Identifying unnecessary allocation using static escape analysis: a first approach in Pharo",
+          "speaker": "Faouzi Mokhefi, Stéphane Ducasse, Pablo Tesone and Luc Fabresse"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "An Analysis of Inline Method Refactoring",
+          "speaker": "Balša Šarenac and Stéphane Ducasse"
+        },
+        {
+          "time": "16:30 – 17:00",
+          "subject": "Evaluating Benchmark Quality: a Mutation-Testing-Based Methodology",
+          "speaker": "Federico Lochbaum and Guillermo Polito"
+        },
+        {
+          "time": "17:00 – 17:30",
+          "subject": "Package level scope heuristic for the Pharo auto-completion engine",
+          "speaker": "Omar Abedelkader, Stéphane Ducasse, Oleksandr Zaitsev, Romain Robbes and Guillermo Polito"
+        }
+      ]
+    },
+    {
+      "id": "iwst-day-2",
+      "label": "Wed 2",
+      "sessions": [
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Migrating Katalon Studio Tests to Playwright with Model Driven Engineering",
+          "speaker": "Nicolas Hlad and Benoit Verhaeghe"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "FASTTypeScript metamodel generation using FAST traits and TreeSitter project",
+          "speaker": "Aless Hosry and Benoit Verhaeghe"
+        },
+        {
+          "time": "12:00 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Analysing Python Machine Learning Notebooks with Moose",
+          "speaker": "Marius Mignard, Steven Costiou, Nicolas Anquetil and Anne Etien"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Gamifying Agent-Based Models in Cormas: First Prototype of a Playable Architecture for Serious Games in Pharo",
+          "speaker": "Jovan Kupusović, Oleksandr Zaitsev, Christophe Le Page and Pierre Bommel"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Coypu: a library and DSL for Composing and Performing Electronic Music on-the-Fly with Pharo",
+          "speaker": "Domenico Cipriani, Sebastian Jordan Montaño, Nahuel Palumbo and Stéphane Ducasse"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Integrating Executable Requirements in Prototyping",
+          "speaker": "Yann Le Goff, Pierre Laborde, Éric Le Pors, Mickaël Kerboeuf and Alain Plantec"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "16:30 – 17:00",
+          "subject": "Even Lighter Than Lightweight: Augmenting Type Inference with Primitive Heuristics and AI-support",
+          "speaker": "Larisa Safina and Jan Blizničenko"
+        },
+        {
+          "time": "17:00 – 17:30",
+          "subject": "Directing generative AI for Pharo Documentation",
+          "speaker": "Pascal Zaragoza and Nicolas Hlad"
         }
       ]
     }

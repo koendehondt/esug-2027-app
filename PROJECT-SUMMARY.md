@@ -819,8 +819,8 @@ esug.org (see `DECISIONS.md`).
   2023 (unlinked label followed by "Proceedings" (CEUR Vol-3627) and "Slides"
   (ESUG/esug.github.io repo) links, from the entry's optional
   `links: [{ label, url }]`; source: esug.org/2023-Conference/IWST2023.html);
-  2024 and 2025 (unlinked); 2026 (linked to
-  `conf.researchr.org/home/iwst-2026`)
+  2026 (linked to `conf.researchr.org/home/iwst-2026`). 2024 and 2025 have
+  their own IWST section instead (see below).
 - isLoop summer school: 2025 (`isloop.pharo.org/2025-gdansk/`), 2026
   (`isloop.pharo.org/2026-plovdiv/`)
 - Camp Smalltalk: 2022-2025, unlinked (2026's page is only a placeholder)
@@ -832,3 +832,20 @@ esug.org (see `DECISIONS.md`).
   and 2025 have no separate playlist.
 
 Decisions about what is deliberately not included are in `DECISIONS.md`.
+
+## IWST program section on archive pages
+
+An archived year can have its own IWST section ("IWST <year>") below the
+Conference Program, rendered from an optional `iwstProgram` key in
+`public/data/archive/<year>.json` (same day/session shape as `program`).
+IWST talks have no talk pages, so sessions have a `speaker` but no
+`talkId` and are not linked. So far 2024 (Tue 9 and Thu 11) and 2025 (Tue 1
+and Wed 2) have one, from `<year>-Conference/agenda-workshop.md` in the
+ESUG/esug.github.io repo, times checked against esug.org's rendered page;
+the Room column is left out. Their IWST entries were removed from Side
+Events. The source lists Yann Le Goff twice as an author of "Integrating
+Executable Requirements in Prototyping" (2025); the app lists him once.
+
+`ProgramSchedule` takes `@localDayState={{true}}` for a second schedule on
+the same page, so its day pills keep their own selected day instead of
+sharing `programScheduleState.selectedDayIndex` with the main program.

@@ -548,11 +548,10 @@ body {
   text-decoration: underline;
 }
 
-/* A linked session without a speaker (e.g. "Show us your project") looks
-   like a talk link: bold, upright and blue, not the session-break style. */
+/* A linked session without a speaker (e.g. "Show Us Your Project") is
+   bold and blue like a talk link, and italic like a session break. */
 .program-session-break .program-session-subject-link {
   font-weight: 600;
-  font-style: normal;
   color: var(--esug-blue);
 }
 

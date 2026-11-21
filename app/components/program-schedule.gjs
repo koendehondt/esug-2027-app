@@ -1,6 +1,7 @@
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
 import { service } from '@ember/service';
+import { tracked } from '@glimmer/tracking';
 import { fn } from '@ember/helper';
 import { on } from '@ember/modifier';
 import { LinkTo } from '@ember/routing';
@@ -8,15 +9,31 @@ import { LinkTo } from '@ember/routing';
 export default class ProgramSchedule extends Component {
   @service programScheduleState;
 
-  get selectedDay() {
-    return this.args.days[this.programScheduleState.selectedDayIndex];
+  // A second schedule on the same page (e.g. an archived year's IWST
+  // program below its main program) passes `@localDayState={{true}}` so its
+  // day pills don't share the selected day with the main program, which
+  // keeps it in the programScheduleState service.
+  @tracked localSelectedDayIndex = 0;
+
+  get selectedDayIndex() {
+    return this.args.localDayState
+      ? this.localSelectedDayIndex
+      : this.programScheduleState.selectedDayIndex;
   }
 
-  isSelected = (index) => index === this.programScheduleState.selectedDayIndex;
+  get selectedDay() {
+    return this.args.days[this.selectedDayIndex];
+  }
+
+  isSelected = (index) => index === this.selectedDayIndex;
 
   @action
   selectDay(index) {
-    this.programScheduleState.selectedDayIndex = index;
+    if (this.args.localDayState) {
+      this.localSelectedDayIndex = index;
+    } else {
+      this.programScheduleState.selectedDayIndex = index;
+    }
   }
 
   <template>
