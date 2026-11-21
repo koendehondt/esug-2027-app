@@ -10,8 +10,7 @@ import { LinkTo } from '@ember/routing';
   <article class="page">
     <h1>Something went wrong</h1>
     <p class="page-notice">
-      This page could not be loaded. Please check your internet connection and
-      try again.
+      This page could not be loaded. Please check your internet connection and try again.
     </p>
     <p><LinkTo @route="index">Back to the home page</LinkTo></p>
   </article>

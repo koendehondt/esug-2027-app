@@ -6,11 +6,7 @@ import { LinkTo } from '@ember/routing';
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/project-support.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/project-support.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="promotion" class="page-back" aria-label="Back">
         <span class="page-back-icon">
           <svg
@@ -29,8 +25,8 @@ import { LinkTo } from '@ember/routing';
     <h1>Support Your Project</h1>
 
     <p>
-      ESUG used to support projects related to software development, teaching,
-      lectures, conference presence and so on. This programme has ended.
+      ESUG used to support projects related to software development, teaching, lectures, conference presence and so on.
+      This programme has ended.
     </p>
 
     <h2 class="page-section-heading">Past Supported Projects</h2>

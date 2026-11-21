@@ -7,11 +7,7 @@ import PresentationSearch from '../components/presentation-search';
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/presentations.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/presentations.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="index" class="page-back" aria-label="Home">
         <span class="page-back-icon">
           <svg
@@ -29,9 +25,8 @@ import PresentationSearch from '../components/presentation-search';
     </div>
     <h1>Presentation Archive</h1>
     <p>
-      Search every ESUG presentation from the past ten conferences (2015 &ndash;
-      2019, 2022 &ndash; 2026) by title, speaker, or year. More conferences will
-      be added here as they happen.
+      Search every ESUG presentation from the past ten conferences (2015 &ndash; 2019, 2022 &ndash; 2026) by title,
+      speaker, or year. More conferences will be added here as they happen.
     </p>
 
     <PresentationSearch @presentations={{@model}} />

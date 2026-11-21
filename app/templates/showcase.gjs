@@ -26,8 +26,7 @@ import { LinkTo } from '@ember/routing';
     <p class="page-notice">Registration is not open yet.</p>
 
     <p>
-      On 7 July 2027, you can do a mini-presentation, a demo, or both, but it
-      should take 10 minutes max!
+      On 7 July 2027, you can do a mini-presentation, a demo, or both, but it should take 10 minutes max!
     </p>
     <p>Please keep in mind that the number of demonstrations is limited.</p>
 

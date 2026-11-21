@@ -35,10 +35,7 @@ const newVersion = bumpPatch(oldVersion);
 // Replace only the version fields, so the files' formatting stays untouched.
 writeFileSync(
   packageJsonPath,
-  readFileSync(packageJsonPath, 'utf8').replace(
-    `"version": "${oldVersion}"`,
-    `"version": "${newVersion}"`,
-  ),
+  readFileSync(packageJsonPath, 'utf8').replace(`"version": "${oldVersion}"`, `"version": "${newVersion}"`),
 );
 
 const packageLock = JSON.parse(readFileSync(packageLockPath, 'utf8'));
@@ -66,10 +63,7 @@ writeFileSync(
     .replace(/versionName "[^"]*"/, `versionName "${newVersion}"`),
 );
 
-const pbxprojPath = new URL(
-  '../ios/App/App.xcodeproj/project.pbxproj',
-  import.meta.url,
-);
+const pbxprojPath = new URL('../ios/App/App.xcodeproj/project.pbxproj', import.meta.url);
 const pbxproj = readFileSync(pbxprojPath, 'utf8');
 const buildNumbers = [...pbxproj.matchAll(/CURRENT_PROJECT_VERSION = (\d+);/g)];
 
@@ -79,21 +73,14 @@ if (buildNumbers.length === 0) {
 
 // The Debug and Release configurations each have their own build number.
 // Continue from the highest one, so both end up equal.
-const oldBuildNumber = Math.max(
-  ...buildNumbers.map((match) => Number(match[1])),
-);
+const oldBuildNumber = Math.max(...buildNumbers.map((match) => Number(match[1])));
 const newBuildNumber = oldBuildNumber + 1;
 
 writeFileSync(
   pbxprojPath,
-  pbxproj.replace(
-    /CURRENT_PROJECT_VERSION = \d+;/g,
-    `CURRENT_PROJECT_VERSION = ${newBuildNumber};`,
-  ),
+  pbxproj.replace(/CURRENT_PROJECT_VERSION = \d+;/g, `CURRENT_PROJECT_VERSION = ${newBuildNumber};`),
 );
 
 console.log(`Version bumped: ${oldVersion} -> ${newVersion}`);
-console.log(
-  `Android versionCode bumped: ${oldVersionCode} -> ${newVersionCode}`,
-);
+console.log(`Android versionCode bumped: ${oldVersionCode} -> ${newVersionCode}`);
 console.log(`iOS build number bumped: ${oldBuildNumber} -> ${newBuildNumber}`);

@@ -6,11 +6,7 @@ import { LinkTo } from '@ember/routing';
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/registration.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/registration.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="index" class="page-back" aria-label="Home">
         <span class="page-back-icon">
           <svg
@@ -70,13 +66,12 @@ import { LinkTo } from '@ember/routing';
 
     <p>
       <strong>Note!</strong>
-      In case of very late registrations, we cannot guarantee T-shirt
-      availability or Social Event entry for extra participants.
+      In case of very late registrations, we cannot guarantee T-shirt availability or Social Event entry for extra
+      participants.
     </p>
     <p>
-      <strong>Cancellation policy</strong>: If you request a refund during the
-      early bird period, we will refund the full fee (without charges). If you
-      request a refund after the early bird period ends, we will refund 50%.
+      <strong>Cancellation policy</strong>: If you request a refund during the early bird period, we will refund the
+      full fee (without charges). If you request a refund after the early bird period ends, we will refund 50%.
     </p>
   </article>
 

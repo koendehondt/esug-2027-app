@@ -4,13 +4,7 @@
   "country": "Italy",
   "heroImage": "/images/tiles/esug2018.jpg",
   "logoImage": "/images/conference-logos/esug-2018.png",
-  "dayDates": [
-    "2018-09-10",
-    "2018-09-11",
-    "2018-09-12",
-    "2018-09-13",
-    "2018-09-14"
-  ],
+  "dayDates": ["2018-09-10", "2018-09-11", "2018-09-12", "2018-09-13", "2018-09-14"],
   "program": [
     {
       "id": "day-1",

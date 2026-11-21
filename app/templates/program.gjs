@@ -27,16 +27,16 @@ import currentEdition from '../data/current-edition';
     </div>
     <h1>Conference Program</h1>
     <p class="page-notice">
-      The full conference program is not published yet. The schedule of talks,
-      workshops, and events will be added here once confirmed.
+      The full conference program is not published yet. The schedule of talks, workshops, and events will be added here
+      once confirmed.
     </p>
 
     <h2 class="program-preview-heading">What to expect</h2>
     <p class="program-preview-intro">
       While the
       {{currentEdition.year}}
-      lineup is being decided, here's the shape of a typical ESUG day &mdash;
-      breaks, lunch, and events. Pick a day to see it.
+      lineup is being decided, here's the shape of a typical ESUG day &mdash; breaks, lunch, and events. Pick a day to
+      see it.
     </p>
     <ProgramSchedule @days={{program2027Preview}} />
   </article>

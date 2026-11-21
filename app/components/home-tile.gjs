@@ -20,11 +20,7 @@ const TileBody = <template>
     {{/if}}
   </div>
   {{#unless @tile.active}}
-    <span class="home-tile-badge">{{if
-        @tile.badge
-        @tile.badge
-        "Coming soon"
-      }}</span>
+    <span class="home-tile-badge">{{if @tile.badge @tile.badge "Coming soon"}}</span>
   {{/unless}}
 </template>;
 

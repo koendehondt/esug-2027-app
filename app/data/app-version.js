@@ -3,6 +3,4 @@
 // comes from package.json (bump it with `npm run version:bump`), the commit
 // is the short git hash the build was made from.
 
-export const appVersion = __APP_COMMIT__
-  ? `${__APP_VERSION__} (${__APP_COMMIT__})`
-  : __APP_VERSION__;
+export const appVersion = __APP_COMMIT__ ? `${__APP_VERSION__} (${__APP_COMMIT__})` : __APP_VERSION__;

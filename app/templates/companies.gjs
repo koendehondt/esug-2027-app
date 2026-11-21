@@ -1,10 +1,6 @@
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
-import {
-  currentCompanies,
-  oldCompanies,
-  NEW_COMPANY_FORM_URL,
-} from 'esug-2027-app/data/companies';
+import { currentCompanies, oldCompanies, NEW_COMPANY_FORM_URL } from 'esug-2027-app/data/companies';
 
 <template>
   {{pageTitle "Companies"}}
@@ -34,12 +30,7 @@ import {
     {{! The form opens in the browser (Safari/Chrome in the native apps, a new
       tab on the web) rather than inside the app, so the app itself collects no
       data -- see PROJECT-SUMMARY.md, "Companies form opens in the browser". }}
-    <a
-      href={{NEW_COMPANY_FORM_URL}}
-      class="registration-button"
-      target="_blank"
-      rel="noopener noreferrer"
-    >New Company</a>
+    <a href={{NEW_COMPANY_FORM_URL}} class="registration-button" target="_blank" rel="noopener noreferrer">New Company</a>
 
     <h2 class="page-section-heading">Registered Companies</h2>
     <div class="publication-list">
@@ -47,12 +38,7 @@ import {
         <div class="publication-card">
           <p class="publication-title">{{company.name}}</p>
           <p class="publication-url">
-            <a
-              href={{company.url}}
-              class="talk-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >{{company.url}}</a>
+            <a href={{company.url}} class="talk-link" target="_blank" rel="noopener noreferrer">{{company.url}}</a>
           </p>
         </div>
       {{/each}}
@@ -60,8 +46,7 @@ import {
 
     <h2 class="page-section-heading">Old Entries</h2>
     <p>
-      If your company is listed below, please submit it again with the form
-      above.
+      If your company is listed below, please submit it again with the form above.
     </p>
     <div class="company-groups">
       {{#each oldCompanies as |group|}}
@@ -70,12 +55,7 @@ import {
           {{#each group.companies as |company|}}
             <li>
               {{#if company.url}}
-                <a
-                  href={{company.url}}
-                  class="talk-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >{{company.name}}</a>
+                <a href={{company.url}} class="talk-link" target="_blank" rel="noopener noreferrer">{{company.name}}</a>
               {{else}}
                 {{company.name}}
               {{/if}}

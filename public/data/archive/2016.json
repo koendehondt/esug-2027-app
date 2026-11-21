@@ -4,13 +4,7 @@
   "country": "Czech Republic",
   "heroImage": "/images/tiles/esug2016.jpg",
   "logoImage": "/images/conference-logos/esug-2016.png",
-  "dayDates": [
-    "2016-08-22",
-    "2016-08-23",
-    "2016-08-24",
-    "2016-08-25",
-    "2016-08-26"
-  ],
+  "dayDates": ["2016-08-22", "2016-08-23", "2016-08-24", "2016-08-25", "2016-08-26"],
   "program": [
     {
       "id": "day-1",

@@ -1,4 +1,5 @@
 export default {
+  printWidth: 120,
   plugins: ['prettier-plugin-ember-template-tag'],
   overrides: [
     {

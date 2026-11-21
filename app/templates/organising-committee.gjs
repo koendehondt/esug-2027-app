@@ -7,11 +7,7 @@ import committeeChairs from 'esug-2027-app/data/organising-committee';
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/organising-committee.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/organising-committee.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="index" class="page-back" aria-label="Home">
         <span class="page-back-icon">
           <svg
@@ -38,14 +34,10 @@ import committeeChairs from 'esug-2027-app/data/organising-committee';
               <li>
                 <span class="committee-chair-name">{{person.name}}</span>
                 {{#if person.organisation}}
-                  <span
-                    class="committee-chair-affiliation"
-                  >{{person.organisation}}</span>
+                  <span class="committee-chair-affiliation">{{person.organisation}}</span>
                 {{/if}}
                 {{#if person.country}}
-                  <span
-                    class="committee-chair-affiliation"
-                  >{{person.country}}</span>
+                  <span class="committee-chair-affiliation">{{person.country}}</span>
                 {{/if}}
               </li>
             {{/each}}

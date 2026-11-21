@@ -6,11 +6,7 @@ import { LinkTo } from '@ember/routing';
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/student-volunteers.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/student-volunteers.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="index" class="page-back" aria-label="Home">
         <span class="page-back-icon">
           <svg
@@ -30,20 +26,17 @@ import { LinkTo } from '@ember/routing';
     <p class="page-notice">Applications are not open yet.</p>
 
     <p>
-      ESUG is looking for student volunteers to help run the conference. Any
-      newcomer to the community can apply, regardless of age, gender, or
-      programming experience.
+      ESUG is looking for student volunteers to help run the conference. Any newcomer to the community can apply,
+      regardless of age, gender, or programming experience.
     </p>
 
     <h2 class="page-section-heading">What you get</h2>
     <ul>
       <li>
-        A reduced conference registration fee of 30,00&nbsp;€ (instead of the
-        regular 650,00&nbsp;€)
+        A reduced conference registration fee of 30,00&nbsp;€ (instead of the regular 650,00&nbsp;€)
       </li>
       <li>
-        Free accommodation during the isLoop summer school (3-5 July 2027) and
-        the conference (6-9 July 2027)
+        Free accommodation during the isLoop summer school (3-5 July 2027) and the conference (6-9 July 2027)
       </li>
       <li>Lunch every day of the week</li>
       <li>Access to social event and conference dinner</li>
@@ -60,33 +53,28 @@ import { LinkTo } from '@ember/routing';
       <li>Helping out wherever needed</li>
     </ul>
     <p>
-      Being a volunteer requires discipline and constant attention to the needs
-      of the attendees.
+      Being a volunteer requires discipline and constant attention to the needs of the attendees.
     </p>
 
     <h2 class="page-section-heading">Accommodation</h2>
     <p>
       Volunteers are hosted at
-      <LinkTo @route="accommodation" class="talk-link">Aparthotel Adagio Access
-        Brussels Delta</LinkTo>, close to the
-      <LinkTo @route="venue" class="talk-link">conference venue</LinkTo>. The
-      final studio assignment depends on the number of accepted volunteers.
+      <LinkTo @route="accommodation" class="talk-link">Aparthotel Adagio Access Brussels Delta</LinkTo>, close to the
+      <LinkTo @route="venue" class="talk-link">conference venue</LinkTo>. The final studio assignment depends on the
+      number of accepted volunteers.
     </p>
 
     <h2 class="page-section-heading">isLoop summer school</h2>
     <p>
-      <strong>Attending the isLoop summer school is mandatory for all
-        volunteers.</strong>
-      It runs from the Saturday to the Monday before the conference. The weekend
-      covers the Pharo language and its ecosystem, object design, and
-      contributing to open-source projects. The Monday is reserved for some
-      final fun and for preparing the conference.
+      <strong>Attending the isLoop summer school is mandatory for all volunteers.</strong>
+      It runs from the Saturday to the Monday before the conference. The weekend covers the Pharo language and its
+      ecosystem, object design, and contributing to open-source projects. The Monday is reserved for some final fun and
+      for preparing the conference.
     </p>
 
     <h2 class="page-section-heading">How to apply</h2>
     <p>
-      Fill in the isLoop student volunteer application form before the deadline.
-      Places are limited.
+      Fill in the isLoop student volunteer application form before the deadline. Places are limited.
     </p>
 
     <section class="registration-tier award-submission">
@@ -96,16 +84,13 @@ import { LinkTo } from '@ember/routing';
     </section>
 
     <p>
-      Once you are accepted, register for the conference through the ESUG
-      registration site and pay the 30,00&nbsp;€ fee.
+      Once you are accepted, register for the conference through the ESUG registration site and pay the 30,00&nbsp;€
+      fee.
     </p>
     <p>
-      If you are in a difficult financial situation, for example because you
-      come from a low-income country, please email
-      <a
-        href="mailto:volunteers@esug.org"
-        class="talk-link"
-      >volunteers@esug.org</a>
+      If you are in a difficult financial situation, for example because you come from a low-income country, please
+      email
+      <a href="mailto:volunteers@esug.org" class="talk-link">volunteers@esug.org</a>
       to ask for a further reduction or a waiver.
     </p>
 

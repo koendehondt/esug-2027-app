@@ -25,29 +25,24 @@ import { LinkTo } from '@ember/routing';
     <h1>Mobility Support</h1>
 
     <p>
-      ESUG wants to support the mobility of students who want to be in contact
-      with research labs working with Smalltalk. ESUG offers five grants of
-      1000,00&nbsp;€ per year to students who want to do an internship in a lab
+      ESUG wants to support the mobility of students who want to be in contact with research labs working with
+      Smalltalk. ESUG offers five grants of 1000,00&nbsp;€ per year to students who want to do an internship in a lab
       working with Smalltalk.
     </p>
 
     <h2 class="page-section-heading">Conditions</h2>
     <p>Before taking a decision, ESUG needs the following information:</p>
     <ul>
-      <li>The CV of the applicant, who must be a member of ESUG or of the Pharo
-        Association</li>
+      <li>The CV of the applicant, who must be a member of ESUG or of the Pharo Association</li>
       <li>A description of the hosting lab or team</li>
-      <li>A short description of the context and of the work to be done by the
-        student</li>
-      <li>A short CV of the person who will supervise the student in the hosting
-        lab</li>
+      <li>A short description of the context and of the work to be done by the student</li>
+      <li>A short CV of the person who will supervise the student in the hosting lab</li>
     </ul>
 
     <h2 class="page-section-heading">After the Internship</h2>
     <p>
-      At the end of the internship, ESUG wants an electronic document describing
-      its results. This can be a simple report or a paper presented at a
-      conference.
+      At the end of the internship, ESUG wants an electronic document describing its results. This can be a simple
+      report or a paper presented at a conference.
     </p>
   </article>
 

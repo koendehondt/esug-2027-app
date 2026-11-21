@@ -6,11 +6,7 @@ import { LinkTo } from '@ember/routing';
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/accommodation.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/accommodation.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="index" class="page-back" aria-label="Home">
         <span class="page-back-icon">
           <svg
@@ -28,8 +24,7 @@ import { LinkTo } from '@ember/routing';
     </div>
     <h1>Accommodation</h1>
     <p>
-      Brussels has a wide choice of hotels, which you can find on the well-known
-      hotel booking websites.
+      Brussels has a wide choice of hotels, which you can find on the well-known hotel booking websites.
     </p>
     <p>We have negotiated special conference rates at one hotel.</p>
     <p class="page-notice">
@@ -42,9 +37,8 @@ import { LinkTo } from '@ember/routing';
         Address: Boulevard du Triomphe 207, 1160 Brussels
       </p>
       <p>
-        The hotel is located close to the VUB campus and to the Delta metro
-        station. The conference is easy to reach on foot. See the map below or
-        open
+        The hotel is located close to the VUB campus and to the Delta metro station. The conference is easy to reach on
+        foot. See the map below or open
         <a
           href="https://www.google.com/maps/place/Aparthotel+Adagio+Access+Brussels+Delta/@50.8202163,4.3949034,1187m/data=!3m1!1e3!4m9!3m8!1s0x47c3c5c55acc8fb7:0xe9ff8b9527dc385d!5m2!4m1!1i2!8m2!3d50.8161253!4d4.3984339!16s%2Fg%2F11jgchr5p7?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D"
           class="talk-link"
@@ -104,16 +98,14 @@ import { LinkTo } from '@ember/routing';
       <h3 class="page-subsection-heading">Good to know</h3>
       <ul class="hotel-notes">
         <li class="hotel-note">
-          These are specifically negotiated rates. They cannot be combined with
-          other discounts, such as the Accor ALL member discount.
+          These are specifically negotiated rates. They cannot be combined with other discounts, such as the Accor ALL
+          member discount.
         </li>
         <li class="hotel-note">
-          The prices do not include the tourist tax of 5,60&nbsp;€ per studio
-          per night.
+          The prices do not include the tourist tax of 5,60&nbsp;€ per studio per night.
         </li>
         <li class="hotel-note">
-          The prices do not include breakfast. The hotel provides a breakfast
-          buffet at 18,00&nbsp;€ per person per day.
+          The prices do not include breakfast. The hotel provides a breakfast buffet at 18,00&nbsp;€ per person per day.
         </li>
       </ul>
       <div class="hotel-booking hotel-important">
@@ -134,8 +126,8 @@ import { LinkTo } from '@ember/routing';
           <a
             href="mailto:HB5M6@adagio-city.com?subject=Reservation%20ESUG2027"
             class="talk-link"
-          >HB5M6@adagio-city.com</a>. Booking via the website or other channels
-          is not possible for these conference rates.
+          >HB5M6@adagio-city.com</a>. Booking via the website or other channels is not possible for these conference
+          rates.
         </p>
       </div>
     </section>

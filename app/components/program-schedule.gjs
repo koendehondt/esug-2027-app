@@ -16,9 +16,7 @@ export default class ProgramSchedule extends Component {
   @tracked localSelectedDayIndex = 0;
 
   get selectedDayIndex() {
-    return this.args.localDayState
-      ? this.localSelectedDayIndex
-      : this.programScheduleState.selectedDayIndex;
+    return this.args.localDayState ? this.localSelectedDayIndex : this.programScheduleState.selectedDayIndex;
   }
 
   get selectedDay() {
@@ -41,8 +39,7 @@ export default class ProgramSchedule extends Component {
       {{#each @days as |day index|}}
         <button
           type="button"
-          class="program-day-pill
-            {{if (this.isSelected index) 'program-day-pill-active'}}"
+          class="program-day-pill {{if (this.isSelected index) 'program-day-pill-active'}}"
           {{on "click" (fn this.selectDay index)}}
         >
           {{day.label}}
@@ -52,10 +49,7 @@ export default class ProgramSchedule extends Component {
 
     <ol class="program-session-list">
       {{#each this.selectedDay.sessions as |session|}}
-        <li
-          class="program-session
-            {{unless session.speaker 'program-session-break'}}"
-        >
+        <li class="program-session {{unless session.speaker 'program-session-break'}}">
           <span class="program-session-time">{{session.time}}</span>
           <span class="program-session-body">
             {{#if session.talkId}}

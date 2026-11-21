@@ -16,9 +16,7 @@ function normalize(value) {
 // filter title/speaker/year separately and concatenate the results -- that
 // would show the same presentation more than once.
 function matchesQuery(presentation, words) {
-  const haystack = normalize(
-    `${presentation.title} ${presentation.speaker} ${presentation.year}`,
-  );
+  const haystack = normalize(`${presentation.title} ${presentation.speaker} ${presentation.year}`);
   return words.every((word) => haystack.includes(word));
 }
 
@@ -46,9 +44,7 @@ export default class PresentationSearch extends Component {
       return this.args.presentations;
     }
 
-    return this.args.presentations.filter((presentation) =>
-      matchesQuery(presentation, words),
-    );
+    return this.args.presentations.filter((presentation) => matchesQuery(presentation, words));
   }
 
   get resultCountLabel() {
@@ -86,13 +82,9 @@ export default class PresentationSearch extends Component {
                   class="presentation-result-title presentation-result-title-link"
                 >{{presentation.title}}</LinkTo>
               {{else}}
-                <span
-                  class="presentation-result-title"
-                >{{presentation.title}}</span>
+                <span class="presentation-result-title">{{presentation.title}}</span>
               {{/if}}
-              <span
-                class="presentation-result-speaker"
-              >{{presentation.speaker}}</span>
+              <span class="presentation-result-speaker">{{presentation.speaker}}</span>
               <span class="presentation-result-meta">
                 <span class="presentation-result-year">ESUG
                   {{presentation.year}}</span>

@@ -1,10 +1,6 @@
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
-import {
-  platinumSponsors,
-  goldSponsors,
-  silverSponsors,
-} from 'esug-2027-app/data/sponsors';
+import { platinumSponsors, goldSponsors, silverSponsors } from 'esug-2027-app/data/sponsors';
 
 <template>
   {{pageTitle "Sponsors"}}
@@ -33,17 +29,8 @@ import {
     {{#if platinumSponsors.length}}
       <div class="sponsor-logo-grid">
         {{#each platinumSponsors as |sponsor|}}
-          <a
-            href={{sponsor.url}}
-            class="sponsor-logo-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={{sponsor.logo}}
-              alt={{sponsor.name}}
-              class="sponsor-logo sponsor-logo-platinum"
-            />
+          <a href={{sponsor.url}} class="sponsor-logo-link" target="_blank" rel="noopener noreferrer">
+            <img src={{sponsor.logo}} alt={{sponsor.name}} class="sponsor-logo sponsor-logo-platinum" />
           </a>
         {{/each}}
       </div>
@@ -55,17 +42,8 @@ import {
     {{#if goldSponsors.length}}
       <div class="sponsor-logo-grid">
         {{#each goldSponsors as |sponsor|}}
-          <a
-            href={{sponsor.url}}
-            class="sponsor-logo-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={{sponsor.logo}}
-              alt={{sponsor.name}}
-              class="sponsor-logo sponsor-logo-gold"
-            />
+          <a href={{sponsor.url}} class="sponsor-logo-link" target="_blank" rel="noopener noreferrer">
+            <img src={{sponsor.logo}} alt={{sponsor.name}} class="sponsor-logo sponsor-logo-gold" />
           </a>
         {{/each}}
       </div>
@@ -77,17 +55,8 @@ import {
     {{#if silverSponsors.length}}
       <div class="sponsor-logo-grid">
         {{#each silverSponsors as |sponsor|}}
-          <a
-            href={{sponsor.url}}
-            class="sponsor-logo-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={{sponsor.logo}}
-              alt={{sponsor.name}}
-              class="sponsor-logo sponsor-logo-silver"
-            />
+          <a href={{sponsor.url}} class="sponsor-logo-link" target="_blank" rel="noopener noreferrer">
+            <img src={{sponsor.logo}} alt={{sponsor.name}} class="sponsor-logo sponsor-logo-silver" />
           </a>
         {{/each}}
       </div>

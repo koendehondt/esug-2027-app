@@ -14,9 +14,7 @@ export default class TalkRoute extends Route {
   async model(params) {
     const entry = await this.archive.findTalkYear(params.talk_id);
     const scheduled = entry
-      ? buildPresentations([entry]).find(
-          (presentation) => presentation.talkId === params.talk_id,
-        )
+      ? buildPresentations([entry]).find((presentation) => presentation.talkId === params.talk_id)
       : undefined;
 
     return {

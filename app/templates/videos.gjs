@@ -226,8 +226,7 @@ const sections = [
     heading: 'Alan Kay',
     videos: [
       {
-        title:
-          "The Computer Revolution Hasn't Happened Yet, keynote at OOPSLA 1997",
+        title: "The Computer Revolution Hasn't Happened Yet, keynote at OOPSLA 1997",
         url: 'https://www.youtube.com/watch?v=aYT2se94eU0',
         links: [],
       },
@@ -316,9 +315,8 @@ const unavailable = (video) => !video.url && video.links.length === 0;
         class="talk-link"
         target="_blank"
         rel="noopener noreferrer"
-      >YouTube channel</a>. Videos of recent conferences can also be watched in
-      this app, on the talk pages of each conference archive. Below are older
-      recordings and other Smalltalk videos.
+      >YouTube channel</a>. Videos of recent conferences can also be watched in this app, on the talk pages of each
+      conference archive. Below are older recordings and other Smalltalk videos.
     </p>
 
     {{#each sections as |section|}}
@@ -331,9 +329,7 @@ const unavailable = (video) => !video.url && video.links.length === 0;
                 class="talk-link"
                 target="_blank"
                 rel="noopener noreferrer"
-              >{{video.title}}</a>{{else}}{{video.title}}{{/if}}{{#if
-              video.speaker
-            }}
+              >{{video.title}}</a>{{else}}{{video.title}}{{/if}}{{#if video.speaker}}
               ({{video.speaker}}){{/if}}{{#if video.links.length}}:
               {{#each video.links as |link index|}}{{#if index}},
                 {{/if}}<a

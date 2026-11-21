@@ -25,14 +25,12 @@ import { LinkTo } from '@ember/routing';
     <h1>Conference Venue</h1>
     <p>
       ESUG 2027 will be hosted at the
-      <strong>Vrije Universiteit Brussel (VUB)</strong>, Pleinlaan 2, 1050
-      Brussels, Belgium.
+      <strong>Vrije Universiteit Brussel (VUB)</strong>, Pleinlaan 2, 1050 Brussels, Belgium.
     </p>
     <h2 class="page-section-heading">Rooms</h2>
     <p>
-      The auditoriums are located on floor 0 of buildings D and E, an
-      underground floor. The reception desk is in the hallway of both buildings,
-      on the same floor.
+      The auditoriums are located on floor 0 of buildings D and E, an underground floor. The reception desk is in the
+      hallway of both buildings, on the same floor.
     </p>
     <ul class="venue-room-list">
       <li>
@@ -70,8 +68,8 @@ import { LinkTo } from '@ember/routing';
         class="talk-link"
         target="_blank"
         rel="noopener noreferrer"
-      >Download the campus map (PDF)</a>, which also includes accessibility
-      information for trains, trams, buses, and metro stations.
+      >Download the campus map (PDF)</a>, which also includes accessibility information for trains, trams, buses, and
+      metro stations.
     </p>
     <p>
       You can also find your way around campus with
@@ -101,8 +99,7 @@ import { LinkTo } from '@ember/routing';
         target="_blank"
         rel="noopener noreferrer"
       >campus map</a>
-      shows all metro stations, train stations, bus stops and tram stops around
-      the VUB campus.
+      shows all metro stations, train stations, bus stops and tram stops around the VUB campus.
     </p>
     <p>
       The VUB website has a
@@ -117,14 +114,8 @@ import { LinkTo } from '@ember/routing';
     <h3 class="page-subsection-heading">By metro, bus and tram</h3>
     <p>
       The
-      <a
-        href="https://www.stib-mivb.be/home"
-        class="talk-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >MIVB/STIB</a>
-      runs the metro, the buses and the trams in Brussels. They have an app in
-      the
+      <a href="https://www.stib-mivb.be/home" class="talk-link" target="_blank" rel="noopener noreferrer">MIVB/STIB</a>
+      runs the metro, the buses and the trams in Brussels. They have an app in the
       <a
         href="https://apps.apple.com/be/app/stib-mivb/id1325048789"
         class="talk-link"
@@ -140,10 +131,9 @@ import { LinkTo } from '@ember/routing';
       >Google Play</a>.
     </p>
     <p>
-      If you stay in the centre of Brussels near a metro station, taking metro
-      line 5 will probably be the fastest way to reach the campus. There are
-      three metro stations in the campus neighbourhood. It takes 20 minutes to
-      reach the conference venue from Pétillon, Hankar, or Delta metro stations.
+      If you stay in the centre of Brussels near a metro station, taking metro line 5 will probably be the fastest way
+      to reach the campus. There are three metro stations in the campus neighbourhood. It takes 20 minutes to reach the
+      conference venue from Pétillon, Hankar, or Delta metro stations.
     </p>
     <h3 class="page-subsection-heading">By train</h3>
     <p>
@@ -170,13 +160,12 @@ import { LinkTo } from '@ember/routing';
       >Google Play</a>.
     </p>
     <p>
-      It is a ten-minute walk from Etterbeek station to reach the conference
-      venue.
+      It is a ten-minute walk from Etterbeek station to reach the conference venue.
     </p>
     <h3 class="page-subsection-heading">By car</h3>
     <p>
-      Enter the VUB campus via entrance 6 or 8, then follow the signs to the
-      paid parking lots. All parking information is available on the
+      Enter the VUB campus via entrance 6 or 8, then follow the signs to the paid parking lots. All parking information
+      is available on the
       <a
         href="https://www.vub.be/en/about-vub/faculties-institutes-and-campuses/our-campuses/vub-main-campus-brussels/parking-vub-main-campus"
         class="talk-link"
@@ -186,20 +175,17 @@ import { LinkTo } from '@ember/routing';
     </p>
     <h2 class="page-section-heading">Rules and Regulations</h2>
     <p>
-      Smoking and vaping are strictly prohibited inside all VUB buildings. If
-      you smoke or vape outside, please dispose of cigarettes in the designated
-      waste facilities provided on campus.
+      Smoking and vaping are strictly prohibited inside all VUB buildings. If you smoke or vape outside, please dispose
+      of cigarettes in the designated waste facilities provided on campus.
     </p>
     <p>
-      Under Belgian law, smoking and vaping are prohibited within a 10-metre
-      radius of the entrances and exits of educational institutions. The smoking
-      and vaping ban applies to all entrances and exits—including emergency
-      exits—of any publicly accessible institution subject to the ban. The ban
-      applies at all times and to everyone, except casual passers-by.
+      Under Belgian law, smoking and vaping are prohibited within a 10-metre radius of the entrances and exits of
+      educational institutions. The smoking and vaping ban applies to all entrances and exits—including emergency
+      exits—of any publicly accessible institution subject to the ban. The ban applies at all times and to everyone,
+      except casual passers-by.
     </p>
     <p>
-      From 1 January 2027, smoking and vaping on and near public terraces in
-      Belgium will be prohibited.
+      From 1 January 2027, smoking and vaping on and near public terraces in Belgium will be prohibited.
     </p>
   </article>
 

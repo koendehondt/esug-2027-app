@@ -4,13 +4,7 @@
   "country": "France",
   "heroImage": "/images/tiles/esug2023.jpg",
   "logoImage": "/images/conference-logos/esug-2023.png",
-  "dayDates": [
-    "2023-08-28",
-    "2023-08-29",
-    "2023-08-30",
-    "2023-08-31",
-    "2023-09-01"
-  ],
+  "dayDates": ["2023-08-28", "2023-08-29", "2023-08-30", "2023-08-31", "2023-09-01"],
   "sideEvents": [
     {
       "label": "IWST 2023",

@@ -16,14 +16,12 @@ const years = [
         authors: 'Heinz Roggenkemper, Ralf Ehret, Andreas Tönne',
         title:
           'Capture accurate solution requirements the first time with exploratory modeling (xM): How to nearly eliminate post-go-live application design failures',
-        publication:
-          'SAP Professional Journal, Volume 10, Issue 1, January–February 2008',
+        publication: 'SAP Professional Journal, Volume 10, Issue 1, January–February 2008',
         url: 'https://masteringsap.com/-/media/SAP%20Experts/Downloads/2008/January/SPJ-V10-I1-JanFeb08-P079-Roggenkemper_Ehret_Toenne.pdf',
       },
       {
         authors: 'Thorsten Seitz',
-        title:
-          '"Smalltalk at the Seaside": Shootout der dynamischen Sprachen auf der OOP 2008',
+        title: '"Smalltalk at the Seaside": Shootout der dynamischen Sprachen auf der OOP 2008',
         publication: 'OBJEKTspektrum 03/2008, May–June 2008',
       },
     ],
@@ -148,8 +146,7 @@ const years = [
     <h1>Press</h1>
 
     <p>
-      Articles about Smalltalk, published in various magazines. See also the
-      articles supported by ESUG's
+      Articles about Smalltalk, published in various magazines. See also the articles supported by ESUG's
       <LinkTo @route="article-promotion" class="talk-link">article promotion</LinkTo>.
     </p>
 
@@ -159,13 +156,8 @@ const years = [
         {{#each entry.articles as |article|}}
           <li>
             {{article.authors}},
-            {{#if article.url}}<a
-                href={{article.url}}
-                class="talk-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              ><em>{{article.title}}</em></a>{{else}}<em
-              >{{article.title}}</em>{{/if}},
+            {{#if article.url}}<a href={{article.url}} class="talk-link" target="_blank" rel="noopener noreferrer"><em
+                >{{article.title}}</em></a>{{else}}<em>{{article.title}}</em>{{/if}},
             {{article.publication}}.
             {{#if article.note}}{{article.note}}{{/if}}
           </li>

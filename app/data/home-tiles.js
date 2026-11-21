@@ -282,8 +282,7 @@ export const archiveTiles = [
   {
     id: 'presentations',
     title: 'Presentation Archive',
-    summary:
-      'Search every ESUG talk from the past ten conferences by title, speaker, or year.',
+    summary: 'Search every ESUG talk from the past ten conferences by title, speaker, or year.',
     date: '',
     active: true,
     routeName: 'presentations',

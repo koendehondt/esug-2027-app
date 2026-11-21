@@ -78,12 +78,7 @@ import HomeTile from '../components/home-tile';
           {{#each @model.sideEvents as |event|}}
             <li>
               {{#if event.url}}
-                <a
-                  href={{event.url}}
-                  class="talk-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >{{event.label}}</a>
+                <a href={{event.url}} class="talk-link" target="_blank" rel="noopener noreferrer">{{event.label}}</a>
               {{else}}
                 {{event.label}}
               {{/if}}
@@ -91,12 +86,7 @@ import HomeTile from '../components/home-tile';
                 &mdash;
                 {{#each event.links as |link index|}}
                   {{~if index ", "~}}
-                  <a
-                    href={{link.url}}
-                    class="talk-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >{{link.label}}</a>
+                  <a href={{link.url}} class="talk-link" target="_blank" rel="noopener noreferrer">{{link.label}}</a>
                 {{~/each}}
               {{/if}}
             </li>
@@ -109,10 +99,8 @@ import HomeTile from '../components/home-tile';
         public/data/archive/2026.json's "awards" key for the shape (sourced
         from that year's esug.org awardsSubmissions.html page). }}
       {{#if @model.awards}}
-        <h2 class="page-section-heading">Innovation Technology Awards Winners
-          and Nominees</h2>
-        <p class="program-preview-intro">The three winners and all other
-          nominees in submission order.</p>
+        <h2 class="page-section-heading">Innovation Technology Awards Winners and Nominees</h2>
+        <p class="program-preview-intro">The three winners and all other nominees in submission order.</p>
 
         {{! Not a list -- each winner is a row with the medal fixed to the
           left and the title/details to the right (Koen: no bullet list,
@@ -120,11 +108,7 @@ import HomeTile from '../components/home-tile';
         <div class="award-winners">
           {{#each @model.awards.winners as |winner|}}
             <div class="award-winner">
-              <img
-                src={{winner.medalImage}}
-                alt="{{winner.medal}} medal"
-                class="award-medal"
-              />
+              <img src={{winner.medalImage}} alt="{{winner.medal}} medal" class="award-medal" />
               <div class="award-content">
                 <p class="award-title"><strong>{{winner.title}}</strong></p>
                 <p class="award-submitter">{{winner.submitter}}</p>

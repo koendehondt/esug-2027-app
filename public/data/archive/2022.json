@@ -4,13 +4,7 @@
   "country": "Serbia",
   "heroImage": "/images/tiles/esug2022.jpg",
   "logoImage": "/images/conference-logos/esug-2022.png",
-  "dayDates": [
-    "2022-08-22",
-    "2022-08-23",
-    "2022-08-24",
-    "2022-08-25",
-    "2022-08-26"
-  ],
+  "dayDates": ["2022-08-22", "2022-08-23", "2022-08-24", "2022-08-25", "2022-08-26"],
   "sideEvents": [
     {
       "label": "IWST 2022"

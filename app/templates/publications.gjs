@@ -7,11 +7,7 @@ import publicationYears from 'esug-2027-app/data/publications';
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/publications.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/publications.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="promotion" class="page-back" aria-label="Back">
         <span class="page-back-icon">
           <svg
@@ -30,32 +26,23 @@ import publicationYears from 'esug-2027-app/data/publications';
     <h1>Scientific Publications</h1>
 
     <p>
-      ESUG offers 150,00&nbsp;€ for papers at international conferences that
-      present work involving an implementation in Smalltalk. Sponsorship is
-      normally limited to three papers per research group. Note that this
-      programme does not apply to conferences that ESUG already sponsors or
-      organises, such as IWST.
+      ESUG offers 150,00&nbsp;€ for papers at international conferences that present work involving an implementation in
+      Smalltalk. Sponsorship is normally limited to three papers per research group. Note that this programme does not
+      apply to conferences that ESUG already sponsors or organises, such as IWST.
     </p>
 
     <h2 class="page-section-heading">Rules</h2>
     <ul>
       <li>The applicant must be a member of ESUG or of the Pharo Association.</li>
-      <li>After notification of acceptance, one of the authors sends the ESUG
-        board the paper, a CV and a brief explanation of how Smalltalk was used.</li>
-      <li>If the ESUG board decides to support the paper, the author sends ESUG
-        a PDF of the camera-ready version after the camera-ready deadline. Its
-        acknowledgements section must mention ESUG and include a link to
-        <a
-          href="https://esug.org"
-          class="talk-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >esug.org</a>.</li>
-      <li>When presenting the paper at the conference, the author must mention
-        ESUG's support (e.g. by showing the ESUG logo).</li>
-      <li>After the presentation, the author sends ESUG a PDF of the slides with
-        a visible reference to ESUG (e.g. the ESUG logo). ESUG will publish the
-        slides on its website.</li>
+      <li>After notification of acceptance, one of the authors sends the ESUG board the paper, a CV and a brief
+        explanation of how Smalltalk was used.</li>
+      <li>If the ESUG board decides to support the paper, the author sends ESUG a PDF of the camera-ready version after
+        the camera-ready deadline. Its acknowledgements section must mention ESUG and include a link to
+        <a href="https://esug.org" class="talk-link" target="_blank" rel="noopener noreferrer">esug.org</a>.</li>
+      <li>When presenting the paper at the conference, the author must mention ESUG's support (e.g. by showing the ESUG
+        logo).</li>
+      <li>After the presentation, the author sends ESUG a PDF of the slides with a visible reference to ESUG (e.g. the
+        ESUG logo). ESUG will publish the slides on its website.</li>
       <li>The author can then request payment by emailing the ESUG board.</li>
       <li>ESUG supports at most three papers per institution per year.</li>
     </ul>
@@ -72,12 +59,7 @@ import publicationYears from 'esug-2027-app/data/publications';
               <p class="publication-venue">{{paper.venue}}</p>
               {{#if paper.url}}
                 <p class="publication-url">
-                  <a
-                    href={{paper.url}}
-                    class="talk-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >{{paper.url}}</a>
+                  <a href={{paper.url}} class="talk-link" target="_blank" rel="noopener noreferrer">{{paper.url}}</a>
                 </p>
               {{/if}}
             </div>

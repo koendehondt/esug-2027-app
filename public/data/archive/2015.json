@@ -4,13 +4,7 @@
   "country": "Italy",
   "heroImage": "/images/tiles/esug2015.jpg",
   "logoImage": "/images/conference-logos/esug-2015.png",
-  "dayDates": [
-    "2015-07-13",
-    "2015-07-14",
-    "2015-07-15",
-    "2015-07-16",
-    "2015-07-17"
-  ],
+  "dayDates": ["2015-07-13", "2015-07-14", "2015-07-15", "2015-07-16", "2015-07-17"],
   "program": [
     {
       "id": "day-1",

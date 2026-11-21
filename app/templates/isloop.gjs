@@ -27,29 +27,17 @@ import currentEdition from '../data/current-edition';
 
     <p>
       isLoop is a three-day, hands-on summer school on
-      <a
-        href="https://pharo.org/"
-        class="talk-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >Pharo</a>
+      <a href="https://pharo.org/" class="talk-link" target="_blank" rel="noopener noreferrer">Pharo</a>
       and live object-oriented programming.
     </p>
     <p>
-      You learn by doing: short lectures, plenty of practice and continuous
-      feedback. The focus is on understanding how objects, tools and the live
-      environment work together. Whether you’re new to Pharo or already an
-      experienced developer, you’ll leave with new skills, better habits and new
-      connections in the community.
+      You learn by doing: short lectures, plenty of practice and continuous feedback. The focus is on understanding how
+      objects, tools and the live environment work together. Whether you’re new to Pharo or already an experienced
+      developer, you’ll leave with new skills, better habits and new connections in the community.
     </p>
     <p>
       Please refer to the
-      <a
-        href="https://isloop.pharo.org/"
-        class="talk-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >isLoop website</a>
+      <a href="https://isloop.pharo.org/" class="talk-link" target="_blank" rel="noopener noreferrer">isLoop website</a>
       for information on the summer school.
     </p>
 

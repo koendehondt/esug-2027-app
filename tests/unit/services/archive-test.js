@@ -45,9 +45,7 @@ module('Unit | Service | archive', function (hooks) {
   });
 
   test('it finds the year of a talk', async function (assert) {
-    const entry = await this.archive.findTalkYear(
-      '407-dhon-do-you-know-your-browser',
-    );
+    const entry = await this.archive.findTalkYear('407-dhon-do-you-know-your-browser');
 
     assert.strictEqual(entry.year, 2023);
     assert.strictEqual(await this.archive.findTalkYear('no-such-talk'), null);
@@ -58,10 +56,6 @@ module('Unit | Service | archive', function (hooks) {
     const years = new Set(presentations.map(({ year }) => year));
 
     assert.strictEqual(years.size, this.archive.summaries.length);
-    assert.ok(
-      presentations.some(
-        ({ talkId }) => talkId === '407-dhon-do-you-know-your-browser',
-      ),
-    );
+    assert.ok(presentations.some(({ talkId }) => talkId === '407-dhon-do-you-know-your-browser'));
   });
 });

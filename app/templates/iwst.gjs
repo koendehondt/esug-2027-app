@@ -26,12 +26,10 @@ import currentEdition from '../data/current-edition';
     <h1>International Workshop on Smalltalk Technologies</h1>
 
     <p>
-      The goal of the workshop is to create a forum around contributions and
-      experiences in building or using technologies related to Smalltalk. While
-      maturity of presented ideas and results is not crucial, it is expected
-      that their presentation triggers discussion and exchange of ideas. A paper
-      can cover any aspect of Smalltalk, theoretical or practical. Authors are
-      invited to submit research articles or industrial papers.
+      The goal of the workshop is to create a forum around contributions and experiences in building or using
+      technologies related to Smalltalk. While maturity of presented ideas and results is not crucial, it is expected
+      that their presentation triggers discussion and exchange of ideas. A paper can cover any aspect of Smalltalk,
+      theoretical or practical. Authors are invited to submit research articles or industrial papers.
     </p>
     <p>
       Please refer to the

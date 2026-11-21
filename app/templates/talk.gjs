@@ -8,12 +8,7 @@ const RichParagraph = <template>
   <p>
     {{#each @runs as |run|}}
       {{#if run.url}}
-        <a
-          href={{run.url}}
-          class="talk-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >{{run.text}}</a>
+        <a href={{run.url}} class="talk-link" target="_blank" rel="noopener noreferrer">{{run.text}}</a>
       {{else}}
         {{run.text}}
       {{/if}}
@@ -66,9 +61,7 @@ export default class TalkTemplate extends Component {
   // saying "Download the slides", since a SlideShare link isn't a download.
   get presentationLinkLabel() {
     const url = this.args.model.presentationUrl ?? '';
-    return url.includes('slideshare.net')
-      ? 'Slides on Slideshare'
-      : 'Download the PDF slides';
+    return url.includes('slideshare.net') ? 'Slides on Slideshare' : 'Download the PDF slides';
   }
 
   <template>
@@ -165,11 +158,7 @@ export default class TalkTemplate extends Component {
               rel="noopener noreferrer"
               aria-label="Watch the video on YouTube"
             >
-              <img
-                src={{this.videoThumbnailUrl}}
-                alt=""
-                class="talk-video-thumbnail"
-              />
+              <img src={{this.videoThumbnailUrl}} alt="" class="talk-video-thumbnail" />
               <span class="talk-video-play-icon">
                 <svg viewBox="0 0 68 48" width="68" height="48">
                   <path

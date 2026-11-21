@@ -25,14 +25,12 @@ import { LinkTo } from '@ember/routing';
     <h1>Smalltalk DVD</h1>
 
     <p>
-      In August 2008, ESUG assembled a DVD-ROM with Smalltalk systems, books and
-      tutorials: over 4&nbsp;GB of Smalltalk!
+      In August 2008, ESUG assembled a DVD-ROM with Smalltalk systems, books and tutorials: over 4&nbsp;GB of Smalltalk!
     </p>
 
     <h2 class="page-section-heading">Smalltalk Systems</h2>
     <p>
-      The DVD contains the following Smalltalk systems, as trial, full or
-      non-commercial versions:
+      The DVD contains the following Smalltalk systems, as trial, full or non-commercial versions:
     </p>
     <ul>
       <li>VisualWorks NC</li>
@@ -52,8 +50,8 @@ import { LinkTo } from '@ember/routing';
 
     <h2 class="page-section-heading">Books and More</h2>
     <p>
-      The DVD also includes free out-of-print books, tutorials, lectures,
-      columns and articles about Smalltalk, and more.
+      The DVD also includes free out-of-print books, tutorials, lectures, columns and articles about Smalltalk, and
+      more.
     </p>
   </article>
 

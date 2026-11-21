@@ -7,11 +7,7 @@ import { archiveYears } from '../data/archive';
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/past-conferences.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/past-conferences.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="index" class="page-back" aria-label="Home">
         <span class="page-back-icon">
           <svg
@@ -30,30 +26,19 @@ import { archiveYears } from '../data/archive';
     <h1>Past Conferences</h1>
 
     <p>
-      Since 1993, the International Smalltalk Conference is organised by ESUG
-      every year, with tutorials, workshops and demonstrations on various
-      subjects.
+      Since 1993, the International Smalltalk Conference is organised by ESUG every year, with tutorials, workshops and
+      demonstrations on various subjects.
     </p>
 
     <p>
-      The slides of the presentations at past ESUG conferences are available in
-      the
-      <a
-        href="https://archive.esug.org"
-        class="talk-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >ESUG Archive</a>. Conferences from 2015 onward that have an archive in
-      this app are linked below.
+      The slides of the presentations at past ESUG conferences are available in the
+      <a href="https://archive.esug.org" class="talk-link" target="_blank" rel="noopener noreferrer">ESUG Archive</a>.
+      Conferences from 2015 onward that have an archive in this app are linked below.
     </p>
 
     <div class="conference-logo-grid">
       {{#each archiveYears as |entry|}}
-        <LinkTo
-          @route="archive"
-          @model={{entry.year}}
-          class="conference-logo-tile"
-        >
+        <LinkTo @route="archive" @model={{entry.year}} class="conference-logo-tile">
           <span class="conference-tile-frame">
             <img
               src={{entry.logoImage}}

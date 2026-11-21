@@ -51,9 +51,7 @@ export default class ArchiveService extends Service {
 
   // Resolves to every year's full record, newest first.
   loadAll() {
-    return Promise.all(
-      archiveYears.map((summary) => this.loadYear(summary.year)),
-    );
+    return Promise.all(archiveYears.map((summary) => this.loadYear(summary.year)));
   }
 
   // Resolves to the presentations index across every archived year (see

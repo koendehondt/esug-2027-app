@@ -7,9 +7,7 @@ import { babel } from '@rollup/plugin-babel';
 // Shown on the About page: the version comes from package.json (bumped with
 // `npm run version:bump`), the short commit hash from git (empty when git is
 // not available, e.g. in a source archive).
-const { version } = JSON.parse(
-  readFileSync(new URL('./package.json', import.meta.url), 'utf8'),
-);
+const { version } = JSON.parse(readFileSync(new URL('./package.json', import.meta.url), 'utf8'));
 
 let commit = '';
 

@@ -7,11 +7,7 @@ import articleYears from 'esug-2027-app/data/articles';
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/article-promotion.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/article-promotion.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="promotion" class="page-back" aria-label="Back">
         <span class="page-back-icon">
           <svg
@@ -30,13 +26,12 @@ import articleYears from 'esug-2027-app/data/articles';
     <h1>Article Promotion</h1>
 
     <p>
-      ESUG supports authors of articles about Smalltalk (any dialect) published
-      in developer magazines and other mainstream forums:
+      ESUG supports authors of articles about Smalltalk (any dialect) published in developer magazines and other
+      mainstream forums:
     </p>
     <ul>
       <li>The applicant must be a member of ESUG or of the Pharo Association.</li>
-      <li>ESUG gives 100,00&nbsp;€ for an article with a national or
-        international audience.</li>
+      <li>ESUG gives 100,00&nbsp;€ for an article with a national or international audience.</li>
       <li>For a smaller audience, the amount is discussed per article.</li>
       <li>Research papers are not eligible for this programme; see
         <LinkTo @route="publications" class="talk-link">Scientific Publications</LinkTo>
@@ -47,19 +42,17 @@ import articleYears from 'esug-2027-app/data/articles';
     <ul>
       <li>The offer is limited to articles published after August 2005.</li>
       <li>For the moment there is no limit per person, but this may change.</li>
-      <li>ESUG wants to publish the article on its website after its publication
-        period. If your article is accepted by a magazine, please check that
-        ESUG can publish it later, and contact the ESUG board to get your bonus.</li>
+      <li>ESUG wants to publish the article on its website after its publication period. If your article is accepted by
+        a magazine, please check that ESUG can publish it later, and contact the ESUG board to get your bonus.</li>
     </ul>
     <p>
-      Some information about recently sponsored articles has been lost, but the
-      programme is still active. Do not hesitate to apply.
+      Some information about recently sponsored articles has been lost, but the programme is still active. Do not
+      hesitate to apply.
     </p>
 
     <h2 class="page-section-heading">How to Apply</h2>
     <p>
-      Send the PDF of the article and the details of where it was published to
-      the ESUG board at
+      Send the PDF of the article and the details of where it was published to the ESUG board at
       <a href="mailto:board@esug.org" class="talk-link">board@esug.org</a>.
     </p>
 

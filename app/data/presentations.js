@@ -81,9 +81,7 @@ export function buildPresentations(archiveYears) {
     });
   }
 
-  presentations.sort(
-    (a, b) => a.sortKey.localeCompare(b.sortKey) || a.year - b.year,
-  );
+  presentations.sort((a, b) => a.sortKey.localeCompare(b.sortKey) || a.year - b.year);
 
   return presentations;
 }

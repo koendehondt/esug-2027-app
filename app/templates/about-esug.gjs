@@ -28,28 +28,14 @@ import { LinkTo } from '@ember/routing';
     <p>The ESUG Board as elected in 2010:</p>
     <ul>
       <li>President:
-        <a
-          href="http://stephaneducasse.github.io"
-          class="talk-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Stéphane Ducasse</a></li>
+        <a href="http://stephaneducasse.github.io" class="talk-link" target="_blank" rel="noopener noreferrer">Stéphane
+          Ducasse</a></li>
       <li>Treasurer: Pablo Tesone</li>
       <li>
-        <a
-          href="http://car.mines-douai.fr/luc"
-          class="talk-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Luc Fabresse</a>
+        <a href="http://car.mines-douai.fr/luc" class="talk-link" target="_blank" rel="noopener noreferrer">Luc Fabresse</a>
         (EMD)</li>
       <li>
-        <a
-          href="http://www.marcusdenker.de/"
-          class="talk-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Marcus Denker</a>
+        <a href="http://www.marcusdenker.de/" class="talk-link" target="_blank" rel="noopener noreferrer">Marcus Denker</a>
         (Inria)</li>
       <li>
         <a
@@ -65,55 +51,46 @@ import { LinkTo } from '@ember/routing';
     <h2 class="page-section-heading">Contact ESUG</h2>
     <p>
       You can reach the ESUG board at
-      <a href="mailto:board@esug.org" class="talk-link">board@esug.org</a>,
-      which broadcasts to all board members.
+      <a href="mailto:board@esug.org" class="talk-link">board@esug.org</a>, which broadcasts to all board members.
     </p>
 
     <h2 class="page-section-heading">Legal Information</h2>
     <p>
-      ESUG is a French-law association, and hence it is not subject to VAT. It
-      does not have a SIRET number but is registered under the number
-      W751167780.
+      ESUG is a French-law association, and hence it is not subject to VAT. It does not have a SIRET number but is
+      registered under the number W751167780.
     </p>
 
     <h2 class="page-section-heading">Our Goals</h2>
     <p>
-      ESUG is a non-profit association that gathers all European users of all
-      dialects of Smalltalk. It was registered in 1991 under French status
-      &ldquo;Association de Loi 1901&rdquo;.
+      ESUG is a non-profit association that gathers all European users of all dialects of Smalltalk. It was registered
+      in 1991 under French status &ldquo;Association de Loi 1901&rdquo;.
     </p>
     <p>Its goals:</p>
     <ul>
       <li>Promote use of the Smalltalk programming language</li>
-      <li>Promote communication between Smalltalk users through meetings, a
-        periodic newsletter, software exchange, electronic mail, etc., and by
-        organising events such as the ESUG yearly conference</li>
+      <li>Promote communication between Smalltalk users through meetings, a periodic newsletter, software exchange,
+        electronic mail, etc., and by organising events such as the ESUG yearly conference</li>
       <li>Help and link local Smalltalk user groups</li>
       <li>Help the creation of local Smalltalk user groups</li>
-      <li>Identify Smalltalk users and their needs, and represent them in
-        discussions with vendors</li>
+      <li>Identify Smalltalk users and their needs, and represent them in discussions with vendors</li>
     </ul>
     <p>
-      ESUG users usually meet at the yearly ESUG conference and at conferences
-      on object-orientation such as ECOOP and SPLASH.
+      ESUG users usually meet at the yearly ESUG conference and at conferences on object-orientation such as ECOOP and
+      SPLASH.
     </p>
 
     <h2 class="page-section-heading">Mailing List</h2>
     <p>
-      For mailings to members and everybody who subscribed directly to the
-      mailing list, you can send an email to
-      <a
-        href="mailto:esug-list@lists.esug.org"
-        class="talk-link"
-      >esug-list@lists.esug.org</a>. To join the mailing list, go to
+      For mailings to members and everybody who subscribed directly to the mailing list, you can send an email to
+      <a href="mailto:esug-list@lists.esug.org" class="talk-link">esug-list@lists.esug.org</a>. To join the mailing
+      list, go to
       <a
         href="https://lists.esug.org/postorius/lists/esug-list.lists.esug.org/"
         class="talk-link"
         target="_blank"
         rel="noopener noreferrer"
-      >https://lists.esug.org/postorius/lists/esug-list.lists.esug.org/</a>. The
-      mailing list currently connects more than 500 Smalltalkers from all over
-      Europe and beyond!
+      >https://lists.esug.org/postorius/lists/esug-list.lists.esug.org/</a>. The mailing list currently connects more
+      than 500 Smalltalkers from all over Europe and beyond!
     </p>
 
     <h2 class="page-section-heading">ESUG on Social Media</h2>

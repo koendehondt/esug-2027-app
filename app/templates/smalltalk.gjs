@@ -26,18 +26,12 @@ import { LinkTo } from '@ember/routing';
 
     <p>
       ESUG collects "Everything Smalltalk" in the
-      <a
-        href="https://archive.esug.org"
-        class="talk-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >ESUG Archive</a>.
+      <a href="https://archive.esug.org" class="talk-link" target="_blank" rel="noopener noreferrer">ESUG Archive</a>.
     </p>
 
     <h2 class="page-section-heading">Great Old Documents</h2>
     <p>
-      The ESUG Archive also holds historical documents about Smalltalk,
-      including PDFs of
+      The ESUG Archive also holds historical documents about Smalltalk, including PDFs of
       <a
         href="https://archive.esug.org/HistoricalDocuments/TheSmalltalkReport/"
         class="talk-link"
@@ -54,12 +48,8 @@ import { LinkTo } from '@ember/routing';
         class="talk-link"
         target="_blank"
         rel="noopener noreferrer"
-      >anthology</a>. If you notice a missing book and have it in PDF or another
-      format, please contact
-      <a
-        href="mailto:esug-info@esug.org"
-        class="talk-link"
-      >esug-info@esug.org</a>.
+      >anthology</a>. If you notice a missing book and have it in PDF or another format, please contact
+      <a href="mailto:esug-info@esug.org" class="talk-link">esug-info@esug.org</a>.
     </p>
   </article>
 

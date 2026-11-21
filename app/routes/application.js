@@ -27,9 +27,7 @@ export default class ApplicationRoute extends Route {
 
     this.router.on('routeDidChange', (transition) => {
       const toName = transition.to?.name;
-      const target = RESTORABLE_ROUTES.includes(toName)
-        ? (this.scrollPositions.get(toName) ?? 0)
-        : 0;
+      const target = RESTORABLE_ROUTES.includes(toName) ? (this.scrollPositions.get(toName) ?? 0) : 0;
 
       // Wait a frame so the new template has actually rendered/painted
       // before we scroll, otherwise the page may not be tall enough yet

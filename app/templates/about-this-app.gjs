@@ -15,11 +15,7 @@ const privacyPolicyUrl = Capacitor.isNativePlatform()
 
   <article class="page">
     <div class="page-hero">
-      <img
-        src="/images/tiles/about-this-app.jpg"
-        alt=""
-        class="page-hero-image"
-      />
+      <img src="/images/tiles/about-this-app.jpg" alt="" class="page-hero-image" />
       <LinkTo @route="index" class="page-back" aria-label="Home">
         <span class="page-back-icon">
           <svg
@@ -38,28 +34,25 @@ const privacyPolicyUrl = Capacitor.isNativePlatform()
     <h1>About the ESUG App</h1>
 
     <p>
-      The ESUG App puts everything about the European Smalltalk User Group
-      conference in your pocket: the upcoming conference, ESUG itself, and the
-      archives of past editions.
+      The ESUG App puts everything about the European Smalltalk User Group conference in your pocket: the upcoming
+      conference, ESUG itself, and the archives of past editions.
     </p>
 
     <h2 class="page-section-heading">Availability</h2>
     <p>
-      The app is available for iOS and Android devices. Currently, it is
-      available for testing on both.
+      The app is available for iOS and Android devices. Currently, it is available for testing on both.
     </p>
 
     <h2 class="page-section-heading">How was this app built?</h2>
     <p>
-      This app was built entirely through "vibe coding" with Claude, an AI
-      assistant from Anthropic. The app is a community project, so please be
-      patient with rough edges.
+      This app was built entirely through "vibe coding" with Claude, an AI assistant from Anthropic. The app is a
+      community project, so please be patient with rough edges.
     </p>
 
     <h2 class="page-section-heading">Where do the images come from?</h2>
     <p>
-      Most images on the home page tiles and at the top of the pages were
-      generated with ChatGPT. The other images come from these sources:
+      Most images on the home page tiles and at the top of the pages were generated with ChatGPT. The other images come
+      from these sources:
     </p>
     <ul>
       <li>Venue: photo of the VUB campus by Big Apple, from
@@ -88,8 +81,7 @@ const privacyPolicyUrl = Capacitor.isNativePlatform()
           target="_blank"
           rel="noopener noreferrer"
         >CC BY 2.0</a>, resized.</li>
-      <li>Trip Information: photo of Eurostar trains at Brussels-South by
-        Oxyman, from
+      <li>Trip Information: photo of Eurostar trains at Brussels-South by Oxyman, from
         <a
           href="https://commons.wikimedia.org/wiki/File:Eurostar_at_Brussels_Midi-Zuid.jpg"
           class="talk-link"
@@ -102,39 +94,29 @@ const privacyPolicyUrl = Capacitor.isNativePlatform()
           target="_blank"
           rel="noopener noreferrer"
         >CC BY-SA 3.0</a>, resized.</li>
-      <li>Accommodation: map based on Google Maps satellite imagery
-        (©&nbsp;Google), annotated with the walking route to the venue.</li>
-      <li>Conference logos: the organising committees of the respective
-        conferences.</li>
+      <li>Accommodation: map based on Google Maps satellite imagery (©&nbsp;Google), annotated with the walking route to
+        the venue.</li>
+      <li>Conference logos: the organising committees of the respective conferences.</li>
       <li>Award medals: the Innovation Technology Awards pages on esug.org.</li>
       <li>Sponsor logos: the respective sponsors.</li>
     </ul>
 
     <h2 class="page-section-heading">Where does the data come from?</h2>
     <p>
-      The data comes from the ESUG archives: the conference pages on esug.org,
-      the presentation archive, and the recordings from past conferences. It was
-      collected and processed largely by AI, so mistakes are possible.
+      The data comes from the ESUG archives: the conference pages on esug.org, the presentation archive, and the
+      recordings from past conferences. It was collected and processed largely by AI, so mistakes are possible.
     </p>
 
-    <h2 class="page-section-heading">Spotted a mistake, found a bug, or have an
-      idea?</h2>
+    <h2 class="page-section-heading">Spotted a mistake, found a bug, or have an idea?</h2>
     <p>
-      If you notice an error in the data, run into a bug, or want to propose an
-      improvement, please
-      <a href="mailto:info@all-objects-all-the-time.st" class="talk-link">send
-        an email</a>.
+      If you notice an error in the data, run into a bug, or want to propose an improvement, please
+      <a href="mailto:info@all-objects-all-the-time.st" class="talk-link">send an email</a>.
     </p>
 
     <h2 class="page-section-heading">Privacy</h2>
     <p>
       The app does not collect any personal information. Read the
-      <a
-        href={{privacyPolicyUrl}}
-        class="talk-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >privacy policy</a>
+      <a href={{privacyPolicyUrl}} class="talk-link" target="_blank" rel="noopener noreferrer">privacy policy</a>
       for details.
     </p>
 
