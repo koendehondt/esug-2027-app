@@ -7,6 +7,7 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function () {
+  this.route('chapter', { path: '/chapters/:chapter_id' });
   this.route('venue');
   this.route('city');
   this.route('travel');

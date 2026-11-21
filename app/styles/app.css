@@ -24,6 +24,7 @@
   --esug-text: #1f2933;
   --esug-muted: #000;
   --esug-border: #dde3ea;
+  --chapter-tab-bar-height: 3.5rem;
 }
 
 * {
@@ -1369,4 +1370,72 @@ a.conference-year-tile:focus-visible {
 
 .company-note {
   color: var(--esug-text);
+}
+
+/* Chapters and the bottom tab bar (app/components/chapter-tab-bar.gjs) */
+
+.app-content-with-tab-bar {
+  /* Keep the end of every page clear of the fixed tab bar. */
+  padding-bottom: calc(var(--chapter-tab-bar-height) + env(safe-area-inset-bottom));
+}
+
+.chapter-header {
+  display: flex;
+  justify-content: center;
+  padding: 4.25rem 1.5rem 2.5rem;
+  text-align: center;
+}
+
+/* Same look as the home page's "Get ready for" title. */
+.chapter-title {
+  margin: 0;
+  font-family: "Baloo 2", cursive;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--esug-blue);
+  line-height: 1.1;
+}
+
+.chapter-tab-bar {
+  position: fixed;
+  inset: auto 0 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  padding-bottom: env(safe-area-inset-bottom);
+  border-top: 1px solid var(--esug-border);
+  background: rgb(255 255 255 / 92%);
+  backdrop-filter: saturate(180%) blur(16px);
+}
+
+.chapter-tab {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  max-width: 8rem;
+  min-width: 0;
+  height: var(--chapter-tab-bar-height);
+  color: #7b8794;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.chapter-tab-current {
+  color: var(--esug-blue);
+}
+
+.chapter-tab-current .chapter-tab-icon {
+  stroke-width: 2.2;
+}
+
+.chapter-tab-label {
+  max-width: 100%;
+  overflow: hidden;
+  font-size: 0.68rem;
+  font-weight: 600;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }

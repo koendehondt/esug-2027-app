@@ -1,4 +1,5 @@
 import Service, { service } from '@ember/service';
+import { chapterRoute } from '../data/chapters';
 
 const STORAGE_KEY = 'esug-scroll-restoration';
 
@@ -29,6 +30,7 @@ const STORAGE_KEY = 'esug-scroll-restoration';
 // restores positions for the entries of the current tab.
 export default class ScrollRestorationService extends Service {
   @service router;
+  @service chapters;
 
   // history entry key -> { url, previousKey, scrollY }
   entries = new Map();
@@ -110,10 +112,29 @@ export default class ScrollRestorationService extends Service {
 
     const previous = this.entries.get(this.entries.get(this.currentKey)?.previousKey);
     const href = new URL(link.href, window.location.href);
-    if (previous && previous.url === href.pathname + href.search) {
+    const target = href.pathname + href.search;
+    if (previous && previous.url === target) {
       event.preventDefault();
       event.stopPropagation();
       window.history.back();
+      return;
+    }
+
+    // Back arrows to "home" mean "back to the chapter this page is in"
+    // (see app/services/chapters.js): go back if that's where the visitor
+    // came from, otherwise open that chapter.
+    if (this.chapters.useChapters && target === this.router.urlFor('index')) {
+      const { routeName, models } = chapterRoute(this.chapters.current);
+      const chapterURL = this.router.urlFor(routeName, ...models);
+      if (previous?.url === chapterURL) {
+        event.preventDefault();
+        event.stopPropagation();
+        window.history.back();
+      } else if (chapterURL !== target) {
+        event.preventDefault();
+        event.stopPropagation();
+        this.router.transitionTo(routeName, ...models);
+      }
     }
   }
 
