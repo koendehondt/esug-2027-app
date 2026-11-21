@@ -849,3 +849,11 @@ Executable Requirements in Prototyping" (2025); the app lists him once.
 `ProgramSchedule` takes `@localDayState={{true}}` for a second schedule on
 the same page, so its day pills keep their own selected day instead of
 sharing `programScheduleState.selectedDayIndex` with the main program.
+
+## Report line on archive pages
+
+Below "Looking back on a great conference in <city>." an archive page can show "Read <author>'s report on the
+conference.", from an optional `report` key (`{ author, url }`) in `public/data/archive/<year>.json`. Only 2015 has one,
+Niall Ross's report on archive.esug.org (linked from esug.org's Past Conferences page).
+
+The 2022 Side Events entry "IWST 2022" now also links its CEUR proceedings (Vol-3325) via `links`.

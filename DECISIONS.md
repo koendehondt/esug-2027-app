@@ -3,6 +3,14 @@
 Decisions about what the app does and does not include, and why. Newest
 entries go at the top.
 
+## 2026-11-21: No general SlideShare link on conference pages
+
+**Context:** Each esug.org conference page links to the ESUG SlideShare account's presentations. SlideShare cannot
+filter an account's presentations by year, so such a link would show the slides of all years.
+
+**Decision:** Conference pages do not link to the ESUG SlideShare account. Instead, each talk's own SlideShare
+presentation is linked from the Presentation section of its talk page.
+
 ## 2026-11-21: No city pages for old conferences
 
 **Context:** esug.org has a city page for each past conference, such as

@@ -29,6 +29,15 @@ import HomeTile from '../components/home-tile';
     {{#if @model.city}}
       <h1>ESUG {{@model.year}} Archive</h1>
       <p>Looking back on a great conference in {{@model.city}}.</p>
+      {{! `report` (author + url) is optional per year. }}
+      {{#if @model.report}}
+        <p>
+          Read
+          {{@model.report.author}}'s
+          <a href={{@model.report.url}} class="talk-link" target="_blank" rel="noopener noreferrer">report</a>
+          on the conference.
+        </p>
+      {{/if}}
 
       {{! Editions archived before this section existed (2015-2026) have no
         `tiles` -- only the program below. From the edition this was

@@ -4,6 +4,10 @@
   "country": "Italy",
   "heroImage": "/images/tiles/esug2015.jpg",
   "logoImage": "/images/conference-logos/esug-2015.png",
+  "report": {
+    "author": "Niall Ross",
+    "url": "https://archive.esug.org/ReportsFromNiallRoss/ESUG2015Report-NiallRoss.pdf"
+  },
   "dayDates": ["2015-07-13", "2015-07-14", "2015-07-15", "2015-07-16", "2015-07-17"],
   "program": [
     {
