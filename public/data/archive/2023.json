@@ -11,6 +11,24 @@
     "2023-08-31",
     "2023-09-01"
   ],
+  "sideEvents": [
+    {
+      "label": "IWST 2023",
+      "links": [
+        {
+          "label": "Proceedings",
+          "url": "https://ceur-ws.org/Vol-3627/"
+        },
+        {
+          "label": "Slides",
+          "url": "https://github.com/ESUG/esug.github.io/tree/source/2023-Conference/iwst/slides"
+        }
+      ]
+    },
+    {
+      "label": "Camp Smalltalk 2023"
+    }
+  ],
   "program": [
     {
       "id": "day-1",
@@ -172,7 +190,7 @@
         },
         {
           "time": "17:30 – 18:30",
-          "subject": "Show us your projects"
+          "subject": "Show Us Your Project"
         }
       ]
     },
@@ -301,7 +319,7 @@
         },
         {
           "time": "17:00 – 18:00",
-          "subject": "Show us your projects"
+          "subject": "Show Us Your Project"
         }
       ]
     },

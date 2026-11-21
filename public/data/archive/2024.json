@@ -5,6 +5,14 @@
   "heroImage": "/images/tiles/esug2024.jpg",
   "logoImage": "/images/conference-logos/esug-2024.png",
   "dayDates": ["2024-07-08", "2024-07-09", "2024-07-10", "2024-07-11"],
+  "sideEvents": [
+    {
+      "label": "IWST 2024 Program"
+    },
+    {
+      "label": "Camp Smalltalk 2024"
+    }
+  ],
   "program": [
     {
       "id": "day-1",
@@ -178,7 +186,8 @@
         },
         {
           "time": "17:30 – 18:30",
-          "subject": "Show us your projects"
+          "subject": "Show Us Your Project",
+          "url": "https://www.youtube.com/playlist?list=PLJ5nSnWzQXi89jwnBCmGPh9xG6shuvuwb"
         }
       ]
     },
@@ -343,7 +352,8 @@
         },
         {
           "time": "17:00 – 18:00",
-          "subject": "Show us your projects"
+          "subject": "Show Us Your Project",
+          "url": "https://www.youtube.com/playlist?list=PLJ5nSnWzQXi89jwnBCmGPh9xG6shuvuwb"
         }
       ]
     }
@@ -1307,8 +1317,8 @@
         "keywords": "",
         "links": [
           {
-            "label": "Webside (app)",
-            "url": "https://esug.org/2024-Conference/webside.app"
+            "label": "Webside (repository)",
+            "url": "https://github.com/guillermoamaral/Webside"
           }
         ]
       },

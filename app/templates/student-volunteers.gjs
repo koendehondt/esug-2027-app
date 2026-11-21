@@ -38,8 +38,8 @@ import { LinkTo } from '@ember/routing';
     <h2 class="page-section-heading">What you get</h2>
     <ul>
       <li>
-        A reduced conference registration fee of 30,00&nbsp;€ (instead of the regular
-        650,00&nbsp;€)
+        A reduced conference registration fee of 30,00&nbsp;€ (instead of the
+        regular 650,00&nbsp;€)
       </li>
       <li>
         Free accommodation during the isLoop summer school (3-5 July 2027) and

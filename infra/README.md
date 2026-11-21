@@ -78,12 +78,12 @@ later if you want a custom domain.
    of these values are sensitive on their own, since the IAM role's trust
    policy already restricts who can assume it):
 
-   | Variable | Value |
-   |---|---|
-   | `AWS_DEPLOY_ROLE_ARN` | `github_deploy_role_arn` output |
-   | `AWS_REGION` | same value as `var.aws_region` (default `eu-west-1`) |
-   | `AWS_S3_BUCKET` | `s3_bucket_name` output |
-   | `AWS_CLOUDFRONT_DISTRIBUTION_ID` | `cloudfront_distribution_id` output |
+   | Variable                         | Value                                                |
+   | -------------------------------- | ---------------------------------------------------- |
+   | `AWS_DEPLOY_ROLE_ARN`            | `github_deploy_role_arn` output                      |
+   | `AWS_REGION`                     | same value as `var.aws_region` (default `eu-west-1`) |
+   | `AWS_S3_BUCKET`                  | `s3_bucket_name` output                              |
+   | `AWS_CLOUDFRONT_DISTRIBUTION_ID` | `cloudfront_distribution_id` output                  |
 
 6. Push to `main` (or run the "Deploy" workflow manually from the Actions
    tab). The workflow builds the app and syncs `dist/` to S3, then
@@ -103,7 +103,7 @@ of relying on a local file.
 
 If the "Configure AWS credentials" step in the workflow fails with this
 error even though the role ARN, the OIDC provider's audience list, and the
-trust policy's `sub` condition all *look* correct, check whether this repo
+trust policy's `sub` condition all _look_ correct, check whether this repo
 or the `koendehondt` account has ever been renamed. GitHub embeds stable
 numeric owner/repo IDs into the OIDC token's `sub` claim once a rename has
 happened — `repo:<owner>@<owner_id>/<repo>@<repo_id>:ref:refs/heads/<branch>`

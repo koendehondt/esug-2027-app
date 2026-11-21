@@ -11,6 +11,14 @@
     "2022-08-25",
     "2022-08-26"
   ],
+  "sideEvents": [
+    {
+      "label": "IWST 2022"
+    },
+    {
+      "label": "Camp Smalltalk 2022"
+    }
+  ],
   "program": [
     {
       "id": "day-1",
@@ -140,7 +148,8 @@
         },
         {
           "time": "17:00 – 18:00",
-          "subject": "Show us your projects"
+          "subject": "Show Us Your Project",
+          "url": "https://www.youtube.com/playlist?list=PLJ5nSnWzQXi-QLQViXAR41B0KdsSb4-nq"
         }
       ]
     },
@@ -258,7 +267,8 @@
         },
         {
           "time": "16:30 – 17:30",
-          "subject": "Show us your projects"
+          "subject": "Show Us Your Project",
+          "url": "https://www.youtube.com/playlist?list=PLJ5nSnWzQXi-QLQViXAR41B0KdsSb4-nq"
         }
       ]
     },

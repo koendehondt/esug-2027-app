@@ -53,6 +53,44 @@ import HomeTile from '../components/home-tile';
       </p>
       <ProgramSchedule @days={{@model.program}} />
 
+      {{! Links to events held alongside the main conference (IWST,
+        isLoop, Camp Smalltalk, "Show us your Project" videos), from each
+        year's esug.org conference page. An entry can also have `links`
+        (e.g. Proceedings, Slides), shown after its label. An entry without
+        a `url` is plain text: the app does not link to esug.org (see DECISIONS.md). Only
+        years whose archive JSON has a `sideEvents` key show this section. }}
+      {{#if @model.sideEvents}}
+        <h2 class="page-section-heading">Side Events</h2>
+        <ul>
+          {{#each @model.sideEvents as |event|}}
+            <li>
+              {{#if event.url}}
+                <a
+                  href={{event.url}}
+                  class="talk-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >{{event.label}}</a>
+              {{else}}
+                {{event.label}}
+              {{/if}}
+              {{#if event.links}}
+                &mdash;
+                {{#each event.links as |link index|}}
+                  {{~if index ", "~}}
+                  <a
+                    href={{link.url}}
+                    class="talk-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >{{link.label}}</a>
+                {{~/each}}
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+
       {{! Only years whose archive JSON carries an `awards` block (so far:
         2026 onward) show this section -- see
         public/data/archive/2026.json's "awards" key for the shape (sourced

@@ -108,8 +108,8 @@ import { LinkTo } from '@ember/routing';
           other discounts, such as the Accor ALL member discount.
         </li>
         <li class="hotel-note">
-          The prices do not include the tourist tax of 5,60&nbsp;€ per studio per
-          night.
+          The prices do not include the tourist tax of 5,60&nbsp;€ per studio
+          per night.
         </li>
         <li class="hotel-note">
           The prices do not include breakfast. The hotel provides a breakfast

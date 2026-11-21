@@ -5,6 +5,18 @@
   "heroImage": "/images/tiles/esug2025.jpg",
   "logoImage": "/images/conference-logos/esug-2025.png",
   "dayDates": ["2025-07-01", "2025-07-02", "2025-07-03", "2025-07-04"],
+  "sideEvents": [
+    {
+      "label": "IWST 2025 Program"
+    },
+    {
+      "label": "isLoop 2025 Summer School",
+      "url": "https://isloop.pharo.org/2025-gdansk/"
+    },
+    {
+      "label": "Camp Smalltalk 2025"
+    }
+  ],
   "program": [
     {
       "id": "day-1",
@@ -176,7 +188,7 @@
         },
         {
           "time": "17:45 – 18:15",
-          "subject": "Show us your project"
+          "subject": "Show Us Your Project"
         },
         {
           "time": "18:15 – 18:55",

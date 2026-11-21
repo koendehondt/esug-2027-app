@@ -805,3 +805,30 @@ Safari/Chrome in the native apps and in a new tab on the web -- on every
 platform, per Koen's choice. The app itself thus collects no data, and the
 App Store answer stays "Data Not Collected". The dialog CSS (`.form-dialog*`,
 `button.registration-button`) was removed from `app/styles/app.css`.
+
+## Side Events section on archive pages
+
+Archive pages now show a "Side Events" list just below the Conference
+Program, rendered from an optional `sideEvents` key (`[{ label, url?, links? }]`) in
+`public/data/archive/<year>.json`. The entries come from each year's esug.org
+conference page (`conf<year>.pillar` in the ESUG/esug.github.io repo). An
+entry without a `url` is shown as plain text: the app does not link to
+esug.org (see `DECISIONS.md`).
+
+- IWST: 2022 (unlinked, its esug.github.io program page no longer exists);
+  2023 (unlinked label followed by "Proceedings" (CEUR Vol-3627) and "Slides"
+  (ESUG/esug.github.io repo) links, from the entry's optional
+  `links: [{ label, url }]`; source: esug.org/2023-Conference/IWST2023.html);
+  2024 and 2025 (unlinked); 2026 (linked to
+  `conf.researchr.org/home/iwst-2026`)
+- isLoop summer school: 2025 (`isloop.pharo.org/2025-gdansk/`), 2026
+  (`isloop.pharo.org/2026-plovdiv/`)
+- Camp Smalltalk: 2022-2025, unlinked (2026's page is only a placeholder)
+- "Show Us Your Project" YouTube playlist: linked from the "Show Us Your
+  Project" sessions in the program, not from Side Events, for 2022 (Tue 23,
+  Thu 25), 2024 (Tue 9, Thu 11) and 2026 (Wed 8). A program session without
+  a `talkId` can carry an optional `url`, which
+  `app/components/program-schedule.gjs` renders as an external link. 2023
+  and 2025 have no separate playlist.
+
+Decisions about what is deliberately not included are in `DECISIONS.md`.

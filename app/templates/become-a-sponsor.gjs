@@ -66,13 +66,7 @@ import { LinkTo } from '@ember/routing';
         </div>
         <ul class="sponsorship-tier-benefits">
           <li>Your company/association logo displayed during the ESUG conference</li>
-          <li>Recognised as a sponsor on
-            <a
-              href="https://esug.org/"
-              class="talk-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >our ESUG website</a></li>
+          <li>Recognised as a sponsor on the ESUG website</li>
           <li>Entitled to mention that you are an ESUG sponsor, and to use the
             ESUG logo in that context</li>
         </ul>

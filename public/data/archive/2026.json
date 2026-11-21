@@ -5,6 +5,16 @@
   "heroImage": "/images/tiles/esug2026.jpg",
   "logoImage": "/images/conference-logos/esug-2026.png",
   "dayDates": ["2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10"],
+  "sideEvents": [
+    {
+      "label": "IWST 2026 Program",
+      "url": "https://conf.researchr.org/home/iwst-2026"
+    },
+    {
+      "label": "isLoop 2026 Summer School",
+      "url": "https://isloop.pharo.org/2026-plovdiv/"
+    }
+  ],
   "program": [
     {
       "id": "day-1",
@@ -160,7 +170,8 @@
         },
         {
           "time": "16:30 – 18:30",
-          "subject": "Show Us Your Project"
+          "subject": "Show Us Your Project",
+          "url": "https://www.youtube.com/playlist?list=PLJIFCMt6GQlw"
         }
       ]
     },

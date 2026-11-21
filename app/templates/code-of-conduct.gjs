@@ -265,8 +265,9 @@ import { LinkTo } from '@ember/routing';
     </p>
     <p>
       If your report concerns a member of the Core Operations, which receives
-      emails to <a href="mailto:conduct@esug.org" class="talk-link">conduct@esug.org</a>, you can report the issue individually
-      to any of the other organisers.
+      emails to
+      <a href="mailto:conduct@esug.org" class="talk-link">conduct@esug.org</a>,
+      you can report the issue individually to any of the other organisers.
     </p>
 
     <h2 class="page-section-heading">Credits</h2>

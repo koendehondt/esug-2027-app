@@ -159,8 +159,7 @@ body {
   filter: grayscale(0.85);
 }
 
-.home-tile-inactive::before,
-.home-tile-inactive .home-tile-date {
+.home-tile-inactive::before {
   filter: grayscale(0.85);
 }
 
@@ -186,6 +185,10 @@ body {
   font-size: 0.8rem;
   font-weight: 700;
   color: var(--esug-accent);
+}
+
+.home-tile-inactive .home-tile-date {
+  filter: grayscale(0.85);
 }
 
 .home-tile-badge {
@@ -299,6 +302,9 @@ body {
 }
 
 .committee-chair-names {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -307,10 +313,6 @@ body {
 
 .committee-chair-names li {
   margin: 0;
-}
-
-.committee-chair-names li + li {
-  margin-top: 0.9rem;
 }
 
 .committee-chair-name {
@@ -544,6 +546,14 @@ body {
 
 .program-session-subject-link:focus-visible {
   text-decoration: underline;
+}
+
+/* A linked session without a speaker (e.g. "Show us your project") looks
+   like a talk link: bold, upright and blue, not the session-break style. */
+.program-session-break .program-session-subject-link {
+  font-weight: 600;
+  font-style: normal;
+  color: var(--esug-blue);
 }
 
 /* Talk detail page */

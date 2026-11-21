@@ -47,6 +47,15 @@ export default class ProgramSchedule extends Component {
                 @model={{session.talkId}}
                 class="program-session-subject program-session-subject-link"
               >{{session.subject}}</LinkTo>
+            {{else if session.url}}
+              {{! A session with no talk page, e.g. "Show us your project",
+                can link to an external page such as a YouTube playlist. }}
+              <a
+                href={{session.url}}
+                class="program-session-subject program-session-subject-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >{{session.subject}}</a>
             {{else}}
               <span class="program-session-subject">{{session.subject}}</span>
             {{/if}}
