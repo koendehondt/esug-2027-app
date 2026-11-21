@@ -210,7 +210,7 @@ export const esugTiles = [
   },
 ];
 
-// Tiles for the "Archives" section on the home page, shown between the
+// Tiles for the "Smalltalk Resources" section on the home page, shown between the
 // "ESUG" and "Conferences" sections: Smalltalk resources beyond ESUG
 // itself. Not to be confused with `archiveTiles` below, which are the
 // "Conference Archives" section.

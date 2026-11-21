@@ -777,13 +777,13 @@ Companies) and the "Sponsoring Books" page were missing from the app.
   every conference playlist on the ESUG channel (2008-2026, newest first,
   with IWST and Show Us Your Project playlists as extra links on their
   year); "Deep into Smalltalk" added to "Squeak and Smalltalk".
-- **Home page "Archives" section** (between "ESUG" and "Conferences", data
+- **Home page "Smalltalk Resources" section** (originally "Archives") (between "ESUG" and "Conferences", data
   in `generalArchiveTiles`): holds the Companies and Smalltalk tiles, moved
   out of the ESUG section. The "Smalltalk Archive" tile/page was renamed
   to "Smalltalk" at that point, and its route, template, route class and
   image were then renamed from `smalltalk-archive` to `smalltalk` (URL
   `/smalltalk`).
-- **Videos and Press moved to the home page's "Archives" section** (tiles
+- **Videos and Press moved to the home page's "Smalltalk Resources" section** (tiles
   after Companies and Smalltalk, using their own images); they are no
   longer linked from the Smalltalk page, and their back links go home.
 - **Past Conference Presentations section removed from the Smalltalk

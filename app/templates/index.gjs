@@ -40,8 +40,8 @@ import currentEdition from 'esug-2027-app/data/current-edition';
     {{/each}}
   </section>
 
-  <h2 class="home-section-heading">Archives</h2>
-  <section class="tile-grid" aria-label="Archives">
+  <h2 class="home-section-heading">Smalltalk Resources</h2>
+  <section class="tile-grid" aria-label="Smalltalk Resources">
     {{#each generalArchiveTiles as |tile|}}
       <HomeTile @tile={{tile}} />
     {{/each}}
