@@ -32,8 +32,13 @@ import { LinkTo } from '@ember/routing';
           Ducasse</a></li>
       <li>Treasurer: Pablo Tesone</li>
       <li>
-        <a href="http://car.mines-douai.fr/luc" class="talk-link" target="_blank" rel="noopener noreferrer">Luc Fabresse</a>
-        (EMD)</li>
+        <a
+          href="https://research.imt-nord-europe.fr/staff/fabresse-luc/"
+          class="talk-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Luc Fabresse</a>
+        (IMT Nord Europe)</li>
       <li>
         <a href="http://www.marcusdenker.de/" class="talk-link" target="_blank" rel="noopener noreferrer">Marcus Denker</a>
         (Inria)</li>
