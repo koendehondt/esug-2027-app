@@ -30,7 +30,7 @@ export default class PresentationSearch extends Component {
     // scroll position to the top mid-reflow, even when the final,
     // fully-updated page is tall enough to stay right where you were.
     // Capture the scroll position now and reassert it once the DOM has
-    // actually settled, the same way app/routes/application.js restores
+    // actually settled, the same way app/services/scroll-restoration.js restores
     // scroll position across route transitions.
     const scrollY = window.scrollY;
     this.searchQuery = event.target.value;

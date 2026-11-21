@@ -3,3 +3,10 @@
 
 # compiled output
 /dist/
+
+# native projects (Capacitor; contain copies of the built web app)
+/ios/
+/android/
+
+# Claude Code worktrees (full copies of the repository)
+/.claude/

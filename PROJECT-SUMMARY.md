@@ -108,7 +108,7 @@ Reported: sometimes, typing in the search box while scrolled down snaps the page
 
 Cause: narrowing/widening the live-filtered results list changes the page's height every keystroke, and the browser (WKWebView especially) can reset scroll to 0 mid-reflow even when the final, fully-updated page is tall enough to stay put -- a transient/intermediate height dip during the DOM update, not the final height.
 
-Fix: in `app/components/presentation-search.gjs`'s `updateSearchQuery`, capture `window.scrollY` before updating `searchQuery` (which triggers the re-render), then reassert it with `window.scrollTo(0, scrollY)` inside `requestAnimationFrame` once the DOM has settled -- the same pattern `app/routes/application.js` already uses to restore scroll position across route transitions. If the filtered list is now genuinely too short to support the old position, the browser still naturally clamps to the real max scroll (not 0), so this only removes the _spurious_ full jump.
+Fix: in `app/components/presentation-search.gjs`'s `updateSearchQuery`, capture `window.scrollY` before updating `searchQuery` (which triggers the re-render), then reassert it with `window.scrollTo(0, scrollY)` inside `requestAnimationFrame` once the DOM has settled -- the same pattern `app/services/scroll-restoration.js` uses to restore scroll position across route transitions. If the filtered list is now genuinely too short to support the old position, the browser still naturally clamps to the real max scroll (not 0), so this only removes the _spurious_ full jump.
 
 Not confirmed on-device (no iOS hardware/simulator available here) -- needs the usual `npm run cap:sync` + Xcode rebuild before it'll show up on the phone.
 

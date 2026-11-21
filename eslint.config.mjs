@@ -30,7 +30,7 @@ const esmParserOptions = {
 };
 
 export default defineConfig([
-  globalIgnores(['dist/', 'coverage/', '!**/.*']),
+  globalIgnores(['dist/', 'coverage/', 'ios/', 'android/', '!**/.*', '.claude/']),
   js.configs.recommended,
   eslintConfigPrettier,
   ember.configs.base,
