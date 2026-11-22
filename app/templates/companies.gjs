@@ -26,7 +26,7 @@ import { currentCompanies, oldCompanies, NEW_COMPANY_FORM_URL } from 'esug-2027-
     <h1>Companies</h1>
 
     <p>This is a list of companies worldwide that use Smalltalk.</p>
-    <p>To add your company to this list, please fill in this form:</p>
+    <p>To add your company to this list, use this button:</p>
     {{! The form opens in the browser (Safari/Chrome in the native apps, a new
       tab on the web) rather than inside the app, so the app itself collects no
       data -- see PROJECT-SUMMARY.md, "Companies form opens in the browser". }}
@@ -46,7 +46,7 @@ import { currentCompanies, oldCompanies, NEW_COMPANY_FORM_URL } from 'esug-2027-
 
     <h2 class="page-section-heading">Old Entries</h2>
     <p>
-      If your company is listed below, please submit it again with the form above.
+      If your company is listed below, please submit it again via the button above.
     </p>
     <div class="company-groups">
       {{#each oldCompanies as |group|}}
