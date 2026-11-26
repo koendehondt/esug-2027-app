@@ -93,16 +93,53 @@ to regenerate `ios/App/App/Assets.xcassets/AppIcon.appiconset` (and, once you
 add the Android platform, its icon set too). Re-run `npm run cap:sync` /
 rebuild in Xcode afterwards to see the change on device.
 
-The splash screens come from `resources/splash.png` (light mode) and
-`resources/splash-dark.png` (dark mode), both 2732×2732, with the balloon
-centred at 204×204. The dark one uses the balloon on a transparent
-background over `#111111`, so no white box shows around it. The same
-`npm run generate:icons` regenerates `ios/App/App/Assets.xcassets/Splash.imageset`
-from them.
-
 The browser favicon and "Add to Home Screen" icon (`public/favicon.png`,
 `public/apple-touch-icon.png`) are generated from the same source but aren't
 covered by that script — regenerate them manually if the logo changes.
+
+## Launch screen
+
+The iOS launch screen (`ios/App/App/Base.lproj/LaunchScreen.storyboard`) is
+deliberately lightweight: a plain `#f5f7fa` background with the balloon,
+340×340 points, centred (1020 px on a 3× iPhone, about the 1024 px of the
+app icon). The balloon is the `SplashLogo` image set
+(`ios/App/App/Assets.xcassets/SplashLogo.imageset`, 340/680/1020 px), made
+from `resources/splash-logo.png`: `resources/icon.png` with its white
+background made transparent. It is maintained by hand, not by
+`generate:icons`.
+
+iOS only shows the launch screen while the app process starts, which is
+much shorter than the time the first page takes to load, and the web view's
+own background colour would cover anything behind it. So
+`MainViewController.swift` lays an identical view (the same `SplashLogo`
+balloon, size and position, on `#f5f7fa`) on top of the web view, and fades
+it out once the first page has loaded (`isLoading` turns false), or after 5
+seconds at the latest.
+
+The launch screen used to show the full-screen 2732×2732 `Splash` image that
+`generate:icons` makes. With that image, iOS showed a black screen for
+about half a second before the launch screen appeared, most likely because
+iOS draws launch screens with very little memory and the image takes about
+30 MB once decoded. `generate:icons` still writes
+`Splash.imageset` (from `resources/splash.png` and
+`resources/splash-dark.png`), but nothing uses it any more.
+
+The app has no dark theme, so `Info.plist` sets `UIUserInterfaceStyle` to
+`Light`.
+
+## No black screen at launch
+
+Capacitor makes the web view transparent until the first page has loaded.
+To avoid a black flash in between the launch screen and the home page, the
+window behind it (`SceneDelegate.swift`), the web view (`backgroundColor` in
+`capacitor.config.js`) and the launch screen all use the page background,
+`#f5f7fa` (`--esug-bg` in `app/styles/app.css`). Keep the four in step if
+the page background ever changes.
+
+The scene configuration in `Info.plist` has no `UISceneStoryboardFile`:
+with one, iOS first builds a window from `Main.storyboard` (with its own,
+colourless, loading web view) before `SceneDelegate.swift` replaces it with
+the window it builds in code, which caused a black flash at launch.
 
 ## iOS swipe-back gesture
 

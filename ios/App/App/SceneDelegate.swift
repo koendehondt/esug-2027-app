@@ -8,6 +8,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = scene as? UIWindowScene else { return }
 
         window = UIWindow(windowScene: windowScene)
+        // Capacitor makes the web view transparent until the first page has
+        // loaded, so the window shows through. Without a colour it is black;
+        // use the page background (#f5f7fa, --esug-bg) instead.
+        window?.backgroundColor = UIColor(red: 245 / 255, green: 247 / 255, blue: 250 / 255, alpha: 1)
         window?.rootViewController = MainViewController()
         window?.makeKeyAndVisible()
 

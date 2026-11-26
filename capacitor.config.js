@@ -3,6 +3,10 @@ const config = {
   appId: 'org.esug.app2027',
   appName: 'ESUG',
   webDir: 'dist',
+  // The page background (--esug-bg in app/styles/app.css). The native web
+  // view shows this colour while the first page loads, instead of the
+  // system background.
+  backgroundColor: '#f5f7fa',
   server: {
     // The native iOS WebView otherwise serves app content from
     // capacitor://localhost, a non-http(s) origin. Many web APIs require a
