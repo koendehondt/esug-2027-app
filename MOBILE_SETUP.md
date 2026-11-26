@@ -93,6 +93,13 @@ to regenerate `ios/App/App/Assets.xcassets/AppIcon.appiconset` (and, once you
 add the Android platform, its icon set too). Re-run `npm run cap:sync` /
 rebuild in Xcode afterwards to see the change on device.
 
+The splash screens come from `resources/splash.png` (light mode) and
+`resources/splash-dark.png` (dark mode), both 2732×2732, with the balloon
+centred at 204×204. The dark one uses the balloon on a transparent
+background over `#111111`, so no white box shows around it. The same
+`npm run generate:icons` regenerates `ios/App/App/Assets.xcassets/Splash.imageset`
+from them.
+
 The browser favicon and "Add to Home Screen" icon (`public/favicon.png`,
 `public/apple-touch-icon.png`) are generated from the same source but aren't
 covered by that script — regenerate them manually if the logo changes.
