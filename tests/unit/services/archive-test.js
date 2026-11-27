@@ -15,17 +15,19 @@ module('Unit | Service | archive', function (hooks) {
 
     this.archive.summaries.forEach((summary, index) => {
       const entry = entries[index];
-      assert.deepEqual(
-        {
-          year: entry.year,
-          city: entry.city,
-          country: entry.country,
-          heroImage: entry.heroImage,
-          logoImage: entry.logoImage,
-        },
-        summary,
-        `ESUG ${summary.year}`,
-      );
+      // logoImage is left out for conferences without a logo (2004 and the
+      // 1990s summer schools).
+      const fields = {
+        year: entry.year,
+        city: entry.city,
+        country: entry.country,
+        heroImage: entry.heroImage,
+        logoImage: entry.logoImage,
+      };
+      if (fields.logoImage === undefined) {
+        delete fields.logoImage;
+      }
+      assert.deepEqual(fields, summary, `ESUG ${summary.year}`);
     });
   });
 
@@ -41,7 +43,7 @@ module('Unit | Service | archive', function (hooks) {
   });
 
   test('it resolves to null for a year without an archive', async function (assert) {
-    assert.strictEqual(await this.archive.loadYear(1999), null);
+    assert.strictEqual(await this.archive.loadYear(2001), null);
   });
 
   test('it finds the year of a talk', async function (assert) {

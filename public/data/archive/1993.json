@@ -1,0 +1,102 @@
+{
+  "year": 1993,
+  "city": "Brest",
+  "country": "France",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "dayDates": ["1993-07-19", "1993-07-20", "1993-07-21", "1993-07-22", "1993-07-23"],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 19",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "Smalltalk/ObjectWorks Imaging Model and Windowing Interfaces",
+          "talkId": "101-wolc-smalltalk-objectworks-imaging-model-windowing",
+          "speaker": "Mario Wolczko"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Inner Workings of the Smalltalk/V Virtual Machine",
+          "talkId": "102-barr-inner-workings-smalltalk-v-virtual",
+          "speaker": "Patrick Barril"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 20",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "Advanced Smalltalk Programming: Blocks, Exception Handling, Metaclasses, Weak References, Binary Storage, Performance",
+          "talkId": "201-wolc-advanced-smalltalk-programming-blocks-exception",
+          "speaker": "Mario Wolczko"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Demonstrations"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 21",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "Demonstrations"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Demonstrations"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 22",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "Concurrency",
+          "talkId": "401-hopk-concurrency",
+          "speaker": "Trevor Hopkins"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Advanced Smalltalk Programming (continued)",
+          "speaker": "Mario Wolczko"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 23",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "Workshop: Project Management"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Workshop: Simulation Techniques"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-wolc-smalltalk-objectworks-imaging-model-windowing": {
+      "title": "Smalltalk/ObjectWorks Imaging Model and Windowing Interfaces"
+    },
+    "102-barr-inner-workings-smalltalk-v-virtual": {
+      "title": "Inner Workings of the Smalltalk/V Virtual Machine"
+    },
+    "201-wolc-advanced-smalltalk-programming-blocks-exception": {
+      "title": "Advanced Smalltalk Programming: Blocks, Exception Handling, Metaclasses, Weak References, Binary Storage, Performance"
+    },
+    "401-hopk-concurrency": {
+      "title": "Concurrency"
+    }
+  }
+}

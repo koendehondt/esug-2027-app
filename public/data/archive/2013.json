@@ -1,0 +1,571 @@
+{
+  "year": 2013,
+  "city": "Annecy",
+  "country": "France",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "logoImage": "/images/conference-logos/esug-2013.png",
+  "dayDates": ["2013-09-09", "2013-09-10", "2013-09-11", "2013-09-12", "2013-09-13"],
+  "sideEvents": [
+    {
+      "label": "IWST 2013",
+      "links": [
+        {
+          "label": "Proceedings",
+          "url": "https://archive.esug.org/ESUG2013/IWST/proceedings.pdf"
+        },
+        {
+          "label": "Slides",
+          "url": "https://archive.esug.org/ESUG2013/IWST/Slides/"
+        }
+      ]
+    },
+    {
+      "label": "Camp Smalltalk 2013"
+    },
+    {
+      "label": "Conference videos",
+      "url": "https://www.youtube.com/playlist?list=PLJ5nSnWzQXi_K_cQxWOLadk3TQTsS4Rys"
+    }
+  ],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 9",
+      "sessions": [
+        {
+          "time": "",
+          "subject": "Welcome & ESUG Presentation",
+          "talkId": "101-duca-welcome-esug-presentation-2013",
+          "speaker": "Stéphane Ducasse, Hervé Verjus"
+        },
+        {
+          "time": "",
+          "subject": "VA Smalltalk Product Update and Roadmap",
+          "talkId": "102-okee-va-smalltalk-product-update-roadmap",
+          "speaker": "John O'Keefe"
+        },
+        {
+          "time": "",
+          "subject": "MVC Revival on the Web",
+          "talkId": "103-mivs-mvc-revival-web",
+          "speaker": "Janko Mivšek"
+        },
+        {
+          "time": "",
+          "subject": "Beach Parasol: Don't Get Burned at the Seaside",
+          "talkId": "104-gybe-beach-parasol-don-t-get",
+          "speaker": "Kris Gybels"
+        },
+        {
+          "time": "",
+          "subject": "Dry-ing Magritte",
+          "url": "https://archive.esug.org/ESUG2013/1-Mon/05-Dry-ing%20Magritte.pdf"
+        },
+        {
+          "time": "",
+          "subject": "A 21st Century VM",
+          "url": "https://archive.esug.org/ESUG2013/1-Mon/06-21stCenturyVM.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Agile & Lean @ MediaGeniX",
+          "talkId": "105-vand-agile-lean-mediagenix",
+          "speaker": "Maïkel Vandorpe, Marija Janovska"
+        },
+        {
+          "time": "",
+          "subject": "Petit Humane Assessment, with Delphi (tutorial)",
+          "url": "https://archive.esug.org/ESUG2013/1-Mon/08-petitHumaneAssessment.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Innovation Technology Awards",
+          "url": "https://www.youtube.com/watch?v=UMewJuay-i4"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 10",
+      "sessions": [
+        {
+          "time": "",
+          "subject": "GemStone/S Product Roadmap",
+          "talkId": "201-gree-gemstone-s-product-roadmap",
+          "speaker": "Norm Green"
+        },
+        {
+          "time": "",
+          "subject": "NativeBoost tutorial",
+          "url": "https://archive.esug.org/ESUG2013/2-Tue/03-NativeBoost.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Modernized Text Editor",
+          "url": "https://archive.esug.org/ESUG2013/2-Tue/04-Modernized%20Text%20Editor.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Smalltalk in the Cloud",
+          "url": "https://archive.esug.org/ESUG2013/2-Tue/05-Smalltalk%20in%20the%20Cloud.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Cincom Smalltalk UI",
+          "url": "https://archive.esug.org/ESUG2013/2-Tue/06-CincomSmalltalkUI2.pdf"
+        },
+        {
+          "time": "",
+          "subject": "IWST 2013 workshop"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 11",
+      "sessions": [
+        {
+          "time": "",
+          "subject": "Pharo",
+          "url": "https://archive.esug.org/ESUG2013/3-Wed/01-ESUG-Pharo.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Pursuing Performance in Store",
+          "url": "https://archive.esug.org/ESUG2013/3-Wed/02-PursuingPerformanceInStore-JJ.pdf"
+        },
+        {
+          "time": "",
+          "subject": "How and Where in GLORP",
+          "talkId": "301-ross-how-where-glorp",
+          "speaker": "Niall Ross"
+        },
+        {
+          "time": "",
+          "subject": "tODE",
+          "url": "https://archive.esug.org/ESUG2013/3-Wed/04-tODE_ESUG_2013.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Bytecode Optimizations",
+          "url": "https://archive.esug.org/ESUG2013/3-Wed/05-bytecode%20optimizations.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Social event"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 12",
+      "sessions": [
+        {
+          "time": "",
+          "subject": "Cincom Smalltalk Roadmap",
+          "url": "https://archive.esug.org/ESUG2013/4-Thu/01-Cincom%20Smalltalk%20Roadmap%20ESUG%202013.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Classes in the Mist",
+          "talkId": "401-mccl-classes-mist",
+          "speaker": "Martin McClure"
+        },
+        {
+          "time": "",
+          "subject": "MongoTalk & Voyage tutorial",
+          "url": "https://archive.esug.org/ESUG2013/4-Thu/03-ESUG2013%20-%20VoyageTutorial.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Shared Memory",
+          "url": "https://archive.esug.org/ESUG2013/4-Thu/04-SharedMemory.pdf"
+        },
+        {
+          "time": "",
+          "subject": "In*Bug",
+          "url": "https://archive.esug.org/ESUG2013/4-Thu/05-inbug-esug2013.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Roassal: a year of hard work",
+          "url": "https://archive.esug.org/ESUG2013/4-Thu/06-2013-RoassalESUG.pdf"
+        },
+        {
+          "time": "",
+          "subject": "Eurydike",
+          "url": "https://archive.esug.org/ESUG2013/4-Thu/07-ESUG%202013%20Eurydike%20-%20V2.pdf"
+        },
+        {
+          "time": "",
+          "subject": "User Variables",
+          "talkId": "402-cani-user-variables",
+          "speaker": "Leandro Caniglia"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 13",
+      "sessions": [
+        {
+          "time": "",
+          "subject": "Amber"
+        },
+        {
+          "time": "",
+          "subject": "DFlow",
+          "talkId": "501-mine-dflow",
+          "speaker": "Roberto Minelli"
+        },
+        {
+          "time": "",
+          "subject": "Talk by Georg Heeg",
+          "talkId": "502-heeg-talk-georg-heeg",
+          "speaker": "Georg Heeg"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-duca-welcome-esug-presentation-2013": {
+      "title": "Welcome & ESUG Presentation",
+      "videoId": "8pC8O1OylLU",
+      "presentationUrl": "https://archive.esug.org/ESUG2013/1-Mon/01-2013-ESUG-WelcomeAnnecy.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Opening of the 21st ESUG conference"
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Stéphane Ducasse is the president of the European Smalltalk User Group and research director at INRIA Lille leading the RMoD Team. Johan Brichau is the main local organizer of this 20th ESUG conference in Ghent, Belgium, and head of the yesplan development team."
+          }
+        ]
+      ]
+    },
+    "102-okee-va-smalltalk-product-update-roadmap": {
+      "title": "VA Smalltalk Product Update and Roadmap",
+      "videoId": "vyHK7RYBj6g",
+      "presentationUrl": "https://archive.esug.org/ESUG2013/1-Mon/02-VA%20Smalltalk%20Update-ESUG2013.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Over a year has past since I showed the ESUG community the progress being made on the VA Smalltalk product. During this time, our engineering team members have all been hard at work upgrading the product with new features as well as refreshing some of the old ones."
+          }
+        ],
+        [
+          {
+            "text": "I will have some exciting new capabilities to show together with the \"Roadmap to the Future\" for VA Smalltalk."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "I have been in software development for over 45 years. I joined the original IBM Smalltalk prototype team in 1990 and was a founding member of the IBM VisualAge Smalltalk development team. I was Team Lead and Chief Architect of IBM VisualAge Smalltalk from 1997 to 2007. In February 2007, I joined Instantiations to lead the VA Smalltalk development team. My current focus is on future product architecture and development. I live in Durham, NC and work in Raleigh, NC."
+          }
+        ]
+      ]
+    },
+    "103-mivs-mvc-revival-web": {
+      "title": "MVC Revival on the Web",
+      "videoId": "JrIwybXCscs",
+      "presentationUrl": "https://archive.esug.org/ESUG2013/1-Mon/03-mivsek-mvc-esug13.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "At 30 years of Smalltalk there is also near 30 years of a MVC pattern, which was also invented by Smalltalkers and is currently very popular in JavaScript world by client-side frameworks like Ember.js, Backbone.js, Angular.js etc."
+          }
+        ],
+        [
+          {
+            "text": "Let we at this anniversary remember MVC too by looking at its history and current usage. But not only that, in Aida/Web (already a MVC web framework) we'd like to revive MVC more thoroughly for the modern Smalltalk HTML5 apps. How, what are the plans and what are the achievements up to date, this will be the second main theme of this talk."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Janko Mivšek discovered Smalltalk in 1995 and still believes that choosing it was the best decision in his life. Next year his first project was already a commercial web based bookstore and that's how Aida/Web framework was born. Since then he is earning for his life solely with Smalltalk and Aida based business web apps in Healthcare, Pharmaceutical, Logistics and Gas industry, while contributing back to the community as maintainer of Aida/Web and org admin of Smalltalk Google Summer of Code."
+          }
+        ]
+      ]
+    },
+    "104-gybe-beach-parasol-don-t-get": {
+      "title": "Beach Parasol: Don't Get Burned at the Seaside",
+      "videoId": "CoJ-Wnno6TY",
+      "presentationUrl": "https://archive.esug.org/ESUG2013/1-Mon/04-Beach%20Parasol%20Presentation.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Beach Parasol is a testing framework for web applications. It provides a Smalltalk object-based interface to Selenium WebDriver. This talk introduces the framework and will explain how to use it to test Seaside applications."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Kris is currently part of the team that develops Yesplan, a Seaside-based event planning application. He previously worked on other Smalltalk projects such as MediaGeniX's television planning application, and the SOUL logic programming language at Vrije Universiteit Brussel."
+          }
+        ]
+      ]
+    },
+    "105-vand-agile-lean-mediagenix": {
+      "title": "Agile & Lean @ MediaGeniX",
+      "videoId": "mLLwuVLEJqc",
+      "presentationUrl": "https://archive.esug.org/ESUG2013/1-Mon/07-Agile%20%26%20Lean%20%40%20MediaGeniX%20.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "As a company, MediaGeniX has been growing ever since it was founded in 2002. In 10 years time, we expanded from a company of 5 people to a company of over one hundred people. We believe in being agile and delivering added value to the customer as soon as possible. To do this, we apply agile principles to our software development process. We started with practices from Extreme Programming. Later on, we experimented with SCRUM and Kanban. Nowadays, we are moving towards Lean. This talk will give you an insight at what worked for us and what didn't and more importantly why it did."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Maïkel Vandorpe was introduced to Smalltalk in 2004 when he joined MediaGeniX. There he started as a software engineer where he had the opportunity to work on large and smaller projects. He also helped building and improving the current development environment within the company. And he had the pleasure to introduce a dozen new developers in the wondrous world of Smalltalk. Nowadays, Maïkel is responsible for best practices and good processes within Software Engineering as a competence manager."
+          }
+        ],
+        [
+          {
+            "text": "Bio(2): Marija is a software developer and technical lead at MediaGeniX. She has six years software development experience and has worked on various projects within Microsoft development environments. Since 2011 Marija is using SmallTalk professionally. She has a special interest in the development of mobile applications. She has experience with the whole software lifecycle, using SCRUM and extreme programming."
+          }
+        ],
+        [
+          {
+            "text": "Special remarks: We would like to have 45 minutes to present. Special remarks(2): At STIC we gave a similar presentation. It might be that a video is already available somewhere."
+          }
+        ]
+      ]
+    },
+    "201-gree-gemstone-s-product-roadmap": {
+      "title": "GemStone/S Product Roadmap",
+      "videoId": "Z0l3aCh-sqs",
+      "presentationUrl": "https://archive.esug.org/ESUG2013/2-Tue/01-norm-esug-2013.pdf"
+    },
+    "301-ross-how-where-glorp": {
+      "title": "How and Where in GLORP",
+      "videoId": "odpZI5qnUsg",
+      "presentationUrl": "https://archive.esug.org/ESUG2013/3-Wed/03-Glorp-ESUG2013-1.3-slidesOnly.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "(This can be classified as Tutorial or Talk, as it has aspects of both. As well or instead, it can be presented in the OpenForum. The title is a working title.)"
+          }
+        ],
+        [
+          {
+            "text": "Tutorial aspect: I will present examples of how to code some less-obvious queries in GLORP, and invite attendees to bring their own examples of things they want advice on how best to code in Glorp. As well as functional tasks, I will look at performance: how to code queries performantly and/or refactor Glorp-using applications for performance. I will also look at coding errors to avoid."
+          }
+        ],
+        [
+          {
+            "text": "Talk aspect: I will present recent and upcoming Glorp framework and tool development."
+          }
+        ],
+        [
+          {
+            "text": "Open Forum aspect: I can connect to a database, autogenerate a Glorp descriptor system (instance and class) and domain classes for it in the Smalltalk image, then show Smalltalk queries reading and writing to the database. As time allows, I can then show refactoring (e.g. a legacy database to a better domain model), and incidentally demonstrate the new Glorp refactorings as examples of framework-specific refactorings. Depending on the audience level of the interested non-Smalltalkers, examples can be complex (i.e. reuse of the tutorial/talk material above) or simpler."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Niall ended his undergraduate career with two intellectual interests: computing and the theory of relativity. A quick check of how much commercial work was available to relativity and gravitation theorists decided him to do academic research in that field and then seek a commercial job in computing, rather than the other way round. Niall started working commercially in IT in 1985. He was at first assigned to designing and implementing software engineering process improvements and only three years later did he begin significant writing and delivering of commercial software. This experience taught him that intelligent people can nevertheless form foolish ideas about software engineering if they have not worked at the coding coalface of real large commercial projects."
+          }
+        ],
+        [
+          {
+            "text": "Learning from this, Niall spent the nineties working on software to manage complex, rapidly-changing telecoms networks. A side effect of this work was that it taught him much about how scale and rate of change affects software. Early in the nineties he discovered Smalltalk. The more he used it, the more he came to recognize its power in this area. This perception was strengthened when he spent a year delivering a telecoms management system in Java."
+          }
+        ],
+        [
+          {
+            "text": "At the end of the decade, Niall formed his own software company to offer consultancy in meta-data system design, in Smalltalk and in agile methods. Over the next decade, he worked on a variety of meta-data-driven systems, mostly in the financial domain."
+          }
+        ],
+        [
+          {
+            "text": "Niall joined the Cincom Smalltalk Engineering team nearly 5 years ago. His first task was to lead the team that does the weekly VisualWorks builds, an experience he likened to doing brain surgery on yourself every Friday (e.g. \"prepare new memory for insertion, remove old memory, - uh, I can't remember what I was going to do next ... \" :-) ). Currently, he leads the Glorp and Database team. He also leads the Custom Refactoring open-source project, which he co-founded, and the SUnit open-source project."
+          }
+        ]
+      ]
+    },
+    "401-mccl-classes-mist": {
+      "title": "Classes in the Mist",
+      "presentationUrl": "https://archive.esug.org/ESUG2013/4-Thu/02-MartinMcClure-ClassesInTheMist.pdf"
+    },
+    "402-cani-user-variables": {
+      "title": "User Variables"
+    },
+    "501-mine-dflow": {
+      "title": "DFlow",
+      "presentationUrl": "https://archive.esug.org/ESUG2013/5-Fri/02-DFlow-ESUG2013.pdf"
+    },
+    "502-heeg-talk-georg-heeg": {
+      "title": "Talk by Georg Heeg",
+      "presentationUrl": "https://archive.esug.org/ESUG2013/5-Fri/03-Georg%20Heeg%20ESUG%202013.pdf"
+    }
+  },
+  "awards": {
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "Oz Recovery Tools",
+        "submitter": "Guillermo Polito, Rmod - Mines Douai, Argentina",
+        "keywords": "recovery, metaprogramming",
+        "links": [
+          {
+            "label": "Download",
+            "url": "https://ci.inria.fr/rmod/view/Oz/"
+          },
+          {
+            "label": "Demo",
+            "url": "http://www.youtube.com/watch?v=9-ARnlGXjL8"
+          }
+        ]
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "Amber Smalltalk",
+        "submitter": "Nicolas Petton, Inria Lille (RMoD team), France",
+        "keywords": "Smalltalk, Javascript, Web",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://amber-lang.net"
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "Phratch",
+        "submitter": "Jannik Laval, Ecole Mines de Douai, France",
+        "keywords": "Scratch, Pharo, Education",
+        "links": [
+          {
+            "label": "Download",
+            "url": "https://code.google.com/p/phratch/"
+          },
+          {
+            "label": "Demo",
+            "url": "https://vimeo.com/73307234"
+          }
+        ]
+      }
+    ],
+    "nominees": [
+      {
+        "title": "Epicea",
+        "submitter": "Martín Dias, Argentina",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://smalltalkhub.com/#!/~MartinDias/Epicea"
+          }
+        ]
+      },
+      {
+        "title": "Gadget Profiler",
+        "submitter": "Alejandro Infante, Juan Pablo Sandoval, Alexandre Bergel, Universidad de Chile, Chile",
+        "keywords": "Profiling",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://smalltalkhub.com/#!/~ainfante/GadgetProfiler"
+          },
+          {
+            "label": "Demo",
+            "url": "http://youtu.be/8ampYhCKayo"
+          }
+        ]
+      },
+      {
+        "title": "GraphET",
+        "submitter": "Alexandre Bergel, Daniel Aviv Notario, University of Chile / Object Profile, Chile",
+        "keywords": "visualization, roassal, pharo",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://smalltalkhub.com/#!/~DanielAvivNotario/Graph-ET"
+          },
+          {
+            "label": "Demo",
+            "url": "http://www.youtube.com/watch?v=PkKNALQHa88"
+          }
+        ]
+      },
+      {
+        "title": "MemoryProfiler",
+        "submitter": "Alexandre Bergel, Alejandro Infante, University of Chile / Object Profile, Chile",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://smalltalkhub.com/#!/~ainfante/MemoryProfiler"
+          }
+        ]
+      },
+      {
+        "title": "RackInCloud.com",
+        "submitter": "Mikhail Filonov, rackincloud.com, Russia",
+        "keywords": "hosting, pharo",
+        "links": [
+          {
+            "label": "Demo",
+            "url": "http://youtu.be/oitaxdpsKWk"
+          }
+        ]
+      },
+      {
+        "title": "SecretOffice++",
+        "submitter": "Gia Loc Tran, Secret Concealer Corporation, Canada",
+        "keywords": "smalltalk, security, eavesdropping, hacking, confidentiality, privacy",
+        "links": []
+      },
+      {
+        "title": "Sunburst",
+        "submitter": "Alexandre Bergel, Milton Mamani, Object Profile, Chile",
+        "keywords": "Roassal",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://smalltalkhub.com/#!/~azazael/sunburst"
+          },
+          {
+            "label": "Demo",
+            "url": "http://www.youtube.com/watch?v=2wROImcDLfg"
+          }
+        ]
+      },
+      {
+        "title": "The \"Moldable Debugger\" Framework",
+        "submitter": "Andrei Chis, University of Bern, Switzerland",
+        "keywords": "Smalltalk, debugging, domain-specific tools",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://scg.unibe.ch/research/moldabledebugger"
+          },
+          {
+            "label": "Demo",
+            "url": "https://vimeo.com/73980431"
+          }
+        ]
+      }
+    ]
+  }
+}

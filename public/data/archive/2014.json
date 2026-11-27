@@ -1,0 +1,1638 @@
+{
+  "year": 2014,
+  "city": "Cambridge",
+  "country": "England",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "logoImage": "/images/conference-logos/esug-2014.png",
+  "dayDates": ["2014-08-18", "2014-08-19", "2014-08-20", "2014-08-21", "2014-08-22"],
+  "sideEvents": [
+    {
+      "label": "IWST 2014",
+      "links": [
+        {
+          "label": "Proceedings",
+          "url": "https://archive.esug.org/ESUG2014/IWST/"
+        },
+        {
+          "label": "Videos",
+          "url": "https://www.youtube.com/playlist?list=PLJ5nSnWzQXi-xeYIVRM2kxPbdCtccmNcj"
+        }
+      ]
+    },
+    {
+      "label": "Camp Smalltalk 2014"
+    },
+    {
+      "label": "Conference videos",
+      "url": "https://www.youtube.com/playlist?list=PLJ5nSnWzQXi_6yyRLsMMBqG8YlwfhvB0X"
+    }
+  ],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 18",
+      "sessions": [
+        {
+          "time": "9:15 – 9:45",
+          "subject": "Welcome",
+          "speaker": "ESUG board"
+        },
+        {
+          "time": "9:45 – 10:30",
+          "subject": "Cincom Smalltalk Roadmap",
+          "talkId": "101-thom-cincom-smalltalk-roadmap",
+          "speaker": "Arden Thomas"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 11:15",
+          "subject": "Selfish: a new message send for Smalltalk (Track B)",
+          "talkId": "102-aspi-selfish-new-message-send-smalltalk",
+          "speaker": "John Aspinall"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Tide: A Pharo/Amber communication framework (Track A)",
+          "talkId": "103-lore-tide-pharo-amber-communication-framework",
+          "speaker": "Esteban Lorenzano"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "...a long and winding tODE (Track B)",
+          "talkId": "104-henr-long-winding-tode",
+          "speaker": "Dale Henrichs"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "AppeX: Cincom Smalltalk's next generation web application development framework (Track A)",
+          "talkId": "105-kott-appex-cincom-smalltalks-next-generation",
+          "speaker": "Jerry Kott"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Moose: how to solve real problems without reading code (Track A)",
+          "talkId": "106-girb-moose-how-solve-real-problems",
+          "speaker": "Tudor Gîrba"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Reviving the Notetaker's Smalltalk-78 system (Track B)",
+          "talkId": "107-inga-reviving-notetakers-smalltalk-78-system",
+          "speaker": "Dan Ingalls"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "GLORP for Beginners (tutorial) (Track B)",
+          "talkId": "108-ross-glorp-beginners-tutorial",
+          "speaker": "Niall Ross"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Talking to Robots in Pharo (Track A)",
+          "talkId": "109-bour-talking-robots-pharo",
+          "speaker": "Noury Bouraqadi"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Sense: how adding accessibility in Scratch inspired a forgotten visualisation (Track A)",
+          "talkId": "110-mack-sense-how-adding-accessibility-scratch",
+          "speaker": "Tim Mackinnon"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Phratch: Visual Programming for Grown-ups (Track A)",
+          "talkId": "111-lava-phratch-visual-programming-grown-ups",
+          "speaker": "Jannik Laval"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:30 – 19:00",
+          "subject": "Innovation award presentations",
+          "url": "https://www.youtube.com/watch?v=phnlW1JwNOc"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 19",
+      "sessions": [
+        {
+          "time": "9:00 – 9:45",
+          "subject": "VA Smalltalk Product Update and Roadmap",
+          "talkId": "201-okee-va-smalltalk-product-update-roadmap",
+          "speaker": "John O'Keefe"
+        },
+        {
+          "time": "9:45 – 10:30",
+          "subject": "Interfacing real world systems with the VASERControl home automation",
+          "talkId": "202-stal-interfacing-real-world-systems-vasercontrol",
+          "speaker": "Thomas Stalzer"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 11:15",
+          "subject": "2048! (Track A)",
+          "talkId": "203-thom-2048",
+          "speaker": "Arden Thomas"
+        },
+        {
+          "time": "11:00 – 12:30",
+          "subject": "IWST 2014 workshop (Track B)"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "160 Inches Screen (Track A)",
+          "talkId": "204-fron-160-inches-screen",
+          "speaker": "Annick Fron"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Getting Started with QCMagritte (Track A)",
+          "talkId": "205-egge-getting-started-qcmagritte",
+          "speaker": "Stefan Eggermont"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "IWST 2014 workshop (Track B)"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "SqueakJS: a Practical Squeak in the Web Browser (Track A)",
+          "talkId": "206-freu-squeakjs-practical-squeak-web-browser",
+          "speaker": "Bert Freudenberg"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "SiouX: A modern HTTP server by Cincom Smalltalk (Track A)",
+          "talkId": "207-kott-sioux-modern-http-server-cincom",
+          "speaker": "Jerry Kott"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Mr. Voronyj joins Roassal (Track A)",
+          "talkId": "208-tymc-mr-voronyj-joins-roassal",
+          "speaker": "Natalia Tymchuk"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break (Track B)"
+        },
+        {
+          "time": "15:30 – 17:00",
+          "subject": "Show us your project (Track B)",
+          "url": "https://www.youtube.com/watch?v=keqdqFu1ejk"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 20",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Spur, a new object representation for Cog",
+          "talkId": "301-mira-spur-new-object-representation-cog",
+          "speaker": "Eliot Miranda"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "VirtualCPU: Architecture agnostic low level DSL for Pharo",
+          "talkId": "302-stas-virtualcpu-architecture-agnostic-low-level",
+          "speaker": "Igor Stasenko"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 11:45",
+          "subject": "Pharo 3.0 and Beyond",
+          "talkId": "303-denk-pharo-3-0-beyond",
+          "speaker": "Marcus Denker"
+        },
+        {
+          "time": "11:45 – 12:30",
+          "subject": "JavaScript for VisualWorks Applications",
+          "talkId": "304-klei-javascript-visualworks-applications",
+          "speaker": "Holger Kleinsorgen, Jan Schümmer"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Retrospective: Seven VM Engineering Years",
+          "talkId": "305-vall-retrospective-seven-vm-engineering-years",
+          "speaker": "Andrés Valloud"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Contemporary source control for Pharo",
+          "talkId": "306-lesk-contemporary-source-control-pharo",
+          "speaker": "Max Leske"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Bee Smalltalk RunTime: anchor's aweigh",
+          "talkId": "307-pima-bee-smalltalk-runtime-anchors-aweigh",
+          "speaker": "Javier Pimás"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 21",
+      "sessions": [
+        {
+          "time": "9:00 – 9:45",
+          "subject": "GemStone/S Product Roadmap",
+          "talkId": "401-gree-gemstone-s-product-roadmap",
+          "speaker": "Norm Green"
+        },
+        {
+          "time": "9:45 – 10:30",
+          "subject": "Sista: Improving Cog's JIT performance with adaptive optimizations",
+          "talkId": "402-bera-sista-improving-cogs-jit-performance",
+          "speaker": "Clément Béra"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Voyage by example",
+          "talkId": "403-lore-voyage-example",
+          "speaker": "Esteban Lorenzano"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "Advanced Glorp: round-trip refactoring of a GLORP application (Track B)",
+          "talkId": "404-ross-advanced-glorp-round-trip-refactoring",
+          "speaker": "Niall Ross"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "DFlow: An interaction profiler for Pharo (Track A)",
+          "talkId": "405-mine-dflow-interaction-profiler-pharo",
+          "speaker": "Roberto Minelli"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "GemStone/S Indexed Collection Primer (Track A)",
+          "talkId": "406-henr-gemstone-s-indexed-collection-primer",
+          "speaker": "Dale Henrichs"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Working with objects in computer and mind (Track B)",
+          "talkId": "407-reen-working-objects-computer-mind",
+          "speaker": "Trygve Reenskaug"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "Sophisticated Web Applications with Seaside (tutorial) (Track B)",
+          "talkId": "408-bric-sophisticated-web-applications-seaside-tutorial",
+          "speaker": "Johan Brichau"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Nomads do not build Cathedrals or: The Power of Incremental Progress (Track A)",
+          "talkId": "409-denk-nomads-do-not-build-cathedrals",
+          "speaker": "Marcus Denker"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Shoreline: Bugs, the Smalltalk Way (Track A)",
+          "talkId": "410-sass-shoreline-bugs-smalltalk-way",
+          "speaker": "Tommaso Dal Sasso"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Bee Smalltalk Project Libraries (Track A)",
+          "talkId": "411-cani-bee-smalltalk-project-libraries",
+          "speaker": "Leandro Caniglia"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 17:00",
+          "subject": "Show us your project / business"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 22",
+      "sessions": [
+        {
+          "time": "9:00 – 9:45",
+          "subject": "Designing for Developer Experience",
+          "talkId": "501-girb-designing-developer-experience",
+          "speaker": "Tudor Gîrba"
+        },
+        {
+          "time": "9:45 – 10:30",
+          "subject": "Painting with Roassal2",
+          "talkId": "502-berg-painting-roassal2",
+          "speaker": "Alexandre Bergel"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Bee Charts Framework (Track B)",
+          "talkId": "503-amar-bee-charts-framework",
+          "speaker": "Guillermo Amaral"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "GTInspector hands-on (Track A)",
+          "talkId": "504-girb-gtinspector-hands",
+          "speaker": "Tudor Gîrba, Andrei Chiş"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "Raspberry Playgrounds (Track A)",
+          "url": "https://archive.esug.org/ESUG2014/5%20friday/1130-1200%20Pharo%20ARM%20status/PharoArm.pdf"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "ViDI: The Visual Design Inspector (Track B)",
+          "talkId": "505-tymc-vidi-visual-design-inspector",
+          "speaker": "Yuriy Tymchuk"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Pushing the VA Smalltalk Editor Onward and Upward (Track B)",
+          "url": "https://archive.esug.org/ESUG2014/5%20friday/1200-1230-VA-Editor/Pushing%20the%20VA%20Smalltalk%20Editor%20Onward%20and%20Upward-ESUG2014.pdf"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Scratching the itch: making Scratch for the Raspberry Pi (Track A)",
+          "talkId": "506-rowl-scratching-itch-making-scratch-raspberry",
+          "speaker": "Tim Rowledge"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch break"
+        }
+      ]
+    }
+  ],
+  "iwstProgram": [
+    {
+      "id": "iwst-day-1",
+      "label": "Track 1 (FW11)",
+      "sessions": [
+        {
+          "time": "11:00 – 12:30",
+          "subject": "Session 1A"
+        },
+        {
+          "time": "",
+          "subject": "A bytecode set for adaptive optimizations",
+          "speaker": "Clément Béra, Eliot Miranda",
+          "url": "https://www.youtube.com/watch?v=e9J362QHwSA"
+        },
+        {
+          "time": "",
+          "subject": "Top-Down Parsing with Parsing Contexts",
+          "speaker": "Jan Kurš, Mircea Lungu, Oscar Nierstrasz",
+          "url": "https://www.youtube.com/watch?v=vJOvU1V5hZ4"
+        },
+        {
+          "time": "",
+          "subject": "Bee Smalltalk runtime",
+          "speaker": "Javier Pimás, Javier Burroni, Gerardo Richarte"
+        },
+        {
+          "time": "",
+          "subject": "Reviving Smalltalk-78",
+          "speaker": "Dan Ingalls, Bert Freudenberg, Ted Kaehler, Yoshiki Ohshima, Alan Kay",
+          "url": "https://www.youtube.com/watch?v=AUZQemqQphg"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "Session 2A"
+        },
+        {
+          "time": "",
+          "subject": "Tracking dependencies between code changes",
+          "speaker": "Lucas Godoy, Damien Cassou, Stéphane Ducasse",
+          "url": "https://www.youtube.com/watch?v=XWHq4IQ7gIQ"
+        },
+        {
+          "time": "",
+          "subject": "Towards a new package dependencies model",
+          "speaker": "Christophe Demarey, Damien Cassou, Stéphane Ducasse",
+          "url": "https://www.youtube.com/watch?v=OkDOiGZ8R1E"
+        },
+        {
+          "time": "",
+          "subject": "Modern Problems for the Smalltalk VM",
+          "speaker": "Boris Shingarov",
+          "url": "https://www.youtube.com/watch?v=V4CVp77yhUo"
+        },
+        {
+          "time": "",
+          "subject": "An extensible constraint-based type inference algorithm for object-oriented dynamic languages supporting blocks and generic types",
+          "speaker": "Nicolás Passerini, Pablo Tesone, Stéphane Ducasse",
+          "url": "https://www.youtube.com/watch?v=hwUOwpidp0A"
+        }
+      ]
+    },
+    {
+      "id": "iwst-day-2",
+      "label": "Track 2 (FW26)",
+      "sessions": [
+        {
+          "time": "11:00 – 12:30",
+          "subject": "Session 1B"
+        },
+        {
+          "time": "",
+          "subject": "Benzo: Reflective Glue for Low-level Programming",
+          "speaker": "Camillo Bruni, Guido Chari, Stéphane Ducasse, Igor Stasenko"
+        },
+        {
+          "time": "",
+          "subject": "Understanding Pharo's global state to move programs through time and space",
+          "speaker": "Guillermo Polito, Noury Bouraqadi, Stéphane Ducasse, Luc Fabresse"
+        },
+        {
+          "time": "",
+          "subject": "Live Programming the Lego Mindstorms",
+          "speaker": "Johan Fabry, Miguel Campusano"
+        },
+        {
+          "time": "",
+          "subject": "From Smalltalk to Silicon: Towards a methodology to turn Smalltalk code into FPGA",
+          "speaker": "Xuan Sang Le, Loïc Lagadec, Noury Bouraqadi, Luc Fabresse, Jannik Laval"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "Session 2B"
+        },
+        {
+          "time": "",
+          "subject": "Towards agile cross-platform application development with Smalltalk and Model Driven Engineering",
+          "speaker": "Glenn Cavarlé, Alain Plantec, Vincent Ribaud, Christophe Touze"
+        },
+        {
+          "time": "",
+          "subject": "The Moldable Inspector: A framework for domain-specific object inspection",
+          "speaker": "Andrei Chiş, Tudor Gîrba, Oscar Nierstrasz"
+        },
+        {
+          "time": "",
+          "subject": "Embedding Multiform Time Constraints in Smalltalk",
+          "speaker": "Ciprian Teodorov"
+        },
+        {
+          "time": "",
+          "subject": "Reducing Waste in Expandable Collections: The Pharo Case",
+          "speaker": "Alexandre Bergel, Alejandro José Infante Rica, Juan Pablo Sandoval Alcocer",
+          "url": "https://www.youtube.com/watch?v=x0YJ2dsZdKg"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-thom-cincom-smalltalk-roadmap": {
+      "title": "Cincom Smalltalk Roadmap",
+      "videoId": "jR_SBtuWykg",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/1%20monday/0945-1030%20Cincom/CincomRoadmapESUG2014.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/cincom-roadmap-esug2014",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In this presentation, Arden Thomas, the Product Manager for Cincom Smalltalk, will discuss recent, current, and future product changes and developments for Cincom's ObjectStudio and VisualWorks."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Arden Thomas started using Smalltalk in 1986, when he was researching and exploring better ways to do software development. He found it! Smalltalk and object-oriented were such a profoundly improved approach to software development, that he made a full commitment to using Smalltalk. Arden used Smalltalk in his post-graduate work thesis and projects. Arden has worked with Smalltalk for IBM, Parcplace Systems, ParcPlace-Digitalk, ObjectShare, and a hedge fund in a number of capacities including; developer, trainer, architect, consultant, and sales SE. Arden is currently the Cincom Smalltlalk product manager managing Cincom’s ObjectStudio and VisualWorks products."
+          }
+        ],
+        [
+          {
+            "text": "Arden has a blog titled \"Less is More\" which is an interesting principle, as well as a reference to an attractive design philosophy of Smalltalk."
+          }
+        ],
+        [
+          {
+            "text": "When not working with Cincom Smalltalk, Arden can be found doing cycling, crossfit, coaching soccer, officiating at swim meets, or attending events involving his children."
+          }
+        ],
+        [
+          {
+            "text": "Slides: http://www.slideshare.net/esug/cincom-roadmap-esug2014"
+          }
+        ]
+      ]
+    },
+    "102-aspi-selfish-new-message-send-smalltalk": {
+      "title": "Selfish: a new message send for Smalltalk",
+      "videoId": "sjw4D9RZ9I8",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/1%20monday/1100-1130-Selfish/selfish%20-%20a%20new%20method%20send%20for%20Smalltalk.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/selfish-a-new-method-send-for-smalltalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This presentation is a combination of experience report and a not-entirely-serious (but also not-entirely-silly) suggestion for a new type of method send for Smalltalk."
+          }
+        ],
+        [
+          {
+            "text": "The presentation begins with a description of the implementation of a new form of Method Overrides for Cincom's VisualWorks Smalltalk. In this case \"Overrides\" refers to the replacement of one implementation of a method by another from an alternative package (Cincom's terminology for their own equivalent functionality). For reasons that will be explained, the standard Cincom implementation of overrides was not suitable for this particular project."
+          }
+        ],
+        [
+          {
+            "text": "The presentation describes the advantages of this alternative implementation and a potential complication which was solved by the addition of a new type of method send - the \"selfish\" send. The purpose and implementation of the selfish send is the main focus of the presentation."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "I have been working with Smalltalk since 1992, initially in academia and subsequently in a variety of employed and self-employed positions, covering all major commercial Smalltalk dialects. From 2000 to 2005 I ran my own company creating bespoke systems for SMEs using Dolphin Smalltalk; this led me to develop a number of tools and frameworks for Dolphin, most notably ReStore, an active record-style relational database interface. Since 2005 I have been employed at JPMorgan on their Kapital system, one of the largest and most long-lived commercial Smalltalk systems."
+          }
+        ]
+      ]
+    },
+    "103-lore-tide-pharo-amber-communication-framework": {
+      "title": "Tide: A Pharo/Amber communication framework",
+      "videoId": "pFtTCZn10Ak",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/1%20monday/1115-1130%20Tide(pharo%20amber%20communication)/ESUG2014%20-%20Tide.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/esug2014-tide",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Tide is a new framework with the mission to make Pharo/Amber communication a breeze. It handles iteration with the server in a unified and coherent way, making easy the complexity client/server communication."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Esteban Lorenzano, 42 years. Programmer since ever, Full-time Smalltalker since 2007 and Pharo enthusiast since almost its every beginning, after owning his own company and spend some years teaching at different universities in Argentina, he currently works de development of Pharo itself, at the RMoD team of INRIA (France)"
+          }
+        ]
+      ]
+    },
+    "104-henr-long-winding-tode": {
+      "title": "...a long and winding tODE",
+      "videoId": "P1DDt_RTXzs",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/1%20monday/1130-1200-tODE/aLongAndWindingTode_ESUG2014%2007.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/a-longandwindingtode-esug2014-07",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "tODE (the Object-centric Development Environment) has been under development by Dale for several years. Originally written to run in a web-browser, the current version of tODE runs with a Pharo3.0 client against a GemStone/S 3.x server. In addition to the unique windowing environment and Smalltalk-based scripting shell, tODE now features fully integrated support for git-based development and a novel interface to the file system. The new interface extends the object space beyond the bounds of the image and onto the file system where objects and scripts can be shared between images and users. In this talk, Dale will describe and demonstrate the newest features."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Dale has been working in Smalltalk since 1985 when he developed an internal application on the Tektronix 4404. The internal application was used at Tektronix for at least 25 years and may still be in use today! Since 1985 he has been lucky enough to work in Smalltalk nearly full-time, spending the last 15 years at GemStone give or take a couple of years."
+          }
+        ]
+      ]
+    },
+    "105-kott-appex-cincom-smalltalks-next-generation": {
+      "title": "AppeX: Cincom Smalltalk's next generation web application development framework",
+      "videoId": "YmQXVnB9BO4",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/1%20monday/1130-1200%20Web%20Presentation%20of%20Cincom/2014-08-17-ESUG2014-AppeX.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/2014-0817esug2014appe-x",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Jerry Kott of Cincom Systems will demonstrate building a web application that can be accessed live by the workshop participants. The application will be created using AppeX, Cincom’s new web development framework."
+          }
+        ],
+        [
+          {
+            "text": "Workshop participants will learn how to remotely manage a SiouX HTTP server, and how to build a ‘starter’ HTML page. Using several different web application scenarios, Jerry will show the participants how to integrate a 3rd party Javascript library in an AppeX web application, how to activate web session management, and how Server-Sent Events (SSE) are used in AppeX to provide server to client event notification. As a final step, the web application will be augmented to support off-line access from mobile devices."
+          }
+        ],
+        [
+          {
+            "text": "The workshop will include a live demo showing key features of AppeX with live examples."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Jerry Kott has been a senior software engineer with Cincom Systems since 2008 and is currently working on the Cincom® VisualWorks® HTTP server named “SiouX” as well as “AppeX”—a new Web application development framework built on top of the SiouX server. Both are components of the Cincom Smalltalk™ Foundation."
+          }
+        ]
+      ]
+    },
+    "106-girb-moose-how-solve-real-problems": {
+      "title": "Moose: how to solve real problems without reading code",
+      "videoId": "mikD2tPrA5w",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/1%20monday/1200-1230-Girba/moose-how-to-solve-real-problems-without-reading-code.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/moose-how-to-solve-real-problems-without-reading-code-38452524",
+      "bioParagraphs": [
+        [
+          {
+            "text": "Tudor Gîrba attained his PhD from the University of Berne, and he now works as team and innovation lead at CompuGroup Medical Schweiz, and as an independent consultant. He leads the work on Moose, a smart open-source platform for software and data analysis (http://moosetechnology.org) and he is part of the board of Pharo, the new cool kid on the object-oriented languages arena (http://pharo.org). He developed the humane assessment method (http://humane-assessment.com), and he is helping companies to rethink the way they manage software systems. To demystify innovation, he also developed the demo-driven innovation method (http://demodriven.com) as a combination of design thinking, idea prototyping and storytelling. In 2014, he won the prestigious Dahl-Nygaard Junior Award (http://aito.org) for his work on modeling and visualization of evolution and interplay of large numbers of objects."
+          }
+        ]
+      ]
+    },
+    "107-inga-reviving-notetakers-smalltalk-78-system": {
+      "title": "Reviving the Notetaker's Smalltalk-78 system",
+      "videoId": "pTh65b8qSY8",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Smalltalk-78 was an interesting Sweet Spot on the way towards Smalltalk-80. It had the Smalltalk-76 bytecode kernel, and used BitBlt as its graphics kernel exclusively for the first time. Without blocks and meta classes it is an interesting contrast to current Smalltalks. We build a VM to run the Notetaker version in a web browser. It runs faster than the original, and with our extensions (including an http-based update stream) became a quite usable and enjoyable system."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Dan was the original designer of the Smalltalk--78 and -80 virtual machine and kernel class library. He is now a principal investigator in the Communications Design Group at SAP Labs. The Smalltalk-78 revival is a collaboration with Bert Freudenberg, Ted Kaehler, Yoshiki Ohshima, and Alan Kay."
+          }
+        ],
+        [
+          {
+            "text": "Experience it in your browser: http://lively-web.org/users/bert/Smalltalk-78.html"
+          }
+        ]
+      ]
+    },
+    "108-ross-glorp-beginners-tutorial": {
+      "title": "GLORP for Beginners (tutorial)",
+      "videoId": "25S6cSYgh34",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/1%20monday/1400-1500-Glorp/GlorpTutorialTalk-ESUG2014-0.1.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/glorp-tutorial-talk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The target audience for this hands-on tutorial is those with little or no Glorp experience (but more experienced people willing to pair-program with beginners are most welcome). The tutorial will help them to start using in Glorp in their own applications."
+          }
+        ],
+        [
+          {
+            "text": "Participants will create a simple Glorp descriptor system for a domain model. They will generate a database from it, incorporating some existing legacy. They will write and read between the database and their domain model using Glorp commands. The issues of transactions, caching and refreshing will be addressed."
+          }
+        ]
+      ]
+    },
+    "109-bour-talking-robots-pharo": {
+      "title": "Talking to Robots in Pharo",
+      "videoId": "lbwJVNdkJ9c",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/1%20monday/1400-1430%20Talking%20to%20Robots%20in%20Pharo/bouraqadiFabresseLavalEsug2014.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In the CAR team at Ecole des Mines de Douai (Lille Area, Northern France), we study mobile and autonomous robotics from two complementary perspectives: Software Engineering (SE) and Artificial Intelligence (AI). From the SE perspective, we study software architectures, infrastructures and tools for controlling individual robots. We focus on reflective and dynamic languages, as well as component models, for a modular and agile development of robotic software architectures. From the AI perspective, we study coordination and cooperation in robotic fleets. We mainly focus on communication models as well as emerging or predefined organizations for multi-agent robotic systems. In this presentation we will give an overview of some of our recent Smalltalk-based solutions we have been developping for both single robots and multi-robot fleets. We illustrate each contribution with experiments we have been conducting that iillustrate targeted applications."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Dr. Noury Bouraqadi is a permanent associate professor at the Ecole des Mines de Douai. He earned a PhD degree in Software Engineering from the University of Nantes (France) in 1999, while he was working as an independent software developer. In 2001, he joined the Ecole des Mines de Douai where he introduced mobile robotics as a central topic for the CAR (Components, Agents and Robotics, http://car.mines-douai.fr) research team."
+          }
+        ]
+      ]
+    },
+    "110-mack-sense-how-adding-accessibility-scratch": {
+      "title": "Sense: how adding accessibility in Scratch inspired a forgotten visualisation",
+      "videoId": "NZP75L1w6To",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/1%20monday/1430-1500%20How%20adding%20accessibility%20in%20Scratch%20inspired%20a%20forgotten%20visualisation/ESUG%202014-T%20Mackinnon%20OU%20Sense.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/sense-an-alternative-visualisation",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "For several years, a prominent UK educational institution has been using a Scratch derivative to successfully teach adults how to program. Using a unique blend of interesting exercises based around a physical hardware board, they have inspired many adults to learn more about programming. Keen to allow more students to participate in the course, they commissioned a software simulator for their board which also emphasised improving the accessibility of the programming experience with keyboard input and sound output for the various UI elements. Due to the perceived age of the Squeak environment, bids for this work were considered in any language (using sockets and the remote sensor protocol), however I was able to show that the original Squeak Smalltalk environment was more than capable of delivering a sophisticated and elegant solution. Furthermore, while completing this work, I was very impressed with the possibilities that the accessibility features provided even to sighted students, and experimented using them to discover programming issues as well as program optimisations. In this session I will show some the coding challenges I faced, how I built an automated build environment, and demonstrate the potential of the accessibility features even in sighted programming. I will also show how trial usage using these techniques led to a surprising observation that resulted in a complementary and more efficient event mechanism."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Tim Mackinnon pioneered the use of eXtreme Programming (XP) in the UK in early 1999, and created one of the longest running XP teams at Connextra. Drawing from his prior experience of using Smalltalk, he co-invented Mock Objects, Gold Cards, and many retrospective practices. He is also the co-founder of XTC – a group that continues to inspire developers to share experiences with XP, Agile and software development, and which also organises the successful XPDay conferences. Tim now works with morethan.technology and provides targeted agile consulting at the management/board level, as well as advising software teams on the successful use of leadership, agile, and software development techniques."
+          }
+        ]
+      ]
+    },
+    "111-lava-phratch-visual-programming-grown-ups": {
+      "title": "Phratch: Visual Programming for Grown-ups",
+      "videoId": "eq_Eh0xMLJw",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/1%20monday/1500-1530%20Phratch%20Visual%20Programing%20for%20grown%20ups/phratch.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/phratch-visual-programming-for-grownups",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Phratch is a visual programming language based on a jigsaw puzzle on top of Pharo. More than just an overlay, the goal of Phratch is to bring closer the visual blocks and the Smalltalk language. Phratch is highly extensible, which makes it easy to implement new blocks and new features. This presentation will show you the new cool features included in Phratch, and how it is simple to create your how features. We also report real use of Phratch for teaching programming to undergraduate students at Ecole des Mines de Douai."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Jannik Laval is an associate professor at Mines-Telecom Institute, Mines Douai, France, since 2012. He received the doctorate degree in computer science from the University Lille 1, France, in June 2011. He works on software engineering for embedded systems, and more particularly on modularity and tools for multi-robot systems. He is a contributor of the Pharo platform, an innovative and open-source software development environment. He is the main maintainer of Phratch, a visual programing language. More information is available at www.jannik-laval.eu"
+          }
+        ]
+      ]
+    },
+    "201-okee-va-smalltalk-product-update-roadmap": {
+      "title": "VA Smalltalk Product Update and Roadmap",
+      "videoId": "YpPFNJth-fo",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/2%20tuesday/0900-0945%20VA%20Smalltalk/VA%20Smalltalk%20Update-ESUG2014.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/va-smalltalk-update-esug2014",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Another year has passed and, as ESUG 2014 approaches, I have a lot of information to share about the progress being made on the VA Smalltalk product. During this last year, our engineering team members have all been hard at work refreshing the product with new features as well as upgrading some of the old ones. I will have some exciting new capabilities to show together with the “Roadmap to the Future” for VA Smalltalk."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "I have been in software development for over 45 years. I joined the original IBM Smalltalk prototype team in 1990 and was a founding member of the IBM VisualAge Smalltalk development team. I was Team Lead and Chief Architect of IBM VisualAge Smalltalk from 1997 to 2007. In February 2007, I joined Instantiations to lead the VA Smalltalk development team. I am currently the CTO and Principal Smalltalk Architect focusing on future product architecture and development. I live in Durham, NC and work in Raleigh, NC."
+          }
+        ]
+      ]
+    },
+    "202-stal-interfacing-real-world-systems-vasercontrol": {
+      "title": "Interfacing real world systems with the VASERControl home automation",
+      "videoId": "b6NpDAg5CqQ",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/2%20tuesday/0945-1030%20VASERControl/vaserControl_black.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/interfacing-the-real-world-with-the-vasercontrol-home-automation-system",
+      "bioParagraphs": [
+        [
+          {
+            "text": "Thomas Stalzer has been working with Smalltalk for more than 25 years. He played a major part in several large scale applications defining the architecture and implementing the frameworks needed to ensure the success of these applications. After renovating his home in 2006, he found the need for a powerful platform to integrate various Smarthome systems into one platform."
+          }
+        ]
+      ]
+    },
+    "203-thom-2048": {
+      "title": "2048!",
+      "videoId": "0-C5TpxUlC4",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/2%20tuesday/1100-1130%202048/2048CincomSmalltalkContest.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/2048-cincomsmalltalkcontest",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This presentation will discuss the game of 2048; how it is played, as well as design, implementation and playing strategies."
+          }
+        ],
+        [
+          {
+            "text": "This project was created to serve as a fun introduction to Smalltalk for those new to Smalltalk, while presenting challenges to experienced Smalltalk developers. The idea to challenge developers resulted in the Cincom 2048 contest. The winners of the contest will be announced at ESUG."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Arden Thomas started using Smalltalk in 1986, when he was researching and exploring better ways to do software development. He found it! Smalltalk and object-oriented were such a profoundly improved approach to software development, that he made a full commitment to using Smalltalk. Arden used Smalltalk in his post-graduate work thesis and projects. Arden has worked with Smalltalk for IBM, Parcplace Systems, ParcPlace-Digitalk, ObjectShare, and a hedge fund in a number of capacities including; developer, trainer, architect, consultant, and sales SE. Arden is currently the Cincom Smalltlalk product manager managing Cincom’s ObjectStudio and VisualWorks products."
+          }
+        ],
+        [
+          {
+            "text": "Arden has a blog titled \"Less is More\" which is an interesting principle, as well as a reference to an attractive design philosophy of Smalltalk."
+          }
+        ],
+        [
+          {
+            "text": "When not working with Cincom Smalltalk, Arden can be found doing cycling, crossfit, coaching soccer, officiating at swim meets, or attending events involving his children."
+          }
+        ]
+      ]
+    },
+    "204-fron-160-inches-screen": {
+      "title": "160 Inches Screen",
+      "videoId": "Z-XVeVJTHwA",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/2%20tuesday/1130-1200%20160%20inches%20screen/SmalltalkXXL.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/smalltalk-xxl",
+      "bioParagraphs": [
+        [
+          {
+            "text": "One of the founders of ESUG, Annick Fron has been involved in Smalltalk for 20 years, but has also written a book on Distributed Java and done extensive programming in Java."
+          }
+        ]
+      ]
+    },
+    "205-egge-getting-started-qcmagritte": {
+      "title": "Getting Started with QCMagritte",
+      "videoId": "mKZUhPNWFyI",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/2%20tuesday/1200-1230%20QCMagritte/GettingStartedWithQCMagritte.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/getting-started-with-qcmagritte",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Magritte provides a nice way to describe your domain model and quickly build web components for your web application. QCMagritte offers you a.o. integration of Ajax, Bootstrap, user registration and dynamic support for multiple languages. Bring a laptop and see how to build a well-structured working web application in an hour."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Stefan Eggermont is an independent consultant and software developer. He is interested in ways to make software development better and (even) more fun. He likes helping teams in becoming more able to add value to their organizations. After programming for 15 years, he discovered Seaside and Smalltalk and found out that there was a reasonable way to develop web applications after all. He also does Technology Roadmapping to help organizations realize and visualize their future(s)."
+          }
+        ]
+      ]
+    },
+    "206-freu-squeakjs-practical-squeak-web-browser": {
+      "title": "SqueakJS: a Practical Squeak in the Web Browser",
+      "videoId": "-E97dFmZafs",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "SqueakJS is a Squeak VM implemented in pure JavaScript, running in any web browser, even on mobile devices. It can load, execute, and save regular Squeak images, and we are working on making it as feature-complete and performant as possible. SqueakJS was developed inside the Lively Kernel, which made implementing it more fun and enabled better debugging facilities than usual for VM development. For the code and demo see https://github.com/bertfreudenberg/SqueakJS/"
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Bert Freudenberg is a freelancing developer based in Magdeburg, Germany. Currently he is working with the Communications Design Group at SAP Labs. He is a long-time Squeak contributor and elected Squeak Board member since 2006."
+          }
+        ]
+      ]
+    },
+    "207-kott-sioux-modern-http-server-cincom": {
+      "title": "SiouX: A modern HTTP server by Cincom Smalltalk",
+      "videoId": "penLl8RJvs4",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/2%20tuesday/1430-1500%20SiouX%20-%20A%20modern%20HTTP%20server%20by%20Cincom%20Smalltalk/2014-08-ESUG2014.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/2014-08esug2014",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In this presentation, Cincom engineer Jerry Kott will present an architectural overview, do a configuration walkthrough of Cincom VisualWorks’s HTTP server named ‘SiouX’, and demonstrate the new web application development framework named ‘AppeX’. SiouX and AppeX are built in our Cincom Smalltalk foundation and work in both Cincom ObjectStudio and VisualWorks."
+          }
+        ],
+        [
+          {
+            "text": "With the upcoming release of VisualWorks 8.0 foundation, Cincom is providing new tools to enhance a developers' ability to develop rich behavior web applications. SiouX is a light-weight, high performance HTTP server with native streaming support. It is now the underlying server for all VisualWorks web components, replacing multiple servers. SiouX’s flexibility and scalability allows the easy integration of Seaside, Web Services and other web technologies all running on the same server."
+          }
+        ],
+        [
+          {
+            "text": "Example applications that will be included in VisualWorks 8.0 will be used to demonstrate the different aspects of server configuration and integration of diverse applications in a single VW image."
+          }
+        ],
+        [
+          {
+            "text": "AppeX is Cincom’s new application development framework for the web. AppeX is built on top of the SiouX server and supports seamless writing of object-oriented Javascript code inside Cincom Smalltalk IDE’s, as well as automatic session management and server event notification with Server-Sent Events (SSE). The presentation will discuss key features of AppeX, using ServerMonitor, the web-based SiouX management tool, as an example."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Jerry Kott has been a senior software engineer with Cincom Systems since 2008 and is currently working on the Cincom® VisualWorks® HTTP server named “SiouX” as well as “AppeX”—a new Web application development framework built on top of the SiouX server. Both are components of the Cincom Smalltalk™ Foundation."
+          }
+        ],
+        [
+          {
+            "text": "Prior to joining Cincom, Jerry worked as a Smalltalk consultant in a variety of industries including finance, insurance, telecommunications, manufacturing and entertainment. Throughout his career, Jerry has used most of the Smalltalk dialects. He first met Smalltalk/V in his native Czechoslovakia in 1988 while writing his masters theses at the Faculty of Mathematics and Physics, Charles University of Prague. The political upheaval of 1988/1989 led Jerry to leave Czechoslovakia, and after a year in Austria, his family settled in Canada. While working as a programmer analyst at the Toronto Dominion Bank, he was reintroduced to Smalltalk in 1993—this time with the intent of staying with it for good. Jerry’s recollection of his falling in love with Smalltalk can be summed up like this:"
+          }
+        ],
+        [
+          {
+            "text": "Day one: This is weird, no source code file? Day two: This is interesting; I can inspect live objects and send messages to them! Day three: This is great! I never want to use any other language!"
+          }
+        ],
+        [
+          {
+            "text": "When not programming in Smalltalk, Jerry is involved in making independent films as a Cinematographer. He also occasionally dabbles as an associate producer and assistant director. He received a cinematography award for the lighting and lensing of Jackhammer—a slapstick comedy from the world of male adult entertainment (it’s not what most people think). The film was produced locally in Victoria, British Columbia, Canada and featured a host of international talent including Jamie Kennedy, Rob Wells and Pamela Anderson. The film was recently screened at the Cinerockom International Film Festival in Cannes, France."
+          }
+        ],
+        [
+          {
+            "text": "Jerry is an active member of Juan de Fuca Search and Rescue, which is a volunteer emergency response team that services the rugged western coastline of Vancouver Island. He lives in Victoria, British Columbia with his wife, five chickens and approximately 120,000 bees."
+          }
+        ]
+      ]
+    },
+    "208-tymc-mr-voronyj-joins-roassal": {
+      "title": "Mr. Voronyj joins Roassal",
+      "videoId": "IUpndOXOsnY",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/2%20tuesday/1500-1530%20Mr.%20Voronyj%20joins%20Roassal/PresVoronyjDiagram.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/mr-voronyj-joins-roassal",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Voronyj (Voronoi) diagrams are being used for more than 300 years in epidemiology, architecture, mining and machine learning. Now we not only provide the support for it in Roassal 2, but also suggest an approach to visualize a software with voronyj diagrams."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Last summer Natalia Timchuk worked on the project “SciSmalltalk - Ordinary Differential Equations Solver” in GSoC. She got my masters degree in math. And now she is pplying in University of Lugano for a PhD position. I'm working on Voronyj Diagram builder for Roassal (as my pre-PhD project by Michele Lanza). She plans to participate with this project in ObjectProfile's roassal contest."
+          }
+        ]
+      ]
+    },
+    "301-mira-spur-new-object-representation-cog": {
+      "title": "Spur, a new object representation for Cog",
+      "videoId": "k0nBNS1aHZ4",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/3%20wednesday/0900-1000%20Spur/EliotMirandaSpur.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/spur-a-new-object-representation-for-cog",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Spur is a new object representation and memory manager for the Cog VM. The object representation includes immediate characters and its simplicity allows Cog's JIT to implement many more operations, resulting in a faster VM. The object representation is designed to share the object header and the majority of the memory management code between 32-bit and 64-bit versions. Spur has two features new to Squeak/Pharo, the ability to grow and shrink memory via segments, and the ability to pin objects in memory. Spur has one altogether novel feature, a partial read barrier, which takes advantage of Smalltalk's message sending to provide lazy forwarding, which allows the system to implement become efficiently while retaining the speed advantages of direct pointers. This talk will explain these features with minimal manifestation of machine code on the slides and, for this author, plenty of pleasing pictures."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Eliot Miranda is a long-time Smalltalk systems programmer and virtual machine architect. He started his technical life developing holographic optics for bubble chamber physics, in so doing discovering a love of computing. His early work, started while a student at York University, produced the BrouHaHa series of virtual machines. These were Smalltalk-80 interpreters and threaded code JITs, written in C. While at Queen Mary College in the University of London he was involved in applying these implementations to prototyping what-you-see-is-what-i-see interfaces for IBM and to implementing the bulk of the software for the Active Book, a very early ARM-based tablet computer. He was virtual machine lead and then technical lead for VisualWorks for a decade at ParcPlace and its successors, before joining Cadence where he helped adapt Squeak to implement Newspeak. He then joined Qwaq, the company applying Croquet to business communications, where he implemented Cog. He is now back at Cadence in a team applying Cog and Newspeak to SoC design support. He is currently enjoying collaborating with a number of people on Cog-related projects, not least of which is an adaptive optimization system for Pharo/Squeak called Sista."
+          }
+        ]
+      ]
+    },
+    "302-stas-virtualcpu-architecture-agnostic-low-level": {
+      "title": "VirtualCPU: Architecture agnostic low level DSL for Pharo",
+      "videoId": "2tY3p3Pk-Lc",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/3%20wednesday/1000-1030%20VirtualCpu/VirtualCPU-ESUG2014.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/virtual-cpu",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "VirtualCpu models a machine in its basic form: a CPU which operates on machine words. The aim of the project is to create a architecture agnostic DSL, which would allow developers to write low-level code, which then can be translated to machine code and executed directly by machine it runs on. One of the aspects of design is to exploit the robustness and reflectiveness of smalltalk environment to make it extremely easy and natural to write low-level code and enable regular smalltalk developers to use it without need to have deep knowledge in low-level assembler, which considered by most as an arcane art. Another aspect is to provide a platform for debugging the low-level code through using a simulation, so that user can execute operations step by step and see the effect(s) in plain smalltalk debugger."
+          }
+        ],
+        [
+          {
+            "text": "The project currently is in active development and going to support x86 and ARM architectures (and new architecture(s) should be easy to implement). Also, it is possible to simulate the low-level code execution by using a special simulating CPU, written entirely in smalltalk, and therefore not requiring to run machine code."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Igor Stasenko born in 1974 in Kiev, Ukraine. Since '85 i fell in love with computers and programming and dedicated my life and career towards exploring, learning and creating new software using what i learned. I am a software engineer, currently working at INRIA, France."
+          }
+        ]
+      ]
+    },
+    "303-denk-pharo-3-0-beyond": {
+      "title": "Pharo 3.0 and Beyond",
+      "videoId": "_Mv7SX-8Vlk",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/3%20wednesday/1100-1145%20Pharo%203%20and%20Beyond/2014-ESUG-Pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/pharo-status-esug-2014-38480722",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In this talk we will present the advances and new features in Pharo 3.0. We will present the current work on Pharo 4.0 and beyond. We will also present our new work around the Pharo consortium."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Stephane is directeur de recherche at Inria. He is scientific deputee of the Inria Lille Nord Europe lab where he leads the RMoD (http://rmod.lille.inria.fr) team. He is expert in two domains: object-oriented language design and reengineering. He worked on traits, composable groups of methods, and this work got some impact. Traits have been introduced in AmbiantTalk, and Squeak/Pharo, Perl, PHP and under a variant into Scala, Fortress of SUN Microsystems. He is one of the developer of Pharo http://www.pharo.org/ a new dynamic language used in industry and academia. He is also expert on software quality, program understanding, program visualizations, reengineering and metamodeling. He is one of the developer of Moose, an open-source software analysis platform http://www.moosetechnology.org/. He is working with http://www.synectique.eu/ a company building dedicated tools for advanced software analysis."
+          }
+        ],
+        [
+          {
+            "text": "Marcus Denker is a permanent researcher (CR1, with tenure) at INRIA Lille - Nord Europe. Before, he was a postdoc at the PLEIAD lab/DCC University of Chile and the Software Composition Group, University of Bern. His research focuses on reflection and meta-programming for dynamic languages. He is an active participant in the Squeak and Pharo open source communities for many years. Marcus Denker received a PhD in Computer Science from the University of Bern/Switzerland in 2008 and a Dipl.-Inform. (MSc) from the University of Karlsruhe/Germany in 2004. He is a member of ACM, GI, and IEEE and a board-member of ESUG."
+          }
+        ],
+        [
+          {
+            "text": "Slides: http://www.slideshare.net/esug/pharo-status-esug-2014-38480722 http://www.slideshare.net/esug/2014-pharo-consortiumfornonpharoers-38480763"
+          }
+        ]
+      ]
+    },
+    "304-klei-javascript-visualworks-applications": {
+      "title": "JavaScript for VisualWorks Applications",
+      "videoId": "ZGAMCz62OM0",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/3%20wednesday/1145-1230%20JavaScript%20for%20VW/JavaScript-Engine.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/java-script-engine",
+      "bioParagraphs": [
+        [
+          {
+            "text": "Holger Kleinsorgen and Jan Schümmer are looking back at more than twenty years of Smalltalk development. They are part of the COAST team (c.f. ESUG 2000), and together with their colleagues at intelligent views they are developing the semantic database k-infinity (c.f. ESUG 2001 and 2002)."
+          }
+        ]
+      ]
+    },
+    "305-vall-retrospective-seven-vm-engineering-years": {
+      "title": "Retrospective: Seven VM Engineering Years",
+      "videoId": "LdDIW2lrIrU",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/3%20wednesday/1400-1430%20Retrospective%20-%207%20VM%20Engineering%20Years/Retrospective.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/retrospective-seven-vm-engineering-years",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In this talk the presenter will summarize the lessons learned during 7 years of virtual machine development, looking at Smalltalk from the dual perspective of a VM engineer."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Andres Valloud has been lead VM engineer at Cincom from 2007 to 2014. He has also authored 3 books on Smalltalk, and currently works at LabWare."
+          }
+        ]
+      ]
+    },
+    "306-lesk-contemporary-source-control-pharo": {
+      "title": "Contemporary source control for Pharo",
+      "videoId": "fa9Zpxyt_no",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/3%20wednesday/1430-1500%20Contemporary%20source%20control%20for%20Pharo/Contemporary%20source%20control%20for%20Pharo.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/contemporary-source-control-for-pharo",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "SVN [1], Mercurial [2] and Git [3] probably are the predominant source control systems used for open source software. Each of these systems brings many tools to the table to visualize meta data, search for versions and content and, most importantly, manage versions and changes to versionable entities. Unfortunately for us, Pharo does not natively support any of these systems which makes access for newcomers harder and inhibits our sharing abilities."
+          }
+        ],
+        [
+          {
+            "text": "In this talk I want to:"
+          }
+        ],
+        [
+          {
+            "text": "- show what support for different source control systems can do for us"
+          }
+        ],
+        [
+          {
+            "text": "- present the work that is being done on integrating Git into Pharo"
+          }
+        ],
+        [
+          {
+            "text": "- discuss how this work will enable the integration of arbitrary source control systems into Pharo"
+          }
+        ],
+        [
+          {
+            "text": "- touch upon the future of Monticello and Metacello in Pharo"
+          }
+        ],
+        [
+          {
+            "text": "[1] http://subversion.apache.org [2] http://mercurial.selenic.com [3] http://git-scm.com"
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Max Leske is a master student of University of Bern and working with netstyle.ch"
+          }
+        ]
+      ]
+    },
+    "307-pima-bee-smalltalk-runtime-anchors-aweigh": {
+      "title": "Bee Smalltalk RunTime: anchor's aweigh",
+      "videoId": "82nZ1Oo2LF0",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/3%20wednesday/1500-1530%20Bee%20Smalltalk%20runtime/BeeSmalltalkRunTime.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/bee-smalltalk-runtime-anchors-aweigh",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Bee is a Smalltalk dialect. Its runtime is exceptional in that it is completely written in Smalltalk. Bee includes a minimal kernel with on-demand loaded libraries, a JIT compiler, an FFI interface, an optimizing SSA-based compiler, a garbage collector, and native threading support among other things. Despite being written in Smalltalk, Bee achieves promising performance levels."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Javier Pimas has been programming since he was a kid. Years ago he entered Smalltalk world and started studying topics both high and low-level related. As part of his MSc thesis he studied and extended SqueakNOS operating system, and has been working on VMs and JIT compilers since then."
+          }
+        ]
+      ]
+    },
+    "401-gree-gemstone-s-product-roadmap": {
+      "title": "GemStone/S Product Roadmap",
+      "videoId": "PTLzyjrml7g",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/4%20thursday/0900-0945%20GemStone%20S%20Product%20Roadmap/norm-esug-2014.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/gemtalk-systems-product-roadmap"
+    },
+    "402-bera-sista-improving-cogs-jit-performance": {
+      "title": "Sista: Improving Cog's JIT performance with adaptive optimizations",
+      "videoId": "X4E_FoLysJg",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/4%20thursday/0945-1030%20Improving%20Cogs%20JIT%20performance%20with%20adaptive%20optimizations/SistaTalkEsug2.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/sista-talkesug2",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Although recent improvements of the Cog VM performance made it one of the fastest available Smalltalk virtual machine, the overhead compared to optimized C code remains important. Efficient industrial object oriented virtual machine, such as Javascript V8's engine for Google Chrome and Oracle Java Hotspot can reach on many benchs the performance of optimized C code thanks to adaptive optimizations performed their JIT compilers. The VM becomes then cleverer, and after executing numerous times the same portion of codes, it stops the code execution, looks at what it is doing and recompiles critical portion of codes in code faster to run based on the current environment and previous executions."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Clément Béra and Eliot Miranda has been working together on Cog's JIT performance for the last year. Clément Béra is a young engineer and has been working in the Pharo team for the past two years. Eliot Miranda is a Smalltalk VM expert who, among others, has implemented Cog's JIT and the Spur Memory Manager for Cog."
+          }
+        ]
+      ]
+    },
+    "403-lore-voyage-example": {
+      "title": "Voyage by example",
+      "videoId": "1szVgKQm474",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/4%20thursday/1100-1130%20Voyage/ESUG2014%20-%20Voyage.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/esug2014-voyage",
+      "bioParagraphs": [
+        [
+          {
+            "text": "Esteban Lorenzano, 42 years. Programmer since ever, Full-time Smalltalker since 2007 and Pharo enthusiast since almost its every beginning, after owning his own company and spend some years teaching at different universities in Argentina, he currently works de development of Pharo itself, at the RMoD team of INRIA (France)"
+          }
+        ]
+      ]
+    },
+    "404-ross-advanced-glorp-round-trip-refactoring": {
+      "title": "Advanced Glorp: round-trip refactoring of a GLORP application",
+      "videoId": "LXUvGNQ9_Ro",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/4%20thursday/1130-1200-Glorp/GlorpTalk-ESUG2014-1.0.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/round-trip-in-glorp",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This talk refactors the application of the earlier tutorial to use more advanced Glorp techniques. These refactorings are shown in the context of Modelling/Mapping tools (from Cincom ObjectStudio), database drivers and web techniques, to demo end-to-end development."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Niall Ross ended his undergraduate career with two intellectual interests: computing and the theory of relativity. A quick check of how much commercial work was available to relativity and gravitation theorists decided him to do academic research in that field and then seek a commercial job in computing, rather than the other way round. Niall started working commercially in IT in 1985. He was at first assigned to designing and implementing software engineering process improvements and only three years later did he begin significant writing and delivering of commercial software. This experience taught him that intelligent people can nevertheless form foolish ideas about software engineering if they have not worked at the coding coalface of real large commercial projects."
+          }
+        ],
+        [
+          {
+            "text": "Learning from this, Niall spent the nineties working on software to manage complex, rapidly-changing telecoms networks. A side effect of this work was that it taught him much about how scale and rate of change affects software. Early in the nineties he discovered Smalltalk. The more he used it, the more he came to recognize its power in this area. This perception was strengthened when he spent a year delivering a telecoms management system in Java."
+          }
+        ],
+        [
+          {
+            "text": "At the end of the decade, Niall formed his own software company to offer consultancy in meta-data system design, in Smalltalk and in agile methods. Over the next decade, he worked on a variety of meta-data-driven systems, mostly in the financial domain."
+          }
+        ],
+        [
+          {
+            "text": "Niall joined the Cincom Smalltalk Engineering team nearly 6 years ago. His first task was to lead the team that does the weekly VisualWorks builds, an experience he likened to doing brain surgery on yourself every Friday (e.g. \"prepare new memory for insertion, remove old memory, - uh, I can't remember what I was going to do next ... \" :-) ). Currently, he leads the Glorp and Database team. He also leads the Custom Refactoring open-source project, which he co-founded, and the SUnit open-source project."
+          }
+        ]
+      ]
+    },
+    "405-mine-dflow-interaction-profiler-pharo": {
+      "title": "DFlow: An interaction profiler for Pharo",
+      "videoId": "p2Vmh1l5-WI",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/4%20thursday/1130-1200%20DFlow%20An%20interaction%20profiler%20for%20Pharo/Minelli-ESUG-2014.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/first-steps-towards-selfadaptive-ides",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In this talk we present DFlow, an interaction profiler for the Pharo IDE. Our tool silently records how developers interact with UI elements of the IDE and how they manipulate source code. DFlow provides a catalogue of visualizations of the recorded development sessions. By means of the views we can tell development stories and characterize the behavior of developers. Our vision is to use interaction data on-the-fly to mold the shape of the IDE and improve the development experience."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Roberto Minelli is a PhD student at the University of Lugano, Switzerland in the REVEAL research group, under the supervision of Prof. Dr. Michele Lanza."
+          }
+        ]
+      ]
+    },
+    "406-henr-gemstone-s-indexed-collection-primer": {
+      "title": "GemStone/S Indexed Collection Primer",
+      "videoId": "XvLFwJfn-uQ",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/4%20thursday/1200-1230%20Gemstone%20Indexed%20Collections/GemStoneIndexing_ESUG2014.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/gem-stoneindexing-esug2014",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "GemStone/S indexes provide a way to locate specific objects in a collection by value. Indexing a Collection creates internal structures such as balanced trees (Btrees). Only a few message sends are needed to lookup a value or range of values in the indexing structures. When collections are indexed, they can return results without having to iterate the collection or send messages to each object."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Dale Henrichs has been working in Smalltalk since 1985 when he developed an internal application on the Tektronix 4404. The internal application was used at Tektronix for at least 25 years and may still be in use today! Since 1985 he has been lucky enough to work in Smalltalk nearly full-time, spending the last 15 years at GemStone give or take a couple of years."
+          }
+        ]
+      ]
+    },
+    "407-reen-working-objects-computer-mind": {
+      "title": "Working with objects in computer and mind",
+      "videoId": "-m1vwTe0mEo",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The essence of object orientation is that objects interact to achieve a goal. This interaction can be observed by making a trace of the runtime flow of messages through the system. It is sometimes hard to get a mental picture of this interaction from reading the class code. I will present a two-dimensional programming paradigm where the interaction is explicitly specified in a new dimension. The paradigm is called DCI - Data, Context, and Interaction. In the Data projection,what-the-system-is, objects are observed from inside and system state is specified by classes. In the Context projection,what-the-system-does, objects are observed from outside together with their collaborators. System behavior in the form of object interaction is here visible and tangible. Participating objects are named according to the role they play in the interaction. The behavior that an object needs to sustain its role is attached to the object only while it is needed."
+          }
+        ],
+        [
+          {
+            "text": "The DCI object oriented concepts can become a unifying foundation for programming since they are closely tied to a code reader's mental model of program execution. BabyIDE, the Squeak implementation of DCI, is non-intrusive in that it does not constrain regular Squeak programming. DCI has a wide application area and lead to code that is more readable due to its better concepts for separation of concern."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Trygve Reenskaug is professor emeritus of informatics at the University of Oslo. He has nearly 60 years experience in software engineering research and in the development of industrial strength software products. He has extensive teaching and speaking experience including keynotes, talks and tutorials. His firsts include: 1950s: Learn computer programing (language: binary) 1960s: The Autokon system for ship CAD/CAM. The word's first database-centric system architecture, end user programmming, and software-as-a-product. 1970s: OO, distributed systems, MVC. 1980s: OOram, Role modeling of object interaction. 1990s: Member of the UML Core Team, contributed the notion of Collaborations. 2000s: DCI, his retirement project. * 2010s: The next 'Dynabook'?"
+          }
+        ]
+      ]
+    },
+    "408-bric-sophisticated-web-applications-seaside-tutorial": {
+      "title": "Sophisticated Web Applications with Seaside (tutorial)",
+      "videoId": "YsA4gNcBKak",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/4%20thursday/1400-1530%20Seaside/AdvancedSeasideJohanBrichau.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "If you want to know everything about building sophisticated web applications with Seaside using tightly-integrated client-side libraries and frameworks (jQuery, jQuery++, jQuery-UI, Bootstrap, jQuery-Mobile,...), transparent persistence, RESTful webservices, etc or just about what's new in Seaside, then this tutorial is for you. We will skip the basics (see the excellent online tutorials [1][2] and book [3]) and jump right into the advanced uses of jQuery, the intricate details of ajax callbacks, the extensible framework, the transparent persistence in GemStone Web Edition (GLASS), and much more. We will reserve ample time for Q&A, so bring your questions to the session."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Philippe Marshall has been part of the core Seaside team for several years. He holds a MSc CompSci from the University of Bern and has previously held talks at ESUG."
+          }
+        ],
+        [
+          {
+            "text": "Dale Henrich has been working in Smalltalk since 1985 when he developed an internal application on the Tektronix 4404. The internal application was used at Tektronix for at least 20 years and may still be in use today! Since 1985 he has been lucky enough to work in Smalltalk nearly full-time, spending the last 15 years at GemStone (now GemTalk Systems) give or take a couple of years."
+          }
+        ],
+        [
+          {
+            "text": "Johan Brichau is co-founder and development lead at Yesplan.be, a \"Seaside under GLASS\"-based web application for event management currently used by over 80 cultural organisations in Belgium and The Netherlands."
+          }
+        ]
+      ]
+    },
+    "409-denk-nomads-do-not-build-cathedrals": {
+      "title": "Nomads do not build Cathedrals or: The Power of Incremental Progress",
+      "videoId": "Vcoy5gwUvOA",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/4%20thursday/1400-1430%20Nomads%20do%20not%20build%20Cathedrals/2014-ESUG-Cathedral.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/nomads-do-not-build-cathedrals",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This will a rather unusual talk for ESUG. The theme is not Smalltalk directly, but instead I discuss how progress and inventing new things fits with incremental, reflective nature of Smalltalk."
+          }
+        ],
+        [
+          {
+            "text": "People often argue that progress is only possible when you throw everything away and start from scratch. In this talk I will argue that this thinking is a trap and the only way for progress in practice is to take an incremental approach of constantly improving and therefore evolving the imperfect system you already have."
+          }
+        ],
+        [
+          {
+            "text": "I will show how the idea of creating feedback loops of improvement actually lead to non-linear growth and how this process of reflective constant improvement fits with the Smalltalk philosophy of incrementally and dynamically changing a running system."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Marcus Denker is a permanent researcher (CR1, with tenure) at INRIA Lille - Nord Europe. Before, he was a postdoc at the PLEIAD lab/DCC University of Chile and the Software Composition Group, University of Bern. His research focuses on reflection and meta-programming for dynamic languages. He is an active participant in the Squeak and Pharo open source communities for many years. Marcus Denker received a PhD in Computer Science from the University of Bern/Switzerland in 2008 and a Dipl.-Inform. (MSc) from the University of Karlsruhe/Germany in 2004. He is a member of ACM, GI, and IEEE and a board-member of ESUG."
+          }
+        ]
+      ]
+    },
+    "410-sass-shoreline-bugs-smalltalk-way": {
+      "title": "Shoreline: Bugs, the Smalltalk Way",
+      "videoId": "_PDQGlq4yxw",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/4%20thursday/1430-1500%20Shoreline%20-%20Bugs,%20the%20Smalltalk%20Way/ShoreLine-TommasoDalSasso.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/shoreline-bugs-the-smalltalk-way",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "ShoreLine is a novel platform to manage the bug reporting process the Smalltalk way. The vision of ShoreLine is to empower developers with first-class bug descriptions exploiting Smalltalk's expressiveness. Currently Shoreline allows the user to automatically submit stacktraces generated from exceptions, and inspect and visualize them to detect bugs and the activity of the Pharo community."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Tommaso Dal Sasso is a PhD student at the University of Lugano in the research group REVEAL of Prof. Dr. Michele Lanza."
+          }
+        ]
+      ]
+    },
+    "411-cani-bee-smalltalk-project-libraries": {
+      "title": "Bee Smalltalk Project Libraries",
+      "videoId": "oUTq7r-Z8tI",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Attend this talk to learn how Bee Smalltalk saves, loads and unloads project libraries (i.e., their classes, compiled methods and shared variables) in a very efficient way without any help from the virtual machine."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Leandro Caniglia is Chief Technologist @ Caesar Systems & (President @ FAST)."
+          }
+        ]
+      ]
+    },
+    "501-girb-designing-developer-experience": {
+      "title": "Designing for Developer Experience",
+      "videoId": "LKVPJU3W5Ys",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/5%20friday/0900-0945%20design%20to%20developers/tudorgirba-dx.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/designing-for-developer-experience",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Developers are developers. Developers are users. Developers are humans. And they need appropriate tools to augment their abilities, too."
+          }
+        ],
+        [
+          {
+            "text": "IDEs are supposed to do just that. Specifically, they are supposed to bring together into one coherent interface all tools related to development. This is what “I” stands for. Yet, if we take a closer look, we consistently see that developers spend most of their time figuring out the existing system than they do on actually building the future system. Yet, the tools they use rarely favor this activity."
+          }
+        ],
+        [
+          {
+            "text": "Smalltalk promoted the IDE. It is time to rethink it and bring it a notch forward. Sure, the famous five panes are probably 4 too much, but that is neither where we should start from, nor is it where we should end. Designing an interface starts from understanding the needs."
+          }
+        ],
+        [
+          {
+            "text": "In this talk, we take a systematic look at how a developer experience could look like and what an environment for developers could be made of. In the process, we extract the direction in which Pharo could go in this field and offer examples."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Tudor Gîrba attained his PhD from the University of Berne, and he now works as team and innovation lead at CompuGroup Medical Schweiz, and as an independent consultant. He leads the work on Moose, a smart open-source platform for software and data analysis (http://moosetechnology.org) and he is part of the board of Pharo, the new cool kid on the object-oriented languages arena (http://pharo.org). He developed the humane assessment method (http://humane-assessment.com), and he is helping companies to rethink the way they manage software systems. To demystify innovation, he also developed the demo-driven innovation method (http://demodriven.com) as a combination of design thinking, idea prototyping and storytelling. In 2014, he won the prestigious Dahl-Nygaard Junior Award (http://aito.org) for his work on modeling and visualization of evolution and interplay of large numbers of objects."
+          }
+        ]
+      ]
+    },
+    "502-berg-painting-roassal2": {
+      "title": "Painting with Roassal2",
+      "videoId": "DiF0VyIwKb0",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/5%20friday/0945-1030%20Roassal/2014-RoassalDemo.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Roassal2 is an agile visualization engine. Thanks to some advanced scripting facilities, one can easily paint and interact with objects. Roassal2 offer a great range of features:"
+          }
+        ],
+        [
+          {
+            "text": "- based on Athens and Cairo for smooth and fast drawing,"
+          }
+        ],
+        [
+          {
+            "text": "- advanced bezier curves for drawing organic lines,"
+          }
+        ],
+        [
+          {
+            "text": "- exportable to plain HTML / Amber / VisualWorks,"
+          }
+        ],
+        [
+          {
+            "text": "- advanced support for curve and chart drawing,"
+          }
+        ],
+        [
+          {
+            "text": "- offer a framework for easily defining sophisticated visualizations, ..."
+          }
+        ],
+        [
+          {
+            "text": "Roassal2 is being used in a large range of domains, including code execution profiling, source code quality, geographical maps, visualization of stellar pictures. The presentation will be demo-driven."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Alexandre Bergel is Assistant Professor and researcher at the University of Chile. Alexandre Bergel and his collaborators carry out research in software engineering and software quality, more specifically on code profiling, testing and data visualization."
+          }
+        ],
+        [
+          {
+            "text": "Alexandre Bergel has authored over 60 articles, published in international and peer reviewed scientific forums, including the most competitive conferences and journals in the field of software engineering. Alexandre has participated to over 50 program committees of international events. Alexandre has also a strong interest in applying his research results to industry. Several of his research prototypes have been turned into products and adopted by major companies in the semi-conductor industry and certification of critical software systems. Alexandre co-authored the book http://www.deepIntoPharo.com"
+          }
+        ]
+      ]
+    },
+    "503-amar-bee-charts-framework": {
+      "title": "Bee Charts Framework",
+      "videoId": "4RRuEs69zJw",
+      "bioParagraphs": [
+        [
+          {
+            "text": "Guillermo Amaral lives in Buenos Aires, Argentina. I have been devoted to Smalltalk for more than 10 years. I have learned, used and enjoyed it throughout my entire professional career. I am currently working at Caesar Systems, an international company of software development for the upstream oil & gas industry. I have a Ms. Cs. in Computer Science at the University of Buenos Aires."
+          }
+        ]
+      ]
+    },
+    "504-girb-gtinspector-hands": {
+      "title": "GTInspector hands-on"
+    },
+    "505-tymc-vidi-visual-design-inspector": {
+      "title": "ViDI: The Visual Design Inspector",
+      "videoId": "TYjWpTSK4Cg",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/5%20friday/1130-1200%20Visual%20Desing%20Inspector/Vidi.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/vidi-visual-design-inspector",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "We present ViDI, a platform to provide interactive 2D and 3D visualizations of Design Problems in Smalltalk systems. The user can inspect and correct issues in the source code, as well as compare different versions of the same system in terms of design quality. ViDI is built on top of Moose, CodeCity, Roassal, and CodeCritics."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Yuriy Tymchuk is jack of IT trades, Pharo evangelist, and storyteller. At the moment I'm a Ph.D. student at the University of Lugano (USI) in the Faculty of Informatics. I am working under the supervision of Prof. Dr. Michele Lanza, in the REVEAL research group, along with Dr. Andrea Mocci, Luca Ponzanelli, Roberto Minelli and Tommaso Dal Sasso. I like working with Pharo and"
+          }
+        ]
+      ]
+    },
+    "506-rowl-scratching-itch-making-scratch-raspberry": {
+      "title": "Scratching the itch: making Scratch for the Raspberry Pi",
+      "presentationUrl": "https://archive.esug.org/ESUG2014/5%20friday/1200-1230%20Scratch/ESUG14%20Scratch%20slides.pdf"
+    }
+  },
+  "awards": {
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "GT Inspector",
+        "submitter": "Andrei Chiș, Tudor Girba, Alex Syrel, University of Bern, tudorgirba.com, Switzerland",
+        "keywords": "Pharo, IDE, Moose, Visualization",
+        "links": [
+          {
+            "label": "Video",
+            "url": "http://vimeo.com/103463364"
+          }
+        ]
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "Jetstorm",
+        "submitter": "Jannik LAVAL, Ecole des Mines de Douai, France",
+        "keywords": "Lego Minstorms Pharo Phratch",
+        "links": [
+          {
+            "label": "Demo",
+            "url": "https://vimeo.com/103126982"
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "Woden",
+        "submitter": "Ronie Salgado, Alexandre Bergel, Object Profile, Chile",
+        "keywords": "3d opencl graphics roassal roassal3d performance",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://www.smalltalkhub.com/#!/~ronsaldo/Woden"
+          },
+          {
+            "label": "Demo",
+            "url": "http://youtu.be/1Nze9tnwYxY"
+          }
+        ]
+      }
+    ],
+    "nominees": [
+      {
+        "title": "IntiProfiler",
+        "submitter": "Milton Mamani Torres, Alejandro Infante, Alexandre Bergel, Alejandro Molina, Chris Thorgrimsson, ObjectProfile, Chile",
+        "keywords": "Inti, Sunburst, MessageTally, GTInpector, Roassal2",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://smalltalkhub.com/#!/~azazael/inti"
+          },
+          {
+            "label": "Demo",
+            "url": "https://www.youtube.com/watch?v=hLZumpaS8lE&list=UUx7V811wz1RQwo7NAfgR0BQ"
+          }
+        ]
+      },
+      {
+        "title": "Kontolino.de",
+        "submitter": "Joachim Tuchel, objektfabrik Joachim Tuchel, Germany",
+        "keywords": "Accounting, saas, Small and Medium businesses, tax reporting",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://www.kontolino.de"
+          }
+        ]
+      },
+      {
+        "title": "Saint Georges",
+        "submitter": "Annick Fron, AFC Europe, France",
+        "keywords": "visualworks",
+        "links": []
+      },
+      {
+        "title": "Sherlook",
+        "submitter": "Daniel Aviv, Alexandre Bergel Alejandor Infante, Object Profile, Chile",
+        "keywords": "",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://smalltalkhub.com/#!/~DanielAvivNotario/Sherlook"
+          }
+        ]
+      },
+      {
+        "title": "Spy2",
+        "submitter": "Alejandro Infante, Alexandre Bergel, Ricardo Jacas, Universidad de Chile, Object Profile, Chile",
+        "keywords": "Profiling, Visualization",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://smalltalkhub.com/#!/~ObjectProfile/S2py"
+          }
+        ]
+      },
+      {
+        "title": "STX:LIBJAVA",
+        "submitter": "Jan Vraný, Marcel Hlopko (Czech Republic) Claus Gittinger (Germany) Jan Kurš (Czech Republic) Tomáš Heger (Czech Republic), eXept Software AG & SWING Research Group, Czech Technical University in Prague, Czech Republic",
+        "keywords": "vm, ide, java",
+        "links": [
+          {
+            "label": "Demo",
+            "url": "https://www.youtube.com/watch?v=p3J554BNEz8"
+          }
+        ]
+      },
+      {
+        "title": "Telescope",
+        "submitter": "Leo Perard, RMOD Team, France",
+        "keywords": "pharo visualization",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://rmod.inria.fr/web/software/telescope"
+          }
+        ]
+      }
+    ]
+  }
+}

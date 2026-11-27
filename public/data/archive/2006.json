@@ -1,0 +1,710 @@
+{
+  "year": 2006,
+  "city": "Prague",
+  "country": "Czech Republic",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "logoImage": "/images/conference-logos/esug-2006.png",
+  "report": {
+    "author": "Niall Ross",
+    "url": "https://archive.esug.org/ReportsFromNiallRoss/nfrESUG2006report.pdf"
+  },
+  "dayDates": ["2006-09-04", "2006-09-05", "2006-09-06", "2006-09-07", "2006-09-08"],
+  "sideEvents": [
+    {
+      "label": "Printable conference program",
+      "url": "https://archive.esug.org/ESUG2006/ESUG2006-ConferenceProgram.pdf"
+    },
+    {
+      "label": "Camp Smalltalk 11"
+    }
+  ],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 4",
+      "sessions": [
+        {
+          "time": "8:30 – 9:30",
+          "subject": "Registration"
+        },
+        {
+          "time": "9:30 – 10:15",
+          "subject": "Welcome",
+          "url": "https://archive.esug.org/ESUG2006/pres/1-presentations.pdf"
+        },
+        {
+          "time": "10:15 – 11:30",
+          "subject": "Coding Dojo",
+          "talkId": "101-pelr-coding-dojo",
+          "speaker": "Joseph Pelrine"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "Dynamic State: a dynamically defined state model not based on the State Pattern",
+          "talkId": "102-wull-dynamic-state-dynamically-defined-state",
+          "speaker": "Alfred Wullschleger"
+        },
+        {
+          "time": "13:00 – 17:30",
+          "subject": "Research track: 7 presentations"
+        },
+        {
+          "time": "13:00 – 13:30",
+          "subject": "Application-Specific Models and Pointcuts using a Logic Meta Language",
+          "speaker": "Johan Brichau, Andy Kellens, Kris Gybels, Kim Mens, Robert Hirschfeld, Theo D'Hondt"
+        },
+        {
+          "time": "13:30 – 14:30",
+          "subject": "An Object-Oriented Approach for Context-Aware Applications",
+          "speaker": "Andrés Fortier, Nicolás Cañibano, Julián Grigera, Gustavo Rossi, Silvia Gordillo"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Unanticipated Partial Behavioral Reflection",
+          "speaker": "David Röthlisberger, Marcus Denker, Éric Tanter"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Stateful Traits",
+          "speaker": "Alexandre Bergel, Stéphane Ducasse, Oscar Nierstrasz, Roel Wuyts"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "SCL: a Simple, Uniform and Operational Language for Component-Oriented Programming in Smalltalk",
+          "speaker": "Luc Fabresse, Christophe Dony, Marianne Huchard"
+        },
+        {
+          "time": "16:30 – 17:00",
+          "subject": "Let's Modularize the Data Model Specifications of the ObjectLens in VisualWorks Smalltalk",
+          "speaker": "Michael Prasse"
+        },
+        {
+          "time": "17:00 – 17:30",
+          "subject": "Meta-driven Browsers",
+          "speaker": "Alexandre Bergel, Stéphane Ducasse, Colin Putney, Roel Wuyts"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 5",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Cryptography for Smalltalkers 2",
+          "talkId": "201-kobe-cryptography-smalltalkers-2",
+          "speaker": "Martin Kobetic"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 12:00",
+          "subject": "Fast Track: 12-minute talks"
+        },
+        {
+          "time": "12:00 – 13:30",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "13:30 – 14:15",
+          "subject": "Mastering Seaside",
+          "talkId": "202-reng-mastering-seaside",
+          "speaker": "Lukas Renggli"
+        },
+        {
+          "time": "14:15 – 15:00",
+          "subject": "Sophie and Plopp",
+          "talkId": "203-rueg-sophie-plopp",
+          "speaker": "Michael Rueger"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "15:30 – 16:15",
+          "subject": "Coordinated Testing",
+          "talkId": "204-harl-coordinated-testing",
+          "speaker": "Carsten Härle"
+        },
+        {
+          "time": "16:15 – 17:00",
+          "subject": "Code Optimization",
+          "talkId": "205-os-code-optimization",
+          "speaker": "Adriaan van Os"
+        },
+        {
+          "time": "17:00 – 17:45",
+          "subject": "Coding Dojo",
+          "speaker": "Joseph Pelrine"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 6",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Scaling a Smalltalk Web Application Server",
+          "talkId": "301-robe-scaling-smalltalk-web-application-server",
+          "speaker": "James Robertson"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "Mondrian",
+          "talkId": "302-girb-mondrian",
+          "speaker": "Tudor Gîrba"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Squeak News",
+          "talkId": "303-denk-squeak-news",
+          "speaker": "Marcus Denker, Stéphane Ducasse"
+        },
+        {
+          "time": "12:30 – 13:30",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "13:30 – 14:15",
+          "subject": "UbiquiTalk: Ubiquitous Computing in Smalltalk",
+          "talkId": "304-bour-ubiquitalk-ubiquitous-computing-smalltalk",
+          "speaker": "Noury Bouraqadi, Michaël Piel"
+        },
+        {
+          "time": "15:15 – 22:00",
+          "subject": "Social event"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 7",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Integration of Smalltalk Systems: ObjectStudio inside VisualWorks",
+          "talkId": "401-heeg-integration-smalltalk-systems-objectstudio-inside",
+          "speaker": "Georg Heeg"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 11:45",
+          "subject": "Erlang",
+          "talkId": "402-arms-erlang",
+          "speaker": "Joe Armstrong"
+        },
+        {
+          "time": "11:45 – 12:15",
+          "subject": "Abstract Notification",
+          "talkId": "403-wull-abstract-notification",
+          "speaker": "Alfred Wullschleger"
+        },
+        {
+          "time": "12:15 – 13:30",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "13:30 – 14:15",
+          "subject": "Web 2.0 for Seaside",
+          "talkId": "404-reng-web-2-0-seaside",
+          "speaker": "Lukas Renggli"
+        },
+        {
+          "time": "14:15 – 15:00",
+          "subject": "Spyware-ridden Software Development",
+          "talkId": "405-robb-spyware-ridden-software-development",
+          "speaker": "Romain Robbes"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "15:30 – 16:15",
+          "subject": "Scrum and XP in Practice",
+          "talkId": "406-bunn-scrum-xp-practice",
+          "speaker": "Rowan Bunning"
+        },
+        {
+          "time": "16:15 – 17:00",
+          "subject": "Testing for Real",
+          "talkId": "407-ross-testing-real",
+          "speaker": "Niall Ross"
+        },
+        {
+          "time": "17:00 – 17:45",
+          "subject": "Coding Dojo",
+          "speaker": "Joseph Pelrine"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 8",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "GemStone/S 64",
+          "talkId": "501-gree-gemstone-s-64",
+          "speaker": "Norm Green"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "Rethink Smalltalk",
+          "talkId": "502-echt-rethink-smalltalk",
+          "speaker": "Mathieu van Echtelt"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Packaging Freeware and Shareware Applications in VisualWorks",
+          "talkId": "503-vens-packaging-freeware-shareware-applications-visualworks",
+          "speaker": "Rob Vens"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-pelr-coding-dojo": {
+      "title": "Coding Dojo",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "See http://wiki.agilefinland.com/?CodingDojo"
+          }
+        ]
+      ]
+    },
+    "102-wull-dynamic-state-dynamically-defined-state": {
+      "title": "Dynamic State: a dynamically defined state model not based on the State Pattern",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/3-cxstatesesug2006.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "We needed a state model which can be dynamically defined by users and used in many different coexisting configurations. This can not be achieved by using the state pattern. We are using the abstract mechanisms of Smalltalk (event model and message sends) to implement an easily configurable state component for use in a Gemstone Database."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Working for the last 14 years in Smalltalk, the author has implemented some large Smalltalk Systems in commercial environments (Public Management and Banking) using small amounts of developers."
+          }
+        ]
+      ]
+    },
+    "201-kobe-cryptography-smalltalkers-2": {
+      "title": "Cryptography for Smalltalkers 2",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/06-esug-crypto2-kobetic.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This presentation is an introduction into public key cryptography (RSA, DSA, DH). It will discuss various applications of these algorithms (digital signatures, key establishment, etc) and other practical aspects of their use. It will be a somewhat revised version of the same talk given at Smalltalk Solutions 2006. It will continue in the spirit of an earlier talk about secret key ciphers presented at Smalltalk Solutions and ESUG 2004. The talk will include live demonstrations using the VisualWorks security library."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Martin is a member of Cincom Smalltalk development team working primarily on various networking frameworks and the security library in VisualWorks. He presented at Smalltalk Solutions several times on various topics including cryptography. He also presented at ESUG 2004."
+          }
+        ]
+      ]
+    },
+    "202-reng-mastering-seaside": {
+      "title": "Mastering Seaside",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/theartofseaside.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Seaside is an industrial strength framework for developing sophisticated Web applications in Smalltalk. Seaside provides a layered set of abstractions over HTTP and XHTML that let you build highly interactive Web applications quickly, reusably and maintainably. The goal of this session is to interactively build a small Web application together with the audience. Beginners will quickly gasp the key principles of the framework, so that afterwards they are able to write new applications and learn about the framework on their own. There will be plenty of room to ask questions and to demo advanced techniques you always wanted to learn about. Links. http://www.seaside.st Bio. Lukas Renggli is expert in the development of Web applications and Content Management Systems. He is an active contributor to Seaside and related frameworks. He is the author of Magritte, a framework to ease domain object modelling using meta-data, and Pier, a meta- described CMS entirely based on objects. Lukas Renggli is currently doing a PhD at the Software Composition Group, University of Bern. He is working for netstyle.ch, where he is building web- applications in the business domain for financial institutions, insurances and print-shops. Lukas Renggli has given talks at ESUG 2002, ESUG 2003, LOTS 2004, ESUG 2005, RMLL 2005, STS 2006, for CHOOSE and ObjectForum."
+          }
+        ]
+      ]
+    },
+    "203-rueg-sophie-plopp": {
+      "title": "Sophie and Plopp",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Plopp is a 3D drawing tool for children based on Teddy. It is a packaged application currently on sale in German speaking countries. We will show the functionality, some of the design principles and what it meant to build a CDROM application in Squeak Sophie is an open source (MIT licensed) multi-media authoring tool. It includes both DTP features and timeline based events and animation. We will demo the application and talk about the design principles that went into Sophie. A major part of the work on Sophie was to make it a real application, meaning better platform integration, high quality font rendering, printing, skinning etc."
+          }
+        ]
+      ]
+    },
+    "204-harl-coordinated-testing": {
+      "title": "Coordinated Testing",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/esug2006-coordindated-testing.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Testing and the idea of doing every continuously is one of the important principals of XP. With an increasing number of people and test cases in a project, the task to coordinate the execution and the repair of failing test cases is challenging and time consuming. The presentation demonstrates a test server which continuously coordinates the execution of all available test cases and distributes the results in real time to the developers. Developers may dynamically register with a running test server and see the current state of all test cases including their results, the currently running tests and the tests cases currently under repair server, or switch to a fully automated mode, in which the client automatically loads the most recent code for a development line, executes a collection of test cases assigned from the test server and submits the result back to the server. To support the coordination of a team of developers to repair failing test cases, a developer may mark a test suite as locked to prevent other developers to work on it and also other clients from executing this suite automatically. As a result the test server provides a highly paralized test case execution environment and a self service tool for developers to coordinate the repair of test cases."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Carsten Härle is a senior consultant and software architect for object oriented software systems and is working with Smalltalk and object technology since about 20 years. He is the founder of a consulting company straightec (straightec.de) which is also the producer of a Microsoft-certifed, volume channel product called \"beno\" written entirely in Smalltalk (www.straightec.de/beno). Carsten Härle has given several talks at ESUG and STJA/Net.ObjectDays and local Smalltalk users groups."
+          }
+        ]
+      ]
+    },
+    "205-os-code-optimization": {
+      "title": "Code Optimization",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/codeoptimization.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "For Smalltalkers, optimization is a dirty word. Clear and clean code is considered to be much more important. While I totally agree that clear and clean code should be your first concern, in the real world speed might be an issue too. There will be a day that a customer comes to you and says: 'The program works great. I didn't run into any bugs. But it is just a bit too slow. Even on the latest hardware. ' This might happen if the number of operations required or the amount of data involved is just too large to meet your customers expectations. This presentation will give some hints and examples on how to write faster code. Advanced knowledge of Smalltalk is not required. Both novice and more experienced users can benefit from this presentation. The presentation is dialect independent, but due to the background of the presenter there will be a slight emphasis on VisualWorks and GemStone."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Adriaan van Os has been working with Smalltalk at Soops since 1995. He is the main architect of a modeling framework with data warehouse and workflow capabilities. This system has been presented at ESUG 2004, Smalltalk Solutions 2005 and ESUG 2005. Recently Adriaan implemented power exchange price determination algorithms, which have a strong demand for speed."
+          }
+        ]
+      ]
+    },
+    "301-robe-scaling-smalltalk-web-application-server": {
+      "title": "Scaling a Smalltalk Web Application Server",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In 2002, James implemented a web log server in Cincom Smalltalk (VisualWorks) and has been posting to that blog, building a community of fellow Smalltalk bloggers, and enhancing the Smalltalk server. James will guide you through the process of building, maintaining, updating and scaling a Smalltalk web application server and show the ancillary areas of the technology being used: XML, RSS, XML-RPC. He will show the ease of modifying a Smalltalk server in place, without taking it offline and the transition from single user to multi-user – all without downtime."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "James Robertson, Product Manager for Cincom Smalltalk. James got started in Smalltalk quite by accident in 1993. Selected by Booz Allen as a trainer for their contract with ParcPlace after 9 months he decided to be where Smalltalk was being created and took a position at ParcPlace doing intro training. Two years later James became a sales engineer and in 1999 when Cincom took over VisualWorks he joined as a sales engineer. He later took on the role of Product Manager of Cincom Smalltalk"
+          }
+        ]
+      ]
+    },
+    "302-girb-mondrian": {
+      "title": "Mondrian",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/mondrian.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Mondrian is a novel information visualization engine that lets the visualization be specified via a script. As it is built in Visual Works Smalltalk, the script language is the Smalltalk language. It is based on a graph model and works directly with the objects to be represented. See http://smallwiki.unibe.ch/mondrian and http://smallwiki.unibe.ch/mondrian/mondrianfaq"
+          }
+        ]
+      ]
+    },
+    "303-denk-squeak-news": {
+      "title": "Squeak News",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/esug2006-sqnews.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This talk will present the latest new from the Squeak Project. Lots of things happened in the Squeak community over the last year, e.g. the Squeak community has released version 3.9 in Summer 2006 and the Squeak Foundation was formed. This talk will give an overview of new features added to 3.9 and give a general overview of what's happing with Squeak."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Stephane Ducasse and Marcus Denker have been the maintainers of the 3.9 release and are board members of the SqueakFoundation."
+          }
+        ]
+      ]
+    },
+    "304-bour-ubiquitalk-ubiquitous-computing-smalltalk": {
+      "title": "UbiquiTalk: Ubiquitous Computing in Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/ubiquitalkesug2006-noury.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "UbiquiTalk is an open P2P platform that supports automatic peer discovery without requiring any infrastructure. Hence, UbiquiTalk can be used either within a network infrastructure or an adhoc network (e.g. Wifi). Each UbiquiTalk peer, named \"host\" , can act either as a service provider or as a client or both. Users are provided an administration graphical interface to customize their respective hosts, and choose to export or import some services or none. The client part of UbiquiTalk GUI allows user to watch host detection and disparition. Moreover, it allows users to use some service provided by a particular host. Currently, we have two GUIs one for PDAs and the other for laptops and desktop computers. UbiquiTalk has been implemented on top of Squeak. It relies on rST (Remote Smalltalk) for remote message sending. Regarding host discovery, We used IP Group Multicast. Therefore, UbiquiTalk can be used through the Internet. UbiquiTalk is freely available for download on: http://csl.ensm-douai.fr/UbiquiTalk"
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "- Dr. Noury Bouraqadi joined on 2001 the Ecole des Mines of Douai (France), where he"
+          }
+        ],
+        [
+          {
+            "text": "founded the Computer Science Lab (CSL). Since 1995, he has been envolved in different industrial and academic projects, using different programming languages including Smatalk and Java. His research aims at easing development of complex software. For this purpose, Dr. Bouraqadi has been working on reflection, aspect-oriented programming and software components in the context of ubiquitous computing."
+          }
+        ],
+        [
+          {
+            "text": "- Michaël Piel holds a Master degree from the University of Caen. Since 2003, he has been"
+          }
+        ],
+        [
+          {
+            "text": "using Smalltalk in different projects related to artificial intelligence and distributed computing. In 2005, he joined the Computer Science Lab (CSL) of the Ecole des Mines de Douai where he has been involved in the UbiquiTalk project."
+          }
+        ]
+      ]
+    },
+    "401-heeg-integration-smalltalk-systems-objectstudio-inside": {
+      "title": "Integration of Smalltalk Systems: ObjectStudio inside VisualWorks",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/esug2006georgheeg.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In Smalltalk programming is modelling and thus every theory can be modelled well. This implies that every computer technology can be modelled well. This implies that every other Smalltalk system can be modelled well. This was the starting idea to integrate ObjectStudio in VisualWorks. Both ObjectStudio and VisualWorks are Smalltalk system. Both are owned by the same company Cincom, but they are very different in origin. VisualWorks like Squeak goes back to the original Smalltalk-76/-78/-80 developments at Xerox PARC. ObjectStudio was developed as “Enterprise Object-Oriented Development Environment” and originally called Enfin. From the very start on Ease of Use and Enterprise Integration were key features of Enfin/ObjectStudio, execution speed and sophisticated meta-modelling features are much better in Smalltalk-80/VisualWorks. Customers want both: Speed always, ease of use to get started, enterprise integration mostly, and meta-modelling seldom, but if they needed they outperform having it. So the integration was done using these meta-modelling capabilities and the integration is done as ObjectStudio into VisualWorks. This allows overcoming a frequent problem in the entire industry: “Synergy does not work”. Using meta-modelling all existing VisualWorks and all existing ObjectStudio application continue to work virtually unchanged. The presentation describes how it was done and gives a demo of the result."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Georg Heeg learned about Smalltalk in 1983. He is the founder and owner of Georg Heeg eK founded 1987, a Smalltalk consulting and services organization in Dortmund, Köthen and Zurich. His company has developed several components of Cincom Smalltalk like Windows CE VM, .NET Connect or VisualWaf. Since Cincom bought VisualWorks in 1999 Georg Heeg eK is a Cincom partner."
+          }
+        ]
+      ]
+    },
+    "402-arms-erlang": {
+      "title": "Erlang",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/erlang-smalltalkconference.pdf"
+    },
+    "403-wull-abstract-notification": {
+      "title": "Abstract Notification",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/notificationsesug2006.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Based on the Gemstone Object Change Notification we show a little extension, which is useful as a general method for notifications independent of the specific object configuration of the Gemstone Server. The extension implements a technique which is similar to the general event mechanism as specified in ANSI Smalltalk."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Working for the last 14 years in Smalltalk, the autor has implemented some large Smalltalk Systems in commercial environments (Public Management and Banking) using small amounts of developers."
+          }
+        ]
+      ]
+    },
+    "404-reng-web-2-0-seaside": {
+      "title": "Web 2.0 for Seaside",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/seasideweb20.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Seaside is a mature Web application framework. It has always been able to fly Web 2.0 style, a long time before this term was actually formed. It has always been able to do more than Web 2.0 only. This tutorial is for intermediate to advanced Seaside users who want to learn about the integration of Web 2.0 technologies in Seaside. Learn how to add autocompletion, drag and drop, visual effects, instant feedback, and server push technology, usually without writing a single line of Javascript code by hand. Link. http://script.aculo.us Bio. Lukas Renggli is expert in the development of Web applications and Content Management Systems. He is an active contributor to Seaside and related frameworks. He is the author of Magritte, a framework to ease domain object modelling using meta-data, and Pier, a meta- described CMS entirely based on objects. Lukas Renggli is currently doing a PhD at the Software Composition Group, University of Bern. He is working for netstyle.ch, where he is building web- applications in the business domain for financial institutions, insurances and print-shops. Lukas Renggli has given talks at ESUG 2002, ESUG 2003, LOTS 2004, ESUG 2005, RMLL 2005, STS 2006, for CHOOSE and ObjectForum."
+          }
+        ]
+      ]
+    },
+    "405-robb-spyware-ridden-software-development": {
+      "title": "Spyware-ridden Software Development",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/romainrobbes-spyware-esug06.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "To this day, software development and tools remain firmly grounded in the present: Tools deal with states of a program, usually the current one. The history of a program is rarely taken into consideration when the need comes to evolve it. Even in Smalltalk, where recent versions of a method can be retrieved, a lot of information about a program remains unexploited. To exploit this information to its full extent, an explicit model of the change process is needed. This talk presents an approach to gather and exploit this information by modelling program evolution using first-class change operations. We will talk about the high-level concepts behind our approach as well as concrete implementation schemes present in SpyWare, our prototype tool. Examples of tools exploiting this information will be presented, in the attempt to convince you to install it and change your perception of software development."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Romain Robbes is a Ph.D. student in informatics at the university of Lugano, working in the area of software engineering and software evolution. He has been involved in the smalltalk community for several years already. He has done a few contributions to the squeak community, with a focus on development tools improvement."
+          }
+        ]
+      ]
+    },
+    "406-bunn-scrum-xp-practice": {
+      "title": "Scrum and XP in Practice",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/esug2006-scrum_in_practice.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Wizard Information Services has benefited greatly from the introduction of Scrum - both in addition to eXtreme Programming using Smalltalk and as an agile organizational practice for other business activities. The company's embrace of Scrum now extends outside both software development projects and the core software development group to joint projects with other organizations. The readiness of staff to adopt Scrum's empirical approach is a testament to its intuitiveness, openness, empowerment, efficiency and flexibility as well as its capacity to sell itself through regular positive reinforcement. Key to Wizard's recent eXtreme Programming productivity gains have been the introduction of new frameworks and tools including a highly integrated testing environment. This provides single point management of both manual and automated tests as well as a way of reducing documentation overheads through single sourcing of artifacts including user stories, acceptance test cases and detailed functional documentation. This presentation brings key ScrumXP at Wizard."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Rowan Bunning is an Agility Consultant and Web Architect at Wizard Information Services (http://www.wizardis.com.au) where he is responsible for the adoption of Scrum project management practices. As a certified ScrumMaster, Rowan is currently involved in the development of Web Applications using Wizard's Seaside-inspired web application framework and agile development tools. Rowan is also a co-founder of Software WithStyle (http://www.softwarewithstyle.com) and Product Manager of XML WithStyle - a visual XML editor for non-technical users. He has presented with Michael Lucas-Smith at Smalltalk Solutions 2004 and at ESUG 2005."
+          }
+        ]
+      ]
+    },
+    "407-ross-testing-real": {
+      "title": "Testing for Real",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/testforrealslides.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "If an application is developed via eXtreme Programming then it will have many tests creating simulated domain objects. If it is then put into production, it will also create many real domain objects. Over time, the real domain objects will tend to differ significantly from the XP-test- generated obects: typically, production-generated objects acquire more, and more complex, histories. Meanwhile, the programming team will tend to refactor their test framework to express common behaviour of creating and modifying test objects. Thus they find themselves with two resources:"
+          }
+        ],
+        [
+          {
+            "text": "- a framework for scripting readable, hand-written tests that mostly create a simple domain"
+          }
+        ],
+        [
+          {
+            "text": "object and/or apply a simple change to it"
+          }
+        ],
+        [
+          {
+            "text": "- a huge volume of persistent data structures describing complex domain objects whose"
+          }
+        ],
+        [
+          {
+            "text": "histories cover many changes If a programmer tries to use a real domain object directly in a test, the result is usually hard to understand and, for that reason, very brittle; the programmer cannot easily tweak the object to fit the new scenario to be tested. If they try to write a script to build such an object wholly by hand, they will find it time-consuming and very boring, and are apt to be influenced by the existing tests to omit just that kind of unforeseen complexity that is wanted. The solution is to generate an overall script for creating and evolving a domain object from the existing, readable test scripts and the real object's data. Niall will present an experience report on using the Refactoring Browser's rewrite framework to create such a system for an application in the insurance domain. The system has already generated a large number of tests for objects with complex interacting histories. These are very readable, so can be easily modified to test new requirements, as well as enhancing the test coverage of the existing system."
+          }
+        ]
+      ]
+    },
+    "501-gree-gemstone-s-64": {
+      "title": "GemStone/S 64",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/gemstone-esug2006.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "GemStone Systems has been a provider of Smalltalk technology for almost 30 years. The latest advances in GemStone Smalltalk moved the product to 64 bit computing environments offering users unprecedented scalability and performance. This talk will discuss the technical advances made in GemStone/S 64. It will also describe examples of large scale customer systems using GemStone/S 64 in production today. Future plans for GemStone/S 64 will also be briefly discussed."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Norm Green began using Smalltalk in 1991 at IBM Manufacturing in Toronto, Canada. While with IBM, he helped build a shop floor control system called DACS written entirely in Smalltalk. In 1996 he joined GemStone Systems Inc. as a Senior Consultant. Norm holds a Bachelor's degree in Electrical Engineering from the University of New Brunswick in Fredericton, Canada. Director of Engineering, GemStone Systems Inc."
+          }
+        ]
+      ]
+    },
+    "502-echt-rethink-smalltalk": {
+      "title": "Rethink Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2006/pres/rethinksmalltalkesug2006.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Problem: Developing, maintaining and hosting database-backed web applications is hard. Goal: Rethink Smalltalk and resurrect design principles behind Smalltalk in order to enable a single individual to create, maintain and host web-based planning and control oriented applications quickly and easily. Solution: A framework within which we organize our ideas about active processes and presistent data in a more uniform, more consistent and more user friendely way. Presentation form: Demonstration of our 'Rethink Smalltalk' implementation (developed with and upon VisualWorks/Postgresql) and report our experiences. This 'Rethink Smalltalk' implementation is used to develop and host several planning and control systems for fire departments and health care institutions. More info: http://www.cosmocows.com/tool/"
+          }
+        ]
+      ]
+    },
+    "503-vens-packaging-freeware-shareware-applications-visualworks": {
+      "title": "Packaging Freeware and Shareware Applications in VisualWorks",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The success of many development tools is greatly helped by an active community providing solutions in the open source, freeware, shareware or small applications with a low commercial profile. Smalltalk has preciously few of those solutions for end users, BottomFeeder is a well known one. This talk will attempt to help the community of small application developers, often operating on their own in their free time, in setting up a packaging and delivery process that is as efficient as possible. Rob Vens himself is a provider of two personal finance tools, and will try to share his experience in keeping these tools available for his users. Also he actively invites other (potential) developers to help one another with the specific problems faced by this important community. Issues that are talked about are: packaging, installation files, version management, setup applications, icons, licenses and readme files, and whatever the audience will bring up."
+          }
+        ]
+      ]
+    }
+  },
+  "awards": {
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "Plopp",
+        "submitter": "Grit Schuster, Bert Freudenberg, and everybody else at Impara, impara GmbH, Listemannstr. 10, 39104 Magdeburg, Germany",
+        "keywords": "3D, children, product development",
+        "links": []
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "Mondrian",
+        "submitter": "Michael Meyer, Tudor Girba, Software Composition Group, University of Bern, Switzerland",
+        "keywords": "visualization, reverse engineering, scripting",
+        "links": [
+          {
+            "label": "Website",
+            "url": "http://www.iam.unibe.ch/~scg/Research/Moose/download/esug-mondrian/"
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "SqSquare",
+        "submitter": "Kazuki Minamitani, Masashi Umezawa, IPA Exploratory Software Project FY2005, Japan",
+        "keywords": "",
+        "links": []
+      }
+    ],
+    "nominees": [
+      {
+        "title": "UbiquiTalk",
+        "submitter": "Noury Bouraqadi, Michaël Piel, Ecole des Mines de Douai - France",
+        "keywords": "Ubiquitous Computing, P2P, Wireless, Distributed Objects",
+        "links": []
+      },
+      {
+        "title": "Sophie",
+        "submitter": "Bernd Eckardt, John McIntosh, Steven Riggins, Tim Rowledge, Michael Rueger, Bob Stein, The Institute for the Future of the Book, Impara, funded by the Mellon and MacArthur Foundations and affiliated with the University of Southern California",
+        "keywords": "Multimedia, authoring",
+        "links": [
+          {
+            "label": "Website",
+            "url": "http://sophieproject.org/"
+          }
+        ]
+      },
+      {
+        "title": "Dakar Testing",
+        "submitter": "Damien Cassou & Karsten Kuche, Georg Heeg eK",
+        "keywords": "unit-testing, sunit, tdd, user experience, work flow, user interaction",
+        "links": []
+      },
+      {
+        "title": "BotsInc",
+        "submitter": "Prof. Stéphane Ducasse, LISTIC laboratory, University of Savoie - Annecy, France",
+        "keywords": "",
+        "links": []
+      },
+      {
+        "title": "SqueakBot",
+        "submitter": "Serge Stinckwich, Séverin Lemaignan, and co., GREYC, Université de Caen - France, Planète Sciences",
+        "keywords": "robots, education platform, EToys",
+        "links": []
+      },
+      {
+        "title": "Statistics on-line",
+        "submitter": "Dario Trussardi Romano, IST - Information Systems Tecnologys",
+        "keywords": "Smalltalk, OOP, VisualWorks, OODB Gemstone, Statistics, on-line, Prevision,",
+        "links": [
+          {
+            "label": "Website",
+            "url": "http://www.microobject.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

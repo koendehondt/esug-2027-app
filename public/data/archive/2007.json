@@ -1,0 +1,752 @@
+{
+  "year": 2007,
+  "city": "Lugano",
+  "country": "Switzerland",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "logoImage": "/images/conference-logos/esug-2007.png",
+  "report": {
+    "author": "Niall Ross",
+    "url": "https://archive.esug.org/ReportsFromNiallRoss/NiallRossESUG2007report.pdf"
+  },
+  "dayDates": ["2007-08-27", "2007-08-28", "2007-08-29", "2007-08-30", "2007-08-31"],
+  "sideEvents": [
+    {
+      "label": "International Conference on Dynamic Languages (ICDL 2007)",
+      "links": [
+        {
+          "label": "Papers",
+          "url": "https://archive.esug.org/ESUG2007/Research/index.html"
+        }
+      ]
+    },
+    {
+      "label": "Camp Smalltalk 2007"
+    }
+  ],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 27",
+      "sessions": [
+        {
+          "time": "8:30 – 9:30",
+          "subject": "Registration"
+        },
+        {
+          "time": "9:30 – 10:00",
+          "subject": "Welcome",
+          "url": "https://archive.esug.org/ESUG2007/Mo/ESUG2007Intro.pdf"
+        },
+        {
+          "time": "10:30 – 11:30",
+          "subject": "Exploratory Modelling - Why Smalltalk projects are so successful",
+          "talkId": "101-tonn-exploratory-modelling-why-smalltalk-projects",
+          "speaker": "Andreas Tönne"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "SqueakBot: a pedagogical platform for educational robotics",
+          "talkId": "102-bour-squeakbot-pedagogical-platform-educational-robotics",
+          "speaker": "Julien Bourdon"
+        },
+        {
+          "time": "13:30 – 18:30",
+          "subject": "International Conference on Dynamic Languages (ICDL 2007)"
+        },
+        {
+          "time": "18:30 – 21:30",
+          "subject": "Innovation Technology Awards: competitor presentations"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 28",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "What's New in Cincom Smalltalk",
+          "talkId": "201-knig-whats-new-cincom-smalltalk",
+          "speaker": "Alan Knight"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "Squeak VM Performance",
+          "talkId": "202-kamp-squeak-vm-performance",
+          "speaker": "Bryce Kampjes"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Calling Java - The JNIPort framework",
+          "talkId": "203-geid-calling-java-jniport-framework",
+          "speaker": "Joachim Geidel"
+        },
+        {
+          "time": "13:30 – 14:30",
+          "subject": "Expressive Testing and Code for Free",
+          "talkId": "204-mack-expressive-testing-code-free",
+          "speaker": "Tim Mackinnon"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Extreme Validation",
+          "talkId": "205-cani-extreme-validation",
+          "speaker": "Leandro Caniglia"
+        },
+        {
+          "time": "15:30 – 16:15",
+          "subject": "Using Eclipse as a Smalltalk Plugin",
+          "talkId": "206-bric-using-eclipse-as-smalltalk-plugin",
+          "speaker": "Johan Brichau"
+        },
+        {
+          "time": "16:15 – 17:00",
+          "subject": "Ballooning in Cairo",
+          "talkId": "207-grig-ballooning-cairo",
+          "speaker": "Travis Griggs"
+        },
+        {
+          "time": "17:00 – 17:45",
+          "subject": "Managing Business Processes with Smalltalk",
+          "talkId": "208-mivs-managing-business-processes-smalltalk",
+          "speaker": "Janko Mivšek"
+        },
+        {
+          "time": "17:45 – 18:30",
+          "subject": "Sport, the Smalltalk portability library",
+          "talkId": "209-badg-sport-smalltalk-portability-library",
+          "speaker": "Bruce Badger"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 29",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Honorable Squires - Supportive Tools and Environment for a high availability Smalltalk application at AMD",
+          "talkId": "301-happ-honorable-squires-supportive-tools-environment",
+          "speaker": "Torsten Happ"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "Exupery, a Next Generation Compiler Written in Smalltalk",
+          "talkId": "302-kamp-exupery-next-generation-compiler-written",
+          "speaker": "Bryce Kampjes"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Working Smarter, Not Harder: Development Tools, Processes and Automation",
+          "talkId": "303-wils-working-smarter-not-harder-development",
+          "speaker": "Angela Wilson"
+        },
+        {
+          "time": "13:30 – 14:15",
+          "subject": "Advanced Object-Relational Mapping with Glorp",
+          "talkId": "304-knig-advanced-object-relational-mapping-glorp",
+          "speaker": "Alan Knight"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 30",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "VA Smalltalk 7.5 and Beyond",
+          "talkId": "401-okee-va-smalltalk-7-5-beyond",
+          "speaker": "John O'Keefe"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "Application Frameworks – an Experience Report",
+          "talkId": "402-thom-application-frameworks-experience-report",
+          "speaker": "Arden Thomas"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Capture Accurate Solution Requirements with Exploratory Modeling at SAP",
+          "talkId": "403-ehre-capture-accurate-solution-requirements-exploratory",
+          "speaker": "Ralf Ehret"
+        },
+        {
+          "time": "13:30 – 14:30",
+          "subject": "Seaside",
+          "talkId": "404-reng-seaside",
+          "speaker": "Lukas Renggli"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "How to promote Smalltalk",
+          "url": "https://archive.esug.org/ESUG2007/Thu/PromotingSmalltalk2007.pdf"
+        },
+        {
+          "time": "15:30 – 17:00",
+          "subject": "Show Us Your Projects"
+        },
+        {
+          "time": "17:00 – 18:00",
+          "subject": "SummerTalk and SOC Gathering"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 31",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "GLASS: GemStone, Linux, Apache, Seaside, and Smalltalk",
+          "talkId": "501-fost-glass-gemstone-linux-apache-seaside",
+          "speaker": "James Foster"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "From one tree to a forest: 15 years of tree growth",
+          "talkId": "502-wull-from-one-tree-forest-15",
+          "speaker": "Alfred Wullschleger"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Slaps: The Smalltalk LDAP Server",
+          "talkId": "503-badg-slaps-smalltalk-ldap-server",
+          "speaker": "Bruce Badger"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-tonn-exploratory-modelling-why-smalltalk-projects": {
+      "title": "Exploratory Modelling - Why Smalltalk projects are so successful",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Mo/exploratoryModeling.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Smalltalk projects show a stunning success rate, close to 100% from the author's personal experience, while the industry average is around 40% or worse. Experienced Smalltalk developers usually do not even consider failure as a possible project outcome. Yet it is hard to communicate the reasons for this unique success rate to the non-Smalltalk market. Technical qualities of Smalltalk systems and its combination of a pure-OO system with strong, dynamic typing are used to explain the power of Smalltalk. But this is hardly a satisfactory reason for the huge difference in project success between say Java and Smalltalk. And it is a technical explanation which non-Smalltalkers do not listen to."
+          }
+        ],
+        [
+          {
+            "text": "In this talk, we present an explanation of the success rate that is founded on one unique quality of Smalltalk: Smalltalk inspires to good modelling. Smalltalk models capture more precisely, deeper and closer to the thinking of the customer the customer's requirements. Many aspects of why this is made possible by Smalltalk (both the language and its development system take a role here) have inspired the industry over two decades but Smalltalks modelling powers stand unchallenged."
+          }
+        ],
+        [
+          {
+            "text": "We present exploratory modelling as an agile modelling process that summarizes these modelling powers to build high quality models and achieve customer satisfaction very early in a project. The process is founded in an identification of modelling and programming language and its steps are built on iterative modelling and continuous experimentation. We show one exploratory modelling project at SAP as a brief example."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Andreas Tönne is vice president of Georg Heeg eK. He holds a diploma degree in computer science (Univ. Dortmund). Andreas is responsible for consulting services, project management and product development at Georg Heeg."
+          }
+        ]
+      ]
+    },
+    "102-bour-squeakbot-pedagogical-platform-educational-robotics": {
+      "title": "SqueakBot: a pedagogical platform for educational robotics",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Mo/SqueakBot.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "SqueakBot is a project developed by Planète Sciences (a French non-profit organisation aiming to develop scientific and technical practices amongst youth) in the scope of a new educational platform, containing both hardware and software to make youth discover robotics in a stimulating environment leaving a large space for autonomy. SqueakBot aims at the same time to control small size hardware devices, with limited resources, and to simulate them in a virtual environment based on eToys. This is a running project which has already been presented in the C5 conference (Serge Stinckwich, Severin Lemaignan, Samir Saidani, \"SqueakBot : a Pedagogical Robotic Platform,\" c5, pp. 137-144, Fifth International Conference on Creating, Connecting and Collaborating through Computing (C5 '07), 2007) and during the ESUG Awards 2006."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Julien Bourdon is a member of Planète Sciences since 2003 where he contributes to several educational projects geared toward education to robotics and information technologies and will start a PhD in social informatics at the university of Kyoto (Japan) from 2008. This presentation will be given in collaboration with Séverin Lemaignan, in charge of pedagogical tools at the robotics department of Planète Sciences and Serge Stinckwich, researcher at the university of Caen."
+          }
+        ]
+      ]
+    },
+    "201-knig-whats-new-cincom-smalltalk": {
+      "title": "What's New in Cincom Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Tue/whatsnewincincomsmalltalk.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This talk will review some new features of interest in the current Cincom Smalltalk release, preview upcoming features planned for future releases, and talk about future plans in general. We will specifically cover the larger new components including ObjectStudio 8, Widgetry, and the new Macintosh VM. Other, smaller features of interest will also be explored in some technical detail. This includes, among others, shadow compilation, internationalization, security and networking improvements, C connectivity, scripting support and as many others as time will permit."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Alan Knight is the technical architect for Cincom Smalltalk and lead on the open source GLORP project for object-relational mapping. Within Cincom he has been involved with many aspects of the VisualWorks implementation, including web serving, Store, deployment, and introducing Subsytems to control image startup and configuration. Before joining Cincom he was chief architect for the TOPLink family of products, and a member of the Sun expert groups on EJB 2.0 and JDO. He is co-author of Mastering ENVY/Developer (Cambridge, 2001) and has written and spoken at conferences extensively. He lives in Ottawa, Canada."
+          }
+        ]
+      ]
+    },
+    "202-kamp-squeak-vm-performance": {
+      "title": "Squeak VM Performance",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Squeak's VM provides good performance from a relatively simple implementation relying on a few key optimizations. This talk will focus on these optimizations and modern hardware to show why the VM performs as it does, what to be careful about for performance, and what the limits on interpreter performance are."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Bryce Kampjes has worked on a range of commercial systems from financial services to telemetry. Over the last few years he's been writing Exupery, first as an exercise in designing and building complex software, then later as a project that's slowly becoming practical."
+          }
+        ]
+      ]
+    },
+    "203-geid-calling-java-jniport-framework": {
+      "title": "Calling Java - The JNIPort framework",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Tue/Calling_Java_ESUG_2007.1.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Chris Uppal's JNIPort framework enables using Java class libraries from Smalltalk, thus making a large amount of components available to Smalltalk developers. It was originally developed for Dolphin Smalltalk and is now also available for VisualWorks. We will look into the design of JNIPort, the techniques used for its implementation, and how it can be used."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Joachim Geidel works as a senior consultant for blueCarat Consulting GmbH, Cologne, Germany. He has been using Smalltalk for development in academic and business projects since 1990."
+          }
+        ]
+      ]
+    },
+    "204-mack-expressive-testing-code-free": {
+      "title": "Expressive Testing and Code for Free",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Tue/Expressive.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "While unit testing was popularised through Smalltalk and SUnit, 13 years later the unit tests in many common libraries (some of them in Smalltalk) are difficult to read, inexpressive in their intent, and when failures occur they require tedious debugging. Smalltalk is much more powerful than this, and I will present a simple way of writing tests using a family of first class object assertions that are capable of clearly describing their intent, and more importantly, they fail clearly, communicating exactly what went wrong."
+          }
+        ],
+        [
+          {
+            "text": "By combining these constraining assertions with the Test Driven Development approach, it enables you to write tests that also explore the required protocol of associated objects. The resulting assertions can then generate the code required for development of the next layer of your application."
+          }
+        ],
+        [
+          {
+            "text": "This talk will present the test Constraints that I have identified and used so far in my projects, and explain how they can be combined to create useful test failures. I will then demonstrate a simple TDD session using the additional SMock framework and show how constraints and expectations can generate code stubs for continued development."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Tim has been programming with objects for 20 years, however it was when he heard Kent Beck describe Extreme Programming at OOPSLA 98 that he also found a process that balances quality, delivery and happiness. Tim was a member of the OTI team that created UML Modeler for VA Smalltalk, and followed this by creating the XP development team at Connextra where he invented the techniques: Mock Objects, Heartbeat retrospectives and Gold Cards. He followed this at ThoughtWorks where he mentored many successful corporate XP teams and conceived further agile techniques like Progress Bar graphs and Futurespectives. Tim is now the founder of Iterex Ltd, a company specialising in Iterative Excellence. Look out for their forthcoming Iterex Professional software."
+          }
+        ]
+      ]
+    },
+    "205-cani-extreme-validation": {
+      "title": "Extreme Validation",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Tue/Extreme.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "SUnit Validation was originally conceived by Andres Valloud as a framework for instantaneous feedback on data consistency in the GUI. The framework brilliantly solves the classical problem of handling user inputs in the event that they do not make sense in the model."
+          }
+        ],
+        [
+          {
+            "text": "As envisioned initially, validators factor out repetitive checks that are usually found in the presentation layer. However, the experience has shown that validators are extremely helpful identifying and solving a wide range of problems."
+          }
+        ],
+        [
+          {
+            "text": "The talk will summarize the experience of introducing heavy validations in a simulation system that has been successful for more than ten years in the Petroleum Industry. That includes new uses of the framework for the GUI, as well as applications to other areas as model diagnosis, validation of data imported from (and linked to) external sources, version upgrading, naming services, object deletion, SUnit testing, debugging support and automatic source code QA. We will explain how the original framework has been extended and describe the patterns that resulted from its application. Additionally, we will report how all of this has contributed to increase significantly the user experience and why the framework has shown beneficial for programmers too."
+          }
+        ]
+      ]
+    },
+    "206-bric-using-eclipse-as-smalltalk-plugin": {
+      "title": "Using Eclipse as a Smalltalk Plugin",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Tue/EclipseAsSmalltalkPlugin.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The Smalltalk environment is endowed with a wide variety of software reasoning tools such as SOUL, MOOSE, CodeCrawler, IntensiVE, etc. These tools enhance the Smalltalk development environment with the ability to query, investigate, measure and document Smalltalk programs using advanced research-oriented techniques. Although these tools are often not specifically targeted at Smalltalk programs, their existence in the Smalltalk environment often complicates their application to reason over code implemented in languages other than Smalltalk. It is, for example, undesirable to reimplement Java parsing and analysis tools in Smalltalk, especially because there already exist many such tools in Java development environments. Similarly, it is not desirable to reimplement the existing Smalltalk tools in a Java environment."
+          }
+        ],
+        [
+          {
+            "text": "In our work, we are applying some of the above-mentioned tools for reasoning over Java code. To this extent, we have developed an interoperability between the Smalltalk and Java environments, called JavaConnect. JavaConnect is a Visualworks Smalltalk library that allows a seamless interaction between Smalltalk and Java, much like JNIPort. A Smalltalk application can access any Java object and send messages to it, just as if it were a Smalltalk object. JavaConnect was developed to enable SOUL to reason over Java programs, while retaining the possibility of using many of the available Java libraries and utilities that exist for this purpose. For example, we use the Soot static analysis framework and the Eclipse JDT in Smalltalk because JavaConnect makes these Java utilities and libraries available as Smalltalk libraries. In this talk, we demonstrate how JavaConnect enables advanced Smalltalk development tools to reason over Java code that lives in an Eclipse workspace."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Johan Brichau is a postdoctoral researcher at the Département d'Ingénierie Informatique (Departement of Computer Science and Engineering) of the Université catholique de Louvain in Louvain-la-Neuve, Belgium. He received a PhD degree in Computer Science in 2005 from the Vrije Universiteit Brussel, where he also obtained his Licentiate (Masters) degree in Computer Science in 1999. Throughout his research, Johan has maintained a strong interest in (logic) metaprogramming and reflective techniques in the context of advanced software engineering tools as well as programming languages. More specifically, he has applied logic metaprogramming to pointcut languages in AOSD, the implementation of program generators and the verification of software applications."
+          }
+        ]
+      ]
+    },
+    "207-grig-ballooning-cairo": {
+      "title": "Ballooning in Cairo",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The Cairographics Project (www.cairographics.org/) is an OpenDesktop project that is \"...a 2D graphics library with support for multiple output devices. It's gaining momentum rapidly as a cross-platform way of doing modern, anti-aliased graphics for multiple back ends.\" Bindings exist for many different languages and toolsets, including GTK+, Ruby, and Python. This presentation is an overview of a language binding for Smalltalk, specifically VisualWorks(r). Attendees will gain a general understanding of the general drawing model and techniques Cairo empowers, how it's mapped in Smalltalk, as well as some of the techniques used to interface with the library."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Travis Griggs--self styled \"Objologist\"--works for Cincom Systems, Inc. Travis has spent 16 years (since 1991) using Smalltalk to make tools that make end users lives easier, ranging from optical food sorting equipment to nuclear fuel design automation software. Now days, he's on a mission to continue making the Cincom Smalltalk IDE the best programming toolset around. When not overwhelmed with improving tools and graphics and all things Cincom Smalltalk, he does his best to contribute to various open source projects, some in Smalltalk, some not."
+          }
+        ]
+      ]
+    },
+    "208-mivs-managing-business-processes-smalltalk": {
+      "title": "Managing Business Processes with Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Tue/ManagingBusinessProcesses.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Business Process Management (BPM) is currently a very hot topic because it promises to close the barrier between business and IT people by introducing a common language: business processes. There is already a common standard for modeling processes BPMN which also enables them to become executable by computers. With that in mind we started developing our own BPM execution engine in Smalltalk, which is executing processes modeled in BPMN. This engine as part of AIDA/Web based portal BiArt is already running a concrete business process of calibration of measures on Slovenian gas pipeline and this web application will be demonstrated during the presentation."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Janko Mivšek, a Smalltalker since 1995, founder of Eranova d.o.o, author of AIDA/Web web framework, maintainer of Swazoo web server and passionate contributor to Smalltalk community is currently using Smalltalk for developing complex business web based systems for management of business processes in many industries, from gas, logistics to pharmaceutical."
+          }
+        ]
+      ]
+    },
+    "209-badg-sport-smalltalk-portability-library": {
+      "title": "Sport, the Smalltalk portability library",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Tue/SportBOF.pdf",
+      "bioParagraphs": [
+        [
+          {
+            "text": "Bruce is an enthusiastic technologist and the Founder of OpenSkills.org, a global non-profit association of professional individuals. His strong technical leadership skills have contributed to his success of a wide range of IT projects, over a period of more than 25 years. He has built and deployed many systems and libraries over the past 10 years, preferring to develop software using Smalltalk, a pure Object Oriented language. Bruce is currently focusing on the evolution of the services market as Free and Open Source software is increasingly adopted. He has written a number of Open Source libraries, and is currently engaged with building the support systems for the OpenSkills association."
+          }
+        ]
+      ]
+    },
+    "301-happ-honorable-squires-supportive-tools-environment": {
+      "title": "Honorable Squires - Supportive Tools and Environment for a high availability Smalltalk application at AMD",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Wed/HonorableSquiresLecture.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In this lecture, we will present our approach to address the demand for high availability for AMDs equipment interface applications, which control the production machines and connect them to the factory control systems. In the presentation, we will show our approach to increase the uptime of these applications by using a number of supporting tools and discuss the results. Observing the running application on a deep level and recording interface activity in a way, that allows a later reproduction of a status, are such strategies. We will discuss our actions, results and ideas for improving the supporting web around our application."
+          }
+        ],
+        [
+          {
+            "text": "Equipment interface applications are key components in AMDs Factory Automation Infrastructure and running in several hundred instances. These components are customized forms of a common framework – the CEI Baseline. They are expected to run continuously with an absolute minimum of restarts and with minimum testing required in the productive environment."
+          }
+        ],
+        [
+          {
+            "text": "Automated and manual Testing has significantly reduced the number of bugs and increased stability. However this exposes those more rare but much more complex error situations to the customer's attention. Often the complexity of these issues makes analysis difficult or impossible and at times several occurrences of an issue are necessary to find the cause of the problem. The deployment of patch and update versions is currently another disturbing factor in the desired continuous operation of an equipment interface."
+          }
+        ]
+      ]
+    },
+    "302-kamp-exupery-next-generation-compiler-written": {
+      "title": "Exupery, a Next Generation Compiler Written in Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Wed/exuperyDirection.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Exupery is a native compiler for Squeak written in Squeak that's trying to be at least twice as fast as Self. This talk will outline the overall design and where Exupery currently is. It will also focus on why Smalltalk is the right language for next generation Smalltalk compilers."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Bryce Kampjes has worked on a range of commercial systems from financial services to telemetry. Over the last few years he's been writing Exupery, first as an exercise in designing and building complex software, then later as a project that's slowly becoming practical."
+          }
+        ]
+      ]
+    },
+    "303-wils-working-smarter-not-harder-development": {
+      "title": "Working Smarter, Not Harder: Development Tools, Processes and Automation",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "At Northwater we use GemStone/S with VA Smalltalk to deliver a rich application supporting our internal business clients. In this session I will share some of the approaches we've taken at Northwater, what's worked, and what's changed over the years."
+          }
+        ],
+        [
+          {
+            "text": "We've created numerous specialized development utilities and we're continually refining our processes. The ability to extend the development environment has been instrumental in leveraging the productivity of our small group and improving the quality of the software we deploy. I will present some of the many tools used at Northwater, our development processes that depend on some of these tools, and the various forms of automation that pull it all together."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Northwater Capital Management Inc. is a world-class investment management firm applying advanced financial and systems engineering to assist major institutions in building optimal portfolios. Northwater manages over US$9 billion in assets and employs 89 professionals with offices in Toronto, New York and Chicago. Angela Wilson has been an Associate Software Developer of Northwater's systems division since 2002. Her expertise in computer science and object-oriented design supports the firm in developing NewBlox II(c), Northwater's internal asset management tool. Angela supports the firm by providing unique systems solutions for Northwater's innovative investment products while taking into consideration the impact on other aspects of the business. Angela holds a Bachelor of Mathematics, Double Honours Computer Science and Combinatorics & Optimization from the University of Waterloo. She has previously presented at Smalltalk Solutions 2005."
+          }
+        ]
+      ]
+    },
+    "304-knig-advanced-object-relational-mapping-glorp": {
+      "title": "Advanced Object-Relational Mapping with Glorp",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Wed/glorpesug2007.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Glorp is an open-source library for mapping Smalltalk objects to and from relational databases. This talk will give a brief overview of Glorp architecture and then explore some of these advanced features, with a motivating example of implementing a \"Hyperactive Record\" facility. Topics will include the use of functions and subselects in queries and in mappings, mappings to collections of simple types and to dictionaries, query optimizations, dynamically reading and manipulating database schema and descriptor information, and mapping to non-trivial schemas. We demonstrate trivially modifying the Seaside \"Sushi Store\" demo to use relational persistence, and integrating with other metadata systems, such as Magritte."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Alan Knight is the technical architect for Cincom Smalltalk and lead on the open source GLORP project for object-relational mapping. Within Cincom he has been involved with many aspects of the VisualWorks implementation, including web serving, Store, deployment, and introducing Subsytems to control image startup and configuration. Before joining Cincom he was chief architect for the TOPLink family of products, and a member of the Sun expert groups on EJB 2.0 and JDO. He is co-author of Mastering ENVY/Developer (Cambridge, 2001) and has written and spoken at conferences extensively. He lives in Ottawa, Canada."
+          }
+        ]
+      ]
+    },
+    "401-okee-va-smalltalk-7-5-beyond": {
+      "title": "VA Smalltalk 7.5 and Beyond",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Thu/esug07-VAST75.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This session will discuss the current state of Instantiations VA Smalltalk and new features included in VA Smalltalk 7.5 such as the Refactoring Browser, the SUnit Browser, ENVY/QA, Windows Vista support, etc. Future development plans for version 8.0 and beyond will also be discussed. VA Smalltalk V7.5 enables software developers to create highly portable, scaleable, multi-tier business applications using object-oriented technology. VA Smalltalk allows for incremental and rapid development of new Smalltalk applications. Developers can build and deploy enterprise Web service solutions for dynamic e-business using VA Smalltalk. Join us for this presentation to learn about the new exciting features of VA Smalltalk 7.5, including support for Windows Vista, SuSE Linux, and Oracle 10."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "John O'Keefe, formerly a 39 year veteran of IBM, was a member of IBM's VisualAge Smalltalk team from its inception in 1991 and Team Lead and Chief Architect for VisualAge Smalltalk since 1996. He brings a wealth of knowledge and historical insight to the team. According to John, \"I am very happy to continue my career in the Smalltalk industry with Instantiations and energized by the commitment the company has made to the product for the long term."
+          }
+        ]
+      ]
+    },
+    "402-thom-application-frameworks-experience-report": {
+      "title": "Application Frameworks – an Experience Report",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Thu/Appl_Frameworks_Experience_Report.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This talk and short demonstration discusses the experience of choosing and using an application framework for Smalltalk based development. Discussed are factors such as what an application framework is, what it should do for us and some criteria for selection. Two known frameworks are contrasted and discussed, and an example of the chosen framework is given. Finally, the experience of years of use of the chosen framework, its advantages and disadvantages are discussed."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Arden Thomas got started with Smalltalk in 1986, looking for better ways to do software development (he found it). He is currently a senior field application engineer at Cincom, working to help Cincom's Smalltalk customers, and to help move Smalltalk forward. He worked for ParcPlace for many years as a trainer, sales engineer, and consultant, and recently did extensive software development at Forest Investment management, which included choosing and using an application framework."
+          }
+        ]
+      ]
+    },
+    "403-ehre-capture-accurate-solution-requirements-exploratory": {
+      "title": "Capture Accurate Solution Requirements with Exploratory Modeling at SAP",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Thu/xM@SAP.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Perhaps the most difficult (and most fundamental) challenge SAP project teams face is defining accurate, implementable solution requirements for the business problem they are trying to solve. Consider the following example: imagine that you need to write an algorithm to check for duplicate invoices at some point in the process, such as following data entry or during a nightly batch job. You'll quickly find yourself asking: \"what specifically qualifies an invoice as 'the same' or different from another? Should two invoices be considered the same if simply the sold-to and total quantity are identical, or do we need to check that every single field is identical? What if all of the data 'matches', but the lines are out of sequence? Do these criteria differ by company, department, or user (very common!)? What other potential cases have we failed to recognize/consider?\" - and you'll get no answers from the business experts!"
+          }
+        ],
+        [
+          {
+            "text": "Unfortunately, the example above is not fictitious. This was the exact solution we were trying to build on a recent project at SAP, a project that caused us to reevaluate our approach to application development."
+          }
+        ],
+        [
+          {
+            "text": "In this talk we will present you two projects at SAP where we successfully used Exploratory Modeling (xM) to get a much better understanding of the application domain and to nearly eliminate the typical post-go-live application design failures."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Ralf is a development architect at SAP. He joined SAP in April 1998 as a developer working with HR and Workforce Management software before moving on to the Business Process Renovation Team. One of his first challenges was to evaluate Smalltalk as a tool for rapid prototyping. Together with consultants from Georg Heeg eK he has successfully completed two Smalltalk projects at SAP. At the end of these two projects he became the main SAP contact during the VisualWorks to SAP integration project."
+          }
+        ]
+      ]
+    },
+    "404-reng-seaside": {
+      "title": "Seaside",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Thu/seaside-lr.1.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Seaside is a web development framework that provides a layered set of abstractions over HTTP and XHTML. It was the subject of various presentaions at past ESUG conferences. This presentation will summarize how Seaside evolved since ESUG 2006 in Prague. One part will cover API changes and new features in version 2.7 and the upcoming version 2.8. A second part will cover the broader picture and present changes to the environment like vendor support. Finally some future plans in general will be presented."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Lukas Renggli is expert in the development of Web applications and Content Management Systems. He is a core developer of Seaside. He is the author of Magritte, a framework to ease domain object modelling using meta-data, and Pier, a meta-described CMS entirely based on objects. Lukas Renggli is currently doing a PhD at the Software Composition Group, University of Bern, Switzerland.Lukas Renggli has given talks at various conferences."
+          }
+        ]
+      ]
+    },
+    "501-fost-glass-gemstone-linux-apache-seaside": {
+      "title": "GLASS: GemStone, Linux, Apache, Seaside, and Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2007/Thu/seaside-lr.1.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The Seaside framework provides a layered set of abstractions over HTTP and HTML that can be used for developing sophisticated web applications in Smalltalk. Seaside was developed in Squeak and ports are available for VisualWorks and for Dolphin. While the Seaside framework elegantly addresses HTML generation and application flow-of-control issues, it still leaves a few challenges for the developer--including persistence and multi-user coordination. In this presentation we will demonstrate a port of Seaside to a new dialect: GemStone/S. As a multi-user, persistent Smalltalk implementation that has no native user interface, GemStone/S provides an excellent environment for serving HTML and keeping domain objects persistent."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "James Foster has been working with computers since Fortran programs were submitted on punch cards and 'core' was a fine mesh of wires with tiny magnetic rings (1971). He has been programming in Smalltalk since 1993 and has developed applications with VisualSmalltalk, VisualAge, VisualWorks, Dolphin, and GemStone/S. James is currently QA Lead on the GemStone/S development team."
+          }
+        ]
+      ]
+    },
+    "502-wull-from-one-tree-forest-15": {
+      "title": "From one tree to a forest: 15 years of tree growth",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Starting with a first simple tree in 1992 for the definition of the structure of reports for police organizations, we have constructed in the course of the years ten different tree-types with significantly different semantics, but with a very high code reuse. In the talk I would like to show the idea of this evolutionary process: when new user requirements arose, we could use our existing structures and add new semantics. This process was evolving in each step more rapidly, because we could use existing code. The last tree that we have constructed only recently was popping up within 3 weeks from the first idea to its first function with full embedding for use by our customer. I also will make a demonstration of some of the capabilities of the trees and their relationship."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Working for the last 15 years in Smalltalk, the autor has implemented some large Smalltalk Systems in commercial environments (Public Management and Banking) using small amounts of developers."
+          }
+        ]
+      ]
+    },
+    "503-badg-slaps-smalltalk-ldap-server": {
+      "title": "Slaps: The Smalltalk LDAP Server",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Slaps is an LDAP server implemented in Smalltalk. This talk covers:"
+          }
+        ],
+        [
+          {
+            "text": "- Why Slaps was writen"
+          }
+        ],
+        [
+          {
+            "text": "- What is LDAP anyway"
+          }
+        ],
+        [
+          {
+            "text": "- ASN.1 and how to not hate it too much"
+          }
+        ],
+        [
+          {
+            "text": "- Lots of demos"
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Bruce is an enthusiastic technologist and the Founder of OpenSkills.org, a global non-profit association of professional individuals. His strong technical leadership skills have contributed to his success of a wide range of IT projects, over a period of more than 25 years. He has built and deployed many systems and libraries over the past 10 years, preferring to develop software using Smalltalk, a pure Object Oriented language. Bruce is currently focusing on the evolution of the services market as Free and Open Source software is increasingly adopted. He has written a number of Open Source libraries, and is currently engaged with building the support systems for the OpenSkills association."
+          }
+        ]
+      ]
+    }
+  },
+  "awards": {
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "The Small Project Observatory",
+        "submitter": "Mircea Lungu, Michele Lanza, Tudor Girba, University of Lugano + University of Bern , Switzerland",
+        "keywords": "Software Visualization, Store Visualization, Web Application",
+        "links": []
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "EyeSee",
+        "submitter": "Matthias Junker, Markus Hofstetter, University of Bern, Switzerland",
+        "keywords": "visualization, meta-modeling, tooling, metrics, testing, static analysis, dynamic analysis, evolution analysis",
+        "links": []
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "Pier",
+        "submitter": "Lukas Renggli, University of Bern, Switzerland",
+        "keywords": "Content Management, Meta-Driven Application Development, Web Application, Visual Programming, Seaside",
+        "links": [
+          {
+            "label": "Website",
+            "url": "http://www.lukas-renggli.ch/smalltalk/pier"
+          }
+        ]
+      }
+    ],
+    "nominees": [
+      {
+        "title": "Bots Inc.",
+        "submitter": "Prof. Stéphane Ducasse, LISTIC laboratory, University of Savoie, Annecy, France",
+        "keywords": "",
+        "links": []
+      },
+      {
+        "title": "RBCrawler",
+        "submitter": "Adrian Kuhn, University of Bern, Switzerland",
+        "keywords": "software visualization, Refactoring",
+        "links": []
+      },
+      {
+        "title": "Iterex Professional",
+        "submitter": "Tim Mackinnon, Iterex Ltd., London, England",
+        "keywords": "Agile, Story Cards, Planning, Velocity",
+        "links": []
+      },
+      {
+        "title": "Dakar Testing",
+        "submitter": "Damien Cassou/Karsten Kusche, (1) France, (2) Germany",
+        "keywords": "Testdriven Development, VisualWorks, Ease of use",
+        "links": []
+      },
+      {
+        "title": "Easy Morphic GUI",
+        "submitter": "Noury Bouraqadi, Ecole des Mines de Douai, France",
+        "keywords": "Visual Programming, GUI Building, Reuse, Prototype",
+        "links": []
+      },
+      {
+        "title": "PetroVR",
+        "submitter": "J. Blinten, L. Caniglia, C. E. Ferro, A. Murgia, V. Murgia, F. Olivero, A. Soma;, J. Vuletich, Caesar Systems Argentina & USA",
+        "keywords": "DEVS, Petroleum, Oil & Gas, Economic Analysis, Project Planning, Decision Support, Scheduling.",
+        "links": []
+      },
+      {
+        "title": "MijnGeld",
+        "submitter": "Rob Vens, Sepher, Netherlands",
+        "keywords": "Personal finance manager",
+        "links": []
+      }
+    ]
+  }
+}

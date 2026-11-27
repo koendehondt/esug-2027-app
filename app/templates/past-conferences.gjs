@@ -2,31 +2,61 @@ import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
 import { archiveYears } from '../data/archive';
 
-// Conferences from 2005 onward have a logo. Those with an archive in this
-// app (app/data/archive/index.js) link to it; the others are plain images
-// until their archive is added (see DECISIONS.md). 2004 and older are the
-// year tiles further down.
-const OLDER_LOGO_YEARS = [
-  { year: 2014, city: 'Cambridge', country: 'England' },
-  { year: 2013, city: 'Annecy', country: 'France' },
-  { year: 2012, city: 'Gent', country: 'Belgium' },
-  { year: 2011, city: 'Edinburgh', country: 'UK' },
-  { year: 2010, city: 'Barcelona', country: 'Spain' },
-  { year: 2009, city: 'Brest', country: 'France' },
-  { year: 2008, city: 'Amsterdam', country: 'The Netherlands' },
-  { year: 2007, city: 'Lugano', country: 'Switzerland' },
-  { year: 2006, city: 'Prague', country: 'Czech Republic' },
-  { year: 2005, city: 'Brussels', country: 'Belgium' },
+// Every ESUG conference before the ones in app/data/archive/index.js that
+// is not archived there yet. Conferences from 2005 onward (and 2003) have a
+// logo; the others are shown as a year tile. A conference with an archive in
+// this app links to it.
+const OLDER_YEARS = [
+  { year: 2014, city: 'Cambridge', country: 'England', logo: true },
+  { year: 2013, city: 'Annecy', country: 'France', logo: true },
+  { year: 2012, city: 'Ghent', country: 'Belgium', logo: true },
+  { year: 2011, city: 'Edinburgh', country: 'UK', logo: true },
+  { year: 2010, city: 'Barcelona', country: 'Spain', logo: true },
+  { year: 2009, city: 'Brest', country: 'France', logo: true },
+  { year: 2008, city: 'Amsterdam', country: 'The Netherlands', logo: true },
+  { year: 2007, city: 'Lugano', country: 'Switzerland', logo: true },
+  { year: 2006, city: 'Prague', country: 'Czech Republic', logo: true },
+  { year: 2005, city: 'Brussels', country: 'Belgium', logo: true },
+  { year: 2004, city: 'Köthen', country: 'Germany' },
+  { year: 2003, city: 'Bled', country: 'Slovenia', logo: true },
+  { year: 2002, city: 'Douai', country: 'France' },
+  { year: 2001, city: 'Essen', country: 'Germany' },
+  { year: 2000, city: 'Southampton', country: 'UK' },
+  { year: 1999, city: 'Ghent', country: 'Belgium' },
+  { year: 1998, city: 'Brescia', country: 'Italy' },
+  { year: 1997, city: 'Sophia Antipolis', country: 'France' },
+  { year: 1996, city: 'Lausanne', country: 'Switzerland' },
+  { year: 1995, city: 'Utrecht', country: 'The Netherlands' },
+  { year: 1994, city: 'Cork', country: 'Ireland' },
+  { year: 1993, city: 'Brest', country: 'France' },
 ];
 
-const logoTiles = [
+const conferenceTiles = [
   ...archiveYears.map((entry) => ({ ...entry, archived: true })),
-  ...OLDER_LOGO_YEARS.filter(({ year }) => !archiveYears.some((entry) => entry.year === year)).map((entry) => ({
+  ...OLDER_YEARS.filter(({ year }) => !archiveYears.some((entry) => entry.year === year)).map(({ logo, ...entry }) => ({
     ...entry,
-    logoImage: `/images/conference-logos/esug-${entry.year}.png`,
+    logoImage: logo ? `/images/conference-logos/esug-${entry.year}.png` : undefined,
     archived: false,
   })),
 ].sort((a, b) => b.year - a.year);
+
+const YearTileContent = <template>
+  <span class="conference-tile-frame">
+    <span class="conference-year-tile-year">{{@entry.year}}</span>
+    <span class="conference-year-tile-location">{{@entry.city}}</span>
+    <span class="conference-year-tile-location">{{@entry.country}}</span>
+  </span>
+</template>;
+
+const LogoTileContent = <template>
+  <span class="conference-tile-frame">
+    <img
+      src={{@entry.logoImage}}
+      alt="ESUG {{@entry.year}}, {{@entry.city}}, {{@entry.country}}"
+      class="conference-logo-image"
+    />
+  </span>
+</template>;
 
 <template>
   {{pageTitle "Past Conferences"}}
@@ -63,115 +93,23 @@ const logoTiles = [
     </p>
 
     <div class="conference-logo-grid">
-      {{#each logoTiles as |entry|}}
-        {{#if entry.archived}}
-          <LinkTo @route="archive" @model={{entry.year}} class="conference-logo-tile">
-            <span class="conference-tile-frame">
-              <img
-                src={{entry.logoImage}}
-                alt="ESUG {{entry.year}}, {{entry.city}}, {{entry.country}}"
-                class="conference-logo-image"
-              />
-            </span>
+      {{#each conferenceTiles as |entry|}}
+        {{#if entry.logoImage}}
+          {{#if entry.archived}}
+            <LinkTo @route="archive" @model={{entry.year}} class="conference-logo-tile">
+              <LogoTileContent @entry={{entry}} />
+            </LinkTo>
+          {{else}}
+            <div class="conference-logo-tile"><LogoTileContent @entry={{entry}} /></div>
+          {{/if}}
+        {{else if entry.archived}}
+          <LinkTo @route="archive" @model={{entry.year}} class="conference-year-tile">
+            <YearTileContent @entry={{entry}} />
           </LinkTo>
         {{else}}
-          <div class="conference-logo-tile">
-            <span class="conference-tile-frame">
-              <img
-                src={{entry.logoImage}}
-                alt="ESUG {{entry.year}}, {{entry.city}}, {{entry.country}}"
-                class="conference-logo-image"
-              />
-            </span>
-          </div>
+          <div class="conference-year-tile"><YearTileContent @entry={{entry}} /></div>
         {{/if}}
       {{/each}}
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2004</span>
-          <span class="conference-year-tile-location">Koethen</span>
-          <span class="conference-year-tile-location">Germany</span>
-        </span>
-      </div>
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2003.png"
-            alt="ESUG 2003, Bled, Slovenia"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2002</span>
-          <span class="conference-year-tile-location">Douai</span>
-          <span class="conference-year-tile-location">France</span>
-        </span>
-      </div>
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2001</span>
-          <span class="conference-year-tile-location">Essen</span>
-          <span class="conference-year-tile-location">Germany</span>
-        </span>
-      </div>
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">2000</span>
-          <span class="conference-year-tile-location">Southampton</span>
-          <span class="conference-year-tile-location">UK</span>
-        </span>
-      </div>
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">1999</span>
-          <span class="conference-year-tile-location">Gent</span>
-          <span class="conference-year-tile-location">Belgium</span>
-        </span>
-      </div>
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">1998</span>
-          <span class="conference-year-tile-location">Brescia</span>
-          <span class="conference-year-tile-location">Italy</span>
-        </span>
-      </div>
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">1997</span>
-          <span class="conference-year-tile-location">Sophia-Antipolis</span>
-          <span class="conference-year-tile-location">France</span>
-        </span>
-      </div>
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">1996</span>
-          <span class="conference-year-tile-location">Lausanne</span>
-          <span class="conference-year-tile-location">Switzerland</span>
-        </span>
-      </div>
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">1995</span>
-          <span class="conference-year-tile-location">Utrecht</span>
-          <span class="conference-year-tile-location">The Netherlands</span>
-        </span>
-      </div>
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">1994</span>
-          <span class="conference-year-tile-location">Cork</span>
-          <span class="conference-year-tile-location">Ireland</span>
-        </span>
-      </div>
-      <div class="conference-year-tile">
-        <span class="conference-tile-frame">
-          <span class="conference-year-tile-year">1993</span>
-          <span class="conference-year-tile-location">Brest</span>
-          <span class="conference-year-tile-location">France</span>
-        </span>
-      </div>
     </div>
   </article>
 </template>

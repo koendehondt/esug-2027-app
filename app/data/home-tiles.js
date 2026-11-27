@@ -277,22 +277,27 @@ export const archiveTiles = [
   {
     id: 'presentations',
     title: 'Presentation Archive',
-    summary: 'Search every ESUG talk from the past ten conferences by title, speaker, or year.',
+    summary: 'Search every ESUG talk since 1993 by title, speaker, or year.',
     date: '',
     active: true,
     routeName: 'presentations',
     image: '/images/tiles/presentations.jpg',
   },
-  ...archiveYears.map((entry) => ({
-    id: `esug${entry.year}-archive`,
-    title: `ESUG ${entry.year} Archive`,
-    summary: `Looking back on a great conference in ${entry.city}.`,
-    date: '',
-    active: true,
-    routeName: 'archive',
-    routeModels: [entry.year],
-    image: entry.heroImage,
-  })),
+  // Only the recent conferences get a home page tile; the older archives
+  // (2014 and before, mostly built from the old esug.org) are reached from
+  // the Past Conferences page.
+  ...archiveYears
+    .filter((entry) => entry.year >= 2015)
+    .map((entry) => ({
+      id: `esug${entry.year}-archive`,
+      title: `ESUG ${entry.year} Archive`,
+      summary: `Looking back on a great conference in ${entry.city}.`,
+      date: '',
+      active: true,
+      routeName: 'archive',
+      routeModels: [entry.year],
+      image: entry.heroImage,
+    })),
 ];
 
 // Tiles for the "About this App" section at the bottom of the home page.

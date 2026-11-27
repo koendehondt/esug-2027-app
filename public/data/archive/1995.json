@@ -1,0 +1,151 @@
+{
+  "year": 1995,
+  "city": "Utrecht",
+  "country": "The Netherlands",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "dayDates": ["1995-08-28", "1995-08-29", "1995-08-30", "1995-08-31", "1995-09-01"],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 28",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "VisualAge",
+          "talkId": "101-carr-visualage",
+          "speaker": "Janelle Carroll"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Effective Use of Processes",
+          "talkId": "102-vens-effective-use-processes",
+          "speaker": "Rob Vens"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 29",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "Smalltalk Frameworks for Business Critical Applications",
+          "talkId": "201-pala-smalltalk-frameworks-business-critical-applications",
+          "speaker": "Piotr Palacz"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Interfacing Smalltalk with the Real World",
+          "talkId": "202-pium-interfacing-smalltalk-real-world",
+          "speaker": "Ian Piumarta"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 30",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "A Practical Introduction to Patterns",
+          "talkId": "301-birc-practical-introduction-patterns",
+          "speaker": "Gary Birch"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Demonstrations and experiences"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 31",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "ENVY/Developer",
+          "talkId": "401-coin-envy-developer",
+          "speaker": "Pierre Cointe"
+        },
+        {
+          "time": "Morning",
+          "subject": "A Tool Developed with ENVY",
+          "talkId": "402-seiv-tool-developed-envy",
+          "speaker": "Geoffroy Seive"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Smalltalk in Lisp",
+          "talkId": "403-pium-smalltalk-lisp",
+          "speaker": "Ian Piumarta"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Smalltalk Coding Standards",
+          "talkId": "404-berr-smalltalk-coding-standards",
+          "speaker": "Andy Berry"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 1",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "Inside VisualWorks",
+          "talkId": "501-krie-inside-visualworks",
+          "speaker": "Philippe Krief"
+        },
+        {
+          "time": "Morning",
+          "subject": "Construction and Application of an OO Layer on DB2/2 (cancelled)"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Framework for Developing Business Applications in Smalltalk",
+          "talkId": "502-sand-framework-developing-business-applications-smalltalk",
+          "speaker": "Jan van de Sandt"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-carr-visualage": {
+      "title": "VisualAge",
+      "presentationUrl": "https://archive.esug.org/ESUG1995/jlctalk.pdf"
+    },
+    "102-vens-effective-use-processes": {
+      "title": "Effective Use of Processes",
+      "presentationUrl": "https://archive.esug.org/ESUG1995/Vens.pdf"
+    },
+    "201-pala-smalltalk-frameworks-business-critical-applications": {
+      "title": "Smalltalk Frameworks for Business Critical Applications",
+      "presentationUrl": "https://archive.esug.org/ESUG1995/Cblps.pdf"
+    },
+    "202-pium-interfacing-smalltalk-real-world": {
+      "title": "Interfacing Smalltalk with the Real World"
+    },
+    "301-birc-practical-introduction-patterns": {
+      "title": "A Practical Introduction to Patterns"
+    },
+    "401-coin-envy-developer": {
+      "title": "ENVY/Developer"
+    },
+    "402-seiv-tool-developed-envy": {
+      "title": "A Tool Developed with ENVY"
+    },
+    "403-pium-smalltalk-lisp": {
+      "title": "Smalltalk in Lisp"
+    },
+    "404-berr-smalltalk-coding-standards": {
+      "title": "Smalltalk Coding Standards"
+    },
+    "501-krie-inside-visualworks": {
+      "title": "Inside VisualWorks"
+    },
+    "502-sand-framework-developing-business-applications-smalltalk": {
+      "title": "Framework for Developing Business Applications in Smalltalk"
+    }
+  }
+}

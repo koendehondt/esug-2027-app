@@ -1,0 +1,669 @@
+{
+  "year": 2012,
+  "city": "Ghent",
+  "country": "Belgium",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "logoImage": "/images/conference-logos/esug-2012.png",
+  "report": {
+    "author": "Niall Ross",
+    "url": "https://archive.esug.org/ReportsFromNiallRoss/NiallRossESUG2012Report.pdf"
+  },
+  "dayDates": ["2012-08-27", "2012-08-28", "2012-08-29", "2012-08-30", "2012-08-31"],
+  "sideEvents": [
+    {
+      "label": "IWST 2012",
+      "links": [
+        {
+          "label": "Proceedings",
+          "url": "https://archive.esug.org/ESUG2012/IWST/proceedings.pdf"
+        },
+        {
+          "label": "Program",
+          "url": "https://archive.esug.org/ESUG2012/IWST/program_iwt_2012.pdf"
+        }
+      ]
+    },
+    {
+      "label": "Camp Smalltalk 2012"
+    },
+    {
+      "label": "Pharo/Moose workshop"
+    }
+  ],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 27",
+      "sessions": [
+        {
+          "time": "8:00 – 9:00",
+          "subject": "Registration"
+        },
+        {
+          "time": "9:00 – 9:30",
+          "subject": "Welcome & ESUG Presentation",
+          "talkId": "101-duca-welcome-esug-presentation",
+          "speaker": "Stéphane Ducasse, Johan Brichau"
+        },
+        {
+          "time": "9:30 – 10:00",
+          "subject": "GUI-Testing Smalltalk AJAX/SJAX Web Applications",
+          "talkId": "102-harl-gui-testing-smalltalk-ajax-sjax",
+          "speaker": "Carsten Härle"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "Continuous Integration: A Practical Approach",
+          "talkId": "103-vand-continuous-integration-practical-approach",
+          "speaker": "Maikel Vandorpe, Elke Matthys"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Extending a Base Product for Multiple Customers",
+          "talkId": "104-defr-extending-base-product-multiple-customers",
+          "speaker": "Denis Defreyne"
+        },
+        {
+          "time": "12:00 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 14:45",
+          "subject": "Amber Smalltalk: Present & Future",
+          "talkId": "105-pett-amber-smalltalk-present-future",
+          "speaker": "Nicolas Petton"
+        },
+        {
+          "time": "14:45 – 15:15",
+          "subject": "Modeling Scenarios",
+          "talkId": "106-cani-modeling-scenarios",
+          "speaker": "Leandro Caniglia"
+        },
+        {
+          "time": "15:15 – 15:45",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "15:45 – 16:15",
+          "subject": "News from Étoilé",
+          "talkId": "107-chis-news-from-etoile",
+          "speaker": "David Chisnall"
+        },
+        {
+          "time": "16:15 – 20:00",
+          "subject": "Innovation Technology Awards"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 28",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Of Metacello, Git, Scripting and Things",
+          "talkId": "201-henr-metacello-git-scripting-things",
+          "speaker": "Dale Henrichs"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "VA Smalltalk Update",
+          "talkId": "202-okee-va-smalltalk-update",
+          "speaker": "John O'Keefe"
+        },
+        {
+          "time": "11:15 – 11:45",
+          "subject": "Seamless: Let a Network Programming Framework Do the Work (Track A)",
+          "talkId": "203-papo-seamless",
+          "speaker": "Nick Papoulias"
+        },
+        {
+          "time": "11:30 – 12:15",
+          "subject": "The Metacello Doctor is In (Track B)",
+          "talkId": "204-henr-metacello-doctor-is",
+          "speaker": "Dale Henrichs"
+        },
+        {
+          "time": "11:45 – 12:15",
+          "subject": "Practically Using Glorp (Track A)",
+          "url": "https://archive.esug.org/ESUG2012/Slides/28-Tuesday/04-28-ESUG-PracticallyUsingGlorp.pdf"
+        },
+        {
+          "time": "12:15 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 15:00",
+          "subject": "IWST 2012 workshop (Track A)"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "OOSCM: Object Oriented Source Code Management (Track B)"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Code Completion in VA Smalltalk (Track B)",
+          "talkId": "205-berm-code-completion-va-smalltalk",
+          "speaker": "Seth Berman"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "15:30 – 16:15",
+          "subject": "Across Thirty-one Years: What Smalltalk Has Taught Me (Track A)",
+          "talkId": "206-mccl-smalltalk-over-31-years",
+          "speaker": "Martin McClure"
+        },
+        {
+          "time": "15:30 – 16:15",
+          "subject": "IWST 2012 workshop (Track B)"
+        },
+        {
+          "time": "16:15 – 17:45",
+          "subject": "Show us your projects"
+        },
+        {
+          "time": "17:45 – 18:15",
+          "subject": "Pier migration workshop",
+          "url": "https://archive.esug.org/ESUG2012/Slides/28-Tuesday/08-28-ESUG-PierMigrationWorkshop.pdf"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 29",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "How to Do Almost Smalltalking with Objective-C to Develop iOS Apps",
+          "talkId": "301-ersa-how-do-almost-smalltalking-objective",
+          "speaker": "Tansel Ersavas"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "Cincom Smalltalk Update",
+          "talkId": "302-thom-cincom-smalltalk-update",
+          "speaker": "Arden Thomas"
+        },
+        {
+          "time": "11:15 – 11:45",
+          "subject": "Fuel All the Way Down",
+          "talkId": "303-peck-fuel-all-way-down",
+          "speaker": "Mariano Martinez Peck"
+        },
+        {
+          "time": "11:45 – 12:15",
+          "subject": "stx:libjava: Running Java in Smalltalk",
+          "talkId": "304-vran-stx-libjava-running-java-smalltalk",
+          "speaker": "Jan Vraný"
+        },
+        {
+          "time": "12:15 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 14:45",
+          "subject": "Building a Business with Cincom Smalltalk",
+          "talkId": "305-thom-building-business-cincom-smalltalk",
+          "speaker": "Arden Thomas, Dirk Verleysen"
+        },
+        {
+          "time": "14:45 – 15:15",
+          "subject": "Presenty UI Framework",
+          "talkId": "306-kudr-presenty-ui-framework",
+          "speaker": "Denis Kudryashov"
+        },
+        {
+          "time": "15:15 – 18:15",
+          "subject": "Social event"
+        },
+        {
+          "time": "16:45 – 17:15",
+          "subject": "Awards reception"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 30",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Advanced Seaside 3",
+          "talkId": "401-mars-advanced-seaside-3",
+          "speaker": "Philippe Marschall"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "GemStone/64 Update",
+          "talkId": "402-will-gemstone-64-update",
+          "speaker": "Monty Williams"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Advanced Visualizations to Tame Wild Program Execution",
+          "talkId": "403-pena-advanced-visualizations-tame-wild-program",
+          "speaker": "Vanessa Peña, Alexandre Bergel, Juan Pablo Sandoval, Pablo Estefó"
+        },
+        {
+          "time": "12:15 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 15:00",
+          "subject": "The Metacello Doctor is In (Track A)",
+          "speaker": "Dale Henrichs"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Saving and Retrieving Objects (Track B)"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Object-Centric Reflection (Track B)",
+          "talkId": "404-ress-object-centric-reflection",
+          "speaker": "Jorge Ressia"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Building Real World Seaside Apps",
+          "talkId": "405-ager-building-real-world-seaside-apps",
+          "speaker": "Nick Ager"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 17:30",
+          "subject": "Show us your projects"
+        },
+        {
+          "time": "17:30 – 18:30",
+          "subject": "Write an Island Grammar for Moose with PetitParser",
+          "talkId": "406-larc-write-island-grammar-moose-petitparser",
+          "speaker": "Guillaume Larchevêque"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 31",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Building an App Based on jQueryMobile and iOS Pharo",
+          "talkId": "501-ager-building-app-based-jquerymobile-ios",
+          "speaker": "Nick Ager"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "Pharo Update",
+          "talkId": "502-duca-pharo-update",
+          "speaker": "Stéphane Ducasse"
+        },
+        {
+          "time": "11:15 – 11:45",
+          "subject": "Smalltalk in the Cloud",
+          "talkId": "503-fost-smalltalk-cloud",
+          "speaker": "James Foster"
+        },
+        {
+          "time": "11:45 – 12:15",
+          "subject": "Closing session"
+        },
+        {
+          "time": "12:15 – 14:00",
+          "subject": "Lunch break"
+        }
+      ]
+    }
+  ],
+  "iwstProgram": [
+    {
+      "id": "iwst-day-1",
+      "label": "Tue 28",
+      "sessions": [
+        {
+          "time": "14:00 – 14:05",
+          "subject": "Opening"
+        },
+        {
+          "time": "14:05 – 14:25",
+          "subject": "On the Integration of Smalltalk and Java",
+          "speaker": "Marcel Hlopko, Jan Kurš, Jan Vraný, Claus Gittinger"
+        },
+        {
+          "time": "14:25 – 14:45",
+          "subject": "Refactoring Support For Smalltalk Using Static Type Inference",
+          "speaker": "Martin Unterholzner"
+        },
+        {
+          "time": "14:45 – 15:05",
+          "subject": "Smalltalk in a C World",
+          "speaker": "David Chisnall"
+        },
+        {
+          "time": "15:05 – 15:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "15:30 – 15:50",
+          "subject": "Tracking Down Software Changes Responsible for Performance Loss",
+          "speaker": "Juan Pablo Sandoval Alcocer"
+        },
+        {
+          "time": "15:50 – 16:10",
+          "subject": "Spec: A Framework for the Specification and Reuse of UIs and their Models",
+          "speaker": "Benjamin Van Ryseghem, Stéphane Ducasse, Johan Fabry",
+          "url": "https://archive.esug.org/ESUG2012/IWST/Slides/Spec-IWST12.pdf"
+        },
+        {
+          "time": "16:10",
+          "subject": "Closing"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-duca-welcome-esug-presentation": {
+      "title": "Welcome & ESUG Presentation",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/27-Monday/01-27-ESUG-WelcomeGhent.pdf"
+    },
+    "102-harl-gui-testing-smalltalk-ajax-sjax": {
+      "title": "GUI-Testing Smalltalk AJAX/SJAX Web Applications"
+    },
+    "103-vand-continuous-integration-practical-approach": {
+      "title": "Continuous Integration: A Practical Approach",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/27-Monday/03-27-ESUG-ContinuousIntegration.pdf"
+    },
+    "104-defr-extending-base-product-multiple-customers": {
+      "title": "Extending a Base Product for Multiple Customers",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/27-Monday/04-27-ESUG-ExtendingABaseProductForMultipleCustomers.pdf"
+    },
+    "105-pett-amber-smalltalk-present-future": {
+      "title": "Amber Smalltalk: Present & Future"
+    },
+    "106-cani-modeling-scenarios": {
+      "title": "Modeling Scenarios"
+    },
+    "107-chis-news-from-etoile": {
+      "title": "News from Étoilé"
+    },
+    "201-henr-metacello-git-scripting-things": {
+      "title": "Of Metacello, Git, Scripting and Things"
+    },
+    "202-okee-va-smalltalk-update": {
+      "title": "VA Smalltalk Update",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/28-Tuesday/02-28-ESUG-VASmalltalkUpdate.pdf"
+    },
+    "203-papo-seamless": {
+      "title": "Seamless",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/28-Tuesday/03-28-ESUG-Seamless.pdf"
+    },
+    "204-henr-metacello-doctor-is": {
+      "title": "The Metacello Doctor is In"
+    },
+    "205-berm-code-completion-va-smalltalk": {
+      "title": "Code Completion in VA Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/28-Tuesday/06-28-ESUG-VACodeCompletion.pdf"
+    },
+    "206-mccl-smalltalk-over-31-years": {
+      "title": "Smalltalk over 31 Years"
+    },
+    "301-ersa-how-do-almost-smalltalking-objective": {
+      "title": "How to Do Almost Smalltalking with Objective-C to Develop iOS Apps",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/29-Wednsday/01-29-ESUG-HowToDoAlmostSmalltalkingToDevelopIOSApps.pdf"
+    },
+    "302-thom-cincom-smalltalk-update": {
+      "title": "Cincom Smalltalk Update",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/29-Wednsday/02-29-ESUG-CincomSmalltalkUpdate.pdf"
+    },
+    "303-peck-fuel-all-way-down": {
+      "title": "Fuel All the Way Down",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/29-Wednsday/03-29-ESUG-FuelAllTheWayDown.pdf"
+    },
+    "304-vran-stx-libjava-running-java-smalltalk": {
+      "title": "stx:libjava: Running Java in Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/29-Wednsday/04-29-ESUG-RunningJavaInSmalltalk.pdf"
+    },
+    "305-thom-building-business-cincom-smalltalk": {
+      "title": "Building a Business with Cincom Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/29-Wednsday/05-29-ESUG-BuildingBusinessWithCincomSmalltalk.pdf"
+    },
+    "306-kudr-presenty-ui-framework": {
+      "title": "Presenty UI Framework",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/29-Wednsday/06-29-ESUG-Presenty.pdf"
+    },
+    "401-mars-advanced-seaside-3": {
+      "title": "Advanced Seaside 3",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/30-Thursday/01-30-ESUG-AdvancedSeaside.pdf"
+    },
+    "402-will-gemstone-64-update": {
+      "title": "GemStone/64 Update",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/31-Friday/04-31-ESUG-GemsStoneUpdate.pdf"
+    },
+    "403-pena-advanced-visualizations-tame-wild-program": {
+      "title": "Advanced Visualizations to Tame Wild Program Execution",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/30-Thursday/03-30-ESUG-TamingWildExecution.pdf"
+    },
+    "404-ress-object-centric-reflection": {
+      "title": "Object-Centric Reflection",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/30-Thursday/05-30-ESUG-ObjectCentricReflection.pdf"
+    },
+    "405-ager-building-real-world-seaside-apps": {
+      "title": "Building Real World Seaside Apps",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/30-Thursday/06-30-ESUG-RealWorldSeasideApplications.pdf"
+    },
+    "406-larc-write-island-grammar-moose-petitparser": {
+      "title": "Write an Island Grammar for Moose with PetitParser"
+    },
+    "501-ager-building-app-based-jquerymobile-ios": {
+      "title": "Building an App Based on jQueryMobile and iOS Pharo",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/31-Friday/01-31-ESUG-BuildingAnAppBasedOnJQueryMobileAndIOsPharo.pdf"
+    },
+    "502-duca-pharo-update": {
+      "title": "Pharo Update",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/31-Friday/02-31-ESUG-PharoUpdate.pdf"
+    },
+    "503-fost-smalltalk-cloud": {
+      "title": "Smalltalk in the Cloud",
+      "presentationUrl": "https://archive.esug.org/ESUG2012/Slides/31-Friday/03-31-ESUG-SmalltalkInTheCloud.pdf"
+    }
+  },
+  "awards": {
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "Object-Centric Debugging",
+        "submitter": "Jorge Ressia, Alexandre Bergel Oscar Nierstrasz, University of Bern, University of Chile, Switzerland",
+        "keywords": "Reflection Debugging OOP",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://scg.unibe.ch/research/bifrost/OCD"
+          },
+          {
+            "label": "Demo",
+            "url": "http://www.youtube.com/watch?v=TlqMFBq8yY0"
+          }
+        ]
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "Hazelnut",
+        "submitter": "Guillermo Polito, Benjamin Van Ryseghem, Inria - Mines de Douai, Argentina",
+        "keywords": "Pharo, Image, Bootstrap, Modularization",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://www.smalltalkhub.com/#!/~Guille/Seed"
+          },
+          {
+            "label": "Demo",
+            "url": "http://www.mediafire.com/?8na5rhy60jrort1"
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "Roassal",
+        "submitter": "Vanessa Peña, Alexandre Bergel, Object Profile, Chile",
+        "keywords": "visualization pharo visualworks amber",
+        "links": [
+          {
+            "label": "Demo",
+            "url": "https://vimeo.com/47616600"
+          }
+        ]
+      }
+    ],
+    "nominees": [
+      {
+        "title": "Cocoa-Connect",
+        "submitter": "Karsten Kusche, Briksoftware.com, Germany",
+        "keywords": "VisualWorks Mac Native-UI",
+        "links": [
+          {
+            "label": "Download",
+            "url": "https://www.dropbox.com/s/3q3maqu3o91dba6/CocoaConnect-demo.mov"
+          },
+          {
+            "label": "Demo",
+            "url": "https://www.dropbox.com/s/l7a1b2p89slhx02/TestApp.zip"
+          }
+        ]
+      },
+      {
+        "title": "Gradualtalk",
+        "submitter": "Johan Fabry, Oscar Callau, Esteban Allende, Eric Tanter, Marcus Denker, DCC - Universidad de Chile, RMod - INRIA Lille, Chile",
+        "keywords": "Type system; Gradual typing",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://www.pleiad.cl/gradualtalk"
+          }
+        ]
+      },
+      {
+        "title": "Nautilus",
+        "submitter": "Benjamin Van Ryseghem, RMoD, France",
+        "keywords": "Browser Nautilus Pharo",
+        "links": []
+      },
+      {
+        "title": "OOSCM",
+        "submitter": "Ezequiel Lamonica, Hernan Wilkinson, 10Pines, Argentina",
+        "keywords": "OOSCM",
+        "links": [
+          {
+            "label": "Download",
+            "url": "https://www.dropbox.com/sh/3j30jrahbvb3v71/wlXyl1t6BR"
+          }
+        ]
+      },
+      {
+        "title": "Pegon - an optional type system",
+        "submitter": "Rob Smit, Wouter Gazendam, AG5, Netherlands",
+        "keywords": "type-system optional strongtalk gradual",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://sourceforge.net/projects/pegon/"
+          },
+          {
+            "label": "Demo",
+            "url": "http://sourceforge.net/projects/pegon/files/pegon.mp4"
+          }
+        ]
+      },
+      {
+        "title": "Presenty UI framework",
+        "submitter": "Denis Kudryashov, Denis Kudryashov, Russia",
+        "keywords": "UI framework",
+        "links": []
+      },
+      {
+        "title": "SourceCity",
+        "submitter": "Guillaume Larchevêque, Erwan Douaille (main developer), RMOD, France",
+        "keywords": "Moose Pharo RMOD 3D OpenGL SourceCity Visualisation tool analysis",
+        "links": [
+          {
+            "label": "Demo",
+            "url": "http://douaille.erwan.free.fr/videos/SouceCity_Demo.wmv"
+          }
+        ]
+      },
+      {
+        "title": "Tanker",
+        "submitter": "Mariano Martinez Peck, Martin Dias, RMoD INRIA Nord - Mines de Douai, France",
+        "keywords": "Tanker Fuel Packages Export Import Pharo",
+        "links": [
+          {
+            "label": "Download",
+            "url": "https://gforge.inria.fr/frs/shownotes.php?release_id=7537"
+          },
+          {
+            "label": "Demo",
+            "url": "http://www.youtube.com/watch?v=T6EWxBjNbrc&feature=youtu.be"
+          }
+        ]
+      },
+      {
+        "title": "Test Surgeon",
+        "submitter": "Pablo Estefo, Department of Computer Science, Universidad de Chile, Chile",
+        "keywords": "unit testing, software visualization, refactoring",
+        "links": []
+      },
+      {
+        "title": "The JET Tools",
+        "submitter": "Veronica Uquillas Gomez, Vrije Universiteit Brussel / Inria Lille, Belgium",
+        "keywords": "History, Changes, Dependencies",
+        "links": []
+      },
+      {
+        "title": "Versionner",
+        "submitter": "Juan Pablo Sandoval Alcocer, Alexandre Bergel, Christophe Demarey, University of Chile, Chile",
+        "keywords": "Pharo, Metacello, Spec",
+        "links": [
+          {
+            "label": "Download",
+            "url": "http://users.dcc.uchile.cl/~jsandova/versionner/"
+          },
+          {
+            "label": "Demo",
+            "url": "http://youtu.be/6x0nsd9U4OE"
+          }
+        ]
+      }
+    ]
+  }
+}

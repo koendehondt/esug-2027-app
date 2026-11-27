@@ -1,0 +1,418 @@
+{
+  "year": 2000,
+  "city": "Southampton",
+  "country": "UK",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "report": {
+    "author": "Niall Ross",
+    "url": "https://archive.esug.org/ReportsFromNiallRoss/ESUG2000%20reportNfr.pdf"
+  },
+  "dayDates": ["2000-08-28", "2000-08-29", "2000-08-30", "2000-08-31", "2000-09-01"],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 28",
+      "sessions": [
+        {
+          "time": "8:45 – 9:00",
+          "subject": "Welcome introduction"
+        },
+        {
+          "time": "9:00 – 10:00",
+          "subject": "When Smalltalk Meets the Web",
+          "talkId": "101-cruz-when-smalltalk-meets-web",
+          "speaker": "Juan Carlos Cruz"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 12:30",
+          "subject": "Advanced eXtreme Programming Testing Techniques in Smalltalk",
+          "talkId": "102-pelr-advanced-extreme-programming-testing-techniques",
+          "speaker": "Joseph Pelrine"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 16:00",
+          "subject": "Smalltalk and Corporate Cultures",
+          "talkId": "103-pala-smalltalk-corporate-cultures",
+          "speaker": "Piotr Palacz"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:30 – 17:30",
+          "subject": "Building Run-time Analysis Tools by Means of Pluggable Interpreters",
+          "talkId": "104-tilm-building-run-time-analysis-tools",
+          "speaker": "Michel Tilman"
+        },
+        {
+          "time": "17:30 – 18:30",
+          "subject": "Free group discussions"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 29",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Making of the Virtual Domino Animations",
+          "talkId": "201-mick-making-virtual-domino-animations",
+          "speaker": "Ernest Micklei"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 12:30",
+          "subject": "Aida WebServer",
+          "talkId": "202-mivs-aida-webserver",
+          "speaker": "Janko Mivšek"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 16:00",
+          "subject": "Parcels: a Fast and Flexible Component Architecture",
+          "talkId": "203-mira-parcels-fast-flexible-component-architecture",
+          "speaker": "Eliot Miranda"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:30 – 17:30",
+          "subject": "Internet Application Development Using a Meta-repository",
+          "talkId": "204-tilm-internet-application-development-using-meta",
+          "speaker": "Michel Tilman"
+        },
+        {
+          "time": "17:30 – 18:30",
+          "subject": "Free group discussions"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 30",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "COAST",
+          "talkId": "301-schu-coast",
+          "speaker": "Jan Schümmer"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 11:30",
+          "subject": "Smalltalk-2000: SmallScript and Microsoft's \".NET\" Platform",
+          "talkId": "302-simm-smalltalk-2000-smallscript-microsofts-net",
+          "speaker": "David Simmons"
+        },
+        {
+          "time": "11:30 – 12:30",
+          "subject": "General assembly"
+        },
+        {
+          "time": "12:30",
+          "subject": "Lunch"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 31",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "OpenSpace: a Framework for Heterogeneous Tuple Space",
+          "talkId": "401-hofm-openspace-framework-heterogeneous-tuple-space",
+          "speaker": "Thomas Hofmann"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 12:30",
+          "subject": "SToRE",
+          "talkId": "402-mira-store",
+          "speaker": "Eliot Miranda"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 15:00",
+          "subject": "Stable Squeak World Tour",
+          "talkId": "403-sark-stable-squeak-world-tour",
+          "speaker": "John Sarkela"
+        },
+        {
+          "time": "15:00 – 16:00",
+          "subject": "SOUL (Smalltalk Open Unification Language)",
+          "talkId": "404-wuyt-soul-smalltalk-open-unification-language",
+          "speaker": "Roel Wuyts"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:30 – 17:30",
+          "subject": "Smalltalk Scripting Language for VisualAge",
+          "talkId": "405-sims-smalltalk-scripting-language-visualage",
+          "speaker": "Matt Sims"
+        },
+        {
+          "time": "17:30 – 18:30",
+          "subject": "Dolphin BoF session"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 1",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Configuration Management Alternatives for VisualWorks",
+          "talkId": "501-pelr-configuration-management-alternatives-visualworks",
+          "speaker": "Joseph Pelrine"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 12:30",
+          "subject": "Model View Presenter: Twisting the Triad",
+          "talkId": "502-bowe-model-view-presenter-twisting-triad",
+          "speaker": "Andy Bower"
+        },
+        {
+          "time": "12:30",
+          "subject": "Lunch"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-cruz-when-smalltalk-meets-web": {
+      "title": "When Smalltalk Meets the Web",
+      "presentationUrl": "https://archive.esug.org/ESUG2000/Slides/stMeetsWeb.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/when-smalltalk-meets-the-web"
+    },
+    "102-pelr-advanced-extreme-programming-testing-techniques": {
+      "title": "Advanced eXtreme Programming Testing Techniques in Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2000/Slides/advancedXP.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "How much testing is enough? Too little? Too much? What do developers need to test? The available eXtreme Programming literature differentiates between unit testing and functional testing, and gives unit testing during development a (well-deserved and much-needed) high priority, but fails to address a number of other important aspects of developer testing: GUI testing, performance testing, and packaging/delivery testing, for example. This tutorial will illustrate new techniques such as implementing \"skins\" for SUnit, defining test resources for managing items which remain active over a series of tests (e.g. database connections), and automating or integrating various other tests into SUnit."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Joseph Pelrine is an expert Smalltalk programmer with over 11 years extensive OT experience and has worked with Kent Beck, the originator of XP, for a number of years. A former columnist for the Smalltalk Report and noted international speaker, he is currently a senior consultant with Daedalos Consulting in Switzerland. He is coauthor of the forthcoming book, Mastering ENVY/Developer, due for publication from Cambridge University Press in fall 2000."
+          }
+        ]
+      ]
+    },
+    "103-pala-smalltalk-corporate-cultures": {
+      "title": "Smalltalk and Corporate Cultures",
+      "presentationUrl": "https://archive.esug.org/ESUG2000/Slides/stCorporateCultures.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/smalltalk-and-corporate-cultures",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The presentation is an effort at systematization of experiences from projects involving Smalltalk. The period covered spans more than 10 years on four continents in various organizations, from small to the really big ones in terms of team and budget size. It is also about specific expectations, voiced or not, as to the development of software using Smalltalk could or should be done, most of which had to be adjusted in corporate reality. Apart from sharing experiences and few anecdotes, the focus of the talk is the functioning of Smalltalk and Smalltakers in specific corporate and organizational cultures. There are settings in which Smalltalk is very likely to fail; there are also situations, where Smalltalk as a technology and mindset it supports work very nicely. The objective is to describe identifying features and symptoms both for failure and success with Smalltalk, using the presenter's experiences (mainly) in Australia and the U.S. The intended audience is not only people who manage or lead Smalltalk development, but also Smalltalk programmers who may be reluctant to go beyond the technical. The hope is that these shared experiences may help one avoid death marches and looming disasters; that popularizing Smalltalk may become more effective; and that fashionable approaches in Smalltalk projects, like Extreme Programming, can be examined from the point of view of types of corporate culture they respond to."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "I started programming in Smalltalk around 1986 in Digitalk/V on a PC XT. Since then, I used most commercial Smalltalk products in variety of projects in different roles over time, ranging from a programmer to architect and technical director. I worked in Poland, China and Australia, where I worked mainly in banking insurance and advertising. I have spent last three years in the U.S. working for telecom and utility companies. In Australia I was a founding member of Australian Smalltalk User Group and I co-sponsored its web site. I was presenter in Smalltalk Summer School in Utrecht, 1995."
+          }
+        ]
+      ]
+    },
+    "104-tilm-building-run-time-analysis-tools": {
+      "title": "Building Run-time Analysis Tools by Means of Pluggable Interpreters",
+      "presentationUrl": "https://archive.esug.org/ESUG2000/Slides/runtimeTools.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/runtime-tools",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Although most Smalltalk implementations offer the developer powerful reflective facilities, putting this functionality to good use often requires a deeper understanding of the internal workings of the Smalltalk 'engine'. When we implement a Smalltalk interpreter in Smalltalk itself (which is fairly simple) and apply it selectively on a per method basis (using method wrappers), we get a flexible basis for building different types of analysis tools in a easy-to-understand way. Examples are fine-grained tools to keep track of dynamic typing information, method activations and variable accesses. We present an overview of the interpreter, its implementation and how it is used to build browsers for viewing method coverage and run-time type information."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Michel Tilman graduated in Mathematics at the Brussels Free University, where he joined the Programming Technology Lab in 1985, doing research on models for concurrent object-oriented systems, on frameworks for groupware applications and configurable application servers, and on pratical applications of reflection. He later applied his experience in commercial settings (SoftCore, Unisys). He has been using Smalltalk for 13 years."
+          }
+        ]
+      ]
+    },
+    "201-mick-making-virtual-domino-animations": {
+      "title": "Making of the Virtual Domino Animations",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The challenge to making a real life domino toppling scene is all about keeping the upmost concentration when placing the stones one by one. As each stone is placed there is a potential risk that it will topple by mistake and initiate an unstoppable toppling process. Of course the reward is great and experiencing the event gives the particpants and audience a thrill. But most people, like me, never got the chance to join or startup such an event. Most likely, this is because I couldn't find other people crazy enough to spend many hours sitting in a big room placing those millions of colored dominos. So I was never able to realize my imaginary scenes, until now... In November 1999, I started to create classes to model the process of toppling domino stones queued in a row. Working my way through complex trigonometric relations, I managed to generate a sequence of toppling angles for each domino such that the whole process could be animated. Using SmallScript3D, a 3D-language on top of Smalltalk, it became possible to generate domino animations using VRML (Virtual Reality Modelling Language). Now, all I have to do is put a lot of characters in rows, turns, circles, and bridges and my objects will take care of the rest. My talk will highlight the design and implementation of several classes needed to make all of this work for me. The domino text format, the scene reading phase, the angle computation process and some exporting issues will all be addressed. Curious people are invited to peek at http://www.philemonworks.com/domino/uk/index.html and see some examples."
+          }
+        ]
+      ]
+    },
+    "202-mivs-aida-webserver": {
+      "title": "Aida WebServer",
+      "presentationUrl": "https://archive.esug.org/ESUG2000/Slides/aida.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/swazoo-aida",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Janko Mivsek is a founder and systems architect at EraNova d.o.o. He has 6 years of experience in implementation of pure object technology in diverse fields, from Gas industry, Publishing, Logistics to Direct marketing industry. Last 4 years he actively combine an Internet and object approach to build complex, highly interactive and easy to maintain information systems."
+          }
+        ],
+        [
+          {
+            "text": "Swazoo-Aida is a combination of Swazoo, a Camp Smalltalk made HTTP 1.1 web server and framework for web servers, and AIDA/Web, a Web server and framework for dynamic web applications. The intention of our Web Application Server group at Camp Smalltalk was to combine the best work in web server area in different Smalltalks and produce a common, open-source web server and framework for e-commerce applications, similar or better that those in Java world. Although the Swazoo-Aida is a work in progress, it is already production ready and offers session support with or without cookies, security (SSL is coming), active smalltalk pages, rich set of web elements to compose web pages and many more. It comes with ready web components such as discussion forums, search engine and news. The tutorial consists introduction to concepts and a groupwork on a small but working web application."
+          }
+        ]
+      ]
+    },
+    "203-mira-parcels-fast-flexible-component-architecture": {
+      "title": "Parcels: a Fast and Flexible Component Architecture"
+    },
+    "204-tilm-internet-application-development-using-meta": {
+      "title": "Internet Application Development Using a Meta-repository",
+      "presentationUrl": "https://archive.esug.org/ESUG2000/Slides/internetMetaRep.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/internet-application-development-using-a-metarepository",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In this demonstration we present an Internet application development framework that provides developers with high-level tools for building and maintaining Web-based applications in a flexible way. The framework is dynamically driven by meta-information stored in a central database. The Internet framework builds on the ARGO framework presented at the ESUG 1999 conference. Using the ARGO framework we define and maintain the business logic by modeling and configuring, rather than through scripting. The Internet application server allows the users to access these applications through the Web. The demonstration is accompanied by a technical overview of the framework architecture."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Michel Tilman graduated in Mathematics at the Brussels Free University, where he joined the Programming Technology Lab in 1985, doing research on models for concurrent object-oriented systems, on frameworks for groupware applications and configurable application servers, and on pratical applications of reflection. He later applied his experience in commercial settings (SoftCore, Unisys). He has been using Smalltalk for 13 years."
+          }
+        ]
+      ]
+    },
+    "301-schu-coast": {
+      "title": "COAST",
+      "presentationUrl": "https://archive.esug.org/ESUG2000/Slides/coast.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/coast",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Groupware applications help a group of distributed or co-located users to work on a common task. Synchronous groupware applications enable a group of users to collaborate in real-time. Building synchronous groupware applications is much more complicated than building single user applications. Thus we developed the COAST framework, which reduces the load of development of groupware applications to a level of single user application. The COAST framework therefore offers a data description language to model the (shared) domain model, provides mechanisms for synchronous manipulation of the shared domain model by a set of users, keeps the shared model and their visualizations at a consistent state, supports the provision of clues about other user’s activities (group awareness), includes a pre-defined extensible model of users and their work environments, and assists the developer in modeling user interaction and collaborative sessions. COAST is implemented in VisualWorks Smalltalk and is becoming open source, to be used by a large community for the development of groupware. The talk will give an introduction to COAST’s concepts for groupware development and discuss the design decisions we made during it’s development."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Jan Schümmer, Till Schümmer and Christian Schuckmann work at GMD-IPSI, where they develop groupware applications such as collaborative learning systems (VITAL, L³), software for collaborative buildings (BEACH), or collaborative software development tools (TUKAN or cooperative UML-Editor). All these Systems are based on COAST, which was developed by the speakers after they built the meeting support system DOLPHIN. More information about these systems and the COAST framework can be found at the IPSI homepage (http://ipsi.gmd.de/) or at the COAST homepage (http://www.darmstadt.gmd.de/concert/projects/coast.html)."
+          }
+        ]
+      ]
+    },
+    "302-simm-smalltalk-2000-smallscript-microsofts-net": {
+      "title": "Smalltalk-2000: SmallScript and Microsoft's \".NET\" Platform",
+      "bioParagraphs": [
+        [
+          {
+            "text": "David Simmons founded Quasar Knowledge Systems, Inc. (QKS) in 1989 to develop a next generation platform for integration of distributed Agent and Object technologies. For the last ten years he has been the lead architect on the development of the QKS Agents Object System (AOS(tm)) multi-language runtime and QKS Smalltalk for Macintosh, Win32, and most recently SmallScript(tm) consisting of the AOS Runtime Platform and a Smalltalk language superset for hi-performance scripting. Mr. Simmons has been an active member of the ANSI X3J20 Smalltalk standards group since its inception and over the years has pioneered many advances in Smalltalk and its language."
+          }
+        ]
+      ]
+    },
+    "401-hofm-openspace-framework-heterogeneous-tuple-space": {
+      "title": "OpenSpace: a Framework for Heterogeneous Tuple Space",
+      "presentationUrl": "https://archive.esug.org/ESUG2000/Slides/openSpaces.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/openspaces",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "I'm studying computer sience at the University of Bern, Switzerland. OpenSpaces is my master's project, developed with Visual Works and DST. Since 2000 I work in a small company as developer using Visual Age ST."
+          }
+        ],
+        [
+          {
+            "text": "OpenSpaces is an object-oriented framework for coordination using a shared data space. Collaborating agents can exchange any information through the commonly known space in order to synchronize or pass requests or results of computation. OpenSpaces offers a high degree of configurability, at compiletime as also pluggable at runtime. OpenSpaces is implemented in Smalltalk on top of CORBA. Like that several platforms are covered and clients may be written in any language for which an ORB is available. I will present the framework and demonstrate different use-scenarios."
+          }
+        ]
+      ]
+    },
+    "402-mira-store": {
+      "title": "SToRE"
+    },
+    "403-sark-stable-squeak-world-tour": {
+      "title": "Stable Squeak World Tour",
+      "presentationUrl": "https://archive.esug.org/ESUG2000/Slides/stableSqueak.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/stable-squeak-world-tour",
+      "bioParagraphs": [
+        [
+          {
+            "text": "Stable Squeak World Tour John W. Sarkela (jsarkela@exobox.com or sarkela@home.com)"
+          }
+        ]
+      ]
+    },
+    "404-wuyt-soul-smalltalk-open-unification-language": {
+      "title": "SOUL (Smalltalk Open Unification Language)"
+    },
+    "405-sims-smalltalk-scripting-language-visualage": {
+      "title": "Smalltalk Scripting Language for VisualAge"
+    },
+    "501-pelr-configuration-management-alternatives-visualworks": {
+      "title": "Configuration Management Alternatives for VisualWorks"
+    },
+    "502-bowe-model-view-presenter-twisting-triad": {
+      "title": "Model View Presenter: Twisting the Triad",
+      "presentationUrl": "https://archive.esug.org/ESUG2000/Slides/twistingTheTriad.pdf",
+      "slideshareUrl": "https://www.slideshare.net/esug/twisting-thetriad",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Model View Presenter (MVP) is a modern user interface framework for Smalltalk. Derived from the Taligent C++ framework of the same name, MVP is currently the key UI framework in Dolphin Smalltalk. This tutorial discusses the qualities of MVP and why the Dolphin developers chose to adopt it over and above two previous framework designs (that were tried, and yet rejected) based around widgets and MVC. The presentation will attempt show how, by rotating (or twisting) the MVC triad, one can produce an \"Observer\" based framework that is easy to use and more flexible than those currently available in other Smalltalk environments. We will also present some \"hands-on\" step-by-step examples for those interested in getting to grips with Dolphin MVP for the first time."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Andy Bower is a Director and founder of Object Arts Ltd, the UK based company responsible for Dolphin Smalltalk. Andy has been a practitioner of Object Oriented Programming since he discovered the \"Blue Book\" back in 1984 although, by his own admission, he didn't actually get to grips with the Smalltalk language until some ten years later. In 1994, Andy \"saw the light\" and became a key member of the team that designed and built Dolphin Smalltalk. He is now a \"raving\" Smalltalk evangelist and, therefore, not someone who should be engaged in conversation at parties!"
+          }
+        ]
+      ]
+    }
+  }
+}

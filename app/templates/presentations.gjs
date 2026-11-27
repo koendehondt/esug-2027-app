@@ -25,8 +25,8 @@ import PresentationSearch from '../components/presentation-search';
     </div>
     <h1>Presentation Archive</h1>
     <p>
-      Search every ESUG presentation from the past ten conferences (2015 &ndash; 2019, 2022 &ndash; 2026) by title,
-      speaker, or year. More conferences will be added here as they happen.
+      Search every ESUG presentation from 1993 to today by title, speaker, or year. The years 2001 to 2003 are not in
+      the archive yet. More conferences will be added here as they happen.
     </p>
 
     <PresentationSearch @presentations={{@model}} />

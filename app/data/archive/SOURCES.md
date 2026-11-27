@@ -680,3 +680,97 @@ the workshop program and the proceedings.
 Winners from `/Conferences/2011/InnovationTechnologyAwards`, nominees from its `Submissions` page in submission order.
 A few free-form "Other Developers" fields were rewritten by hand into one line. Download and demo links that no longer
 resolve (checked 2026-11-27) are left out, which leaves most entries without links.
+
+## Common notes for 1993-2014
+
+All years before 2015 were built from the esug.org Pier export (`esug-pier-export-withFiles`, extracted from
+`esug.image`), with these rules:
+
+- Pier wiki markup becomes runs; internal wiki links become plain text (no links to esug.org, see DECISIONS.md).
+- Old `esug.org/data/ESUGyyyy/...` links are rewritten to `https://archive.esug.org/ESUGyyyy/...`; slides found in an
+  archive.esug.org day folder but not linked from the wiki are matched to their talk by file name.
+- Every link was checked on 2026-11-27. Dead links inside abstracts and bios become plain text; dead slide, award and
+  side-event links are left out.
+- Parallel sessions get "(Track A)" / "(Track B)" after the subject. Breaks and talks without a known speaker are listed
+  without a talk page.
+- Talk ids are unique across all years; a clash gets the year appended (e.g. `101-duca-welcome-esug-presentation-2013`).
+- Conferences without their own hero image use the Past Conferences page image (`/images/tiles/past-conferences.jpg`).
+- 2001, 2002 and 2003 have no archive: the Pier export has no program for them.
+
+## 2014
+
+Program: the per-room day schedules on the Pier page /Conferences/2014/Conference-Schedule (PNG images, one per day).
+The conference's Google Calendar is gone, but the descriptions of the ESUG 2014 YouTube videos
+(https://www.youtube.com/playlist?list=PLJ5nSnWzQXi_6yyRLsMMBqG8YlwfhvB0X) are copies of its entries: speaker, time,
+slides, abstract and bio come from there. The lecture theatre (LT1) is Track A, rooms FW11 and FW26 Track B. Two Friday
+talks have no video and no named speaker; they are listed without a talk page. PDF slides: the session folders of
+https://archive.esug.org/ESUG2014/. IWST 2014: the program table on /Conferences/2014/IWST14 (papers listed under their
+session, no per-paper times), with videos from the IWST 2014 playlist.
+
+## 2013
+
+The schedule was a Google Calendar embedded in the Pier page; it is gone and no copy was found (not in the Wayback
+Machine either). What remains: the slides on https://archive.esug.org/ESUG2013/, one folder per day with files numbered
+in the order of the talks, and 19 videos in the ESUG 2013 YouTube playlist (six with an abstract and bio in the
+description). So each day lists its talks in that order, without times, with a speaker only where a video title or file
+name names one. Awards: /Conferences/2013/Innovation-Technology-Awards and its Submissions page.
+
+## 2012
+
+Program: https://archive.esug.org/ESUG2012/Schedule/esug2012Schedule.pdf, a print of the conference's Google Calendar
+(titles and times only). Speakers come from Niall Ross's report on the conference. Three talks the report does not cover
+(Practically Using Glorp, OOSCM, Saving and Retrieving Objects) are listed without a speaker. No abstracts survive. IWST
+2012: https://archive.esug.org/ESUG2012/IWST/program_iwt_2012.pdf. Awards: /Conferences/2012/Innovation-Technology-Awards.
+
+## 2010
+
+Program: the timetable image 2010Schedule2.pdf (Pier /Conferences/2010/SchedulePDF); a few short Wednesday slots are read
+from the grid and rounded to five minutes. Talks: /Conferences/2010/Talks and its child pages. IWST 2010: the workshop
+page gives session times only, so its six papers are spread evenly over the two sessions. Awards: the three winners from
+/Conferences/2010/Awards-results (its "Spreading Smalltalk Actions" and book awards are not shown), nominees from
+InnovationTechnologyAwards/Submissions.
+
+## 2009
+
+Program: /Conferences/2009/Conference Schedule; talks: the pages under "Current List of Talks". Abbreviated speaker names
+are expanded from the talk pages. IWST 2009: https://archive.esug.org/ESUG2009/IWST/IWSTProgram.pdf (two tracks, 20
+minutes per paper). Awards: "Innovation Technology Awards/Winners and Nominations", ranked by votes; the first three won.
+
+## 2008
+
+Program: the day pages /Conferences/2008/Monday 25 ... Friday 29; talks: the pages they link to. Wednesday had a
+tutorial running next to two parallel talks: the tutorial is Track C. Awards: "Winners and Nominations", ranked by score.
+
+## 2007
+
+Program and talks: the day pages /Conferences/2007/Program/Monday 27 ... Friday 31 (title, time, "By: name. bio",
+abstract). The International Conference on Dynamic Languages (Monday afternoon) is one program slot and a side event.
+Awards: "Winners and Nominations", ranked by votes.
+
+## 2006
+
+Program: the timetable on /Conferences/2006/Program_Presentations, which matches the printable program
+https://archive.esug.org/ESUG2006/ESUG2006-ConferenceProgram.pdf (23 August 2006). Abstracts and bios come from that
+PDF; the Monday research track papers are listed without talk pages. Slides: /Conferences/2006/Conference-Presentations.
+Awards: /Conferences/2006/Innovation-Awards/Winners-and-Nominations (two entries tied for 6th place).
+
+## 2005
+
+Program: the timetable on /Conferences/2005/ESUG2005Program (Friday had a second, educators' track); talks: the pages
+under ESUG2005Program/All-Talks. The Tuesday afternoon research track comes from Research-Conference/Program and
+Accepted-Papers, with the paper abstracts. The winners page of the 2005 awards is not in the export, so there is no
+awards section.
+
+## 2004
+
+Program: the printed booklet https://archive.esug.org/ESUG2004/Programmheft.pdf (the Pier page /Conferences/2004/Program
+has the same timetable). Abstracts: /Conferences/2004/Program/Talks. Friday had a technical track next to a teachers' day.
+There is no 2004 logo; the Past Conferences page shows a year tile.
+
+## 1993-2000
+
+The summer schools, from /Conferences/<year> and its program page. 1993-1995 list a morning and an afternoon session per
+day, so those words are the times. From 1996 the program pages give times, and descriptions further down the page
+(linked by #anchors) become the abstracts and bios; for 2000 the descriptions are separate child pages that start with
+the speaker's bio. A few slides from https://archive.esug.org/ESUG1995/, ESUG1997/ and ESUG2000/ are linked. There are no
+logos for these years.

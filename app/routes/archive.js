@@ -1,7 +1,7 @@
 import Route from '@ember/routing/route';
 import { service } from '@ember/service';
 
-// Shared by every archived conference (ESUG 2015 through the most recently
+// Shared by every archived conference (the 1993 summer school through the most recently
 // archived year) -- previously one hardcoded route per year (esug2015.js,
 // esug2016.js, ...). See app/templates/archive.gjs and
 // app/services/archive.js.

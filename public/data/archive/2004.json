@@ -1,0 +1,984 @@
+{
+  "year": 2004,
+  "city": "Köthen",
+  "country": "Germany",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "report": {
+    "author": "Niall Ross",
+    "url": "https://archive.esug.org/ReportsFromNiallRoss/nfrESUG2004report.pdf"
+  },
+  "dayDates": ["2004-09-06", "2004-09-07", "2004-09-08", "2004-09-09", "2004-09-10"],
+  "sideEvents": [
+    {
+      "label": "Program booklet",
+      "url": "https://archive.esug.org/ESUG2004/Programmheft.pdf"
+    },
+    {
+      "label": "Research track"
+    },
+    {
+      "label": "Teachers' day (Friday)"
+    },
+    {
+      "label": "Camp Smalltalk 2004"
+    }
+  ],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 6",
+      "sessions": [
+        {
+          "time": "9:00 – 10:30",
+          "subject": "Registration and coffee"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Welcome",
+          "url": "https://archive.esug.org/ESUG2004/ESUGWelcome.jpg"
+        },
+        {
+          "time": "11:00 – 12:30",
+          "subject": "Keynote",
+          "talkId": "101-inga-keynote-dan-ingalls",
+          "speaker": "Dan Ingalls"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "Research track"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 17:30",
+          "subject": "Research track"
+        },
+        {
+          "time": "19:00",
+          "subject": "ESUG general assembly"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 7",
+      "sessions": [
+        {
+          "time": "9:00 – 9:30",
+          "subject": "Object-Relational Persistence in Smalltalk",
+          "talkId": "201-knig-object-relational-persistence-smalltalk",
+          "speaker": "Alan Knight"
+        },
+        {
+          "time": "9:30 – 10:00",
+          "subject": "Smalltalk Web Frameworks: a Comparison of Aida/Web and Seaside",
+          "talkId": "202-mivs-smalltalk-web-frameworks-comparison-aida",
+          "speaker": "Janko Mivšek"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Cryptography for Smalltalkers",
+          "talkId": "203-kobe-cryptography-smalltalkers",
+          "speaker": "Martin Kobetic"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "LSW Vision-Smalltalk",
+          "talkId": "204-less-lsw-vision-smalltalk",
+          "speaker": "Frank Lesser"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "Smalltalk/X",
+          "talkId": "205-gitt-smalltalk-x",
+          "speaker": "Claus Gittinger"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Smalltalk-based Speech User Interfaces",
+          "talkId": "206-brey-smalltalk-based-speech-user-interfaces",
+          "speaker": "Thomas Brey"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Abstract Interpretation for Dummies: Program Analysis without Tears",
+          "talkId": "207-blac-abstract-interpretation-dummies-program-analysis",
+          "speaker": "Andrew Black"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Microlingua: A Tiny Real-Time Smalltalk",
+          "talkId": "208-rabb-microlingua-tiny-real-time-smalltalk",
+          "speaker": "Maurice Rabb"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Smalltalk on a Windows CE System",
+          "talkId": "209-feld-smalltalk-windows-ce-system",
+          "speaker": "Marten Feldtmann"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 17:30",
+          "subject": "ESUG Innovation Awards demos; founding of the German Smalltalk User Group (GSUG)"
+        },
+        {
+          "time": "19:00",
+          "subject": "University jazz with Gottfried Böttger in the Villa Endraß"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 8",
+      "sessions": [
+        {
+          "time": "9:00 – 9:30",
+          "subject": "Migration from VSE to VW with Pollock",
+          "talkId": "301-haid-migration-from-vse-vw-pollock",
+          "speaker": "Christian Haider"
+        },
+        {
+          "time": "9:30 – 10:00",
+          "subject": "GemStone",
+          "talkId": "302-goll-gemstone",
+          "speaker": "Georg Gollmann"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "A Smalltalk-based System for Dynamic Multi-context Information Processing",
+          "talkId": "303-os-smalltalk-based-system-dynamic-multi",
+          "speaker": "Adriaan van Os, Tim Verwaart"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Smalltalk Garbage Collectors",
+          "talkId": "304-mcin-smalltalk-garbage-collectors",
+          "speaker": "John McIntosh"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "Moose: a Collaborative and Extensible Reengineering Environment",
+          "talkId": "305-duca-moose-collaborative-extensible-reengineering-environment",
+          "speaker": "Stéphane Ducasse, Tudor Gîrba, Michele Lanza"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "TypeWise: a Text-based Internet Client-server Solution for Simple Office",
+          "talkId": "306-mick-typewise-text-based-internet-client",
+          "speaker": "Ernest Micklei"
+        },
+        {
+          "time": "12:30 – 13:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "13:00 – 22:00",
+          "subject": "Social event: train ride to Ferropolis, bus to Wörlitz"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 9",
+      "sessions": [
+        {
+          "time": "9:00 – 9:45",
+          "subject": "Marketing Smalltalk: Business and Community Marketing Combined",
+          "talkId": "401-laur-marketing-smalltalk-business-community-marketing",
+          "speaker": "Monika Laurent"
+        },
+        {
+          "time": "9:45 – 10:30",
+          "subject": "OfficeTalk",
+          "talkId": "402-spri-officetalk",
+          "speaker": "Josef Springer"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 11:45",
+          "subject": "Smalltalk Modernization Technology",
+          "talkId": "403-voes-smalltalk-modernization-technology",
+          "speaker": "Michael Voesgen"
+        },
+        {
+          "time": "11:45 – 12:30",
+          "subject": "The Value of Smalltalk: Valuing and Risk Management in VisualWorks and GemStone",
+          "talkId": "404-ross-value-smalltalk-valuing-risk-management",
+          "speaker": "Niall Ross, Colin Lewis"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "14:00 – 14:45",
+          "subject": "RUT-K: Fast Large-scale Train Scheduling with Smalltalk",
+          "talkId": "405-juri-rut-k-fast-large-scale",
+          "speaker": "Marion Jurisch, Joachim Geidel"
+        },
+        {
+          "time": "14:45 – 15:30",
+          "subject": "Lessons Learned from Opening a Company with a Smalltalk Product",
+          "talkId": "406-haid-lessons-learned-from-opening-company",
+          "speaker": "Christian Haider"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 16:45",
+          "subject": "Supporting Teachers in Computer Aided Education and IT-Administration",
+          "talkId": "407-harl-supporting-teachers-computer-aided-education",
+          "speaker": "Carsten Härle"
+        },
+        {
+          "time": "16:45 – 17:30",
+          "subject": "Unique Selling Propositions with Innovative Smalltalk Technologies",
+          "talkId": "408-lien-unique-selling-propositions-innovative-smalltalk",
+          "speaker": "Adrian Lienhard, Lukas Renggli"
+        },
+        {
+          "time": "17:30 – 17:45",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "17:45 – 19:00",
+          "subject": "Guided tour through Köthen to the castle"
+        },
+        {
+          "time": "19:00",
+          "subject": "Language, Culture, and Software",
+          "talkId": "409-seew-language-culture-software",
+          "speaker": "Uta Seewald-Heeg"
+        },
+        {
+          "time": "19:00",
+          "subject": "Castle reception and ESUG Innovation Awards ceremony"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 10",
+      "sessions": [
+        {
+          "time": "9:00 – 10:30",
+          "subject": "Keynote: Winning the Application Server Arms Race: Using Smalltalk to Redefine Web Development",
+          "talkId": "501-brya-winning-application-server-arms-race",
+          "speaker": "Avi Bryant"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "GemStone vs. Relational Databases (Track A)",
+          "talkId": "502-step-gemstone-vs-relational-databases",
+          "speaker": "Petr Štěpánek"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Short Intro of Squeak and the German Squeak Association Squeak e.V. (Track B)",
+          "talkId": "503-denk-short-intro-squeak-german-squeak",
+          "speaker": "Marcus Denker, Markus Gälli"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "Blogs and RSS: Worth Your Time? (Track A)",
+          "talkId": "504-robe-blogs-rss-worth-your-time",
+          "speaker": "James Robertson"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "Caro and Bot: A Smalltalk Environment for Children from 11 (Track B)",
+          "talkId": "505-duca-caro-bot-smalltalk-environment-children",
+          "speaker": "Stéphane Ducasse"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "AOSTA (Track A)",
+          "talkId": "506-denk-aosta",
+          "speaker": "Marcus Denker"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Report of the Annual School-Squeaker-Meeting in Chicago (Track B)",
+          "talkId": "507-ruge-report-annual-school-squeaker-meeting",
+          "speaker": "Michael Rüger"
+        },
+        {
+          "time": "12:30 – 13:30",
+          "subject": "Lunch break"
+        },
+        {
+          "time": "13:30 – 14:00",
+          "subject": "Welcome teachers to ESUG (Track B)"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Kapital (Track A)",
+          "talkId": "508-ross-kapital",
+          "speaker": "Niall Ross"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "\"When the Pixel Learn to Walk\": Children Using Squeak (Track B)",
+          "talkId": "509-barg-when-pixel-learn-walk-children",
+          "speaker": "Andreas Bargel"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Smallland: Free Software in Spanish Schools",
+          "talkId": "510-deck-smallland-free-software-spanish-schools",
+          "speaker": "Diego Gómez Deck"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "StarSqueak / Kedama: StarLogo in Squeak",
+          "talkId": "511-ohsh-starsqueak-kedama-starlogo-squeak",
+          "speaker": "Yoshiki Ohshima"
+        },
+        {
+          "time": "15:30 – 15:45",
+          "subject": "ESUG 2004 goodbye session"
+        },
+        {
+          "time": "15:45 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 17:30",
+          "subject": "Camp Smalltalk; Etoys session / OpenCroquet"
+        },
+        {
+          "time": "17:00 – 17:30",
+          "subject": "Teachers' day discussion: further actions in Germany"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-inga-keynote-dan-ingalls": {
+      "title": "Keynote by Dan Ingalls",
+      "bioParagraphs": [
+        [
+          {
+            "text": "Dan Ingalls has been the principal architect of five generations of Smalltalk environments. He designed the byte-coded virtual machine that made Smalltalk practical in 1976. He also invented BitBlt, the general-purpose graphical operation that underlies most bitmap graphics systems today, as well as pop-up menus. He has received the ACM Grace Hopper Award for Outstanding Young Scientist, and the ACM Software Systems Award. Dan's major contributions to the Squeak system include the original conception of a Smalltalk written in itself and made portable and efficient by a Smalltalk-to-C translator. He also designed the generalizations of BitBlt to arbitrary color depth, with built-in scaling, rotation, and anti-aliasing."
+          }
+        ],
+        [
+          {
+            "text": "Dan leads the external Squeak community through active participation in e-mail discussions, and attention to regular releases and reasonable support. From this investment we have reaped many benefits including implementations across all major computing platforms, a new portable JIT engine for Squeak, and the recently released Squeak Wiki server."
+          }
+        ],
+        [
+          {
+            "text": "Dan Received his B.A. in Physics from Harvard University, and his M.S. in Electrical Engineering from Stanford University. While working toward a PhD at Stanford, he started a company to sell a software measurement invention that he perfected. As the challenges and rewards of industry have continued to hold his interest, he never returned to academia."
+          }
+        ]
+      ]
+    },
+    "201-knig-object-relational-persistence-smalltalk": {
+      "title": "Object-Relational Persistence in Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-GLORP.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Even after all these years relational databases remain the dominant data storage technology, and a great many Smalltalk applications need to be able to access them efficiently. Even after all these years, this is harder than you would think, especially if we have to deal with a database schema that was never built with objects in mind. This talk will outline some of the problems and the different design strategies for addressing them. It will also describe GLORP, an open-source object-relational persistence library, the approaches it takes, and its current status and future plans."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Alan Knight works for Cincom Systems of Canada on web and database infrastructure. He is the lead on the open source GLORP project, and has worked in relational persistence for many years. He was previously the chief architect for the TOPLink family of products, and was a member of the Sun expert groups on EJB 2.0 and JDO. He is co-author of Mastering ENVY/Developer (Cambridge, 2001) and has written and spoken extensively on a variety of topics. He was recently program chair of Smalltalk Solutions 2004."
+          }
+        ]
+      ]
+    },
+    "202-mivs-smalltalk-web-frameworks-comparison-aida": {
+      "title": "Smalltalk Web Frameworks: a Comparison of Aida/Web and Seaside",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Web frameworks is a field where Smalltalk can really show it's strengths. Recently, the Smalltalk web arena is becoming hot. Although as the author of one of them I would probably be a bit biased, I will still try to honesty compare two very interesting frameworks for development of complex web applications. After a brief introduction of the both frameworks and few examples, the comparison will be done from many aspects like philosophy and architecture, main concepts, accordance with web standards and ease of use."
+          }
+        ],
+        [
+          {
+            "text": "Both, Aida and Seaside are primary trying to explore a Smalltalk way of thinking and developing for the Web and both are also getting away from just plain imitating other approaches like ASP, JSP and PHP and therefore make a quality step ahead. Because of the importance of such frameworks for Smalltalk, their strengths and deficiencies are worth comparing and discussing about."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Janko Mivsek is an IT consultant from Slovenia, fully devoted to exploring internet and web in a Smalltalk way. As an author of a web application server Aida/Web, he is since 1996 developing commercial web applications in pure web way in fields like Gas industry, Logistics and recently in Document and Business Process Management systems. He is a Camp Smalltalker by contributing to and maintaining Swazoo, a dialect neutral Smalltalk web server. He was a also local organizer of ESUG'2003 Conference in Bled."
+          }
+        ]
+      ]
+    },
+    "203-kobe-cryptography-smalltalkers": {
+      "title": "Cryptography for Smalltalkers",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-Crypto.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Cryptography is just a small part of the arsenal of security professionals today, nevertheless a fundamental one. Thorough understanding and proper use is absolutely critical for any cryptographic solution. Security's unique challenge is that it doesn't matter that 99% of a solution is perfect, what matters is that there is 1% that is flawed."
+          }
+        ],
+        [
+          {
+            "text": "Complexity and misunderstanding is often the culprit behind all too frequent failures to deliver secure software solutions. Smalltalk is a great weapon for attacking complexity. Along with its inherent suitability for agile development methods provides us with unique opportunity to succeed where others are failing."
+          }
+        ],
+        [
+          {
+            "text": "This presentation is meant to spark interest, motivate addition of cryptography to one's arsenal and hopefully profit from this opportunity. It is primarily a practical introduction to cryptography using the Visual Works Security library, but the concepts covered apply to any cryptographic library regardless of the environment or even programming language."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Martin Kobetic is a member of Cincom Smalltalk development team working primarily on various networking frameworks (Opentalk, DST, Web Services) and the security library. Prior to that he worked on TOPLink for Smalltalk at The Object People, Canada and on various internal frameworks at ArtInAppleS, Slovakia. He presented at Smalltalk Solutions several times on various topics, notably TOPLink, Opentalk and CVST."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ],
+        [
+          {
+            "text": "Wednesday Presentations"
+          }
+        ]
+      ]
+    },
+    "204-less-lsw-vision-smalltalk": {
+      "title": "LSW Vision-Smalltalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "LSWVST is a Smalltalk which is developed under the Windows Operating-System. It differs in many aspects from other Smalltalk dialects: In this session I will discuss this differences and show the highlights of LSWVST:"
+          }
+        ],
+        [
+          {
+            "text": "- Basic Architecture Differences - Frameworks makes no use of Events"
+          }
+        ],
+        [
+          {
+            "text": "- FFI for Windows and .NET"
+          }
+        ],
+        [
+          {
+            "text": "- ORTHOGONALITY - a new GUI Framework"
+          }
+        ],
+        [
+          {
+            "text": "- Targeted to be faster than plain C - JIT, Adaptive Compilation to Native Code"
+          }
+        ],
+        [
+          {
+            "text": "- Development Infrastructure ( Refactoring, Debugging, Testing, Team/St, Deployment"
+          }
+        ]
+      ]
+    },
+    "205-gitt-smalltalk-x": {
+      "title": "Smalltalk/X"
+    },
+    "206-brey-smalltalk-based-speech-user-interfaces": {
+      "title": "Smalltalk-based Speech User Interfaces",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Speech-based User Interfaces (SUIs) are no longer fiction, they begin to establish in disciplines as human factors and emerge in everyday life. Therefore, software frameworks for creating SUIs become more and more important. This contribution describes a framework for Design and Implementation of user friendly SUIs, fully implemented in Smalltalk. This framework called SpexKit was developed at University of Regensburg and Speech Experts company (www.speech-experts.com) - where the latter implemented the most remarkable prototype ever built using this framework: Hermine, a speech controlled washing machine which became one of CeBit 2003 highlights."
+          }
+        ]
+      ]
+    },
+    "207-blac-abstract-interpretation-dummies-program-analysis": {
+      "title": "Abstract Interpretation for Dummies: Program Analysis without Tears",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-AbstractInterpretation.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Have you ever needed to do some analysis of the code in some Smalltalk methods, and spent a lot of time and effort parsing the source and extracting all the information that you needed, only to find that your analysis was still really slow, because you had to grab the source from the changes file?"
+          }
+        ],
+        [
+          {
+            "text": "Abstract interpretation is a technique that in many cases can allow you to collect the same information by extracting it from a CompiledMethod. Although Abstract interpretation sounds scary, in Squeak it is really quite straightforward, because the basic framework is already in the image. Moreover, it can also be very fast, because bytecodes are designed to be interpreted quickly."
+          }
+        ],
+        [
+          {
+            "text": "In this talk we will illustrated what can be done with abstract interpretation, explain the framework provided in Squeak, and show what can be done to dramatically improve performance if this turns out to matter for your application."
+          }
+        ]
+      ]
+    },
+    "208-rabb-microlingua-tiny-real-time-smalltalk": {
+      "title": "Microlingua: A Tiny Real-Time Smalltalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Microlingua is a Smalltalk derived language initially designed for use in consumer electronic products, and other tiny systems. Dynamic object-oriented programming languages are rarely used in small or real-time embedded systems. Microlingua goes against the conventional wisdom, and enables the full expressive power of Smalltalk in a space that typically has used more brittle software development techniques."
+          }
+        ],
+        [
+          {
+            "text": "Microlingua introduces a fast and consistent conceptual model for handling numerics, im|mutability, hashing and equality, execution context, multi-dispatch, and concurrency. The new frameworks are critical for tiny embedded systems. They improve the safety and power in expressing these fundamental concepts in Smalltalk in general."
+          }
+        ],
+        [
+          {
+            "text": "Microlingua extends the numerics framework to include operations for fixing the size and precision of numerics, and their operations. It provides extended notations to assist the developer in the proper use of exact and inexact numbers."
+          }
+        ],
+        [
+          {
+            "text": "While most Smalltalks have both immutable and mutable objects, in general mutability is only implicitly defined. Microlingua introduces new explicit and consistent notation and use of im/mutability."
+          }
+        ],
+        [
+          {
+            "text": "Concurrency is one of the most tricky aspects in almost every programming language. Programmers frequently avoid using concurrency, or use it incorrectly. Microlingua addresses this persistent challenge by introducing a new, easy and consistent concurrency model."
+          }
+        ],
+        [
+          {
+            "text": "Microlingua's conceptual model is somewhat different from Smalltalk's. In Smalltalk one thinks of sending an object a message with zero or more parameter objects. However in Microlingua, one thinks of a group of one or more reader-writer objects, cooperating together, in performing an action."
+          }
+        ],
+        [
+          {
+            "text": "After a pause in development, I have revived Microlingua and am working to fold it back into Squeak. In particular, I am porting the Microlingua language extensions, and frameworks to Squat. Squat is an excellent opportunity for the Smalltalk community to expand into the development of smaller devices such as cellphones and PDAs."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Maurice Rabb is co-founder of Stono Technologies LLC, in Chicago. Stono is dedicated to the development of new technologies for the consumer electronics industry. Mr. Rabb specializes in new product development, conceptual blockbusting, and the creative application of technology -- in short, acting as a human catalyst. Mr. Rabb earned his BS and MS in engineering from Stanford University."
+          }
+        ]
+      ]
+    },
+    "209-feld-smalltalk-windows-ce-system": {
+      "title": "Smalltalk on a Windows CE System",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-Device-ce.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "We had the chance to start a project using one of these little Windows CE machines and we started this project with VisualWorks 7.2 and the ports from Georg Heeg."
+          }
+        ],
+        [
+          {
+            "text": "This talks shows the positive and the negative points we have found so far - considering the fact, that we had no Windows CE knowledge before this and therefore started from scratch. Knowing the presence of the developers of Heeg we hope to get into a discussion with them and the audience about what one can expect from VW under CE, how the hardware market situation looks like and other points."
+          }
+        ]
+      ]
+    },
+    "301-haid-migration-from-vse-vw-pollock": {
+      "title": "Migration from VSE to VW with Pollock",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-PortingVSE2VWWithPollock.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Since VisualSmalltalk has been dormant, there has been no real alternative Smalltalk for projects using VSE, partly due to the GUI frameworks. Pollock, the new GUI framework for VisualWork, is conceptually very close to the GUI framework of VSE, so that a port seems easy."
+          }
+        ],
+        [
+          {
+            "text": "Pollock being still in beta, a bank project decided to migrate their system to VW with Pollock. The talk will be about the steps of the migration (source baseline, code baseline, tests, runtime), the differences between VSE and VW with Pollock and the tools used."
+          }
+        ]
+      ]
+    },
+    "302-goll-gemstone": {
+      "title": "GemStone",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-GemstoneS.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Over the past 10 years we have built a (small) GemStone system for various administrative purposes (http://sts.tuwien.ac.at/go/Abteilungsdatenbank.html, http://www.zid.tuwien.ac.at/zidline/zl07/ZIDpdb.html). This talk will detail the experience gathered while using GemStone for building these systems."
+          }
+        ]
+      ]
+    },
+    "303-os-smalltalk-based-system-dynamic-multi": {
+      "title": "A Smalltalk-based System for Dynamic Multi-context Information Processing",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-%20DynamicMulti-contextInformationProcessing.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In spite of the dynamic character of information need, software systems should preferably be stable. Software changes are expensive and are a risk to system stability. This is why we want to separate the software engineering process from the information systems development activities. For this purpose LEI developed a Smalltalk-based system for model-based system specification and workflow management. System behaviour is dynamically generated from data specifications, constraints, computation models and workflow specifications. In our presentation we will explain the construction of the system and the main principles it is based on. We will demonstrate how context-independence of the data model has been achieved and how the workload is scheduled by the workflow engine."
+          }
+        ]
+      ]
+    },
+    "304-mcin-smalltalk-garbage-collectors": {
+      "title": "Smalltalk Garbage Collectors",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-GCTalk.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Although Garbage Collection is hidden and sometimes taken for granted, it can have a major effect on the performance of your Smalltalk application. Before exploring the state of Garbage Collection in Smalltalk we must first understand the theories behind the implementations. Most Smalltalk systems use only a small subset of the available GC algorithms, but you will find other languages like C#, Java, and Perl use all of the available theories in order to collect garbaged objects. In the first part of the tutorial we will cover the major algorithms: Reference Counting, Mark/Sweep, Copying, and Generation, with some coverage of the Train Algorithm, then before the break a quick discussion of Weak Objects and Finalization to clarify how these theories work."
+          }
+        ],
+        [
+          {
+            "text": "Once we have covered theory we can explore implementation by looking at how VisualWorks has implemented its Garbage Collector. This is a very complex machine and provides many knobs to turn to tune the Collector to solve problems when object creation does not fit the normally expected patterns. In many cases, we can improve performance of a loaded system by tuning the collector. Real examples from clients will be presented to demonstrate the actual benefits achievable by implement the suggestions presented in the tuning part of the tutorial. In these cases we for example improved the performance of a large interactive production system by 42% by studying the existing system and then altering the behavior of the stock Garbage Collector to better fit the application's object creation patterns."
+          }
+        ],
+        [
+          {
+            "text": "There will be some coverage of the VisualAge implementation, and how the collector in Squeak works. These will not be covered in the same detail as VisualWorks, but sufficient information will be given for the attendee to later explore how these VMs behave once they return to their places of work."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Mr. McIntosh comes from British Columbia, Canada. His diverse work experience includes an impressive portfolio of multinational corporations extending from Canada and Europe, to the United States, and from as far away as South America. He has spoken at past Smalltalk Solutions, ParcPlace Conferences, BOF events at OOPSLA, and at ESUG in Europe. Currently he is the maintainer of the macintosh port of the Squeak Virtual Machine."
+          }
+        ]
+      ]
+    },
+    "305-duca-moose-collaborative-extensible-reengineering-environment": {
+      "title": "Moose: a Collaborative and Extensible Reengineering Environment",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Software systems are complex and difficult to analyze. Reverse engineering is a complex analysis that usually involves combining different techniques and tools. Moreover, oftentimes the existing tools are not perfectly suitable for the task, and customization of existing tools, or development of new tools is required. Moose is an extensible reengineering environment designed to provide the necessary infrastructure for tool integration. Moose centers on a language independent meta-model, and offers services like grouping, querying, navigation, and advanced tool integration mechanism."
+          }
+        ]
+      ]
+    },
+    "306-mick-typewise-text-based-internet-client": {
+      "title": "TypeWise: a Text-based Internet Client-server Solution for Simple Office",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "A large group of business applications require intensive user interaction. For a long period of time, programmers addressed this requirement by providing characterbased terminals using technology such as CICS transactional screens (3270)."
+          }
+        ],
+        [
+          {
+            "text": "With the introduction of graphical user-interfaces, the amount of information and its means of access, has greatly been improved. Many metaphors have been introduced to support the user in his daily work, e.g. windows, icons and buttons."
+          }
+        ],
+        [
+          {
+            "text": "Today, more and more business applications are becoming accessible by providing a Web-based presentation. These web applications provide the user with a new and fancy looking interface. Using the hyperlink concept, a user can click through the functionality of an application requesting business information and performing mutations."
+          }
+        ],
+        [
+          {
+            "text": "However, there is a classification of business applications that could benefit from easy accessible and simplyfied user interfaces. Examples are the Airport Incheck- and Railway Reservation Systems. Clearly, it is not of practical use to build these systems using rich HTML pages accessed through an Internet Browser. The amount of information required for the user is limited, the interaction with the application requires high response times and therefore its access could be based on keyboard input."
+          }
+        ],
+        [
+          {
+            "text": "The design of TypeWise combines the simplicity of character-oriented interfaces with the full potential of Object Technology for implementing business logic in an Internet environment. Current implementation of the client is done using SmalltalkMT ; server implementations are available for VisualAge Smalltalk and Java. The beta release will soon be available on "
+          },
+          {
+            "text": "http://www.typeWise.org",
+            "url": "http://www.typeWise.org"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ],
+        [
+          {
+            "text": "Thursday Presentations - Business Track"
+          }
+        ],
+        [
+          {
+            "text": "Marketing Smalltalk - Business and Community Marketing Combined by Monika Laurent."
+          }
+        ]
+      ]
+    },
+    "401-laur-marketing-smalltalk-business-community-marketing": {
+      "title": "Marketing Smalltalk: Business and Community Marketing Combined",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-BD-MarketingSmalltalk.pdf"
+    },
+    "402-spri-officetalk": {
+      "title": "OfficeTalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "OfficeTalk, ein generisches BPM/Workflowsystem (in VisualWorks erstellt)"
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "JOOPS Informationstechnik GmbH ist Hersteller beider Systeme. Damit Sie sich einen Eindruck ®?ber beide Systeme machen konnen, habe ich fur SmallCOM/X und OfficeTalk (Flugblatt.pdf) Kurzinformationen beigelegt."
+          }
+        ]
+      ]
+    },
+    "403-voes-smalltalk-modernization-technology": {
+      "title": "Smalltalk Modernization Technology",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The Smalltalk application scenery is shaped by a variety of large systems that are critical to enterprises. These systems have a profound professional characteristic and have gone through several years of intensive development. From a management perspective the high capital expenditure for these systems should be protected. Often the functional extent of the applications seems to be still adequate however the technical requirements regarding communication interfaces, system integration or multi-channel approaches cannot always be implemented due to the restrictions of the chosen Smalltalk Integrated Development Environment (IDE). Therefore these applications are exposed to heavy criticism and there are considerations to redevelop them in modern IDE's. Everybody however is aware of the fact that redevelopment, using conventional procedures, is very cost- intensive. Due to the general cost reduction trend this alternative is not being chosen often at the present time. This might possibly cause a standstill in the application°Øs development."
+          }
+        ],
+        [
+          {
+            "text": "This lecture should describe how a changeover using Smalltalk modernization strategies can be accomplished reasonable and in consideration of all economical aspects."
+          }
+        ],
+        [
+          {
+            "text": "The issue, in how far it is possible to conduct a machine based migration of code from out-dated Smalltalk environments to future-proof Environments such as Visual Age or Visual Works, will be addressed. On the basis of a roadmap it will be shown how these applications can be modernized in order to meet the new technical requirements. For example the migration of a Fat-Client to a multi channel architecture."
+          }
+        ],
+        [
+          {
+            "text": "The lecture will go into the technical as well as into the economical details of a modernization."
+          }
+        ]
+      ]
+    },
+    "404-ross-value-smalltalk-valuing-risk-management": {
+      "title": "The Value of Smalltalk: Valuing and Risk Management in VisualWorks and GemStone",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ValueOfSmalltalk.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Smalltalk is key to the success of the award-winning Kapital system: https://secure.cwheroes.org/briefingroom_2004/pdf_frame/index.asp?id=4909. It is by exploiting specific features of Smalltalk that Kapital gives its users serious business advantage. This talk will overview the Kapital system and present examples of how the distinctive technical features of Smalltalk that we are so familiar with translate into solving a hard problem, and into rapid delivery, scalability and reengineering advantages of great commercial value."
+          }
+        ]
+      ]
+    },
+    "405-juri-rut-k-fast-large-scale": {
+      "title": "RUT-K: Fast Large-scale Train Scheduling with Smalltalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "RUT-K is an interactive computer aided program for the detailed construction and investigation of timetables for large scale railway networks. The calculation of running times and section occupation are integrated with a graphical user interface, which facilitates the design of conflict free schedules with a high level of operating quality."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ],
+        [
+          {
+            "text": "Friday Presentations"
+          }
+        ]
+      ]
+    },
+    "406-haid-lessons-learned-from-opening-company": {
+      "title": "Lessons Learned from Opening a Company with a Smalltalk Product",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-BD-SmalltalkProductCompany.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The company 'Smalltalked Visuals GmbH' was founded to market and improve smallCharts, a tool written in VisualWorks, for publishing stock market charts. smallCharts was originally developed for a magazin as a specific solution. The next order of a newspaper triggered the foundation of the company with the goal to create a successful product from that first project."
+          }
+        ],
+        [
+          {
+            "text": "The talk is about the history of the company and the experiences gained:founding with a partner, price finding, marketing, product development, support and other business related issues."
+          }
+        ]
+      ]
+    },
+    "407-harl-supporting-teachers-computer-aided-education": {
+      "title": "Supporting Teachers in Computer Aided Education and IT-Administration",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "More and More Computers are used in education at general schools. Teachers increasingly face two problems: How to control and support children in computer class rooms and the computer administration problem. We created a solution to these problems with a Dolphin Smalltalk application called beno. It is a shrink wrapped product intended for the mass market, so that in contrast to custom software for an individual customers or project solutions, different aspects were important in the developlent of this software like very good Microsoft Windows integration, use of ActiveX controls, be able to run as a Windows service, installation and deinstallation program, online help and documentation, Microsoft Windows Logo Certification to name a few. The presentation will show the product and the discuss the challenges and the solutions we found during the developement ."
+          }
+        ],
+        [
+          {
+            "text": "straightec is a German consulting and software development company specialized on object oriented systems founded by Carsten Haerle, who has been actively using various Smalltalk dialects for over 15 years now."
+          }
+        ]
+      ]
+    },
+    "408-lien-unique-selling-propositions-innovative-smalltalk": {
+      "title": "Unique Selling Propositions with Innovative Smalltalk Technologies",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-BD-Netstyle.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "netstyle.ch is a startup company located in Bern, Switzerland, specialized in web application development. As a steadily growing company, netstyle.ch was seeking for outstanding technologies to do things better than the average. With the power of Smalltalk and frameworks like Seaside, netstyle.ch goes unconventional ways which open unique opportunities and real competitive advantages."
+          }
+        ]
+      ]
+    },
+    "409-seew-language-culture-software": {
+      "title": "Language, Culture, and Software",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-LanguageCultureSoftware.pdf"
+    },
+    "501-brya-winning-application-server-arms-race": {
+      "title": "Winning the Application Server Arms Race: Using Smalltalk to Redefine Web Development",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-Seaside.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "It would be hard to imagine a worse model for user interface development than HTTP. Would you use a GUI framework where every event from every widget in your application was handed to you at once, periodically, as a large hashtable full of strings? Where every time a single piece of data changed you had to regenerate a textual description of the entire interface? Where the event-based architecture was so strict that you couldn't ever, under any circumstances, open a modal dialog box and wait for it to return an answer?"
+          }
+        ],
+        [
+          {
+            "text": "Those are the costs of using the web browser as a client platform, and, by and large, we accept them. The dominant paradigms of web development -- CGI, Servlets, Server Pages -- do very little to hide or circumvent the low level realities of HTTP, and as a result, web applications are fragile, verbose, and ill-suited to reuse."
+          }
+        ],
+        [
+          {
+            "text": "Smalltalk can do better. More than that -- Smalltalk is uniquely suited to do better. To date, we've followed conventional wisdom and built Smalltalk implementations of the same old paradigms, providing familiarity and compatibility. But by throwing these away, Smalltalk can instead provide an overwhelming competitive advantage. By leveraging Smalltalk's particular strengths, we can abstract away the ugliness of browser/server interaction in ways that simply aren't possible in other environments, and profit greatly by it."
+          }
+        ],
+        [
+          {
+            "text": "For all its limitations, the web is fast becoming the most important deployment platform for many classes of application. The Java, Perl, PHP, and .NET worlds, to name a few, are pursuing it agressively. Many of us are going to have to play their game -- but we don't have to play by their rules."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Avi Bryant is an independent consultant based in Vancouver, Canada. Much of his work centers around the use of Squeak Smalltalk as a platform for commercial software development. As an actively contributing member of the Squeak community, he maintains its standard version control system, as well as packages for web development and relational and object database access. As a consultant, he has helped companies develop Squeak-based products for the travel and theatre industries, higher education, and mobile devices. Avi previously worked as a developer and research assistant for the University of British Columbia."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ],
+        [
+          {
+            "text": "Tuesday Presentations"
+          }
+        ]
+      ]
+    },
+    "502-step-gemstone-vs-relational-databases": {
+      "title": "GemStone vs. Relational Databases",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "We'd talk about what you can do with GS that you cannot do with RDB, and we have a really good example for it (a model for CRM database, model changes over time, is complex): In a CRM project, data need to be kept not only in relation to other data, but also in relation to changes over time. We'll present a simple but powerful and general framework for keeping history in data changes, via attributed links among objects. The design we have in effect is easy to implement in Gemstone, but hard to implement efficiently in relational databases. The talk presents stregnth of object model (and Gemstone database) for such a complex data structures as today's real CRM systems require."
+          }
+        ]
+      ]
+    },
+    "503-denk-short-intro-squeak-german-squeak": {
+      "title": "Short Intro of Squeak and the German Squeak Association Squeak e.V."
+    },
+    "504-robe-blogs-rss-worth-your-time": {
+      "title": "Blogs and RSS: Worth Your Time?",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-BottomFeeder.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Blogs are getting a lot of attention - are they something you need to worry about?"
+          }
+        ],
+        [
+          {
+            "text": "This session will discuss blogs, blogging, and some of the associated technology (RSS in particular). The focus of the talk will be whether blogs are something of relevance - for project managers, marketing staff, or developers. I expect an interactive session with many questions, as well as an interactive introduction to what a blog is. I'll be taking the tack that blogs are, in fact, useful and worth investigating. I have my own blog - http://www.cincomsmalltalk.com/blog/blogView - and I also sponsor other blogs on our site - http://www.cincomsmalltalk.com/userblogs"
+          }
+        ],
+        [
+          {
+            "text": "A quick check of the InfoWorld site or the O'Reilly site will demonstrate that many of the industry analysts have started blogging - what this talk will explore is whether the anyone in the audience should be."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "I started my career as a teacher, spending almost three years at that. I moved on to software development with the US government, and shorthly thereafter moved into consulting work with Booz-Allen and Hamilton. After three years of various sorts of work there, I discovered Smalltalk. I soon joined ParcPlace??, first as a trainer/consultant, and then as a sales engineer. I stayed with the Smalltalk team through various convulsions of the company and ended up at Cincom when VisualWorks?? was acquired in 1999. I have since become the Product Manager for Cincom Smalltalk, which consists of VisualWorks?? and ObjectStudio?? (another Smalltalk dialect)."
+          }
+        ]
+      ]
+    },
+    "505-duca-caro-bot-smalltalk-environment-children": {
+      "title": "Caro and Bot: A Smalltalk Environment for Children from 11",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-TD-BotInc.pdf"
+    },
+    "506-denk-aosta": {
+      "title": "AOSTA",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "AOStA is an \"Adaptively Optimizing Smalltalk Architecture\" that is being worked on by a small community guided by Eliot Miranda. This talk will give an update on the state of the AOStA bytecode-to-bytecode translator focussing on the backend part of the compiler: Translation out of static single assignment form and bytecode generation."
+          }
+        ]
+      ]
+    },
+    "507-ruge-report-annual-school-squeaker-meeting": {
+      "title": "Report of the Annual School-Squeaker-Meeting in Chicago"
+    },
+    "508-ross-kapital": {
+      "title": "Kapital"
+    },
+    "509-barg-when-pixel-learn-walk-children": {
+      "title": "\"When the Pixel Learn to Walk\": Children Using Squeak",
+      "presentationUrl": "https://archive.esug.org/ESUG2004/ESUG2004-TD-SqueakAndArt.pdf"
+    },
+    "510-deck-smallland-free-software-spanish-schools": {
+      "title": "Smallland: Free Software in Spanish Schools"
+    },
+    "511-ohsh-starsqueak-kedama-starlogo-squeak": {
+      "title": "StarSqueak / Kedama: StarLogo in Squeak"
+    }
+  }
+}

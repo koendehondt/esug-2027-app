@@ -1,0 +1,116 @@
+{
+  "year": 1994,
+  "city": "Cork",
+  "country": "Ireland",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "dayDates": ["1994-09-05", "1994-09-06", "1994-09-07", "1994-09-08", "1994-09-09"],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 5",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "Graphical Interfaces in VisualWorks",
+          "talkId": "101-boua-graphical-interfaces-visualworks",
+          "speaker": "Malik Bouabsa"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Graphical Interfaces on Smalltalk/V",
+          "talkId": "102-barr-graphical-interfaces-smalltalk-v",
+          "speaker": "Patrick Barril"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 6",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "Instance-oriented Programming in Smalltalk",
+          "talkId": "201-hopk-instance-oriented-programming-smalltalk",
+          "speaker": "Trevor Hopkins"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Demonstrations and experiences"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 7",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "Optimisation Problems",
+          "talkId": "301-buck-optimisation-problems",
+          "speaker": "Matthias Bücker"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Demonstrations and experiences"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 8",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "The BOSS",
+          "talkId": "401-krie-boss",
+          "speaker": "Philippe Krief"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Epiphyte Systems in Smalltalk-80",
+          "talkId": "402-pach-epiphyte-systems-smalltalk-80",
+          "speaker": "François Pachet"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 9",
+      "sessions": [
+        {
+          "time": "Morning",
+          "subject": "The Self Language and Environment",
+          "talkId": "501-wolc-self-language-environment",
+          "speaker": "Mario Wolczko"
+        },
+        {
+          "time": "Afternoon",
+          "subject": "Demonstrations and experiences"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-boua-graphical-interfaces-visualworks": {
+      "title": "Graphical Interfaces in VisualWorks"
+    },
+    "102-barr-graphical-interfaces-smalltalk-v": {
+      "title": "Graphical Interfaces on Smalltalk/V"
+    },
+    "201-hopk-instance-oriented-programming-smalltalk": {
+      "title": "Instance-oriented Programming in Smalltalk"
+    },
+    "301-buck-optimisation-problems": {
+      "title": "Optimisation Problems"
+    },
+    "401-krie-boss": {
+      "title": "The BOSS"
+    },
+    "402-pach-epiphyte-systems-smalltalk-80": {
+      "title": "Epiphyte Systems in Smalltalk-80"
+    },
+    "501-wolc-self-language-environment": {
+      "title": "The Self Language and Environment"
+    }
+  }
+}

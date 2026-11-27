@@ -1,0 +1,985 @@
+{
+  "year": 2005,
+  "city": "Brussels",
+  "country": "Belgium",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "logoImage": "/images/conference-logos/esug-2005.png",
+  "report": {
+    "author": "Niall Ross",
+    "url": "https://archive.esug.org/ReportsFromNiallRoss/nfrESUG2005report.pdf"
+  },
+  "dayDates": ["2005-08-16", "2005-08-17", "2005-08-18", "2005-08-19", "2005-08-20"],
+  "sideEvents": [
+    {
+      "label": "Research track",
+      "links": [
+        {
+          "label": "Proceedings",
+          "url": "https://archive.esug.org/ESUG2005/iam-05-001.pdf"
+        }
+      ]
+    },
+    {
+      "label": "Educators track (Friday)"
+    },
+    {
+      "label": "Camp Smalltalk 2005"
+    }
+  ],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Tue 16",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Registration"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Welcome",
+          "url": "https://archive.esug.org/ESUG2005/Tuesday/2005-ESUG-Welcome.pdf"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "subject": "Smalltalk and Hardware",
+          "talkId": "101-pott-smalltalk-hardware",
+          "speaker": "Bernard Pottier"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Typing the Image",
+          "talkId": "102-wuyt-typing-image",
+          "speaker": "Roel Wuyts"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 14:30",
+          "subject": "Open Aspect (research track)",
+          "talkId": "103-hirs-open-aspect",
+          "speaker": "Robert Hirschfeld, Stefan Hanenberg"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Towards Unified Aspect-Oriented Programming (research track)",
+          "talkId": "104-bour-towards-unified-aspect-oriented-programming",
+          "speaker": "Noury Bouraqadi, Abdelhak Seriai, Gabriel Leblanc"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Inter-Language Reflection (research track)",
+          "talkId": "105-gybe-inter-language-reflection",
+          "speaker": "Kris Gybels, Roel Wuyts, Stéphane Ducasse, Maja D�Hondt"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Runtime Bytecode Transformation for Smalltalk (research track)",
+          "talkId": "106-denk-runtime-bytecode-transformation-smalltalk",
+          "speaker": "Marcus Denker, Stéphane Ducasse, Éric Tanter"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:30 – 17:00",
+          "subject": "A New Object-Oriented Model of the Gregorian Calendar (research track)",
+          "talkId": "107-wilk-new-object-oriented-model-gregorian",
+          "speaker": "Hernán Wilkinson, Máximo Prieto, Luciano Romeo"
+        },
+        {
+          "time": "17:00 – 17:30",
+          "subject": "Towards a Taxonomy of SUnit Tests (research track)",
+          "talkId": "108-gall-towards-taxonomy-sunit-tests",
+          "speaker": "Markus Gälli, Michele Lanza, Oscar Nierstrasz"
+        },
+        {
+          "time": "17:30 – 18:00",
+          "subject": "Co-evolving Code and Design with Intensional Views: A Case Study (research track)",
+          "talkId": "109-mens-co-evolving-code-design-intensional",
+          "speaker": "Kim Mens, Andy Kellens, Frédéric Pluquet, Roel Wuyts"
+        },
+        {
+          "time": "18:00 – 18:30",
+          "subject": "Microprints: A Pixel-based Semantically Rich Visualization of Methods (research track)",
+          "talkId": "110-duca-microprints-pixel-based-semantically-rich",
+          "speaker": "Stéphane Ducasse, Michele Lanza, Romain Robbes"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Wed 17",
+      "sessions": [
+        {
+          "time": "9:00 – 10:30",
+          "subject": "Scrum: Mastering your Processes",
+          "talkId": "201-pelr-scrum-mastering-your-processes",
+          "speaker": "Joseph Pelrine"
+        },
+        {
+          "time": "11:00 – 11:45",
+          "subject": "Advanced Seaside (1)",
+          "talkId": "202-reng-advanced-seaside-1",
+          "speaker": "Lukas Renggli"
+        },
+        {
+          "time": "11:45 – 12:30",
+          "subject": "Seaside Unit",
+          "talkId": "203-shaf-seaside-unit",
+          "speaker": "David C. Shaffer"
+        },
+        {
+          "time": "14:00 – 15:00",
+          "subject": "WithStyle",
+          "talkId": "204-bunn-withstyle",
+          "speaker": "Rowan Bunning"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Tools for Intensional Views",
+          "talkId": "205-pluq-tools-intensional-views",
+          "speaker": "Frédéric Pluquet"
+        },
+        {
+          "time": "16:00 – 17:30",
+          "subject": "Cooking with SUnit",
+          "talkId": "206-pelr-cooking-sunit",
+          "speaker": "Joseph Pelrine"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Thu 18",
+      "sessions": [
+        {
+          "time": "9:00 – 9:45",
+          "subject": "OmniBase",
+          "talkId": "301-gori-omnibase",
+          "speaker": "David Gorisek"
+        },
+        {
+          "time": "9:45 – 10:30",
+          "subject": "Rule-driven Workflow Enactment",
+          "talkId": "302-os-rule-driven-workflow-enactment",
+          "speaker": "Adriaan van Os"
+        },
+        {
+          "time": "11:00 – 11:45",
+          "subject": "SmallWiki 2",
+          "talkId": "303-reng-smallwiki-2",
+          "speaker": "Lukas Renggli"
+        },
+        {
+          "time": "11:45 – 12:30",
+          "subject": "Understanding your code assets with Moose",
+          "talkId": "304-girb-understanding-your-code-assets-moose",
+          "speaker": "Tudor Girba"
+        },
+        {
+          "time": "12:30 – 13:30",
+          "subject": "Lunch"
+        },
+        {
+          "time": "13:30 – 15:30",
+          "subject": "Social event: guided tour of Brussels"
+        },
+        {
+          "time": "15:30 – 17:30",
+          "subject": "Social event: visit to the Cantillon brewery"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Fri 19",
+      "sessions": [
+        {
+          "time": "9:00 – 9:45",
+          "subject": "Gemstone 64 (Track A)",
+          "talkId": "401-os-gemstone-64",
+          "speaker": "Adriaan van Os"
+        },
+        {
+          "time": "9:00 – 9:30",
+          "subject": "Etoys 2 (Track B)",
+          "talkId": "402-ruge-etoys-2",
+          "speaker": "Michael Rüger"
+        },
+        {
+          "time": "9:30 – 10:00",
+          "subject": "SqueakBot (Track B)",
+          "talkId": "403-stin-squeakbot",
+          "speaker": "Serge Stinckwich"
+        },
+        {
+          "time": "9:45 – 10:30",
+          "subject": "Squeak as a P2P Platform (Track A)",
+          "talkId": "404-groo-squeak-as-p2p-platform",
+          "speaker": "Cees De Groot"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Etoy Experiences Report (Track B)",
+          "talkId": "405-freu-etoy-experiences-report",
+          "speaker": "Rita Freudenberg"
+        },
+        {
+          "time": "11:00 – 11:45",
+          "subject": "Business Benefits and Risks of SOA (Track A)",
+          "talkId": "406-berr-business-benefits-risks-soa",
+          "speaker": "Andy Berry"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Bots Inc. (Track B)",
+          "talkId": "407-duca-bots-inc",
+          "speaker": "Stéphane Ducasse"
+        },
+        {
+          "time": "11:30 – 12:00",
+          "subject": "ComiKit (Track B)",
+          "talkId": "408-kind-comikit",
+          "speaker": "Mikael Kindborg"
+        },
+        {
+          "time": "11:45 – 12:30",
+          "subject": "Business in Cincom Smalltalk (Track A)",
+          "talkId": "409-fort-business-cincom-smalltalk",
+          "speaker": "Suzanne Fortman"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Educator Track Wrapup (Track B)"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 14:45",
+          "subject": "VA Smalltalk Going Forward (Track A)",
+          "talkId": "410-john-va-smalltalk-going-forward",
+          "speaker": "Mark Johnson"
+        },
+        {
+          "time": "14:00 – 14:45",
+          "subject": "Gemstone to C# (Track B)",
+          "talkId": "411-blac-gemstone-c",
+          "speaker": "Kirk Blackburn"
+        },
+        {
+          "time": "14:45 – 15:30",
+          "subject": "Aggregating the Commentary (Track A)",
+          "talkId": "412-robe-aggregating-commentary",
+          "speaker": "James Robertson"
+        },
+        {
+          "time": "14:45 – 15:30",
+          "subject": "The Squeak VM: Exploring GC (Track B)",
+          "talkId": "413-mcin-squeak-vm-exploring-gc",
+          "speaker": "John McIntosh"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "16:00 – 17:30",
+          "subject": "Advanced Design Discussions"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Sat 20",
+      "sessions": [
+        {
+          "time": "9:00 – 9:45",
+          "subject": "ESUG General Assembly"
+        },
+        {
+          "time": "9:45 – 10:30",
+          "subject": "Advanced Seaside (2)",
+          "talkId": "501-reng-advanced-seaside-2",
+          "speaker": "Lukas Renggli"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "subject": "Liberating the Business Modeler",
+          "talkId": "502-echt-liberating-business-modeler",
+          "speaker": "Mathieu van Echtelt"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Traffic Analysis",
+          "talkId": "503-murp-traffic-analysis",
+          "speaker": "Emerson Murphy-Hill"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "Goodbye"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-pott-smalltalk-hardware": {
+      "title": "Smalltalk and Hardware",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Tuesday/2005-ESUG-Pottier.pdf"
+    },
+    "102-wuyt-typing-image": {
+      "title": "Typing the Image",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Tuesday/2005-ESUG-Wuyts.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "RoelTyper is an extremely fast optional pluggable type system for Smalltalk, based on heuristics. It type-checks instance variables of classes. Typing a complete VisualWorks Smalltalk image takes less than one minute and a half! For this speed you get the types for about 80% of instance variables in the system. The approach is quite similar to what the Refactoring Browser does, but somewhat more refined."
+          }
+        ],
+        [
+          {
+            "text": "This talk delves into the implementation details for the VisualWorks and Squeak versions, and ends with a (fast) demo of the system."
+          }
+        ]
+      ]
+    },
+    "103-hirs-open-aspect": {
+      "title": "Open Aspect",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Workshop/openaspects.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Open Aspects are our approach to face unplanned changes in systems that are based on aspect-oriented composition at runtime. They support explicit adaptation models, allowing developers to describe system change events to be observed, and corrective actions to be taken. These events and actions cover both the base system affected by aspects as well as the aspects affecting the base system themselves. The proper combination of change events and corrective actions allows for conditional just-in-time runtime re-composition. This paper offers a detailed discussion of difficulties related to change in aspect-oriented systems and a description of consistency constraints inherent to them. An implementation illustrating Open Aspects and their application is provided."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ]
+      ]
+    },
+    "104-bour-towards-unified-aspect-oriented-programming": {
+      "title": "Towards Unified Aspect-Oriented Programming",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Workshop/unifiedaop.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Aspect-Oriented Programming (AOP) is a paradigm that aims at improving software modularization. Indeed, aspects are yet another dimension for structuring applications. The notion of aspect refers to any cross-cuting property. This definition encompasses both functional (business) and non-functional (infrastructure) properties. However, most approaches for AOP focus on only one category of aspects: either functional aspects or non-functional ones. This paper aims at bridging the gap between those two families. We present a solution for describing both functional and non-functional aspects in a uniform fashion. This solution relies on reflection and mixin-based inheritance."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ]
+      ]
+    },
+    "105-gybe-inter-language-reflection": {
+      "title": "Inter-Language Reflection",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Workshop/inter-languagereflection.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Meta programming is the act of reasoning about a computational system. For example, a program in Prolog can reason about a program written in Smalltalk. Reflection is a more powerful form of meta-programming where the same language is used to reason about, and act upon, itself in a causally connected way. Thus on the one hand we have meta-programming that allows different languages or paradigms to be used, but without causal connection, while on the other hand we have reflection that offers causal connection but only for a single language.This paper combines both and presents inter-language reflection that allows one language to reason about and change in a causally connected way another language and vice-versa. The fundamental aspects of inter-language reflection and the language symbiosis used therein, are discussed. Moreover the implementation of two symbiotic reflective languages is discussed: Agora/Java and SOUL/Smalltalk."
+          }
+        ]
+      ]
+    },
+    "106-denk-runtime-bytecode-transformation-smalltalk": {
+      "title": "Runtime Bytecode Transformation for Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Workshop/bytesurgeon.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Transforming programs to alter their semantics is of wide interest, for purposes as diverse as off-the-shelf component adaptation, optimization, trace generation, and experimentation with new language features. The current wave of interest in advanced technologies for better separation of concerns, such as aspect-oriented programming, is a solid testimony of this fact. Strangely enough, almost all proposals are formulated in the context of Java, in which tool providers encounter severe restrictions due to the rigidity of the environment. This paper present ByteSurgeon, a powerful library to transform binary code in Smalltalk. ByteSurgeon takes full advantage of the flexibility of the Squeak environment to enable bytecode transformation at runtime, thereby allowing dynamic, on-the-fly modification of applications. ByteSurgeon operates on bytecode in order to cope with situation where either the source code or a full compiler is not available, while providing appropriate high-level abstractions so that users do not need to program at the bytecode level. We illustrate the use of ByteSurgeon via the implementation of method wrappers and multi-methods, and report on its efficiency."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ]
+      ]
+    },
+    "107-wilk-new-object-oriented-model-gregorian": {
+      "title": "A New Object-Oriented Model of the Gregorian Calendar",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Workshop/time.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Smalltalk-80 provides the classes Date and Time to model time domain entities. These abstractions cover the basic needs of most programs but they are not enough when complex observations about time have to be programmed. ANSI Smalltalk added the classes Duration and DateAndTime. Squeak augmented the model with the abstractions Timespan, Year, Month and Week. While the Squeak model provides abstractions to cover almost all the observations within the time domain, we argue that it lacks some abstractions and that it does not properly model the problem domain. In this paper we present a new set of classes that model entities of the time domain based on a simple metaphor. This model proved to us to be very powerful and easy to use. It allows programmers to design and program time related issues better than current implementations."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ]
+      ]
+    },
+    "108-gall-towards-taxonomy-sunit-tests": {
+      "title": "Towards a Taxonomy of SUnit Tests",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Workshop/unittesttaxonomy.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Although unit testing has gained popularity in recent years, the style and granularity of individual unit tests may vary wildly. This can make it difficult for a developer to understand which methods are tested by which tests, to what degree they are tested, what to take into account while refactoring code and tests, and to assess the value of an existing test. We have manually categorized the test base of an existing object-oriented system in order to derive a first taxonomy of unit tests. We have then developed some simple tools to semi-automatically categorize tests according to this taxonomy, and applied these tools to two case studies. As it turns out, the vast majority of unit tests focus on a single method, which should make it easier to associate tests more tightly to the methods under test. In this paper we motivate and present our taxonomy, we describe the results of our case studies, and we present our approach to semi-automatic unit test categorization."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ]
+      ]
+    },
+    "109-mens-co-evolving-code-design-intensional": {
+      "title": "Co-evolving Code and Design with Intensional Views: A Case Study",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Workshop/co-evolving.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Intensional views and relations have been proposed as a way of actively documenting high-level structural regularities in the source code of a software system. By checking conformance of these intensional views and relations against the source code, they supposedly facilitate a variety of software maintenance and evolution tasks. In this paper, by performing a case study on three different versions of the SmallWiki application, we critically analyze in how far the model of intensional views and its current generation of tools provide support for co-evolving high-level design and source code of a software system."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ]
+      ]
+    },
+    "110-duca-microprints-pixel-based-semantically-rich": {
+      "title": "Microprints: A Pixel-based Semantically Rich Visualization of Methods",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Workshop/microprints.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Understanding classes and methods is a key activity in object-oriented programming, since classes represent the primary abstractions from which applications are built, while methods contain the actual program logic. The main problem of this task is to quickly grasp the purpose and inner structure of a class. To achieve this goal, one must be able to overview multiple methods at once. In this paper, we present microprints, pixel-based representations of methods enriched with semantical information. We present three specialized microprints each dealing with a specific aspect we want to understand of methods: (1) state access, (2) control flow, and (3) invocation relationship."
+          }
+        ],
+        [
+          {
+            "text": "_"
+          }
+        ]
+      ]
+    },
+    "201-pelr-scrum-mastering-your-processes": {
+      "title": "Scrum: Mastering your Processes",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Wednesday/2005-ESUG-ScrumTalkHandouts.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Agile software development methodologies, XP being the most known one, are becoming more and more accepted. They take the different nature of software seriously and help delivering usable software to the needs of the customer on time and on budget. At the same time agile methodologies minimize the risks and even if a project should be stopped for whatever reason the customer has not wasted his investment but owns a working system which operates to his specification up that time. But how would one control and manage projects using such methodologies? In deed classical project management has typically still the \"waterfall\" in mind and isn't well suited at all. SCRUM is a proven project management methodology that fits nicely with agile processes - especially XP. We will show and explain the underlying principles and report from real life projects."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "MetaProg is dedicated to improving the quality of software by improving the quality of the development process. We do this by combining the latest and best technology with years of experience in proven techniques. A 15-year perfect track record of delivering customers the software they want, on-time, in-budget, and on-spec shows that that we don't just talk the talk, we also walk the walk."
+          }
+        ]
+      ]
+    },
+    "202-reng-advanced-seaside-1": {
+      "title": "Advanced Seaside (1)",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Wednesday/2005-ESUG-Renggli/2005-ESUG-Seaside.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Seaside is a framework for developing sophisticated web applications in Smalltalk. In this talk I will present some of its advanced features, that I couldn't cover in previous presentations."
+          }
+        ],
+        [
+          {
+            "text": "Depending on the interests of the audience I will cover some of the following topics:"
+          }
+        ],
+        [
+          {
+            "text": "- Backtracking . Customization of the domain-model backtracking when the back-button of the web-browser is used."
+          }
+        ],
+        [
+          {
+            "text": "- LiveUpdate . Data passing between the browser and the server without reloading the whole page."
+          }
+        ],
+        [
+          {
+            "text": "- Call/Answer . The workings of the call/answer-mechanism in Seaside and when to use composition instead of calling."
+          }
+        ],
+        [
+          {
+            "text": "- Decorations. Writing decorations to change the look and behaviour of components."
+          }
+        ],
+        [
+          {
+            "text": "- Meta Models. The use of meta-models, such as Mewa or Magritte, to build web-applications."
+          }
+        ],
+        [
+          {
+            "text": "- REST URLs. Writing bookmarkeable web-applications with Seaside."
+          }
+        ],
+        [
+          {
+            "text": "- Apache. Integration of Seaside with other web-applications such as PHP using Apache."
+          }
+        ]
+      ]
+    },
+    "203-shaf-seaside-unit": {
+      "title": "Seaside Unit",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Wednesday/2005-ESUG-Shaffer.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "I will present the freely available SeasideTesting framework and a small representative set of tests. SeasideTesting is a framework that extends SUnit to simplify developing and running tests of Seaside web components. This framework is unique in that it is designed specifically to allow both testing the rendered HTML result and direct access to the component instances. The advantages and some challenges that come with this capability will be discussed."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "I am an assistant professor of Computer Science at Westminster College in Western Pennsylvania USA teaching all levels of undergraduate Computer Science. I am also sole proprietor of Shaffer Consulting and have been developing payroll and production management software in Smalltalk, Java, Python, C, C++ for more than 15 years."
+          }
+        ]
+      ]
+    },
+    "204-bunn-withstyle": {
+      "title": "WithStyle",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "SUMMARY: WithStyle is an XML user interface framework that offers exciting new user interface possibilities for VisualWorks Smalltalk. WithStyle aims to bridge the 'UI divide' between web applications and desktop software. In doing so, WithStyle provides the Smalltalk community with an opportunity to innovate on the client side and combine the best attributes from both desktop software and web applications."
+          }
+        ],
+        [
+          {
+            "text": "Now in its fourth generation, WithStyle4 is progressing toward the goal of rendering 'hybrid' UIs. These combine VisualWorks Pollock widgets with XML and CSS to create highly flexible user interfaces that are 'skinnable' simply by defining alternate CSS. WithStyle4 adds form and window widgeting to WithStyle's existing content-focused rendering and WYSIWYG editing capabilities."
+          }
+        ],
+        [
+          {
+            "text": "Architecturally, WithStyle can be broken up into four high-level components: Editing Services, Layout Services, XML Services and Network Services. Description of these components will assist in understanding the functionality that WithStyle provides."
+          }
+        ],
+        [
+          {
+            "text": "There are many ways of packaging and deploying WithStyle applications in addition to embedding it as a widget within a desktop application. A WithStyle thin client can be used to render web applications with client-side Smalltalk scripting as well as delivery of 'hybrid' GUI applications. WithStyle UIs can be also be deployed via a browser plugin. The runtime flexibility of Smalltalk even allows such client software to load additional code during use. This presentation explores some possible characteristics of such software."
+          }
+        ],
+        [
+          {
+            "text": "WithStyle technology is currently used in the BottomFeeder news aggregator and blog posting tool as well as forming the basis of the XML WithStyle WYSIWYG XML editor product and an XML editor used as part of a whole-of-government content management platform in Australia. These case studies will be reviewed during this presentation."
+          }
+        ]
+      ]
+    },
+    "205-pluq-tools-intensional-views": {
+      "title": "Tools for Intensional Views",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Wednesday/2005-ESUG-Pluquet.pdf"
+    },
+    "206-pelr-cooking-sunit": {
+      "title": "Cooking with SUnit",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Rarely have 3 classes and a handful of methods changed the face of software development more. SUnit, first described in an article published in the October 1994 Smalltalk Report, was an instrumental part of eXtreme Programming and its offshoot, Test-Driven Development. It has also spawned a legion of clones for other languages."
+          }
+        ],
+        [
+          {
+            "text": "The last few years have seen a number of powerful features added to SUnit, features whose use isn't all that easy to understand. In this talk, Joseph Pelrine, current maintainer of the Camp Smalltalk Sunit project, will talk about the past and present history of SUnit, the reasons behind the new features, and will show a number of handy tips and tricks which can be used to turbocharge your testing."
+          }
+        ]
+      ]
+    },
+    "301-gori-omnibase": {
+      "title": "OmniBase",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In the presentation we will show how OmniBase is being used, its object model and meta-data features. We will take a look into OmniBase internals and also show how to extend it with new types of persistent objects."
+          }
+        ],
+        [
+          {
+            "text": "OmniBase, which is sometimes refered to as an object-database, is in reality �just� a Smalltalk objects persistency system. OmniBase extends Smalltalk image with multi-user access and persistency capabilities. At the moment OmniBase is available for Dolphin Smalltalk, VisualAge Smalltalk, Cincom VisualWorks, Squeak and ST/X. With OmniBase it is possible to store any Smalltalk object in the database with all its relationships with other persistent objects. OmniBase also provides some new objects which are optimized for persistet storage. Such objects include various virtual b-tree dictionaries which can be used for indexing large amounts of data. For concurrency control OmniBase employs multi-version concurrency control where readers never block writers and writers never block readers. Although this type of concurrency control provides high concurrency potential some of its implications have to be considered when one develops an application with OmniBase."
+          }
+        ],
+        [
+          {
+            "text": "Our goal is that after following the presentation one should gather enough experience and information to be able to developed applications with the OmniBase object persistency system."
+          }
+        ]
+      ]
+    },
+    "302-os-rule-driven-workflow-enactment": {
+      "title": "Rule-driven Workflow Enactment",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Thursday/2005-ESUG-Adriaanvanos.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Rule driven workflow enactment by Adriaan van Os (Soops) & Tim Verwaart (LEI - Wageningen UR)"
+          }
+        ],
+        [
+          {
+            "text": "At ESUG 2004 we presented the Artis system for model-driven information systems behaviour in multiple contexts. In this system a combination of data models and business rules completely specifies the information need in some particular context. The data model specifies object types and their mutual relations that may be relevant in a context. However, this is not sufficient. To specify the information need we also need rules for:"
+          }
+        ],
+        [
+          {
+            "text": "- Relevance: under what conditions is it relevant to be informed about the the object types, their variables, their associations?"
+          }
+        ],
+        [
+          {
+            "text": "- Integrity: what quality constraints do the data have to satisfy?"
+          }
+        ],
+        [
+          {
+            "text": "- Actuality: when do we need to be informed; what delay is acceptable?"
+          }
+        ],
+        [
+          {
+            "text": "In our presentation we will explain how the rules are related to the data model, demonstrate the user interface for editing the data model and the rules, explain the Smalltalk code for editing, parsing, and interpretation of the rules. The rules are used for generic enactment of workflow. If relevant data are not available, if data violate integrity rules, or if data no longer satisfy actuality rules, procedures (tasks) are automatically scheduled in to-do lists of responsible employees. We will explain the mechanisms (and Smalltalk code) for rule-based decisions to schedule procedures and for determination of the responsible employees."
+          }
+        ]
+      ]
+    },
+    "303-reng-smallwiki-2": {
+      "title": "SmallWiki 2",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Thursday/2005-ESUG-Renggli.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Wikis are often implemented using string-based approaches to parse and generate their pages. While such approaches work well for simple wikis, they hamper the customization and adaptability of wikis to the variety of end-users when more sophisticated needs are required, such as different output formats, user-interfaces, wiki management and security policies."
+          }
+        ],
+        [
+          {
+            "text": "SmallWiki 2 (smallwiki.unibe.ch) is the second version of a fully object-oriented implementation of a wiki. SmallWiki is written with objects from the top to the bottom and it can be customized easily to accommodate new needs. In addition, SmallWiki is based on a powerful meta-description called Magritte that allows one to create user-interface elements easily. In this talk I will present some of the unique features of SmallWiki, such as how pages can be composed and integrated into other web-applications. Furthermore I will create a small extension to demonstrate how to customize and add new functionality easily."
+          }
+        ]
+      ]
+    },
+    "304-girb-understanding-your-code-assets-moose": {
+      "title": "Understanding your code assets with Moose",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Thursday/2005-ESUG-Girba.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Software systems are complex and difficult to analyze. Reengineering is a complex analysis that usually involves combining different techniques and tools. Moose is a reengineering environment designed to provide the necessary infrastructure for building new tools and for integrating them."
+          }
+        ],
+        [
+          {
+            "text": "Moose centers on a language independent meta-model, and offers services like:"
+          }
+        ],
+        [
+          {
+            "text": "- metrics computation"
+          }
+        ],
+        [
+          {
+            "text": "- grouping"
+          }
+        ],
+        [
+          {
+            "text": "- querying"
+          }
+        ],
+        [
+          {
+            "text": "- navigation"
+          }
+        ],
+        [
+          {
+            "text": "- generic ui"
+          }
+        ],
+        [
+          {
+            "text": "Several tools have been built on top of Moose:"
+          }
+        ],
+        [
+          {
+            "text": "- CodeCrawler: a general purpose visualization tool"
+          }
+        ],
+        [
+          {
+            "text": "- Hapax: a tool to analyze the semantics comprised in the comments or in the name of identifiers"
+          }
+        ],
+        [
+          {
+            "text": "- Van: a tool to analyze the evolution of software systems"
+          }
+        ],
+        [
+          {
+            "text": "- TraceScraper: a tool to analyze the dynamic information contained in the execution trace"
+          }
+        ],
+        [
+          {
+            "text": "- Chronia: a tool to analyze directly CVS information"
+          }
+        ]
+      ]
+    },
+    "401-os-gemstone-64": {
+      "title": "Gemstone 64",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Friday/2005-ESUG-vanOs.pdf"
+    },
+    "402-ruge-etoys-2": {
+      "title": "Etoys 2",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Etoys is the Squeak based visual scripting environment especially aimed at educational and school environments (see squeakland.org). Etoys 2 is the successor of the current Squeak etoys system. Etoys is ased on Tweak, a new UI and event architecture built on top of Squeak. Besides using the new UI architecture of Tweak it also benefits from the new scripting and event mechanisms that are part of the Tweak core architecture and allows for seemless integration down to the system level. The talk will provide an introduction to the new system and an outlook of what's to come."
+          }
+        ]
+      ]
+    },
+    "403-stin-squeakbot": {
+      "title": "SqueakBot",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Friday/2005-ESUG-Stinckwich.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The goal of the SqueakBot project is the development of a robotic platform in Squeak. More specifically, its aim is to develop a pedagogical platform that can be used by youngsters aged 8 till 18 (and beyond!) to control and simulate a diverse and varied amount of robots. At the same time, the project invites educational organizations to experiment with the developed platform. One long term goal of the project is to obtain a software architecture that can be deployed on embedded devices whose resources are limited by time, memory and processing power. The other long term goal of the project is to create a club-like collaboration structure in which many partner institutions can offer their students the possibility to participate in and work on the SqueakBot project."
+          }
+        ]
+      ]
+    },
+    "404-groo-squeak-as-p2p-platform": {
+      "title": "Squeak as a P2P Platform",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "AardWorks VoF is working to develop Open Source software under the title 'Digital Society for the Past'. This software is a peer-to-peer platform that aims to enable a social network of people who are interested in (Dutch) history, helps them exchange information and archive contents, and bring hobbyists and professional institutions into contact with each other. The presentation will give a short demonstration of the software and a detailed overview of especially the peer to-peer architecture which could also prove useful for other projects."
+          }
+        ]
+      ]
+    },
+    "405-freu-etoy-experiences-report": {
+      "title": "Etoy Experiences Report",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Friday/2005-ESUG-Freudenberg.pdf"
+    },
+    "406-berr-business-benefits-risks-soa": {
+      "title": "Business Benefits and Risks of SOA",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Friday/2005-ESUG-Berry.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "You've probably heard the term 'SOA' (Service Oriented Architecture) in journals but have you considered what it means to your business and, just as important, how you avoid the risks associated with moving towards it?"
+          }
+        ],
+        [
+          {
+            "text": "We'll look at what SOA is and what tools there are to help you. Finally, we'll present some interesting ideas that we hope will set you thinking about longer term issues that could influence the way your business deals with its customers and suppliers."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Andy is a computer consultant writing & developing complex software for the banking, financial service & electrical industries. He has been using Smalltalk since 1988 and likes the creativity you can achieve in this language. Have a look at "
+          },
+          {
+            "text": "http://www.tof.co.uk/smalltalk",
+            "url": "http://www.tof.co.uk/smalltalk"
+          },
+          {
+            "text": " for a presentation on some of the projects he's been involved in."
+          }
+        ]
+      ]
+    },
+    "407-duca-bots-inc": {
+      "title": "Bots Inc.",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Friday/2005-ESUG-Ducasse.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "I will present botsInc an environment to teach programming to novices of all ages. http://smallwiki.unibe.ch/botsinc/"
+          }
+        ],
+        [
+          {
+            "text": "Here is an extract from my book\" My goal is to explain key elementary programming concepts (such as loops, abstraction, composition, and conditionals) to novices of all ages. I believe that learning by experimenting and solving problems with fun is central to human knowledge acquisition. Therefore, I have presented programming concepts through simple but not trivial problems such as drawing golden rectangles or simulating animal behavior. The ideal reader I have in mind is an individual who wants to have fun programming. This person may be a teenager or an adult, a schoolteacher, or somebody teaching programming to children in some other organization. Such an individual does not have to be fluent in programming in any language. As a father of two young boys I also wrote this book for all the parents that want to have fun programming with their kids in a powerful interactive environment. Programming in Smalltalk is an interactive, fun but deep experience."
+          }
+        ],
+        [
+          {
+            "text": "The environment that I developed is totally free and under the MIT open-source license following the open-source philosophy of Squeak.\""
+          }
+        ]
+      ]
+    },
+    "408-kind-comikit": {
+      "title": "ComiKit",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "ComiKit � Programming with Comic Strips By Mikael Kindborg mikki@ida.liu.se"
+          }
+        ],
+        [
+          {
+            "text": "��� Children have always created their own toys, often from left-over materials that happen to be available. A child-made doll or car may not be as fancy and polished as one you would buy in a store, but nonetheless, kids often find great satisfaction and joy in making their own toys. Computer games and interactive software toys are different, however. The programming required to create your own game, even a very simple one, is just too difficult for most children to learn. The consequence is that kids are limited to the role of consumers of ready-made software."
+          }
+        ],
+        [
+          {
+            "text": "��� One approach for making programming easier is to use a program representation that is similar to the runtime representation. If the source code of the program looks similar to what is seen on the runtime display, the mental gap between the two representations could be reduced. If programming could be done in a direct and concrete way, the need for mastering complex symbolic representations would be reduced. A representation that is interesting in this respect is comics. Just like a program, a comic is a static representation of something dynamic. The medium of comics gives a very direct impression of the action going on in the story. To the comic book reader, the characters in a comic almost look like they are moving and they almost sound as if they are speaking. For programs that consist of interactive graphical objects, comics have the potential to describe the behaviour of the objects in a way that strongly resembles the visual result of running the program."
+          }
+        ],
+        [
+          {
+            "text": "��� ComiKit is a software tool for children that uses comic strips to program the behaviour of graphical characters. In comics, the events in the story are shown in strips of panels, where each panel shows a part of the action. If we introduce the notion of conditional strips, comic strips can be used to describe events in a program. In an event strip, the first panel is a precondition for the actions in the subsequent panels. In ComiKit, a program is created by drawing pictures of characters and making event strips for their actions. The event strips are monitored and executed when the game is played. Comic strip events are similar to graphical rewrite rules, but are in many ways potentially more expressive and flexible. ��� Several prototypes of ComiKit have been tested together with 4:th and 5:th grade school children. The results showed that children still had to learn programming concepts such as conditional events, but most children could create meaningful interactive stories and simple games in one to two hours. The studies also showed that girls and boys where equally creative with the programming tool."
+          }
+        ],
+        [
+          {
+            "text": "��� ComiKit is developed in Squeak. A first, Java was used, but moving to a Smalltalk-based system proved to be a tremendous benefit, among other things because of the dynamic nature of Smalltalk and the expressiveness of the language.�Research reports are available at: http://www.ida.liu.se/~mikki/comics/��� ComiKit can be found here: "
+          },
+          {
+            "text": "http://www.comikit.se/esug/",
+            "url": "http://www.comikit.se/esug/"
+          }
+        ]
+      ]
+    },
+    "409-fort-business-cincom-smalltalk": {
+      "title": "Business in Cincom Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Friday/2005-ESUG-Fortman.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This session will cover the market direction Cincom is taking Cincom Smalltalk and how they propose to bring more visibility to Smalltalk and the Smalltalk community through various programs. The session will provide an overview of customer and partner programs Cincom has initiated through marketing, education and visibility for Smalltalk applications and services into various vertical markets. Attendees will learn about new programs including the Add-ons and Applications program which is designed to promote applications written in Cincom Smalltalk and also to recruit new Cincom Smalltalk Partners."
+          }
+        ]
+      ]
+    },
+    "410-john-va-smalltalk-going-forward": {
+      "title": "VA Smalltalk Going Forward",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Friday/2005-ESUG-Johnson.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Instantiations has partnered with IBM to extend the viable, supported product life of VisualAge Smalltalk applications. This new relationship is an integral part of the larger IBM Smalltalk Transition and Roadmap Strategy that ensures existing VisualAge Smalltalk customer business needs and requirements are met. Under the new relationship Instantiations will develop, market and support a new, modernized, Smalltalk product called VA Smalltalk. Attendees of this session will learn about Instantiations, our history and qualifications, hear details about VA Smalltalk, as well as plans for the future."
+          }
+        ]
+      ]
+    },
+    "411-blac-gemstone-c": {
+      "title": "Gemstone to C#",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "A Test-First Methodology for Migration of GemStone Systems to .NET By Kirk D. Blackburn"
+          }
+        ],
+        [
+          {
+            "text": "This experience report presents a process that is currently being used to migrate a large, mission-critical VisualAge GemStone Smalltalk system to C# and .NET. Described is an effective, test-first methodology that assures the .NET version system will be source-code identical to the existing GemStone Smalltalk system. Described are the steps of this migration process. Also presented are techniques to deal with the short-comings of the C# language. Experience with moving from GemStone persistence to SQL server is also discussed."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Mr. Blackburn has presented at three prior ESUG conferences. He has more than 22 years of experience in object-oriented technologies. His company, objecThink, founded in 1994, has assisted many companies, primarily in the telecommunications area. Most recently, Mr. Blackburn has focused his career as an Expert Witness helping Attorneys in complex software cases."
+          }
+        ]
+      ]
+    },
+    "412-robe-aggregating-commentary": {
+      "title": "Aggregating the Commentary",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Friday/2005-ESUG-Robertson.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Aggregating the Commentary"
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "I spent 9 months teaching for Booz Allen, but got lured over to ParcPlace - I decided that I would much rather be where Smalltalk was being created! I spent almost two years teaching the intro class before I moved into sales - as a sales engineer. That got very hairy over the next 4 years during the PPD nightmare and the ObjectShare confusion. When Cincom took over VisualWorks in 1999, I came along, retaining my role as a sales engineer. After about a year, I moved up to Product Management, which is where I still am. I am also the author of BottomFeeder - an Open Source RSS/Atom News Aggregator, and Silt - a Web Log server. Both are implented in VisualWorks."
+          }
+        ]
+      ]
+    },
+    "413-mcin-squeak-vm-exploring-gc": {
+      "title": "The Squeak VM: Exploring GC",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Friday/2005-ESUG-McIntosh.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The Squeak garbage collector's goal 10 years ago was to use a simple generational compacting collector to perform a young space GC within 10 milliseconds on a fast 68030 macintosh. A lot has changed in 10 years, machines are much faster and expectations are to run 1GB Squeak Images serving Seaside or other multi-user systems and not exhibit bad GC behavior. This talk explores how the Squeak GC algorithm works, how it has changed and recent changes made this spring to assist data collection, and alter it's historic behavior."
+          }
+        ]
+      ]
+    },
+    "501-reng-advanced-seaside-2": {
+      "title": "Advanced Seaside (2)"
+    },
+    "502-echt-liberating-business-modeler": {
+      "title": "Liberating the Business Modeler",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Saturday/2005-ESUG-M.v.Echtelt.PDF",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "CosmoCows (CC) has developed a tool to model and host web-based administration and control-oriented applications quickly and easily.This tool consists of a framework, web browser based IDE, and a hosting environment to relieve the business modeler of technical concerns like database formats, rendering techniques, and transaction, session, and memory management. This tool is built with and is heavily influenced by Smalltalk (VisualWorks). This talk will be about the internals of this tool and about our experiences with using the tool for control&administration purposes at fire departments, health care institutions, and construction management."
+          }
+        ],
+        [
+          {
+            "text": "Mathieu van Echtelt is business modeler and co-founder of CosmoCows."
+          }
+        ]
+      ]
+    },
+    "503-murp-traffic-analysis": {
+      "title": "Traffic Analysis",
+      "presentationUrl": "https://archive.esug.org/ESUG2005/Saturday/2005-ESUG-MurphyHill.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "We describe a vehicle traffic analysis tool that implements an algorithm which estimates truck volume on highways. We used it to experiment with a data streaming abstraction called Infopipes, which seek to make data streaming applications easier to write. Most of the application is written in Smalltalk/X and the rest is written in Squeak. Smalltalk/X does the data processing, while Squeak provides the visualization. The two communicate by streaming data through Infopipes."
+          }
+        ]
+      ]
+    }
+  }
+}

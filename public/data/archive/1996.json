@@ -1,0 +1,335 @@
+{
+  "year": 1996,
+  "city": "Lausanne",
+  "country": "Switzerland",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "dayDates": ["1996-08-26", "1996-08-27", "1996-08-28", "1996-08-29", "1996-08-30"],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 26",
+      "sessions": [
+        {
+          "time": "9:30 – 11:00",
+          "subject": "Meta-level Programming in Smalltalk",
+          "talkId": "101-pelr-meta-level-programming-smalltalk",
+          "speaker": "Joseph Pelrine"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:30 – 13:00",
+          "subject": "Meta-level Programming in Smalltalk (part 2)"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "Design Fest",
+          "talkId": "102-fron-design-fest",
+          "speaker": "Annick Fron"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 17:00",
+          "subject": "VASER, a Development Framework for Business Applications in VisualAge",
+          "talkId": "103-stal-vaser-development-framework-business-applications",
+          "speaker": "Thomas Stalzer"
+        },
+        {
+          "time": "17:15 – 18:15",
+          "subject": "How to Build Fault Tolerant Distributed Applications Using Smalltalk Replicated Objects?",
+          "talkId": "104-mazo-how-build-fault-tolerant-distributed",
+          "speaker": "Karim Mazouni"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 27",
+      "sessions": [
+        {
+          "time": "9:00 – 10:30",
+          "subject": "Secrets of the Envy Masters",
+          "talkId": "201-knig-secrets-envy-masters",
+          "speaker": "Alan Knight"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 12:30",
+          "subject": "Secrets of the Envy Masters: exercises"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "Building CORBA 2.0 Distributed Applications Using HP-DST 5.0",
+          "talkId": "202-mazo-building-corba-2-0-distributed",
+          "speaker": "Karim Mazouni"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 18:00",
+          "subject": "Building CORBA 2.0 Distributed Applications: exercises"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 28",
+      "sessions": [
+        {
+          "time": "9:00 – 10:30",
+          "subject": "VisualWorks and Windows95/WindowsNT Compliance",
+          "talkId": "301-vens-visualworks-windows95-windowsnt-compliance",
+          "speaker": "Rob Vens"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 12:30",
+          "subject": "Panel: Define, Improve, Measure... Quality of a Smalltalk System",
+          "speaker": "David Grietens (chair)"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 29",
+      "sessions": [
+        {
+          "time": "9:00 – 10:30",
+          "subject": "Constraint Satisfaction in Smalltalk",
+          "talkId": "401-roy-constraint-satisfaction-smalltalk",
+          "speaker": "Pierre Roy, François Pachet"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 12:30",
+          "subject": "Constraint Satisfaction in Smalltalk: exercises"
+        },
+        {
+          "time": "14:00 – 16:00",
+          "subject": "Spying Messages in Smalltalk Objects",
+          "talkId": "402-mick-spying-messages-smalltalk-objects",
+          "speaker": "Ernest Micklei"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Spying Messages in Smalltalk Objects: exercises"
+        },
+        {
+          "time": "18:15 – 19:00",
+          "subject": "Attendees' demonstrations"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 30",
+      "sessions": [
+        {
+          "time": "9:00 – 10:30",
+          "subject": "ApplFLab: Custom-made User Interface Components in VisualWorks",
+          "talkId": "501-hond-applflab-custom-made-user-interface",
+          "speaker": "Koen De Hondt, Roel Wuyts"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 12:30",
+          "subject": "Custom-made User Interface Components: exercises"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "PERSIST: an Object Oriented Database Engine for Smalltalk",
+          "talkId": "502-nick-persist-object-oriented-database-engine",
+          "speaker": "Jürgen Nicklisch-Franken, Carsten Härle"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 17:00",
+          "subject": "General discussion and closing"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-pelr-meta-level-programming-smalltalk": {
+      "title": "Meta-level Programming in Smalltalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Smalltalk is one of the few commercially used programming environments that permits fundamental extensions to be made to the system itself. This tutorial will examine the meta-level facilities available in Smalltalk, and show how they may be used to solve problems which would otherwise be difficult to address. Possible applications include building type-safe objects to interface with databases, distributed objects, metric gathering and code-checking software, and automated code generation tools. The examples discussed are implementable in ParcPlace, Digitalk, and IBM Smalltalk. Outline:"
+          }
+        ],
+        [
+          {
+            "text": "Basic principles of meta-level programming Practical applications: Creating type-safe objects"
+          }
+        ],
+        [
+          {
+            "text": "typed value holders pluggable behavior Proxies, futures, and persistence problems"
+          }
+        ],
+        [
+          {
+            "text": "Responsibilities of nil-subclass objects Object morphing Metrics and documentation Tools"
+          }
+        ],
+        [
+          {
+            "text": "accessing class information Automated code generation Tools"
+          }
+        ],
+        [
+          {
+            "text": "generating accessors a code generation framework Behind the curtain of visual programming tools (VisualAge and PARTS) Add-ons for ENVY/Developer and Team/V"
+          }
+        ],
+        [
+          {
+            "text": "Static and dynamic analysis tools Code organization tools"
+          }
+        ]
+      ]
+    },
+    "102-fron-design-fest": {
+      "title": "Design Fest",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Object programming gives more alternatives to design a project, and develops some typical skills when structuring information and software architecture. Some (2) small interesting examples will be given to the participants to challenge their experience and knowledge when analyzing and designing a project. Each working group should deliver an OMT static model, and discuss use of dynamic models and use cases. In case of success for the workshop, these experiments could be published in a collective paper."
+          }
+        ]
+      ]
+    },
+    "103-stal-vaser-development-framework-business-applications": {
+      "title": "VASER, a Development Framework for Business Applications in VisualAge"
+    },
+    "104-mazo-how-build-fault-tolerant-distributed": {
+      "title": "How to Build Fault Tolerant Distributed Applications Using Smalltalk Replicated Objects?"
+    },
+    "201-knig-secrets-envy-masters": {
+      "title": "Secrets of the Envy Masters",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Envy is a very powerful tool, but one which can easily be misused. As a (mostly) open system, it can support a lot of additional functionality, but the obscurity and lack of documentation of the internals makes this difficult for the uninformed user. It can also be a rigid and imperfect system, making workarounds necessary. Participants should have used Envy, and should be familiar with basic concepts such as versions, editions, configuration maps, and releasing. Outline:"
+          }
+        ],
+        [
+          {
+            "text": "how to set up a project dealing with circular prerequisites managing subapplications and configuration maps exploiting user fields, Envy supports storing arbitrary objects associated with components and/or versions. This can be extremely powerful. proper abuse of class extensions. You can change an amazing amount of system behavior without having to make new versions of the base applications. This is dangerous, but very useful. manipulating the meta-structures. All of Envy's editions, applications, and so forth, are available as Smalltalk objects, they just lack source code, comments or a roadmap. Goal to achieve Achieve a greater understanding of the way Envy works, its proper use and its limitations. Understand how to work around some of the limitations, the benefits and limitations of various approaches."
+          }
+        ]
+      ]
+    },
+    "202-mazo-building-corba-2-0-distributed": {
+      "title": "Building CORBA 2.0 Distributed Applications Using HP-DST 5.0",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This tutorial includes an overview of CORBA 2.0 and a step by step method to build a distributed application using HP Distributed Smalltalk 5.0. The latter is a product from Hewlett-Packard, which implements the CORBA 2.0 specification in Smalltalk, using ParcPlace Visualworks 2.0. CORBA 2.0 is the latest version of the OMG's specification for distributed object interactions. Several commercial products propose implementations of the CORBA specification using widely used object oriented programming languages (e.g. Smalltalk, C\\\\\\\\++) and even newcomers (e.g. Java). Outline:"
+          }
+        ],
+        [
+          {
+            "text": "Part 1: Learning HP-DST"
+          }
+        ],
+        [
+          {
+            "text": "What is CORBA?"
+          }
+        ],
+        [
+          {
+            "text": "main concepts of CORBA CORBA 1.0 Vs CORBA 2.0 Overview of HP-DST 5.0"
+          }
+        ],
+        [
+          {
+            "text": "user services developer services object services HP-DST ORB implementation Building a simple distributed application"
+          }
+        ],
+        [
+          {
+            "text": "an Internet Relay Chat (IRC) like application a step by step method Part 2: Practicing with HP-DST"
+          }
+        ],
+        [
+          {
+            "text": "Build your own chat program and communicate with other attendees! Goal: The tutorial should provide sufficient material to experienced Smalltalk programmers, in order to make them able to program their first CORBA 2.0 distributed application."
+          }
+        ]
+      ]
+    },
+    "301-vens-visualworks-windows95-windowsnt-compliance": {
+      "title": "VisualWorks and Windows95/WindowsNT Compliance",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Participants should feel more confident in using the VisualWorks Smalltalk environment on the Microsoft platforms, and feel better able to achieve compliance to the Windows95 platform guidelines. From this tutorial you can download the presentation, and a zip file containing the source code for the DLL's and VisualWorks from Sepher's site."
+          }
+        ]
+      ]
+    },
+    "401-roy-constraint-satisfaction-smalltalk": {
+      "title": "Constraint Satisfaction in Smalltalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Combinatorial optimization is a powerful paradigm to solve large and complex problems. It has a wide range of applications in all kinds of fields such as: planning, scheduling, resource sharing, in a wide range of areas (transportation, production, mass marketing, network optimization, human resources management). This tutorial aims at introducing the area of combinatorial techniques and their use in conjunction with Smalltalk. Outline: This tutorial introduces the area of finite domain constraint satisfaction programming (CSP) and its integration with Smalltalk. In a first part the main principles of CSP are presented, through the use of simple examples (algorithms for arc-consistency and enumeration). In the second part, we show how object structures may be used in conjunction with CSP, and what kind of problems this combination of techniques allows to solve naturally. The BackTalk system (a canonical integration of CSP techniques in Smalltalk) will be used as an exemplar system throughout the tutorial, with examples such as nurse scheduling and other typical constraint problems. Goal to achieve: Participants should have a general familiarity with Smalltalk. The goal is to make this audience familiar with the main constraint satisfaction techniques, through hands on experiment with the BackTalk system. They should then be able to assess the usability of existing constraint solvers for use in conjunction with object oriented languages."
+          }
+        ]
+      ]
+    },
+    "402-mick-spying-messages-smalltalk-objects": {
+      "title": "Spying Messages in Smalltalk Objects",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Spy objects (spies) have been introduced by Francois Pachet on the Summer School 1994 in Cork, Ireland. Spies are objects that can observe message sends in a transparent (to source code) way. Fascinated by its power, I tried out new concepts to overcome existing problems and to further explore the abilities of a reflexive language such as Smalltalk. Things like tracing tools, message chain diagrams and even Jacobson interaction diagrams, can now easily be produced using spies. Outline: This tutorial starts by introducing the notion of epiphyte systems and why we like to have spying objects. Next, some (3) approaches for implementing spies are presented along with their abilities and restrictions. Then, the design and implementation of a framework for handling messages is presented and finally some applications that make use of this framework. Goal to achieve:"
+          }
+        ],
+        [
+          {
+            "text": "Learn more about the kernel of Smalltalk (Classes, CompiledMethods) What kind of reflexiveness does Smalltalk offer; what do we need? Some important restrictions to the usage of spies; a Smalltalk virus? New ways to verify object behavior and cooperation by providing monitoring tool."
+          }
+        ]
+      ]
+    },
+    "501-hond-applflab-custom-made-user-interface": {
+      "title": "ApplFLab: Custom-made User Interface Components in VisualWorks",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The means to reuse subapplications in VisualWorks are largely insufficient. While reuse of custom-made user interface components is very important, their creation is extremely difficult, because the subject is badly documented in manuals and other publications. Outline: The important classes of the application builder framework are explained in detail. After a step-by-step illustration of how to build new components and how to specialize standard components, with mention of possible pitfalls, ApplFLab is introduced as a set of tools that support the creation/specialization of components, together with their property tools, aspect editors and palettes. Goal to achieve: The tutorial gives a thorough understanding of the internal workings of VisualWorks components and the application builder framework. It stresses the importance of the role of custom-made components to achieve reuse and introduces ApplFLab (Application Framework Laboratory) to make clear that tool support is needed to guide the component developer through the component building phases."
+          }
+        ]
+      ]
+    },
+    "502-nick-persist-object-oriented-database-engine": {
+      "title": "PERSIST: an Object Oriented Database Engine for Smalltalk"
+    }
+  }
+}

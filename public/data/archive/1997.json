@@ -1,0 +1,371 @@
+{
+  "year": 1997,
+  "city": "Sophia Antipolis",
+  "country": "France",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "dayDates": ["1997-08-25", "1997-08-26", "1997-08-27", "1997-08-28", "1997-08-29"],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 25",
+      "sessions": [
+        {
+          "time": "9:15 – 9:30",
+          "subject": "Welcome introduction"
+        },
+        {
+          "time": "9:30 – 11:00",
+          "subject": "Building Components in Smalltalk",
+          "talkId": "101-pelr-building-components-smalltalk",
+          "speaker": "Joseph Pelrine"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:30 – 13:00",
+          "subject": "Building Components in Smalltalk: exercises"
+        },
+        {
+          "time": "13:00 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "Component Objects",
+          "talkId": "102-nick-component-objects",
+          "speaker": "Jürgen Nicklisch-Franken"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 17:30",
+          "subject": "Objects to Test Objects",
+          "talkId": "103-mick-objects-test-objects",
+          "speaker": "Ernest Micklei"
+        },
+        {
+          "time": "17:45 – 18:30",
+          "subject": "Attendees' demonstrations"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 26",
+      "sessions": [
+        {
+          "time": "9:00 – 10:30",
+          "subject": "Toolsmithing: Who, When, and How",
+          "talkId": "201-stei-toolsmithing-who-when-how",
+          "speaker": "Jan Steinman"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 12:30",
+          "subject": "Toolsmithing: exercises"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "ENVY Software Quality Assurance Tools",
+          "talkId": "202-krie-envy-software-quality-assurance-tools",
+          "speaker": "Philippe Krief"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 18:30",
+          "subject": "Panel / workshop"
+        },
+        {
+          "time": "20:00",
+          "subject": "Special dinner"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 27",
+      "sessions": [
+        {
+          "time": "9:00 – 10:30",
+          "subject": "IBM Distributed Smalltalk",
+          "talkId": "301-gard-ibm-distributed-smalltalk",
+          "speaker": "Marc Gardette"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 12:30",
+          "subject": "Distributed Objects with an Object-Distributed-DBMS",
+          "talkId": "302-marw-distributed-objects-object-distributed-dbms",
+          "speaker": "Wolfram Marwik"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 28",
+      "sessions": [
+        {
+          "time": "9:00 – 10:30",
+          "subject": "Reuse Contracts as a Basis for Investigating Reusability of Smalltalk Code",
+          "talkId": "401-hond-reuse-contracts-as-basis-investigating",
+          "speaker": "Koen De Hondt"
+        },
+        {
+          "time": "10:30 – 11:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:00 – 12:30",
+          "subject": "Reuse Contracts: exercises",
+          "url": "https://archive.esug.org/ESUG1997/Esug97ReuseContractsExercises.pdf"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "A Printing Framework in VisualWorks",
+          "talkId": "402-dore-printing-framework-visualworks",
+          "speaker": "Martial Doré"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 17:30",
+          "subject": "MOOSE",
+          "talkId": "403-deme-moose",
+          "speaker": "Serge Demeyer, Stéphane Ducasse"
+        },
+        {
+          "time": "17:45 – 19:15",
+          "subject": "Improving Design Using Dynamic Class Change",
+          "talkId": "404-bour-improving-design-using-dynamic-class",
+          "speaker": "Noury Bouraqadi-Saadani"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 29",
+      "sessions": [
+        {
+          "time": "9:00 – 11:00",
+          "subject": "Integrating Smalltalk and the Web",
+          "talkId": "501-kunz-integrating-smalltalk-web",
+          "speaker": "Adrian Kunzle"
+        },
+        {
+          "time": "11:00 – 11:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "11:30 – 12:30",
+          "subject": "Integrating Smalltalk and the Web (part 2)"
+        },
+        {
+          "time": "13:00 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 15:30",
+          "subject": "VisualWave and Javascript",
+          "talkId": "502-dela-visualwave-javascript",
+          "speaker": "Claude Delaye"
+        },
+        {
+          "time": "15:30 – 16:00",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:00 – 17:30",
+          "subject": "Smalltalk to Objective-C Translator",
+          "talkId": "503-gell-smalltalk-objective-c-translator",
+          "speaker": "Dietmar Gellermann"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-pelr-building-components-smalltalk": {
+      "title": "Building Components in Smalltalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Building components in Smalltalk. Using techniques learned from (among other things) PARTS and VisualAge to build lean and mean reuseable subsystems and components in pure Smalltalk."
+          }
+        ]
+      ]
+    },
+    "102-nick-component-objects": {
+      "title": "Component Objects",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Component Objects -The next generation of really portable business objects by modelling relationship as a higher unit Juergen Nicklisch-Franken, Claas Solutions, Germany"
+          }
+        ],
+        [
+          {
+            "text": "This talk starts with looking on the relationship of object-oriented and component technology. Our thesis is that both technologies have their own aim and realm. We explore how both approaches can be merged. We propose to give components an impact in the phase of oo-design, and reason that the restriction of this impact, even can give oo-design a better quality. We have done prototype studies for implementing the technical requirements in Smalltalk, but standard technologies like Java beans or Active-X components, will be usable for implementation. The talk should be more a theme of general interest, and it has even more a philosophical touch, then to dwell in technical details."
+          }
+        ]
+      ]
+    },
+    "103-mick-objects-test-objects": {
+      "title": "Objects to Test Objects",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "As objects evolve during the development life cycle and the fact that objects will interact with lots of other objects, the need for automatic testing is risen. In a project where hundreds of objects will be defined and integrated by different team members, the management of individual tests and, even more important, the integration tests will become very difficult without a tool to keep track of the dependencies between methods and to ensure they evolve along with the objects themselves. By viewing tests as objects, the basic unit is called a test-case which has a name and holds a test-script that represents the evaluation program. An important part of the concept is the notion of composing tests from (other) test-cases. Besides the ability to control the order in which parts of a test are runned, the composition also controls the flow of objects passing from one test to another. This cascading approach enables the tester to compose new tests by specifying which test-cases should be pre-runned and which are required to be run after running the script. Because the composition of tests is done at the object level, dependencies between test-cases can be minimized thus resulting in a higher degree of reusability of test-cases. Test-cases may store reference objects that can be compared to test-results automatically. This talk will present this testing approach highlighting significant differences and demonstrating some tools used in a project."
+          }
+        ]
+      ]
+    },
+    "201-stei-toolsmithing-who-when-how": {
+      "title": "Toolsmithing: Who, When, and How",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "An interesting thing about working in the Smalltalk environment is that you can modify the tools you buy from the vendor, or even build new tools. Many experts counsel their clients to buy tools instead of building them. Based on over 10 years of working in Smalltalk as tool builders (among other things), we can help you with the decision process, and with a myriad of suggestions based on our many projects' experiences. The \"who\" will help you decide whether to build or buy, the \"when\" will cover timing issues, and the \"how\" will provide some hard-learned do's and dont's."
+          }
+        ]
+      ]
+    },
+    "202-krie-envy-software-quality-assurance-tools": {
+      "title": "ENVY Software Quality Assurance Tools"
+    },
+    "301-gard-ibm-distributed-smalltalk": {
+      "title": "IBM Distributed Smalltalk"
+    },
+    "302-marw-distributed-objects-object-distributed-dbms": {
+      "title": "Distributed Objects with an Object-Distributed-DBMS",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Distributed objects need a stable technical foundation, which hide the complexity of the hardware and software protocols of the involved systems. We will talk about these foundations and show how distributed objects will lead to well structured applications which would be extremely difficult to develop in conventional client-server or host based systems. Distributed objects can bring consistent order to data held on multiple levels. They can also offer an integrating perspective which lets to cooperate software developed in different languages and systems. The foundations and requirements for Object-Distributed-DBMS systems will be presented."
+          }
+        ]
+      ]
+    },
+    "401-hond-reuse-contracts-as-basis-investigating": {
+      "title": "Reuse Contracts as a Basis for Investigating Reusability of Smalltalk Code",
+      "presentationUrl": "https://archive.esug.org/ESUG1997/Esug97ReuseContractsTutorial.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Topic A well-known problem with frameworks is that they are difficult to extend. One needs quite a detailed understanding of the implementation of framework classes in order to know how they should be subclassed. Today, the only available strategy to acquire that understanding is source code inspection. Reuse contracts [1] were introduced by Steyaert et al. [2] to get rid of this error-prone process. The idea is that a framework developer documents that part of the design of a framework that is relevant to application developers, while an application developer declares how the framework is actually reused. In their current state, reuse contracts document how a class reuses itself (through self sends) and how it reuses other classes (through inheritance and messages to instances of other classes). The formal nature of the documentation ensures that one can reason about the reuse contracts and that they can be put to work in a development environment. Experience has shown that reuse contracts in their current form are valuable to perform effort estimations when a framework is to be customized, to analyze the impact on customizations when a framework changes, and to guide the developer in the customization process. On top of that, reuse contracts can be extracted from source code, so that they can be used to investigate the design of a framework and to detect bad designs. Goal to achieve: The goal of the tutorial is to expose the participants to reuse contracts as a way to cope with the difficulty of reusing object-oriented software components. It stresses the importance of formal documentation to be able to reason about reuse at the design level instead of the implementation level. * Outline:"
+          }
+        ],
+        [
+          {
+            "text": "Detailed explanation of the concept of reuse contracts"
+          }
+        ],
+        [
+          {
+            "text": "Single-class reuse contracts (reuse contracts for inheritance) Multi-class reuse contracts Notation Reuse contracts at work"
+          }
+        ],
+        [
+          {
+            "text": "Code generation when subclasses are created Effort estimation for framework customization Impact analysis when a framework changes Extracting reuse contracts from Smalltalk source code"
+          }
+        ],
+        [
+          {
+            "text": "Examining a class hierarchy Spotting bad designs in a class hierarchy Reuse contracts in other contexts: components, design patterns, ... During the exercises part of the tutorial the participants use a reuse contract extractor tool to investigate frameworks. The participants are invited to bring the source code of their own (VisualWorks) Smalltalk frameworks/class hierarchies, so that they can investigate their own programs. The reuse contract home page is http://progwww.vub.ac.be/prog/pools/rcs/rc.html"
+          }
+        ]
+      ]
+    },
+    "402-dore-printing-framework-visualworks": {
+      "title": "A Printing Framework in VisualWorks",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "We will first show how a window is built in VisualWorks (by a pattern-oriented presentation of the various \"actors\" -classes- involved in this process). Then we draw a parallel between a window and a (generated) document. Practice : We make it concrete by subclassing the existent abstract classes and running it ! Purpose : The well distributed responsibilities of an existent framework and the concrete reuse of it (and its \"patterns\") show the benefits of a plain OO approach : reusability & extensibility."
+          }
+        ]
+      ]
+    },
+    "403-deme-moose": {
+      "title": "MOOSE",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The ability to re-engineer object-oriented legacy systems becomes a matter of life or death in today's software industry. All of the early adopters of the object-oriented programming paradigm are nowadays facing the problem of transforming their object-oriented \"legacy\" systems to full-fledged frameworks. Dealing with programs exceeding 10,000 lines of poorly written and badly documented C++ code definitely requires tool support. We present MOOSE, an environment that helps a software engineer during the model capture and problem detection phases of re-engineering projects. MOOSE is able to support these tasks because it is based on a conceptual representation of the legacy system that surpasses traditional text. Among others, such a conceptual representation allows one to express hypotheses about the legacy system in a query language that is based on object-oriented concepts (classes, methods, objects, ...). MOOSE employs the full facilities of Smalltalk programming environments, but the environment is language independent and has among others been used for legacy systems written in Smalltalk, C++ and Java. MOOSE is an open environment, meaning that it communicates with third-party applications to import and export the necessary information. As an example, we import information from the symbol tables maintained in the SNiFF+ C++ environment and export to public domain graph lay-out tools and spreadsheets. MOOSE is used on real case studies provided by the industrial partners of the FAMOOS Esprit project. More information about the authors: http://iamwww.unibe.ch/~demeyer > http://iamwww.unibe.ch/~ducasse about the FAMOOS project: > http://iamwww.unibe.ch/~famoos"
+          }
+        ]
+      ]
+    },
+    "404-bour-improving-design-using-dynamic-class": {
+      "title": "Improving Design Using Dynamic Class Change",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "OO programming is a two-sided task : design and implementation. Application designers often highlight the evolution of object behavior using state-transition diagrams (OMT, OOD, OOSE). But, class-based languages - including Smalltalk - do not easily address behavior evolution at runtime. Thus, in order to work out such designs, implementors use constructions such as the \"State Pattern\" [Gamma et al.]. This pattern allows an object to appear to change behavior, but only within a certain frame that restricts evolutions. In order to bridge the gap between design and implementation, we suggest to relax \"the constraint of immutability\" usually put on the instanciation link. Object evolution is achieved by allowing dynamic class change. As a result, the consistency of class hierarchies is improved, the reuse of components is magnified, maintenance cost is lowered and code readability is enhanced. Applications become more reliable as the implementation of a given design becomes easier to achieve. Dynamic class change is provided by a class library usable by designers/implementors within their current Smalltalk. Dynamic class change is provided by a class library usable by designers/implementors within their current Smalltalk system."
+          }
+        ]
+      ]
+    },
+    "501-kunz-integrating-smalltalk-web": {
+      "title": "Integrating Smalltalk and the Web",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Topic This session looks at the different ways Smalltalk can participate in the Web revolution. It starts with an overview of what the Web is from an application perspective, and then goes on to talk about three different products, available today, that can be used to deploy Smalltalk applications over the Web. These are ParcPlace-Digitalk's VisyalWave, IBM's VisualAge for the Web and Classic Blend from Applied Reasoning. The session concludes with a discussion on the use of the Web as a distributed object space, and how Java, CORBA and Smalltalk can help us with application development in the future. Goal to achieve The audience should leave with a good understanding of how the Web works, and how applications can interact with the world of the browser. They should also be aware of the issues of taking a traditional, single-user Smalltalk application and converting it to run on a server with multiple, concurrent users. The third goal is to generate thoughts and discussions about the future of the Web, Java and Smalltalk, and how we can shape the way we develop solutions. * Outline"
+          }
+        ],
+        [
+          {
+            "text": "What is the Web Server issues Vendor solutions The future and discussion"
+          }
+        ]
+      ]
+    },
+    "502-dela-visualwave-javascript": {
+      "title": "VisualWave and Javascript",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "We want to illustrate how to use VisualWave and Javascript to obtain a local control of entry fields and an ergonomic environment(with contextual help,error messages ...) for entry forms. We will show how it is possible to generate Javascript and Smalltalk control to obtain the same capabilities in Smalltalk environment and under an internet navigator. A subtopic is to show how it is possible to integrate VisualWave generated HTML pages into an allready existing internet site (calling a VisualWave page from a HTML page ; calling Smalltalk and passing parameters from an ordinary HTML form)."
+          }
+        ]
+      ]
+    },
+    "503-gell-smalltalk-objective-c-translator": {
+      "title": "Smalltalk to Objective-C Translator",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Smalltalk has been facing new challenges in the last years due to an increased demand of resources. Since computers have become ever faster and more powerful for less money, developers have been able to implement applications with Smalltalk via rapid prototyping. But the user faces the problem that simple applications require big resources. We want to address this problem via a compiler that translates the Smalltalk sources to a stand-alone program. We extended the \"Producer\" translator by Brad J. Cox for this purpose. Cox implemented an object-oriented message system with Smalltalk-like features as an expansion of C, called Objective-C. His implementation of the \"Producer\" translates a subset of Smalltalk to Objective-C. However, some features of Smalltalk do not have an equivalent in Objective-C and, therefore, could not be handled by the translator. A lot of problems remain to be solved for a complete Smalltalk to Objective-C compiler. Instead of using Cox's base of the compiler, we modified the system to work with the GNU-Foundation library. This library is being developed for Openstep, a variant of NeXT-Step. The library is a base to other libraries for GUI- and DPS-systems. We have been working on connecting the base classes of Smalltalk with these libraries. The talk will present the translation of a small example. We focus on the main problems, namely the handling of data-types, which are necessary in Objective-C, and blocks that do not exist in Objective-C. Blocks are handled as nameless functions. We have implemented the principle of lambda-lifting in the translator, which is well-known in the context of functional programming. In the presentation we intend to demonstrate the compilation process and what its applications on the user level."
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "year": 1998,
+  "city": "Brescia",
+  "country": "Italy",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "dayDates": ["1998-08-31", "1998-09-01", "1998-09-02", "1998-09-03", "1998-09-04"],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 31",
+      "sessions": [
+        {
+          "time": "9:00 – 12:30",
+          "subject": "Architectures and Techniques for Building Server Objects (tutorial)",
+          "talkId": "101-alma-architectures-techniques-building-server-objects",
+          "speaker": "Jay Almarode"
+        },
+        {
+          "time": "14:00 – 15:00",
+          "subject": "Why Object Relational Databases and Object Transaction Monitors Are Going to Change the Way We Build Systems",
+          "talkId": "102-ayer-why-object-relational-databases-object",
+          "speaker": "Jason Ayers"
+        },
+        {
+          "time": "15:00 – 16:30",
+          "subject": "Developing a Client Server System with VisualAge for Smalltalk and VisualAge for Pacbase",
+          "talkId": "103-grie-developing-client-server-system-visualage",
+          "speaker": "David Grietens"
+        },
+        {
+          "time": "16:30 – 17:00",
+          "subject": "Discussion"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 1",
+      "sessions": [
+        {
+          "time": "9:00 – 12:30",
+          "subject": "Refactoring Techniques and Tools",
+          "talkId": "201-robe-refactoring-techniques-tools",
+          "speaker": "Don Roberts, John Brant"
+        },
+        {
+          "time": "14:00 – 15:00",
+          "subject": "Visual Programming: Prototyping versus Development (experience report)",
+          "talkId": "202-otto-visual-programming-prototyping-versus-development",
+          "speaker": "Anna Ottobelli"
+        },
+        {
+          "time": "15:30 – 17:30",
+          "subject": "Commercial demos"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 2",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Squeak",
+          "talkId": "301-pium-squeak",
+          "speaker": "Ian Piumarta"
+        },
+        {
+          "time": "10:30 – 12:30",
+          "subject": "Squeak: practice, discussion, VM implementation"
+        },
+        {
+          "time": "14:00",
+          "subject": "Free afternoon"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 3",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Fuzzy Logic",
+          "talkId": "401-schi-fuzzy-logic",
+          "speaker": "L. Schiavina"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Discussion"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "subject": "Temporal Objects in Smalltalk",
+          "talkId": "402-geid-temporal-objects-smalltalk",
+          "speaker": "Joachim Geidel"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Discussion and questions"
+        },
+        {
+          "time": "14:00 – 15:00",
+          "subject": "Patterns and Quality: What Is the Link?",
+          "talkId": "403-berr-patterns-quality-what-is-link",
+          "speaker": "Andy Berry"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Discussion and questions"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Rolemodeling: a Method to Design and Reuse Patterns for System Modeling",
+          "talkId": "404-wern-rolemodeling-method-design-reuse-patterns",
+          "speaker": "Peter Werner"
+        },
+        {
+          "time": "16:30 – 17:00",
+          "subject": "Discussion and questions"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 4",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Assuring Plausibility in Insurance Applications (cancelled)"
+        },
+        {
+          "time": "10:30 – 11:30",
+          "subject": "Object Connect: Performance Techniques",
+          "talkId": "501-kerr-object-connect-performance-techniques",
+          "speaker": "Tarik Kerroum"
+        },
+        {
+          "time": "11:30 – 12:30",
+          "subject": "Discussion and questions"
+        },
+        {
+          "time": "14:00 – 15:00",
+          "subject": "From Design to Implementation of Interactions: an Environment in Smalltalk",
+          "talkId": "502-forn-from-design-implementation-interactions-environment",
+          "speaker": "Mireille Fornarino, Anne-Marie Pinna"
+        },
+        {
+          "time": "15:15 – 17:00",
+          "subject": "Demos from attendees"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-alma-architectures-techniques-building-server-objects": {
+      "title": "Architectures and Techniques for Building Server Objects (tutorial)",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This talk compares the pure client/server model with the 3-tier model and describes the features required of Smalltalk to act as the application server. We discuss application partitioning and give general rules and examples of how to partition. We describe the principles and techniques for building server objects, focusing on concurrency control and transactions. We examine three ways to manage concurrency: pessimistic, optimistic, and semantic concurrency control. For pessimistic concurrency control, we describe the kinds of locks and discuss design choices for when to acquire locks. For optimistic concurrency control, we describe a framework for replaying operations when conflict occurs. We also describe the theory of semantic concurrency control, and present a detailed exercise of building a high-concurrency array. In discussing how to support transactions, we compare how different architectures support the ACID properties. Two main ways to support transactions are to interface to an external database that supports transactions, or to enforce transaction properties in the virtual machine itself. If time permits, we will also discuss security and fault tolerance. When building secure server objects, we distinguish between authentication and authorization. We focus on authorization, and discuss different ways to control the reading and writing of objects, and show different techniques for limiting which users can execute methods. We discuss two main areas of fault tolerance: recoverability and availability. Recoverability can be achieved by performing on-line backups of object memory, writing transaction logs, and checkpointing the state of object memory. Availability can be achieved by maintaining two copies of object memory, building warm backup systems, and by building replication servers. The talk is intended to be a 3 hour, tutorial presentation with class exercises. The class exercises are as follows:"
+          }
+        ],
+        [
+          {
+            "text": "Application partitioning exercise 1: (5 minutes) Assign various objects and methods to 1st tier (client) or 2nd tier (server). Application partitioning exercise 2: (10-15 minutes) Given a server object model, design replication specifications for how objects should be created on the client. Concurrency control design exercise: (20-25 minutes) The class will interactively design a highly concurrent Array class (multiple concurrent users can update the array without conflict or loss of consistency)."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Jay Almarode has been creating object-oriented systems since 1984, first with General Electric, and later with Digitalk and GemStone Systems, Inc. He wrote his first Smalltalk code in 1986, building a rule-based delegation system for his graduate research. Since then, he has built CASE tools, interfaces to relational and object database systems, query and indexing systems, multi-user classes featuring semantic concurrency control, and federated distributed object systems in Smalltalk. He is currently a principle engineer at GemStone Systems, Inc. He has written columns for The Smalltalk Report, as well as published in Object Magazine, JOOP, Dr. Dobb's, and OOPSLA and ECOOP conferences."
+          }
+        ]
+      ]
+    },
+    "102-ayer-why-object-relational-databases-object": {
+      "title": "Why Object Relational Databases and Object Transaction Monitors Are Going to Change the Way We Build Systems",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Jason Ayers: Why Object Relational Databases and Object Transaction Monitors are going to change the way we build systems. An example architecture: Monza."
+          }
+        ],
+        [
+          {
+            "text": "This year is going to see the arrival of two major new object technologies that will transform the way that we go about building object systems: Object Relational Databases and Object Transaction Monitors. In most business systems today there is generally about 20-30% of the data structures that would benefit from a navigational recovery mechanism or the ability to store complex types in the database. Today these data structures are forced into a relational db because there is little other choice. OODBs remain a costly and unattractive option for many and always represent a major technology commitment. Object Relational Databases allow us to represent to 20-30% of our data in an object based manner with effective navigational recovery. The remaining data can remain in a relational storage environment within the same database. OR dbms provide real object support with a low cost entry point. As people put their systems on the internet/intranet they must provide the same kind of transactional support that their mainframe based systems have had for years. This TP support must interface seamlessly with the object technology that they are using. The need for TPMs on the internet is vast. This is a technology that once we have it we will wonder how we ever lived without it. Monza is an example of an architecture combining both technologies. ObjectShare is a Smalltalk and Java technology vendor."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Jason Ayers is ObjectShare's Director of European Professional Services based in Farnham, Surrey, UK. He has 10 years experience in building OO technology systems largely in the Smalltalk arena."
+          }
+        ]
+      ]
+    },
+    "103-grie-developing-client-server-system-visualage": {
+      "title": "Developing a Client Server System with VisualAge for Smalltalk and VisualAge for Pacbase",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "David Grietens: Developing a client server system with VisualAge for Smalltalk and VisualAge for Pacbase, the perfect road from Cobol to Smalltalk !?!"
+          }
+        ],
+        [
+          {
+            "text": "This talk will report on a project that was performed for an important belgian company where VisualAge for Pacbase and VisualAge for Smalltalk were used to implement a typical client server system (one of the first projects in the world that used this technology). What was not so typical about this system is that objects were created in pacbase (an run on the server / old server technology) and these objects are accessed from the smalltalk world by using proxies. Several decisions had to be made of where to do what (client or server). Also a migration from classical structured analysis methods to object oriented methodologies was an important issue and questioned in many ways the added value of OO analysis and OO design. This talk will explain the technology; its usefullness and how it was implemented in a team of classic 'cobol' developers."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "David Grietens has been a software architect since 1987 after finishing his studies in computer science at the University of Brussels (VUB). He is involved in commercial Smalltalk projects since 1990 and since 1994 he is the owner of hIghQ, bvba, a company that concentrates on improving the quality of custom made software, by professionalism and respecting user requirements."
+          }
+        ]
+      ]
+    },
+    "201-robe-refactoring-techniques-tools": {
+      "title": "Refactoring Techniques and Tools",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Refactoring is generally agreed to be a necessary part of the OO software lifecycle. However, it has been woefully unsupported when it comes to tools and methodologies. This course will examine refactoring and show how to integrate it into your development. We will look at several of the barriers to refactoring and how to overcome them using both standard development tools and specialized refactoring tools. Another portion of the course will discuss the implementation of refactoring tools. Such a tool for Smalltalk, the Refactoring Browser, will be used to demonstrate those principles. Additionally, we will look at the refactorings themselves. Where they come from, and how they fit with design patterns. Our discussion of refactoring will use Smalltalk for most of the examples, but the principles will be applicable to most OO languages. Outline Philosophy of Refactoring (45 minutes) Software Maintenance Evolutionary Development Refactoring What it is Where they come from Barriers to refactoring Schedules Complexity Tactics for Refactoring (60 minutes) Common Refactorings Refactoring using the Standard Tools Refactoring Tools Properties of a Refactoring Tool The Refactoring Browser Strategies for Refactoring (60 minutes) Smalltalk Best Practice Patterns Design Patterns Conclusions (15 minutes) Duration : half-day Level: Intermediate Required experience: Attendees should have at least a year's experience with developing software in some OO language. Expected audience: Developers and Managers. Attendees will learn how to keep their OO-designs evolving while still meeting production deadlines."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "John Brant and Don Roberts are Smalltalk consultants and PhD students at the University of Illinois. They have been studying refactoring with an emphasis on building tools to help developers restructure \"real\" Smalltalk programs. Tutorial resume: A shorter version of this tutorial was presented at Smalltalk Solutions '97 in New York City, NY. While there were no formal reviews, it appeared to be received enthusiastically. Addresses Don Roberts (contact) Department of Computer Science University of Illinois 1304 W. Springfield Ave. Urbana, IL 61801 droberts@cs.uiuc.edu John Brant Department of Computer Science University of Illinois 1304 W. Springfield Ave. Urbana, IL 61801 brant@cs.uiuc.edu"
+          }
+        ]
+      ]
+    },
+    "202-otto-visual-programming-prototyping-versus-development": {
+      "title": "Visual Programming: Prototyping versus Development (experience report)"
+    },
+    "301-pium-squeak": {
+      "title": "Squeak",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "the work that I've been doing with Dan Ingalls and John Maloney on implementing a new \"just-in-time\" compiler for Squeak (also written entirely in Smalltalk) to speed up the performance [very technical]"
+          }
+        ]
+      ]
+    },
+    "401-schi-fuzzy-logic": {
+      "title": "Fuzzy Logic",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Fuzzy objects are normal smalltalk objects which are capable of exhibiting fuzzy behaviour instead of the crisp behaviour which is typical of smalltalk objects derived from standard classes. Fuzzy objects are derived from a class which implements attributes common to fuzzy sets, and thus its behaviour towards the user is fuzzy; from this class a new hierarchy can be created, in parallel with the standard one when necessary, and therefore it is possible to generate fuzzy objects which mix with normal crisp objects. In the presentation the following points will be covered:"
+          }
+        ],
+        [
+          {
+            "text": "very brief introduction to the theory of fuzzy sets, VisualAge Smalltalk definition of a new hierarchy that implements fuzzy behaviour with the objective of demonstrating the capacity of objects to crystallise knowledge and to be used naturally by users lacking technical skills example of fuzzy objects controlled through a process of fuzzyfication/defuzzyfication which is typical of fuzzy expert systems."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Lorenzo Schiavina is a professor of operations research in the mathematics faculty at the Catholic University of Brescia. Additionally Lorenzo is president and founder of EDOR M. Q., a Milan, Italy, based IT company specialised in object technology and with a strong preference for Smalltalk. EDOR has been a ParcPlace-Digitalk Italian distributor, and since 1996 has been IBM's Italian Business Partner for VisualAge Smalltalk. EDOR is certainly Italy's strongest promoter of Smalltalk."
+          }
+        ]
+      ]
+    },
+    "402-geid-temporal-objects-smalltalk": {
+      "title": "Temporal Objects in Smalltalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "In many information systems, time related information has to be stored and processed. There are two categories of such information: information about real world events and the history of real world objects, and information about additions to and deletions from the information stored in the system itself. After a short review of some basic ideas and work from research on Temporal Databases, the design and implementation of a Smalltalk framework for temporal objects is shown. The design is based on an implementation from a project at the Swiss National Bank. The presentation also shows some preliminary work on adding support for temporal objects to the Smalltalk class library which lets it appear as an integral part of the environment."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Joachim Geidel is a consulting engineer and trainer at Daedalos Consulting GmbH, located at Witten, Germany. He has been working with Smalltalk since 1989 in university projects, as technical support engineer, VisualWorks and ENVY trainer, and as consultant in industry projects. He is a co-author of two introductory books on Smalltalk programming with ObjectWorks and VisualWorks."
+          }
+        ]
+      ]
+    },
+    "403-berr-patterns-quality-what-is-link": {
+      "title": "Patterns and Quality: What Is the Link?",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This paper will consider several issues relating to quality of software and patterns. It will begin by asking what makes a useful pattern. It will include examples (gathered from pattern repositories on the Web) of patterns that are helpful and others that are less so. It will show that less experienced developers of patterns sometimes seem to be writing unusable pearls-of-wisdom rather than reusable patterns with identified areas of application. It will propose that patterns are not applicable to all problems but suggest the existence of a \"universe\" of problems that patterns can help to address. It will suggest that the Gang-of-four probably had this universe in mind in their book. It will show how the application of patterns can help and hinder the development of quality software. It will show that the flexible application of patterns can help capture best practice but that the rigid application of a limited number of patterns can cause the finished software to lack the essential QWAN (\"Quality without a name\") that makes great software - it can make it feel \"wooden\". It will then discuss mechanisms to ensure the software development process incorporates the \"spirit\" of the patterns chosen for a project, rather than just the details of particular patterns. This will include discussing the need to ensure that patterns guide rather the drive software development. It will cover issues relating to training of software developers, mentoring and monitoring and propose that project should formally test patterns before they are added to the repository of patterns."
+          }
+        ]
+      ]
+    },
+    "404-wern-rolemodeling-method-design-reuse-patterns": {
+      "title": "Rolemodeling: a Method to Design and Reuse Patterns for System Modeling",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "What is a Role and an Aspect. Basic ideas and relations to: Object-orientation, Aspect-orientation, Pattern, Visual-Modeling. The syntax of the language. Examples and demonstration. What I've learned as I've developed a prototype-tool in Smalltalk."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "My name is Peter Werner. I'm a mathematicion and work as a staff scientist in the Deutsche Telekom AG in the Technologiezentrum in Berlin. Since the early 90th I use Smalltalk/VisualWorks. Since 95 I've together with my colleagues contact to some norwegian company."
+          }
+        ]
+      ]
+    },
+    "501-kerr-object-connect-performance-techniques": {
+      "title": "Object Connect: Performance Techniques",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The presentation discusses the different aspects involved in performance tuning. It first addresses performance metrics; how performance data can be measured effectively. The factors influencing the performance of an application will be presented. Performance tuning occurs at two stages. The compiler re-arranges the code so that it optimizes application performance automatically. The second stage involves the developer; he or she can rewrite performance sensitive areas for better performance. The basis for performance tuning consists of profiling data. GUI feedback is a related topic, since the idea here is to give the user of a system a clue about the progress so that a lenghty process looks faster than it really is. Different techniques to use background processing are discussed as well. Memory management is often an important consideration, since it may generate unwanted activity and increased memory consumption. Profiling data lets the developer pinpoint allocation peaks, and alternate allocation techniques can provide a boost in performance or simply let an algorithm on very large data sets. Tuning examples will focus on comparisons between regular Smalltalk, inlined Smalltalk messages, C and assembler, and when to stop looking for performance improvements."
+          }
+        ]
+      ]
+    },
+    "502-forn-from-design-implementation-interactions-environment": {
+      "title": "From Design to Implementation of Interactions: an Environment in Smalltalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Since the design step, UML allows to express the interactions in static and dynamic diagrams. However at the implementation level, the interactions are often mixed inside the code of the object methods. Checking the consistency and understanding the interaction network is then difficult. So works in reengeneering for example propose to detect the interactions at execution time. Our approach differs in that we propose to take into account the interactions at design level and to keep them outside of the objects at the implementation level. The technic used according to the language is always based on message catching. We experimented our approach in different languages (Clos, Smalltalk (of course), Orbix/C\\\\++ and Open-C\\\\++ by extrapoling typing from objects at execution time. In the scenarii, interactions are expressed as a sequence of messages. If a message is sending, we have to expect the following messages. In the collaboration diagram, the order of the message is clearer, ... In the state diagram, in the same time we can expressed that some message are not acceptable in some state and expressed which messages are emit. Finally the object diagrams expressed the existence, the cardinality, some properties of the association and in the same way of interactions. Addresses pinna@essi.essi.fr blay@essi.essi.fr"
+          }
+        ]
+      ]
+    }
+  }
+}

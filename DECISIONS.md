@@ -9,12 +9,14 @@ entries go at the top.
 extracted from `esug.image`) has a page tree for every conference from 1993 to 2014, in a different format for almost
 every year.
 
-**Decision:** Archive pages for conferences before 2015 are built from that export, one year at a time, in the same
-`<year>.json` format as 2015 onward. ESUG 2011 (Edinburgh) is the first, as a pilot. Its logo on the Past Conferences
-page now links to its archive. The logos of the other years before 2015 stay plain images until their archives are in.
+**Decision:** Archive pages for conferences before 2015 are built from that export, in the same `<year>.json` format as
+2015 onward, with archive.esug.org, Niall Ross's reports and the ESUG YouTube video descriptions filling gaps (see
+app/data/archive/SOURCES.md). Every year from 1993 to 2014 has an archive except 2001 to 2003, for which the export has no
+program. Their logos (or year tiles) on the Past Conferences page link to them. Only the conferences from 2015 onward
+get a tile in the home page's Conference Archives section; the older ones are reached from Past Conferences. Except for
+2011, the older conferences use the Past Conferences image as their hero image until they get their own.
 
-**Reason:** The export is the most complete source for these years. Building one year first lets the format be
-checked before the other years are done.
+**Reason:** The export is the most complete source for these years. Thirty tiles would swamp the home page.
 
 ## 2026-11-21: No general SlideShare link on conference pages
 

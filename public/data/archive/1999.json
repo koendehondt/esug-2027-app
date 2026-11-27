@@ -1,0 +1,385 @@
+{
+  "year": 1999,
+  "city": "Ghent",
+  "country": "Belgium",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "dayDates": ["1999-08-30", "1999-08-31", "1999-09-01", "1999-09-02", "1999-09-03"],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 30",
+      "sessions": [
+        {
+          "time": "8:45 – 9:00",
+          "subject": "Welcome introduction"
+        },
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Design Fest: MOO Design",
+          "talkId": "101-tome-design-fest-moo-design",
+          "speaker": "Ivan Tomek"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 11:30",
+          "subject": "VisualWorks 5i Demo",
+          "talkId": "102-town-visualworks-5i-demo",
+          "speaker": "Simon Townsend"
+        },
+        {
+          "time": "11:30 – 12:30",
+          "subject": "VisualWorks 5i and Opentalk",
+          "talkId": "103-wage-visualworks-5i-opentalk",
+          "speaker": "Roland Wagener"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 16:00",
+          "subject": "Pocket Smalltalk",
+          "talkId": "104-harl-pocket-smalltalk",
+          "speaker": "Carsten Härle"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:30 – 17:30",
+          "subject": "Design Fest (continued)"
+        },
+        {
+          "time": "17:30 – 18:30",
+          "subject": "Numerical Methods",
+          "talkId": "105-bess-numerical-methods",
+          "speaker": "Didier Besset"
+        },
+        {
+          "time": "18:30",
+          "subject": "Guided tour of Gent"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 31",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "SmallScript 3D",
+          "talkId": "201-mick-smallscript-3d",
+          "speaker": "Ernest Micklei"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 12:00",
+          "subject": "Building Highly Configurable and Adaptive Frameworks",
+          "talkId": "202-tilm-building-highly-configurable-adaptive-frameworks",
+          "speaker": "Michel Tilman"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "Duploc, a Tool to Detect and Visualize Duplicated Code",
+          "talkId": "203-rieg-duploc-tool-detect-visualize-duplicated",
+          "speaker": "Matthias Rieger"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 16:00",
+          "subject": "The Classification Browser",
+          "talkId": "204-hond-classification-browser",
+          "speaker": "Koen De Hondt"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:30 – 17:30",
+          "subject": "SilverMark Testing Mentor"
+        },
+        {
+          "time": "17:30 – 18:30",
+          "subject": "Discussion on future browsers"
+        },
+        {
+          "time": "20:00",
+          "subject": "Special dinner"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 1",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Software in the Next Millennium",
+          "talkId": "301-berr-software-next-millennium",
+          "speaker": "Andy Berry"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 12:30",
+          "subject": "Advanced Topics in ENVY",
+          "talkId": "302-pelr-advanced-topics-envy",
+          "speaker": "Joseph Pelrine"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00",
+          "subject": "Visit to Bruges"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 2",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "GemStone Products",
+          "talkId": "401-dore-gemstone-products",
+          "speaker": "Martial Doré"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 12:00",
+          "subject": "Ultra Light Client",
+          "talkId": "402-madh-ultra-light-client",
+          "speaker": "Sanjay Madhavan"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "ObjectStudio on the Middle Tier",
+          "talkId": "403-mich-objectstudio-middle-tier",
+          "speaker": "Sherry Michael, Thomas Haaks"
+        },
+        {
+          "time": "12:30 – 14:00",
+          "subject": "Lunch"
+        },
+        {
+          "time": "14:00 – 16:00",
+          "subject": "Extreme Programming",
+          "talkId": "404-beck-extreme-programming",
+          "speaker": "Kent Beck"
+        },
+        {
+          "time": "16:00 – 16:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "16:30 – 17:30",
+          "subject": "Design Fest"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 3",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "ESUG general assembly and discussion"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "10:30 – 12:00",
+          "subject": "VisualAge for Smalltalk: Tips and Tricks",
+          "talkId": "501-hutc-visualage-smalltalk-tips-tricks",
+          "speaker": "Greg Hutchinson"
+        },
+        {
+          "time": "12:00 – 12:30",
+          "subject": "CodeCrawler",
+          "talkId": "502-lanz-codecrawler",
+          "speaker": "Michele Lanza, Stéphane Ducasse"
+        },
+        {
+          "time": "12:30",
+          "subject": "Lunch"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-tome-design-fest-moo-design": {
+      "title": "Design Fest: MOO Design",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "A MOO is a client-server text-based virtual environment emulating real world features such as places (rooms, building, etc.), actors (people, machines), and objects and combining them in a virtual universe. It allows its users to build new locations, instantiate objects, navigate in the virtual universe, communicate with others, and extend the environment by creating new object templates. MOOs have been shown to be useful in education and in computer supported collaborative work, and they are very popular as gaming environments. In a sense, virtual environments can be viewed as a generalization of existing networked environments that provide new forms of scoping, communication, navigation, customizability and extendibility. Up to now, however, they have not proved as popular as their potential would suggest. This is, among other reasons, probably due to their outdated designs and it is the purpose of this proposal to suggest an initial specification and work out a suitable design. The implementation could eventually become an exciting new environment that would be of interest in many applications, among them as a meeting place of the Smalltalk community. Implementing such an environment in Smalltalk could be an interesting proof of the strength and viability of Smalltalk. It is hoped that the fact that the environment would be user-extendible in Smalltalk could lead to increased popular awareness and interest in Smalltalk."
+          }
+        ]
+      ]
+    },
+    "102-town-visualworks-5i-demo": {
+      "title": "VisualWorks 5i Demo"
+    },
+    "103-wage-visualworks-5i-opentalk": {
+      "title": "VisualWorks 5i and Opentalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "OpenTalk is the next generation of Smalltalk messaging, build into VisualWorks5i. It is an extensible, pluggable development architecture, initially supporting a pure Smalltalk to Smalltalk messaging model. It is user-expandable, and will support disparate protocols such as COM/DCOM and RMI. OpenTalk allows for full bore remote development (browsing and debugging of code). The presentation consists of an introduction and a demo of OpenTalk with VisualWorks5i."
+          }
+        ]
+      ]
+    },
+    "104-harl-pocket-smalltalk": {
+      "title": "Pocket Smalltalk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Pocket Smalltalk is a Smalltalk implementation for the Palm Computing platform. It has a 24Kb VM and full access to the Senior. The talk discusses the implementation and gives programming examples."
+          }
+        ]
+      ]
+    },
+    "105-bess-numerical-methods": {
+      "title": "Numerical Methods",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Numerical data analysis seems largely ignored by most Smalltalkers. It turns out, however, that implementing numerical method in Smalltalk is very easy because of the large potential for mathematical objects to be mapped into computer objects. In this talk, we shall present a general framework for computation by successive approximations. Then, we shall present numerous examples of concrete implementation of this framework: zero finding, integration, finding the eigen values of a matrix, least-square fit. As a side exercise, we shall study vector and matrix operations and show how to implement matrix LUP decomposition (to solve linear systems of equations and invert a matrix). Author: Didier Besset has a Ph.D. in experimental high-energy physics. Since 1987, he has been using Smalltalk to develop large applications using statistical analysis of data as a basis for decision support. He now is working as an independent consultant. You can download the presentation and example code (in pdf) ."
+          }
+        ]
+      ]
+    },
+    "201-mick-smallscript-3d": {
+      "title": "SmallScript 3D",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "It contains a set of classes for representing all kinds of 3D objects, operations on these objects and some nice exporting facilities for rendering them using non-Smalltalk programs such as POVRay, Quake,VRML or a simple Direct3D viewer. In this demo, I would like to show some of these scripts and scenes and of course a detailed view on some interesting objects and concepts used (Smalltalk Interfaces, Kind Dispatching, Optimizing Collections ... ). You can see the presentation if you have a VRML-plugin in your browser."
+          }
+        ]
+      ]
+    },
+    "202-tilm-building-highly-configurable-adaptive-frameworks": {
+      "title": "Building Highly Configurable and Adaptive Frameworks",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Building flexible applications in a heterogeneous world of ever-changing needs requires appropriate techniques. Metadata (data about data) and active-object models (explicit object models that are interpreted at run-time) are increasingly applied in various application domains. By means of small examples and a larger case study, we aim to convince the audience that these reflective systems are very useful (in fact, needed), and that they are easier to build than is commonly thought. We present techniques that work and emphasize potential problems that the developer should be aware of."
+          }
+        ]
+      ]
+    },
+    "203-rieg-duploc-tool-detect-visualize-duplicated": {
+      "title": "Duploc, a Tool to Detect and Visualize Duplicated Code",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Duploc is a tool to detect duplication in source code. Duploc compares source files line by line using simple string matching and displays the results in a two-dimensional matrix, where each dot stands for an exact match between two lines. Thanks to image reduction techniques, Duploc can display matrixes of arbitrary size, the only restriction being the memory capacity. Duploc also produces textual reports about the duplication found. Duploc is implemented fully in VisualWorks2.5/3.0 and is distributed under the GNU license from http://www.iam.unibe.ch/~rieger/duploc."
+          }
+        ]
+      ]
+    },
+    "204-hond-classification-browser": {
+      "title": "The Classification Browser",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The Classification Browser is based on a general model to organize software entities, called the software classification model. Classifications can be considered enhanced categories with which classes can be grouped in arbitrary, user-defined ways. Apart from the support for organizing software entities, the Classification Browser also provides integrated support for browsing senders and implementers, and for browsing acquaintance relationships. Classes and methods can be viewed in different ways, so that the developer can choose the most appropriate way of browsing for a given browsing/development activity. The browser can be used for reverse engineering; it is able to produce UML diagrams. On top of that, the Classification Browser can be used to manage software evolution."
+          }
+        ]
+      ]
+    },
+    "301-berr-software-next-millennium": {
+      "title": "Software in the Next Millennium",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "It's just over fifty years since the first computer program was written. Since then, much has changed but much has remained the same. For example, the first program was swiftly followed by the first 'bug' - just like every program written today. Object orientation (and, of course, Smalltalk) was one of the 'drivers' for windowing systems which is one of the most significant developments in the first half-century of software. No-one can predict the future and I'm not going to try. What I will try to do is provide a historical context for software development (such as the Cold War and the internationalization of business) and then highlight some outstanding challenges that you may have to address in the first few years of the new millennium. Some of the issues will be obvious (such as what is next in user interfaces and why is voice recognition so difficult) and some less so (for example, how can we achieve a step increase in software productivity). My aim is to be thought-provoking and even downright controversial."
+          }
+        ]
+      ]
+    },
+    "302-pelr-advanced-topics-envy": {
+      "title": "Advanced Topics in ENVY",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "As good a tool as ENVY is, the documentation leaves something to be desired. This is all the more evident when the job to be done is extending the ENVY environment with additional functionality. This code-intense course provides an in-depth look at the ENVY system API, uncovers some interesting things, and provides numerous examples of tools and scripts which can immediately be used to increase the productivity of an ENVY site."
+          }
+        ]
+      ]
+    },
+    "401-dore-gemstone-products": {
+      "title": "GemStone Products"
+    },
+    "402-madh-ultra-light-client": {
+      "title": "Ultra Light Client",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The IBM VisualAge Ultra Light Client (ULC) is a new architecture to address the fat client problem. The principal idea is to run applications on a centrally controlled application server. Only the presentation part of an application is run on the client's desktop. The presentation part is implemented by a universal user interface engine (UI Engine). ULC produces thin, easily distributable, low bandwidth client applications. The presentation will consist of an introduction to the ULC architecture and a demo of building and running ULC Smalltalk applications."
+          }
+        ]
+      ]
+    },
+    "403-mich-objectstudio-middle-tier": {
+      "title": "ObjectStudio on the Middle Tier",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Armed with an encapsulation of industry proven Transaction Processing Middleware and architectural changes to facilitate deployment as an Application Server, ObjectStudio is poised to provide an environment for building complex, n-tier, component oriented, enterprise class systems. This presentation will discuss the ObjectStudio Transaction Framework, synergies with our Smalltalk Request Broker, our Internet Client connectivity, and the initiatives currently underway to re-architect ObjectStudio as an Application Server on both the UNIX and NT platforms. We will conclude with a demo of our initial release, now in the final stages of testing, running on Windows NT and enabled by BEA Tuxedo.}}}"
+          }
+        ]
+      ]
+    },
+    "404-beck-extreme-programming": {
+      "title": "Extreme Programming"
+    },
+    "501-hutc-visualage-smalltalk-tips-tricks": {
+      "title": "VisualAge for Smalltalk: Tips and Tricks",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This tutorial will focus on some useful tips and tricks to help developers make their coding easier and more reusable. It will also explain some of the lesser know functionality provided in Visual Age for Smalltalk. The Eavesdropper Pattern: Occasionally the widgets that are supplied with your favorite dialect of Smalltalk do not have all the functionality that you may desire. Usually your choices are to subclass the supplied parts, or decorate (or wrap) the supplied parts. The eavesdropper pattern is another alternative to the above without the drawbacks of either. The presenter will explain and illustrate the use of this pattern in several working code examples to add useful functionality to existing VA Smalltalk widgets."
+          }
+        ],
+        [
+          {
+            "text": "Short Presentations and Demonstrations"
+          }
+        ]
+      ]
+    },
+    "502-lanz-codecrawler": {
+      "title": "CodeCrawler",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "CodeCrawler is a tool for reverse engineering of (large) object oriented systems. It combines graphs and metrics to achieve a graphical display of source code. The generated graphs are interactive and serve as a base for information extraction which is useful for the intuitive understanding and the detection of problems of the displayed system. CodeCrawler is based on MOOSE, a language-independent metamodel developed at the university of Bern, Switzerland. It is part of the European FAMOOS project. The display of graphs is done using the functionality's of HotDraw, a graphical framework developed by John Brant. CodeCrawler is written in Smalltalk using the VisualWorks 3.0 environment."
+          }
+        ]
+      ]
+    }
+  }
+}

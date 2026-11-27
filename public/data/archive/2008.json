@@ -1,0 +1,1354 @@
+{
+  "year": 2008,
+  "city": "Amsterdam",
+  "country": "The Netherlands",
+  "heroImage": "/images/tiles/past-conferences.jpg",
+  "logoImage": "/images/conference-logos/esug-2008.png",
+  "report": {
+    "author": "Niall Ross",
+    "url": "https://archive.esug.org/ReportsFromNiallRoss/NiallRossStSESUGVASUG2008Report.pdf"
+  },
+  "dayDates": ["2008-08-25", "2008-08-26", "2008-08-27", "2008-08-28", "2008-08-29"],
+  "sideEvents": [
+    {
+      "label": "Program booklet",
+      "url": "https://archive.esug.org/ESUG2008/Program.pdf"
+    },
+    {
+      "label": "Camp Smalltalk 2008"
+    },
+    {
+      "label": "Conference videos",
+      "url": "https://www.youtube.com/playlist?list=PL4A297B9019B3884D"
+    }
+  ],
+  "program": [
+    {
+      "id": "day-1",
+      "label": "Mon 25",
+      "sessions": [
+        {
+          "time": "8:30 – 9:00",
+          "subject": "Registration"
+        },
+        {
+          "time": "9:00 – 9:45",
+          "subject": "Welcome",
+          "speaker": "ESUG board, Paul Klint"
+        },
+        {
+          "time": "9:45 – 10:00",
+          "subject": "The tricks for doing slick presentations",
+          "talkId": "101-girb-tricks-doing-slick-presentations",
+          "speaker": "Tudor Gîrba"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "Advanced Techniques for building testing tools",
+          "talkId": "102-vall-advanced-techniques-building-testing-tools",
+          "speaker": "Andrés Valloud"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Cincom Smalltalk: Present, Future & Smalltalk Advocacy",
+          "talkId": "103-thom-cincom-smalltalk-present-future-smalltalk",
+          "speaker": "Arden Thomas"
+        },
+        {
+          "time": "12:00 – 13:30",
+          "subject": "Lunch Break"
+        },
+        {
+          "time": "13:30 – 14:15",
+          "subject": "UserChanges",
+          "talkId": "104-cani-userchanges",
+          "speaker": "Leandro Caniglia"
+        },
+        {
+          "time": "14:15 – 15:00",
+          "subject": "GStreamer: media streaming in Squeak",
+          "talkId": "105-mcin-gstreamer-media-streaming-squeak",
+          "speaker": "John McIntosh"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "15:30 – 16:15",
+          "subject": "Using Smalltalk for a Heat Control System (Track A)",
+          "talkId": "106-wull-using-smalltalk-heat-control-system",
+          "speaker": "Alfred Wullschleger"
+        },
+        {
+          "time": "15:30 – 16:15",
+          "subject": "SqueakNOS (Track B)",
+          "talkId": "107-rich-squeaknos",
+          "speaker": "Gerardo Richarte"
+        },
+        {
+          "time": "16:15 – 16:45",
+          "subject": "Smalltalk standards - an update",
+          "talkId": "108-badg-smalltalk-standards-update",
+          "speaker": "Bruce Badger"
+        },
+        {
+          "time": "16:45 – 17:15",
+          "subject": "Syslog - the logging standard (Track A)",
+          "talkId": "109-badg-syslog-logging-standard",
+          "speaker": "Bruce Badger"
+        },
+        {
+          "time": "16:45 – 17:15",
+          "subject": "Aida,Scribo - a Powerful CMS at Your Fingertips (Track B)",
+          "talkId": "110-pett-aida-scribo-powerful-cms-your",
+          "speaker": "Nicolas Petton"
+        },
+        {
+          "time": "17:15 – 17:45",
+          "subject": "Croquet: An Open Collaboration Architecture for Education",
+          "talkId": "111-shep-croquet-open-collaboration-architecture-education",
+          "speaker": "Robert Shepherd, Julian Lombardi"
+        },
+        {
+          "time": "18:15 – 21:00",
+          "subject": "Awards"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "label": "Tue 26",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Newspeak: Evolving Smalltalk for the Age of the Net (invited talk)",
+          "talkId": "201-brac-newspeak-evolving-smalltalk-age-net",
+          "speaker": "Gilad Bracha"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "MBA Smalltalk: to manage your objects",
+          "talkId": "202-echt-mba-smalltalk-manage-your-objects",
+          "speaker": "Mathieu van Echtelt"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Fame",
+          "talkId": "203-kuhn-fame",
+          "speaker": "Adrian Kuhn"
+        },
+        {
+          "time": "12:00 – 13:30",
+          "subject": "Lunch Break"
+        },
+        {
+          "time": "13:30 – 14:15",
+          "subject": "Using the Meta-Environment for Model Driven Engineering",
+          "talkId": "204-stor-using-meta-environment-model-driven",
+          "speaker": "Tijs van der Storm"
+        },
+        {
+          "time": "14:15 – 14:30",
+          "subject": "Magritte Blitz",
+          "talkId": "205-reng-magritte-blitz",
+          "speaker": "Lukas Renggli"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "MetaModelling Panel",
+          "speaker": "Lukas Renggli, Mathieu van Echtelt, Adrian Kuhn, Tijs van der Storm Video"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Coffee break"
+        },
+        {
+          "time": "15:30 – 16:15",
+          "subject": "Gemstone for Dummies",
+          "talkId": "206-mccl-gemstone-dummies",
+          "speaker": "Martin McClure"
+        },
+        {
+          "time": "16:15 – 16:45",
+          "subject": "Starting fresh every morning, rebuilding a development image every day (Track A)",
+          "talkId": "207-monc-starting-fresh-every-morning-rebuilding",
+          "speaker": "Yann Monclair"
+        },
+        {
+          "time": "16:15 – 16:45",
+          "subject": "Application of a Smalltalk-based simulation tool (Track B)",
+          "talkId": "208-verw-application-smalltalk-based-simulation-tool",
+          "speaker": "Tim Verwaert, John Wolters"
+        },
+        {
+          "time": "16:45 – 17:45",
+          "subject": "Show us your projects"
+        },
+        {
+          "time": "18:15 – 21:00",
+          "subject": "Cosmocows Reception"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "label": "Wed 27",
+      "sessions": [
+        {
+          "time": "9:00 – 9:45",
+          "subject": "Cog Back to the Future part 2",
+          "talkId": "301-mira-cog-back-future-part-2",
+          "speaker": "Eliot Miranda"
+        },
+        {
+          "time": "9:45 – 10:15",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "10:00 – 12:00",
+          "subject": "Smalltalk Newbies Tutorial (part 1) (Track C)",
+          "talkId": "302-corr-smalltalk-newbies-tutorial",
+          "speaker": "Giovanni Corriga"
+        },
+        {
+          "time": "10:15 – 11:00",
+          "subject": "The house of Bach (Track A)",
+          "talkId": "303-heeg-house-bach",
+          "speaker": "Georg Heeg"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "subject": "Automatic strategies for decision support in telephone triage (Track A)",
+          "talkId": "304-ferr-automatic-strategies-decision-support-telephone",
+          "speaker": "Carlos E. Ferro"
+        },
+        {
+          "time": "11:00 – 12:00",
+          "subject": "Pier Hands-on (Track B)",
+          "talkId": "305-girb-pier-hands",
+          "speaker": "Tudor Gîrba"
+        },
+        {
+          "time": "12:00 – 13:30",
+          "subject": "Lunch Break"
+        },
+        {
+          "time": "13:30 – 15:00",
+          "subject": "Smalltalk Newbies Tutorial (part 2) (Track C)",
+          "speaker": "Giovanni Corriga"
+        },
+        {
+          "time": "13:30 – 14:15",
+          "subject": "What Smalltalk can Learn from Java (Track A)",
+          "talkId": "306-mars-what-smalltalk-can-learn-from",
+          "speaker": "Philippe Marschall"
+        },
+        {
+          "time": "14:15 – 14:45",
+          "subject": "Exploratory Modeling (Track A)",
+          "talkId": "307-vens-exploratory-modeling",
+          "speaker": "Rob Vens"
+        },
+        {
+          "time": "14:15 – 14:45",
+          "subject": "GTK for Squeak (Track B)",
+          "talkId": "308-casa-gtk-squeak",
+          "speaker": "Gwenael Casaccio"
+        },
+        {
+          "time": "15:00 – 22:00",
+          "subject": "Social Event"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "label": "Thu 28",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "Web Velocity - Seaside Environment for Cincom Smalltalk",
+          "talkId": "401-robe-web-velocity-seaside-environment-cincom",
+          "speaker": "James Robertson"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "Seaside",
+          "talkId": "402-fitz-seaside",
+          "speaker": "Julian Fitzell"
+        },
+        {
+          "time": "11:15 – 12:00",
+          "subject": "Glass: share Everything",
+          "talkId": "403-henr-glass-share-everything",
+          "speaker": "Dale Henrichs"
+        },
+        {
+          "time": "12:00 – 13:30",
+          "subject": "Lunch Break"
+        },
+        {
+          "time": "13:30 – 14:30",
+          "subject": "Glass hands-on",
+          "talkId": "404-fost-glass-hands",
+          "speaker": "James Foster"
+        },
+        {
+          "time": "14:30 – 15:00",
+          "subject": "Extending Seaside",
+          "talkId": "405-reng-extending-seaside",
+          "speaker": "Lukas Renggli"
+        },
+        {
+          "time": "15:00 – 15:30",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "15:30 – 16:15",
+          "subject": "Seaside XUL (cancelled)"
+        },
+        {
+          "time": "16:15 – 16:45",
+          "subject": "WideStrings and utf-8",
+          "talkId": "406-mars-widestrings-utf-8",
+          "speaker": "Philippe Marschall"
+        },
+        {
+          "time": "16:45 – 17:45",
+          "subject": "WebTerminal: less code more RIA",
+          "talkId": "407-gaze-webterminal-less-code-more-ria",
+          "speaker": "Wouter Gazendam"
+        },
+        {
+          "time": "17:45 – 18:30",
+          "subject": "Aida/Web 6.0: This Is How the Web Works!",
+          "talkId": "408-mivs-aida-web-6-0-this",
+          "speaker": "Janko Mivšek"
+        },
+        {
+          "time": "18:30 – 18:45",
+          "subject": "MagLev",
+          "talkId": "409-will-maglev",
+          "speaker": "Monty Williams"
+        },
+        {
+          "time": "18:45 – 19:45",
+          "subject": "Get your books signed (Andrés Valloud, Stéphane Ducasse)"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "label": "Fri 29",
+      "sessions": [
+        {
+          "time": "9:00 – 10:00",
+          "subject": "VA Smalltalk V8 Preview",
+          "talkId": "501-okee-va-smalltalk-v8-preview",
+          "speaker": "John O'Keefe"
+        },
+        {
+          "time": "10:00 – 10:30",
+          "subject": "Coffee Break"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "A Moribund Smalltalk still alive and kicking: The APIS VisualSmalltalk IDE (Track A)",
+          "talkId": "502-brey-moribund-smalltalk-still-alive-kicking",
+          "speaker": "Thomas Brey"
+        },
+        {
+          "time": "10:30 – 11:15",
+          "subject": "CodeCity (Track B)",
+          "talkId": "503-wett-codecity",
+          "speaker": "Richard Wettel"
+        },
+        {
+          "time": "11:15 – 11:45",
+          "subject": "Madeo (Track A)",
+          "talkId": "504-laga-madeo",
+          "speaker": "Loïc Lagadec"
+        },
+        {
+          "time": "11:15 – 11:45",
+          "subject": "ObjectStudio 8’s ModelingTool (Track B)",
+          "talkId": "505-verl-objectstudio-8s-modelingtool",
+          "speaker": "Dirk Verleysen"
+        },
+        {
+          "time": "11:45 – 12:30",
+          "subject": "Farewell"
+        },
+        {
+          "time": "12:30 – 13:30",
+          "subject": "Lunch Break"
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "101-girb-tricks-doing-slick-presentations": {
+      "title": "The tricks for doing slick presentations",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Monday/1-presenting-at-esug.pdf"
+    },
+    "102-vall-advanced-techniques-building-testing-tools": {
+      "title": "Advanced Techniques for building testing tools",
+      "videoId": "jeLGRjQqRf0",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Monday/3-valloud-ESUG_2008-AdvanceTechBuildTestTool.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "While SUnit and similar frameworks are quite useful, it is often the case that software projects need to adapt them to their particular use. This has a tendency to reveal deficiencies that usually show up in terms of lack of flexibility. For example, it is not straightforward to let SUnit handle different exceptions when more detailed results are important. Extending SUnit by subclassing is not as trivial as it may seem at first sight. Implementing file logging is typically much more cumbersome than it should be. The techniques shown in this presentation solve all of these problems. Two concrete applications will be discussed in detail: the Hash Analysis Tool, a framework for evaluating hash functions, as well as Assessments, a sample reimplementation of SUnit."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Andres has over 10 years of experience in Smalltalk. He has recently published two Smalltalk books, and is currently writing several others. He is one of the organizers of the Smalltalks conference in Buenos Aires, Argentina. He currently works at Cincom Systems as lead VM engineer for Cincom Smalltalk."
+          }
+        ]
+      ]
+    },
+    "103-thom-cincom-smalltalk-present-future-smalltalk": {
+      "title": "Cincom Smalltalk: Present, Future & Smalltalk Advocacy",
+      "videoId": "Df4RW-93G-4",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Monday/2-CINCOM-ESUG2008.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This presentation discusses the current state of Cincom Smalltalk (VisualWorks, ObjectStudio and Web Velocity), and a roadmap of their future direction. Also discussed is why Smalltalk is becoming more important in todays market, and why we are seeing increased interest in Smalltalk, along with ideas for promoting the continuation of this trend."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Arden Thomas got started with Smalltalk in 1986, looking for better ways to do software development (he found it). He is currently a senior field application engineer at Cincom, working to help Cincom's Smalltalk customers, and to help move Smalltalk forward. He worked for ParcPlace for many years as a trainer, sales engineer, and consultant, and recently did extensive software development at Forest Investment management, which included choosing and using an application framework."
+          }
+        ]
+      ]
+    },
+    "104-cani-userchanges": {
+      "title": "UserChanges",
+      "videoId": "t_5ji2aqEQs",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Monday/4-CanigliaMakingUserChanges.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "(Work co-authored with Valiera Murgia)."
+          }
+        ],
+        [
+          {
+            "text": "As the Smalltalk programmer compiles methods, evaluates expressions, creates new classes, etc., the environment logs all these actions in a changes ﬁle. Logging is not a novel feature though. The important thing is that Smalltalk logs are not just human-readable information; they are made of chunks of loadable scripts that may replay the same actions that originated them. This mechanism has several applications: recover work in case of crash, search through the methods' history, share source code, etc. This talk reports the experience of having used the same mechanisms to log and repro- duce end-user changes. The diversity of commands grows with the complexity of the software. Therefore, user change logs are richer than Smalltalk logs, and even though the central ideas remain fruitful, solving the problem with all generality is not trivial. Be- sides explaining implementation details, we will go through a remarkable variety of appli- cations, some of them unthinkable when the authors ﬁrst introduced this functionality into the PetroVR tool-suite four years ago."
+          }
+        ],
+        [
+          {
+            "text": "Valeria Murgia has served since 2001 as solution architect and development lead for Caesar Systems, a leading company in the ﬁeld of business simulation software. She is an expert in Smalltalk and GemStone technologies. Since 1990, she has conceived, de- veloped and maintained mission-critical systems for government and private business in South America. Although she holds a Mas- ter of Science degree in computer science, she has also com- pleted graduate studies in mathematics and music composition. She is the author of GemSqueak, a completely refactored open source GemStone client for the Squeak multi-media environment. Leandro Caniglia is the director of development of Caesar Sys- tems. Prior to this, he had worked as a Smalltalk consultant for several companies in Argentina, Brazil and Chile. He was professor at the University of Buenos Aires from 1979 to 2001, and also worked as a researcher at CONICET, the ofﬁcial board for scientiﬁc research in Argentina. In 1997 he co-founded the MathMorphs Squeak User Group and the Smalltalk User Group of Argentina (SUGAR). Starting in 2007, Caniglia is member of the organizing board for the Annual Argentine Smalltalk Conference."
+          }
+        ]
+      ]
+    },
+    "105-mcin-gstreamer-media-streaming-squeak": {
+      "title": "GStreamer: media streaming in Squeak",
+      "videoId": "T07aeHY5SiE",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Monday/5-GStreamer2.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "GStreamer is a GPL library that allows the construction of graphs of media-handling components, ranging from simple Ogg/Vorbis playback to complex audio (mixing) and video (non-linear editing) processing. Applications can take advantage of advances in codec and filter technology transparently. Developers can add new codecs and filters by writing a simple plugin with a clean, generic interface, this new codec is now available to the GStreamer system user without integration issues."
+          }
+        ],
+        [
+          {
+            "text": "This talk will show the audience how to interact with the GStreamer system using a plugin written for the Squeak environment that gives the ability for the developer to decode common media forms, control the playback of the media from a variety of sources, and to generate media from Squeak created audio and video sources by assembling a GStreamer pipeline to process streams of media."
+          }
+        ],
+        [
+          {
+            "text": "This work was funded by Viewpoints Research Institute to provide a free open source media player for the eToys environment on the OLPC."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "John McIntosh lives on Vancouver Island, in British Columbia, Canada. He is maintainer of the macintosh Squeak VM. For the past four years, he has also been a member of the team responsible for building the Sophie multimedia content creation tool. As a past speaker at ESUG and Smalltalk Solutions conferences, he is well-known for his expertise on Garbage Collection issues, VisualWorks tuning, and contributions to the Squeak Community."
+          }
+        ]
+      ]
+    },
+    "106-wull-using-smalltalk-heat-control-system": {
+      "title": "Using Smalltalk for a Heat Control System",
+      "videoId": "E9zUhY1bP58",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Monday/6-Left-HeatControl.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Typically, commercially available Heat Control Systems use temperature hysterisis for the control of a heating system. I show an example of a heat flow controled system based on USB-Data Acquisition hardware and self-made sensor- and actor-hardware."
+          }
+        ],
+        [
+          {
+            "text": "The control is fully done in VisualWorks, which gives phantastic flexibility for reaching nice control behavior. For testing the whole system, a simulator has been developed which helped a lot, avoiding bad problems when starting with the real heating. The simulator in action and some photos will be shown, to give a feeling of the whole endeavor."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Alfred has been developing Smalltalk based software during the last 16 years in banking and public service environments. Having retired recently, he now has time to also think about physics and electronics in combination with the best software environment he knows of: Smalltalk."
+          }
+        ]
+      ]
+    },
+    "107-rich-squeaknos": {
+      "title": "SqueakNOS",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Squeak NOS by Gerardo Richarte Inspired by Dan Ingalls words \"An operating system is a collection of things that don't ﬁt into a language. There shouldn't be one.\", and after feeling the urge to never leave the Squeak environment, we dreamed of a pure Squeak [no] operating system. We were not sure if it was possible or not, but we anyway jumped, head ﬁrst, into making it real. We didn't succeed yet, but we came further than what we thought possible, and we still hope to go even further! In this talks we'll show you what we did and how we did it, we'll go through the code and startup process of a SqueakNOS system, dream of possible future directions, and show a live demo, both of the system itself, and of how different the process of coding a \"device driver\" is when you can inspect and interact with live objects."
+          }
+        ],
+        [
+          {
+            "text": "Gerardo \"richie\" Richarte started Smalltalking and Squeaking in 1998 at Leandro Caniglia's MathMorphs class, where he was one of the main creators and imple- mentors of the MorphicWrappers, as well as some other MathMorphs components. In the early days of Squeak he was an active member of the list, where he contributed a few bits of code. Being a member of the original 2001 SqueakNOS team, he awakened the project almost 5 years latter to bring it back its second incarnation. Today, he's still unofﬁcially Squeaking and Smalltalking, and spending a bigportion of his time reading and writing assembly and other low level stuff."
+          }
+        ]
+      ]
+    },
+    "108-badg-smalltalk-standards-update": {
+      "title": "Smalltalk standards - an update",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Monday/6-right-ANSI.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This is an update on the work going on to revive the Smalltalk standardisation project. This will be a brief talk giving contact information, showing those currently involved and summarising the work covered so far and that which is planned."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Bruce is an enthusiastic technologist and the Founder of OpenSkills.org, a global non-profit association of professional individuals. His strong technical leadership skills have contributed to his success of a wide range of IT projects, over a period of more than 25 years. He has built and deployed numerous Smalltalk systems and libraries over the past 10 years, preferring to develop software using Smalltalk, a pure Object Oriented language. Bruce is currently focusing on OpenSkills and the evolution of the services market as Free and Open Source software is increasingly adopted. Many of the libraries Bruce has worked on are available under open source licenses. These include the PostgreSQL library, the Hyper HTTP library, the SPDF PDF library and the Sport Smalltalk portability interface."
+          }
+        ]
+      ]
+    },
+    "109-badg-syslog-logging-standard": {
+      "title": "Syslog - the logging standard",
+      "videoId": "7wG1J2Jg8Rk",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Monday/7-right-Syslog.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Syslog is defined by RFC 3164 and is a widely used way of transmitting log messages. This talk is about a Smalltalk implementation of the RFC which was built as part of my work on Slaps (the Smalltalk LDAP library). The talk will also cover what Syslog is and how the syslog library can be used with existing Smalltalk logging libraries."
+          }
+        ]
+      ]
+    },
+    "110-pett-aida-scribo-powerful-cms-your": {
+      "title": "Aida,Scribo - a Powerful CMS at Your Fingertips",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Monday/7-Left-Scribo.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Aida/Scribo is a powerful open source Content Management System written on top of Aida/Web. With Aida/Scribo you can manage site content, wikis, blogs, forums and more. Aida/Scribo is very easy to use and extend, comes with a lot of plugins, leveraging the best Aida/Web features, including a complete security management, a WYSIWYG editor support, a persistence layer, a versioning support, ajaxified components (so called scriblets) and so on. The presentation will show the strengths of this new CMS, but also its simplicity and various features."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "I am a computing science student at the university of Montpellier II, France. I recently joined Aida/Web development team. I'm also involved in Aida/Scribo development. I discovered Smalltalk three years ago at the university of Brest. I am very fond of Squeak, and all Smalltalk dialects."
+          }
+        ]
+      ]
+    },
+    "111-shep-croquet-open-collaboration-architecture-education": {
+      "title": "Croquet: An Open Collaboration Architecture for Education",
+      "videoId": "II8FMdkg3mw",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Croquet: An Open Collaboration Architecture for Education - by Robert Sheperd and Juian Lombardi"
+          }
+        ],
+        [
+          {
+            "text": "Video on Youtube: "
+          },
+          {
+            "text": "http://www.youtube.com/watch?v=II8FMdkg3mw",
+            "url": "http://www.youtube.com/watch?v=II8FMdkg3mw"
+          }
+        ]
+      ]
+    },
+    "201-brac-newspeak-evolving-smalltalk-age-net": {
+      "title": "Newspeak: Evolving Smalltalk for the Age of the Net",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Tuesday/8-gilad_bracha_esug08.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Newspeak is a new programming language and platform, descended from Smalltalk and Self. Newspeak attempts to preserve what is wonderful about Smalltalk, while addressing its weaknesses with respect to modularity, security and interoperability. Newspeak treats classes as full fledged linguistic entities. It is also a purely message based language, like Self. These two key design decisions lead, almost inevitably, to a language with a powerful component style module system and an object-capability security model. We are using the Newspeak language to build a platform that plays well with its environment both locally on the host machine, and globally over the net."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Gilad Bracha is the creator of the Newspeak programming language. He is currently Distinguished Engineer at Cadence Design Systems. Previously, he was a Computational Theologist and Distinguished Engineer at Sun Microsystems. He is co-author of the Java Language Specification, and a researcher in the area of object-oriented programming languages. Prior to joining Sun, he worked on Strongtalk, the Animorphic Smalltalk System. He received his B.Sc in Mathematics and Computer Science from Ben Gurion University in Israel and a Ph.D. in Computer Science from the University of Utah."
+          }
+        ]
+      ]
+    },
+    "202-echt-mba-smalltalk-manage-your-objects": {
+      "title": "MBA Smalltalk: to manage your objects",
+      "videoId": "QyYI0NOsaCI",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Tuesday/9-cosmocows-mba-smalltalk.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Frameworks, components, MDA, DSL, 4GL, Etoys, etc; many names for the same thing: abstracting away unnecessary complexity. Less complexity makes software developers more productive and lowers the entry barrier to become a happy software developer."
+          }
+        ],
+        [
+          {
+            "text": "In this presentation I'll report our experiences about being more productive and having more fun while developing, operating and maintaining business administration systems."
+          }
+        ],
+        [
+          {
+            "text": "The heart of our proven solution is code generation based upon \"business model descriptions\". This generated code, manages the integrity of the system in many ways. Dedicated tools help us build-, deploy- and monitor of our systems in a more controllable way. The businessmodel descriptions completely define the webbased front-end and the relational database back-end. With this solution we became very successful in a competitive market; more than 80 governmental institutions use our system daily."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Co-founded Cosmocows in 2000, tries to live by \"Smalltalk is not a prerequisite, design principles are\"."
+          }
+        ]
+      ]
+    },
+    "203-kuhn-fame": {
+      "title": "Fame",
+      "videoId": "5MUuBAOD4qA",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Tuesday/10-fame.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Fame is an Meta-modelling framework, with focus on models at runtime. Fame is based on FM3, a superset of a subset of EMOF. Beside runtime annotations, Fame supports code-generation, metamodel-inference and Demeter traversals. The Moose projects uses fame as the foundation of their reengineering environment and the FAMIX exchange format. Fame has recently been ported from VW to Squeak, and is also available in Java, C#, Ruby and Python."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Adrian Kuhn is a PhD student in computer science at Software Composition Group, University of Bern, Switzerland. His main research interests are programming languages and software evolution. He used to be a main developer of Moose. Recently, he got infected by the virus of creating his own, self-sustained programming language. Past work includes Chronia, a CVS visualization, and Hapax, a source code search engine."
+          }
+        ]
+      ]
+    },
+    "204-stor-using-meta-environment-model-driven": {
+      "title": "Using the Meta-Environment for Model Driven Engineering",
+      "videoId": "ccM64NTBXfA",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Tuesday/ESUG2008-tvdstorm-Meta-Environment.1.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "We present the Meta-Environment language workbench as a tool for developing domain specific languages. Our demonstration will highlight the following features:"
+          }
+        ],
+        [
+          {
+            "text": "- High-level, modular syntax definition using arbitrary context-free grammars"
+          }
+        ],
+        [
+          {
+            "text": "- Powerful code generation engine based on rewrite rules which allow meta programming using concrete syntax"
+          }
+        ],
+        [
+          {
+            "text": "- An interactive environment supporting iterative language developmentand domain specific customization."
+          }
+        ],
+        [
+          {
+            "text": "- Automatic syntax highlighting and pretty-printing"
+          }
+        ],
+        [
+          {
+            "text": "- An extensible toolkit for visualizing domain entities"
+          }
+        ],
+        [
+          {
+            "text": "The Meta-Environment has been used for DSL implementation, migration of legacy software, model driven application generation, and high-fidelity source code transformation and analysis. As such it provides a stable and feature complete toolkit for model driven engineering."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Tijs van der Storm studied Literature and Computer Science at the University of Amsterdam (UvA). After graduating, he started as a researcher at CWI, where he obtained his PhD in 2007. Currently he combines research on transformation languages with teaching software construction and evolution at the UvA."
+          }
+        ]
+      ]
+    },
+    "205-reng-magritte-blitz": {
+      "title": "Magritte Blitz",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Tuesday/12-magritte.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Magritte",
+            "url": "http://www.lukas-renggli.ch/smalltalk/magritte"
+          },
+          {
+            "text": " is a recursive meta-model to describe objects. The framework closely integrates into the reflective meta-model of Smalltalk. Providing an adaptive model enables not only developer, but also let end user build their own meta-models on the fly. Magritte allows one to easily instantiate views, editors, validators, parsers, object-factories, and mapping-tools on any meta-described object. The possibilites are endless. Describe once, get everywhere!"
+          }
+        ],
+        [
+          {
+            "text": "Lukas Renggli will give a short overview to make sure that the discussions in the following panel will have enough context."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Lukas Renggli is an independent software engineering consultant. He has been using Smalltalk in industrial settings for more than 6 years. Lukas Renggli is a core developer of the Seaside web application framework. He is the author of several Smalltalk frameworks, such as the metamodeling tool Magritte and the award winning content management system Pier. Lukas Renggli is currently doing a PhD at the Software Composition Group, University of Bern, Switzerland."
+          }
+        ]
+      ]
+    },
+    "206-mccl-gemstone-dummies": {
+      "title": "Gemstone for Dummies",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "While GemStone/S can be thought of as \"just another Smalltalk,\" there are a number of features that are rooted in its multi-user capabilities that affect its use even in a single-user environment. This presentation is an introduction to GemStone/S from the viewpoint of the Smalltalk programmer, focusing on the differences from other Smalltalk implementations. We'll look at the sharing of a very large object space across multiple VMs and machines, and how this interacts with transactions and persistence. We'll look at class versioning and object migration features that let you change the structure of a class even if it has millions of long-lived instances. We'll also discuss security issues: Broad access control through logins, privileges, and namespaces, and fine-grained control of access to individual objects. We'll survey the major patterns for using this kind of system. We won't cover the underlying technology in any detail, as this will be the focus of the \"Share Everything\" talk later in the conference."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Martin has been joyfully using Smalltalk for more than twenty years. As a Software Architect with GemStone Systems, he leads a team that designs and implements a distributed object system that acts as a bridge between a Smalltalk client and a GemStone Smalltalk server. Other career highlights include developing embedded and robotic systems in FORTH and assembly language, data modeling and architecting a telecommunications order processing system, designing and prototyping embedded hardware, and touring with a high-tech juggling troupe. When he's not in front of a computer, he can often be found contra dancing or blowing glass."
+          }
+        ]
+      ]
+    },
+    "207-monc-starting-fresh-every-morning-rebuilding": {
+      "title": "Starting fresh every morning, rebuilding a development image every day",
+      "videoId": "I1P7RljWSK8",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Tuesday/13-Yann-D-Monclair.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Source code management, version management, and release management are issues which are taking a greater place in our development cycles than used to. The needs have increased, as well as the demand. Not managing your code branch properly can lead you to lose a lot of time in the delivery stages of your work cycle, as the application can not be built easily, when it should."
+          }
+        ],
+        [
+          {
+            "text": "Kapital tries to address such issues by rebuilding images every day. Every morning, the developers get the latest version of the development image. Using a fresh image every day allows us to gain time on merges, and enables us to cope with work coming into the repository from over 70 developers, split between various sites and timezones. I would like to share my experience in managing this process and working with it for the last 18 months. This is a good developer practice, and can save developers a lot of time by avoiding issues and dead ends other ways of handling source code and version build could lead to."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Yann has worked on JPMorgan's Kapital since February 2007. Yann is a young and enthusiastic Smalltalker. He studied Smalltalk in university, and has been involved in programs like the ESUG SummerTalk and the student volunteers at Smalltalk Solutions and ESUG. After graduating from his masters, Yann worked for a few months as a research assistant with Bernard Pottier, before joining the Kapital team at JPMorgan Glasgow. This is Yann's first talk in an international conference."
+          }
+        ]
+      ]
+    },
+    "208-verw-application-smalltalk-based-simulation-tool": {
+      "title": "Application of a Smalltalk-based simulation tool",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Tuesday/14-ApplicationOfASmalltalkBasedSimulationTool.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "From their origin almost half a century ago, object-oriented programming languages have been applied for simulation of real-world systems. The first object-oriented language, Simula, was designed as a language for discrete event simulation. Simula is as good as dead now, but Smalltalk lives. Numerous examples of simulations in Smalltalk illustrate its suitability for simulation of discrete entities that interact with an environment."
+          }
+        ],
+        [
+          {
+            "text": "In the talk we will give some examples of object-oriented simulations and in particular some successful Smalltalk applications. A special branch of simulation is multi-agent simulation. Agents are software entities that can act autonomously, are goal-driven, responsive to their environment, and social, i.e. they are aware of the existence of other agents, can share information, and adjust their behavior in response to observation and information of other agents. The natural application area of multi-agent simulation is the simulation of social processes. It can be used for two purposes. The first is to support group decision making in interaction with stakeholders, to show the effect of decisions on the behavior of social systems. The second application area are the social sciences by themselves, where multi-agent simulation models can be used to enhance our understanding of social processes. In the talk we will present our experience with CORMAS, a Smalltalk-based system for multi-agent simulation that has been around for ages, but, as we will show, is still a strong tool for rapid development. The subject of our simulation is: the effect that cultural differences have on trade in international supply chains. We will present how Smalltalk has helped us to rapidly create a model and discuss some advantages & disadvantages of Smalltalk for agent modeling."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Tim and John work for LEI Wageningen UR, a social sciences institute working in the fields of agriculture, rural areas, and food. Both have been involved in Smalltalk systems development for 10 years. Tim was a Simula programmer until 1978. He was very pleased when after 20 years of suffering, a new opportunity for real object orientation emerged in his current job. John has been working on the Smalltalk project at LEI from the beginning. He works with VisualWorks and is the GemStone expert of the team."
+          }
+        ]
+      ]
+    },
+    "301-mira-cog-back-future-part-2": {
+      "title": "Cog Back to the Future part 2",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Wednesday/cog-Miranda-ESUG2008KeynoteSpeaker.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "http://www.mirandabanda.org/cogblog/",
+            "url": "http://www.mirandabanda.org/cogblog/"
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "I’m a loooong-time Smalltalk VM implementor having done my first VM in 1983. I was lucky enough to work on Peter Deutsch’s HPS VM for VisualWorks throughout the 90’s and early 2000’s and essentially double its speed (mostly by adding polymorphic inline caches and rearchitecting its mapping of contexts to stacks). I was technical lead for VisualWorks from vw 3.0 through vw 7.4.1, leaving at the and of 2006. I spent an all too brief but delightful time at Cadence in Gilad Bracha’s Newspeak team. I’m now at Qwaq where I’m free to implement another fast VM for Croquet, a 3d immersive collaboration architecture built above Squeak Smalltalk, but this time (unlike VisualWorks) the VM is open source."
+          }
+        ]
+      ]
+    },
+    "302-corr-smalltalk-newbies-tutorial": {
+      "title": "Smalltalk Newbies Tutorial",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "If you hesitate to jump into Smalltalk or are starting, attend this tutorial by a professional programmer and Smalltalk teacher."
+          }
+        ]
+      ]
+    },
+    "303-heeg-house-bach": {
+      "title": "The house of Bach",
+      "videoId": "a4ukP02Dh0Y",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Wednesday/Bach_Georg_Heeg.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Johann Sebastian Bach lived in Köthen from 1717 to 1723. He worked for Prince Leopold of Anhalt-Köthen and composed well-known music. But where did he live? This question has been open for 130+ years. The EU, the state of Anhalt-Saxony, Köthen County, and the City of Köthen sponsored a project to find out. Georg Heeg eK won the bidding and started the digging. After almost two years using VisualWorks, COM-Connect, GemStone/S and Seaside all known data (both text and tax figures) could be viewed in a semantic network. Bibliometry was used to evaluate statements of historians. Finally a process of elimination showed: Bach lived in Schalaunische Str. 44 until he moved to Wallstr. 25/26 in 1719. He always had the same landlord Johann Andreas Lautsch. In early phase existing software packages were evaluated, before agile software development process inside the agile research project was started to get insight in the history of Köthen."
+          }
+        ]
+      ]
+    },
+    "304-ferr-automatic-strategies-decision-support-telephone": {
+      "title": "Automatic strategies for decision support in telephone triage",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Automatic strategies for decision support in telephone triage by Carlos E. Ferro"
+          }
+        ],
+        [
+          {
+            "text": "The present work started as a research on improvements for an existing Smalltalk application. This application, called ExpertCare, is a decision support tool for telephone triage and ambulance dispatch. ExpertCare analyzes symptoms reported by patients and suggests questions pointing to new symptoms, in order to make a presumptive diagnosis and assess if the call requires an ambulance and/or urgent attention. Besides this primary decision, the system can suggest a special type of ambulance, medical speciality and maximum arrival time. The application has a knowledge base of syndromes defined in terms of symptoms and a system of rules to determine which questions should be asked. But construction and maintenance of such a system of rules is complex and costly, requiring intensive domain expert collaboration; therefore, we aim at developing an automatic strategy which can operate upon the knowledge base and decide which questions are best asked in order to achieve the presumptive diagnosis. Having such an automatic strategy would allow us to get rid of explicit and static rules in favor of an instrument more dynamic and easier to test with full coverage. For that purpose, we needed to build a \"virtual laboratory\" where we can simulate patient calls and diagnostic sessions in trial runs to check automated diagnosis. In this environment we developed and tested several strategies. We summarize the design of our framework, implementation details of several automatic strategies, and the results of running them in the testbed."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Carlos E. Ferro has worked as Senior Developer since 2005 in Caesar Systems, a leading company in the field of business simulation. He works there under Leandro Caniglia's leadership. Previously, he was Smalltalk developer in InfOil (information services for petroleoum companies) and Superintendencia de Seguros de la Nación (national insurance oversight board). He was teaching assistant for 8 years at the University of Buenos Aires in several courses of computer sciences -mainly Object Oriented Programming with Professor Máximo Prieto. From 1991 to 2000 he worked on his own as application developer for several small and medium-sized companies. He is currently preparing his graduation thesis in Computer Sciences. Evangelist for Cincom Smalltalk. He’ve given talks at a number of industry conferences, including Smalltalk Solutions, Ot/SPA, LinuxWorld/NetworkWorld, ESUG, and XP/Agile conferences. I'm also the author of the Cincom Smalltalk Blog – “Smalltalk Tidbits, Industry Rants”, and the leader of the \"Industry Misinterpretations\" weekly podcast. I'm also the author of a few open source tools, such as the RSS/Atom news aggregator BottomFeeder, and of the Silt Blog server."
+          }
+        ]
+      ]
+    },
+    "305-girb-pier-hands": {
+      "title": "Pier Hands-on",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Wednesday/hands-on-pier.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Pier is a cool content management system: it lets you build and manage a web 2.0 collaborative website completely through the web interface. In this hands-on session you will be guided in a step by step manner to:"
+          }
+        ],
+        [
+          {
+            "text": "- install it"
+          }
+        ],
+        [
+          {
+            "text": "- setup the page look an feel"
+          }
+        ],
+        [
+          {
+            "text": "- maintain the content"
+          }
+        ],
+        [
+          {
+            "text": "- manage users"
+          }
+        ],
+        [
+          {
+            "text": "- extend it with new components."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Tudor Girba attained his PhD in 2005 and since then he works as a senior researcher at the University of Bern and as a consultant. He is a passionate Smalltalker since 2002, and he is one of the main architects of the Moose analysis platform. More details about him can be found at: http://www.tudorgirba.com"
+          }
+        ]
+      ]
+    },
+    "306-mars-what-smalltalk-can-learn-from": {
+      "title": "What Smalltalk can Learn from Java",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Wednesday/Esug-Java.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Many Smalltalkers look upon Java as a lesser programming language. This and the sheer size of the Java world has led to a general disinterest in Java in the Smalltalk community except maybe as a target for flames. Yet over the years solutions for problems tat are independent of the the programming language have been implemented in Java and used in large scale systems."
+          }
+        ],
+        [
+          {
+            "text": "The goal of the talk is to raise awareness of a few interesting Java projects that have no equivalence in Smalltalk."
+          }
+        ]
+      ]
+    },
+    "307-vens-exploratory-modeling": {
+      "title": "Exploratory Modeling",
+      "videoId": "qlQx25QCRIk",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "I saw Exploratory Modelling presented at ESUG 2007. The presentation galvanised me. That was what I have been doing all the time when modelling! Even, sometimes, when I dared, using the Smalltalk environment, even if the models were to be implemented in Java or whatever. But, as will probably happen with others when listening to a presentation or talk: \"I would do it differently here, and here, and I would add this, and this...\". And other aspects, especially the experience I had built up in modelling, would fall into place as well. These ideas were only whirling around in my head, and it was not until a customer project presented itself that seemed ideally suited, that I was able to put them into practice. I was pleasantly surprised. Not only me: the customer was even more pleasantly surprised, in effect they were completely baffled. They had never experienced modelling sessions this effective, this fun, and this different. I must admit this was a customer ideally suited for this approach because they had a very complex problem domain on which they themselves had only tacit knowledge. And indeed, I venture to say, there are some aspects in the approach I am going to present, that are very different from what many if not most of you would expect, even as Smalltalkers. In the short amount of time I will just do the job: modelling an aspect of a business domain. But my goal will be to give you as many brain-teasers I can that will trigger in you the experience our customer had in the project, and that will help you in modelling more effectively, no: much more effectively, with the customer pleasure bonus thrown in. The approach will enable you to use Smalltalk even in projects that are not building Smalltalk applications, which is good I guess, by showing you how to integrate this into Eclipse or VisualStudio environments."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Rob Vens has been a Smalltalker since 1988, and a board member of ESUG from 1997 to 2007. A relative late-comer in computer science (Rob got his CS degree in 1990 at an age of 36), Rob has explored many areas of science and life before computers got him hooked. Currently Rob is principal consultant for Sogyo, a small but very energetic company with the guts to explore new ideas and approaches, merging the very best ideas from various programming paradigms to get results, and attracting the talents to do that."
+          }
+        ]
+      ]
+    },
+    "308-casa-gtk-squeak": {
+      "title": "GTK for Squeak",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Wednesday/SqueakGTK.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "SqueakGtk is an attempt to port Gtk+ GUI in Squeak Smalltalk. And to add a support for the WebKit an open source web browser engine. In this presentation I'll try to show the Gtk support, the MVC framework and the basic toolset (inspector, reflective management of widget, efficient class browser, transcript, ...)"
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Gwenael Casaccio is a student in computer sciences at the UMH in Belgium."
+          }
+        ]
+      ]
+    },
+    "401-robe-web-velocity-seaside-environment-cincom": {
+      "title": "Web Velocity - Seaside Environment for Cincom Smalltalk",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Monday/2-CINCOM-ESUG2008.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "WebVelocity is a new Smalltalk Development Environment that is oriented around Seaside for Web Development and Glorp for Object/Relational Mapping. Come and see how WebVelocity re-targets the Smalltalk development experience into the James has 20 years of experience in the software development industry, as a line developer, a consultant, a pre/post sales engineer, and most recently, as the Product Evangelist for Cincom Smalltalk. He’ve given talks at a number of industry conferences, including Smalltalk Solutions, Ot/SPA, LinuxWorld/NetworkWorld, ESUG, and XP/Agile conferences. I'm also the author of the Cincom Smalltalk Blog – “Smalltalk Tidbits, Industry Rants”, and the leader of the \"Industry Misinterpretations\" weekly podcast. I'm also the author of a few open source tools, such as the RSS/Atom news aggregator BottomFeeder, and of the Silt Blog server."
+          }
+        ],
+        [
+          {
+            "text": "Web Browser and simplifies the challenge of learning a new environment for newcomers. We'll even build an entire application using Active Record and Scaffolding during the presentation with minimal programming. If you're a fan of Ruby on Rails, you must come and see this presentation."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "James has 20 years of experience in the software development industry, as a line developer, a consultant, a pre/post sales engineer, and most recently, as the Product Evangelist for Cincom Smalltalk. He’ve given talks at a number of industry conferences, including Smalltalk Solutions, Ot/SPA, LinuxWorld/NetworkWorld, ESUG, and XP/Agile conferences. I'm also the author of the Cincom Smalltalk Blog – “Smalltalk Tidbits, Industry Rants”, and the leader of the \"Industry Misinterpretations\" weekly podcast. I'm also the author of a few open source tools, such as the RSS/Atom news aggregator BottomFeeder, and of the Silt Blog server."
+          }
+        ]
+      ]
+    },
+    "402-fitz-seaside": {
+      "title": "Seaside",
+      "videoId": "uhFj4gcvJiU",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Thursday/Seaside-esug2008.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This talk will present the history of Seaside and the vision for the future evolution of Seaside."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Julian Fitzell is the co-inventor with Avi Bryant of Seaside"
+          }
+        ]
+      ]
+    },
+    "403-henr-glass-share-everything": {
+      "title": "Glass: share Everything",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Thursday/ESUG2008_ShareEverything_4.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Seaside has been characterized as a \"heretical\" framework because it breaks many of the widely-accepted \"best practices\" for web applications, including \"share as little state as possible.\" With GLASS (GemStone/S, Linux, Apache, Seaside, Smalltalk) GemStone takes this heresy to the next level where \"everything is shared\" - transparently and persistently.GemStone/S is a Smalltalk-based object server that provides a platform for developing, deploying and managing scalable, persistent, high-performance, distributed applications. GemStone customers have distributed systems running on 100's of CPUs, high-performance systems where transaction rates exceed thousands of transactions per second, and large systems running with thousands of concurrent users."
+          }
+        ],
+        [
+          {
+            "text": "In this talk, you'll learn how GLASS makes it possible for you to \"share everything\" in your Seaside application without having to \"learn everything\" about GemStone/S. In particular you will learn about the extensions that were made to the Seaside framework to make \"transparent persistence\" possible. You will also learn how to take advantage of these extensions to add \"transparent persistence\" to your own Seaside application."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Dale has been working with computers since 1975. Smalltalk discovered him while he was at Tektronix in the 1980s and he hasn't looked back. He is currently a Principal Engineer at GemStone Systems, Inc., where he is the primary engineer working on Seaside. His blog, http://gemstonesoup.wordpress.com is about using Seaside and GemStone/S."
+          }
+        ]
+      ]
+    },
+    "404-fost-glass-hands": {
+      "title": "Glass hands-on",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Thursday/GLASS-Tutorial.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "This hands-on tutorial will present Seaside and walk through the process of building an application using GLASS (GemStone, Linux, Apache, Seaside, and Smalltalk). Topics covered include handling user logins, where to put session data vs. application data, building reusable components, styling a web site with CSS, and an introduction to Javascript. In a few hours you will build a web site for a children's soccer team that tracks games, players, and other information. (Because we are using an object database, we will not cover object/relational mapping!) You may bring your own computer or team up with someone else who brought one. Participants with a 64-bit machine may wish to pre-install VMware Server (free for Linux or Windows) or VMware Fusion (for Macintosh) so they can use a ready-to-run appliance. Otherwise, a server will be available that can be accessed with a Squeak-based client. While familiarity with Smalltalk is a prerequisite, no prior Seaside or GemStone/S"
+          }
+        ]
+      ]
+    },
+    "405-reng-extending-seaside": {
+      "title": "Extending Seaside",
+      "videoId": "FXkD3ZtvPUo",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Thursday/ESUG_2008_-_Seaside_Evolution.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The Seaside web application framework is taken by storm. All major Smalltalk dialects have working ports of Seaside, contributing their particular strength to the mix. While Seaside itself tires to be dialect agnostic, vendors themselves are pushing in many different directions that are potentially incompatible. How does Seaside manage the compatibility among all these dialects? How does our dream Smalltalk vendor look like? How do we package the code in Seaside 2.9? And, most important, how does the future of Seaside look like?"
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Lukas Renggli is an independent software engineering consultant. He has been using Smalltalk in industrial settings for more than 6 years. Lukas Renggli is a core developer of the Seaside web application framework. He is the author of several Smalltalk frameworks, such as the metamodeling tool Magritte and the award winning content management system Pier. Lukas Renggli is currently doing a PhD at the Software Composition Group, University of Bern, Switzerland."
+          }
+        ],
+        [
+          {
+            "text": "Video on "
+          },
+          {
+            "text": "Youtube",
+            "url": "http://www.youtube.com/watch?v=FXkD3ZtvPUo"
+          }
+        ]
+      ]
+    },
+    "406-mars-widestrings-utf-8": {
+      "title": "WideStrings and utf-8",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Thursday/Esug-Unicode.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "What's the connection between WideStrings and utf-8 anyway? by Philippe Marshall"
+          }
+        ],
+        [
+          {
+            "text": "Character sets, encodings and WideStrings are areas with spotty knowledge to many Smalltalk developers. As a result getting \"foreign\" characters to work correctly in Seaside applications often turns into a trial and error exercise."
+          }
+        ],
+        [
+          {
+            "text": "This talk will first introduce will first introduce character sets, encodings and how they are supported in Squeak. Then it will show how Seaside handles these concepts, what Seaside expects from users and what users can expect from Seaside. The talk will be Squeak specific but the concepts can easily be applied to any dialect of Smalltalk."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Philippe Marschall works as a software engineer for Netcetera. He holds a masters degree in computer science (Univ. Bern). Philippe is a core developer of the Seaside web framework."
+          }
+        ]
+      ]
+    },
+    "407-gaze-webterminal-less-code-more-ria": {
+      "title": "WebTerminal: less code more RIA",
+      "videoId": "2ZAMFY06htM",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Thursday/web_terminal.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "WebTerminal is a webapplication framework that separates the presentation logic from the presentation technology, e.g. Flex, HTML/Javascript or VisualWorks. The server manages a virtual user-interface of the application, and the client synchronizes the 'real' display with the interface on the server. In the presentation we'll explore how WebTerminal uses proven ideas to deliver on its promise: less code more RIA (Rich Internet Applications)."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Wouter and Dick are software developer at Cosmocows. Wouter co-founded Cosmocows in 2000."
+          }
+        ]
+      ]
+    },
+    "408-mivs-aida-web-6-0-this": {
+      "title": "Aida/Web 6.0: This Is How the Web Works!",
+      "videoId": "I4dwnd6Oq2Q",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Thursday/mivsek-aida60-esug08.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Alan Kay once said: \"Every object should have an Url\". Aida already implemented that one year earlier. Playing by the web rules and philosophy, by exploring the web potential as deeply as possible Aida since then achieved a lot: preserving simplicity while dealing with even more complex web applications, integrating new techniques like Ajax, growing developer's community, portability to several Smalltalk dialects including Gemstone and new projects like Aida/Scribo, a CMS framework with ready plugins like blog, wiki, website. Presentation will show the current state of affairs in Aida world and our plans for the future."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Janko Mivšek, a Smalltalker since 1995, founder of Eranova, author of AIDA/Web web framework, maintainer of Swazoo web server and passionate contributor to Smalltalk community is currently using Smalltalk for developing complex business web based systems for management of business processes in many industries, from gas, logistics to pharmaceutical."
+          }
+        ],
+        [
+          {
+            "text": "Video on "
+          },
+          {
+            "text": "Youtube",
+            "url": "http://www.youtube.com/watch?v=I4dwnd6Oq2Q"
+          }
+        ]
+      ]
+    },
+    "409-will-maglev": {
+      "title": "MagLev"
+    },
+    "501-okee-va-smalltalk-v8-preview": {
+      "title": "VA Smalltalk V8 Preview",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "The Instantiations VA Smalltalk product continues to evolve. This talk will focus on the new capabilities that will be included in V8.0 as well as our product directions beyond that release. You will see Seaside 2.8.1 (or maybe 2.9), enhanced browsers, new document delivery system, and more."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "I have been in software development for over 40 years, with the first 25 years spent developing in everything from assembly language to PL/I and SNOBOL. I joined the original IBM Smalltalk prototype team in 1990 and was a founding member of the IBM VisualAge Smalltalk development team. I was Team Lead and Chief Architect of IBM VisualAge Smalltalk from 1997 to 2007. In Feburary 2007, I joined Instantiations to lead the VA Smalltalk development team. I am currently focusing on porting Seaside to VA Smalltalk."
+          }
+        ]
+      ]
+    },
+    "502-brey-moribund-smalltalk-still-alive-kicking": {
+      "title": "A Moribund Smalltalk still alive and kicking: The APIS VisualSmalltalk IDE",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Friday/APIS_ESUG.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "After we briefly described the history of Visual Smalltalk (VS), we show how some proprietary rather complex derivates of VS emerged over the years. Despite the fact that the last official major release was in 1995, there are still successful products actively developed with VS. We show in detail the current status of VS at the APIS company, focussing on usability improvements of the IDE as well as on the proprietary Java Interface, which was developed independently from JNIPort and JavaConnect, featuring a high level of automation and integration (fully automated import of jar-files, browse and compile Java in VS). We show that even a smaller company can succeed in keeping a 13 year old Smalltalk IDE up-to-date."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Thomas was born 29.01.1969, 1997 M.A. in Information Science, University of Regensburg, Germany, 1997 started a mini business (software development & consulting, hardware), 1997 - 2004 half-time employment at University of Regensburg, (teaching OOP with Smalltalk and software ergonomics), 2002 - 2005 cofounded company \"Speech Experts GmbH\" and developer, a Smalltalk based Speech Processing framework presented at ESUG 2004, left company in 2005. 2006 joined APIS IT GmbH, responsible for development of the Smalltalk IDE."
+          }
+        ]
+      ]
+    },
+    "503-wett-codecity": {
+      "title": "CodeCity",
+      "presentationUrl": "https://archive.esug.org/ESUG2008/Friday/codecity-esug2008.pdf",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Analyzing large-scale software systems is a costly process in the absence of dedicated tools. Using visualization techniques, humans are able to quickly assess large amounts of information and detect patterns. In this talk we present CodeCity, a 3D visualization tool revolving around a city metaphor, for building interactive visualizations of large object-oriented software systems. We extended our approach to allow the visual exploration of evolving software systems and the localization of design problems."
+          }
+        ],
+        [
+          {
+            "text": "CodeCity features a domain-specific scripting language, allowing the users to define custom visualizations. Written in VisualWorks Smalltalk, CodeCity is capable of visualizing software systems written in Java, Smalltalk, and C++."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Richard Wettel is a PhD student at the Faculty of Informatics, University of Lugano. He obtained his MSc degree in 2004 at the Polytechnic University of Timisoara, Romania. His research interests include software visualization, software reengineering, reverse engineering, and software evolution. He is the developer of CodeCity, a 3D visualization tool to support the comprehension of large software systems."
+          }
+        ]
+      ]
+    },
+    "504-laga-madeo": {
+      "title": "Madeo",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "Madeo: High-Level Tools and Object Methodology for Reconfigurable Architectures by Loic Lagadec"
+          }
+        ],
+        [
+          {
+            "text": "Madeo is an open framework taking advantage of the Smalltalk concepts to specify and implement applications as circuits on reconfigurable architectures. Madeo is divided in three main layers: application specification, reconfigurable target modelling, back-end tools. Applications appear as Smalltalk methods with high-level custom types (Intervals, Galois Fields, etc), used to generate circuits as graphs of logic gates (RTL netlists). The Madeo framework defines a design-space exploration-capable meta-model for reconfigurable architecture modelling, that is instantiated using a DSL hardware description language. The back-end tools implement applications through flooplanning, tiling and placing/routing the RTL netlist, using the meta-model API. Madeo has been being developed for more than ten years and has demonstrated to be a perennial framework that exhibits innovative features, high reuse and short development time, as well as high abstraction and great extensibility. Madeo also served as an educational material for CS master students. This talk will summarize the Madeo evolutions over the last decades that have made Madeo a success. A special emphasis will be set on reuse, minimal kernel oriented refactoring and methodology changes under cross project and multi-developers coherence constraints. Some technical key points are meta-model extension (for nanoscale emerging technologies), model-aware back-end tools substitution on demand vs. generic tools reuse, and tool chain integration."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Loic Lagadec earned his Ph.D. degree in Computer Science from the Université de Rennes 1 (France), in 2000. In February 2002, he joined the faculty of the Université de Bretagne Occidentale as a \"Maitre de Conférences\". His research interests include applying object oriented development techniques for the development of novel CAD tools targeting reconfigurable architectures and, recently, emerging nanotechnologies. He is the main contributor to the Madeo framework and has been involved in several projects including national and European projects. His teaching activities are centred on Smalltalk courses and software engineering including XP practices. He will be in charge of the physical tools for reconfigurable architectures course in the new embedded systems master opening next year at the Université de Bretagne Occidentale. media.Madeo has been (re)used in one RNTL (Réseau National des Technologies Logicielles) project (OSGAR 2002-2005), one FP6 project (Morpheus 2005-2008), one PRIR (Région Bretagne) project (ValMadeo) and is currently under redesign to address nano-architectures."
+          }
+        ]
+      ]
+    },
+    "505-verl-objectstudio-8s-modelingtool": {
+      "title": "ObjectStudio 8’s ModelingTool",
+      "abstractParagraphs": [
+        [
+          {
+            "text": "We’ll have short historical overview of the Modeling Tool in Enfin and ObjectStudio. Then there will be a demo of the tool. After the demo we will talk about planned features."
+          }
+        ]
+      ],
+      "bioParagraphs": [
+        [
+          {
+            "text": "Dirk Verleysen is Senior Software Engineer at Cincom. After more than 15 years of Smalltalk experience using ObjectStudio, VisualWorks, VisualAge and Smalltalk/V he joined the Cincom ObjectStudio team where his main task is the development of Modeling Tool."
+          }
+        ]
+      ]
+    }
+  },
+  "awards": {
+    "winners": [
+      {
+        "place": 1,
+        "medal": "gold",
+        "medalImage": "/images/awards/award-gold.png",
+        "title": "Dr Geo II",
+        "submitter": "Hilaire Fernandes, OFSET - CRDP Aquitaine, France",
+        "keywords": "mathematics, geometry, teaching, micro-world, constructivism, education, K12",
+        "links": [
+          {
+            "label": "Website",
+            "url": "http://www.drgeo.eu"
+          }
+        ]
+      },
+      {
+        "place": 2,
+        "medal": "silver",
+        "medalImage": "/images/awards/award-silver.png",
+        "title": "SeaBreeze",
+        "submitter": "Georg Heeg eK, Georg Heeg eK, Germany",
+        "keywords": "Graphical editor ; Web 2.0 ; Seaside",
+        "links": [
+          {
+            "label": "Website",
+            "url": "http://seabreeze.heeg.de"
+          }
+        ]
+      },
+      {
+        "place": 3,
+        "medal": "bronze",
+        "medalImage": "/images/awards/award-bronze.png",
+        "title": "iSqueak: Squeak for (i)Touch Devices",
+        "submitter": "John McIntosh, Grit Schuster, Michael Rueger",
+        "keywords": "touch devices, multi-touch",
+        "links": []
+      }
+    ],
+    "nominees": [
+      {
+        "title": "Glare UI framework",
+        "submitter": "Philipp Bunge, Tudor Gîrba, Lukas Renggli, University of Bern, Switzerland",
+        "keywords": "Adobe Flex, User interface, Thin client, Browsers",
+        "links": []
+      },
+      {
+        "title": "CodeCity",
+        "submitter": "Richard Wettel and Michele Lanza, REVEAL, University of Lugano, Switzerland",
+        "keywords": "3D Software Visualization, Reverse-Engineering",
+        "links": []
+      },
+      {
+        "title": "VASERControl",
+        "submitter": "Helga Obele, Thomas Stalzer, OBJECT dynamics Software GmbH, Germany",
+        "keywords": "Home Automation, EIB, KNX, Konnex, serve@home, miele@home",
+        "links": []
+      },
+      {
+        "title": "Hermion",
+        "submitter": "David Roethlisberger, Orla Greevy, and Oscar Nierstrasz, Software Composition Group, University of Bern, Switzerland",
+        "keywords": "development environment, dynamic analysis, feature analysis",
+        "links": []
+      },
+      {
+        "title": "StakePoint",
+        "submitter": "Maarten Mostert, France",
+        "keywords": "Planning ; Project management ; Glorp ; Cairo.",
+        "links": [
+          {
+            "label": "Website",
+            "url": "http://www.stakepoint.com"
+          }
+        ]
+      },
+      {
+        "title": "Safarà",
+        "submitter": "Luigi Panzeri, Lukas Renggli",
+        "keywords": "Software Development Tools, Text Editor, Domain Speciﬁc Languages.",
+        "links": [
+          {
+            "label": "Website",
+            "url": "http://www.squeaksource.com/Safara.html"
+          }
+        ]
+      },
+      {
+        "title": "ExpertCare",
+        "submitter": "Dan Rozenfarb, Ilón S.A. Argentina",
+        "keywords": "Triage, Expert System, Healthcare",
+        "links": []
+      },
+      {
+        "title": "ClavesPC and TaskTracker",
+        "submitter": "",
+        "keywords": "",
+        "links": []
+      },
+      {
+        "title": "SummerTime & QueryVision",
+        "submitter": "",
+        "keywords": "",
+        "links": []
+      }
+    ]
+  }
+}
