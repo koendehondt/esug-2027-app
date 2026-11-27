@@ -2,6 +2,32 @@ import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
 import { archiveYears } from '../data/archive';
 
+// Conferences from 2005 onward have a logo. Those with an archive in this
+// app (app/data/archive/index.js) link to it; the others are plain images
+// until their archive is added (see DECISIONS.md). 2004 and older are the
+// year tiles further down.
+const OLDER_LOGO_YEARS = [
+  { year: 2014, city: 'Cambridge', country: 'England' },
+  { year: 2013, city: 'Annecy', country: 'France' },
+  { year: 2012, city: 'Gent', country: 'Belgium' },
+  { year: 2011, city: 'Edinburgh', country: 'UK' },
+  { year: 2010, city: 'Barcelona', country: 'Spain' },
+  { year: 2009, city: 'Brest', country: 'France' },
+  { year: 2008, city: 'Amsterdam', country: 'The Netherlands' },
+  { year: 2007, city: 'Lugano', country: 'Switzerland' },
+  { year: 2006, city: 'Prague', country: 'Czech Republic' },
+  { year: 2005, city: 'Brussels', country: 'Belgium' },
+];
+
+const logoTiles = [
+  ...archiveYears.map((entry) => ({ ...entry, archived: true })),
+  ...OLDER_LOGO_YEARS.filter(({ year }) => !archiveYears.some((entry) => entry.year === year)).map((entry) => ({
+    ...entry,
+    logoImage: `/images/conference-logos/esug-${entry.year}.png`,
+    archived: false,
+  })),
+].sort((a, b) => b.year - a.year);
+
 <template>
   {{pageTitle "Past Conferences"}}
 
@@ -33,111 +59,33 @@ import { archiveYears } from '../data/archive';
     <p>
       The slides of the presentations at past ESUG conferences are available in the
       <a href="https://archive.esug.org" class="talk-link" target="_blank" rel="noopener noreferrer">ESUG Archive</a>.
-      Conferences from 2015 onward that have an archive in this app are linked below.
+      Conferences that have an archive in this app are linked below.
     </p>
 
     <div class="conference-logo-grid">
-      {{#each archiveYears as |entry|}}
-        <LinkTo @route="archive" @model={{entry.year}} class="conference-logo-tile">
-          <span class="conference-tile-frame">
-            <img
-              src={{entry.logoImage}}
-              alt="ESUG {{entry.year}}, {{entry.city}}, {{entry.country}}"
-              class="conference-logo-image"
-            />
-          </span>
-        </LinkTo>
+      {{#each logoTiles as |entry|}}
+        {{#if entry.archived}}
+          <LinkTo @route="archive" @model={{entry.year}} class="conference-logo-tile">
+            <span class="conference-tile-frame">
+              <img
+                src={{entry.logoImage}}
+                alt="ESUG {{entry.year}}, {{entry.city}}, {{entry.country}}"
+                class="conference-logo-image"
+              />
+            </span>
+          </LinkTo>
+        {{else}}
+          <div class="conference-logo-tile">
+            <span class="conference-tile-frame">
+              <img
+                src={{entry.logoImage}}
+                alt="ESUG {{entry.year}}, {{entry.city}}, {{entry.country}}"
+                class="conference-logo-image"
+              />
+            </span>
+          </div>
+        {{/if}}
       {{/each}}
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2014.png"
-            alt="ESUG 2014, Cambridge, England"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2013.png"
-            alt="ESUG 2013, Annecy, France"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2012.png"
-            alt="ESUG 2012, Gent, Belgium"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2011.png"
-            alt="ESUG 2011, Edinburgh, UK"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2010.png"
-            alt="ESUG 2010, Barcelona, Spain"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2009.png"
-            alt="ESUG 2009, Brest, France"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2008.png"
-            alt="ESUG 2008, Amsterdam, The Netherlands"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2007.png"
-            alt="ESUG 2007, Lugano, Switzerland"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2006.png"
-            alt="ESUG 2006, Prague, Czech Republic"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
-      <div class="conference-logo-tile">
-        <span class="conference-tile-frame">
-          <img
-            src="/images/conference-logos/esug-2005.png"
-            alt="ESUG 2005, Brussels, Belgium"
-            class="conference-logo-image"
-          />
-        </span>
-      </div>
       <div class="conference-year-tile">
         <span class="conference-tile-frame">
           <span class="conference-year-tile-year">2004</span>

@@ -630,3 +630,53 @@ Each paragraph is an array of "runs" -- plain text segments, matching
 the shape used by the other talks-YYYY.js files (no inline links were
 carried over from the source calendar text for this year).
 ```
+
+## 2011
+
+Built from the esug.org Pier export (`esug-pier-export-withFiles`, extracted from `esug.image`), not from a
+`program-YYYY.js` / `talks-YYYY.js` pair. The builder script and its inputs are not part of the app.
+
+### Program
+
+The final printed schedule, `2011Schedule11.pdf` (the Pier file `/Conferences/2011/PDF-Schedule`), gives each
+session's day, time and room. Odd start times (09:37, 14:07, 14:37, 16:22, ...) come from the iCal file
+https://archive.esug.org/ESUG2011/Program/ESUG2011.ics where its slots match the PDF. The iCal file is an earlier
+draft (created 30 July 2011): several Wednesday to Friday talks are in different slots there than in the PDF, and
+the PDF matches the wiki's own talk list (`/Conferences/2011/Schedule-And-Talks`), so the PDF wins.
+
+Rooms A and B ran in parallel for most afternoons. As in 2015 and 2018-2019, parallel sessions are listed one after
+the other with "(Track A)" / "(Track B)" after the subject. Igor Stasenko's "Compiling your own VM" hands-on ran in
+room A all Monday afternoon, in two parts. Camp Smalltalk (Sat 20 and Sun 21 August) is left out, as in other years.
+
+Speaker names follow the schedule, with full names from the talk pages. RedLine Smalltalk was submitted by Sean
+Allen, who could not attend; James Ladd gave the talk.
+
+### Talks
+
+Abstracts and bios come from the talk pages under `/Conferences/2011/Schedule-And-Talks/`, converted from Pier wiki
+markup to runs. Internal wiki links become plain text, and links that no longer resolve (checked 2026-11-27) become
+plain text too. The Welcome and "Things I Wish I Knew About GemStone" have no page; their slide and video links come
+from the Schedule-And-Talks page itself.
+
+`presentationUrl` points at https://archive.esug.org/ESUG2011/Slides/ (the old `esug.org/data/ESUG2011/` links,
+rewritten). Two wiki links were wrong: "MarkAndCompact" (Wednesday) and "Now that I have a GC in Smalltalk" (Friday)
+both pointed at Friday's or a nonexistent file, so each uses the PDF in its own day folder. The VA Smalltalk Update and
+WebTools PDFs are in the archive but were never linked from the wiki. The archive's `MISSING.txt` confirms which talks
+have no slides. Simulated Annealing's slides are only a zip file, so they are not linked.
+
+`videoId` is the talk's YouTube video. For talks recorded in two or three parts, it is part 1.
+
+### IWST 2011
+
+`iwstProgram` follows the workshop's own program (https://archive.esug.org/ESUG2011/IWST/Program_V1.pdf, marked
+preliminary), with authors from the table of contents of the proceedings
+(https://archive.esug.org/ESUG2011/IWST/Proceedings.pdf). Times are worked out from the program's slot lengths. Each
+talk links to its slides in https://archive.esug.org/ESUG2011/IWST/PRESENTATIONS/ where one exists. The main
+conference schedule does not list "Challenges to support automated random testing"; it is kept because it is in both
+the workshop program and the proceedings.
+
+### Awards
+
+Winners from `/Conferences/2011/InnovationTechnologyAwards`, nominees from its `Submissions` page in submission order.
+A few free-form "Other Developers" fields were rewritten by hand into one line. Download and demo links that no longer
+resolve (checked 2026-11-27) are left out, which leaves most entries without links.

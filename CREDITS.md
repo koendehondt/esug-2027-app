@@ -31,6 +31,7 @@ doesn't need network access to display them). Original sources:
 | ESUG 2017 Archive       | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2016 Archive       | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2015 Archive       | AI-generated (ChatGPT), provided by Koen                                   |
+| ESUG 2011 Archive       | Cropped from the ESUG 2011 poster (archive.esug.org/ESUG2011/Poster)       |
 | ESUG 2026 Program       | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2025 Program       | AI-generated (ChatGPT), provided by Koen                                   |
 | ESUG 2024 Program       | AI-generated (ChatGPT), provided by Koen                                   |

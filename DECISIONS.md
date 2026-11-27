@@ -3,6 +3,19 @@
 Decisions about what the app does and does not include, and why. Newest
 entries go at the top.
 
+## 2026-11-27: Archives of conferences before 2015 come from the esug.org Pier export
+
+**Context:** The old esug.org was a Pier wiki. An export of it (pages, wiki source, uploaded files and edit history,
+extracted from `esug.image`) has a page tree for every conference from 1993 to 2014, in a different format for almost
+every year.
+
+**Decision:** Archive pages for conferences before 2015 are built from that export, one year at a time, in the same
+`<year>.json` format as 2015 onward. ESUG 2011 (Edinburgh) is the first, as a pilot. Its logo on the Past Conferences
+page now links to its archive. The logos of the other years before 2015 stay plain images until their archives are in.
+
+**Reason:** The export is the most complete source for these years. Building one year first lets the format be
+checked before the other years are done.
+
 ## 2026-11-21: No general SlideShare link on conference pages
 
 **Context:** Each esug.org conference page links to the ESUG SlideShare account's presentations. SlideShare cannot

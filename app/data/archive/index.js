@@ -85,4 +85,11 @@ export const archiveYears = [
     heroImage: '/images/tiles/esug2015.jpg',
     logoImage: '/images/conference-logos/esug-2015.png',
   },
+  {
+    year: 2011,
+    city: 'Edinburgh',
+    country: 'UK',
+    heroImage: '/images/tiles/esug2011.jpg',
+    logoImage: '/images/conference-logos/esug-2011.png',
+  },
 ];
